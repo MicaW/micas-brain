@@ -2862,7 +2862,7 @@
        "tier": "D",
        "tierWord": "Practitioner framework",
        "bars": 2,
-       "tierStatus": "provisional",
+       "tierStatus": "rated",
        "body": {
         "situation": [
          {
@@ -2946,15 +2946,15 @@
           "type": "links",
           "items": [
            {
-            "label": "Mager and Pipe, Analyzing Performance Problems.",
-            "url": null,
-            "note": "Not checked yet."
+            "label": "Mager and Pipe (1997), Analyzing Performance Problems. Third edition.",
+            "url": "https://www.abebooks.com/Analyzing-Performance-Problems-Oughta-Wanna--How-Figure/32346769918/bd",
+            "note": "Book. Publisher's description read 17 November 2026."
            }
           ]
          }
         ]
        },
-       "bodyStatus": "Draft. No source checked yet.",
+       "bodyStatus": "1 source checked on 17 November 2026. The description was read on a bookseller record, not the publisher page.",
        "quiz": [
         {
          "q": "What question separates a skill problem from the rest?",
@@ -2979,7 +2979,8 @@
        "checkFindings": [
         "The page's central question matches how booksellers and reviewers describe Mager and Pipe's method: a flowchart that checks whether a problem is real, looks for causes such as unclear expectations or rewards for the wrong behaviour, and treats training as the answer only when people have never learned the skill or have lost it. No text changed.",
         "Tier D confirmed."
-       ]
+       ],
+       "tierReason": "A long-used diagnostic flowchart from practice. It has not been tested in controlled studies."
       },
       {
        "id": "s1-g03",
