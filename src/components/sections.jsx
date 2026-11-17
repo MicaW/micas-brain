@@ -24,7 +24,6 @@ export function FindingsCard() {
     <AccordionCard
       pill={findings.pill}
       heading={findings.heading}
-      link={{ label: findings.guideLink, to: '/evidence/how-we-rate' }}
       items={byStage(findings.items)}
       regionLabel="Evidence findings, scrollable list"
       renderBody={(item) => <FindingItem item={item} labels={findings.labels} />}
@@ -44,7 +43,7 @@ export function CaseGrid() {
   return (
     <div className="g">
       {cases.items.map((item) => (
-        <CaseCard key={item.slug} item={item} labels={cases.labels} status={item.status || cases.statusPill} />
+        <CaseCard key={item.slug} item={item} labels={cases.labels} />
       ))}
       {cases.candidatesToResearch.map(candidate).map((item) => (
         <div className="tile cs todo s4" key={item.name}>

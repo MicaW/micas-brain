@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Words from './Words.jsx';
 import { slugify, stagePath } from '../lib.js';
-import { Arrow, EvidenceRating, PlusMinus } from './ui.jsx';
+import { Arrow, PlusMinus, TrustMark } from './ui.jsx';
 
 /* A numbered topic row. On hover or focus it fills with the stage colour. */
 export function TopicRow({ stage, topic }) {
@@ -14,7 +14,6 @@ export function TopicRow({ stage, topic }) {
         <span className="sq"><Words>{topic.title}</Words></span>
         <span className="meta">{topic.theory}</span>
       </span>
-      {topic.tier && <EvidenceRating tier={topic.tier} />}
       <Arrow />
     </Link>
   );

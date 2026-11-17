@@ -114,24 +114,24 @@
  "about": {
   "made": [
    {
+    "h": "What it is",
+    "p": "A working handbook for people who design and run training. The Playbook teaches the craft in nine stages. The Toolkit holds methods, session recipes and templates."
+   },
+   {
     "h": "Where the content comes from",
-    "p": "A curriculum outline for trainers, a toolkit of training methods, learning mechanics and session recipes, and a report on AI skills and training. Gaps were filled by research."
+    "p": "A curriculum outline for trainers, a toolkit of training methods, and a report on AI skills and training. Gaps were filled by research and by practitioner craft, and each page says which it rests on."
    },
    {
-    "h": "How it was checked",
-    "p": "The source material was reviewed and fact-checked on 17 November 2026. Figures that held up are listed under Training today in numbers, each with its source. Claims that did not hold up were corrected or removed, including some in our own sources."
+    "h": "How sources were checked",
+    "p": "Each linked source was opened and the page corrected to match it. Papers were read in summary, not in full. Legal and regulatory pages were checked against official UK pages and are general information, not legal advice."
    },
    {
-    "h": "What is still draft",
-    "p": "Every topic carries an evidence rating. For all but one, sources were opened and read on 17 November 2026. Papers were read in summary, not in full, and some were read on a university or index copy because the publisher page would not open. Topic 4.12 rests on practitioner judgement alone and says so."
-   },
-   {
-    "h": "How evidence is shown",
-    "p": "Every practice carries a rating from A to E, shown as a letter, five bars and a word. Colour is never used for evidence: colour means the stage of the Playbook."
+    "h": "Examples",
+    "p": "Worked examples, scripts, timetables and figures are illustrations made for this site. They are not real organisations or real results."
    },
    {
     "h": "How it was built",
-    "p": "Planned, designed and built with an AI assistant, with a person signing off each step: the content review, the site plan, the design, then the build."
+    "p": "Planned, written, checked and built with an AI assistant, with a person deciding the structure, the design and what is in or out."
    }
   ],
   "log": [

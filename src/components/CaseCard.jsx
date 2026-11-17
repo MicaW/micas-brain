@@ -1,28 +1,64 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import { stageByN } from '../lib.js';
-import { Pill, StageTag } from './ui.jsx';
+import { PlusMinus, StageTag } from './ui.jsx';
 
-export default function CaseCard({ item, labels, status }) {
+/* Closed: who, what they are known for, and the one thing to borrow. Open: the rest. */
+export default function CaseCard({ item, labels }) {
+  const [open, setOpen] = useState(false);
+  const id = `case-${item.slug}`;
   return (
-    <Link className="tile dark cs s4" to={`/case-studies/${item.slug}`}>
-      <div className="cs-body">
-        <div className="cs-top">
+    <div className={open ? 'tile dark cs cs-x open' : 'tile dark cs cs-x s4'}>
+      <button className="cs-head" type="button" aria-expanded={open} aria-controls={open ? id : undefined} onClick={() => setOpen(!open)}>
+        <span className="cs-top">
           <StageTag n={item.stage} />
-          <Pill className="quiet">{status}</Pill>
-        </div>
-        <h3>{item.name}</h3>
-        <p className="cs-prog">{item.programme}</p>
-        <dl className="kv">
-          <dt>{labels.what}</dt>
-          <dd>{item.what}</dd>
-          <dt>{labels.why}</dt>
-          <dd>{item.why}</dd>
-        </dl>
-      </div>
+          <PlusMinus />
+        </span>
+        <span className="cs-name">{item.name}</span>
+        <span className="cs-prog">{item.programme}</span>
+      </button>
       <div className="cs-borrow" style={{ background: stageByN(item.stage).color }}>
         <span>{labels.borrow}</span>
         <strong>{item.borrow}</strong>
       </div>
-    </Link>
+      {open && (
+        <div className="cs-more" id={id}>
+          <div>
+            <h4>{labels.what}</h4>
+            <p>{item.what}</p>
+            <h4>{labels.why}</h4>
+            <p>{item.why}</p>
+            {(item.story || []).length > 0 && <h4>How it runs</h4>}
+            {(item.story || []).map((para) => (
+              <p key={para}>{para}</p>
+            ))}
+          </div>
+          <div>
+            {item.results && (
+              <>
+                <h4>The evidence</h4>
+                <p>{item.results}</p>
+              </>
+            )}
+            {item.limits && (
+              <>
+                <h4>Where it does not carry over</h4>
+                <p>{item.limits}</p>
+              </>
+            )}
+            {(item.sources || []).length > 0 && <h4>Sources</h4>}
+            <ul>
+              {(item.sources || []).map((source) => (
+                <li key={source.url}>
+                  <a className="txt" href={source.url} target="_blank" rel="noreferrer">
+                    {source.label}
+                    <span className="sr-only"> (opens in a new tab)</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }

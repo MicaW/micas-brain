@@ -90,6 +90,46 @@ function Block({ block }) {
           <p>{block.text}</p>
         </aside>
       );
+    case 'artefact':
+      return (
+        <figure className="b-artefact" aria-label={block.title}>
+          <figcaption>
+            <Pill>Worked example</Pill>
+            <span className="b-title">{block.title}</span>
+          </figcaption>
+          {block.table && (
+            <div className="b-scroll" tabIndex={0}>
+              <table>
+                <thead>
+                  <tr>
+                    {block.table.head.map((cell) => (
+                      <th key={cell} scope="col">
+                        {cell}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {block.table.rows.map((row, r) => (
+                    <tr key={r}>
+                      {row.map((cell, c) => (
+                        <td key={c}>{cell}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          {block.lines && (
+            <ul className="b-lines">
+              {block.lines.map((line) => (
+                <li key={line}>{line}</li>
+              ))}
+            </ul>
+          )}
+        </figure>
+      );
     case 'remember':
       return (
         <div className="b-cards" role="group" aria-label="Worth remembering">
@@ -101,29 +141,30 @@ function Block({ block }) {
           ))}
         </div>
       );
-    case 'mechanics':
+    case 'mechanics': {
+      const found = block.slugs.map((slug) => mechanics.find((m) => m.slug === slug)).filter(Boolean);
+      if (!found.length) return null;
       return (
-        <div className="b-cards two" role="group" aria-label="Learning mechanics behind this">
-          {block.slugs.map((slug) => mechanics.find((m) => m.slug === slug)).filter(Boolean).map((m) => (
-            <Link className="b-card link" key={m.slug} to={`/playbook/mechanics/${m.slug}`}>
-              <Pill>Learning mechanic</Pill>
-              <p className="b-title">{m.name}</p>
-              <p>{m.description.split('. ')[0].replace(/\.+$/, '')}.</p>
-              <Arrow size={24} />
-            </Link>
+        <p className="b-mech">
+          <span>Learning mechanics behind this: </span>
+          {found.map((m, i) => (
+            <span key={m.slug}>
+              {i > 0 && ', '}
+              <Link className="txt" to={`/playbook/mechanics/${m.slug}`}>
+                {m.name.toLowerCase()}
+              </Link>
+            </span>
           ))}
-        </div>
+        </p>
       );
+    }
     case 'links':
       return (
         <ul className="plain-list b-sources">
           {block.items.map((item) => (
             <li key={item.label}>
               <span className="b-source">{item.label}</span>
-              <span className="b-check">
-                {item.note}
-                {item.url && <> <External url={item.url}>Open the source</External></>}
-              </span>
+              <span className="b-check">{item.url ? <External url={item.url}>Open the source</External> : item.note}</span>
             </li>
           ))}
         </ul>

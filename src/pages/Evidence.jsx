@@ -4,10 +4,10 @@ import home from '../content/home.json';
 import { byStage, stageByN, stageLabel, toolkitRef, topicById, topics } from '../lib.js';
 import MythStack from '../components/MythStack.jsx';
 import { FindingsCard, MistakesCard } from '../components/sections.jsx';
-import { Arrow, EvidenceRating } from '../components/ui.jsx';
+import { Arrow, EvidenceRating, TrustMark } from '../components/ui.jsx';
 
 const PAGES = [
-  { to: '/evidence/how-we-rate', title: 'How we rate evidence, A to E', text: 'What each rating means and how to use it.', tone: 'paper', span: 's7' },
+  { to: '/evidence/how-we-rate', title: 'What the check marks mean', text: 'What a tick beside a topic tells you, and what it does not.', tone: 'paper', span: 's7' },
   { to: '/evidence/studies', title: 'Key studies', text: 'The studies the site leans on most.', tone: 'dark', span: 's5' },
   { to: '/evidence/numbers', title: 'Training today in numbers', text: 'Every figure used on the site, with its source and whether it has been checked.', tone: 'dark', span: 's5' },
   { to: '/evidence/reading', title: 'Reading list and sources', text: 'The reports and papers behind the checked figures, with links.', tone: 'dark', span: 's4' },
@@ -62,7 +62,20 @@ function Head({ title, lead }) {
 export function HowWeRate() {
   return (
     <>
-      <Head title="How we rate evidence, A to E" lead="Practices on the site carry a rating from A to E. It is shown as a letter, five bars and a word, never as a colour, so it reads the same for everyone." />
+      <Head title="What the check marks mean" lead="A tick beside a topic means its sources were opened and read, and the page was corrected to match them. It is a mark of checking, not a score." />
+      <div className="prose">
+        <p>
+          <strong>Sources checked.</strong> Each linked paper was read in summary, not in full. Books were checked from the publisher's description.
+        </p>
+        <p>
+          <strong>Official guidance checked.</strong> Legal and regulatory pages were checked against official UK pages on the date shown in the footer. They are general information, not legal advice.
+        </p>
+        <p>
+          <strong>Practitioner craft.</strong> The page is working know-how from the training room. No study tests it directly, and the page says so.
+        </p>
+      </div>
+      <h2 className="sub-h">Evidence labels on Toolkit methods</h2>
+      <p className="status">Methods in the Toolkit keep the A to E labels from the toolkit workbook.</p>
       <div>
         {toolkitRef.evidenceGuide.map((tier) => (
           <div className="tier-row" key={tier.tier}>
@@ -77,7 +90,7 @@ export function HowWeRate() {
           </div>
         ))}
       </div>
-      <p className="status">Ratings on the site are provisional until each topic is written and its citations have been opened and read.</p>
+
     </>
   );
 }
@@ -127,7 +140,7 @@ export function Studies() {
                     {row.title} {stageLabel(stageByN(row.stage))}.
                   </span>
                 </span>
-                <EvidenceRating tier={row.tier} />
+                <TrustMark checked={Boolean(row.checked)} />
                 <Arrow />
               </Link>
             </li>

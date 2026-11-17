@@ -1,14 +1,22 @@
 import evidence from '../content/evidence.json';
+import { stageByN, stageLabel } from '../lib.js';
+
+const External = ({ url, children }) => (
+  <a className="txt" href={url} target="_blank" rel="noreferrer">
+    {children}
+    <span className="sr-only"> (opens in a new tab)</span>
+  </a>
+);
 
 export default function About() {
-  const { made, log } = evidence.about;
+  const { made } = evidence.about;
   return (
     <>
       <section className="detail-head" aria-labelledby="h-detail">
         <h1 id="h-detail" className="detail-h1">
-          How this site was made and checked
+          About this site
         </h1>
-        <p className="lead">The site asks trainers to rate their evidence and show their sources. It holds itself to the same rule.</p>
+        <p className="lead">A personal handbook on how people learn and how to train them well, built to learn the field properly.</p>
       </section>
       <div className="detail-grid">
         <div className="prose">
@@ -19,18 +27,28 @@ export default function About() {
             </section>
           ))}
         </div>
-        <aside className="prose" aria-labelledby="h-log" id="learning-log">
-          <h2 id="h-log">Learning log</h2>
-          {log.map((entry) => (
-            <section key={entry.date}>
-              <p className="status">{entry.date}</p>
+        <aside className="prose" aria-labelledby="h-reading">
+          <h2 id="h-reading">Reading list</h2>
+          {evidence.reading.map((group) => (
+            <section key={group.stage}>
+              <p>
+                <strong>{stageLabel(stageByN(group.stage))}</strong>
+              </p>
               <ul>
-                {entry.items.map((item) => (
-                  <li key={item}>{item}</li>
+                {group.items.map((item) => (
+                  <li key={item.label || item}>{item.url ? <External url={item.url}>{item.label}</External> : item.label || item}</li>
                 ))}
               </ul>
             </section>
           ))}
+          <h2>Reports behind the figures</h2>
+          <ul>
+            {evidence.sources.map((source) => (
+              <li key={source.url}>
+                <External url={source.url}>{source.label}</External>
+              </li>
+            ))}
+          </ul>
         </aside>
       </div>
     </>

@@ -13,7 +13,7 @@ export default function Home() {
         <h1 id="h-home" className="hero-h1">
           {hero.h1}
         </h1>
-        <p className="lead">{hero.intro}</p>
+        {hero.intro && <p className="lead">{hero.intro}</p>}
       </section>
 
       <section className="g" aria-label="Where to go">

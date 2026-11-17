@@ -35,7 +35,6 @@ export default function MythStack({ myths }) {
           <button className="rb" type="button" aria-label="Next myth" onClick={() => setIndex((index + 1) % total)}>
             <Chevron />
           </button>
-          <span className="myth-count">{counter}</span>
         </div>
       </div>
       <div className="s7 myth-stack">

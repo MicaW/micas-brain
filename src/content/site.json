@@ -15,12 +15,8 @@
    "to": "/toolkit"
   },
   {
-   "label": "Evidence",
-   "to": "/evidence"
-  },
-  {
-   "label": "Case studies",
-   "to": "/case-studies"
+   "label": "Glossary",
+   "to": "/glossary"
   },
   {
    "label": "About",
@@ -30,19 +26,15 @@
  "searchLabel": "Search the site",
  "searchPlaceholder": "Search methods, topics, studies",
  "footer": {
-  "checked": "Facts last checked 17 November 2026.",
+  "checked": "Sources last checked 17 November 2026.",
   "links": [
    {
-    "label": "How this site was made and checked",
+    "label": "About, sources and reading",
     "to": "/about"
    },
    {
-    "label": "Learning log",
-    "to": "/about/learning-log"
-   },
-   {
-    "label": "Sources",
-    "to": "/evidence/reading"
+    "label": "Glossary",
+    "to": "/glossary"
    }
   ]
  },
@@ -55,10 +47,10 @@
    "private": true
   },
   {
-   "path": "/evidence/glossary",
+   "path": "/glossary",
    "title": "Glossary",
    "holds": "The terms the site uses, in plain words.",
-   "up": "/evidence"
+   "up": "/"
   }
  ],
  "evidenceTiers": [

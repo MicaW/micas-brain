@@ -2,7 +2,7 @@ import { useId, useState } from 'react';
 import Words from './Words.jsx';
 import { Link } from 'react-router-dom';
 import { topicById, topicLinkLabel } from '../lib.js';
-import { Button, EvidenceRating, Pill, PlusMinus, StageTag } from './ui.jsx';
+import { Button, Pill, PlusMinus, StageTag, TrustMark } from './ui.jsx';
 
 /* A dark card holding a long list as accordions inside a scroll area, grouped by stage.
    One item open at a time; the first is open on load; clicking the open one closes it. */
@@ -78,7 +78,6 @@ export function FindingItem({ item, labels }) {
   return (
     <>
       <p>
-        <EvidenceRating tier={item.tier} />
       </p>
       <p>
         <strong>{labels.use}</strong> {item.use}

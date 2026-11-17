@@ -22,9 +22,9 @@ const GROUND_COLOUR = { board: '#0b0b0c', page: '#e9e9e4' };
 
 const TITLES = {
   '/playbook': 'The Playbook', '/toolkit': 'The Toolkit', '/toolkit/methods': 'Method finder', '/playbook/mechanics': 'Learning mechanics',
-  '/toolkit/recipes': 'Session recipes', '/toolkit/templates': 'Templates', '/evidence': 'Evidence', '/evidence/how-we-rate': 'How we rate evidence',
+  '/toolkit/recipes': 'Session recipes', '/toolkit/templates': 'Templates', '/evidence': 'Evidence', '/evidence/how-we-rate': 'What the check marks mean',
   '/evidence/numbers': 'Training today in numbers', '/evidence/studies': 'Key studies', '/evidence/reading': 'Reading list and sources',
-  '/case-studies': 'Case studies', '/about': 'About', '/about/learning-log': 'About', '/search': 'Search',
+  '/case-studies': 'Case studies', '/about': 'About', '/glossary': 'Glossary', '/search': 'Search',
 };
 function titleFor(pathname) {
   const stageMatch = pathname.match(/^\/playbook\/stage-(\d)$/);

@@ -101,3 +101,27 @@ export function EvidenceRating({ tier }) {
     </span>
   );
 }
+
+/* A plain trust mark: what a page rests on. No score. */
+const TRUST = {
+  research: 'Sources checked',
+  law: 'Official guidance checked',
+  tool: 'Checked against product help',
+  craft: 'Practitioner craft',
+};
+export function TrustMark({ kind, checked = true }) {
+  const label = checked ? TRUST[kind] || TRUST.research : 'Not checked yet';
+  const ticked = checked && kind !== 'craft';
+  return (
+    <span className={ticked ? 'ev trust' : 'ev trust plain'}>
+      {ticked && (
+        <b aria-hidden="true">
+          <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M3 8.5l3.2 3L13 4.5" />
+          </svg>
+        </b>
+      )}
+      {label}
+    </span>
+  );
+}

@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { playbook, stageLabel, stagePath, topicById, topics } from '../lib.js';
 import Blocks from '../components/Blocks.jsx';
-import { Arrow, EvidenceRating, Pill } from '../components/ui.jsx';
+import { Arrow } from '../components/ui.jsx';
 import Words from '../components/Words.jsx';
 import NotFound from './NotFound.jsx';
 
@@ -18,6 +18,7 @@ export default function Topic() {
   const [situation, doThis, ...rest] = parts;
   const inStage = topics.filter((t) => t.stage.n === stage.n);
   const next = inStage[inStage.indexOf(topic) + 1];
+  const previous = inStage[inStage.indexOf(topic) - 1];
   const related = (topic.related || []).map(topicById).filter(Boolean);
 
   return (
@@ -33,6 +34,10 @@ export default function Topic() {
           <Link className="txt" to={stagePath(stage.n)}>
             {stageLabel(stage)}
           </Link>
+          <span className="sep" aria-hidden="true">
+            /
+          </span>
+          <span>{topic.part.title}</span>
         </nav>
         <div className="topic-hero">
           <span className="topic-disc">
@@ -44,7 +49,6 @@ export default function Topic() {
               <Words>{topic.title}</Words>
             </h1>
             <p className="lead">{topic.theory}</p>
-            <Pill>{topic.bodyStatus || 'Not written yet'}</Pill>
           </div>
         </div>
       </section>
@@ -67,12 +71,6 @@ export default function Topic() {
             <div>
               <h2 id={`h-${part.key}`}>{part.name}</h2>
               <p className="status">{part.what}</p>
-              {part.key === 'why' && topic.tier && (
-                <p className="status">
-                  <EvidenceRating tier={topic.tier} />
-                </p>
-              )}
-              {part.key === 'why' && topic.tierReason && <p className="status">{topic.tierReason}</p>}
             </div>
             <div className="prose">
               <Blocks blocks={part.content} />
@@ -113,6 +111,13 @@ export default function Topic() {
         )}
       </div>
 
+      {previous && (
+        <p className="prev-link">
+          <Link className="txt" to={previous.path}>
+            Previous: {stage.n}.{previous.n} {previous.title}
+          </Link>
+        </p>
+      )}
       {next ? (
         <Link className="nx onp" to={next.path} style={{ '--next': stage.color }}>
           <span className="nx-words">

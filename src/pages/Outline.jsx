@@ -9,10 +9,9 @@ export function OutlinePage() {
   const { pathname } = useLocation();
   const page = site.outline.find((p) => p.path === pathname);
   if (!page || (page.private && !showFormats)) return <NotFound />;
-  if (page.path === '/evidence/glossary') {
+  if (page.title === 'Glossary') {
     return (
       <section className="outline" aria-labelledby="h-outline">
-        <Pill>Draft. Definitions written for this site, not checked against a dictionary of the field.</Pill>
         <h1 id="h-outline">{page.title}</h1>
         <p className="lead">The terms the site uses, in plain words.</p>
         <dl className="glossary">
@@ -23,11 +22,6 @@ export function OutlinePage() {
             </div>
           ))}
         </dl>
-        <div className="outline-links">
-          <Button variant="text" to={page.up}>
-            Back
-          </Button>
-        </div>
       </section>
     );
   }
