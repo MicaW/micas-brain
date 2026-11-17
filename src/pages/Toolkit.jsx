@@ -1,7 +1,8 @@
+import Blocks from '../components/Blocks.jsx';
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { mechanics, methods, recipes, site, splitList, toolkitRef } from '../lib.js';
-import { Arrow, EvidenceRating, Pill } from '../components/ui.jsx';
+import { Arrow, EvidenceRating, Pill, PlusMinus } from '../components/ui.jsx';
 import NotFound from './NotFound.jsx';
 
 const tierOf = (item) => site.evidenceTiers.find((t) => t.tier === item.tier);
@@ -58,7 +59,7 @@ export function ToolkitHome() {
 }
 
 /* ---------- A library: search, filters, and a list of rows ---------- */
-function Library({ title, lead, items, filters, placeholder, rated = true, crumb = false }) {
+function Library({ title, lead, items, filters, placeholder, rated = false, crumb = false }) {
   const [query, setQuery] = useState('');
   const [showFilters, setShowFilters] = useState(false);
   const [picked, setPicked] = useState({});
@@ -156,7 +157,6 @@ export function MethodFinder() {
       filters={[
         { key: 'family', label: 'It helps people', options: families.map((f) => ({ value: f, label: f })) },
         { key: 'phase', label: 'When', options: phases.map((p) => ({ value: p, label: p.replace(' retreat experience', ' session') })) },
-        tierFilter(methods),
       ]}
     />
   );
@@ -164,7 +164,7 @@ export function MethodFinder() {
 
 export function MechanicList() {
   const items = mechanics.map((m) => ({ ...m, to: `/playbook/mechanics/${m.slug}`, sub: m.useful, text: `${m.name} ${m.description} ${m.useful}`.toLowerCase() }));
-  return <Library title="Learning mechanics" lead="A method works because of what it makes the learner do. These are those things, and how to design for each." crumb placeholder="Search mechanics" items={items} filters={[tierFilter(mechanics)]} />;
+  return <Library title="Learning mechanics" lead="A method works because of what it makes the learner do. These are those things, and how to design for each." crumb placeholder="Search mechanics" items={items} filters={[]} />;
 }
 
 export function RecipeList() {
@@ -229,6 +229,16 @@ export function MethodDetail() {
         <div className="prose">
           <h2>Use it for</h2>
           <p>{m.bestFor}</p>
+          {(m.howTo || []).length > 0 && (
+            <>
+              <h2>How to run it</h2>
+              <ol className="steps">
+                {m.howTo.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+            </>
+          )}
           {m.cautions && (
             <>
               <h2>Watch out</h2>
@@ -250,8 +260,7 @@ export function MethodDetail() {
           )}
         </div>
         <aside aria-label="Key facts">
-          <Facts rows={[['Format', m.format], ['When to use it', m.phase.replace(' retreat experience', ' session')], ['Why it works', splitList(m.mechanics).join(', ')], ['Evidence', tierOf(m) ? `${m.tier}, ${tierOf(m).word}` : 'Not yet rated']]} />
-          <ProvisionalNote />
+          <Facts rows={[['Time', m.time], ['Group', m.group], ['Format', m.format], ['When to use it', m.phase.replace(' retreat experience', ' session')], ['Why it works', splitList(m.mechanics).join(', ')]]} />
         </aside>
       </div>
     </>
@@ -283,8 +292,7 @@ export function MechanicDetail() {
           <p>{m.checks}</p>
         </div>
         <aside aria-label="Key facts">
-          <Facts rows={[['Most useful for', m.useful], ['Methods that use it', m.methods], ['Evidence base', m.basis], ['Evidence', tierOf(m) ? `${m.tier}, ${tierOf(m).word}` : 'Not yet rated']]} />
-          <ProvisionalNote />
+          <Facts rows={[['Most useful for', m.useful], ['Methods that use it', m.methods], ['Evidence base', m.basis]]} />
         </aside>
       </div>
     </>
@@ -300,9 +308,10 @@ export function RecipeDetail() {
       <section className="detail-head" aria-labelledby="h-detail">
         <Crumb to="/toolkit/recipes" label="Session recipes" />
         <h1 id="h-detail" className="detail-h1">
-          {r.name}
+          {r.plainName || r.name}
         </h1>
         <p className="lead">{r.purpose}</p>
+        {r.plainName && <p className="meta">Also known as {r.name}</p>}
         <Pill>{r.duration}</Pill>
       </section>
       <div className="detail-grid">
@@ -313,6 +322,7 @@ export function RecipeDetail() {
               <li key={step}>{step.charAt(0).toUpperCase() + step.slice(1)}</li>
             ))}
           </ol>
+          {r.runSheet && <Blocks blocks={[{ type: 'artefact', title: 'A run sheet to start from', table: r.runSheet }]} />}
           <h2>Watch out</h2>
           <p>{r.cautions}</p>
           <h2>What you come away with</h2>
@@ -320,7 +330,6 @@ export function RecipeDetail() {
         </div>
         <aside aria-label="Key facts">
           <Facts rows={[['Who it suits', r.audience], ['Best for', r.bestUse], ['Methods combined', splitList(r.methods).join(', ')], ['Mechanics at work', splitList(r.mechanics).join(', ')], ['Room and setup', r.setup], ['People you need', r.needs]]} />
-          <p className="status">Recipes are practitioner designs and carry no rating.</p>
         </aside>
       </div>
     </>
@@ -328,6 +337,7 @@ export function RecipeDetail() {
 }
 
 export function Templates() {
+  const list = site.templateData || [];
   return (
     <>
       <section className="detail-head" aria-labelledby="h-detail">
@@ -335,21 +345,33 @@ export function Templates() {
         <h1 id="h-detail" className="detail-h1">
           Templates
         </h1>
-        <p className="lead">Working documents to copy and fill in. These are draft outlines: the headings are set, and the guidance under each is still to write.</p>
+        <p className="lead">Working documents you fill in for a real piece of work. Each one says what it is for, what goes under each heading, and shows one filled in.</p>
       </section>
-      <div className="prose">
-        <ul className="plain-list">
-          {site.templates.map((name) => (
-            <li key={name} className="tpl">
-              <strong>{name}</strong>
-              <ol className="tpl-fields">
-                {(site.templateOutlines[name] || []).map((field) => (
-                  <li key={field}>{field}</li>
+      <div className="tpl-list">
+        {list.map((t) => (
+          <details className="tpl-item" key={t.name}>
+            <summary>
+              <span className="tpl-name">{t.name}</span>
+              <span className="tpl-what">{t.what}</span>
+              <PlusMinus />
+            </summary>
+            <div className="tpl-body prose">
+              <p>
+                <strong>When to use it.</strong> {t.when}
+              </p>
+              <h3>What goes in it</h3>
+              <dl className="tpl-fields">
+                {t.fields.map((f) => (
+                  <div key={f.heading}>
+                    <dt>{f.heading}</dt>
+                    <dd>{f.guidance}</dd>
+                  </div>
                 ))}
-              </ol>
-            </li>
-          ))}
-        </ul>
+              </dl>
+              {t.example && <Blocks blocks={[{ type: 'artefact', title: t.example.title, table: { head: ['Heading', 'Filled in'], rows: t.example.rows } }]} />}
+            </div>
+          </details>
+        ))}
       </div>
     </>
   );

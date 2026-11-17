@@ -1,3 +1,4 @@
+import FlipDeck from '../components/FlipDeck.jsx';
 import { Link } from 'react-router-dom';
 import home from '../content/home.json';
 import { stages } from '../lib.js';
@@ -49,10 +50,33 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="g" aria-label="Mistakes and evidence">
-        <MistakesCard />
-        <FindingsCard />
-      </section>
+      <FlipDeck
+        id="h-mistakes"
+        pill={home.mistakes.pill}
+        heading={home.mistakes.heading}
+        items={home.mistakes.items}
+        front="Turn over for the fix"
+        back={(item) => (
+          <>
+            <p className="flip-lead">{item.instead}</p>
+            <p>{item.why}</p>
+          </>
+        )}
+      />
+
+      <FlipDeck
+        id="h-findings"
+        pill={home.findings.pill}
+        heading={home.findings.heading}
+        items={home.findings.items}
+        front="Turn over to use it"
+        back={(item) => (
+          <>
+            <p className="flip-lead">{item.use}</p>
+            <p>{item.source}</p>
+          </>
+        )}
+      />
 
       <MythStack myths={myths} />
 
