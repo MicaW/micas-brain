@@ -39,7 +39,7 @@
   "status": "Draft wording. Six of these have had their source checked. The rest follow the linked topic.",
   "items": [
    {
-    "stage": 2,
+    "stage": 1,
     "title": "Ordering a course for a problem training cannot fix.",
     "why": "If people could do the job when it really mattered, the cause is tools, incentives or unclear expectations. No course changes those.",
     "instead": "Ask whether they could do it if they had to. If yes, fix the environment. If no, train.",
@@ -97,7 +97,7 @@
     }
    },
    {
-    "stage": 5,
+    "stage": 2,
     "title": "Leaving managers out of it.",
     "why": "What a manager expects and reinforces afterwards is one of the strongest influences on whether new skills get used.",
     "instead": "Give managers three things to do: one before, one during, one after.",
@@ -176,7 +176,7 @@
     }
    },
    {
-    "stage": 5,
+    "stage": 1,
     "title": "Assuming people will pick it up on the job.",
     "why": "Experience without feedback levels off. Years in a role are not the same as getting better at it.",
     "instead": "Build in practice at the edge of ability, with someone giving feedback.",
@@ -192,7 +192,7 @@
     "boardLinkLabel": "Stage 7: Risks, guardrails and governance"
    },
    {
-    "stage": 8,
+    "stage": 1,
     "title": "Packing a retreat from breakfast to midnight.",
     "why": "Memory is consolidated during sleep. Long days cut into the thing the retreat depends on.",
     "instead": "Protect sleep and leave gaps in the schedule on purpose.",
@@ -218,9 +218,9 @@
    {
     "stage": 5,
     "title": "Recalling something beats reading it again.",
-    "tier": "A",
-    "bars": 5,
-    "tierWord": "Established",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
     "use": "Open each session with a short recall task before any new content.",
     "source": "Roediger and Karpicke (2006), Test-enhanced learning: taking memory tests improves long-term retention. Adesope, Trevisan and Sundararajan (2017), Rethinking the use of tests: a meta-analysis of practice testing.",
     "topicId": "s5-t11",
@@ -231,9 +231,9 @@
    {
     "stage": 5,
     "title": "Study spread over time beats one long session.",
-    "tier": "A",
-    "bars": 5,
-    "tierWord": "Established",
+    "tier": "C",
+    "bars": 3,
+    "tierWord": "Emerging",
     "use": "Split a full day into shorter sessions with gaps, or add follow-ups a few days and weeks later.",
     "source": "Cepeda, Pashler, Vul, Wixted and Rohrer (2006), Distributed practice in verbal recall tasks: a review and quantitative synthesis. Psychological Bulletin, 132(3), 354 to 380.",
     "topicId": "s5-t04",
@@ -244,9 +244,9 @@
    {
     "stage": 1,
     "title": "Working memory holds about four chunks at once.",
-    "tier": "B",
-    "bars": 4,
-    "tierWord": "Conditional",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
     "use": "Introduce new ideas a few at a time and group them before adding more.",
     "source": "Cowan (2001), The magical number 4 in short-term memory: a reconsideration of mental storage capacity.",
     "topicId": "s1-t01",
@@ -257,9 +257,9 @@
    {
     "stage": 1,
     "title": "There is no good evidence that matching teaching to a learning style improves learning.",
-    "tier": "A",
-    "bars": 5,
-    "tierWord": "Established",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
     "use": "Stop sorting people by style. Choose the medium that suits the content.",
     "source": "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
     "topicId": "s1-t08",
@@ -309,9 +309,9 @@
    {
     "stage": 1,
     "title": "Help that suits beginners can hold experienced people back.",
-    "tier": "B",
-    "bars": 4,
-    "tierWord": "Conditional",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
     "use": "In a mixed room, give the experienced people the harder version, not the same support.",
     "source": "Kalyuga (2007), Expertise reversal effect and its implications for learner-tailored instruction.",
     "topicId": "s1-t02",
@@ -335,9 +335,9 @@
    {
     "stage": 1,
     "title": "People often feel they learn more from easy study than from hard practice. Often it is the other way round.",
-    "tier": "B",
-    "bars": 4,
-    "tierWord": "Conditional",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
     "use": "Tell learners why the harder practice is there, or they will resist it.",
     "source": "Kornell and Bjork (2008), Learning concepts and categories: is spacing the enemy of induction?",
     "topicId": "s1-t03",
@@ -374,9 +374,9 @@
    {
     "stage": 1,
     "title": "Sleep after learning strengthens memory.",
-    "tier": "A",
-    "bars": 5,
-    "tierWord": "Established",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
     "use": "On multi-day programmes, protect the nights and revisit yesterday first thing.",
     "source": "Diekelmann and Born (2010), The memory function of sleep.",
     "topicId": "s1-t10",
@@ -424,7 +424,7 @@
     "checked": true
    },
    {
-    "stage": 4,
+    "stage": 1,
     "title": "Teams that feel safe to speak up learn more.",
     "tier": "B",
     "bars": 4,

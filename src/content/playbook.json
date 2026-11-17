@@ -11905,10 +11905,10 @@
        "title": "Know why a tip works before you use it",
        "theory": "Practitioner wisdom, held to principle",
        "source": "Skills building: Module 16, topic 16.1",
-       "tier": null,
-       "tierWord": null,
-       "bars": null,
-       "tierStatus": "not yet rated",
+       "tier": "D",
+       "tierWord": "Practitioner framework",
+       "bars": 2,
+       "tierStatus": "rated",
        "body": {
         "situation": [
          {
@@ -11999,7 +11999,7 @@
          }
         ]
        },
-       "bodyStatus": "Draft, written from the curriculum outline. Sources not checked yet.",
+       "bodyStatus": "Practitioner judgement. No source checked.",
        "quiz": [
         {
          "q": "Why attach a principle to a tip?",
@@ -12021,7 +12021,8 @@
        ],
        "checkFindings": [
         "No search was spent on this topic, so it stays unchecked. The page cites no source and makes no research claim apart from its illustrative example."
-       ]
+       ],
+       "tierReason": "Practitioner judgement. No research source was checked for this page."
       },
       {
        "id": "s4-t10",
