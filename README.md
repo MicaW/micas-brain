@@ -71,7 +71,7 @@ Nothing confidential. Nothing unverified shown as checked. No invented evidence.
 ## State on 17 November 2026 (evening, source check in progress)
 
 - 149 Playbook topics in nine stages. Every one has a draft body, an illustrative example, three recall questions and a status label.
-- 0 topics are fully checked: sources opened and linked, evidence rated. Others are partly checked or still draft. The topic page says which.
+- 66 topics have sources opened and linked and an evidence rating. 83 are partly checked or still draft. The topic page says which.
 - Twelve case studies written from public sources. Five are marked as thin evidence.
 - Not done: the rest of the source check (it stopped when the search allowance ran out), the reading list links, 11 myths, the Google Workspace and Notion topics.
 - Next: finish the check, deploy to GitHub, then the five-perspective review.
