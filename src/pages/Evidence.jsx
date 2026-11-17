@@ -173,7 +173,7 @@ export function Reading() {
         </ul>
       </div>
       <h2 className="sub-h">Where to start, by stage</h2>
-      <p className="status">Books and papers the curriculum outline recommends. None has been opened and checked for this site.</p>
+      <p className="status">Books and papers to start with. A linked title was confirmed on its publisher or index page on 17 November 2026.</p>
       <div className="prose">
         {evidence.reading.map((group) => (
           <div key={group.stage}>

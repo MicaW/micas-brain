@@ -36,7 +36,7 @@
    "why": "Why it fails.",
    "instead": "Do this instead."
   },
-  "status": "Draft wording. Three of these have had their source checked. The rest have not.",
+  "status": "Draft wording. Six of these have had their source checked. The rest follow the linked topic.",
   "items": [
    {
     "stage": 2,
@@ -60,7 +60,12 @@
     "why": "How much people enjoyed a session says little about what they learned or what they now do.",
     "instead": "Decide up front what people should do differently, and go and look for that.",
     "topicId": "s6-t01",
-    "boardLinkLabel": "Stage 6: Evaluation models, used critically"
+    "boardLinkLabel": "Stage 6: Evaluation models, used critically",
+    "checked": true,
+    "source": {
+     "label": "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria.",
+     "url": "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+    }
    },
    {
     "stage": 7,
@@ -150,7 +155,12 @@
     "why": "Interesting but irrelevant material pulls attention away from the point and lowers learning.",
     "instead": "Cut anything that does not serve the objective, however engaging it is.",
     "topicId": "s3-t02",
-    "boardLinkLabel": "Stage 3: The multimedia design principles"
+    "boardLinkLabel": "Stage 3: The multimedia design principles",
+    "checked": true,
+    "source": {
+     "label": "Sundararajan and Adesope (2020), Keep it coherent: a meta-analysis of the seductive details effect. Read through the Washington State University news release about the paper.",
+     "url": "https://news.wsu.edu/press-release/2020/03/19/seductive-details-inhibit-learning"
+    }
    },
    {
     "stage": 1,
@@ -187,7 +197,12 @@
     "why": "Memory is consolidated during sleep. Long days cut into the thing the retreat depends on.",
     "instead": "Protect sleep and leave gaps in the schedule on purpose.",
     "topicId": "s1-t10",
-    "boardLinkLabel": "Stage 1: Protect sleep on multi-day programmes"
+    "boardLinkLabel": "Stage 1: Protect sleep on multi-day programmes",
+    "checked": true,
+    "source": {
+     "label": "Diekelmann and Born (2010), The memory function of sleep.",
+     "url": "https://research.uni-luebeck.de/en/publications/the-memory-function-of-sleep/"
+    }
    }
   ]
  },
@@ -198,7 +213,7 @@
   "labels": {
    "use": "In practice."
   },
-  "status": "Findings marked with a link have had their source opened and read in summary. The rest are from the curriculum outline and are not checked yet.",
+  "status": "Each finding's source was opened and read in summary on 17 November 2026. Full papers have not been read.",
   "items": [
    {
     "stage": 5,
@@ -207,9 +222,11 @@
     "bars": 5,
     "tierWord": "Established",
     "use": "Open each session with a short recall task before any new content.",
-    "source": "Roediger and Karpicke, 2006.",
+    "source": "Roediger and Karpicke (2006), Test-enhanced learning: taking memory tests improves long-term retention. Adesope, Trevisan and Sundararajan (2017), Rethinking the use of tests: a meta-analysis of practice testing.",
     "topicId": "s5-t11",
-    "boardLinkLabel": "Stage 5: Designing practice"
+    "boardLinkLabel": "Stage 5: Designing practice",
+    "url": "https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/",
+    "checked": true
    },
    {
     "stage": 5,
@@ -226,14 +243,16 @@
    },
    {
     "stage": 1,
-    "title": "Working memory holds about four things at once.",
-    "tier": "A",
-    "bars": 5,
-    "tierWord": "Established",
+    "title": "Working memory holds about four chunks at once.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
     "use": "Introduce new ideas a few at a time and group them before adding more.",
-    "source": "Cowan, 2001.",
+    "source": "Cowan (2001), The magical number 4 in short-term memory: a reconsideration of mental storage capacity.",
     "topicId": "s1-t01",
-    "boardLinkLabel": "Stage 1: Design for a very small working memory"
+    "boardLinkLabel": "Stage 1: Design for a very small working memory",
+    "url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496",
+    "checked": true
    },
    {
     "stage": 1,
@@ -255,9 +274,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Keep the feedback form short and measure behaviour separately.",
-    "source": "Alliger and Janak, 1989.",
+    "source": "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria.",
     "topicId": "s6-t01",
-    "boardLinkLabel": "Stage 6: Evaluation models, used critically"
+    "boardLinkLabel": "Stage 6: Evaluation models, used critically",
+    "url": "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7",
+    "checked": true
    },
    {
     "stage": 4,
@@ -266,9 +287,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Ask, then count to three in your head before you speak again.",
-    "source": "Rowe, 1986.",
+    "source": "Rowe (1986), Wait time: slowing down may be a way of speeding up!",
     "topicId": "s4-t02",
-    "boardLinkLabel": "Stage 4: Facilitating versus presenting"
+    "boardLinkLabel": "Stage 4: Facilitating versus presenting",
+    "url": "https://scilit.com/publications/5ad93e98281f013a3186d6b77336d32b",
+    "checked": true
    },
    {
     "stage": 1,
@@ -277,9 +300,11 @@
     "bars": 5,
     "tierWord": "Established",
     "use": "Show a full solved example first, then remove the support step by step.",
-    "source": "Sweller, 1988; Sweller, van Merriënboer and Paas, 1998.",
+    "source": "Barbieri, Miller-Cotto, Clerjuste and Chawla (2023), A meta-analysis of the worked examples effect on mathematics performance. Kalyuga (2007), Expertise reversal effect and its implications for learner-tailored instruction.",
     "topicId": "s1-t02",
-    "boardLinkLabel": "Stage 1: Cut the load that teaches nothing"
+    "boardLinkLabel": "Stage 1: Cut the load that teaches nothing",
+    "url": "https://oaks.kent.edu/hcri/meta-analysis-worked-examples-effect-mathematics-performance",
+    "checked": true
    },
    {
     "stage": 1,
@@ -288,9 +313,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "In a mixed room, give the experienced people the harder version, not the same support.",
-    "source": "Kalyuga, 2007.",
+    "source": "Kalyuga (2007), Expertise reversal effect and its implications for learner-tailored instruction.",
     "topicId": "s1-t02",
-    "boardLinkLabel": "Stage 1: Cut the load that teaches nothing"
+    "boardLinkLabel": "Stage 1: Cut the load that teaches nothing",
+    "url": "https://www.uky.edu/~gmswan3/EDC608/Kalyuga2007_Article_ExpertiseReversalEffectAndItsI.pdf",
+    "checked": true
    },
    {
     "stage": 1,
@@ -307,25 +334,29 @@
    },
    {
     "stage": 1,
-    "title": "People feel they learn more from easy study than from hard practice. It is the other way round.",
+    "title": "People often feel they learn more from easy study than from hard practice. Often it is the other way round.",
     "tier": "B",
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Tell learners why the harder practice is there, or they will resist it.",
-    "source": "Kornell and Bjork, 2007.",
+    "source": "Kornell and Bjork (2008), Learning concepts and categories: is spacing the enemy of induction?",
     "topicId": "s1-t03",
-    "boardLinkLabel": "Stage 1: Make practice harder in the ways that help"
+    "boardLinkLabel": "Stage 1: Make practice harder in the ways that help",
+    "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Kornell_Bjork_2008_PsychScience.pdf",
+    "checked": true
    },
    {
     "stage": 5,
-    "title": "Mixing related problem types beats practising one type at a time.",
+    "title": "Mixing related problem types often beats practising one type at a time.",
     "tier": "B",
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Once the basics are in, shuffle the practice so people have to work out which approach fits.",
-    "source": "Brunmair and Richter, 2019.",
+    "source": "Brunmair and Richter (2019), Similarity matters: a meta-analysis of interleaved learning and its moderators.",
     "topicId": "s5-t11",
-    "boardLinkLabel": "Stage 5: Designing practice"
+    "boardLinkLabel": "Stage 5: Designing practice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31556629/",
+    "checked": true
    },
    {
     "stage": 5,
@@ -334,9 +365,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "End a session with each person writing: when this happens, I will do that.",
-    "source": "Gollwitzer, 1999.",
+    "source": "Gollwitzer and Sheeran (2006), Implementation intentions and goal achievement: a meta-analysis of effects and processes.",
     "topicId": "s5-t02",
-    "boardLinkLabel": "Stage 5: Designing for transfer"
+    "boardLinkLabel": "Stage 5: Designing for transfer",
+    "url": "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f",
+    "checked": true
    },
    {
     "stage": 1,
@@ -345,9 +378,11 @@
     "bars": 5,
     "tierWord": "Established",
     "use": "On multi-day programmes, protect the nights and revisit yesterday first thing.",
-    "source": "Diekelmann and Born, 2010.",
+    "source": "Diekelmann and Born (2010), The memory function of sleep.",
     "topicId": "s1-t10",
-    "boardLinkLabel": "Stage 1: Protect sleep on multi-day programmes"
+    "boardLinkLabel": "Stage 1: Protect sleep on multi-day programmes",
+    "url": "https://research.uni-luebeck.de/en/publications/the-memory-function-of-sleep/",
+    "checked": true
    },
    {
     "stage": 1,
@@ -356,9 +391,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Never promise mastery from time served. Design the quality of the practice.",
-    "source": "Macnamara, Hambrick and Oswald, 2014.",
+    "source": "Macnamara, Hambrick and Oswald (2014), Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis.",
     "topicId": "s1-t06",
-    "boardLinkLabel": "Stage 1: Build practice at the edge of ability"
+    "boardLinkLabel": "Stage 1: Build practice at the edge of ability",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24986855/",
+    "checked": true
    },
    {
     "stage": 2,
@@ -367,9 +404,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Tell people where they are, how it is going and what to do next.",
-    "source": "Hattie and Timperley, 2007.",
+    "source": "Hattie and Timperley (2007), The power of feedback.",
     "topicId": "s2-t17",
-    "boardLinkLabel": "Stage 2: Accessibility, fairness and feedback"
+    "boardLinkLabel": "Stage 2: Accessibility, fairness and feedback",
+    "url": "https://assess.ucr.edu/media/746/download",
+    "checked": true
    },
    {
     "stage": 3,
@@ -378,20 +417,24 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Cut the anecdote, the clip or the graphic that does not serve the point.",
-    "source": "Harp and Mayer, 1998.",
+    "source": "Sundararajan and Adesope (2020), Keep it coherent: a meta-analysis of the seductive details effect.",
     "topicId": "s3-t02",
-    "boardLinkLabel": "Stage 3: The multimedia design principles"
+    "boardLinkLabel": "Stage 3: The multimedia design principles",
+    "url": "https://news.wsu.edu/press-release/2020/03/19/seductive-details-inhibit-learning",
+    "checked": true
    },
    {
     "stage": 4,
-    "title": "Teams that feel safe report more mistakes, not fewer.",
+    "title": "Teams that feel safe to speak up learn more.",
     "tier": "B",
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Show your own mistakes early, and treat a wrong answer as useful.",
-    "source": "Edmondson, 1999.",
+    "source": "Edmondson (1999), Psychological safety and learning behavior in work teams.",
     "topicId": "s1-t14",
-    "boardLinkLabel": "Stage 1: Make it safe to be wrong out loud"
+    "boardLinkLabel": "Stage 1: Make it safe to be wrong out loud",
+    "url": "https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f",
+    "checked": true
    },
    {
     "stage": 7,
@@ -400,9 +443,11 @@
     "bars": 4,
     "tierWord": "Conditional",
     "use": "Expect a useful improvement from adaptive tools, not a transformation, and only when the design is good.",
-    "source": "VanLehn, 2011.",
+    "source": "VanLehn (2011), The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems.",
     "topicId": "s7-t02",
-    "boardLinkLabel": "Stage 7: Adaptive tutoring and the honest evidence"
+    "boardLinkLabel": "Stage 7: Adaptive tutoring and the honest evidence",
+    "url": "https://eric.ed.gov/?id=EJ946764",
+    "checked": true
    }
   ]
  },
@@ -451,26 +496,54 @@
    {
     "stage": 1,
     "claim": "\"It takes 10,000 hours to become an expert.\"",
-    "verdict": "Verdict: a popularisation.",
-    "why": "Practice matters a great deal, but the amount of it explains only part of the difference between people."
+    "verdict": "Verdict: overstated.",
+    "why": "Practice matters, but less than the slogan suggests. In a pooled analysis, hours of deliberate practice explained about a quarter of the difference in games, a fifth in music and under 1% in professions.",
+    "sources": [
+     {
+      "label": "Macnamara, Hambrick and Oswald (2014), Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24986855/"
+     }
+    ]
    },
    {
     "stage": 1,
     "claim": "\"We remember 10% of what we read and 90% of what we teach.\"",
     "verdict": "Verdict: no research behind the numbers.",
-    "why": "The percentages in the \"learning pyramid\" trace to no study. They were added later to a diagram that had no numbers. Draft: source not checked yet."
+    "why": "The percentages trace to no study. Versions of the ranking go back to the 1850s, before any research on the question. The familiar numbers were spread in the 1960s without a cited source, then attached to a misreading of Dale's cone of experience.",
+    "sources": [
+     {
+      "label": "Letrud and Hernes (2018), Excavating the origins of the learning pyramid myths.",
+      "url": "https://informahealthcare.com/doi/abs/10.1080/2331186X.2018.1518638"
+     }
+    ]
    },
    {
     "stage": 5,
     "claim": "\"Spend 70% on experience, 20% on social, 10% on courses.\"",
     "verdict": "Verdict: a reminder, not a formula.",
-    "why": "The numbers come from self-report surveys in the 1980s. Most learning does happen outside courses. Nobody measured 70, 20 and 10. Draft: source not checked yet."
+    "why": "The numbers come from 1980s studies in which successful executives looked back on what had shaped them. The ratio is a later summary of those accounts, not a measurement. Treat it as a reminder that experience matters.",
+    "sources": [
+     {
+      "label": "Association for Talent Development (2014), 70:20:10: where is the evidence?",
+      "url": "https://www.td.org/insights/70-20-10-where-is-the-evidence"
+     }
+    ]
    },
    {
     "stage": 2,
     "claim": "\"Attention spans are down to eight seconds.\"",
     "verdict": "Verdict: no sound source.",
-    "why": "Attention depends on interest, difficulty and design. There is no fixed span to shrink. Draft: source not checked yet."
+    "why": "The figure came from a 2015 report commissioned by Microsoft and seems to describe how long people stay on a web page. A review of lecture studies found that attention varies most with the teacher, not the clock.",
+    "sources": [
+     {
+      "label": "Bradbury (2016), Attention span during lectures: 8 seconds, 10 minutes, or more?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28145268/"
+     },
+     {
+      "label": "Bradbury (2016), full text hosted on the European Commission EPALE site.",
+      "url": "https://epale.ec.europa.eu/sites/default/files/advan.00109.2016.pdf"
+     }
+    ]
    },
    {
     "stage": 2,
@@ -487,44 +560,90 @@
    {
     "stage": 7,
     "claim": "\"AI tutoring delivers a two sigma gain.\"",
-    "verdict": "Verdict: a narrow benchmark.",
-    "why": "The figure is one 1984 result for one-to-one human tutoring and has been hard to repeat. Well-designed tutoring systems show moderate gains. Draft: source not checked yet."
+    "verdict": "Verdict: not matched by later evidence.",
+    "why": "Two sigma was the long-held belief about one-to-one human tutoring. A 2011 review of experiments put human tutoring nearer 0.8, and intelligent tutoring systems about the same. That review predates today's AI tutors.",
+    "sources": [
+     {
+      "label": "VanLehn (2011), The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems.",
+      "url": "https://eric.ed.gov/?id=EJ946764"
+     }
+    ]
    },
    {
     "stage": 1,
     "claim": "\"We only use 10% of our brains.\"",
     "verdict": "Verdict: false.",
-    "why": "We use virtually all of the brain. Draft: source not checked yet."
+    "why": "We use virtually all of the brain, though not every cell fires at once. Scans show activity across the whole brain, even during sleep.",
+    "sources": [
+     {
+      "label": "Centre for Educational Neuroscience, Neuromyth or neurofact: We only use 10% of our brains.",
+      "url": "https://www.educationalneuroscience.org.uk/resources/neuromyth-or-neurofact/we-only-use-10-of-our-brains/"
+     }
+    ]
    },
    {
     "stage": 1,
     "claim": "\"People are left-brained or right-brained learners.\"",
     "verdict": "Verdict: a distortion.",
-    "why": "The two halves of the brain do specialise. People are not one type or the other. Draft: source not checked yet."
+    "why": "Some functions do sit more on one side, such as language on the left and attention on the right. A scan study of over 1,000 people found no sign that individuals are left-dominant or right-dominant overall.",
+    "sources": [
+     {
+      "label": "Nielsen, Zielinski, Ferguson, Lainhart and Anderson (2013), An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging.",
+      "url": "https://doaj.org/article/93e38a4098db4fc6b48bfb4f6bf84a30"
+     }
+    ]
    },
    {
     "stage": 1,
     "claim": "\"Listening to Mozart makes you smarter.\"",
     "verdict": "Verdict: oversold.",
-    "why": "The original finding was narrow and short-lived. It does not raise intelligence in any lasting way. Draft: source not checked yet."
+    "why": "The claim was about a boost to spatial thinking. A pooled analysis of about 40 studies and over 3,000 people found no evidence that listening to Mozart improves it.",
+    "sources": [
+     {
+      "label": "University of Vienna news release (2010) on Pietschnig, Voracek and Formann (2010), Mozart effect, Shmozart effect: a meta-analysis. Hosted by ScienceDaily.",
+      "url": "https://sciencedaily.com/releases/2010/05/100510075415.htm"
+     }
+    ]
    },
    {
     "stage": 3,
     "claim": "\"Handwriting beats typing for memory.\"",
-    "verdict": "Verdict: did not hold up.",
-    "why": "The well-known study was repeated and the effect was not found. Putting ideas in your own words is the part that helps. Draft: source not checked yet."
+    "verdict": "Verdict: not settled.",
+    "why": "When the well-known study was repeated, handwriting came out slightly ahead but not reliably. The authors say it is too early to call either method better.",
+    "sources": [
+     {
+      "label": "Morehead, Dunlosky and Rawson (2019), How much mightier is the pen than the keyboard for note-taking? A replication and extension of Mueller and Oppenheimer (2014).",
+      "url": "https://link.springer.com/content/pdf/10.1007%2Fs10648-019-09468-2.pdf"
+     }
+    ]
    },
    {
     "stage": 2,
     "claim": "\"Digital natives learn differently.\"",
     "verdict": "Verdict: not supported.",
-    "why": "Growing up with technology does not change how people learn, or make them skilled with it. Draft: source not checked yet."
+    "why": "Growing up with technology does not make people skilled with it, or mean they need a different kind of teaching. Designing around the idea can get in the way of learning.",
+    "sources": [
+     {
+      "label": "Kirschner and De Bruyckere (2017), The myths of the digital native and the multitasker.",
+      "url": "https://Www.Gwern.net/doc/psychology/2017-kirschner.pdf"
+     }
+    ]
    },
    {
     "stage": 6,
     "claim": "\"High satisfaction scores show the training worked.\"",
     "verdict": "Verdict: a weak link.",
-    "why": "How much people liked a course relates only weakly to what they learned. Draft: source not checked yet."
+    "why": "In a pooled analysis of 34 studies, how much people enjoyed a course told almost nothing about what they learned. Ratings of usefulness did a little better, but still cannot stand in for a test.",
+    "sources": [
+     {
+      "label": "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria.",
+      "url": "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+     },
+     {
+      "label": "Alliger, Tannenbaum, Bennett, Traver and Shotland (1998), A meta-analysis of the relations among training criteria. US Air Force Research Laboratory technical report version.",
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA368508.pdf"
+     }
+    ]
    }
   ],
   "stillToWrite": [],

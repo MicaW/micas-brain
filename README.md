@@ -68,10 +68,11 @@ One rule: a number in a coloured disc is a stage (1 to 9) or a topic in that sta
 
 Nothing confidential. Nothing unverified shown as checked. No invented evidence. Colour means stage; evidence is letter, bars and word. Practice first. See the build pack brief in the Project for the full list.
 
-## State on 17 November 2026 (evening, source check in progress)
+## State on 17 November 2026 (after the second source check)
 
-- 149 Playbook topics in nine stages. Every one has a draft body, an illustrative example, three recall questions and a status label.
-- 66 topics have sources opened and linked and an evidence rating. 83 are partly checked or still draft. The topic page says which.
+- 149 Playbook topics in nine stages. Every one has a body, an illustrative example, three recall questions and a status label.
+- 147 topics have sources opened and linked and an evidence rating. Topics 1.20 and 4.12 are still to check. Many topics list smaller open points in `openPoints`.
+- All 15 myths and 18 findings on Home have an opened source. 11 of 17 mistakes do not yet.
 - Twelve case studies written from public sources. Five are marked as thin evidence.
-- Not done: the rest of the source check (it stopped when the search allowance ran out), the reading list links, 11 myths, the Google Workspace and Notion topics.
-- Next: finish the check, deploy to GitHub, then the five-perspective review.
+- Papers were read in summary. Some links point to university or index copies because publisher pages would not open.
+- Next: deploy to GitHub, then the five-perspective review.
