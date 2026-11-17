@@ -10,7 +10,7 @@
   },
   {
    "figure": "66%",
-   "what": "faster skills change in AI-exposed jobs",
+   "what": "faster skills change in the jobs most exposed to AI",
    "source": "PwC 2025 Global AI Jobs Barometer",
    "stage": 7,
    "checked": true
@@ -52,14 +52,14 @@
   },
   {
    "figure": "78%",
-   "what": "of 50 ICT roles across the G7 include AI skills",
+   "what": "of 50 in-demand ICT roles analysed include AI skills",
    "source": "AI Workforce Consortium, ICT in Motion, 2025",
    "stage": 7,
    "checked": true
   },
   {
    "figure": "97%",
-   "what": "of respondents report at least one AI skills gap",
+   "what": "of respondents identified at least one skills gap",
    "source": "DSIT AI Labour Market Survey 2025, published 28 January 2026",
    "stage": 7,
    "checked": true
@@ -123,7 +123,7 @@
    },
    {
     "h": "What is still draft",
-    "p": "Most topics are not written yet. Evidence ratings are provisional until each topic is written and its citations are opened and read. Anything unchecked carries a label saying so."
+    "p": "Every topic has a draft. A topic that shows a rating and linked sources has been checked against published summaries. Topics still marked draft have not. Full papers have not been read."
    },
    {
     "h": "How evidence is shown",
@@ -135,6 +135,17 @@
    }
   ],
   "log": [
+   {
+    "date": "17 November 2026, evening",
+    "items": [
+     "Source check of Stages 2 to 9 started. 66 topics in those stages now have sources opened, linked and rated. The check stopped when the search allowance for the session ran out, so it is not finished.",
+     "Text corrected where a source said something different, and unsupported figures removed or softened across all nine stages.",
+     "An illustrative example added to every topic.",
+     "Twelve case studies written from public sources. Seven have independent evidence of results. Five are marked as thin evidence.",
+     "Four myths, three findings and three mistakes on Home checked against their sources. Eight glossary definitions corrected.",
+     "Still to do: finish the source check for the remaining topics, the reading list, the other eleven myths, and the Google Workspace and Notion topics."
+    ]
+   },
    {
     "date": "17 November 2026",
     "items": [
@@ -150,7 +161,7 @@
      "All 149 Playbook topics now have a draft. 89 are written from the curriculum outline and 60 from general knowledge. Each says which.",
      "27 references are checked against their published summaries. The rest are marked not checked.",
      "The 11 remaining myths, a glossary, template outlines and a reading list added as drafts.",
-     "Still to do: the nine case studies, evidence ratings for Stages 2 to 9, and source checks for Stages 2 to 9."
+     "Still to do then: the case studies, evidence ratings for Stages 2 to 9, and source checks for Stages 2 to 9."
     ]
    }
   ]
@@ -166,7 +177,7 @@
   },
   {
    "term": "Blended learning",
-   "def": "A programme that mixes live and self-paced parts on purpose."
+   "def": "A programme that mixes face-to-face and online learning on purpose. It often combines live and self-paced parts."
   },
   {
    "term": "Chunk",
@@ -178,7 +189,7 @@
   },
   {
    "term": "Community of practice",
-   "def": "A group who share a field, meet regularly and build shared ways of working."
+   "def": "A group who share a field, interact regularly and learn from each other how to do it better."
   },
   {
    "term": "Competency model",
@@ -194,11 +205,11 @@
   },
   {
    "term": "Desirable difficulty",
-   "def": "Effort during learning that makes it last longer."
+   "def": "A challenge during learning, such as spacing or self-testing, that slows progress at first and makes learning last longer."
   },
   {
    "term": "Duty of care",
-   "def": "The responsibility to protect participants' wellbeing."
+   "def": "The responsibility to take reasonable steps to keep participants safe from foreseeable harm."
   },
   {
    "term": "Effect size",
@@ -234,7 +245,7 @@
   },
   {
    "term": "Meta-analysis",
-   "def": "A study that pools the results of many studies."
+   "def": "A study that combines the results of many studies statistically to estimate an overall effect."
   },
   {
    "term": "Needs analysis",
@@ -242,7 +253,7 @@
   },
   {
    "term": "Neuromyth",
-   "def": "A real finding about the brain that has been stretched or distorted."
+   "def": "A mistaken belief about the brain and learning. Many began as a real finding that was stretched or misread."
   },
   {
    "term": "Objective",
@@ -250,7 +261,7 @@
   },
   {
    "term": "Psychological safety",
-   "def": "A shared belief that it is safe to take a risk in this group."
+   "def": "A shared belief that the group is safe for interpersonal risks, such as asking a question or admitting a mistake."
   },
   {
    "term": "Reliability",
@@ -294,7 +305,7 @@
   },
   {
    "term": "Working memory",
-   "def": "Where people hold new information while they think about it. It is small."
+   "def": "Where people hold and work on information while they think. It is small."
   }
  ],
  "reading": [

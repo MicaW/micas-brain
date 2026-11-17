@@ -36,7 +36,7 @@
    "why": "Why it fails.",
    "instead": "Do this instead."
   },
-  "status": "Draft wording. Each \"why\" needs its citation checked when the linked topic is written.",
+  "status": "Draft wording. Three of these have had their source checked. The rest have not.",
   "items": [
    {
     "stage": 2,
@@ -84,7 +84,12 @@
     "why": "There is no good evidence that matching teaching to a preferred style improves learning.",
     "instead": "Match the medium to the content: show a process, describe a principle, practise a skill.",
     "topicId": "s1-t08",
-    "boardLinkLabel": "Stage 1: Drop learning styles and the other big myths"
+    "boardLinkLabel": "Stage 1: Drop learning styles and the other big myths",
+    "checked": true,
+    "source": {
+     "label": "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+    }
    },
    {
     "stage": 5,
@@ -97,10 +102,15 @@
    {
     "stage": 1,
     "title": "Cramming everything into one long day.",
-    "why": "Practice packed into one sitting feels productive and fades fast. The gaps between sessions are where memory settles.",
+    "why": "Study packed into one sitting is remembered less well than the same study spread over time.",
     "instead": "Cut the content, split the day, and come back to the key ideas later.",
     "topicId": "s1-t03",
-    "boardLinkLabel": "Stage 1: Make practice harder in the ways that help"
+    "boardLinkLabel": "Stage 1: Make practice harder in the ways that help",
+    "checked": true,
+    "source": {
+     "label": "Cepeda, Pashler, Vul, Wixted and Rohrer (2006), Distributed practice in verbal recall tasks: a review and quantitative synthesis. Psychological Bulletin, 132(3), 354 to 380.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/"
+    }
    },
    {
     "stage": 3,
@@ -148,7 +158,12 @@
     "why": "How fluent people look in the room is a poor guide to what they will remember next week.",
     "instead": "Check again after a delay, when the easy familiarity has worn off.",
     "topicId": "s1-t04",
-    "boardLinkLabel": "Stage 1: Do not trust how fluent the room looks"
+    "boardLinkLabel": "Stage 1: Do not trust how fluent the room looks",
+    "checked": true,
+    "source": {
+     "label": "Soderstrom and Bjork (2015), Learning versus performance: an integrative review. Perspectives on Psychological Science, 10(2), 176 to 199.",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/25910388/"
+    }
    },
    {
     "stage": 5,
@@ -183,7 +198,7 @@
   "labels": {
    "use": "In practice."
   },
-  "status": "Tiers are provisional. Citations are author and year from memory of the literature; verify each before publishing.",
+  "status": "Findings marked with a link have had their source opened and read in summary. The rest are from the curriculum outline and are not checked yet.",
   "items": [
    {
     "stage": 5,
@@ -198,14 +213,16 @@
    },
    {
     "stage": 5,
-    "title": "Practice spread over days beats one long session.",
+    "title": "Study spread over time beats one long session.",
     "tier": "A",
     "bars": 5,
     "tierWord": "Established",
     "use": "Split a full day into shorter sessions with gaps, or add follow-ups a few days and weeks later.",
-    "source": "Cepeda and colleagues, 2006.",
+    "source": "Cepeda, Pashler, Vul, Wixted and Rohrer (2006), Distributed practice in verbal recall tasks: a review and quantitative synthesis. Psychological Bulletin, 132(3), 354 to 380.",
     "topicId": "s5-t04",
-    "boardLinkLabel": "Stage 5: Spaced reinforcement after the event"
+    "boardLinkLabel": "Stage 5: Spaced reinforcement after the event",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+    "checked": true
    },
    {
     "stage": 1,
@@ -220,14 +237,16 @@
    },
    {
     "stage": 1,
-    "title": "Matching teaching to a learning style does not improve learning.",
+    "title": "There is no good evidence that matching teaching to a learning style improves learning.",
     "tier": "A",
     "bars": 5,
     "tierWord": "Established",
     "use": "Stop sorting people by style. Choose the medium that suits the content.",
-    "source": "Pashler and colleagues, 2008.",
+    "source": "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
     "topicId": "s1-t08",
-    "boardLinkLabel": "Stage 1: The myths"
+    "boardLinkLabel": "Stage 1: The myths",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26162104/",
+    "checked": true
    },
    {
     "stage": 6,
@@ -280,9 +299,11 @@
     "bars": 5,
     "tierWord": "Established",
     "use": "Do not judge a method by how the room looks. Test again later.",
-    "source": "Soderstrom and Bjork, 2015.",
+    "source": "Soderstrom and Bjork (2015), Learning versus performance: an integrative review. Perspectives on Psychological Science, 10(2), 176 to 199.",
     "topicId": "s1-t04",
-    "boardLinkLabel": "Stage 1: Do not trust how fluent the room looks"
+    "boardLinkLabel": "Stage 1: Do not trust how fluent the room looks",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25910388/",
+    "checked": true
    },
    {
     "stage": 1,
@@ -394,20 +415,38 @@
    {
     "stage": 5,
     "claim": "\"Only 10% of training transfers to the job.\"",
-    "verdict": "Verdict: no data behind it.",
-    "why": "The figure traces to a 1982 magazine article that offered it as a guess. Transfer is a real problem, but nobody measured 10%."
+    "verdict": "Verdict: a repeated estimate, not a finding.",
+    "why": "The figure traces to a 1982 article by Georgenson and has been repeated ever since. Transfer is a real problem and hard to measure, but research shows that a good deal of training does transfer.",
+    "sources": [
+     {
+      "label": "Ford, Yelon and Billington (2011), How much is transferred from training to the job? The 10% delusion as a catalyst for thinking about transfer. Performance Improvement Quarterly.",
+      "url": "https://www.infona.pl/resource/bwmeta1.element.wiley-piq-v-24-i-1-piq20105"
+     }
+    ]
    },
    {
     "stage": 1,
     "claim": "\"Teach people in their own learning style.\"",
     "verdict": "Verdict: no good evidence.",
-    "why": "People have preferences, but studies do not show that matching teaching to them improves learning."
+    "why": "People have preferences, but studies do not show that matching teaching to them improves learning.",
+    "sources": [
+     {
+      "label": "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+     }
+    ]
    },
    {
     "stage": 4,
     "claim": "\"93% of communication is non-verbal.\"",
     "verdict": "Verdict: a misreading.",
-    "why": "The original studies were about conveying feelings with single words. They say nothing about communication in general."
+    "why": "The original experiments were about how people judge feelings and attitudes, such as liking. Mehrabian himself says the figures do not apply unless a speaker is talking about their feelings or attitudes.",
+    "sources": [
+     {
+      "label": "Mehrabian, Silent Messages: description and ordering information (author's own page).",
+      "url": "https://www.kaaj.com/psych/smorder.html"
+     }
+    ]
    },
    {
     "stage": 1,
@@ -437,7 +476,13 @@
     "stage": 2,
     "claim": "\"Each generation learns differently.\"",
     "verdict": "Verdict: not supported.",
-    "why": "Differences come from experience, role and setting, not from the year someone was born. Draft: source not checked yet."
+    "why": "A meta-analysis of work attitudes found that differences between generations were small or close to zero. Where they appear, other factors are the likelier cause. That study covers attitudes at work, not learning.",
+    "sources": [
+     {
+      "label": "Costanza, Badger, Fraser and colleagues (2012), Generational differences in work-related attitudes: a meta-analysis. Journal of Business and Psychology, 27, 375 to 394.",
+      "url": "https://link.springer.com/article/10.1007/s10869-012-9259-4"
+     }
+    ]
    },
    {
     "stage": 7,
@@ -500,40 +545,491 @@
     "stage": 4,
     "name": "Toyota",
     "programme": "Job Instruction",
-    "what": "Teach any job in four steps: prepare the worker, show the job, let them try it, follow up.",
-    "why": "Demonstration, immediate practice, correction on the spot.",
-    "borrow": "Break the task into steps and key points before you teach it."
+    "what": "Supervisors teach a job in four steps. Prepare the worker, present the job, let the worker try it, then follow up.",
+    "why": "The learner sees the job, hears it explained, tries it straight away and is corrected on the spot. New detail is added in layers.",
+    "borrow": "Before you teach a task, break it into its important steps, the key points for each step and the reasons why.",
+    "story": [
+     "Job Instruction is one of the Training Within Industry (TWI) programmes. The United States set up the TWI Service in August 1940 under the National Defense Advisory Commission. It moved to the War Manpower Commission in April 1942 and closed in September 1945. Its four steps come from a method Charles R. Allen built for shipyard workers in the First World War.",
+     "After the war the Allied occupation brought TWI to Japan. A team led by Lowell Mellon, a former TWI instructor, spent six months training 35 master instructors, who then trained others. Toyota ran its own version of the programme. John Shook, who joined Toyota in 1983, later found the original English TWI manual in Toyota's files while adapting training for the NUMMI plant in California.",
+     "The trainer prepares a job breakdown sheet first. It lists the important steps, the key points and the reasons why. The trainer shows the job more than once and adds a layer of detail each time. The worker then does the job and explains it back. Support continues until the worker can do the job alone. The Lean Enterprise Institute says Job Instruction is still the main training tool for Toyota team leaders."
+    ],
+    "results": "The evidence of results is old and self-reported. The TWI Service's own 1945 report says 86% of plants surveyed that September reported production gains of 25% or more, and all reported training time cut by 25% or more. Those figures came from the plants and the programme itself, and they cover wartime America, not Toyota. This review found no independent measured study of Job Instruction at Toyota.",
+    "limits": "The method suits repeatable tasks that have one known best way. One lean researcher notes that TWI teaches and leads workers well but does not deal with the wider management system.",
+    "sources": [
+     {
+      "label": "Lean Enterprise Institute (undated), Training Within Industry (TWI).",
+      "url": "https://www.lean.org/?p=1822",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "Huntzinger, J. (undated), The Roots of Lean. Training Within Industry: The Origin of Japanese Management and Kaizen.",
+      "url": "https://www.lean.org/downloads/105.pdf",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Roser, C. (2018, updated 2025), Training within Industry, TWI, Oldies but Goldies. AllAboutLean.com.",
+      "url": "https://www.allaboutlean.com/training-within-industry/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Dinero, D. A. (2005), Training Within Industry: The Foundation of Lean. Productivity Press.",
+      "url": "https://www.routledge.com/product/isbn/9781563273070",
+      "note": "Book. Publisher's description read 17 November 2026."
+     }
+    ],
+    "status": "Evidence is thin",
+    "thin": true,
+    "thinReason": "The method and its history are well documented by writers outside Toyota, but the only results figures are the wartime programme's own plant reports and nothing measured at Toyota was found."
    },
    {
     "slug": "commercial-aviation",
     "stage": 5,
     "name": "Commercial aviation",
-    "programme": "Simulator and crew training",
-    "what": "Crews rehearse rare emergencies together in simulators, and come back to do it again on a schedule.",
-    "why": "Realistic practice, feedback, and refreshers spaced over a career.",
-    "borrow": "Rehearse the rare, costly moments, and schedule the refresher."
+    "programme": "Simulator and crew resource management training",
+    "what": "Airline crews train in teamwork skills, known as crew resource management (CRM), and practise abnormal and emergency procedures together in full flight simulators. US rules require it at the start and again in recurrent training.",
+    "why": "Crews practise rare events as a whole team in a realistic setting, are briefed before and after, and repeat the training through their careers.",
+    "borrow": "Rehearse the rare, costly moments as a team, and put the refresher in the calendar before the first session ends.",
+    "story": [
+     "CRM training teaches flight crews how to work as a team. US airline rules require approved initial CRM training before a person can serve as a flight crew member or flight attendant. Recurrent ground training for crew members must include CRM as well. The Federal Aviation Administration's guidance on CRM training is Advisory Circular 120-51E, issued in 2004 and still active.",
+     "Much of the practice happens in simulators. Under the US rules a line-oriented flight training session uses a complete flight crew and covers two flight segments typical of the airline's operation. It includes abnormal and emergency procedures and lets pilots show workload management and monitoring. The crew is briefed before and after the session. Flight crew CRM training can be completed in part or in full during such a session.",
+     "Refreshers are written into the rules. Some elements carry fixed intervals. Certain emergency drills must be done once every 24 calendar months, for example. These details come from US regulations. Other regulators were not checked for this review."
+    ],
+    "results": "A 2008 meta-analysis of 16 CRM evaluation studies found large effects on attitudes and behaviour and a medium effect on knowledge. A 2006 review of 28 published accounts across aviation and other high-risk fields was more cautious. Trainees liked the training, effects on learning and behaviour were mixed, and the authors said the effect on safety could not be determined. Many evaluation reports also lacked the data needed to judge them.",
+    "limits": "Full flight simulators and regulated training time are beyond most organisations. The research shows changes in attitudes and behaviour more clearly than a measured effect on accidents.",
+    "sources": [
+     {
+      "label": "O'Connor and colleagues (2008), Crew resource management training effectiveness: A meta-analysis and some critical needs. International Journal of Aviation Psychology.",
+      "url": "https://research.universityofgalway.ie/en/publications/crew-resource-management-training-effectiveness-a-meta-analysis-a-3/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Salas, Wilson, Burke and Wightman (2006), Does crew resource management training work? An update, an extension, and some critical needs. Human Factors.",
+      "url": "https://stars.library.ucf.edu/facultybib2000/6531",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "US Code of Federal Regulations, Title 14, Part 121, Subpart N, Training Program (sections 121.404, 121.409 and 121.427).",
+      "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-N",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "Federal Aviation Administration (2004), Advisory Circular 120-51E, Crew Resource Management Training.",
+      "url": "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22879",
+      "note": "Official page read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
    },
    {
     "slug": "harvard-business-school",
     "stage": 2,
     "name": "Harvard Business School",
     "programme": "The case method",
-    "what": "Students prepare a real business problem, then argue in class for what they would do.",
-    "why": "People commit to an answer, defend it, and hear it challenged.",
-    "borrow": "Make people commit to a decision before you discuss it."
+    "what": "Students read a real business dilemma before class. In class the professor calls on them to say what they would do, and they debate it with each other.",
+    "why": "People have to commit to a decision, explain it and hear it challenged. That is active work on the material, not listening to a lecture.",
+    "borrow": "Make people commit to a decision before you discuss it.",
+    "story": [
+     "Harvard Business School borrowed the idea from Harvard Law School, where Christopher Columbus Langdell had taught through cases. Dean Wallace Donham, a law graduate, pushed for it at the business school. The first business case was written in 1921.",
+     "A case is a short account of a real business dilemma. It sets out the facts and the problem but gives no answer. Harvard's own news service reported in 2008 that students prepared about 14 cases a week, alone and in study groups, and that class participation made up half the grade. The student newspaper reported in 2021 that students discuss more than 500 cases over two years.",
+     "Each class opens with a cold call. The professor picks a student to give a view, and the rest of the session is debate among students and with the professor. New teaching staff are trained in how to lead a case discussion."
+    ],
+    "results": "The evidence is thin and does not come from Harvard. A 2024 meta-analysis of 22 studies found the case method beat lectures on knowledge and skills, but found no significant effect on motivation or attitudes. A 2014 meta-analysis of 225 studies found active learning raised exam scores by about 6% over lectures, but it covered undergraduate science, engineering and maths courses, not business cases. This review found no independent study of results at Harvard Business School itself.",
+    "limits": "The method depends on a skilled discussion leader and on people who prepare. A director of the school's own teaching centre has said that case subjects have historically left out some races, genders and regions.",
+    "sources": [
+     {
+      "label": "Bayona and Durán (2024), A meta-analysis of the influence of case method and lecture teaching on cognitive and affective learning outcomes. International Journal of Management Education.",
+      "url": "https://perfilesycapacidades.javeriana.edu.co/en/publications/a-meta-analysis-of-the-influence-of-case-method-and-lecture-teach/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Freeman and colleagues (2014), Active learning increases student performance in science, engineering, and mathematics. Proceedings of the National Academy of Sciences.",
+      "url": "https://experts.umn.edu/en/publications/active-learning-increases-student-performance-in-science-engineer/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Harvard Gazette (2008), From Law School to Business School: evolution of the case method.",
+      "url": "https://news.harvard.edu/gazette/story/2008/04/from-law-school-to-business-school-evolution-of-the-case-method",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "The Harvard Crimson (2021), article on 100 years of the HBS case method.",
+      "url": "https://www.thecrimson.com/article/2021/12/13/100-years-of-hbs-case-method/",
+      "note": "Summary read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
+   },
+   {
+    "slug": "medical-simulation-centres",
+    "stage": 1,
+    "name": "Medical simulation centres",
+    "programme": "Simulation-based medical education with deliberate practice",
+    "what": "Clinicians and students practise clinical skills on simulators before and alongside work with real patients. In the strongest version the practice is deliberate, with a clear goal and repetition.",
+    "why": "Learners can repeat a skill many times and make mistakes without harm to a patient.",
+    "borrow": "Give people a safe place to repeat the hard part of the job, and do not count one attempt as trained.",
+    "story": [
+     "Traditional clinical education relies on learning with real patients as cases come up. Simulation-based education lets learners practise on technology that stands in for the patient. Researchers have compared the two approaches since at least the 1990s.",
+     "The best-known comparison looked only at simulation that used deliberate practice. McGaghie and colleagues searched 20 years of research, from 1990 to 2010, and found 14 studies that set this kind of training against traditional clinical education.",
+     "A much wider review in the same year, by Cook and colleagues, took in 609 studies with more than 35,000 trainees across the health professions."
+    ],
+    "results": "McGaghie and colleagues found that simulation with deliberate practice did better than traditional clinical education, with a pooled effect size of 0.71 across 14 studies. Cook and colleagues found large effects on knowledge, skills and behaviour and moderate effects on patient outcomes. That second review compared simulation with no training at all, not with other teaching. Its authors rated most studies as low quality, and results varied widely from study to study.",
+    "limits": "The evidence is from health care, mostly for hands-on clinical skills. It says much less about whether simulation beats other active methods, and the effect on patients is smaller than the effect on test performance.",
+    "sources": [
+     {
+      "label": "McGaghie, Issenberg, Cohen, Barsuk and Wayne (2011), Does simulation-based medical education with deliberate practice yield better results than traditional clinical education? A meta-analytic comparative review of the evidence. Academic Medicine.",
+      "url": "https://www.hisp.ntu.edu.tw/abstract_literature?id=223",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Cook and colleagues (2011), Technology-enhanced simulation for health professions education: a systematic review and meta-analysis. JAMA.",
+      "url": "https://med.virginia.edu/medical-simulation-center/wp-content/uploads/sites/254/2016/01/2011JAMA_Cook_Meta-analysis.pdf",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Agency for Healthcare Research and Quality, PSNet summary of Cook and colleagues (2011).",
+      "url": "https://psnet.ahrq.gov/issue/technology-enhanced-simulation-health-professions-education-systematic-review-and-meta",
+      "note": "Summary read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
+   },
+   {
+    "slug": "us-army",
+    "stage": 5,
+    "name": "The US Army",
+    "programme": "The after-action review",
+    "what": "After a training exercise the unit meets with a facilitator. Together they work out what happened, why it happened, and what to keep doing or fix.",
+    "why": "The people who did the work find the lessons themselves, from a specific event, with several points of view and no blame.",
+    "borrow": "After any exercise, ask the group to say what happened and why before you give your own view.",
+    "story": [
+     "Before the after-action review, Army units got a performance critique. It rested on the judgement of umpires and was often a one-way, negative lecture. In the 1970s the Army Research Institute built training systems that simulated combat engagements and recorded what happened. The first of these, in 1973 and 1975, were the first to support after-action reviews. The National Training Center made the review its main feedback method when its exercises began in 1982.",
+     "A review follows a short exercise or a natural break. A trainer from outside the unit acts as facilitator. The leader restates the mission and its aims. Open questions then draw out what happened from several points of view, why the main results came about, and how to keep strengths or fix weaknesses. Platoon reviews last about 30 to 45 minutes.",
+     "The method is still current doctrine. The Army published Training Circular 7-0.1, After Action Reviews, as the first of a series that expands on its main training manual. It covers planning, running and following up a review, and both formal and informal types."
+    ],
+    "results": "A 2013 meta-analysis by Tannenbaum and Cerasoli pooled 46 samples with 2,136 participants. Debriefs, including after-action reviews, improved performance by about 20 to 25% on average. Facilitated debriefs did better than unfacilitated ones, though only two samples had no facilitator. The studies came from many settings, not only the Army, and many did not use random assignment. An Army research report from 1999 noted that early evaluations never tested the review separately from the rest of the training.",
+    "limits": "The evidence favours reviews led by a facilitator, so the method leans on having a capable one. Army research also found that the written take-home packages were too long and weak on concrete fixes.",
+    "sources": [
+     {
+      "label": "Tannenbaum and Cerasoli (2013), Do team and individual debriefs enhance performance? A meta-analysis. Human Factors.",
+      "url": "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "US Army (2025), TMD publishes training circular to augment FM and ADP 7-0.",
+      "url": "https://www.army.mil/article/283214/tmd_publishes_training_circular_to_augment_fm_and_adp_7_0",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "Morrison and Meliza (1999), Foundations of the After Action Review Process. US Army Research Institute Special Report 42.",
+      "url": "https://apps.dtic.mil/sti/pdfs/ADA368651.pdf",
+      "note": "Official page read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
+   },
+   {
+    "slug": "uk-ncsc",
+    "stage": 4,
+    "name": "UK National Cyber Security Centre",
+    "programme": "Exercise in a Box",
+    "what": "A free online set of ready-made exercises that lets an organisation rehearse its response to a cyber attack. It has 20 exercises on 12 topics, in micro and tabletop formats.",
+    "why": "A group talks through an unfolding incident using open questions, then reflects and agrees follow-up actions. Everything a facilitator needs is supplied.",
+    "borrow": "Package an exercise so a non-expert can run it, with a facilitator guide, a scenario, open questions and a sheet for actions.",
+    "story": [
+     "Exercise in a Box is still live under that name on the NCSC website in November 2026. The NCSC says it is free and that you do not need to be an expert to use it. It is aimed at small and medium-sized firms, local government and emergency services, and other organisations can use it too.",
+     "Micro exercises are short and cover one subject. Tabletop exercises are group discussions of how the organisation would respond as an incident unfolds. Topics include ransomware, phishing, supply chain, passwords and vulnerabilities.",
+     "Each exercise comes as a pack with facilitator and participant materials. The NCSC suggests a facilitator plus a senior leader, a cyber security engineer and perhaps someone from HR or communications. An exercise opens with an event such as an attack on the organisation's IT. Open questions follow, a scribe takes notes, and the group ends by agreeing follow-up actions."
+    ],
+    "results": "This review found no independent evaluation of Exercise in a Box. The NCSC pages give no usage figures or results, and its feedback page only asks users whether the resource helped. The closest evidence comes from other settings. A 2013 meta-analysis found that structured debriefs improve performance by about 20 to 25%, which supports the reflection step but says nothing about this product.",
+    "limits": "It is a discussion exercise, so it tests plans and decisions on paper, not technical response under pressure. There is no public evidence that organisations which use it cope better with real incidents.",
+    "sources": [
+     {
+      "label": "National Cyber Security Centre, Exercise in a Box: overview.",
+      "url": "https://www.ncsc.gov.uk/section/exercise-in-a-box/overview",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "National Cyber Security Centre, Exercise in a Box: getting started.",
+      "url": "https://www.ncsc.gov.uk/section/exercise-in-a-box/getting-started",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "National Cyber Security Centre, Exercise in a Box: feedback.",
+      "url": "https://www.ncsc.gov.uk/section/exercise-in-a-box/feedback",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "Tannenbaum and Cerasoli (2013), Do team and individual debriefs enhance performance? A meta-analysis. Human Factors.",
+      "url": "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf",
+      "note": "Summary read 17 November 2026."
+     }
+    ],
+    "status": "Evidence is thin",
+    "thin": true,
+    "thinReason": "It is well documented and has a clear mechanism, but no evidence of results was found beyond the NCSC's own pages."
+   },
+   {
+    "slug": "duolingo",
+    "stage": 5,
+    "name": "Duolingo",
+    "programme": "Spaced practice at scale",
+    "what": "A language app that teaches through short quiz-style exercises. A statistical model estimates when each learner is about to forget each word and brings it back for practice.",
+    "why": "Recalling a word just before it fades strengthens memory more than rereading it. Spreading practice over days beats cramming.",
+    "borrow": "Plan when each key point comes back as a recall question, and bring the shaky ones back sooner.",
+    "story": [
+     "Duolingo first scheduled review with the Leitner system, a simple rule that moves an item to a longer or shorter gap depending on whether the learner got it right.",
+     "In 2016 two Duolingo researchers, Burr Settles and Brendan Meeder, published a replacement called half-life regression at a major computational linguistics conference. The model combines the classic forgetting curve with machine learning. It estimates how long each word is likely to stay in a learner's memory, using that learner's history of right and wrong answers.",
+     "They trained it on two weeks of app logs, about 12.9 million records of a learner practising a word. Its predictions of recall were at least 45 per cent more accurate than the older methods it was compared with. In a live test with millions of users, one version raised the share of learners who came back each day by about 12 per cent, and Duolingo rolled it out to everyone.",
+     "The independent study describes what this feels like for a learner. Short sessions on a phone were easy to fit in and the game features helped motivation, but a lot of time went on review and the tasks became repetitive."
+    ],
+    "results": "The evidence for the scheduling model is peer reviewed but was written by Duolingo staff, and it measures recall prediction and return visits, not language ability. A 2012 study that found about 34 hours on the app matched a university semester was paid for by Duolingo and used a text-only test. An independent study at Michigan State University in 2019 followed nine beginners learning Turkish for 12 to 35 hours. All of them learned some Turkish, but the average score on a first-semester university test was 48 per cent and only one person passed.",
+    "limits": "The independent study was tiny, and its learners were language researchers studying their own progress. Speaking and listening scores were lower than reading and writing, and critics say apps like this mainly build vocabulary. Spaced recall suits facts and words better than judgement or conversation.",
+    "sources": [
+     {
+      "label": "Settles and Meeder (2016), A Trainable Spaced Repetition Model for Language Learning. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics.",
+      "url": "https://aclanthology.org/P16-1174.pdf",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Loewen and colleagues (2019), Mobile-assisted language learning: A Duolingo case study. ReCALL 31(3).",
+      "url": "https://cambridge.org/core/services/aop-cambridge-core/content/view/A4D7C8F71782A37D258C19F357DDBCBE/S0958344019000065a.pdf/mobileassisted_language_learning_a_duolingo_case_study.pdf",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Vice (2017), Are Duolingo Users Actually Learning Anything Useful.",
+      "url": "https://www.vice.com/en/article/are-duolingo-users-actually-learning-anything-useful",
+      "note": "Summary read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
+   },
+   {
+    "slug": "khan-academy",
+    "stage": 2,
+    "name": "Khan Academy",
+    "programme": "Mastery learning online",
+    "what": "Free online lessons and practice exercises, mostly in maths. Learners work on a skill until they show they can do it, then move to the next one.",
+    "why": "New material builds on old. Checking that each step is secure before moving on stops gaps from piling up.",
+    "borrow": "Set a clear pass standard for each step, check it, and give people another go before you move on.",
+    "story": [
+     "Mastery learning is older than Khan Academy. The idea is to split a subject into small units, test each one, and give extra help and a second attempt to anyone who has not yet reached the standard.",
+     "Khan Academy applies this online. Learners watch videos and work through sets of practice problems, and the site records which skills each learner has reached proficiency or mastery in.",
+     "SRI Education studied how schools in the United States used it over the 2011 to 2013 school years. The study covered nine sites, 20 schools, more than 70 teachers and about 2,000 pupils a year in grades 5 to 10. Most teachers used Khan Academy to add practice to their own lessons, not to replace them."
+    ],
+    "results": "A 1990 review of 108 controlled studies of mastery learning found exam scores about half a standard deviation higher on average, long before Khan Academy existed. The SRI study, funded by the Gates Foundation, found that more use went with better than expected maths results and lower maths anxiety, but its authors warned against reading this as cause and effect. Khan Academy's own 2022 study of 99 districts reported gains of 0.26 standard deviations for pupils who did at least 30 minutes a week. Only 4.7 per cent of pupils reached that dose, and about 9 per cent did in the company's 2022 to 2023 data.",
+    "limits": "The usage studies are correlations, and keen pupils may both practise more and learn more. The 1990 review also found that fewer students finished self-paced college courses. Khan Academy's own research post, last updated in March 2025, reported no results yet for its AI tutor Khanmigo.",
+    "sources": [
+     {
+      "label": "Murphy, Gallagher, Krumm, Mislevy and Hafter (2014), Research on the Use of Khan Academy in Schools: Implementation Report. SRI Education.",
+      "url": "https://www.sri.com/publication/education-learning-pubs/digital-learning-pubs/research-on-the-use-of-khan-academy-in-schools-implementation-report/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "EdSurge (2014), Does Khan Academy Help Kids Learn Math.",
+      "url": "https://edsurge.com/news/2014-03-07-sri-studies-how-schools-use-khan-academy",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Kulik, Kulik and Bangert-Drowns (1990), Effectiveness of Mastery Learning Programs: A Meta-Analysis. Review of Educational Research 60(2).",
+      "url": "https://www.academia.edu/81783373/Effectiveness_of_Mastery_Learning_Programs_A_Meta_Analysis",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Holt (2024), The 5 Percent Problem. Education Next.",
+      "url": "https://www.educationnext.org/5-percent-problem-online-mathematics-programs-may-benefit-most-kids-who-need-it-least/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Khan Academy (2024), Khan Academy Efficacy Results, November 2024.",
+      "url": "https://blog.khanacademy.org/?p=18194",
+      "note": "Official page read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
+   },
+   {
+    "slug": "toastmasters",
+    "stage": 4,
+    "name": "Toastmasters International",
+    "programme": "Club practice with peer feedback",
+    "what": "A non-profit network of clubs where members give prepared speeches, answer impromptu questions and give each other structured feedback.",
+    "why": "Frequent practice in front of a real audience, with specific feedback straight afterwards, in a setting where mistakes cost little.",
+    "borrow": "Give every practice attempt a named peer evaluator who feeds back straight away.",
+    "story": [
+     "Toastmasters was founded in 1924. Its own site reports more than 270,000 members in over 14,000 clubs across 150 countries.",
+     "Clubs meet in person, online or both. Members prepare and deliver speeches, respond to questions with no preparation, and evaluate one another. The education programme is called Pathways and offers six learning paths."
+    ],
+    "results": "Independent evidence of results is thin. A 2022 review of academic research on Toastmasters, published in the Academic Journal of Modern Philology, states that few academic studies of the method exist. A small study with autistic adults, funded by the Organization for Autism Research, reported more confidence in speaking but no clear change in anxiety, loneliness or leadership skills. The only account of it found here is in Toastmasters' own magazine.",
+    "limits": "Members choose to join and choose to stay, so their progress cannot be separated from their motivation. No controlled study comparing members with similar non-members was found.",
+    "sources": [
+     {
+      "label": "Kalinska (2022), Revue des recherches universitaires sur Toastmasters International. Academic Journal of Modern Philology 18.",
+      "url": "https://ceeol.com/search/article-detail?id=1116252",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Toastmasters International, home page.",
+      "url": "https://www.toastmasters.org/",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "Toastmasters International (2026), Toastmasters could benefit autistic speakers. Toastmaster magazine.",
+      "url": "https://toastmasters.org/magazine/magazine-issues/2026/march/toastmasters-could-benefit-autistic-speakers",
+      "note": "Official page read 17 November 2026."
+     }
+    ],
+    "status": "Evidence is thin",
+    "thin": true,
+    "thinReason": "The mechanism is clear and well documented, but the one independent source found says research on results is scarce."
+   },
+   {
+    "slug": "hyper-island",
+    "stage": 8,
+    "name": "Hyper Island",
+    "programme": "Cohort learning on live client briefs",
+    "what": "A Swedish school for digital and creative work. Learners work in teams on real client briefs and reflect on how they worked together.",
+    "why": "The school bases its method on the experiential learning cycle: do, reflect, draw a general lesson, apply it.",
+    "borrow": "After each team task, hold a short reflection on how the group worked, not only on what it produced.",
+    "story": [
+     "A university directory profile traces the school to a 1994 meeting in Stockholm between three multimedia pioneers, Lars Lundh, Jonathan Briggs and David Erixon.",
+     "Hyper Island describes its method as learning by doing. Teams work on live briefs from real organisations in place of lectures and exams, with regular feedback and reflection. It calls the cycle the learning spiral and links it to Kolb's theory of experiential learning.",
+     "Its master's page lists full-time programmes in Stockholm and part-time online programmes with short on-site meet-ups in Stockholm or Karlskrona. The page says the programmes are accredited by Teesside University in the UK."
+    ],
+    "results": "No independent evidence of results was found. Hyper Island's pages say that research shows active learning goes deeper, but name no study, and offer alumni stories in place of completion or employment figures. The outside sources found are a directory profile and a trade press report of a survey that Hyper Island itself released.",
+    "limits": "With no outcome data, there is no way to tell how much any success comes from the method and how much from who applies. The general evidence for experiential learning is not evidence for this school.",
+    "sources": [
+     {
+      "label": "Hyper Island, Learning by doing: Hyper Island's experiential methodology.",
+      "url": "https://hyperisland.com/en/blog/learning-by-doing-hyper-islands-experiential-methodology",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "Hyper Island, Master's degree programmes.",
+      "url": "https://hyperisland.com/masters-degree?hsLang=en",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "QS Top Universities, Hyper Island Institute of Higher Education profile.",
+      "url": "https://www.topuniversities.com/node/295627",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Adweek (2014), Hyper Island Study Finds Personality Trumps Skill in Search for Talent.",
+      "url": "https://www.adweek.com/agencyspy/hyper-island-study-finds-personality-trumps-skill-in-search-for-talent/",
+      "note": "Summary read 17 November 2026."
+     }
+    ],
+    "status": "Evidence is thin",
+    "thin": true,
+    "thinReason": "Nothing beyond the school's own material shows results, so it fails the selection rule."
+   },
+   {
+    "slug": "outward-bound",
+    "stage": 8,
+    "name": "Outward Bound",
+    "programme": "Outdoor adventure courses",
+    "what": "Residential courses that take groups away from normal life and set them hard physical challenges outdoors, such as expeditions and sailing.",
+    "why": "The 1997 review authors suggest three reasons: full immersion with real consequences, hard goals built to be reachable, and far more feedback than a classroom gives.",
+    "borrow": "Set a goal that feels too hard, structure it so the group can reach it, and give feedback throughout.",
+    "story": [
+     "Outward Bound began in Aberdovey on the Welsh coast in 1941. The educator Kurt Hahn developed the idea and Lawrence Holt of the Blue Funnel shipping line paid for the first course. Holt wanted young merchant sailors to have the resilience to survive at sea in wartime, so the training mixed small-boat and survival skills with character building.",
+     "The model spread to other countries within a few years and was adapted to local settings. Outward Bound in the UK says more than 1.2 million people have taken a course.",
+     "In 1997 John Hattie and colleagues pulled together 96 studies of adventure programmes such as Outward Bound. Hattie noted that much earlier writing on the subject read like promotion."
+    ],
+    "results": "The 1997 review covered 96 studies and 151 samples. It found an average effect of 0.34 by the end of a course on outcomes such as self-concept and leadership, with a further gain of 0.17 at follow-up, which is unusual because most training effects fade. Results varied widely between programmes, and longer courses and older participants did better. The Education Endowment Foundation rates the evidence that outdoor adventure learning raises school attainment as extremely weak, based on nine studies, none independently evaluated.",
+    "limits": "The gains are in confidence and personal skills, not in job skills or exam results. The 1997 authors could not say why the effects lasted, and the strongest results came from courses of 20 days or more, so a one-day team event should not expect the same. Cost is a barrier, with the Foundation quoting about 1,000 pounds for a ten-day sailing course.",
+    "sources": [
+     {
+      "label": "Hattie, Marsh, Neill and Richards (1997), Adventure Education and Outward Bound: Out-of-Class Experiences That Make a Lasting Difference. Review of Educational Research 67(1).",
+      "url": "https://researchprofiles.canberra.edu.au/en/publications/adventure-education-and-outward-bound-out-of-class-experiences-th/",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Education Week (1997), Adventure Programs Found To Have Lasting, Positive Impact.",
+      "url": "https://www.edweek.org/leadership/adventure-programs-found-to-have-lasting-positive-impact/1997/05",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Education Endowment Foundation, Teaching and Learning Toolkit: Outdoor adventure learning.",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/outdoor-adventure-learning",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Outward Bound International, Our History.",
+      "url": "https://www.outwardbound.net/our-history/",
+      "note": "Official page read 17 November 2026."
+     },
+     {
+      "label": "The Outward Bound Trust, Our history.",
+      "url": "https://alpha.outwardbound.org.uk/our-history",
+      "note": "Official page read 17 November 2026."
+     }
+    ],
+    "status": "Sources checked 17 November 2026",
+    "thin": false,
+    "thinReason": ""
+   },
+   {
+    "slug": "mcdonalds-hamburger-university",
+    "stage": 6,
+    "name": "McDonald's",
+    "programme": "Hamburger University",
+    "what": "McDonald's own management school. Restaurant managers, franchisees and executives follow a set curriculum that mixes self-study, classroom sessions and practice in kitchen and service labs.",
+    "why": "One standard taught the same way everywhere, practised in realistic settings, and tied to qualifications that outside bodies recognise.",
+    "borrow": "Map your course to a recognised outside standard, so learners leave with something that counts elsewhere.",
+    "story": [
+     "McDonald's says Hamburger University started in 1961 in the basement of a restaurant in Elk Grove Village, Illinois, with a first class of 15. By its 50th anniversary in 2011 the company reported more than 275,000 graduates and campuses in Oak Brook, Tokyo, London, Sydney, Munich, Sao Paulo and Shanghai.",
+     "Management training runs in tiers, from shift management through systems management to a restaurant management programme held at Hamburger University. The trade magazine Chief Learning Officer reported that in 2002 the company moved from lecture-style classes to smaller facilitated sessions.",
+     "In 2005 the American Council on Education gave the US management curriculum 46 college credit recommendations, which can count towards a degree at colleges that accept them. In the UK, Personnel Today reported that McDonald's gained awarding body status in January 2008. Its first qualification was a Diploma in Shift Management, and from 2009 it offered a Level 2 hospitality apprenticeship to all staff.",
+     "McDonald's UK said in 2019 that it also runs a business management degree apprenticeship with Manchester Metropolitan University."
+    ],
+    "results": "Outside bodies have recognised the content: US college credit recommendations, UK awarding body status, and an Ofsted good practice example in 2012 about its apprentices' key skills work. That is evidence of course quality, not of what people learned or how restaurants performed. The results on record, such as fewer complaints and better mystery shopper scores, are the company's own reports. No independent study of outcomes was found.",
+    "limits": "Graduate and apprentice numbers come from McDonald's. The model depends on highly standardised work and the budget of a very large firm, so it does not carry over easily to small teams or less routine jobs.",
+    "sources": [
+     {
+      "label": "Chief Learning Officer (2005), McDonald's Awarded College Credit Recommendations from ACE.",
+      "url": "https://www.chieflearningofficer.com/?p=26574",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Personnel Today (2009), McDonald's staff offered hospitality apprenticeships.",
+      "url": "https://www.personneltoday.com/hr/mcdonalds-staff-offered-hospitality-apprenticeships",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Ofsted (2012), Enhancing apprentices' environmental awareness: McDonald's Restaurants Ltd. Good practice example, archived 2016.",
+      "url": "https://assets.publishing.service.gov.uk/media/5a8050dee5274a2e8ab4f723/McDonald_27s.pdf",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "Daily Herald (2011), report on Hamburger University's 50th anniversary.",
+      "url": "https://www.dailyherald.com/?p=889195",
+      "note": "Summary read 17 November 2026."
+     },
+     {
+      "label": "McDonald's UK (2019), McDonald's UK to double apprenticeship training opportunities in 2019.",
+      "url": "https://www.mcdonalds.com/gb/en-gb/newsroom/article/mcdonalds_apprentice.html",
+      "note": "Official page read 17 November 2026."
+     }
+    ],
+    "status": "Evidence is thin",
+    "thin": true,
+    "thinReason": "External accreditation is well documented, but no independent evidence of learning or business results was found."
    }
   ],
-  "candidatesToResearch": [
-   "Medical simulation centres",
-   "The US Army (after-action review)",
-   "UK NCSC (Exercise in a Box)",
-   "Duolingo (spacing and testing at scale)",
-   "Khan Academy (mastery learning)",
-   "Toastmasters (structured practice and peer feedback)",
-   "Hyper Island (cohort and residency learning)",
-   "Outward Bound (outdoor experiential learning)",
-   "McDonald's Hamburger University (corporate academy at scale)"
-  ],
+  "candidatesToResearch": [],
   "selectionRule": "Publicly documented, a clear mechanism, some evidence of results beyond their own marketing.",
   "candidatePill": "To research"
  }

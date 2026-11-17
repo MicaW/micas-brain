@@ -72,6 +72,7 @@ export default function Topic() {
                   <EvidenceRating tier={topic.tier} />
                 </p>
               )}
+              {part.key === 'why' && topic.tierReason && <p className="status">{topic.tierReason}</p>}
             </div>
             <div className="prose">
               <Blocks blocks={part.content} />

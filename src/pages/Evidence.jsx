@@ -182,7 +182,16 @@ export function Reading() {
             </p>
             <ul>
               {group.items.map((item) => (
-                <li key={item}>{item}</li>
+                <li key={item.label || item}>
+                  {item.url ? (
+                    <a className="txt" href={item.url} target="_blank" rel="noreferrer">
+                      {item.label}
+                      <span className="sr-only"> (opens in a new tab)</span>
+                    </a>
+                  ) : (
+                    item.label || item
+                  )}
+                </li>
               ))}
             </ul>
           </div>

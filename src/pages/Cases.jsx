@@ -41,7 +41,7 @@ export function CaseDetail() {
           <Link className="txt" to={stagePath(stage.n)}>
             {stageLabel(stage)}
           </Link>
-          <Pill>{cases.statusPill}</Pill>
+          <Pill>{item.status || cases.statusPill}</Pill>
         </div>
       </section>
       <div className="detail-grid">
@@ -50,8 +50,34 @@ export function CaseDetail() {
           <p>{item.what}</p>
           <h2>{cases.labels.why}</h2>
           <p>{item.why}</p>
+          {(item.story || []).length > 0 && <h2>How it runs</h2>}
+          {(item.story || []).map((para) => (
+            <p key={para}>{para}</p>
+          ))}
           <h2>The evidence</h2>
-          <p className="unwritten">Not written yet. This section needs public sources before anything is claimed.</p>
+          {item.thin && <p className="status">Evidence is thin. {item.thinReason}</p>}
+          {item.results ? <p>{item.results}</p> : <p className="unwritten">Not written yet. This section needs public sources before anything is claimed.</p>}
+          {item.limits && (
+            <>
+              <h2>Where it does not carry over</h2>
+              <p>{item.limits}</p>
+            </>
+          )}
+          {(item.sources || []).length > 0 && (
+            <>
+              <h2>Sources</h2>
+              <ul className="plain-list">
+                {item.sources.map((source) => (
+                  <li key={source.url}>
+                    <strong>{source.label}</strong>
+                    <a className="txt" href={source.url} target="_blank" rel="noreferrer">
+                      Open the source<span className="sr-only"> (opens in a new tab)</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
         <div className="borrow">
           <span>{cases.labels.borrow}</span>

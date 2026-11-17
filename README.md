@@ -26,11 +26,11 @@ The "Choose a format" page stays hidden unless `VITE_SHOW_FORMATS=true`.
 | Home | `/` | From the signed-off board, then changed on review: every mistake, finding, myth and case study is on the page, lists run in stage order, and counts are gone |
 | Playbook landing | `/playbook` | From the signed-off board, without topic counts |
 | Stage pages, 1 to 9 | `/playbook/stage-n` | One template, without counts |
-| Topic pages, 89 | `/playbook/stage-n/topic-title` | One layout: the situation and the practice on the first screen, then the reasons, an example and the sources. Topics are written from blocks (text, steps, diagram, research card, example, cards to remember, mechanic links, links out). One topic has labelled sample copy; the rest say "Not written yet" |
+| Topic pages, 149 | `/playbook/stage-n/topic-title` | One layout: the situation and the practice on the first screen, then the reasons, an example and the sources. Topics are written from blocks (text, steps, diagram, research card, example, cards to remember, mechanic links, links out). Every topic has a draft; checked topics show a rating and linked sources |
 | Learning mechanics | `/playbook/mechanics` and detail pages | Moved from the Toolkit into the Playbook |
 | Toolkit | `/toolkit`, `/toolkit/methods`, `/toolkit/recipes`, `/toolkit/templates` and their detail pages | First version for review, on real data exported from the toolkit workbook |
 | Evidence | `/evidence`, `/evidence/how-we-rate`, `/evidence/numbers`, `/evidence/studies`, `/evidence/reading` | First version for review. Glossary is outline only |
-| Case studies | `/case-studies`, `/case-studies/slug` | First version for review: 3 drafts, 9 still to research |
+| Case studies | `/case-studies`, `/case-studies/slug` | Twelve written from public sources, five marked as thin evidence |
 | About, Search | `/about`, `/search` | First version for review. Search works across topics, mistakes, findings, methods, mechanics, recipes and case studies |
 
 Only Home, the Playbook landing and the Stage page were signed off as designs. Everything else is a first version built from the same pieces and still needs sign-off.
@@ -68,11 +68,10 @@ One rule: a number in a coloured disc is a stage (1 to 9) or a topic in that sta
 
 Nothing confidential. Nothing unverified shown as checked. No invented evidence. Colour means stage; evidence is letter, bars and word. Practice first. See the build pack brief in the Project for the full list.
 
-## State on 17 November 2026 (end of build 1)
+## State on 17 November 2026 (evening, source check in progress)
 
-- 149 Playbook topics in nine stages. Every one has a draft body, three recall questions and a status label.
-- 89 topics are written from the curriculum outline, 60 from general knowledge. Each topic says which.
-- 27 references have been checked against their published summaries (Stage 1 and the movement topic). Every other reference is marked "Not checked yet".
-- Also drafted: 15 myths, a glossary, 13 template outlines, a reading list.
-- Not done: the nine case studies (they need real research and consent; nothing is invented), evidence ratings for Stages 2 to 9, source checks for Stages 2 to 9, legal topics checked by a qualified source, Google Workspace and Notion topics checked against current documentation.
-- Next: a five-perspective review of the full content, then build 2.
+- 149 Playbook topics in nine stages. Every one has a draft body, an illustrative example, three recall questions and a status label.
+- 0 topics are fully checked: sources opened and linked, evidence rated. Others are partly checked or still draft. The topic page says which.
+- Twelve case studies written from public sources. Five are marked as thin evidence.
+- Not done: the rest of the source check (it stopped when the search allowance ran out), the reading list links, 11 myths, the Google Workspace and Notion topics.
+- Next: finish the check, deploy to GitHub, then the five-perspective review.
