@@ -4,8 +4,6 @@ import { mechanics, methods, recipes, site, stageByN, stageLabel, topics } from 
 import SiteFooter from './components/SiteFooter.jsx';
 import SiteHeader from './components/SiteHeader.jsx';
 import About from './pages/About.jsx';
-import { CaseDetail, CaseIndex } from './pages/Cases.jsx';
-import { EvidenceHome, HowWeRate, Numbers, Reading, Studies } from './pages/Evidence.jsx';
 import Home from './pages/Home.jsx';
 import NotFound from './pages/NotFound.jsx';
 import { OutlinePage } from './pages/Outline.jsx';
@@ -16,7 +14,7 @@ import { MechanicDetail, MechanicList, MethodDetail, MethodFinder, RecipeDetail,
 import Topic from './pages/Topic.jsx';
 
 // Navigation and dashboard pages sit on the dark board. Reading pages sit on the light page.
-const BOARD = ['/', '/playbook', '/playbook/mechanics', '/toolkit', '/toolkit/methods', '/toolkit/recipes', '/evidence', '/case-studies'];
+const BOARD = ['/', '/playbook', '/playbook/mechanics', '/toolkit', '/toolkit/methods', '/toolkit/recipes', '/toolkit/templates'];
 const groundFor = (pathname) => (BOARD.includes(pathname) ? 'board' : 'page');
 const GROUND_COLOUR = { board: '#0b0b0c', page: '#e9e9e4' };
 
@@ -47,8 +45,9 @@ export default function App() {
   // The ground, the browser theme colour and the scrollbar follow the page.
   useEffect(() => {
     document.documentElement.dataset.theme = ground;
+    document.documentElement.dataset.snap = pathname === '/' ? 'on' : 'off';
     document.querySelector('meta[name="theme-color"]').setAttribute('content', GROUND_COLOUR[ground]);
-  }, [ground]);
+  }, [ground, pathname]);
 
   // On each new page: set the title, go to the top, and move focus to the content for keyboard and screen reader users.
   useEffect(() => {
@@ -81,15 +80,7 @@ export default function App() {
           <Route path="/toolkit/recipes" element={<RecipeList />} />
           <Route path="/toolkit/recipes/:slug" element={<RecipeDetail />} />
           <Route path="/toolkit/templates" element={<Templates />} />
-          <Route path="/evidence" element={<EvidenceHome />} />
-          <Route path="/evidence/how-we-rate" element={<HowWeRate />} />
-          <Route path="/evidence/numbers" element={<Numbers />} />
-          <Route path="/evidence/studies" element={<Studies />} />
-          <Route path="/evidence/reading" element={<Reading />} />
-          <Route path="/case-studies" element={<CaseIndex />} />
-          <Route path="/case-studies/:slug" element={<CaseDetail />} />
           <Route path="/about" element={<About />} />
-          <Route path="/about/learning-log" element={<About />} />
           <Route path="/search" element={<Search />} />
           {site.outline.map((page) => (
             <Route key={page.path} path={page.path} element={<OutlinePage />} />

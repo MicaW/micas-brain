@@ -13,8 +13,8 @@ export default function Stage() {
   const stage = stageByN(String(stageParam).replace('stage-', ''));
   const partCount = stage ? stage.parts.length : 0;
   // A stage with a single part opens it straight away: there is nothing to choose between.
-  const [open, setOpen] = useState(() => Array(partCount).fill(true));
-  useEffect(() => setOpen(Array(partCount).fill(true)), [stageParam, partCount]);
+  const [open, setOpen] = useState(() => Array(partCount).fill(partCount === 1));
+  useEffect(() => setOpen(Array(partCount).fill(partCount === 1)), [stageParam, partCount]);
 
   if (!stage) return <NotFound />;
 

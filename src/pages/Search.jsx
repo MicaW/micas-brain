@@ -12,7 +12,7 @@ const INDEX = [
   ...methods.map((m) => ({ group: 'Methods', name: m.name, sub: m.description, to: `/toolkit/methods/${m.slug}`, extra: m.variants.map((v) => v.name).join(' ') })),
   ...mechanics.map((m) => ({ group: 'Learning mechanics', name: m.name, sub: m.useful, to: `/playbook/mechanics/${m.slug}` })),
   ...recipes.map((r) => ({ group: 'Session recipes', name: r.name, sub: r.purpose, to: `/toolkit/recipes/${r.slug}` })),
-  ...home.cases.items.map((c) => ({ group: 'Case studies', name: c.name, sub: c.programme, to: `/case-studies/${c.slug}` })),
+  ...home.cases.items.map((c) => ({ group: 'Case studies', name: c.name, sub: c.programme, to: '/' })),
 ].map((entry) => ({ ...entry, text: `${entry.name} ${entry.sub} ${entry.extra || ''}`.toLowerCase() }));
 
 export default function Search() {
@@ -34,7 +34,7 @@ export default function Search() {
         <label className="sr-only" htmlFor="search-page-q">
           Search the site
         </label>
-        <input id="search-page-q" className="lib-search" type="search" placeholder="Search methods, topics, studies" value={query} onChange={(e) => setParams(e.target.value ? { q: e.target.value } : {}, { replace: true })} autoComplete="off" />
+        <input id="search-page-q" className="lib-search" type="search" placeholder="Search topics, methods, recipes" value={query} onChange={(e) => setParams(e.target.value ? { q: e.target.value } : {}, { replace: true })} autoComplete="off" />
       </section>
       <section aria-label="Results" aria-live="polite">
         {!query.trim() && <p className="lib-empty">Type a word to search topics, mistakes, findings, methods, mechanics, recipes and case studies.</p>}

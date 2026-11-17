@@ -10,6 +10,7 @@ export default function Home() {
   const { hero, playbookTile, toolkitTile, myths, cases } = home;
   return (
     <>
+      <div className="vp vp-first">
       <section className="hero" aria-labelledby="h-home">
         <h1 id="h-home" className="hero-h1">
           {hero.h1}
@@ -50,6 +51,8 @@ export default function Home() {
         </div>
       </section>
 
+      </div>
+
       <FlipDeck
         id="h-mistakes"
         pill={home.mistakes.pill}
@@ -80,7 +83,7 @@ export default function Home() {
 
       <MythStack myths={myths} />
 
-      <section className="cases" aria-labelledby="h-cases">
+      <section className="cases vp" aria-labelledby="h-cases">
         <h2 id="h-cases" className="h2">
           {cases.heading}
         </h2>

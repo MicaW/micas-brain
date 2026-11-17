@@ -113,7 +113,9 @@ function Block({ block }) {
                   {block.table.rows.map((row, r) => (
                     <tr key={r}>
                       {row.map((cell, c) => (
-                        <td key={c}>{cell}</td>
+                        <td key={c} data-label={block.table.head[c]}>
+                          {cell}
+                        </td>
                       ))}
                     </tr>
                   ))}

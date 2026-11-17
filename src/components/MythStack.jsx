@@ -21,7 +21,7 @@ export default function MythStack({ myths }) {
   const myth = all[index];
   const counter = myths.counter.replace('{n}', index + 1).replace('{total}', total);
   return (
-    <section className="g myths" aria-labelledby="h-myths">
+    <section className="g myths vp" aria-labelledby="h-myths">
       <div className="s5 myth-side">
         <Pill className="start">{myths.pill}</Pill>
         <h2 id="h-myths" className="h2">

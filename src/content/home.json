@@ -660,47 +660,6 @@
   "statusPill": "Draft, to be verified",
   "items": [
    {
-    "slug": "toyota",
-    "stage": 4,
-    "name": "Toyota",
-    "programme": "Job Instruction",
-    "what": "Supervisors teach a job in four steps. Prepare the worker, present the job, let the worker try it, then follow up.",
-    "why": "The learner sees the job, hears it explained, tries it straight away and is corrected on the spot. New detail is added in layers.",
-    "borrow": "Before you teach a task, break it into its important steps, the key points for each step and the reasons why.",
-    "story": [
-     "Job Instruction is one of the Training Within Industry (TWI) programmes. The United States set up the TWI Service in August 1940 under the National Defense Advisory Commission. It moved to the War Manpower Commission in April 1942 and closed in September 1945. Its four steps come from a method Charles R. Allen built for shipyard workers in the First World War.",
-     "After the war the Allied occupation brought TWI to Japan. A team led by Lowell Mellon, a former TWI instructor, spent six months training 35 master instructors, who then trained others. Toyota ran its own version of the programme. John Shook, who joined Toyota in 1983, later found the original English TWI manual in Toyota's files while adapting training for the NUMMI plant in California.",
-     "The trainer prepares a job breakdown sheet first. It lists the important steps, the key points and the reasons why. The trainer shows the job more than once and adds a layer of detail each time. The worker then does the job and explains it back. Support continues until the worker can do the job alone. The Lean Enterprise Institute says Job Instruction is still the main training tool for Toyota team leaders."
-    ],
-    "results": "The evidence of results is old and self-reported. The TWI Service's own 1945 report says 86% of plants surveyed that September reported production gains of 25% or more, and all reported training time cut by 25% or more. Those figures came from the plants and the programme itself, and they cover wartime America, not Toyota. This review found no independent measured study of Job Instruction at Toyota.",
-    "limits": "The method suits repeatable tasks that have one known best way. One lean researcher notes that TWI teaches and leads workers well but does not deal with the wider management system.",
-    "sources": [
-     {
-      "label": "Lean Enterprise Institute (undated), Training Within Industry (TWI).",
-      "url": "https://www.lean.org/?p=1822",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "Huntzinger, J. (undated), The Roots of Lean. Training Within Industry: The Origin of Japanese Management and Kaizen.",
-      "url": "https://www.lean.org/downloads/105.pdf",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Roser, C. (2018, updated 2025), Training within Industry, TWI, Oldies but Goldies. AllAboutLean.com.",
-      "url": "https://www.allaboutlean.com/training-within-industry/",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Dinero, D. A. (2005), Training Within Industry: The Foundation of Lean. Productivity Press.",
-      "url": "https://www.routledge.com/product/isbn/9781563273070",
-      "note": "Book. Publisher's description read 17 November 2026."
-     }
-    ],
-    "status": "Evidence is thin",
-    "thin": true,
-    "thinReason": "The method and its history are well documented by writers outside Toyota, but the only results figures are the wartime programme's own plant reports and nothing measured at Toyota was found."
-   },
-   {
     "slug": "commercial-aviation",
     "stage": 5,
     "name": "Commercial aviation",
@@ -855,47 +814,6 @@
     "thinReason": ""
    },
    {
-    "slug": "uk-ncsc",
-    "stage": 4,
-    "name": "UK National Cyber Security Centre",
-    "programme": "Exercise in a Box",
-    "what": "A free online set of ready-made exercises that lets an organisation rehearse its response to a cyber attack. It has 20 exercises on 12 topics, in micro and tabletop formats.",
-    "why": "A group talks through an unfolding incident using open questions, then reflects and agrees follow-up actions. Everything a facilitator needs is supplied.",
-    "borrow": "Package an exercise so a non-expert can run it, with a facilitator guide, a scenario, open questions and a sheet for actions.",
-    "story": [
-     "Exercise in a Box is still live under that name on the NCSC website in November 2026. The NCSC says it is free and that you do not need to be an expert to use it. It is aimed at small and medium-sized firms, local government and emergency services, and other organisations can use it too.",
-     "Micro exercises are short and cover one subject. Tabletop exercises are group discussions of how the organisation would respond as an incident unfolds. Topics include ransomware, phishing, supply chain, passwords and vulnerabilities.",
-     "Each exercise comes as a pack with facilitator and participant materials. The NCSC suggests a facilitator plus a senior leader, a cyber security engineer and perhaps someone from HR or communications. An exercise opens with an event such as an attack on the organisation's IT. Open questions follow, a scribe takes notes, and the group ends by agreeing follow-up actions."
-    ],
-    "results": "This review found no independent evaluation of Exercise in a Box. The NCSC pages give no usage figures or results, and its feedback page only asks users whether the resource helped. The closest evidence comes from other settings. A 2013 meta-analysis found that structured debriefs improve performance by about 20 to 25%, which supports the reflection step but says nothing about this product.",
-    "limits": "It is a discussion exercise, so it tests plans and decisions on paper, not technical response under pressure. There is no public evidence that organisations which use it cope better with real incidents.",
-    "sources": [
-     {
-      "label": "National Cyber Security Centre, Exercise in a Box: overview.",
-      "url": "https://www.ncsc.gov.uk/section/exercise-in-a-box/overview",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "National Cyber Security Centre, Exercise in a Box: getting started.",
-      "url": "https://www.ncsc.gov.uk/section/exercise-in-a-box/getting-started",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "National Cyber Security Centre, Exercise in a Box: feedback.",
-      "url": "https://www.ncsc.gov.uk/section/exercise-in-a-box/feedback",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "Tannenbaum and Cerasoli (2013), Do team and individual debriefs enhance performance? A meta-analysis. Human Factors.",
-      "url": "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf",
-      "note": "Summary read 17 November 2026."
-     }
-    ],
-    "status": "Evidence is thin",
-    "thin": true,
-    "thinReason": "It is well documented and has a clear mechanism, but no evidence of results was found beyond the NCSC's own pages."
-   },
-   {
     "slug": "duolingo",
     "stage": 5,
     "name": "Duolingo",
@@ -979,82 +897,6 @@
     "thinReason": ""
    },
    {
-    "slug": "toastmasters",
-    "stage": 4,
-    "name": "Toastmasters International",
-    "programme": "Club practice with peer feedback",
-    "what": "A non-profit network of clubs where members give prepared speeches, answer impromptu questions and give each other structured feedback.",
-    "why": "Frequent practice in front of a real audience, with specific feedback straight afterwards, in a setting where mistakes cost little.",
-    "borrow": "Give every practice attempt a named peer evaluator who feeds back straight away.",
-    "story": [
-     "Toastmasters was founded in 1924. Its own site reports more than 270,000 members in over 14,000 clubs across 150 countries.",
-     "Clubs meet in person, online or both. Members prepare and deliver speeches, respond to questions with no preparation, and evaluate one another. The education programme is called Pathways and offers six learning paths."
-    ],
-    "results": "Independent evidence of results is thin. A 2022 review of academic research on Toastmasters, published in the Academic Journal of Modern Philology, states that few academic studies of the method exist. A small study with autistic adults, funded by the Organization for Autism Research, reported more confidence in speaking but no clear change in anxiety, loneliness or leadership skills. The only account of it found here is in Toastmasters' own magazine.",
-    "limits": "Members choose to join and choose to stay, so their progress cannot be separated from their motivation. No controlled study comparing members with similar non-members was found.",
-    "sources": [
-     {
-      "label": "Kalinska (2022), Revue des recherches universitaires sur Toastmasters International. Academic Journal of Modern Philology 18.",
-      "url": "https://ceeol.com/search/article-detail?id=1116252",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Toastmasters International, home page.",
-      "url": "https://www.toastmasters.org/",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "Toastmasters International (2026), Toastmasters could benefit autistic speakers. Toastmaster magazine.",
-      "url": "https://toastmasters.org/magazine/magazine-issues/2026/march/toastmasters-could-benefit-autistic-speakers",
-      "note": "Official page read 17 November 2026."
-     }
-    ],
-    "status": "Evidence is thin",
-    "thin": true,
-    "thinReason": "The mechanism is clear and well documented, but the one independent source found says research on results is scarce."
-   },
-   {
-    "slug": "hyper-island",
-    "stage": 8,
-    "name": "Hyper Island",
-    "programme": "Cohort learning on live client briefs",
-    "what": "A Swedish school for digital and creative work. Learners work in teams on real client briefs and reflect on how they worked together.",
-    "why": "The school bases its method on the experiential learning cycle: do, reflect, draw a general lesson, apply it.",
-    "borrow": "After each team task, hold a short reflection on how the group worked, not only on what it produced.",
-    "story": [
-     "A university directory profile traces the school to a 1994 meeting in Stockholm between three multimedia pioneers, Lars Lundh, Jonathan Briggs and David Erixon.",
-     "Hyper Island describes its method as learning by doing. Teams work on live briefs from real organisations in place of lectures and exams, with regular feedback and reflection. It calls the cycle the learning spiral and links it to Kolb's theory of experiential learning.",
-     "Its master's page lists full-time programmes in Stockholm and part-time online programmes with short on-site meet-ups in Stockholm or Karlskrona. The page says the programmes are accredited by Teesside University in the UK."
-    ],
-    "results": "No independent evidence of results was found. Hyper Island's pages say that research shows active learning goes deeper, but name no study, and offer alumni stories in place of completion or employment figures. The outside sources found are a directory profile and a trade press report of a survey that Hyper Island itself released.",
-    "limits": "With no outcome data, there is no way to tell how much any success comes from the method and how much from who applies. The general evidence for experiential learning is not evidence for this school.",
-    "sources": [
-     {
-      "label": "Hyper Island, Learning by doing: Hyper Island's experiential methodology.",
-      "url": "https://hyperisland.com/en/blog/learning-by-doing-hyper-islands-experiential-methodology",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "Hyper Island, Master's degree programmes.",
-      "url": "https://hyperisland.com/masters-degree?hsLang=en",
-      "note": "Official page read 17 November 2026."
-     },
-     {
-      "label": "QS Top Universities, Hyper Island Institute of Higher Education profile.",
-      "url": "https://www.topuniversities.com/node/295627",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Adweek (2014), Hyper Island Study Finds Personality Trumps Skill in Search for Talent.",
-      "url": "https://www.adweek.com/agencyspy/hyper-island-study-finds-personality-trumps-skill-in-search-for-talent/",
-      "note": "Summary read 17 November 2026."
-     }
-    ],
-    "status": "Evidence is thin",
-    "thin": true,
-    "thinReason": "Nothing beyond the school's own material shows results, so it fails the selection rule."
-   },
-   {
     "slug": "outward-bound",
     "stage": 8,
     "name": "Outward Bound",
@@ -1099,53 +941,6 @@
     "status": "Sources checked 17 November 2026",
     "thin": false,
     "thinReason": ""
-   },
-   {
-    "slug": "mcdonalds-hamburger-university",
-    "stage": 6,
-    "name": "McDonald's",
-    "programme": "Hamburger University",
-    "what": "McDonald's own management school. Restaurant managers, franchisees and executives follow a set curriculum that mixes self-study, classroom sessions and practice in kitchen and service labs.",
-    "why": "One standard taught the same way everywhere, practised in realistic settings, and tied to qualifications that outside bodies recognise.",
-    "borrow": "Map your course to a recognised outside standard, so learners leave with something that counts elsewhere.",
-    "story": [
-     "McDonald's says Hamburger University started in 1961 in the basement of a restaurant in Elk Grove Village, Illinois, with a first class of 15. By its 50th anniversary in 2011 the company reported more than 275,000 graduates and campuses in Oak Brook, Tokyo, London, Sydney, Munich, Sao Paulo and Shanghai.",
-     "Management training runs in tiers, from shift management through systems management to a restaurant management programme held at Hamburger University. The trade magazine Chief Learning Officer reported that in 2002 the company moved from lecture-style classes to smaller facilitated sessions.",
-     "In 2005 the American Council on Education gave the US management curriculum 46 college credit recommendations, which can count towards a degree at colleges that accept them. In the UK, Personnel Today reported that McDonald's gained awarding body status in January 2008. Its first qualification was a Diploma in Shift Management, and from 2009 it offered a Level 2 hospitality apprenticeship to all staff.",
-     "McDonald's UK said in 2019 that it also runs a business management degree apprenticeship with Manchester Metropolitan University."
-    ],
-    "results": "Outside bodies have recognised the content: US college credit recommendations, UK awarding body status, and an Ofsted good practice example in 2012 about its apprentices' key skills work. That is evidence of course quality, not of what people learned or how restaurants performed. The results on record, such as fewer complaints and better mystery shopper scores, are the company's own reports. No independent study of outcomes was found.",
-    "limits": "Graduate and apprentice numbers come from McDonald's. The model depends on highly standardised work and the budget of a very large firm, so it does not carry over easily to small teams or less routine jobs.",
-    "sources": [
-     {
-      "label": "Chief Learning Officer (2005), McDonald's Awarded College Credit Recommendations from ACE.",
-      "url": "https://www.chieflearningofficer.com/?p=26574",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Personnel Today (2009), McDonald's staff offered hospitality apprenticeships.",
-      "url": "https://www.personneltoday.com/hr/mcdonalds-staff-offered-hospitality-apprenticeships",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Ofsted (2012), Enhancing apprentices' environmental awareness: McDonald's Restaurants Ltd. Good practice example, archived 2016.",
-      "url": "https://assets.publishing.service.gov.uk/media/5a8050dee5274a2e8ab4f723/McDonald_27s.pdf",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "Daily Herald (2011), report on Hamburger University's 50th anniversary.",
-      "url": "https://www.dailyherald.com/?p=889195",
-      "note": "Summary read 17 November 2026."
-     },
-     {
-      "label": "McDonald's UK (2019), McDonald's UK to double apprenticeship training opportunities in 2019.",
-      "url": "https://www.mcdonalds.com/gb/en-gb/newsroom/article/mcdonalds_apprentice.html",
-      "note": "Official page read 17 November 2026."
-     }
-    ],
-    "status": "Evidence is thin",
-    "thin": true,
-    "thinReason": "External accreditation is well documented, but no independent evidence of learning or business results was found."
    }
   ],
   "candidatesToResearch": [],

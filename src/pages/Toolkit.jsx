@@ -14,6 +14,32 @@ const LIBRARIES = [
   { to: '/toolkit/templates', title: 'Templates', text: 'Working documents to copy: a needs analysis, a session plan, an evaluation plan.', tone: 'lime', span: 's12' },
 ];
 
+// Names in the workbook data become links where a page exists.
+const norm = (text) => String(text).trim().toLowerCase().replace(/\.$/, '');
+function NameLinks({ text }) {
+  const names = splitList(text);
+  return names.map((name, i) => {
+    const key = norm(name);
+    const mech = mechanics.find((m) => norm(m.name) === key);
+    const meth = methods.find((m) => norm(m.name) === key || norm(m.formerName || '') === key);
+    const rec = recipes.find((r) => norm(r.name) === key || norm(r.plainName || '') === key);
+    const to = mech ? `/playbook/mechanics/${mech.slug}` : meth ? `/toolkit/methods/${meth.slug}` : rec ? `/toolkit/recipes/${rec.slug}` : null;
+    const label = rec ? rec.plainName || rec.name : meth ? meth.name : name;
+    return (
+      <span key={name + i}>
+        {i > 0 && ', '}
+        {to ? (
+          <Link className="txt" to={to}>
+            {label}
+          </Link>
+        ) : (
+          label
+        )}
+      </span>
+    );
+  });
+}
+
 export function ToolkitHome() {
   return (
     <>
@@ -44,9 +70,9 @@ export function ToolkitHome() {
               <h3>{row.need.replace(' after the retreat', ' afterwards')}</h3>
               <dl className="kv">
                 <dt>Lean on these mechanics</dt>
-                <dd>{splitList(row.mechanics).join(', ')}</dd>
+                <dd><NameLinks text={row.mechanics} /></dd>
                 <dt>Recipes to start from</dt>
-                <dd>{splitList(row.recipes).join(', ')}</dd>
+                <dd><NameLinks text={row.recipes} /></dd>
                 <dt>Why</dt>
                 <dd>{row.why}</dd>
               </dl>
@@ -260,7 +286,7 @@ export function MethodDetail() {
           )}
         </div>
         <aside aria-label="Key facts">
-          <Facts rows={[['Time', m.time], ['Group', m.group], ['Format', m.format], ['When to use it', m.phase.replace(' retreat experience', ' session')], ['Why it works', splitList(m.mechanics).join(', ')]]} />
+          <Facts rows={[['Time', m.time], ['Group', m.group], ['Format', m.format], ['When to use it', m.phase.replace(' retreat experience', ' session')], ['Why it works', <NameLinks text={m.mechanics} />]]} />
         </aside>
       </div>
     </>
@@ -292,7 +318,7 @@ export function MechanicDetail() {
           <p>{m.checks}</p>
         </div>
         <aside aria-label="Key facts">
-          <Facts rows={[['Most useful for', m.useful], ['Methods that use it', m.methods], ['Evidence base', m.basis]]} />
+          <Facts rows={[['Most useful for', m.useful], ['Methods that use it', <NameLinks text={m.methods} />], ['Evidence base', m.basis]]} />
         </aside>
       </div>
     </>
@@ -329,7 +355,7 @@ export function RecipeDetail() {
           <Bullets text={r.outputs} />
         </div>
         <aside aria-label="Key facts">
-          <Facts rows={[['Who it suits', r.audience], ['Best for', r.bestUse], ['Methods combined', splitList(r.methods).join(', ')], ['Mechanics at work', splitList(r.mechanics).join(', ')], ['Room and setup', r.setup], ['People you need', r.needs]]} />
+          <Facts rows={[['Who it suits', r.audience], ['Best for', r.bestUse], ['Methods combined', <NameLinks text={r.methods} />], ['Mechanics at work', <NameLinks text={r.mechanics} />], ['Room and setup', r.setup], ['People you need', r.needs]]} />
         </aside>
       </div>
     </>
@@ -341,7 +367,11 @@ export function Templates() {
   return (
     <>
       <section className="detail-head" aria-labelledby="h-detail">
-        <Crumb to="/toolkit/templates" label="Templates" />
+        <nav className="crumb" aria-label="Breadcrumb">
+          <Link className="txt" to="/toolkit">
+            Toolkit
+          </Link>
+        </nav>
         <h1 id="h-detail" className="detail-h1">
           Templates
         </h1>
@@ -359,7 +389,7 @@ export function Templates() {
               <p>
                 <strong>When to use it.</strong> {t.when}
               </p>
-              <h3>What goes in it</h3>
+              <h2 className="tpl-h">What goes in it</h2>
               <dl className="tpl-fields">
                 {t.fields.map((f) => (
                   <div key={f.heading}>

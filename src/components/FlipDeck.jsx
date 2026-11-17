@@ -37,7 +37,7 @@ export default function FlipDeck({ id, pill, heading, items, front, back, first 
   const spread = sorted.filter((item) => !seen.has(item.stage) && seen.add(item.stage)).slice(0, first);
   const shown = all ? sorted : spread;
   return (
-    <section className="deck" aria-labelledby={id}>
+    <section className="deck vp" aria-labelledby={id}>
       <div className="deck-head">
         <Pill className="start">{pill}</Pill>
         <h2 id={id} className="h2">

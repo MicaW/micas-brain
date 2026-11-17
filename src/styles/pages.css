@@ -534,7 +534,7 @@
 @media (max-width: 1000px) {
   .detail-grid,
   .need {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 @media (max-width: 760px) {
@@ -756,7 +756,7 @@
 }
 @media (max-width: 1000px) {
   .tp-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 @media (max-width: 620px) {
@@ -1147,7 +1147,7 @@
   padding: 0 0 32px;
   max-width: 760px;
 }
-.tpl-body h3 {
+.tpl-body .tpl-h {
   margin: 24px 0 8px;
   font: 600 15px/1.3 var(--font-sans);
 }
@@ -1294,4 +1294,97 @@ dl.tpl-fields dd {
   .flip {
     min-height: 0;
   }
+}
+
+/* Round 3 */
+body {
+  overflow-wrap: anywhere;
+}
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+.b-artefact {
+  color: var(--on-tile);
+}
+.cs-more h3 {
+  margin: 20px 0 6px;
+  font: 600 14px/1.3 var(--font-sans);
+  letter-spacing: 0;
+}
+.cs-more h3:first-child {
+  margin-top: 0;
+}
+@media (max-width: 720px) {
+  .steps li {
+    line-height: 1.3;
+  }
+  .b-quiz summary {
+    line-height: 1.4;
+  }
+}
+@media (max-width: 620px) {
+  .b-artefact table,
+  .b-artefact tbody,
+  .b-artefact tr,
+  .b-artefact td {
+    display: block;
+  }
+  .b-artefact thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .b-artefact tr {
+    padding: 12px 0;
+    border-top: 1px solid currentColor;
+  }
+  .b-artefact tr:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+  .b-artefact td {
+    padding: 2px 0;
+    border: 0;
+  }
+  .b-artefact td::before {
+    content: attr(data-label) ': ';
+    font-weight: 600;
+  }
+  .b-artefact td:first-child::before {
+    content: none;
+  }
+}
+/* Home: each section fills a screen and settles into place as you scroll. */
+@media (min-width: 900px) and (min-height: 680px) {
+  html[data-snap='on'] {
+    scroll-snap-type: y proximity;
+    scroll-padding-top: 16px;
+  }
+  .home .vp {
+    min-height: calc(100vh - 32px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
+  .home .vp-first {
+    min-height: calc(100vh - 140px);
+    justify-content: flex-start;
+    gap: 40px;
+    scroll-snap-align: none;
+  }
+  .home .myths.vp {
+    display: grid;
+    align-content: center;
+  }
+}
+.vp-first {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }

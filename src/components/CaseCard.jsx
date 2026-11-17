@@ -23,11 +23,11 @@ export default function CaseCard({ item, labels }) {
       {open && (
         <div className="cs-more" id={id}>
           <div>
-            <h4>{labels.what}</h4>
+            <h3>{labels.what}</h3>
             <p>{item.what}</p>
-            <h4>{labels.why}</h4>
+            <h3>{labels.why}</h3>
             <p>{item.why}</p>
-            {(item.story || []).length > 0 && <h4>How it runs</h4>}
+            {(item.story || []).length > 0 && <h3>How it runs</h3>}
             {(item.story || []).map((para) => (
               <p key={para}>{para}</p>
             ))}
@@ -35,17 +35,17 @@ export default function CaseCard({ item, labels }) {
           <div>
             {item.results && (
               <>
-                <h4>The evidence</h4>
+                <h3>The evidence</h3>
                 <p>{item.results}</p>
               </>
             )}
             {item.limits && (
               <>
-                <h4>Where it does not carry over</h4>
+                <h3>Where it does not carry over</h3>
                 <p>{item.limits}</p>
               </>
             )}
-            {(item.sources || []).length > 0 && <h4>Sources</h4>}
+            {(item.sources || []).length > 0 && <h3>Sources</h3>}
             <ul>
               {(item.sources || []).map((source) => (
                 <li key={source.url}>
