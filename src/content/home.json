@@ -1,0 +1,540 @@
+{
+ "_note": "Text exactly as on the signed-off Home board (17 Nov 2026). topicId points into playbook.json; boardLinkLabel is the label shown on the board. Link labels are generated from the topic at build time so they stay consistent.",
+ "hero": {
+  "h1": "How do we deliver the best training possible today?",
+  "intro": "A working handbook for people who design and run training. Each practice says what to do first, then why it works and where that comes from."
+ },
+ "playbookTile": {
+  "pill": "The Playbook",
+  "heading": "Learn the craft of training",
+  "body": "",
+  "button": "Open the Playbook"
+ },
+ "toolkitTile": {
+  "pill": "The Toolkit",
+  "heading": "Find methods, recipes and ideas for sessions",
+  "button": "Open the Toolkit",
+  "links": [
+   {
+    "label": "Methods",
+    "to": "/toolkit/methods"
+   },
+   {
+    "label": "Session recipes",
+    "to": "/toolkit/recipes"
+   },
+   {
+    "label": "Templates",
+    "to": "/toolkit/templates"
+   }
+  ]
+ },
+ "mistakes": {
+  "pill": "What companies get wrong",
+  "heading": "Common mistakes, and what to do instead",
+  "labels": {
+   "why": "Why it fails.",
+   "instead": "Do this instead."
+  },
+  "status": "Draft wording. Each \"why\" needs its citation checked when the linked topic is written.",
+  "items": [
+   {
+    "stage": 2,
+    "title": "Ordering a course for a problem training cannot fix.",
+    "why": "If people could do the job when it really mattered, the cause is tools, incentives or unclear expectations. No course changes those.",
+    "instead": "Ask whether they could do it if they had to. If yes, fix the environment. If no, train.",
+    "topicId": "s1-t17",
+    "boardLinkLabel": "Stage 2: Skill problem or will problem?"
+   },
+   {
+    "stage": 5,
+    "title": "Running a one-off event with nothing before or after it.",
+    "why": "Whether learning shows up at work depends on the manager and the workplace as much as on the session.",
+    "instead": "Plan the manager conversation, the first use at work and the follow-up before you plan the day.",
+    "topicId": "s5-t01",
+    "boardLinkLabel": "Stage 5: The transfer problem"
+   },
+   {
+    "stage": 6,
+    "title": "Counting attendance and satisfaction as proof it worked.",
+    "why": "How much people enjoyed a session says little about what they learned or what they now do.",
+    "instead": "Decide up front what people should do differently, and go and look for that.",
+    "topicId": "s6-t01",
+    "boardLinkLabel": "Stage 6: Evaluation models, used critically"
+   },
+   {
+    "stage": 7,
+    "title": "Teaching the AI tool without changing the work around it.",
+    "why": "People go back to the same workflow, access and targets, so the old way of working wins.",
+    "instead": "Pick one real workflow, redesign it with the tool, and train people on that.",
+    "topicId": "s7-t04",
+    "boardLinkLabel": "Stage 7: Training people for an AI world"
+   },
+   {
+    "stage": 3,
+    "title": "Filling slides with text, then reading them out.",
+    "why": "Reading and listening to the same words at once overloads a very limited working memory.",
+    "instead": "One claim per slide, with evidence. Say the detail; do not show it.",
+    "topicId": "s3-t02",
+    "boardLinkLabel": "Stage 3: The multimedia design principles"
+   },
+   {
+    "stage": 1,
+    "title": "Designing around learning styles.",
+    "why": "There is no good evidence that matching teaching to a preferred style improves learning.",
+    "instead": "Match the medium to the content: show a process, describe a principle, practise a skill.",
+    "topicId": "s1-t08",
+    "boardLinkLabel": "Stage 1: Drop learning styles and the other big myths"
+   },
+   {
+    "stage": 5,
+    "title": "Leaving managers out of it.",
+    "why": "What a manager expects and reinforces afterwards is one of the strongest influences on whether new skills get used.",
+    "instead": "Give managers three things to do: one before, one during, one after.",
+    "topicId": "s2-t04",
+    "boardLinkLabel": "Stage 2: Stakeholders, managers and the transfer environment"
+   },
+   {
+    "stage": 1,
+    "title": "Cramming everything into one long day.",
+    "why": "Practice packed into one sitting feels productive and fades fast. The gaps between sessions are where memory settles.",
+    "instead": "Cut the content, split the day, and come back to the key ideas later.",
+    "topicId": "s1-t03",
+    "boardLinkLabel": "Stage 1: Make practice harder in the ways that help"
+   },
+   {
+    "stage": 3,
+    "title": "Choosing the medium before the goal.",
+    "why": "A video, an app or a headset does not teach by itself. The method does, whatever carries it.",
+    "instead": "Start from what people must be able to do, then pick the medium that makes that practice possible.",
+    "topicId": "s3-t05",
+    "boardLinkLabel": "Stage 3: Choosing the medium"
+   },
+   {
+    "stage": 2,
+    "title": "Writing objectives that say \"understand\" or \"be aware of\".",
+    "why": "Nobody can observe understanding, so nobody can design for it or check it.",
+    "instead": "Write what people will be able to do, under what conditions, and how well.",
+    "topicId": "s2-t06",
+    "boardLinkLabel": "Stage 2: Learning objectives and alignment"
+   },
+   {
+    "stage": 4,
+    "title": "Moving a classroom session onto a video call unchanged.",
+    "why": "Video calls tire people for specific reasons: constant close-up eye contact, seeing yourself, sitting still, and working harder to read faces.",
+    "instead": "Keep live time for interaction only. Move content to pre-work and design against the fatigue.",
+    "topicId": "s4-t05",
+    "boardLinkLabel": "Stage 4: Why remote learning tires people"
+   },
+   {
+    "stage": 6,
+    "title": "Running tick-box compliance training.",
+    "why": "It is designed to prove that something happened, not to change what people do.",
+    "instead": "Name the behaviour that matters and measure that.",
+    "topicId": "s6-t02",
+    "boardLinkLabel": "Stage 6: Measuring behaviour and results"
+   },
+   {
+    "stage": 3,
+    "title": "Adding fun extras that teach nothing.",
+    "why": "Interesting but irrelevant material pulls attention away from the point and lowers learning.",
+    "instead": "Cut anything that does not serve the objective, however engaging it is.",
+    "topicId": "s3-t02",
+    "boardLinkLabel": "Stage 3: The multimedia design principles"
+   },
+   {
+    "stage": 1,
+    "title": "Judging a session by how smoothly it went.",
+    "why": "How fluent people look in the room is a poor guide to what they will remember next week.",
+    "instead": "Check again after a delay, when the easy familiarity has worn off.",
+    "topicId": "s1-t04",
+    "boardLinkLabel": "Stage 1: Do not trust how fluent the room looks"
+   },
+   {
+    "stage": 5,
+    "title": "Assuming people will pick it up on the job.",
+    "why": "Experience without feedback levels off. Years in a role are not the same as getting better at it.",
+    "instead": "Build in practice at the edge of ability, with someone giving feedback.",
+    "topicId": "s1-t06",
+    "boardLinkLabel": "Stage 1: Build practice at the edge of ability"
+   },
+   {
+    "stage": 7,
+    "title": "Publishing AI-written training that nobody qualified has checked.",
+    "why": "AI tools produce confident errors and repeat bias from their training data.",
+    "instead": "Use AI for the first draft and keep a named person responsible for every output.",
+    "topicId": "s7-t03",
+    "boardLinkLabel": "Stage 7: Risks, guardrails and governance"
+   },
+   {
+    "stage": 8,
+    "title": "Packing a retreat from breakfast to midnight.",
+    "why": "Memory is consolidated during sleep. Long days cut into the thing the retreat depends on.",
+    "instead": "Protect sleep and leave gaps in the schedule on purpose.",
+    "topicId": "s1-t10",
+    "boardLinkLabel": "Stage 1: Protect sleep on multi-day programmes"
+   }
+  ]
+ },
+ "findings": {
+  "pill": "What the evidence says",
+  "heading": "Findings worth designing around",
+  "guideLink": "How we rate evidence, A to E",
+  "labels": {
+   "use": "In practice."
+  },
+  "status": "Tiers are provisional. Citations are author and year from memory of the literature; verify each before publishing.",
+  "items": [
+   {
+    "stage": 5,
+    "title": "Recalling something beats reading it again.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "Open each session with a short recall task before any new content.",
+    "source": "Roediger and Karpicke, 2006.",
+    "topicId": "s5-t11",
+    "boardLinkLabel": "Stage 5: Designing practice"
+   },
+   {
+    "stage": 5,
+    "title": "Practice spread over days beats one long session.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "Split a full day into shorter sessions with gaps, or add follow-ups a few days and weeks later.",
+    "source": "Cepeda and colleagues, 2006.",
+    "topicId": "s5-t04",
+    "boardLinkLabel": "Stage 5: Spaced reinforcement after the event"
+   },
+   {
+    "stage": 1,
+    "title": "Working memory holds about four things at once.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "Introduce new ideas a few at a time and group them before adding more.",
+    "source": "Cowan, 2001.",
+    "topicId": "s1-t01",
+    "boardLinkLabel": "Stage 1: Design for a very small working memory"
+   },
+   {
+    "stage": 1,
+    "title": "Matching teaching to a learning style does not improve learning.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "Stop sorting people by style. Choose the medium that suits the content.",
+    "source": "Pashler and colleagues, 2008.",
+    "topicId": "s1-t08",
+    "boardLinkLabel": "Stage 1: The myths"
+   },
+   {
+    "stage": 6,
+    "title": "Satisfaction scores say little about what was learned.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Keep the feedback form short and measure behaviour separately.",
+    "source": "Alliger and Janak, 1989.",
+    "topicId": "s6-t01",
+    "boardLinkLabel": "Stage 6: Evaluation models, used critically"
+   },
+   {
+    "stage": 4,
+    "title": "Waiting a few seconds after a question gets better answers.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Ask, then count to three in your head before you speak again.",
+    "source": "Rowe, 1986.",
+    "topicId": "s4-t02",
+    "boardLinkLabel": "Stage 4: Facilitating versus presenting"
+   },
+   {
+    "stage": 1,
+    "title": "Beginners learn more from worked examples than from solving problems cold.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "Show a full solved example first, then remove the support step by step.",
+    "source": "Sweller, 1988; Sweller, van Merriënboer and Paas, 1998.",
+    "topicId": "s1-t02",
+    "boardLinkLabel": "Stage 1: Cut the load that teaches nothing"
+   },
+   {
+    "stage": 1,
+    "title": "Help that suits beginners can hold experienced people back.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "In a mixed room, give the experienced people the harder version, not the same support.",
+    "source": "Kalyuga, 2007.",
+    "topicId": "s1-t02",
+    "boardLinkLabel": "Stage 1: Cut the load that teaches nothing"
+   },
+   {
+    "stage": 1,
+    "title": "How well people perform in the session is a poor guide to what they will keep.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "Do not judge a method by how the room looks. Test again later.",
+    "source": "Soderstrom and Bjork, 2015.",
+    "topicId": "s1-t04",
+    "boardLinkLabel": "Stage 1: Do not trust how fluent the room looks"
+   },
+   {
+    "stage": 1,
+    "title": "People feel they learn more from easy study than from hard practice. It is the other way round.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Tell learners why the harder practice is there, or they will resist it.",
+    "source": "Kornell and Bjork, 2007.",
+    "topicId": "s1-t03",
+    "boardLinkLabel": "Stage 1: Make practice harder in the ways that help"
+   },
+   {
+    "stage": 5,
+    "title": "Mixing related problem types beats practising one type at a time.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Once the basics are in, shuffle the practice so people have to work out which approach fits.",
+    "source": "Brunmair and Richter, 2019.",
+    "topicId": "s5-t11",
+    "boardLinkLabel": "Stage 5: Designing practice"
+   },
+   {
+    "stage": 5,
+    "title": "A specific if-then plan makes follow-through more likely.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "End a session with each person writing: when this happens, I will do that.",
+    "source": "Gollwitzer, 1999.",
+    "topicId": "s5-t02",
+    "boardLinkLabel": "Stage 5: Designing for transfer"
+   },
+   {
+    "stage": 1,
+    "title": "Sleep after learning strengthens memory.",
+    "tier": "A",
+    "bars": 5,
+    "tierWord": "Established",
+    "use": "On multi-day programmes, protect the nights and revisit yesterday first thing.",
+    "source": "Diekelmann and Born, 2010.",
+    "topicId": "s1-t10",
+    "boardLinkLabel": "Stage 1: Protect sleep on multi-day programmes"
+   },
+   {
+    "stage": 1,
+    "title": "Hours of practice explain only part of expertise.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Never promise mastery from time served. Design the quality of the practice.",
+    "source": "Macnamara, Hambrick and Oswald, 2014.",
+    "topicId": "s1-t06",
+    "boardLinkLabel": "Stage 1: Build practice at the edge of ability"
+   },
+   {
+    "stage": 2,
+    "title": "Feedback on the task helps. Praise for the person does little.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Tell people where they are, how it is going and what to do next.",
+    "source": "Hattie and Timperley, 2007.",
+    "topicId": "s2-t17",
+    "boardLinkLabel": "Stage 2: Accessibility, fairness and feedback"
+   },
+   {
+    "stage": 3,
+    "title": "Interesting but irrelevant extras reduce learning.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Cut the anecdote, the clip or the graphic that does not serve the point.",
+    "source": "Harp and Mayer, 1998.",
+    "topicId": "s3-t02",
+    "boardLinkLabel": "Stage 3: The multimedia design principles"
+   },
+   {
+    "stage": 4,
+    "title": "Teams that feel safe report more mistakes, not fewer.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Show your own mistakes early, and treat a wrong answer as useful.",
+    "source": "Edmondson, 1999.",
+    "topicId": "s1-t14",
+    "boardLinkLabel": "Stage 1: Make it safe to be wrong out loud"
+   },
+   {
+    "stage": 7,
+    "title": "Well-designed tutoring software produces moderate, real gains.",
+    "tier": "B",
+    "bars": 4,
+    "tierWord": "Conditional",
+    "use": "Expect a useful improvement from adaptive tools, not a transformation, and only when the design is good.",
+    "source": "VanLehn, 2011.",
+    "topicId": "s7-t02",
+    "boardLinkLabel": "Stage 7: Adaptive tutoring and the honest evidence"
+   }
+  ]
+ },
+ "myths": {
+  "pill": "Myth file",
+  "heading": "Things the industry repeats that do not hold up",
+  "intro": "Popular claims, each traced back to where it came from, with a verdict. Flick through a few.",
+  "counter": "{n} of {total}",
+  "items": [
+   {
+    "stage": 5,
+    "claim": "\"Only 10% of training transfers to the job.\"",
+    "verdict": "Verdict: no data behind it.",
+    "why": "The figure traces to a 1982 magazine article that offered it as a guess. Transfer is a real problem, but nobody measured 10%."
+   },
+   {
+    "stage": 1,
+    "claim": "\"Teach people in their own learning style.\"",
+    "verdict": "Verdict: no good evidence.",
+    "why": "People have preferences, but studies do not show that matching teaching to them improves learning."
+   },
+   {
+    "stage": 4,
+    "claim": "\"93% of communication is non-verbal.\"",
+    "verdict": "Verdict: a misreading.",
+    "why": "The original studies were about conveying feelings with single words. They say nothing about communication in general."
+   },
+   {
+    "stage": 1,
+    "claim": "\"It takes 10,000 hours to become an expert.\"",
+    "verdict": "Verdict: a popularisation.",
+    "why": "Practice matters a great deal, but the amount of it explains only part of the difference between people."
+   },
+   {
+    "stage": 1,
+    "claim": "\"We remember 10% of what we read and 90% of what we teach.\"",
+    "verdict": "Verdict: no research behind the numbers.",
+    "why": "The percentages in the \"learning pyramid\" trace to no study. They were added later to a diagram that had no numbers. Draft: source not checked yet."
+   },
+   {
+    "stage": 5,
+    "claim": "\"Spend 70% on experience, 20% on social, 10% on courses.\"",
+    "verdict": "Verdict: a reminder, not a formula.",
+    "why": "The numbers come from self-report surveys in the 1980s. Most learning does happen outside courses. Nobody measured 70, 20 and 10. Draft: source not checked yet."
+   },
+   {
+    "stage": 2,
+    "claim": "\"Attention spans are down to eight seconds.\"",
+    "verdict": "Verdict: no sound source.",
+    "why": "Attention depends on interest, difficulty and design. There is no fixed span to shrink. Draft: source not checked yet."
+   },
+   {
+    "stage": 2,
+    "claim": "\"Each generation learns differently.\"",
+    "verdict": "Verdict: not supported.",
+    "why": "Differences come from experience, role and setting, not from the year someone was born. Draft: source not checked yet."
+   },
+   {
+    "stage": 7,
+    "claim": "\"AI tutoring delivers a two sigma gain.\"",
+    "verdict": "Verdict: a narrow benchmark.",
+    "why": "The figure is one 1984 result for one-to-one human tutoring and has been hard to repeat. Well-designed tutoring systems show moderate gains. Draft: source not checked yet."
+   },
+   {
+    "stage": 1,
+    "claim": "\"We only use 10% of our brains.\"",
+    "verdict": "Verdict: false.",
+    "why": "We use virtually all of the brain. Draft: source not checked yet."
+   },
+   {
+    "stage": 1,
+    "claim": "\"People are left-brained or right-brained learners.\"",
+    "verdict": "Verdict: a distortion.",
+    "why": "The two halves of the brain do specialise. People are not one type or the other. Draft: source not checked yet."
+   },
+   {
+    "stage": 1,
+    "claim": "\"Listening to Mozart makes you smarter.\"",
+    "verdict": "Verdict: oversold.",
+    "why": "The original finding was narrow and short-lived. It does not raise intelligence in any lasting way. Draft: source not checked yet."
+   },
+   {
+    "stage": 3,
+    "claim": "\"Handwriting beats typing for memory.\"",
+    "verdict": "Verdict: did not hold up.",
+    "why": "The well-known study was repeated and the effect was not found. Putting ideas in your own words is the part that helps. Draft: source not checked yet."
+   },
+   {
+    "stage": 2,
+    "claim": "\"Digital natives learn differently.\"",
+    "verdict": "Verdict: not supported.",
+    "why": "Growing up with technology does not change how people learn, or make them skilled with it. Draft: source not checked yet."
+   },
+   {
+    "stage": 6,
+    "claim": "\"High satisfaction scores show the training worked.\"",
+    "verdict": "Verdict: a weak link.",
+    "why": "How much people liked a course relates only weakly to what they learned. Draft: source not checked yet."
+   }
+  ],
+  "stillToWrite": [],
+  "unwrittenVerdict": "Verdict: not written yet.",
+  "unwrittenWhy": "This claim is on the list to trace and check. Nothing is said about it until that is done."
+ },
+ "cases": {
+  "heading": "Who does this well",
+  "labels": {
+   "what": "What they do",
+   "why": "Why it works",
+   "borrow": "Borrow this"
+  },
+  "statusPill": "Draft, to be verified",
+  "items": [
+   {
+    "slug": "toyota",
+    "stage": 4,
+    "name": "Toyota",
+    "programme": "Job Instruction",
+    "what": "Teach any job in four steps: prepare the worker, show the job, let them try it, follow up.",
+    "why": "Demonstration, immediate practice, correction on the spot.",
+    "borrow": "Break the task into steps and key points before you teach it."
+   },
+   {
+    "slug": "commercial-aviation",
+    "stage": 5,
+    "name": "Commercial aviation",
+    "programme": "Simulator and crew training",
+    "what": "Crews rehearse rare emergencies together in simulators, and come back to do it again on a schedule.",
+    "why": "Realistic practice, feedback, and refreshers spaced over a career.",
+    "borrow": "Rehearse the rare, costly moments, and schedule the refresher."
+   },
+   {
+    "slug": "harvard-business-school",
+    "stage": 2,
+    "name": "Harvard Business School",
+    "programme": "The case method",
+    "what": "Students prepare a real business problem, then argue in class for what they would do.",
+    "why": "People commit to an answer, defend it, and hear it challenged.",
+    "borrow": "Make people commit to a decision before you discuss it."
+   }
+  ],
+  "candidatesToResearch": [
+   "Medical simulation centres",
+   "The US Army (after-action review)",
+   "UK NCSC (Exercise in a Box)",
+   "Duolingo (spacing and testing at scale)",
+   "Khan Academy (mastery learning)",
+   "Toastmasters (structured practice and peer feedback)",
+   "Hyper Island (cohort and residency learning)",
+   "Outward Bound (outdoor experiential learning)",
+   "McDonald's Hamburger University (corporate academy at scale)"
+  ],
+  "selectionRule": "Publicly documented, a clear mechanism, some evidence of results beyond their own marketing.",
+  "candidatePill": "To research"
+ }
+}

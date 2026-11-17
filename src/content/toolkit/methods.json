@@ -1,0 +1,4509 @@
+[
+{
+"id": "M001",
+"slug": "instructor-led-classroom-training",
+"name": "Instructor-led classroom training",
+"family": "Explain & model",
+"format": "In-person, synchronous",
+"description": "Expert teaches a structured sequence with explanation, questioning and guided activity.",
+"bestFor": "Foundations, shared language, regulated or procedural content.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Expert seminar",
+"description": ""
+},
+{
+"name": "Facilitated workshop",
+"description": ""
+},
+{
+"name": "Masterclass",
+"description": ""
+},
+{
+"name": "Interactive briefing",
+"description": ""
+},
+{
+"name": "Socratic seminar",
+"description": ""
+},
+{
+"name": "Panel-led class",
+"description": ""
+}
+],
+"tierRaw": "A - Established",
+"mechanics": "Explicit instruction; cognitive load theory; schema acquisition",
+"cautions": "Passive delivery and overload reduce transfer.",
+"theory": "Explicit instruction; cognitive load theory; schema acquisition",
+"presence": "Varies",
+"tier": "A"
+},
+{
+"id": "M008",
+"slug": "interactive-lecture",
+"name": "Interactive lecture",
+"family": "Explain & model",
+"format": "In-person or virtual",
+"description": "Short explanations interrupted by questions, polls, prediction and application.",
+"bestFor": "Efficient conceptual orientation for larger groups.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Prediction pause",
+"description": ""
+},
+{
+"name": "Audience response lecture",
+"description": ""
+},
+{
+"name": "Case-interruption lecture",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Think-pair-share lecture",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Demonstration lecture",
+"description": "Makes expert performance and decision cues visible before supported imitation."
+},
+{
+"name": "Question-led lecture",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Generative learning; retrieval; attention and cognitive load",
+"cautions": "Interaction must require thinking, not decorative polling.",
+"theory": "Generative learning; retrieval; attention and cognitive load",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M015",
+"slug": "worked-examples",
+"name": "Worked examples",
+"family": "Explain & model",
+"format": "Demonstration, print or digital",
+"description": "Learners study a complete expert solution with reasoning made visible.",
+"bestFor": "Novices learning complex procedures or problem types.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Annotated worked example",
+"description": ""
+},
+{
+"name": "Comparative worked examples",
+"description": ""
+},
+{
+"name": "Error-containing worked example",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Video worked example",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Partially completed example",
+"description": ""
+},
+{
+"name": "Expert-versus-novice example",
+"description": ""
+}
+],
+"tierRaw": "A - Established",
+"mechanics": "Cognitive load theory; worked-example effect",
+"cautions": "Examples become passive unless learners explain and compare them.",
+"theory": "Cognitive load theory; worked-example effect",
+"presence": "Varies",
+"tier": "A"
+},
+{
+"id": "M022",
+"slug": "faded-worked-examples",
+"name": "Faded worked examples",
+"family": "Explain & model",
+"format": "Guided practice",
+"description": "Support is progressively removed from worked examples until independent performance.",
+"bestFor": "Moving novices from observation to independent execution.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Completion problem sequence",
+"description": ""
+},
+{
+"name": "Progressive prompt removal",
+"description": ""
+},
+{
+"name": "Scaffold fading by mastery",
+"description": "Requires learners to meet a criterion before progressing."
+},
+{
+"name": "Peer-supported fading",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "AI-adaptive scaffold fading",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "A/B - Strong, conditional",
+"mechanics": "Cognitive load theory; scaffolding; expertise-reversal effect",
+"cautions": "Fade based on performance, not a rigid schedule.",
+"theory": "Cognitive load theory; scaffolding; expertise-reversal effect",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M028",
+"slug": "expert-think-aloud",
+"name": "Expert think-aloud",
+"family": "Explain & model",
+"format": "Live demonstration or video",
+"description": "An expert verbalises cues, decisions, trade-offs and self-corrections while performing.",
+"bestFor": "Tacit judgement, diagnosis, design and client skills.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Live think-aloud",
+"description": ""
+},
+{
+"name": "Recorded think-aloud",
+"description": ""
+},
+{
+"name": "Paired expert think-aloud",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Think-aloud with learner questioning",
+"description": ""
+},
+{
+"name": "Comparative expert think-aloud",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Cognitive apprenticeship; modelling; metacognition",
+"cautions": "Experts may omit automated steps; facilitator must probe.",
+"theory": "Cognitive apprenticeship; modelling; metacognition",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M034",
+"slug": "demonstration-then-imitation",
+"name": "Demonstration then imitation",
+"family": "Explain & model",
+"format": "Live or video",
+"description": "Trainer shows a physical, technical or interpersonal skill, then learners reproduce it.",
+"bestFor": "Procedures, tool use, craft and embodied skills.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Watch-try-feedback",
+"description": ""
+},
+{
+"name": "I do, we do, you do",
+"description": ""
+},
+{
+"name": "Video modelling then practice",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Slow-motion demonstration",
+"description": ""
+},
+{
+"name": "Contrastive demonstration",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong, task dependent",
+"mechanics": "Social learning theory; observational learning; motor learning",
+"cautions": "Observation alone is insufficient; require practice and feedback.",
+"theory": "Social learning theory; observational learning; motor learning",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M040",
+"slug": "storytelling-and-case-narrative",
+"name": "Storytelling and case narrative",
+"family": "Explain & model",
+"format": "Live, audio, video or print",
+"description": "Concepts are organised through characters, conflict, decisions and consequences.",
+"bestFor": "Sense-making, culture, ethics and leadership judgement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Founder story",
+"description": ""
+},
+{
+"name": "Failure story",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Customer story",
+"description": ""
+},
+{
+"name": "Hero’s journey case",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Serialised learning narrative",
+"description": ""
+},
+{
+"name": "Interactive story circle",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Narrative cognition; episodic memory; dual coding",
+"cautions": "Emotion and memorability do not guarantee accurate transfer.",
+"theory": "Narrative cognition; episodic memory; dual coding",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M047",
+"slug": "concept-mapping",
+"name": "Concept mapping",
+"family": "Explain & model",
+"format": "Individual or collaborative visual mapping",
+"description": "Learners externalise relationships among concepts, causes and decisions.",
+"bestFor": "Mental models, systems and synthesis.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Individual concept map",
+"description": ""
+},
+{
+"name": "Collaborative concept map",
+"description": "Provides a protected environment to build, test, troubleshoot and repeat."
+},
+{
+"name": "Causal loop map",
+"description": ""
+},
+{
+"name": "Journey map",
+"description": ""
+},
+{
+"name": "Knowledge graph exercise",
+"description": ""
+},
+{
+"name": "Before-and-after concept map",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Meaningful learning; schema construction; elaboration",
+"cautions": "Maps can become decorative; require explanation and evidence.",
+"theory": "Meaningful learning; schema construction; elaboration",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M054",
+"slug": "deliberate-practice",
+"name": "Deliberate practice",
+"family": "Practise & perform",
+"format": "Repeated targeted practice",
+"description": "Learners isolate a weak subskill, practise against a standard and receive corrective feedback.",
+"bestFor": "High-skill performance where quality criteria are clear.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Micro-skill isolation drill",
+"description": ""
+},
+{
+"name": "Accuracy-first drill",
+"description": ""
+},
+{
+"name": "Speed-to-fluency drill",
+"description": ""
+},
+{
+"name": "Progressive challenge ladder",
+"description": "Gives learners a meaningful constraint-based task that produces an observable output."
+},
+{
+"name": "Expert benchmark comparison",
+"description": ""
+},
+{
+"name": "Immediate-feedback repetition",
+"description": ""
+},
+{
+"name": "Delayed-feedback repetition",
+"description": ""
+},
+{
+"name": "Self-record and review",
+"description": ""
+},
+{
+"name": "Coach-marked repetition",
+"description": ""
+},
+{
+"name": "Criterion-based mastery loop",
+"description": "Requires learners to meet a criterion before progressing."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Deliberate practice; mental representations; feedback loops",
+"cautions": "Not all professional domains have stable standards; repetition alone is not deliberate practice.",
+"theory": "Deliberate practice; mental representations; feedback loops",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M065",
+"slug": "role-play",
+"name": "Role-play",
+"family": "Practise & perform",
+"format": "Pairs or groups, live or virtual",
+"description": "Learners enact roles and practise interpersonal responses in a controlled scenario.",
+"bestFor": "Sales, coaching, negotiation, leadership and customer skills.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Paired role-play",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Triad role-play: performer, counterpart, observer",
+"description": ""
+},
+{
+"name": "Fishbowl role-play",
+"description": ""
+},
+{
+"name": "Rotating-role role-play",
+"description": ""
+},
+{
+"name": "Reverse-role perspective switch",
+"description": ""
+},
+{
+"name": "Pause-and-coach role-play",
+"description": ""
+},
+{
+"name": "Rewind-and-retry role-play",
+"description": ""
+},
+{
+"name": "Progressive-difficulty role-play",
+"description": ""
+},
+{
+"name": "Hidden-information role-play",
+"description": ""
+},
+{
+"name": "Mystery-stakeholder role-play",
+"description": ""
+},
+{
+"name": "Live-actor role-play",
+"description": ""
+},
+{
+"name": "Executive-stakeholder role-play",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Experiential learning; social learning; behavioural rehearsal",
+"cautions": "Poor psychological safety or caricatured roles can make it artificial.",
+"theory": "Experiential learning; social learning; behavioural rehearsal",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M078",
+"slug": "scenario-based-learning",
+"name": "Scenario-based learning",
+"family": "Practise & perform",
+"format": "In-person or digital branching cases",
+"description": "Learners make decisions in realistic contexts and explore consequences.",
+"bestFor": "Judgement, ambiguity, ethics and risk decisions.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Linear unfolding scenario",
+"description": ""
+},
+{
+"name": "Branching scenario",
+"description": ""
+},
+{
+"name": "Interactive video scenario",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Written case scenario",
+"description": ""
+},
+{
+"name": "Audio scenario",
+"description": ""
+},
+{
+"name": "Live facilitated scenario",
+"description": ""
+},
+{
+"name": "Competing-priorities scenario",
+"description": ""
+},
+{
+"name": "Ethical dilemma scenario",
+"description": ""
+},
+{
+"name": "Ambiguous-data scenario",
+"description": ""
+},
+{
+"name": "Role-specific scenario",
+"description": ""
+},
+{
+"name": "Cross-functional scenario",
+"description": ""
+},
+{
+"name": "Counterfactual scenario",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated learning; experiential learning; contextual retrieval",
+"cautions": "Scenarios must represent real constraints, not neat textbook problems.",
+"theory": "Situated learning; experiential learning; contextual retrieval",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M091",
+"slug": "simulation-based-training",
+"name": "Simulation-based training",
+"family": "Practise & perform",
+"format": "Physical, social or digital simulation",
+"description": "A controlled representation of work enables repeated practice without full real-world risk.",
+"bestFor": "Rare, costly, dangerous or high-stakes performance.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Branching decision simulation",
+"description": ""
+},
+{
+"name": "Escalating scenario simulation",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Timed decision simulation",
+"description": ""
+},
+{
+"name": "Multi-team simulation",
+"description": ""
+},
+{
+"name": "Failure-and-recovery simulation",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Surprise-inject simulation",
+"description": ""
+},
+{
+"name": "Replay-and-retry simulation",
+"description": ""
+},
+{
+"name": "Live-actor simulation",
+"description": ""
+},
+{
+"name": "Digital-twin simulation",
+"description": ""
+},
+{
+"name": "Video-debrief simulation",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "High-fidelity equipment simulation",
+"description": ""
+},
+{
+"name": "Low-fidelity rapid simulation",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong, implementation dependent",
+"mechanics": "Experiential learning; deliberate practice; representative learning design",
+"cautions": "Fidelity should match the learning objective; high realism can add load and cost.",
+"theory": "Experiential learning; deliberate practice; representative learning design",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M104",
+"slug": "ai-conversational-role-play",
+"name": "AI conversational role-play",
+"family": "Practise & perform",
+"format": "Conversational AI",
+"description": "Learners hold unscripted conversations with an adaptive AI persona and receive feedback.",
+"bestFor": "Scalable sales, coaching, language and difficult-conversation practice.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Text-based AI persona",
+"description": ""
+},
+{
+"name": "Voice AI persona",
+"description": ""
+},
+{
+"name": "Digital-human avatar role-play",
+"description": "Rehearses interpersonal behaviour by enacting roles in a controlled situation."
+},
+{
+"name": "AI sales prospect",
+"description": ""
+},
+{
+"name": "AI client stakeholder",
+"description": ""
+},
+{
+"name": "AI manager conversation",
+"description": ""
+},
+{
+"name": "AI employee conversation",
+"description": ""
+},
+{
+"name": "AI negotiation partner",
+"description": ""
+},
+{
+"name": "AI interviewer",
+"description": ""
+},
+{
+"name": "AI difficult-conversation partner",
+"description": ""
+},
+{
+"name": "AI objection generator",
+"description": ""
+},
+{
+"name": "Adversarial AI stakeholder",
+"description": ""
+},
+{
+"name": "Multilingual AI customer",
+"description": ""
+},
+{
+"name": "AI role-play with human calibration",
+"description": ""
+}
+],
+"tierRaw": "C - Emerging",
+"mechanics": "Behavioural rehearsal; retrieval; adaptive feedback; situated practice",
+"cautions": "Risks include inaccurate feedback, bias, privacy and overtrust.",
+"theory": "Behavioural rehearsal; retrieval; adaptive feedback; situated practice",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M119",
+"slug": "hands-on-lab",
+"name": "Hands-on lab",
+"family": "Practise & perform",
+"format": "In-person or virtual lab",
+"description": "Learners perform defined tasks using real or sandbox tools and data.",
+"bestFor": "Technical, product, process and operational skills.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Guided recipe lab",
+"description": ""
+},
+{
+"name": "Troubleshooting lab",
+"description": ""
+},
+{
+"name": "Sandbox exploration lab",
+"description": ""
+},
+{
+"name": "Challenge lab",
+"description": ""
+},
+{
+"name": "Build-and-break lab",
+"description": ""
+},
+{
+"name": "Pair lab",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Open lab with expert office hours",
+"description": ""
+},
+{
+"name": "Timed lab",
+"description": ""
+},
+{
+"name": "Cross-tool integration lab",
+"description": ""
+},
+{
+"name": "Production-like lab",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Learning by doing; cognitive apprenticeship; immediate feedback",
+"cautions": "Labs can become recipe-following; include troubleshooting and transfer tasks.",
+"theory": "Learning by doing; cognitive apprenticeship; immediate feedback",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M130",
+"slug": "practice-clinic",
+"name": "Practice clinic",
+"family": "Practise & perform",
+"format": "Small group coached practice",
+"description": "Participants bring a real skill challenge, perform, receive critique and try again.",
+"bestFor": "Presentation, facilitation, design critique and leadership behaviours.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Pitch clinic",
+"description": ""
+},
+{
+"name": "Facilitation clinic",
+"description": ""
+},
+{
+"name": "Storytelling clinic",
+"description": "Organises learning through people, tension, decisions and consequences."
+},
+{
+"name": "Negotiation clinic",
+"description": ""
+},
+{
+"name": "Coaching clinic",
+"description": "Uses questioning, observation and feedback to improve performance against a goal."
+},
+{
+"name": "Prompt clinic",
+"description": ""
+},
+{
+"name": "Design critique clinic",
+"description": "Makes work visible and improves it through evidence-based review against standards."
+},
+{
+"name": "Executive presence clinic",
+"description": ""
+},
+{
+"name": "Technical troubleshooting clinic",
+"description": ""
+},
+{
+"name": "Client discovery clinic",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Deliberate practice; peer learning; feedback literacy",
+"cautions": "Requires agreed standards and skilled feedback.",
+"theory": "Deliberate practice; peer learning; feedback literacy",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M141",
+"slug": "mock-assessment-centre",
+"name": "Mock assessment centre",
+"family": "Practise & perform",
+"format": "Observed multi-exercise simulation",
+"description": "Learners complete role-relevant exercises observed against criteria, followed by developmental feedback.",
+"bestFor": "Leadership, promotion readiness and complex role capability.",
+"phase": "Debrief / integration",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [],
+"tierRaw": "B - Conditional",
+"mechanics": "Behavioural observation; simulation; criterion-referenced assessment",
+"cautions": "High stakes can suppress experimentation; observer reliability matters.",
+"theory": "Behavioural observation; simulation; criterion-referenced assessment",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M142",
+"slug": "teach-back",
+"name": "Teach-back",
+"family": "Practise & perform",
+"format": "Peer explanation",
+"description": "Learners explain or demonstrate a concept to peers without relying on the source.",
+"bestFor": "Checking understanding and strengthening retrieval.",
+"phase": "Debrief / integration",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "One-minute teach-back",
+"description": ""
+},
+{
+"name": "Peer teach-back",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "Client-language teach-back",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Reverse teach-back",
+"description": ""
+},
+{
+"name": "Demonstration teach-back",
+"description": "Makes expert performance and decision cues visible before supported imitation."
+}
+],
+"tierRaw": "A/B - Strong",
+"mechanics": "Retrieval practice; elaboration; generation effect",
+"cautions": "Peers may reinforce errors; provide models or expert correction.",
+"theory": "Retrieval practice; elaboration; generation effect",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M148",
+"slug": "peer-instruction",
+"name": "Peer instruction",
+"family": "Practise & perform",
+"format": "Pairs or whole group",
+"description": "Learners answer, debate reasoning with peers, then answer again.",
+"bestFor": "Conceptual misconceptions and decision reasoning.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Concept-test peer instruction",
+"description": ""
+},
+{
+"name": "Prediction-discussion-revote",
+"description": ""
+},
+{
+"name": "Case-vote peer instruction",
+"description": ""
+},
+{
+"name": "Confidence-rated peer instruction",
+"description": ""
+},
+{
+"name": "Peer instruction with expert reveal",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong",
+"mechanics": "Retrieval; elaboration; cognitive conflict; social constructivism",
+"cautions": "Question quality is critical; popularity votes are not evidence.",
+"theory": "Retrieval; elaboration; cognitive conflict; social constructivism",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M154",
+"slug": "learning-by-teaching-prot-g-effect",
+"name": "Learning by teaching / protégé effect",
+"family": "Practise & perform",
+"format": "Peer or public teaching",
+"description": "Learners prepare to teach others, organise material and anticipate questions.",
+"bestFor": "Synthesis, confidence and mastery.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Mini-masterclass",
+"description": ""
+},
+{
+"name": "Learner-created tutorial",
+"description": ""
+},
+{
+"name": "Peer explainer video",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Teach-the-next-cohort",
+"description": ""
+},
+{
+"name": "Public demonstration",
+"description": "Makes expert performance and decision cues visible before supported imitation."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Generative learning; retrieval; metacognition",
+"cautions": "Teaching can create false confidence if not checked.",
+"theory": "Generative learning; retrieval; metacognition",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M160",
+"slug": "problem-based-learning",
+"name": "Problem-based learning",
+"family": "Solve & create",
+"format": "Facilitated small groups",
+"description": "Learning begins with an ill-structured problem; learners identify knowledge needs and develop a response.",
+"bestFor": "Integration, reasoning and professional judgement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Single-problem tutorial",
+"description": ""
+},
+{
+"name": "Progressive problem sequence",
+"description": ""
+},
+{
+"name": "Cross-functional problem lab",
+"description": ""
+},
+{
+"name": "Client problem clinic",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Policy problem lab",
+"description": ""
+},
+{
+"name": "Diagnostic problem lab",
+"description": ""
+},
+{
+"name": "Data-rich problem lab",
+"description": ""
+},
+{
+"name": "Constraint-based problem",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Constructivism; self-directed learning; situated cognition",
+"cautions": "Novices need scaffolding and foundational knowledge.",
+"theory": "Constructivism; self-directed learning; situated cognition",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M169",
+"slug": "project-based-learning",
+"name": "Project-based learning",
+"family": "Solve & create",
+"format": "Team project over days or weeks",
+"description": "Learners build a substantial output while applying knowledge, collaboration and iteration.",
+"bestFor": "Integrated capability and portfolio evidence.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Individual capstone project",
+"description": ""
+},
+{
+"name": "Team capstone project",
+"description": ""
+},
+{
+"name": "Client-sponsored project",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Prototype project",
+"description": ""
+},
+{
+"name": "Research-to-recommendation project",
+"description": ""
+},
+{
+"name": "Implementation project",
+"description": ""
+},
+{
+"name": "Portfolio project",
+"description": "Collects verified artefacts and reflection as longitudinal evidence of capability."
+},
+{
+"name": "Community-impact project",
+"description": ""
+},
+{
+"name": "Cross-functional build project",
+"description": ""
+},
+{
+"name": "Thirty-day applied project",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated learning; constructionism; experiential learning",
+"cautions": "Projects can hide unequal contribution and weak fundamentals.",
+"theory": "Situated learning; constructionism; experiential learning",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M180",
+"slug": "challenge-based-learning",
+"name": "Challenge-based learning",
+"family": "Solve & create",
+"format": "Team challenge with external stakeholder",
+"description": "Participants investigate a broad challenge, act and share evidence of impact.",
+"bestFor": "Innovation, sustainability and cross-functional collaboration.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Executive-sponsored challenge",
+"description": ""
+},
+{
+"name": "Social-impact challenge",
+"description": ""
+},
+{
+"name": "Innovation challenge",
+"description": ""
+},
+{
+"name": "Sustainability challenge",
+"description": ""
+},
+{
+"name": "AI adoption challenge",
+"description": ""
+},
+{
+"name": "Customer-experience challenge",
+"description": ""
+},
+{
+"name": "Process-redesign challenge",
+"description": ""
+},
+{
+"name": "Grand challenge tournament",
+"description": ""
+}
+],
+"tierRaw": "C/B - Emerging to conditional",
+"mechanics": "Experiential learning; inquiry; authentic assessment",
+"cautions": "Avoid vague challenges and theatre without implementation ownership.",
+"theory": "Experiential learning; inquiry; authentic assessment",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M189",
+"slug": "case-method",
+"name": "Case method",
+"family": "Solve & create",
+"format": "Facilitated discussion",
+"description": "Learners analyse a documented situation, take a position and defend a decision.",
+"bestFor": "Leadership, business judgement and trade-offs.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Decision-forcing case",
+"description": ""
+},
+{
+"name": "Comparative cases",
+"description": ""
+},
+{
+"name": "Mini-case",
+"description": ""
+},
+{
+"name": "Multimedia case",
+"description": ""
+},
+{
+"name": "Live case discussion",
+"description": ""
+},
+{
+"name": "Cold-call case seminar",
+"description": ""
+},
+{
+"name": "Case debate",
+"description": ""
+},
+{
+"name": "Case jigsaw",
+"description": ""
+},
+{
+"name": "Case reconstruction",
+"description": ""
+},
+{
+"name": "Case sequel",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated cognition; elaboration; decision practice",
+"cautions": "Cases can oversimplify, privilege hindsight and reward confident talk.",
+"theory": "Situated cognition; elaboration; decision practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M200",
+"slug": "live-case",
+"name": "Live case",
+"family": "Solve & create",
+"format": "Real organisation challenge",
+"description": "A sponsor presents a current unresolved problem; learners produce recommendations or prototypes.",
+"bestFor": "Executive education and immediate business value.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Internal business live case",
+"description": ""
+},
+{
+"name": "External client live case",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Non-profit live case",
+"description": ""
+},
+{
+"name": "Executive dilemma live case",
+"description": ""
+},
+{
+"name": "Operational live case",
+"description": ""
+},
+{
+"name": "Transformation live case",
+"description": ""
+},
+{
+"name": "Data-backed live case",
+"description": ""
+},
+{
+"name": "Live case with stakeholder jury",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Authentic learning; situated cognition; transfer",
+"cautions": "Stakeholders must be ready to use outputs; confidentiality and ethics matter.",
+"theory": "Authentic learning; situated cognition; transfer",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M209",
+"slug": "design-sprint",
+"name": "Design sprint",
+"family": "Solve & create",
+"format": "Time-boxed collaborative workshop",
+"description": "Teams understand, sketch, decide, prototype and test within a compressed cycle.",
+"bestFor": "Product, service and innovation challenges.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Two-hour lightning sprint",
+"description": ""
+},
+{
+"name": "One-day design sprint",
+"description": ""
+},
+{
+"name": "Three-day sprint",
+"description": ""
+},
+{
+"name": "Five-day GV sprint",
+"description": ""
+},
+{
+"name": "Remote design sprint",
+"description": ""
+},
+{
+"name": "Service design sprint",
+"description": ""
+},
+{
+"name": "AI-assisted sprint",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Inclusive design sprint",
+"description": ""
+}
+],
+"tierRaw": "D/B - Practitioner framework with supporting mechanisms",
+"mechanics": "Design thinking; experiential learning; rapid feedback",
+"cautions": "Speed can suppress discovery or implementation; not a universal learning method.",
+"theory": "Design thinking; experiential learning; rapid feedback",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M218",
+"slug": "hackathon-buildathon",
+"name": "Hackathon / buildathon",
+"family": "Solve & create",
+"format": "Intensive collaborative build event",
+"description": "Teams rapidly build and demonstrate a solution under time constraints.",
+"bestFor": "Technical fluency, creativity and cross-functional work.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Technical hackathon",
+"description": ""
+},
+{
+"name": "No-code buildathon",
+"description": ""
+},
+{
+"name": "AI hackathon",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Data hackathon",
+"description": ""
+},
+{
+"name": "Design hackathon",
+"description": ""
+},
+{
+"name": "Policy hackathon",
+"description": ""
+},
+{
+"name": "Internal process hackathon",
+"description": ""
+},
+{
+"name": "Client co-creation hackathon",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Prototype marathon",
+"description": ""
+},
+{
+"name": "Mini-hack sprint",
+"description": ""
+}
+],
+"tierRaw": "C/B - Conditional",
+"mechanics": "Constructionism; flow; social learning; authentic practice",
+"cautions": "Can reward speed over quality, exclude novices and create fatigue.",
+"theory": "Constructionism; flow; social learning; authentic practice",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M229",
+"slug": "innovation-tournament",
+"name": "Innovation tournament",
+"family": "Solve & create",
+"format": "Diverge–select–develop process",
+"description": "Many opportunities are generated, successively filtered and developed using explicit criteria.",
+"bestFor": "Portfolio innovation and strategic opportunity selection.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Open idea tournament",
+"description": ""
+},
+{
+"name": "Evidence-gated tournament",
+"description": ""
+},
+{
+"name": "Shark-tank pitch",
+"description": ""
+},
+{
+"name": "Crowd-ranked tournament",
+"description": ""
+},
+{
+"name": "Expert-jury tournament",
+"description": ""
+}
+],
+"tierRaw": "D/B - Practitioner with research base",
+"mechanics": "Variation-selection theory; decision science; collective intelligence",
+"cautions": "Criteria can bias toward familiar ideas; selection requires evidence.",
+"theory": "Variation-selection theory; decision science; collective intelligence",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M235",
+"slug": "studio-learning-design-critique",
+"name": "Studio learning / design critique",
+"family": "Solve & create",
+"format": "Studio, gallery or review",
+"description": "Learners develop work-in-progress, display it and receive critique against standards.",
+"bestFor": "Design, writing, architecture, strategy and craft.",
+"phase": "Debrief / integration",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Pin-up critique",
+"description": ""
+},
+{
+"name": "Desk critique",
+"description": ""
+},
+{
+"name": "Gallery critique",
+"description": ""
+},
+{
+"name": "Expert jury critique",
+"description": ""
+},
+{
+"name": "Peer critique circle",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "Open studio",
+"description": ""
+},
+{
+"name": "Masterclass studio",
+"description": ""
+},
+{
+"name": "Atelier apprenticeship",
+"description": ""
+},
+{
+"name": "Work-in-progress review",
+"description": ""
+},
+{
+"name": "Public demo critique",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated learning; cognitive apprenticeship; feedback literacy",
+"cautions": "Critique culture must separate work quality from personal worth.",
+"theory": "Situated learning; cognitive apprenticeship; feedback literacy",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M246",
+"slug": "escape-room-learning",
+"name": "Escape-room learning",
+"family": "Solve & create",
+"format": "Physical or digital game",
+"description": "Teams solve connected puzzles under time pressure to progress through a narrative.",
+"bestFor": "Team coordination, retrieval and diagnostic assessment.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Physical escape room",
+"description": ""
+},
+{
+"name": "Portable escape box",
+"description": ""
+},
+{
+"name": "Digital escape room",
+"description": ""
+},
+{
+"name": "Cybersecurity escape room",
+"description": ""
+},
+{
+"name": "Compliance escape room",
+"description": ""
+},
+{
+"name": "Process escape room",
+"description": ""
+},
+{
+"name": "Teamwork escape room",
+"description": ""
+},
+{
+"name": "Knowledge-retrieval escape room",
+"description": ""
+}
+],
+"tierRaw": "C - Emerging",
+"mechanics": "Game-based learning; retrieval; collaborative problem solving",
+"cautions": "Novelty can overpower learning; debrief is essential.",
+"theory": "Game-based learning; retrieval; collaborative problem solving",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M255",
+"slug": "cohort-based-course",
+"name": "Cohort-based course",
+"family": "Learn with others",
+"format": "Scheduled group pathway",
+"description": "A stable cohort progresses together with deadlines, discussion, projects and accountability.",
+"bestFor": "Role transition, multi-week capability and belonging.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Synchronous cohort",
+"description": ""
+},
+{
+"name": "Hybrid cohort",
+"description": ""
+},
+{
+"name": "Peer-led cohort",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "Role-based cohort",
+"description": ""
+},
+{
+"name": "Cross-functional cohort",
+"description": ""
+},
+{
+"name": "Executive cohort",
+"description": ""
+},
+{
+"name": "Global follow-the-sun cohort",
+"description": ""
+},
+{
+"name": "Cohort with local pods",
+"description": ""
+},
+{
+"name": "Cohort with live residency",
+"description": ""
+},
+{
+"name": "Cohort with workplace capstone",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Social learning; accountability; communities of practice",
+"cautions": "Completion benefits may reflect selection and support, not cohorting alone.",
+"theory": "Social learning; accountability; communities of practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M266",
+"slug": "community-of-practice",
+"name": "Community of practice",
+"family": "Learn with others",
+"format": "Ongoing peer community",
+"description": "People who share a craft improve through cases, language, artefacts and mutual problem solving.",
+"bestFor": "Continuous learning and knowledge circulation.",
+"phase": "After / sustained transfer",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Craft guild",
+"description": ""
+},
+{
+"name": "Role community",
+"description": ""
+},
+{
+"name": "Practice circle",
+"description": ""
+},
+{
+"name": "Technical community",
+"description": ""
+},
+{
+"name": "Leadership community",
+"description": ""
+},
+{
+"name": "Client case community",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Local chapter network",
+"description": ""
+},
+{
+"name": "Global community with market chapters",
+"description": ""
+},
+{
+"name": "Community challenge cycle",
+"description": "Gives learners a meaningful constraint-based task that produces an observable output."
+},
+{
+"name": "Community knowledge exchange",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated learning; legitimate peripheral participation",
+"cautions": "Communities drift without purpose, stewardship and useful work.",
+"theory": "Situated learning; legitimate peripheral participation",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M277",
+"slug": "cognitive-apprenticeship",
+"name": "Cognitive apprenticeship",
+"family": "Learn with others",
+"format": "Workplace or simulated practice",
+"description": "Experts model thinking, coach performance, scaffold, ask learners to articulate and gradually release autonomy.",
+"bestFor": "Complex professional craft and tacit knowledge.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Model-coach-fade cycle",
+"description": ""
+},
+{
+"name": "Guided participation",
+"description": ""
+},
+{
+"name": "Expert shadow plus articulation",
+"description": ""
+},
+{
+"name": "Apprentice studio",
+"description": ""
+},
+{
+"name": "Remote cognitive apprenticeship",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Cognitive apprenticeship; situated cognition",
+"cautions": "Requires expert time and skill in making implicit knowledge explicit.",
+"theory": "Cognitive apprenticeship; situated cognition",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M283",
+"slug": "mentoring",
+"name": "Mentoring",
+"family": "Learn with others",
+"format": "One-to-one or group relationship",
+"description": "A more experienced person supports development, navigation and professional identity over time.",
+"bestFor": "Career growth, networks, identity and tacit organisational knowledge.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Traditional senior-junior mentoring",
+"description": ""
+},
+{
+"name": "Reverse mentoring",
+"description": ""
+},
+{
+"name": "Reciprocal mentoring",
+"description": ""
+},
+{
+"name": "Group mentoring",
+"description": ""
+},
+{
+"name": "Peer mentoring",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "Flash mentoring",
+"description": ""
+},
+{
+"name": "Speed mentoring",
+"description": ""
+},
+{
+"name": "Mentoring circles",
+"description": ""
+},
+{
+"name": "Sponsor-backed mentoring",
+"description": ""
+},
+{
+"name": "Cross-functional mentoring",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Social learning; possible selves; developmental relationships",
+"cautions": "Matching, power dynamics and unclear objectives reduce value.",
+"theory": "Social learning; possible selves; developmental relationships",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M294",
+"slug": "coaching",
+"name": "Coaching",
+"family": "Learn with others",
+"format": "One-to-one or group coaching",
+"description": "A coach observes, questions, challenges and supports experiments against a development goal.",
+"bestFor": "Leadership, behaviour change and performance refinement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Executive coaching",
+"description": ""
+},
+{
+"name": "Skills coaching",
+"description": ""
+},
+{
+"name": "Performance coaching",
+"description": ""
+},
+{
+"name": "Team coaching",
+"description": ""
+},
+{
+"name": "Group coaching",
+"description": ""
+},
+{
+"name": "Manager-as-coach",
+"description": ""
+},
+{
+"name": "Observational coaching",
+"description": ""
+},
+{
+"name": "Solution-focused coaching",
+"description": ""
+},
+{
+"name": "Strengths-based coaching",
+"description": ""
+},
+{
+"name": "Domain-expert coaching",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Self-regulation; goal-setting; feedback; deliberate practice",
+"cautions": "Generic coaching cannot replace domain expertise or fix system barriers.",
+"theory": "Self-regulation; goal-setting; feedback; deliberate practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M305",
+"slug": "peer-coaching",
+"name": "Peer coaching",
+"family": "Learn with others",
+"format": "Pairs or triads",
+"description": "Peers use a structure to help each other set goals, inspect evidence and plan experiments.",
+"bestFor": "Accountability and reflective practice at scale.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Coaching pairs",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Coaching triads",
+"description": "Uses questioning, observation and feedback to improve performance against a goal."
+},
+{
+"name": "Rotating peer coaches",
+"description": ""
+},
+{
+"name": "Accountability partners",
+"description": ""
+},
+{
+"name": "Peer observation coaching",
+"description": ""
+},
+{
+"name": "Case-based peer coaching",
+"description": ""
+},
+{
+"name": "Remote peer coaching",
+"description": ""
+},
+{
+"name": "Cross-role peer coaching",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Social learning; self-regulation; reflective practice",
+"cautions": "Peers need contracting, skill and escalation routes.",
+"theory": "Social learning; self-regulation; reflective practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M314",
+"slug": "action-learning-sets",
+"name": "Action learning sets",
+"family": "Learn with others",
+"format": "Small recurring groups",
+"description": "Members work on real problems through questioning, action commitments and later review.",
+"bestFor": "Leadership, cross-functional challenges and reflective problem solving.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Classic Revans set",
+"description": ""
+},
+{
+"name": "Leadership action learning set",
+"description": ""
+},
+{
+"name": "Cross-functional set",
+"description": ""
+},
+{
+"name": "Client challenge set",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Virtual action learning set",
+"description": ""
+},
+{
+"name": "Rapid action learning sprint",
+"description": ""
+},
+{
+"name": "Action learning with sponsor reviews",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Action learning; experiential learning; reflective practice",
+"cautions": "Can become discussion-only without action and evidence.",
+"theory": "Action learning; experiential learning; reflective practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M322",
+"slug": "world-caf",
+"name": "World Café",
+"family": "Learn with others",
+"format": "Large-group facilitated dialogue",
+"description": "Participants rotate through table conversations, building on prior groups’ ideas.",
+"bestFor": "Collective sense-making, connection and broad participation.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Classic rotating World Café",
+"description": ""
+},
+{
+"name": "Knowledge Café",
+"description": ""
+},
+{
+"name": "Future Café",
+"description": ""
+},
+{
+"name": "Solution Café",
+"description": ""
+},
+{
+"name": "Question Café",
+"description": ""
+},
+{
+"name": "Data Café",
+"description": ""
+},
+{
+"name": "Hybrid World Café",
+"description": ""
+}
+],
+"tierRaw": "D - Practitioner framework",
+"mechanics": "Dialogic learning; collective intelligence",
+"cautions": "Produces themes, not automatically decisions or capability.",
+"theory": "Dialogic learning; collective intelligence",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M330",
+"slug": "open-space-technology",
+"name": "Open Space Technology",
+"family": "Learn with others",
+"format": "Self-organising conference",
+"description": "Participants propose sessions, move between conversations and document outcomes.",
+"bestFor": "Emergent agendas, peer expertise and community formation.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Full-day Open Space",
+"description": ""
+},
+{
+"name": "Half-day Open Space",
+"description": ""
+},
+{
+"name": "Marketplace of skills",
+"description": ""
+},
+{
+"name": "Unconference",
+"description": ""
+},
+{
+"name": "Participant-led breakout exchange",
+"description": ""
+},
+{
+"name": "Open agenda with convergence",
+"description": ""
+}
+],
+"tierRaw": "D - Practitioner framework",
+"mechanics": "Self-determination; social learning; emergence",
+"cautions": "Needs clear purpose and documentation; not ideal for mandatory foundational content.",
+"theory": "Self-determination; social learning; emergence",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M337",
+"slug": "fishbowl-discussion",
+"name": "Fishbowl discussion",
+"family": "Learn with others",
+"format": "Observed live discussion",
+"description": "A small inner circle discusses while an outer circle observes process and content, with optional rotation.",
+"bestFor": "Dialogue, modelling and surfacing perspectives.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Closed fishbowl",
+"description": ""
+},
+{
+"name": "Open fishbowl",
+"description": ""
+},
+{
+"name": "Rotating fishbowl",
+"description": ""
+},
+{
+"name": "Leader fishbowl",
+"description": ""
+},
+{
+"name": "Expert-practitioner fishbowl",
+"description": ""
+},
+{
+"name": "Case fishbowl",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Decision fishbowl",
+"description": ""
+}
+],
+"tierRaw": "D/B - Practitioner with supported mechanisms",
+"mechanics": "Observational learning; dialogic learning",
+"cautions": "Observers need an active lens; status can silence participation.",
+"theory": "Observational learning; dialogic learning",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M345",
+"slug": "reciprocal-teaching",
+"name": "Reciprocal teaching",
+"family": "Learn with others",
+"format": "Small groups with rotating roles",
+"description": "Learners rotate through summarising, questioning, clarifying and predicting.",
+"bestFor": "Reading complex material and developing metacognitive strategies.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Predict-question-clarify-summarise",
+"description": ""
+},
+{
+"name": "Rotating discussion roles",
+"description": ""
+},
+{
+"name": "Evidence-reading reciprocal teaching",
+"description": ""
+},
+{
+"name": "Policy-reading reciprocal teaching",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong in literacy, conditional elsewhere",
+"mechanics": "Metacognition; scaffolding; social constructivism",
+"cautions": "Transfer outside reading comprehension requires adaptation and testing.",
+"theory": "Metacognition; scaffolding; social constructivism",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M350",
+"slug": "on-the-job-training",
+"name": "On-the-job training",
+"family": "Learn through work",
+"format": "Workplace, coached",
+"description": "Learners perform real tasks with guidance, standards and feedback.",
+"bestFor": "Role performance and immediate transfer.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Buddy-led OJT",
+"description": ""
+},
+{
+"name": "Supervisor-led OJT",
+"description": ""
+},
+{
+"name": "Structured task sign-off",
+"description": ""
+},
+{
+"name": "Guided first performance",
+"description": ""
+},
+{
+"name": "Progressive responsibility OJT",
+"description": ""
+},
+{
+"name": "Error-recovery OJT",
+"description": ""
+},
+{
+"name": "Cross-shift OJT",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated learning; near transfer; cognitive apprenticeship",
+"cautions": "Informal exposure can reproduce bad habits; structure and assessment are essential.",
+"theory": "Situated learning; near transfer; cognitive apprenticeship",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M358",
+"slug": "job-instruction-training",
+"name": "Job instruction training",
+"family": "Learn through work",
+"format": "Structured OJT",
+"description": "Trainer prepares the learner, presents steps and key points, supports try-out and follows up.",
+"bestFor": "Reliable procedural work and standard operations.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Four-step job instruction",
+"description": ""
+},
+{
+"name": "Standard work demonstration",
+"description": "Makes expert performance and decision cues visible before supported imitation."
+},
+{
+"name": "Key-point coaching",
+"description": "Uses questioning, observation and feedback to improve performance against a goal."
+},
+{
+"name": "Job breakdown sheet practice",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong for procedural tasks",
+"mechanics": "Behavioural task analysis; modelling; guided practice",
+"cautions": "Over-standardisation is weak for adaptive judgement.",
+"theory": "Behavioural task analysis; modelling; guided practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M363",
+"slug": "apprenticeship",
+"name": "Apprenticeship",
+"family": "Learn through work",
+"format": "Work-based longitudinal pathway",
+"description": "Novices participate in increasingly complex authentic work with expert supervision.",
+"bestFor": "Deep craft, identity and role progression.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Traditional craft apprenticeship",
+"description": ""
+},
+{
+"name": "Digital apprenticeship",
+"description": ""
+},
+{
+"name": "Rotational apprenticeship",
+"description": ""
+},
+{
+"name": "Degree apprenticeship",
+"description": ""
+},
+{
+"name": "Internal talent apprenticeship",
+"description": ""
+},
+{
+"name": "Project apprenticeship",
+"description": ""
+},
+{
+"name": "Cognitive apprenticeship pathway",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated learning; legitimate peripheral participation; cognitive apprenticeship",
+"cautions": "Slow to scale; quality depends on supervisors and breadth of experience.",
+"theory": "Situated learning; legitimate peripheral participation; cognitive apprenticeship",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M371",
+"slug": "job-rotation",
+"name": "Job rotation",
+"family": "Learn through work",
+"format": "Temporary role or function moves",
+"description": "Learners build system understanding by working across roles, teams or contexts.",
+"bestFor": "Leadership pipelines, empathy and cross-functional capability.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Functional rotation",
+"description": ""
+},
+{
+"name": "Market rotation",
+"description": ""
+},
+{
+"name": "Client rotation",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Short micro-rotation",
+"description": ""
+},
+{
+"name": "Shadow rotation",
+"description": ""
+},
+{
+"name": "Leadership rotation",
+"description": ""
+},
+{
+"name": "International rotation",
+"description": ""
+},
+{
+"name": "Project-based rotation",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Experiential learning; boundary crossing; job enrichment",
+"cautions": "Can create shallow exposure without objectives, coaching and reflection.",
+"theory": "Experiential learning; boundary crossing; job enrichment",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M380",
+"slug": "stretch-assignment",
+"name": "Stretch assignment",
+"family": "Learn through work",
+"format": "Real high-challenge work",
+"description": "Learner takes responsibility beyond current comfort with support and review.",
+"bestFor": "Leadership, adaptive expertise and confidence.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Acting-up assignment",
+"description": ""
+},
+{
+"name": "High-visibility project",
+"description": ""
+},
+{
+"name": "Turnaround assignment",
+"description": ""
+},
+{
+"name": "New-market assignment",
+"description": ""
+},
+{
+"name": "Cross-functional stretch",
+"description": ""
+},
+{
+"name": "Client-facing stretch",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Innovation stretch",
+"description": ""
+},
+{
+"name": "Crisis-response stretch",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Experiential learning; challenge–support; self-efficacy",
+"cautions": "Unmanaged stretch becomes overload or exploitation.",
+"theory": "Experiential learning; challenge–support; self-efficacy",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M389",
+"slug": "learning-in-the-flow-of-work",
+"name": "Learning in the flow of work",
+"family": "Learn through work",
+"format": "Embedded digital and social support",
+"description": "Guidance, practice and knowledge are delivered within or adjacent to the actual workflow.",
+"bestFor": "Fast-changing tools and just-in-time performance.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Embedded workflow prompt",
+"description": ""
+},
+{
+"name": "Contextual job aid",
+"description": ""
+},
+{
+"name": "In-app walkthrough",
+"description": "Uses movement and environmental observation to stimulate dialogue, attention or reflection."
+},
+{
+"name": "Searchable knowledge assistant",
+"description": ""
+},
+{
+"name": "Moment-of-need micro-lesson",
+"description": ""
+},
+{
+"name": "AI workflow copilot",
+"description": ""
+},
+{
+"name": "Manager-triggered learning nudge",
+"description": ""
+},
+{
+"name": "Task-linked expert office hour",
+"description": ""
+}
+],
+"tierRaw": "D/B - Practitioner framework with supported mechanisms",
+"mechanics": "Performance support; situated cognition; transfer of training",
+"cautions": "May optimise narrow tool use without conceptual depth.",
+"theory": "Performance support; situated cognition; transfer of training",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M398",
+"slug": "electronic-performance-support",
+"name": "Electronic performance support",
+"family": "Learn through work",
+"format": "In-product or contextual guidance",
+"description": "Checklists, walkthroughs, job aids and searchable support help users perform while learning.",
+"bestFor": "Infrequent procedures, systems adoption and error reduction.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Checklist",
+"description": ""
+},
+{
+"name": "Decision tree",
+"description": ""
+},
+{
+"name": "Interactive troubleshooting guide",
+"description": ""
+},
+{
+"name": "In-product coach marks",
+"description": ""
+},
+{
+"name": "Context card",
+"description": ""
+},
+{
+"name": "Smart form with guidance",
+"description": ""
+},
+{
+"name": "QR-linked field guide",
+"description": ""
+},
+{
+"name": "Augmented overlay instruction",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Distributed cognition; cognitive offloading; performance support",
+"cautions": "Support can create dependence; remove or vary prompts when mastery matters.",
+"theory": "Distributed cognition; cognitive offloading; performance support",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M407",
+"slug": "shadowing",
+"name": "Shadowing",
+"family": "Learn through work",
+"format": "Workplace observation",
+"description": "Learner observes an experienced colleague in authentic work and debriefs decisions.",
+"bestFor": "Tacit work, stakeholder management and role orientation.",
+"phase": "Before / opening",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Job shadowing",
+"description": ""
+},
+{
+"name": "Reverse shadowing",
+"description": ""
+},
+{
+"name": "Executive shadowing",
+"description": ""
+},
+{
+"name": "Customer shadowing",
+"description": ""
+},
+{
+"name": "Field ride-along",
+"description": ""
+},
+{
+"name": "Meeting shadow",
+"description": ""
+},
+{
+"name": "Role safari",
+"description": ""
+},
+{
+"name": "Shadow-and-debrief",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Observational learning; situated cognition",
+"cautions": "Observation without questions and practice remains superficial.",
+"theory": "Observational learning; situated cognition",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M416",
+"slug": "after-action-review",
+"name": "After-action review",
+"family": "Learn through work",
+"format": "Team reflection after action",
+"description": "A team compares intent, outcome, causes and what it will change next time.",
+"bestFor": "Operational learning, projects and simulations.",
+"phase": "Debrief / integration",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Four-question AAR",
+"description": ""
+},
+{
+"name": "Hot debrief",
+"description": ""
+},
+{
+"name": "Cold debrief",
+"description": ""
+},
+{
+"name": "Video-assisted AAR",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Cross-team AAR",
+"description": ""
+},
+{
+"name": "Simulation AAR",
+"description": "Represents a work system or situation so performance can be rehearsed without full real-world risk."
+},
+{
+"name": "Client-engagement AAR",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Data-backed AAR",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Reflective practice; experiential learning; team learning",
+"cautions": "Psychological safety and evidence are needed to avoid blame or ritual.",
+"theory": "Reflective practice; experiential learning; team learning",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M425",
+"slug": "learning-retrospective",
+"name": "Learning retrospective",
+"family": "Learn through work",
+"format": "Team reflection ritual",
+"description": "A recurring team review focuses on learning, experiments, blockers and next changes.",
+"bestFor": "Agile teams and continuous improvement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Start-stop-continue",
+"description": ""
+},
+{
+"name": "Sailboat retrospective",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Timeline retrospective",
+"description": ""
+},
+{
+"name": "Learning delta review",
+"description": ""
+},
+{
+"name": "Experiment retrospective",
+"description": ""
+}
+],
+"tierRaw": "B/D - Conditional practitioner method",
+"mechanics": "Double-loop learning; reflexivity; continuous improvement",
+"cautions": "Retrospectives fail when teams lack authority to change conditions.",
+"theory": "Double-loop learning; reflexivity; continuous improvement",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M431",
+"slug": "retrieval-practice",
+"name": "Retrieval practice",
+"family": "Retain & reinforce",
+"format": "Any modality",
+"description": "Learners reconstruct knowledge or decisions from memory rather than re-reading.",
+"bestFor": "Durable knowledge, mental models and diagnostic fluency.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Free recall",
+"description": ""
+},
+{
+"name": "Cued recall",
+"description": ""
+},
+{
+"name": "Practice quiz",
+"description": ""
+},
+{
+"name": "Brain dump",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Two-stage quiz",
+"description": ""
+},
+{
+"name": "Scenario retrieval",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Application retrieval",
+"description": ""
+},
+{
+"name": "Peer questioning",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "Cumulative quiz",
+"description": ""
+},
+{
+"name": "Confidence-rated retrieval",
+"description": ""
+}
+],
+"tierRaw": "A - Established",
+"mechanics": "Testing effect; retrieval-strength theory",
+"cautions": "Use low stakes, feedback and job-relevant retrieval, not trivia.",
+"theory": "Testing effect; retrieval-strength theory",
+"presence": "Varies",
+"tier": "A"
+},
+{
+"id": "M442",
+"slug": "spaced-practice",
+"name": "Spaced practice",
+"family": "Retain & reinforce",
+"format": "Distributed sessions",
+"description": "Learning and recall are spread over time instead of massed into one event.",
+"bestFor": "Long-term retention and reducing forgetting.",
+"phase": "After / sustained transfer",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Expanding intervals",
+"description": ""
+},
+{
+"name": "Equal intervals",
+"description": ""
+},
+{
+"name": "End-of-day booster",
+"description": ""
+},
+{
+"name": "Two-day booster",
+"description": ""
+},
+{
+"name": "Weekly booster",
+"description": ""
+},
+{
+"name": "Monthly booster",
+"description": ""
+},
+{
+"name": "Spaced scenario sequence",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Spaced peer challenge",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+}
+],
+"tierRaw": "A - Established",
+"mechanics": "Spacing effect; consolidation; desirable difficulties",
+"cautions": "Spacing emails alone is not practice; intervals depend on retention goal.",
+"theory": "Spacing effect; consolidation; desirable difficulties",
+"presence": "Varies",
+"tier": "A"
+},
+{
+"id": "M451",
+"slug": "successive-relearning",
+"name": "Successive relearning",
+"family": "Retain & reinforce",
+"format": "Spaced retrieval cycles",
+"description": "Learners repeatedly retrieve correctly across multiple spaced sessions.",
+"bestFor": "Important knowledge needing durable, fluent access.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Criterion-based relearning",
+"description": ""
+},
+{
+"name": "Spaced flashcard mastery",
+"description": "Requires learners to meet a criterion before progressing."
+},
+{
+"name": "Spaced scenario mastery",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Cumulative oral retrieval",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong",
+"mechanics": "Retrieval practice plus spacing",
+"cautions": "Requires careful selection; not suited to every complex capability alone.",
+"theory": "Retrieval practice plus spacing",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M456",
+"slug": "interleaved-practice",
+"name": "Interleaved practice",
+"family": "Retain & reinforce",
+"format": "Mixed practice",
+"description": "Related problem types or skills are mixed so learners must select the right approach.",
+"bestFor": "Discrimination, strategy selection and transfer.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Mixed problem types",
+"description": ""
+},
+{
+"name": "Mixed client scenarios",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Mixed skill stations",
+"description": ""
+},
+{
+"name": "Randomised case ordering",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Interleaved technical drills",
+"description": ""
+},
+{
+"name": "Interleaved judgement practice",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong, task dependent",
+"mechanics": "Discrimination learning; contextual interference",
+"cautions": "Provide blocked foundations first for novices; unrelated mixing adds confusion.",
+"theory": "Discrimination learning; contextual interference",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M463",
+"slug": "microlearning",
+"name": "Microlearning",
+"family": "Retain & reinforce",
+"format": "Mobile, email or LMS",
+"description": "Very short targeted learning units support a specific objective or action.",
+"bestFor": "Refreshers, just-in-time support and spaced reinforcement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Single-concept micro-lesson",
+"description": ""
+},
+{
+"name": "Micro-video",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Micro-podcast",
+"description": ""
+},
+{
+"name": "Micro-scenario",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Micro-quiz",
+"description": "Requires retrieval and feedback rather than rereading."
+},
+{
+"name": "Micro-coaching prompt",
+"description": "Uses questioning, observation and feedback to improve performance against a goal."
+},
+{
+"name": "Micro-demonstration",
+"description": "Makes expert performance and decision cues visible before supported imitation."
+},
+{
+"name": "Micro-challenge",
+"description": "Gives learners a meaningful constraint-based task that produces an observable output."
+},
+{
+"name": "Daily learning card",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Chat-based microlearning",
+"description": ""
+}
+],
+"tierRaw": "B/C - Positive but heterogeneous",
+"mechanics": "Cognitive load management; spacing; just-in-time learning",
+"cautions": "Short is not automatically effective; fragmentation can destroy coherence.",
+"theory": "Cognitive load management; spacing; just-in-time learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M474",
+"slug": "nudges-and-reminders",
+"name": "Nudges and reminders",
+"family": "Retain & reinforce",
+"format": "Email, chat or app",
+"description": "Small prompts cue attention, retrieval, planning or behaviour at relevant moments.",
+"bestFor": "Transfer support, habit formation and compliance.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Calendar nudge",
+"description": ""
+},
+{
+"name": "Teams or Slack nudge",
+"description": ""
+},
+{
+"name": "Manager nudge",
+"description": ""
+},
+{
+"name": "Social proof nudge",
+"description": ""
+},
+{
+"name": "Implementation-intention prompt",
+"description": ""
+},
+{
+"name": "Pre-task cue",
+"description": ""
+},
+{
+"name": "Post-task reflection cue",
+"description": "Creates protected time to interpret experience, surface assumptions and plan changed behaviour."
+},
+{
+"name": "Deadline-linked nudge",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Nudge theory; implementation intentions; cue-dependent behaviour",
+"cautions": "Nudges cannot overcome missing time, tools or incentives.",
+"theory": "Nudge theory; implementation intentions; cue-dependent behaviour",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M483",
+"slug": "flashcards-and-quiz-cards",
+"name": "Flashcards and quiz cards",
+"family": "Retain & reinforce",
+"format": "Physical or digital",
+"description": "Prompt-answer items create portable retrieval practice and spacing.",
+"bestFor": "Vocabulary, facts, cues and decision rules.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Leitner box",
+"description": ""
+},
+{
+"name": "Digital adaptive flashcards",
+"description": "Changes difficulty, sequence, support or feedback in response to demonstrated performance."
+},
+{
+"name": "Scenario flashcards",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Visual cue cards",
+"description": ""
+},
+{
+"name": "Team quiz cards",
+"description": "Requires retrieval and feedback rather than rereading."
+}
+],
+"tierRaw": "A/B - Strong for appropriate content",
+"mechanics": "Retrieval practice; spacing; feedback",
+"cautions": "Poor for complex performance unless paired with application.",
+"theory": "Retrieval practice; spacing; feedback",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M489",
+"slug": "learning-journal",
+"name": "Learning journal",
+"family": "Retain & reinforce",
+"format": "Private written reflection",
+"description": "Learners record evidence, questions, strategies, errors and next experiments.",
+"bestFor": "Metacognition and professional identity.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Structured journal",
+"description": ""
+},
+{
+"name": "Critical incident journal",
+"description": ""
+},
+{
+"name": "Decision journal",
+"description": ""
+},
+{
+"name": "Audio journal",
+"description": "Uses listening and spoken reflection where visual attention is unnecessary."
+},
+{
+"name": "Photo journal",
+"description": ""
+},
+{
+"name": "Learning-log evidence journal",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Metacognition; reflective practice; self-regulated learning",
+"cautions": "Unstructured reflection can become vague or performative.",
+"theory": "Metacognition; reflective practice; self-regulated learning",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M496",
+"slug": "self-paced-e-learning",
+"name": "Self-paced e-learning",
+"family": "Digital, hybrid & scaled",
+"format": "Asynchronous LMS",
+"description": "Learners progress through digital content and activities on their own schedule.",
+"bestFor": "Foundations, compliance, prerequisite knowledge and global scale.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Linear module",
+"description": ""
+},
+{
+"name": "Explorable module",
+"description": ""
+},
+{
+"name": "Scenario-led module",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Adaptive module",
+"description": "Changes difficulty, sequence, support or feedback in response to demonstrated performance."
+},
+{
+"name": "Resource-first module",
+"description": ""
+},
+{
+"name": "Video-led module",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Interactive workbook",
+"description": ""
+},
+{
+"name": "Cohort-paced asynchronous module",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Multimedia learning; self-regulated learning",
+"cautions": "Completion and exposure are weak proxies for capability; multitasking risk.",
+"theory": "Multimedia learning; self-regulated learning",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M505",
+"slug": "flipped-learning",
+"name": "Flipped learning",
+"family": "Digital, hybrid & scaled",
+"format": "Asynchronous preparation plus live application",
+"description": "Explanations are consumed before the session; live time is used for problems, practice and feedback.",
+"bestFor": "Maximising valuable face-to-face time.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Video-first flip",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Case-first flip",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Problem-first flip",
+"description": ""
+},
+{
+"name": "Podcast-first flip",
+"description": ""
+},
+{
+"name": "Data-first flip",
+"description": ""
+},
+{
+"name": "Peer-teaching flip",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+},
+{
+"name": "AI-tutor flip",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Cognitive load; active learning; retrieval; social learning",
+"cautions": "Fails if pre-work is too long or not held accountable.",
+"theory": "Cognitive load; active learning; retrieval; social learning",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M513",
+"slug": "virtual-instructor-led-training",
+"name": "Virtual instructor-led training",
+"family": "Digital, hybrid & scaled",
+"format": "Live video platform",
+"description": "A facilitator teaches and orchestrates activities for distributed learners in real time.",
+"bestFor": "Global cohorts, demos, discussion and coaching.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Interactive webinar",
+"description": ""
+},
+{
+"name": "Virtual workshop",
+"description": ""
+},
+{
+"name": "Virtual lab",
+"description": "Provides a protected environment to build, test, troubleshoot and repeat."
+},
+{
+"name": "Virtual studio",
+"description": ""
+},
+{
+"name": "Virtual simulation",
+"description": "Represents a work system or situation so performance can be rehearsed without full real-world risk."
+},
+{
+"name": "Virtual coaching clinic",
+"description": "Uses questioning, observation and feedback to improve performance against a goal."
+},
+{
+"name": "Virtual fishbowl",
+"description": ""
+},
+{
+"name": "Virtual cohort seminar",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Community of inquiry; social presence; cognitive load",
+"cautions": "Screen fatigue and weak informal interaction require short, active design.",
+"theory": "Community of inquiry; social presence; cognitive load",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M522",
+"slug": "blended-learning",
+"name": "Blended learning",
+"family": "Digital, hybrid & scaled",
+"format": "Integrated online and face-to-face journey",
+"description": "Multiple modalities are deliberately sequenced according to their affordances.",
+"bestFor": "Sustained corporate pathways and distributed cohorts.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Online-before-live blend",
+"description": ""
+},
+{
+"name": "Live-before-online blend",
+"description": ""
+},
+{
+"name": "Retreat-centred blend",
+"description": ""
+},
+{
+"name": "Hub-and-spoke blend",
+"description": ""
+},
+{
+"name": "Global virtual plus local pod",
+"description": ""
+},
+{
+"name": "Self-paced plus coaching",
+"description": "Uses questioning, observation and feedback to improve performance against a goal."
+},
+{
+"name": "Simulation plus workplace application",
+"description": "Represents a work system or situation so performance can be rehearsed without full real-world risk."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Modality fit; spacing; transfer; community of inquiry",
+"cautions": "A collection of formats is not a blend unless the journey is coherent.",
+"theory": "Modality fit; spacing; transfer; community of inquiry",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M530",
+"slug": "mobile-learning",
+"name": "Mobile learning",
+"family": "Digital, hybrid & scaled",
+"format": "Smartphone or tablet",
+"description": "Learning and support are designed for portable, contextual and short interactions.",
+"bestFor": "Field workers, travel, refreshers and job aids.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Mobile lesson",
+"description": ""
+},
+{
+"name": "Field checklist",
+"description": ""
+},
+{
+"name": "Photo evidence task",
+"description": ""
+},
+{
+"name": "Location-based prompt",
+"description": ""
+},
+{
+"name": "Mobile flashcard",
+"description": ""
+},
+{
+"name": "Voice-note reflection",
+"description": "Creates protected time to interpret experience, surface assumptions and plan changed behaviour."
+},
+{
+"name": "Mobile scenario",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "QR learning trail",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "B/C - Conditional",
+"mechanics": "Ubiquitous learning; spacing; situated learning",
+"cautions": "Small screens, distraction and accessibility constrain complex learning.",
+"theory": "Ubiquitous learning; spacing; situated learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M539",
+"slug": "podcast-audio-learning",
+"name": "Podcast / audio learning",
+"family": "Digital, hybrid & scaled",
+"format": "Asynchronous audio",
+"description": "Audio episodes deliver stories, interviews or explanations during low-visual-attention contexts.",
+"bestFor": "Orientation, narrative, reflection and continued engagement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Expert interview podcast",
+"description": ""
+},
+{
+"name": "Narrative case podcast",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Learner reflection podcast",
+"description": ""
+},
+{
+"name": "Audio briefing",
+"description": "Uses listening and spoken reflection where visual attention is unnecessary."
+},
+{
+"name": "Guided reflection audio",
+"description": ""
+},
+{
+"name": "Audio role-play",
+"description": "Rehearses interpersonal behaviour by enacting roles in a controlled situation."
+},
+{
+"name": "Daily recap podcast",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "C/B - Conditional",
+"mechanics": "Narrative learning; dual-channel boundaries; informal learning",
+"cautions": "Weak for dense novel material requiring diagrams or active practice.",
+"theory": "Narrative learning; dual-channel boundaries; informal learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M547",
+"slug": "interactive-video",
+"name": "Interactive video",
+"family": "Digital, hybrid & scaled",
+"format": "Digital branching media",
+"description": "Video pauses for decisions, questions, overlays or alternative paths.",
+"bestFor": "Procedures, scenarios and demonstrations at scale.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Branching video",
+"description": ""
+},
+{
+"name": "Hotspot video",
+"description": ""
+},
+{
+"name": "Decision-point video",
+"description": ""
+},
+{
+"name": "Video with confidence checks",
+"description": ""
+},
+{
+"name": "Choose-the-expert-response video",
+"description": ""
+},
+{
+"name": "Annotated demonstration video",
+"description": ""
+},
+{
+"name": "Video teardown",
+"description": ""
+}
+],
+"tierRaw": "B/C - Conditional",
+"mechanics": "Multimedia learning; retrieval; scenario-based learning",
+"cautions": "Interaction should support decisions, not add clicks.",
+"theory": "Multimedia learning; retrieval; scenario-based learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M555",
+"slug": "adaptive-learning-system",
+"name": "Adaptive learning system",
+"family": "Digital, hybrid & scaled",
+"format": "AI or algorithmic platform",
+"description": "Content, practice or feedback changes based on learner responses and estimated mastery.",
+"bestFor": "Large populations with varied prior knowledge.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Diagnostic adaptive path",
+"description": ""
+},
+{
+"name": "Mastery-based adaptation",
+"description": "Requires learners to meet a criterion before progressing."
+},
+{
+"name": "Difficulty adaptation",
+"description": ""
+},
+{
+"name": "Content recommendation engine",
+"description": ""
+},
+{
+"name": "Adaptive spacing engine",
+"description": ""
+},
+{
+"name": "Adaptive scenario engine",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Adaptive remediation",
+"description": ""
+}
+],
+"tierRaw": "B/C - Conditional",
+"mechanics": "Mastery learning; knowledge tracing; adaptive testing",
+"cautions": "Adaptation quality depends on the domain model and data; opacity risks.",
+"theory": "Mastery learning; knowledge tracing; adaptive testing",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M563",
+"slug": "ai-tutor",
+"name": "AI tutor",
+"family": "Digital, hybrid & scaled",
+"format": "Conversational or embedded AI",
+"description": "An AI explains, questions, generates examples and guides practice responsively.",
+"bestFor": "Scalable individual support and explanation.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Socratic AI tutor",
+"description": ""
+},
+{
+"name": "Explain-it-differently tutor",
+"description": ""
+},
+{
+"name": "Multimodal tutor",
+"description": ""
+},
+{
+"name": "Teach-back AI partner",
+"description": ""
+},
+{
+"name": "AI question generator",
+"description": ""
+},
+{
+"name": "AI misconception detector",
+"description": ""
+},
+{
+"name": "AI study planner",
+"description": ""
+},
+{
+"name": "AI source-grounded tutor",
+"description": ""
+}
+],
+"tierRaw": "C - Emerging",
+"mechanics": "Intelligent tutoring; scaffolding; feedback; Socratic dialogue",
+"cautions": "Hallucination, dependency, privacy and premature cognitive offloading.",
+"theory": "Intelligent tutoring; scaffolding; feedback; Socratic dialogue",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M572",
+"slug": "ai-generated-personalised-practice",
+"name": "AI-generated personalised practice",
+"family": "Digital, hybrid & scaled",
+"format": "AI content and feedback",
+"description": "AI creates role-specific cases, questions and feedback from learner needs and context.",
+"bestFor": "Varied practice, scale and rapid updating.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Role-specific case generator",
+"description": "Uses a bounded situation requiring analysis, judgement and a defensible decision."
+},
+{
+"name": "Difficulty-adjusting challenge generator",
+"description": "Gives learners a meaningful constraint-based task that produces an observable output."
+},
+{
+"name": "Personalised objection generator",
+"description": ""
+},
+{
+"name": "Personalised quiz generator",
+"description": "Requires retrieval and feedback rather than rereading."
+},
+{
+"name": "Work-sample-to-practice converter",
+"description": ""
+},
+{
+"name": "Scenario variation generator",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+},
+{
+"name": "Personalised feedback loop",
+"description": ""
+}
+],
+"tierRaw": "C - Emerging",
+"mechanics": "Adaptive practice; deliberate practice; contextual variation",
+"cautions": "Human review, data governance and stable quality criteria are required.",
+"theory": "Adaptive practice; deliberate practice; contextual variation",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M580",
+"slug": "virtual-reality-training",
+"name": "Virtual reality training",
+"family": "Immersive, embodied & environmental",
+"format": "Head-mounted immersive simulation",
+"description": "Learners practise in a fully simulated spatial environment with controlled scenarios.",
+"bestFor": "Safety, spatial, equipment and emotionally realistic practice.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "360-video VR experience",
+"description": ""
+},
+{
+"name": "Room-scale VR simulation",
+"description": ""
+},
+{
+"name": "Procedural VR rehearsal",
+"description": ""
+},
+{
+"name": "Soft-skills VR role-play",
+"description": ""
+},
+{
+"name": "Hazard-recognition VR",
+"description": ""
+},
+{
+"name": "Collaborative multi-user VR",
+"description": ""
+},
+{
+"name": "VR with haptic feedback",
+"description": ""
+},
+{
+"name": "VR assessment",
+"description": ""
+}
+],
+"tierRaw": "B/C - Conditional",
+"mechanics": "Embodied cognition; presence; experiential learning",
+"cautions": "Cost, cybersickness, accessibility and cognitive load; avoid novelty-first use.",
+"theory": "Embodied cognition; presence; experiential learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M589",
+"slug": "augmented-reality-guidance",
+"name": "Augmented reality guidance",
+"family": "Immersive, embodied & environmental",
+"format": "AR headset, tablet or phone",
+"description": "Digital instructions or cues overlay the physical work environment.",
+"bestFor": "Maintenance, assembly, field support and procedural learning.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Phone-based AR guide",
+"description": ""
+},
+{
+"name": "Tablet AR procedure",
+"description": ""
+},
+{
+"name": "Wearable AR instructions",
+"description": ""
+},
+{
+"name": "Remote-expert AR support",
+"description": ""
+},
+{
+"name": "AR object identification",
+"description": ""
+},
+{
+"name": "AR safety overlay",
+"description": ""
+},
+{
+"name": "AR learning trail",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+}
+],
+"tierRaw": "C/B - Emerging to conditional",
+"mechanics": "Situated cognition; performance support; embodied learning",
+"cautions": "Field-of-view, ergonomics, data and hardware constraints.",
+"theory": "Situated cognition; performance support; embodied learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M597",
+"slug": "mixed-reality-simulation",
+"name": "Mixed-reality simulation",
+"family": "Immersive, embodied & environmental",
+"format": "Physical and digital blended environment",
+"description": "Learners interact with real and virtual elements in a shared task.",
+"bestFor": "Complex spatial collaboration and equipment practice.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Shared holographic simulation",
+"description": ""
+},
+{
+"name": "Physical-digital equipment simulation",
+"description": ""
+},
+{
+"name": "Mixed-reality team exercise",
+"description": ""
+},
+{
+"name": "Spatial data visualisation lab",
+"description": ""
+},
+{
+"name": "Remote mixed-reality collaboration",
+"description": ""
+}
+],
+"tierRaw": "C - Emerging",
+"mechanics": "Embodied cognition; distributed cognition; presence",
+"cautions": "High cost and inconsistent evidence; match fidelity to objective.",
+"theory": "Embodied cognition; distributed cognition; presence",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M603",
+"slug": "serious-game",
+"name": "Serious game",
+"family": "Immersive, embodied & environmental",
+"format": "Digital or physical game",
+"description": "A game is designed primarily to develop knowledge, skill or behaviour rather than entertainment.",
+"bestFor": "Systems thinking, decisions, motivation and repeated practice.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Cooperative serious game",
+"description": ""
+},
+{
+"name": "Competitive serious game",
+"description": ""
+},
+{
+"name": "Systems game",
+"description": ""
+},
+{
+"name": "Resource-allocation game",
+"description": ""
+},
+{
+"name": "Decision-consequence game",
+"description": ""
+},
+{
+"name": "Narrative quest",
+"description": ""
+},
+{
+"name": "Card-based learning game",
+"description": ""
+},
+{
+"name": "Board-based business game",
+"description": ""
+},
+{
+"name": "Digital strategy game",
+"description": ""
+},
+{
+"name": "Team mission game",
+"description": ""
+}
+],
+"tierRaw": "B/C - Conditional",
+"mechanics": "Game-based learning; experiential learning; systems feedback",
+"cautions": "Engagement can mask weak alignment; competition may exclude.",
+"theory": "Game-based learning; experiential learning; systems feedback",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M614",
+"slug": "business-simulation",
+"name": "Business simulation",
+"family": "Immersive, embodied & environmental",
+"format": "Board, facilitated or digital model",
+"description": "Teams run a simplified organisation or market and experience delayed consequences of decisions.",
+"bestFor": "Strategy, finance, leadership and systems thinking.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Strategy simulation",
+"description": ""
+},
+{
+"name": "Market-entry simulation",
+"description": ""
+},
+{
+"name": "Financial simulation",
+"description": ""
+},
+{
+"name": "Supply-chain simulation",
+"description": ""
+},
+{
+"name": "Operating-model simulation",
+"description": ""
+},
+{
+"name": "Cyber-risk simulation",
+"description": ""
+},
+{
+"name": "Customer-experience simulation",
+"description": ""
+},
+{
+"name": "Sustainability simulation",
+"description": ""
+},
+{
+"name": "Resource-allocation simulation",
+"description": ""
+},
+{
+"name": "Portfolio simulation",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Experiential learning; systems dynamics; feedback loops",
+"cautions": "Models encode assumptions; winning the game is not the same as real transfer.",
+"theory": "Experiential learning; systems dynamics; feedback loops",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M625",
+"slug": "tabletop-exercise",
+"name": "Tabletop exercise",
+"family": "Immersive, embodied & environmental",
+"format": "Facilitated scenario around a table",
+"description": "Participants discuss actions, decisions, roles and dependencies during an unfolding event.",
+"bestFor": "Cybersecurity, crisis, continuity and governance.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Cyber incident tabletop",
+"description": ""
+},
+{
+"name": "Crisis communications tabletop",
+"description": ""
+},
+{
+"name": "Business continuity tabletop",
+"description": ""
+},
+{
+"name": "AI governance tabletop",
+"description": ""
+},
+{
+"name": "Data-breach tabletop",
+"description": ""
+},
+{
+"name": "Reputation-risk tabletop",
+"description": ""
+},
+{
+"name": "Client escalation tabletop",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Regulatory-response tabletop",
+"description": ""
+},
+{
+"name": "Product-failure tabletop",
+"description": ""
+},
+{
+"name": "Third-party failure tabletop",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Simulation; shared mental models; team cognition",
+"cautions": "Discussion without realistic pressure or action capture may overstate readiness.",
+"theory": "Simulation; shared mental models; team cognition",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M636",
+"slug": "field-study-contextual-immersion",
+"name": "Field study / contextual immersion",
+"family": "Immersive, embodied & environmental",
+"format": "Real-world observation",
+"description": "Learners enter the actual environment, observe work, interview users and gather evidence.",
+"bestFor": "Empathy, discovery, operational context and problem framing.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Customer observation",
+"description": ""
+},
+{
+"name": "Service safari",
+"description": ""
+},
+{
+"name": "Contextual interview",
+"description": ""
+},
+{
+"name": "Workplace ethnography",
+"description": ""
+},
+{
+"name": "Diary study immersion",
+"description": ""
+},
+{
+"name": "Shop-along",
+"description": ""
+},
+{
+"name": "Ride-along",
+"description": ""
+},
+{
+"name": "Competitive experience safari",
+"description": ""
+},
+{
+"name": "Community immersion",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Situated cognition; experiential learning; ethnography",
+"cautions": "Ethics, consent and observer bias must be managed.",
+"theory": "Situated cognition; experiential learning; ethnography",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M646",
+"slug": "outdoor-experiential-learning",
+"name": "Outdoor experiential learning",
+"family": "Immersive, embodied & environmental",
+"format": "Outdoor challenge and facilitated reflection",
+"description": "Teams undertake physical or environmental tasks followed by structured reflection and transfer.",
+"bestFor": "Leadership, coordination, uncertainty and team awareness.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Low-ropes team challenge",
+"description": ""
+},
+{
+"name": "Navigation challenge",
+"description": ""
+},
+{
+"name": "Expedition learning",
+"description": ""
+},
+{
+"name": "Outdoor problem solving",
+"description": "Uses an accessible outdoor context for embodied challenge, observation or reflection."
+},
+{
+"name": "Nature-based leadership reflection",
+"description": "Creates protected time to interpret experience, surface assumptions and plan changed behaviour."
+},
+{
+"name": "Accessible outdoor collaboration",
+"description": "Provides a protected environment to build, test, troubleshoot and repeat."
+},
+{
+"name": "Survival scenario with debrief",
+"description": "Places learners inside a contextual decision sequence with consequences and debrief."
+}
+],
+"tierRaw": "C/B - Mixed and conditional",
+"mechanics": "Experiential learning; self-efficacy; team development",
+"cautions": "Physical access, culture and weak transfer are major risks.",
+"theory": "Experiential learning; self-efficacy; team development",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M654",
+"slug": "walking-learning-learning-walk",
+"name": "Walking learning / learning walk",
+"family": "Immersive, embodied & environmental",
+"format": "Paired or guided walking",
+"description": "Movement and a changing environment structure observation, dialogue or reflection.",
+"bestFor": "Reflection, peer connection and environmental sense-making.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Paired coaching walk",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Observation walk",
+"description": ""
+},
+{
+"name": "Gallery learning walk",
+"description": ""
+},
+{
+"name": "System walk",
+"description": ""
+},
+{
+"name": "Customer journey walk",
+"description": ""
+},
+{
+"name": "Silent reflection walk",
+"description": "Creates protected time to interpret experience, surface assumptions and plan changed behaviour."
+},
+{
+"name": "Walk-and-talk mentoring",
+"description": ""
+}
+],
+"tierRaw": "C - Emerging/conditional",
+"mechanics": "Embodied cognition; attention restoration; reflective practice",
+"cautions": "Accessibility, weather and confidentiality require alternatives.",
+"theory": "Embodied cognition; attention restoration; reflective practice",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M662",
+"slug": "residential-learning-retreat",
+"name": "Residential learning retreat",
+"family": "Immersive, embodied & environmental",
+"format": "Multi-day offsite immersion",
+"description": "Participants leave routine work for protected learning, social connection, practice and reflection.",
+"bestFor": "Deep focus, identity, leadership, cohort formation and complex integration.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Executive residency",
+"description": ""
+},
+{
+"name": "Skills bootcamp residency",
+"description": ""
+},
+{
+"name": "Creative retreat",
+"description": ""
+},
+{
+"name": "Leadership retreat",
+"description": ""
+},
+{
+"name": "Innovation retreat",
+"description": ""
+},
+{
+"name": "Learning festival retreat",
+"description": ""
+},
+{
+"name": "Studio residency",
+"description": ""
+},
+{
+"name": "Field-immersion retreat",
+"description": ""
+},
+{
+"name": "Cohort launch retreat",
+"description": ""
+},
+{
+"name": "Capstone retreat",
+"description": ""
+}
+],
+"tierRaw": "B/C - Conditional",
+"mechanics": "Adult learning; cognitive load management; social learning; attention restoration",
+"cautions": "Intensity can create an illusion of transformation; accessibility and transfer planning are essential.",
+"theory": "Adult learning; cognitive load management; social learning; attention restoration",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M673",
+"slug": "silent-reflection-solo-integration",
+"name": "Silent reflection / solo integration",
+"family": "Immersive, embodied & environmental",
+"format": "Individual, low-stimulus",
+"description": "Protected time is used to consolidate, write, plan and integrate learning without new input.",
+"bestFor": "Sense-making, metacognition and decision quality.",
+"phase": "Debrief / integration",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Guided journalling",
+"description": ""
+},
+{
+"name": "Decision journal",
+"description": ""
+},
+{
+"name": "Future-self letter",
+"description": ""
+},
+{
+"name": "Solo synthesis map",
+"description": "Externalises relationships, systems or journeys so they can be inspected and revised."
+},
+{
+"name": "Silent nature reflection",
+"description": "Creates protected time to interpret experience, surface assumptions and plan changed behaviour."
+},
+{
+"name": "Personal manifesto",
+"description": ""
+},
+{
+"name": "Commitment contract",
+"description": ""
+},
+{
+"name": "Private video reflection",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+}
+],
+"tierRaw": "C/B - Conditional",
+"mechanics": "Consolidation; metacognition; reflection",
+"cautions": "Silence is not universally comfortable or accessible; give clear purposeful prompts.",
+"theory": "Consolidation; metacognition; reflection",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M682",
+"slug": "transformative-learning-dialogue",
+"name": "Transformative learning dialogue",
+"family": "Transform & sustain",
+"format": "Facilitated critical reflection",
+"description": "Learners examine assumptions, encounter disconfirming perspectives and revise frames of reference.",
+"bestFor": "Leadership identity, ethics and major role transitions.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Disorienting-dilemma dialogue",
+"description": ""
+},
+{
+"name": "Critical assumption audit",
+"description": ""
+},
+{
+"name": "Perspective transformation circle",
+"description": ""
+},
+{
+"name": "Identity transition dialogue",
+"description": ""
+},
+{
+"name": "Values conflict dialogue",
+"description": ""
+},
+{
+"name": "Threshold concept seminar",
+"description": ""
+}
+],
+"tierRaw": "B/C - Conditional and contested in parts",
+"mechanics": "Mezirow transformative learning",
+"cautions": "Do not engineer vulnerability or claim guaranteed transformation.",
+"theory": "Mezirow transformative learning",
+"presence": "Varies",
+"tier": "C"
+},
+{
+"id": "M689",
+"slug": "critical-incident-method",
+"name": "Critical incident method",
+"family": "Transform & sustain",
+"format": "Individual or group analysis",
+"description": "Participants analyse a significant real event to identify cues, decisions, assumptions and alternatives.",
+"bestFor": "Leadership, safety, client work and professional judgement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Critical incident interview",
+"description": ""
+},
+{
+"name": "Incident timeline reconstruction",
+"description": ""
+},
+{
+"name": "Decision autopsy",
+"description": ""
+},
+{
+"name": "Near-miss review",
+"description": ""
+},
+{
+"name": "Success incident analysis",
+"description": ""
+},
+{
+"name": "Client incident clinic",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Leadership incident reflection",
+"description": "Creates protected time to interpret experience, surface assumptions and plan changed behaviour."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Critical incident technique; reflective practice; naturalistic decision making",
+"cautions": "Memory is reconstructive; triangulate with evidence where possible.",
+"theory": "Critical incident technique; reflective practice; naturalistic decision making",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M697",
+"slug": "premortem",
+"name": "Premortem",
+"family": "Transform & sustain",
+"format": "Facilitated prospective analysis",
+"description": "A team imagines a future failure and works backward to identify plausible causes and mitigations.",
+"bestFor": "Planning, risk and challenging group optimism.",
+"phase": "Before / opening",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Project premortem",
+"description": ""
+},
+{
+"name": "Learning transfer premortem",
+"description": ""
+},
+{
+"name": "Client-engagement premortem",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "AI-risk premortem",
+"description": ""
+},
+{
+"name": "Career experiment premortem",
+"description": ""
+},
+{
+"name": "Team failure premortem",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Prospective hindsight; debiasing; mental simulation",
+"cautions": "Can become pessimistic brainstorming without prioritisation and action.",
+"theory": "Prospective hindsight; debiasing; mental simulation",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M704",
+"slug": "red-teaming",
+"name": "Red teaming",
+"family": "Transform & sustain",
+"format": "Adversarial challenge",
+"description": "A separate group tests assumptions, plans, artefacts or systems from an opposing perspective.",
+"bestFor": "Security, strategy, AI governance and decision quality.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Red-team/blue-team exercise",
+"description": ""
+},
+{
+"name": "Assumption attack",
+"description": ""
+},
+{
+"name": "Adversarial review",
+"description": ""
+},
+{
+"name": "Prompt red teaming",
+"description": ""
+},
+{
+"name": "Cyber red team",
+"description": ""
+},
+{
+"name": "Strategy red team",
+"description": ""
+},
+{
+"name": "Devil’s advocate rotation",
+"description": ""
+},
+{
+"name": "Pre-publication challenge panel",
+"description": "Gives learners a meaningful constraint-based task that produces an observable output."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Cognitive conflict; adversarial testing; error detection",
+"cautions": "Requires clear ethics and psychological safety; adversarial behaviour can become personal.",
+"theory": "Cognitive conflict; adversarial testing; error detection",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M713",
+"slug": "future-scenario-planning",
+"name": "Future scenario planning",
+"family": "Transform & sustain",
+"format": "Facilitated strategic exploration",
+"description": "Teams construct plausible futures, test strategies and identify signposts.",
+"bestFor": "Strategy, uncertainty and leadership alignment.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Two-by-two scenarios",
+"description": ""
+},
+{
+"name": "Three-horizons exploration",
+"description": ""
+},
+{
+"name": "Wind-tunnelling strategy test",
+"description": ""
+},
+{
+"name": "Backcasting",
+"description": ""
+},
+{
+"name": "Future wheel",
+"description": ""
+},
+{
+"name": "Signals-to-scenarios lab",
+"description": ""
+},
+{
+"name": "Role-play in future worlds",
+"description": "Rehearses interpersonal behaviour by enacting roles in a controlled situation."
+},
+{
+"name": "No-regret moves workshop",
+"description": ""
+}
+],
+"tierRaw": "D/B - Practitioner framework with research support",
+"mechanics": "Prospective thinking; systems thinking; mental simulation",
+"cautions": "Scenarios are not forecasts; avoid using them as predictions.",
+"theory": "Prospective thinking; systems thinking; mental simulation",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M722",
+"slug": "appreciative-inquiry-summit",
+"name": "Appreciative inquiry summit",
+"family": "Transform & sustain",
+"format": "Large-group change process",
+"description": "Participants examine strengths, imagine possibilities, design and commit to action.",
+"bestFor": "Culture, organisation development and engagement.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Discovery interviews",
+"description": ""
+},
+{
+"name": "Dream workshop",
+"description": ""
+},
+{
+"name": "Design summit",
+"description": ""
+},
+{
+"name": "Destiny commitments",
+"description": ""
+},
+{
+"name": "Whole-system summit",
+"description": ""
+},
+{
+"name": "Strengths-story exchange",
+"description": "Organises learning through people, tension, decisions and consequences."
+}
+],
+"tierRaw": "D/B - Practitioner framework",
+"mechanics": "Social constructionism; positive organisational scholarship",
+"cautions": "Can suppress legitimate problems or power issues if used uncritically.",
+"theory": "Social constructionism; positive organisational scholarship",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M729",
+"slug": "train-the-trainer",
+"name": "Train-the-trainer",
+"family": "Transform & sustain",
+"format": "Cascaded facilitator development",
+"description": "Participants learn content, delivery, practice, assessment and support so they can train others.",
+"bestFor": "Scaling standardised programmes across locations.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Facilitator certification",
+"description": ""
+},
+{
+"name": "Practice-teach-practice",
+"description": ""
+},
+{
+"name": "Cascade trainer pathway",
+"description": ""
+},
+{
+"name": "Lead-facilitator apprenticeship",
+"description": ""
+},
+{
+"name": "Co-facilitation practicum",
+"description": ""
+},
+{
+"name": "Trainer calibration clinic",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Social learning; modelling; fidelity; communities of practice",
+"cautions": "Cascade dilution occurs without quality assurance, materials and coaching.",
+"theory": "Social learning; modelling; fidelity; communities of practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M736",
+"slug": "capability-academy",
+"name": "Capability academy",
+"family": "Transform & sustain",
+"format": "Multi-method organisational system",
+"description": "A role-based pathway combines diagnostics, instruction, practice, projects, coaching, credentials and communities.",
+"bestFor": "Organisation-wide capability transformation.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Role academy",
+"description": ""
+},
+{
+"name": "Skill academy",
+"description": ""
+},
+{
+"name": "Leadership academy",
+"description": ""
+},
+{
+"name": "AI academy",
+"description": "Uses governed artificial intelligence to create responsive, personalised practice or feedback."
+},
+{
+"name": "Client-facing academy",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Technical academy",
+"description": ""
+},
+{
+"name": "Cross-functional academy",
+"description": ""
+},
+{
+"name": "Academy with residency and workplace capstone",
+"description": ""
+}
+],
+"tierRaw": "B/D - System design with supported components",
+"mechanics": "Expertise development; transfer; learning ecosystems; communities of practice",
+"cautions": "Can become a content catalogue without progression, work integration and assessment.",
+"theory": "Expertise development; transfer; learning ecosystems; communities of practice",
+"presence": "Varies",
+"tier": "D"
+},
+{
+"id": "M745",
+"slug": "mastery-learning",
+"name": "Mastery learning",
+"family": "Transform & sustain",
+"format": "Paced pathway with reassessment",
+"description": "Learners progress after demonstrating defined mastery, receiving corrective support and another attempt.",
+"bestFor": "Prerequisite knowledge and high-consequence competencies.",
+"phase": "Core retreat experience",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Mastery checkpoint cycle",
+"description": ""
+},
+{
+"name": "Corrective instruction loop",
+"description": ""
+},
+{
+"name": "Competency gate",
+"description": ""
+},
+{
+"name": "Test-reteach-retest",
+"description": ""
+},
+{
+"name": "Variable-time mastery path",
+"description": ""
+},
+{
+"name": "Mastery through performance",
+"description": ""
+}
+],
+"tierRaw": "A/B - Strong, implementation dependent",
+"mechanics": "Bloom mastery learning; formative assessment; feedback",
+"cautions": "Defining valid mastery and supplying time/support can be costly.",
+"theory": "Bloom mastery learning; formative assessment; feedback",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M752",
+"slug": "portfolio-based-learning-and-assessment",
+"name": "Portfolio-based learning and assessment",
+"family": "Transform & sustain",
+"format": "Longitudinal evidence collection",
+"description": "Learners curate artefacts, reflections and feedback demonstrating growth and capability.",
+"bestFor": "Complex professional capability and career progression.",
+"phase": "After / sustained transfer",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Evidence portfolio",
+"description": ""
+},
+{
+"name": "Reflective portfolio",
+"description": ""
+},
+{
+"name": "Project portfolio",
+"description": ""
+},
+{
+"name": "Video performance portfolio",
+"description": "Uses recorded performance or narrative so learners can inspect decisions and replay key moments."
+},
+{
+"name": "Client-impact portfolio",
+"description": "Centres practice on realistic client needs, constraints and stakeholder consequences."
+},
+{
+"name": "Credential portfolio",
+"description": ""
+},
+{
+"name": "Peer-reviewed portfolio",
+"description": "Learners learn through structured explanation, observation, critique or accountability with colleagues."
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Authentic assessment; metacognition; reflective practice",
+"cautions": "Portfolio quantity and polish can obscure actual competence; use rubrics and verification.",
+"theory": "Authentic assessment; metacognition; reflective practice",
+"presence": "Varies",
+"tier": "B"
+},
+{
+"id": "M760",
+"slug": "credential-certification-pathway",
+"name": "Credential / certification pathway",
+"family": "Transform & sustain",
+"format": "Assessment-led programme",
+"description": "Learning culminates in an externally or internally recognised demonstration against a standard.",
+"bestFor": "Technical depth, trust and career signalling.",
+"phase": "After / sustained transfer",
+"facilitation": "Medium",
+"tech": "Low–medium",
+"variants": [
+{
+"name": "Knowledge certification",
+"description": ""
+},
+{
+"name": "Performance certification",
+"description": ""
+},
+{
+"name": "Stackable microcredential",
+"description": ""
+},
+{
+"name": "Digital badge pathway",
+"description": ""
+},
+{
+"name": "Skills passport",
+"description": ""
+},
+{
+"name": "Practical accreditation",
+"description": ""
+},
+{
+"name": "Renewable credential",
+"description": ""
+}
+],
+"tierRaw": "B - Conditional",
+"mechanics": "Goal-setting; assessment; signalling; mastery learning",
+"cautions": "Credentials can drive test preparation rather than transferable capability.",
+"theory": "Goal-setting; assessment; signalling; mastery learning",
+"presence": "Varies",
+"tier": "B"
+}
+]

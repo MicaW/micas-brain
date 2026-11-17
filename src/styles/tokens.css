@@ -1,0 +1,46 @@
+/* Generated from src/content/tokens.json by scripts/build-tokens.mjs. Do not edit by hand. */
+:root {
+  --on-tile: #0b0b0c;
+  --on-tile-muted: #0b0b0cb8;
+  --tile-lime: #d6ff3f;
+  --tile-orange: #ff5a2b;
+  --tile-lilac: #b7a5ff;
+  --tile-blue: #7b90ff;
+  --tile-mustard: #b3a114;
+  --tile-yellow: #ffe770;
+  --tile-pink: #ffb3ee;
+  --tile-sage: #a9b8a4;
+  --tile-aqua: #5fd6c8;
+  --font-display: "Bricolage Grotesque Variable", "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Hanken Grotesk Variable", "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+}
+[data-theme="board"] {
+  --ground: #0b0b0c;
+  --surface: #1a1a1c;
+  --surface-2: #262629;
+  --ink: #f4f4ef;
+  --ink-muted: #a9a9a3;
+  --line: #3a3a3e;
+  --tile-paper: #e3e9e0;
+}
+[data-theme="page"] {
+  --ground: #e9e9e4;
+  --surface: #f6f6f2;
+  --surface-2: #dcdcd6;
+  --ink: #0b0b0c;
+  --ink-muted: #55554f;
+  --line: #c4c4bd;
+  --tile-paper: #fbfbf8;
+}

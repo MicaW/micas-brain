@@ -1,0 +1,213 @@
+{
+ "name": "Learning Learning",
+ "question": "How do we deliver the best training possible today?",
+ "nav": [
+  {
+   "label": "Home",
+   "to": "/"
+  },
+  {
+   "label": "Playbook",
+   "to": "/playbook"
+  },
+  {
+   "label": "Toolkit",
+   "to": "/toolkit"
+  },
+  {
+   "label": "Evidence",
+   "to": "/evidence"
+  },
+  {
+   "label": "Case studies",
+   "to": "/case-studies"
+  },
+  {
+   "label": "About",
+   "to": "/about"
+  }
+ ],
+ "searchLabel": "Search the site",
+ "searchPlaceholder": "Search methods, topics, studies",
+ "footer": {
+  "checked": "Facts last checked 17 November 2026.",
+  "links": [
+   {
+    "label": "How this site was made and checked",
+    "to": "/about"
+   },
+   {
+    "label": "Learning log",
+    "to": "/about/learning-log"
+   },
+   {
+    "label": "Sources",
+    "to": "/evidence/reading"
+   }
+  ]
+ },
+ "outline": [
+  {
+   "path": "/toolkit/formats",
+   "title": "Choose a format",
+   "holds": "The 13 delivery formats compared.",
+   "up": "/toolkit",
+   "private": true
+  },
+  {
+   "path": "/evidence/glossary",
+   "title": "Glossary",
+   "holds": "The terms the site uses, in plain words.",
+   "up": "/evidence"
+  }
+ ],
+ "evidenceTiers": [
+  {
+   "tier": "A",
+   "word": "Established",
+   "bars": 5
+  },
+  {
+   "tier": "B",
+   "word": "Conditional",
+   "bars": 4
+  },
+  {
+   "tier": "C",
+   "word": "Emerging",
+   "bars": 3
+  },
+  {
+   "tier": "D",
+   "word": "Practitioner framework",
+   "bars": 2
+  },
+  {
+   "tier": "E",
+   "word": "Contested",
+   "bars": 1
+  }
+ ],
+ "templates": [
+  "Needs analysis one-pager",
+  "Objectives writer",
+  "Session plan with energy curve",
+  "Manager Playbook",
+  "30-60-90 day reinforcement plan",
+  "Evaluation plan",
+  "Business case",
+  "Pre-mortem",
+  "Duty-of-care protocol",
+  "Strategy workshop agenda",
+  "Proposal outline",
+  "Programme plan",
+  "Programme tracker"
+ ],
+ "templateOutlines": {
+  "Needs analysis one-pager": [
+   "What was asked for",
+   "What people do now, and what they should do",
+   "Evidence, and who it came from",
+   "Cause: skill, or something else",
+   "What training can fix, and what it cannot",
+   "Recommendation"
+  ],
+  "Objectives writer": [
+   "Who the learner is",
+   "What they will be able to do (something you could watch)",
+   "Under what conditions",
+   "How well",
+   "How it will be assessed",
+   "Which activity builds it"
+  ],
+  "Session plan with energy curve": [
+   "Objective for the session",
+   "Timeline in segments, with the activity for each",
+   "Where energy is high and where it dips",
+   "Breaks and movement",
+   "Recall points",
+   "Close, and first use at work"
+  ],
+  "Manager Playbook": [
+   "Why this programme, in two lines",
+   "Before: the conversation to have",
+   "During: time to release",
+   "After: what to ask, at one week and one month",
+   "What good looks like",
+   "Who to contact"
+  ],
+  "30-60-90 day reinforcement plan": [
+   "The behaviour to keep",
+   "Day 30: recall and a task",
+   "Day 60: a check-in and what got in the way",
+   "Day 90: review against the measure",
+   "Who owns each step",
+   "Channel for reminders"
+  ],
+  "Evaluation plan": [
+   "What will change if this works",
+   "Two or three measures",
+   "Where each stands now",
+   "Who collects what, and when",
+   "Comparison, if any",
+   "How results will be reported"
+  ],
+  "Business case": [
+   "The problem, in the sponsor's words",
+   "The result wanted",
+   "What is proposed",
+   "Full cost, including time",
+   "Expected contribution, with assumptions",
+   "Limits and risks"
+  ],
+  "Pre-mortem": [
+   "The session, in one line",
+   "It went badly. Why? (list)",
+   "The three most likely causes",
+   "A response to each",
+   "What you would cut",
+   "Back-up with no technology"
+  ],
+  "Duty-of-care protocol": [
+   "What participants are told in advance",
+   "Consent and the right to opt out",
+   "Limits of the facilitator's role",
+   "Signs someone needs support",
+   "Referral route and contacts",
+   "Who is in charge on the day"
+  ],
+  "Strategy workshop agenda": [
+   "Before the day: goals and data to gather",
+   "What the organisation is trying to do",
+   "Gaps between that and now",
+   "Causes: training or something else",
+   "Priorities, ranked",
+   "Owners, dates and measures"
+  ],
+  "Proposal outline": [
+   "The client's situation, in their words",
+   "The result they want",
+   "What will be done, in steps",
+   "What is needed from the client",
+   "Options, price, dates and terms",
+   "What is not included"
+  ],
+  "Programme plan": [
+   "Scope: in and out",
+   "Pieces of work, each with one owner",
+   "Dates and dependencies",
+   "Risks and responses",
+   "Reporting: how and when",
+   "Where the files live"
+  ],
+  "Programme tracker": [
+   "Session or task",
+   "Cohort",
+   "Owner",
+   "Date",
+   "Status",
+   "Risk or issue",
+   "Next action"
+  ]
+ }
+}

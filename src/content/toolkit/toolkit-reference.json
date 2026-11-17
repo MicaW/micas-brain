@@ -1,0 +1,126 @@
+{
+"evidenceGuide": [
+{
+"tier": "A",
+"word": "Established",
+"meaning": "Convergent evidence from replicated studies, systematic reviews or strong professional standards.",
+"use": "Use as a default design ingredient when it matches the target capability."
+},
+{
+"tier": "B",
+"word": "Conditional",
+"meaning": "Good evidence with important moderators such as task, expertise, context or implementation quality.",
+"use": "Use deliberately and state the conditions required."
+},
+{
+"tier": "C",
+"word": "Emerging",
+"meaning": "Promising but young, heterogeneous or technology-specific evidence.",
+"use": "Pilot, measure and retain human oversight."
+},
+{
+"tier": "D",
+"word": "Practitioner framework",
+"meaning": "Useful field-tested model without strong causal proof as a complete package.",
+"use": "Borrow the structure, but validate outcomes rather than assuming impact."
+},
+{
+"tier": "E",
+"word": "Contested/speculative",
+"meaning": "Disputed, weakly supported or overclaimed.",
+"use": "Avoid strong claims; use only with explicit caveats and measurement."
+}
+],
+"designSelector": [
+{
+"Design question": "Target performance",
+"Example options": "Recall; diagnose; decide; converse; create; operate; lead",
+"Why it matters": "Select methods by the behaviour required, not novelty."
+},
+{
+"Design question": "Learner expertise",
+"Example options": "Novice; mixed; experienced; expert",
+"Why it matters": "Novices need more models and scaffolds; experts need variation and challenge."
+},
+{
+"Design question": "Primary mechanism",
+"Example options": "Retrieval; feedback; observation; generation; social learning; reflection",
+"Why it matters": "A format works because of its mechanisms."
+},
+{
+"Design question": "Physical-presence value",
+"Example options": "Low; medium; high",
+"Why it matters": "Protect retreat time for experiences that benefit from co-presence."
+},
+{
+"Design question": "Risk and realism",
+"Example options": "Low-stakes; authentic; simulated high-stakes",
+"Why it matters": "Use simulation when real practice is rare, costly or unsafe."
+},
+{
+"Design question": "Journey position",
+"Example options": "Before; opening; core; debrief; after",
+"Why it matters": "Design a sequence, not isolated activities."
+},
+{
+"Design question": "Evidence tolerance",
+"Example options": "Established; conditional; emerging; experimental",
+"Why it matters": "Pilot frontier methods and measure them."
+},
+{
+"Design question": "Transfer support",
+"Example options": "Manager; peer pod; workflow prompt; project; coaching",
+"Why it matters": "A retreat without transfer support usually fades."
+}
+],
+"mechanicsByNeed": [
+{
+"need": "Durable knowledge after the retreat",
+"mechanics": "Retrieval; spacing; successive practice; sleep and recovery",
+"recipes": "Reverse Classroom Retreat; Capability Launch; Knowledge Expedition",
+"why": "Knowledge is repeatedly reconstructed over time and linked to work rather than merely encountered during the event."
+},
+{
+"need": "Better judgement in ambiguity",
+"mechanics": "Contrast and variation; interleaving; metacognitive calibration; cognitive conflict",
+"recipes": "Executive Decision Room; Future Simulation; Ethical Dilemma Forum",
+"why": "Learners distinguish situations, commit to decisions, encounter challenge and inspect confidence against outcomes."
+},
+{
+"need": "Interpersonal confidence and skill",
+"mechanics": "Observational learning; deliberate practice; feedback; emotion regulation",
+"recipes": "Client Gauntlet; Negotiation Dojo; Facilitation Flight School",
+"why": "Expert models are followed by repeated, varied performance with specific correction and manageable stakes."
+},
+{
+"need": "Transfer into work",
+"mechanics": "Transfer-appropriate practice; implementation intentions; habit and cue design; social accountability",
+"recipes": "Capability Launch; Manager Transfer Lab; Peer Consultancy",
+"why": "Practice resembles the workplace and the environment, manager and peer system support follow-through."
+},
+{
+"need": "Creative problem solving",
+"mechanics": "Generation; productive failure; autonomy; feedback; analogical transfer",
+"recipes": "Failure Lab; Live Challenge; Prototype Marketplace",
+"why": "Learners attempt, compare, receive evidence and revise, rather than being taught a single approved answer."
+},
+{
+"need": "Strategic systems thinking",
+"mechanics": "Elaboration; embodied cognition; variability; reflection",
+"recipes": "Systems War Room; Future Simulation; Observatory and Control Room",
+"why": "Complex relationships are externalised, manipulated and tested through consequences."
+},
+{
+"need": "Professional identity and community",
+"mechanics": "Situated learning; identity-based learning; social learning; relevance",
+"recipes": "Learning Residency; Unconference Studio; Learning Festival",
+"why": "Participants contribute to an authentic practice, see credible experts and become visible members of a community."
+},
+{
+"need": "Safe learning from error",
+"mechanics": "Psychological safety; error management; reflection; feedforward",
+"recipes": "Museum of Mistakes; Crisis Command Exercise; Failure Lab",
+"why": "Errors are bounded, depersonalised, analysed and converted into recovery strategies and future action."
+}
+]
+}

@@ -1,0 +1,369 @@
+{
+ "_note": "Figures and corrections from content/facts.md, checked 17 November 2026 unless a line says otherwise.",
+ "numbers": [
+  {
+   "figure": "56%",
+   "what": "wage premium for AI skills, up from 25% the year before",
+   "source": "PwC 2025 Global AI Jobs Barometer",
+   "stage": 7,
+   "checked": true
+  },
+  {
+   "figure": "66%",
+   "what": "faster skills change in AI-exposed jobs",
+   "source": "PwC 2025 Global AI Jobs Barometer",
+   "stage": 7,
+   "checked": true
+  },
+  {
+   "figure": "39%",
+   "what": "of workers' skills expected to change by 2030",
+   "source": "WEF Future of Jobs Report 2025",
+   "stage": 6,
+   "checked": true
+  },
+  {
+   "figure": "170 million",
+   "what": "jobs created by 2030, with 92 million displaced",
+   "source": "WEF Future of Jobs Report 2025",
+   "stage": 6,
+   "checked": true
+  },
+  {
+   "figure": "59 in 100",
+   "what": "workers need reskilling or upskilling by 2030, by employers' estimate",
+   "source": "WEF Future of Jobs Report 2025",
+   "stage": 6,
+   "checked": true
+  },
+  {
+   "figure": "11 of those 59",
+   "what": "are not expected to get it",
+   "source": "WEF Future of Jobs Report 2025, from a secondary summary",
+   "stage": 6,
+   "checked": false
+  },
+  {
+   "figure": "63%",
+   "what": "of employers name skills gaps as their main barrier",
+   "source": "WEF Future of Jobs Report 2025",
+   "stage": 6,
+   "checked": true
+  },
+  {
+   "figure": "78%",
+   "what": "of 50 ICT roles across the G7 include AI skills",
+   "source": "AI Workforce Consortium, ICT in Motion, 2025",
+   "stage": 7,
+   "checked": true
+  },
+  {
+   "figure": "97%",
+   "what": "of respondents report at least one AI skills gap",
+   "source": "DSIT AI Labour Market Survey 2025, published 28 January 2026",
+   "stage": 7,
+   "checked": true
+  }
+ ],
+ "sources": [
+  {
+   "label": "PwC 2025 Global AI Jobs Barometer",
+   "url": "https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html"
+  },
+  {
+   "label": "WEF Future of Jobs Report 2025",
+   "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/"
+  },
+  {
+   "label": "AI Labour Market Survey 2025 (DSIT)",
+   "url": "https://www.gov.uk/government/publications/ai-labour-market-survey-2025-report"
+  },
+  {
+   "label": "AI skills for the UK workforce, tools package",
+   "url": "https://www.gov.uk/government/publications/ai-skills-for-the-uk-workforce/ai-skills-tools-package"
+  },
+  {
+   "label": "OECD Digital Education Outlook 2026",
+   "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html"
+  },
+  {
+   "label": "AI Workforce Consortium, ICT in Motion",
+   "url": "https://blogs.cisco.com/news/learning-our-greatest-ai-advantage"
+  },
+  {
+   "label": "Hunter et al. 2019",
+   "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00722"
+  },
+  {
+   "label": "Antonelli et al. 2019",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31001682/"
+  },
+  {
+   "label": "Atchley, Strayer and Atchley 2012",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051474"
+  },
+  {
+   "label": "Ford, Yelon and Billington 2011",
+   "url": "https://www.infona.pl/resource/bwmeta1.element.wiley-piq-v-24-i-1-piq20105"
+  },
+  {
+   "label": "Delgado et al. 2018",
+   "url": "https://cris.haifa.ac.il/en/publications/dont-throw-away-your-printed-books-a-meta-analysis-on-the-effects/"
+  }
+ ],
+ "about": {
+  "made": [
+   {
+    "h": "Where the content comes from",
+    "p": "A curriculum outline for trainers, a toolkit of training methods, learning mechanics and session recipes, and a report on AI skills and training. Gaps were filled by research."
+   },
+   {
+    "h": "How it was checked",
+    "p": "The source material was reviewed and fact-checked on 17 November 2026. Figures that held up are listed under Training today in numbers, each with its source. Claims that did not hold up were corrected or removed, including some in our own sources."
+   },
+   {
+    "h": "What is still draft",
+    "p": "Most topics are not written yet. Evidence ratings are provisional until each topic is written and its citations are opened and read. Anything unchecked carries a label saying so."
+   },
+   {
+    "h": "How evidence is shown",
+    "p": "Every practice carries a rating from A to E, shown as a letter, five bars and a word. Colour is never used for evidence: colour means the stage of the Playbook."
+   },
+   {
+    "h": "How it was built",
+    "p": "Planned, designed and built with an AI assistant, with a person signing off each step: the content review, the site plan, the design, then the build."
+   }
+  ],
+  "log": [
+   {
+    "date": "17 November 2026",
+    "items": [
+     "Content reviewed and fact-checked.",
+     "Site plan and design system agreed.",
+     "Home, Playbook landing and Stage page designs signed off.",
+     "First build in React: Home, Playbook, eight stage pages.",
+     "Toolkit, Evidence, Case studies, About and Search pages built as first versions for review.",
+     "Gap review: a ninth stage and 59 topics added to the Playbook.",
+     "Stage 1's 17 original topics written as drafts from the curriculum outline.",
+     "24 of the 47 references in those drafts checked against their published summaries. Six passages corrected where the source said something different.",
+     "Recall questions and related-topic links added to the written topics.",
+     "All 149 Playbook topics now have a draft. 89 are written from the curriculum outline and 60 from general knowledge. Each says which.",
+     "27 references are checked against their published summaries. The rest are marked not checked.",
+     "The 11 remaining myths, a glossary, template outlines and a reading list added as drafts.",
+     "Still to do: the nine case studies, evidence ratings for Stages 2 to 9, and source checks for Stages 2 to 9."
+    ]
+   }
+  ]
+ },
+ "glossary": [
+  {
+   "term": "Alignment",
+   "def": "Objectives, activities and assessment all point at the same target."
+  },
+  {
+   "term": "Authentic assessment",
+   "def": "Judging someone by a task close to the real one."
+  },
+  {
+   "term": "Blended learning",
+   "def": "A programme that mixes live and self-paced parts on purpose."
+  },
+  {
+   "term": "Chunk",
+   "def": "A group of related details that the mind handles as one thing."
+  },
+  {
+   "term": "Cognitive load",
+   "def": "The mental effort a task demands of working memory."
+  },
+  {
+   "term": "Community of practice",
+   "def": "A group who share a field, meet regularly and build shared ways of working."
+  },
+  {
+   "term": "Competency model",
+   "def": "A list of the knowledge, skills and behaviours that make someone capable in a role."
+  },
+  {
+   "term": "Consolidation",
+   "def": "The settling of a memory over time, much of it during sleep."
+  },
+  {
+   "term": "Deliberate practice",
+   "def": "Practice aimed at one weakness, at the edge of ability, with feedback."
+  },
+  {
+   "term": "Desirable difficulty",
+   "def": "Effort during learning that makes it last longer."
+  },
+  {
+   "term": "Duty of care",
+   "def": "The responsibility to protect participants' wellbeing."
+  },
+  {
+   "term": "Effect size",
+   "def": "How big a difference is, as opposed to whether it is statistically significant."
+  },
+  {
+   "term": "Expertise reversal",
+   "def": "Support that helps a beginner gets in the way of an expert."
+  },
+  {
+   "term": "Facilitation",
+   "def": "Drawing learning out of a group, as opposed to presenting to it."
+  },
+  {
+   "term": "Formative assessment",
+   "def": "A check during learning that is used to adjust what happens next."
+  },
+  {
+   "term": "Generation",
+   "def": "Producing an answer before being given it."
+  },
+  {
+   "term": "Interleaving",
+   "def": "Mixing related kinds of task in practice."
+  },
+  {
+   "term": "Job aid",
+   "def": "A checklist or reference used at the moment of need."
+  },
+  {
+   "term": "Learning mechanic",
+   "def": "A named process by which learning happens, such as spacing or feedback."
+  },
+  {
+   "term": "Meta-analysis",
+   "def": "A study that pools the results of many studies."
+  },
+  {
+   "term": "Needs analysis",
+   "def": "Finding the gap between what people do and what they should do, and its cause."
+  },
+  {
+   "term": "Neuromyth",
+   "def": "A real finding about the brain that has been stretched or distorted."
+  },
+  {
+   "term": "Objective",
+   "def": "A statement of what someone will be able to do, written so it can be observed."
+  },
+  {
+   "term": "Psychological safety",
+   "def": "A shared belief that it is safe to take a risk in this group."
+  },
+  {
+   "term": "Reliability",
+   "def": "Whether an assessment gives the same result across assessors and occasions."
+  },
+  {
+   "term": "Retrieval practice",
+   "def": "Recalling something from memory, which strengthens it."
+  },
+  {
+   "term": "Rubric",
+   "def": "Written criteria for judging a performance."
+  },
+  {
+   "term": "Scaffolding",
+   "def": "Support given to a learner and removed as they improve."
+  },
+  {
+   "term": "Scope",
+   "def": "The agreement about what a piece of work includes and leaves out."
+  },
+  {
+   "term": "Spacing",
+   "def": "Spreading practice over time."
+  },
+  {
+   "term": "Sponsor",
+   "def": "The person in the client organisation who wants the result and backs the work."
+  },
+  {
+   "term": "Transfer",
+   "def": "Using at work what was learned in training."
+  },
+  {
+   "term": "Validity",
+   "def": "Whether an assessment measures what it claims to."
+  },
+  {
+   "term": "Worked example",
+   "def": "A problem shown with its full solution, for study."
+  },
+  {
+   "term": "Working memory",
+   "def": "Where people hold new information while they think about it. It is small."
+  }
+ ],
+ "reading": [
+  {
+   "stage": 1,
+   "items": [
+    "Brown, Roediger and McDaniel (2014), Make It Stick.",
+    "Howard-Jones (2014), Neuroscience and education: myths and messages.",
+    "Edmondson (2018), The Fearless Organization."
+   ]
+  },
+  {
+   "stage": 2,
+   "items": [
+    "Moore (2017), Map It.",
+    "Dirksen (2015), Design for How People Learn.",
+    "Wiggins, Educative Assessment."
+   ]
+  },
+  {
+   "stage": 3,
+   "items": [
+    "Mayer (2020), Multimedia Learning.",
+    "Clark and Mayer, e-Learning and the Science of Instruction.",
+    "Tufte, The Visual Display of Quantitative Information."
+   ]
+  },
+  {
+   "stage": 4,
+   "items": [
+    "Bens, Facilitating with Ease!",
+    "Schwarz, The Skilled Facilitator.",
+    "Schön, The Reflective Practitioner."
+   ]
+  },
+  {
+   "stage": 5,
+   "items": [
+    "Wick, Pollock and Jefferson, The Six Disciplines of Breakthrough Learning.",
+    "Wenger, Communities of Practice.",
+    "Whitmore, Coaching for Performance."
+   ]
+  },
+  {
+   "stage": 6,
+   "items": [
+    "Kirkpatrick and Kirkpatrick, Evaluating Training Programs, read with its critics.",
+    "Phillips, Return on Investment in Training.",
+    "Brinkerhoff, the Success Case Method."
+   ]
+  },
+  {
+   "stage": 7,
+   "items": [
+    "Holmes, Bialik and Fadel, Artificial Intelligence in Education."
+   ]
+  },
+  {
+   "stage": 8,
+   "items": [
+    "Mezirow, Transformative Learning.",
+    "Csikszentmihalyi, Flow."
+   ]
+  },
+  {
+   "stage": 9,
+   "items": [
+    "Block, Flawless Consulting."
+   ]
+  }
+ ]
+}
