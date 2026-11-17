@@ -68,11 +68,10 @@ One rule: a number in a coloured disc is a stage (1 to 9) or a topic in that sta
 
 Nothing confidential. Nothing unverified shown as checked. No invented evidence. Colour means stage; evidence is letter, bars and word. Practice first. See the build pack brief in the Project for the full list.
 
-## State on 17 November 2026 (after the second source check)
+## State on 17 November 2026 (build 2)
 
-- 149 Playbook topics in nine stages. Every one has a body, an illustrative example, three recall questions and a status label.
-- 147 topics have sources opened and linked and an evidence rating. Topics 1.20 and 4.12 are still to check. Many topics list smaller open points in `openPoints`.
-- All 15 myths and 18 findings on Home have an opened source. 11 of 17 mistakes do not yet.
-- Twelve case studies written from public sources. Five are marked as thin evidence.
-- Papers were read in summary. Some links point to university or index copies because publisher pages would not open.
-- Next: deploy to GitHub, then the five-perspective review.
+- 235 Playbook topics in nine stages. 86 were added in build 2, most with worked examples (timed plans, scripts, checklists, illustrative costings).
+- Stage 4 has new parts on running a session and difficult moments. Stage 8 covers business retreats. Stage 2 covers enablement. Stages 6, 7 and 9 are deeper.
+- Toolkit: 90 methods and 33 recipes rewritten in plain words, each method with steps, time and group size. 17 templates, each with guidance and a filled example.
+- Status is not shown on the site. It is tracked in the project notes.
+- Home holds mistakes and findings as flip cards, the myth file and expandable case studies. Navigation: Home, Playbook, Toolkit, Glossary, About.

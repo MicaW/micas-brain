@@ -201,5 +201,1051 @@
    "Risk or issue",
    "Next action"
   ]
- }
+ },
+ "templateData": [
+  {
+   "name": "Needs analysis one-pager",
+   "what": "A one-page summary of what you found when you looked into a training request.",
+   "when": "Fill it in after your first conversations and before you design anything. The person who asked for the training reads it and agrees the way forward.",
+   "fields": [
+    {
+     "heading": "What was asked for",
+     "guidance": "Write the request in the client's own words."
+    },
+    {
+     "heading": "What people do now, and what they should do",
+     "guidance": "Describe both as things you could watch someone do."
+    },
+    {
+     "heading": "Evidence, and who it came from",
+     "guidance": "List what you saw, heard or counted, and the source of each."
+    },
+    {
+     "heading": "Cause: skill, or something else",
+     "guidance": "Say whether people cannot do it, or can but something stops them."
+    },
+    {
+     "heading": "What training can fix, and what it cannot",
+     "guidance": "Split the problem into the part training will help and the part that needs another fix."
+    },
+    {
+     "heading": "Recommendation",
+     "guidance": "Say what you would do, in two or three lines."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a software company's sales team",
+    "rows": [
+     [
+      "What was asked for",
+      "The sales director asked for a one day course on product knowledge for 14 salespeople."
+     ],
+     [
+      "What people do now, and what they should do",
+      "Now: salespeople open calls by listing features. Should: they ask about the customer's problem first, then show the two features that fit."
+     ],
+     [
+      "Evidence, and who it came from",
+      "Listened to six recorded calls. Spoke to three salespeople and two customers. Read the notes on recent lost deals. Sources named in the appendix."
+     ],
+     [
+      "Cause: skill, or something else",
+      "Mostly skill: people know the product but have not practised asking questions. Partly something else: the call script supplied by marketing starts with a feature list."
+     ],
+     [
+      "What training can fix, and what it cannot",
+      "Training can build the questioning skill. It cannot fix the script. That needs marketing to rewrite it."
+     ],
+     [
+      "Recommendation",
+      "Run a half day of call practice, not a product course. Ask marketing to change the script before the session. Managers listen to one call per person in the month after."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Objectives writer",
+   "what": "A form for writing one learning objective so that it describes something a person will be able to do.",
+   "when": "Fill in one per objective when you start designing, before you choose activities. You use it yourself and share it with the client to agree what success means.",
+   "fields": [
+    {
+     "heading": "Who the learner is",
+     "guidance": "Name the role and their starting level."
+    },
+    {
+     "heading": "What they will be able to do (something you could watch)",
+     "guidance": "Use a verb you could observe, such as explain, write, handle or build."
+    },
+    {
+     "heading": "Under what conditions",
+     "guidance": "Say where, with what tools or help, and under what pressure."
+    },
+    {
+     "heading": "How well",
+     "guidance": "Give the standard: how accurate, how fast, or against which checklist."
+    },
+    {
+     "heading": "How it will be assessed",
+     "guidance": "Say how you will see it happen during or after the session."
+    },
+    {
+     "heading": "Which activity builds it",
+     "guidance": "Name the practice activity that gets people there."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a retailer's store staff",
+    "rows": [
+     [
+      "Who the learner is",
+      "Shop floor staff at a clothing retailer, in the job for under a year."
+     ],
+     [
+      "What they will be able to do (something you could watch)",
+      "Handle a return from a customer who has no receipt."
+     ],
+     [
+      "Under what conditions",
+      "At the till, with a queue, using the store's returns policy card."
+     ],
+     [
+      "How well",
+      "Follows all four steps on the policy card and offers an exchange or credit without calling a supervisor."
+     ],
+     [
+      "How it will be assessed",
+      "Observed in a role-play on the day, then by the store manager on the shop floor within two weeks."
+     ],
+     [
+      "Which activity builds it",
+      "Three rounds of role-play in pairs with a different customer card each time."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Session plan with energy curve",
+   "what": "A session plan that also shows when the group's energy is likely to be high or low, so you can put the right activity in the right slot.",
+   "when": "Fill it in once you know your activities, to check the shape of the day. You and any co-facilitator read it. For minute by minute timings on the day, use the Timed session plan.",
+   "fields": [
+    {
+     "heading": "Objective for the session",
+     "guidance": "Write the one thing people will be able to do by the end."
+    },
+    {
+     "heading": "Timeline in segments, with the activity for each",
+     "guidance": "List each block of 20 to 40 minutes and what happens in it."
+    },
+    {
+     "heading": "Where energy is high and where it dips",
+     "guidance": "Mark each block high, medium or low, based on time of day and what came before."
+    },
+    {
+     "heading": "Breaks and movement",
+     "guidance": "Say when the breaks are and where people will stand up or move."
+    },
+    {
+     "heading": "Recall points",
+     "guidance": "Mark the moments where people recall earlier content from memory."
+    },
+    {
+     "heading": "Close, and first use at work",
+     "guidance": "Say how the session ends and what people will do with it in their first week back."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a one day workshop for 12 new managers",
+    "rows": [
+     [
+      "Objective for the session",
+      "Each manager can give a piece of difficult feedback using a four step structure."
+     ],
+     [
+      "Timeline in segments, with the activity for each",
+      "09:30 welcome and cases. 10:00 demonstration. 10:30 first practice in threes. 11:30 teaching on common problems. 12:00 second practice. 13:30 recall quiz. 13:45 practice on own real case. 15:15 planning. 16:00 close."
+     ],
+     [
+      "Where energy is high and where it dips",
+      "High: 10:00 to 12:00, so the hardest practice goes here. Low: 13:30 to 14:15 after lunch, so start with a quiz in pairs, not a talk. Medium: from 15:00."
+     ],
+     [
+      "Breaks and movement",
+      "Breaks at 11:15 and 15:00. Lunch 12:45 to 13:30. People change tables for each practice round. The 13:45 practice is done standing in pairs."
+     ],
+     [
+      "Recall points",
+      "13:30 quiz on the four steps from memory. 15:50 each person writes the four steps on a card without looking."
+     ],
+     [
+      "Close, and first use at work",
+      "Each person names the real conversation they will have in the next two weeks and tells a partner the date."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Manager Playbook",
+   "what": "A short guide for the line managers of people attending a programme, telling them what to do before, during and after.",
+   "when": "Write it once the programme is designed and send it to managers two weeks before the start. Managers read it. It should fit on two pages.",
+   "fields": [
+    {
+     "heading": "Why this programme, in two lines",
+     "guidance": "Say what problem it addresses and what will be different afterwards."
+    },
+    {
+     "heading": "Before: the conversation to have",
+     "guidance": "Give two or three questions the manager asks their person before the start."
+    },
+    {
+     "heading": "During: time to release",
+     "guidance": "State the exact dates and hours, and ask that people are not called away."
+    },
+    {
+     "heading": "After: what to ask, at one week and one month",
+     "guidance": "Give the questions for each check-in."
+    },
+    {
+     "heading": "What good looks like",
+     "guidance": "Describe what the manager should see the person doing."
+    },
+    {
+     "heading": "Who to contact",
+     "guidance": "Give a name and how to reach them."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a programme for 12 new managers at a retailer",
+    "rows": [
+     [
+      "Why this programme, in two lines",
+      "New store managers are avoiding difficult conversations with staff. After this programme they will hold them early and follow a clear structure."
+     ],
+     [
+      "Before: the conversation to have",
+      "Ask: which conversation are you putting off? What would you like to be able to do by the end? Agree one real conversation they will practise on."
+     ],
+     [
+      "During: time to release",
+      "Two days, 09:30 to 16:30, on dates agreed with each region. Please arrange cover so they are not called to the shop floor."
+     ],
+     [
+      "After: what to ask, at one week and one month",
+      "One week: which conversation have you had, and how did it go? One month: what is still hard, and what do you need from me?"
+     ],
+     [
+      "What good looks like",
+      "They raise a problem with a team member within a week of noticing it. They describe what they saw, not what they think of the person."
+     ],
+     [
+      "Who to contact",
+      "The programme lead in the learning team, by email or phone. Replies within two working days."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "30-60-90 day reinforcement plan",
+   "what": "A plan for what happens in the three months after a session so that people keep using what they practised.",
+   "when": "Fill it in while you design the session, not afterwards. The client's programme owner and the line managers read it, because they do most of the steps.",
+   "fields": [
+    {
+     "heading": "The behaviour to keep",
+     "guidance": "Name the one thing people should still be doing in three months."
+    },
+    {
+     "heading": "Day 30: recall and a task",
+     "guidance": "Describe a short recall exercise and one task that uses the skill at work."
+    },
+    {
+     "heading": "Day 60: a check-in and what got in the way",
+     "guidance": "Say who meets whom, and how obstacles are recorded and passed on."
+    },
+    {
+     "heading": "Day 90: review against the measure",
+     "guidance": "Say what you will compare with the starting point."
+    },
+    {
+     "heading": "Who owns each step",
+     "guidance": "Put one name or role against each step."
+    },
+    {
+     "heading": "Channel for reminders",
+     "guidance": "Say how reminders reach people, such as email, the team chat or the manager."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a software company's sales team after a call practice session",
+    "rows": [
+     [
+      "The behaviour to keep",
+      "Salespeople ask at least three questions about the customer's problem before describing the product."
+     ],
+     [
+      "Day 30: recall and a task",
+      "A five question quiz by email, answered from memory. Each person sends their manager one call recording where they used the questions."
+     ],
+     [
+      "Day 60: a check-in and what got in the way",
+      "A 30 minute group call. Each person says what got in the way. The sales manager lists the obstacles and takes the ones about the script to marketing."
+     ],
+     [
+      "Day 90: review against the measure",
+      "The sales manager listens to two calls per person and marks them on the same checklist used on the day. Compare with the calls reviewed before the session."
+     ],
+     [
+      "Who owns each step",
+      "Day 30: the trainer sends the quiz, managers collect recordings. Day 60: the sales manager. Day 90: the sales manager, with the trainer writing the summary."
+     ],
+     [
+      "Channel for reminders",
+      "The sales team's existing chat channel, plus a calendar invite for the day 60 call."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Evaluation plan",
+   "what": "A plan for how you will find out whether the training made a difference.",
+   "when": "Fill it in with the client before the training runs, so you can record the starting point. The sponsor reads it and agrees the measures.",
+   "fields": [
+    {
+     "heading": "What will change if this works",
+     "guidance": "Describe the change in what people do, and what that should lead to for the business."
+    },
+    {
+     "heading": "Two or three measures",
+     "guidance": "Pick measures the client already collects where you can."
+    },
+    {
+     "heading": "Where each stands now",
+     "guidance": "Record the current figure or observation and the date."
+    },
+    {
+     "heading": "Who collects what, and when",
+     "guidance": "Put a name and a date against each measure."
+    },
+    {
+     "heading": "Comparison, if any",
+     "guidance": "Say whether there is a group or period to compare against, and say so plainly if there is none."
+    },
+    {
+     "heading": "How results will be reported",
+     "guidance": "Say what form the report takes, who gets it and when."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: returns training for a retailer's store staff",
+    "rows": [
+     [
+      "What will change if this works",
+      "Staff handle returns without a receipt themselves. Supervisors are called to the till less often and customers wait less."
+     ],
+     [
+      "Two or three measures",
+      "1. Supervisor call-outs to the till for returns, per store per week. 2. Staff following the four steps, observed by the store manager. 3. Complaints that mention returns."
+     ],
+     [
+      "Where each stands now",
+      "To be recorded over the four weeks before the training. No figures yet."
+     ],
+     [
+      "Who collects what, and when",
+      "Store managers count call-outs weekly on a tally sheet. Store managers observe three returns per person in weeks 2 and 6. The customer service team supplies complaints monthly."
+     ],
+     [
+      "Comparison, if any",
+      "Six stores train first and six train a month later. Compare the two groups for that month. This is a rough comparison, since the stores differ."
+     ],
+     [
+      "How results will be reported",
+      "A two page summary to the retail operations lead at week 8, with the tally sheets attached. It will say what the data can and cannot show."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Business case",
+   "what": "A short document that sets out why a piece of training is worth paying for, in terms the budget holder cares about.",
+   "when": "Fill it in when a sponsor needs approval for the budget. The sponsor and whoever signs off the money read it.",
+   "fields": [
+    {
+     "heading": "The problem, in the sponsor's words",
+     "guidance": "Quote how the sponsor describes it and what it costs them now."
+    },
+    {
+     "heading": "The result wanted",
+     "guidance": "State the business result, not the training."
+    },
+    {
+     "heading": "What is proposed",
+     "guidance": "Describe the programme in three or four lines."
+    },
+    {
+     "heading": "Full cost, including time",
+     "guidance": "Add fees, venue, travel and the cost of people's time away from work."
+    },
+    {
+     "heading": "Expected contribution, with assumptions",
+     "guidance": "Give a cautious estimate and list every assumption behind it."
+    },
+    {
+     "heading": "Limits and risks",
+     "guidance": "Say what could stop it working and what the training cannot fix."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: call practice for a software company's sales team (made-up figures)",
+    "rows": [
+     [
+      "The problem, in the sponsor's words",
+      "\"Our people talk about features and lose deals to competitors who ask better questions.\" The sales director believes this costs several deals a quarter."
+     ],
+     [
+      "The result wanted",
+      "More first calls that lead to a second meeting."
+     ],
+     [
+      "What is proposed",
+      "A half day of call practice for 14 salespeople, a rewritten call script, and manager call reviews for three months."
+     ],
+     [
+      "Full cost, including time",
+      "Made-up figures. Trainer fees £3,000. Venue £600. Time: 14 people for half a day at an average cost of £200 each, £2,800. Manager review time £1,400. Total £7,800."
+     ],
+     [
+      "Expected contribution, with assumptions",
+      "Made-up figures. If two extra first calls a month lead to a second meeting, and one in five of those becomes a deal worth £10,000, that is roughly £4,000 a month. Assumptions: the script is changed, managers do the reviews, and nothing else changes in the market. This is an estimate, not a promise."
+     ],
+     [
+      "Limits and risks",
+      "If the script is not rewritten the practice will not last. A change in pricing or a new competitor could hide any effect. Training will not fix leads that are a poor fit."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Pre-mortem",
+   "what": "A planning exercise where you imagine the session has already gone badly and work out why, so you can prevent it.",
+   "when": "Fill it in a week or two before delivery, alone or with your co-facilitator. You are the main reader. Share the back-up plan with the venue contact.",
+   "fields": [
+    {
+     "heading": "The session, in one line",
+     "guidance": "Say what it is, who it is for and when."
+    },
+    {
+     "heading": "It went badly. Why? (list)",
+     "guidance": "List every reason you can think of in five minutes, without filtering."
+    },
+    {
+     "heading": "The three most likely causes",
+     "guidance": "Pick the three that are most likely or would do most damage."
+    },
+    {
+     "heading": "A response to each",
+     "guidance": "Say what you will do beforehand to prevent it, or on the day if it happens."
+    },
+    {
+     "heading": "What you would cut",
+     "guidance": "Name the activity you will drop first if you run short of time."
+    },
+    {
+     "heading": "Back-up with no technology",
+     "guidance": "Say how you would run the session if the screen, wifi or power failed."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a one day feedback workshop for 12 new managers",
+    "rows": [
+     [
+      "The session, in one line",
+      "One day workshop on giving difficult feedback, 12 new managers, hotel meeting room, next Thursday."
+     ],
+     [
+      "It went badly. Why? (list)",
+      "People arrive late. The room is too small for threes. Nobody brings a real case. Two people dominate. The projector fails. Practice rounds overrun. Someone gets upset during a role-play. Lunch is late."
+     ],
+     [
+      "The three most likely causes",
+      "1. Nobody brings a real case. 2. Practice rounds overrun. 3. The room is too small for threes."
+     ],
+     [
+      "A response to each",
+      "1. Email on Monday asking for one case, and bring six spare written cases. 2. Use a visible timer and cut feedback to three minutes if behind. 3. Ask the hotel for the corridor space or a second room, and visit at 08:30 to check."
+     ],
+     [
+      "What you would cut",
+      "The afternoon recall quiz becomes a two minute pair recap. The second teaching block is cut to ten minutes."
+     ],
+     [
+      "Back-up with no technology",
+      "All handouts printed. The four steps drawn on a flipchart in advance. The demonstration is live, so it needs no slides."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Duty-of-care protocol",
+   "what": "A written plan for keeping participants safe and well during a session that may be personal, physical or stressful.",
+   "when": "Fill it in before any residential, role-play or outdoor session, and agree it with the client. Both facilitators and the client's contact read it. Participants get a short version in the joining instructions.",
+   "fields": [
+    {
+     "heading": "What participants are told in advance",
+     "guidance": "List what the joining instructions say about activities, intensity and what to bring."
+    },
+    {
+     "heading": "Consent and the right to opt out",
+     "guidance": "Say how people agree to take part and how they can step out without giving a reason."
+    },
+    {
+     "heading": "Limits of the facilitator's role",
+     "guidance": "State what you are not, such as a therapist, medic or HR adviser."
+    },
+    {
+     "heading": "Signs someone needs support",
+     "guidance": "List what you will watch for."
+    },
+    {
+     "heading": "Referral route and contacts",
+     "guidance": "Say who a person is passed to and how to reach them."
+    },
+    {
+     "heading": "Who is in charge on the day",
+     "guidance": "Name the one person who decides in an emergency, and their deputy."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a two day leadership retreat for 12 new managers at a country venue",
+    "rows": [
+     [
+      "What participants are told in advance",
+      "The joining email lists every activity, including a feedback role-play and a 40 minute walk on uneven ground. It asks people to tell the facilitator in confidence about access or health needs."
+     ],
+     [
+      "Consent and the right to opt out",
+      "At the start the facilitator says that anyone can sit out any activity or take the observer role, with no questions asked. Recording happens only if every person in the group agrees."
+     ],
+     [
+      "Limits of the facilitator's role",
+      "The facilitators are trainers. They are not counsellors, medics or HR. They will not give advice on personal or medical matters."
+     ],
+     [
+      "Signs someone needs support",
+      "Someone goes quiet or leaves the room and does not return. Someone is tearful or angry. Someone says the role-play is close to a real situation. Someone looks unwell on the walk."
+     ],
+     [
+      "Referral route and contacts",
+      "First, a private word from the second facilitator. If more is needed, the client's HR contact by phone and the employee assistance line printed on the handout. For a medical problem, the venue's first aider or 999."
+     ],
+     [
+      "Who is in charge on the day",
+      "The lead facilitator decides. The second facilitator is deputy. The venue duty manager handles anything to do with the building."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Strategy workshop agenda",
+   "what": "The running order for a workshop where a client's leaders agree their learning priorities for the year.",
+   "when": "Fill it in before a planning workshop with a client's leadership team and send it a week ahead. Everyone attending reads it. It becomes the record of what was agreed.",
+   "fields": [
+    {
+     "heading": "Before the day: goals and data to gather",
+     "guidance": "List what you need from the client in advance, and from whom."
+    },
+    {
+     "heading": "What the organisation is trying to do",
+     "guidance": "State the two or three business goals for the period."
+    },
+    {
+     "heading": "Gaps between that and now",
+     "guidance": "List where current performance falls short of each goal."
+    },
+    {
+     "heading": "Causes: training or something else",
+     "guidance": "For each gap, say whether it is about skill, or about process, tools, staffing or incentives."
+    },
+    {
+     "heading": "Priorities, ranked",
+     "guidance": "Put the gaps training can help with in order, and say how you ranked them."
+    },
+    {
+     "heading": "Owners, dates and measures",
+     "guidance": "Give each priority one owner, a date and a way to tell it worked."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a half day with the leadership team of a software company",
+    "rows": [
+     [
+      "Before the day: goals and data to gather",
+      "From the chief executive: the three goals for next year. From HR: staff turnover and exit interview themes. From the sales and support leads: their top three people problems. All due a week before."
+     ],
+     [
+      "What the organisation is trying to do",
+      "1. Grow sales to mid-sized customers. 2. Cut the time taken to resolve support tickets. 3. Keep new managers past their first year."
+     ],
+     [
+      "Gaps between that and now",
+      "Salespeople are used to small customers and short sales. Support staff escalate tickets they could solve. Several new managers left in their first year."
+     ],
+     [
+      "Causes: training or something else",
+      "Sales: skill, plus a pricing model that does not suit larger deals. Support: partly skill, partly a rule that requires sign-off. New managers: skill, and no time set aside to manage."
+     ],
+     [
+      "Priorities, ranked",
+      "1. New manager programme. 2. Sales conversations with larger customers. 3. Support troubleshooting. Ranked by a vote on business effect and how much is down to skill."
+     ],
+     [
+      "Owners, dates and measures",
+      "New managers: head of people, start in the spring, measured by managers still in post after a year. Sales: sales director, measured by second meetings with mid-sized customers. Support: support lead, measured by escalation rate."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Proposal outline",
+   "what": "The structure for a written proposal you send to a client before they agree to buy.",
+   "when": "Write it after your first conversation with the client and send it within a few days. The buyer and anyone else who approves the spend read it.",
+   "fields": [
+    {
+     "heading": "The client's situation, in their words",
+     "guidance": "Play back what they told you, using their phrases."
+    },
+    {
+     "heading": "The result they want",
+     "guidance": "State the outcome they are buying."
+    },
+    {
+     "heading": "What will be done, in steps",
+     "guidance": "List each step with what happens and what they get."
+    },
+    {
+     "heading": "What is needed from the client",
+     "guidance": "List the people, information, time and space you need from them."
+    },
+    {
+     "heading": "Options, price, dates and terms",
+     "guidance": "Give two or three options with a price for each, plus dates and payment terms."
+    },
+    {
+     "heading": "What is not included",
+     "guidance": "List what is outside the price, so nobody is surprised later."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a team retreat for a retailer's regional managers (made-up figures)",
+    "rows": [
+     [
+      "The client's situation, in their words",
+      "\"Our twelve regional managers only meet on video calls. They compete more than they share, and good ideas stay in one region.\""
+     ],
+     [
+      "The result they want",
+      "Regional managers who know each other well enough to ask for help, and three agreed ways of working together."
+     ],
+     [
+      "What will be done, in steps",
+      "1. Phone calls with four managers. 2. A design sent for comment. 3. A two day retreat. 4. A summary of what was agreed. 5. A follow-up call at six weeks."
+     ],
+     [
+      "What is needed from the client",
+      "A named contact. Half an hour each from four managers. The operations director present for the first and last hour. Dietary and access needs two weeks ahead."
+     ],
+     [
+      "Options, price, dates and terms",
+      "Made-up figures. Option A, one day: £3,500. Option B, two days with an overnight stay: £6,000. Option C, two days plus three follow-up calls: £7,200. Venue and travel are extra. Dates in March. Half payable on booking, half after delivery."
+     ],
+     [
+      "What is not included",
+      "Venue, food and accommodation. Travel for participants. Any work after the six week call."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Programme plan",
+   "what": "A plan for a programme with several sessions, showing what will be done, by whom and by when.",
+   "when": "Fill it in once the client has said yes and keep it up to date. You, the client's programme owner and any co-facilitators read it.",
+   "fields": [
+    {
+     "heading": "Scope: in and out",
+     "guidance": "List what the programme covers and what it does not."
+    },
+    {
+     "heading": "Pieces of work, each with one owner",
+     "guidance": "Break the work into pieces and put one name on each."
+    },
+    {
+     "heading": "Dates and dependencies",
+     "guidance": "Give the date for each piece and what must happen first."
+    },
+    {
+     "heading": "Risks and responses",
+     "guidance": "List what could go wrong and what you will do about each."
+    },
+    {
+     "heading": "Reporting: how and when",
+     "guidance": "Say how often you update the client and in what form."
+    },
+    {
+     "heading": "Where the files live",
+     "guidance": "Give the one place everyone can find the latest versions."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a three month programme for 12 new managers",
+    "rows": [
+     [
+      "Scope: in and out",
+      "In: two days of workshops, a guide for line managers, three follow-up sessions. Out: one to one coaching and any changes to the appraisal process."
+     ],
+     [
+      "Pieces of work, each with one owner",
+      "Workshop design: trainer. Manager guide: trainer, checked by the head of people. Venue and invitations: client coordinator. Follow-up sessions: trainer. Evaluation data: head of people."
+     ],
+     [
+      "Dates and dependencies",
+      "Design signed off four weeks before the workshop. Manager guide sent two weeks before. Follow-ups at weeks 4, 8 and 12. The venue must be confirmed before invitations go out."
+     ],
+     [
+      "Risks and responses",
+      "People pulled out for store cover: dates agreed with regional managers first. Low attendance at follow-ups: put them in diaries at the start. Trainer illness: a named second facilitator is briefed."
+     ],
+     [
+      "Reporting: how and when",
+      "A short email update every Friday. A 30 minute call after the workshop and after each follow-up."
+     ],
+     [
+      "Where the files live",
+      "One shared folder owned by the client, with subfolders for design, materials and evaluation."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Programme tracker",
+   "what": "A table with one row per session or task, used to see at a glance what is done, what is next and what is stuck.",
+   "when": "Set it up when the programme starts and update it weekly. You and the client's programme owner read it before each update call. Each heading is a column, not a section.",
+   "fields": [
+    {
+     "heading": "Session or task",
+     "guidance": "Name the session or task in a few words."
+    },
+    {
+     "heading": "Cohort",
+     "guidance": "Say which group it is for."
+    },
+    {
+     "heading": "Owner",
+     "guidance": "Give one name."
+    },
+    {
+     "heading": "Date",
+     "guidance": "Give the delivery or due date."
+    },
+    {
+     "heading": "Status",
+     "guidance": "Use one of: not started, in progress, done, blocked."
+    },
+    {
+     "heading": "Risk or issue",
+     "guidance": "Note anything that could delay it, or leave blank."
+    },
+    {
+     "heading": "Next action",
+     "guidance": "Write the next step and who takes it."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: one row from a tracker for a new manager programme",
+    "rows": [
+     [
+      "Session or task",
+      "Workshop day 1"
+     ],
+     [
+      "Cohort",
+      "Group A, 12 new managers"
+     ],
+     [
+      "Owner",
+      "Trainer"
+     ],
+     [
+      "Date",
+      "Second week of March"
+     ],
+     [
+      "Status",
+      "In progress"
+     ],
+     [
+      "Risk or issue",
+      "Venue has not confirmed the breakout room."
+     ],
+     [
+      "Next action",
+      "Client coordinator to phone the venue by Friday."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Timed session plan",
+   "what": "A minute by minute running order for one session, showing what happens, who leads it and what is needed.",
+   "when": "Write it once the design is settled and print it for the day. You, your co-facilitator and the venue contact read it. Time, What happens, Who leads and Materials are the columns of a table, with one row per block.",
+   "fields": [
+    {
+     "heading": "Session title and objective",
+     "guidance": "Name the session and the one thing people will be able to do by the end."
+    },
+    {
+     "heading": "Group, room and kit",
+     "guidance": "Say how many people, the room layout and the equipment to set up."
+    },
+    {
+     "heading": "Time",
+     "guidance": "Give the start time of each block."
+    },
+    {
+     "heading": "What happens",
+     "guidance": "Describe the activity and the instruction you will give."
+    },
+    {
+     "heading": "Who leads",
+     "guidance": "Name the facilitator, or say participants."
+    },
+    {
+     "heading": "Materials",
+     "guidance": "List the handouts and equipment for that block."
+    },
+    {
+     "heading": "What to cut if you run late",
+     "guidance": "Name the block you will shorten or drop first."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: the first hour of a feedback workshop for 12 new managers",
+    "rows": [
+     [
+      "Session title and objective",
+      "Giving difficult feedback. By the end each manager can give one piece of feedback using the four steps."
+     ],
+     [
+      "Group, room and kit",
+      "12 people at three tables of four. Flipchart, timer, name cards. No projector needed."
+     ],
+     [
+      "Time",
+      "09:30, 09:45, 10:00, 10:30."
+     ],
+     [
+      "What happens",
+      "09:30 welcome and each person names a conversation they are putting off. 09:45 teach the four steps. 10:00 demonstration with the co-facilitator. 10:30 first practice in threes."
+     ],
+     [
+      "Who leads",
+      "09:30 lead facilitator. 09:45 lead facilitator. 10:00 both facilitators. 10:30 participants, with both facilitators listening in."
+     ],
+     [
+      "Materials",
+      "09:30 cards and pens. 09:45 four steps handout. 10:00 one scenario card. 10:30 scenario cards and observer sheets."
+     ],
+     [
+      "What to cut if you run late",
+      "Shorten the 09:30 round to one sentence each. Never cut the practice."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Working agreement for a group",
+   "what": "A short list of rules the group writes together at the start about how they will work with each other.",
+   "when": "Draft the headings before the session and fill them in with the group in the first 15 minutes. Everyone in the room reads it. Keep it on the wall and come back to it if things go off course.",
+   "fields": [
+    {
+     "heading": "Why we are here",
+     "guidance": "Write the purpose of the time together in one line."
+    },
+    {
+     "heading": "How we will talk to each other",
+     "guidance": "List two or three rules for listening and disagreeing."
+    },
+    {
+     "heading": "What stays in the room",
+     "guidance": "Say what is confidential and what can be shared outside."
+    },
+    {
+     "heading": "Phones and laptops",
+     "guidance": "Agree when devices are away and when people can check them."
+    },
+    {
+     "heading": "Taking part and stepping out",
+     "guidance": "Say how people can sit out an activity or take a break."
+    },
+    {
+     "heading": "If it is not working",
+     "guidance": "Agree how anyone can say so, and to whom."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a two day retreat for 12 new managers",
+    "rows": [
+     [
+      "Why we are here",
+      "To practise the hard parts of managing people, with others in the same position."
+     ],
+     [
+      "How we will talk to each other",
+      "One person speaks at a time. Disagree with the idea, not the person. Ask before giving advice."
+     ],
+     [
+      "What stays in the room",
+      "Stories about real people stay here. Ideas and methods can be shared anywhere."
+     ],
+     [
+      "Phones and laptops",
+      "Phones away during sessions. Check them in breaks. Tell the facilitator if you are waiting for an urgent call."
+     ],
+     [
+      "Taking part and stepping out",
+      "Anyone can sit out any activity or be the observer. No reason needed."
+     ],
+     [
+      "If it is not working",
+      "Say so in the room, or tell either facilitator in a break. We review this agreement after lunch on day one."
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Role-play observer sheet",
+   "what": "A one-page form the observer fills in while watching a colleague practise, so that feedback is specific.",
+   "when": "Hand it out before each practice round. The observer fills it in during the role-play and gives it to the person who practised. Only that person keeps it.",
+   "fields": [
+    {
+     "heading": "Who is practising, and the scenario",
+     "guidance": "Write the name and a few words about the situation."
+    },
+    {
+     "heading": "What good looks like",
+     "guidance": "Copy in the three to five behaviours from the group's checklist."
+    },
+    {
+     "heading": "What I saw and heard",
+     "guidance": "Write the exact words and actions, not your opinion of them."
+    },
+    {
+     "heading": "One thing that worked",
+     "guidance": "Name one thing the person should keep doing, with the example."
+    },
+    {
+     "heading": "One thing to try next time",
+     "guidance": "Suggest one change, worded as something to do."
+    },
+    {
+     "heading": "A question for the person",
+     "guidance": "Write one question that will help them think about it."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a feedback role-play between two new managers",
+    "rows": [
+     [
+      "Who is practising, and the scenario",
+      "A manager in the group. Scenario: a team member has been late three times this month."
+     ],
+     [
+      "What good looks like",
+      "States what they saw. Says the effect. Asks for the other person's view. Agrees a next step."
+     ],
+     [
+      "What I saw and heard",
+      "Opened with \"I want to talk about your timekeeping\". Gave the three dates. Did not ask for the other person's view until the end. Spoke for most of the first two minutes."
+     ],
+     [
+      "One thing that worked",
+      "Giving the three dates. It kept the conversation on facts and the other person did not argue with them."
+     ],
+     [
+      "One thing to try next time",
+      "Ask for their view straight after the dates, before saying what needs to change."
+     ],
+     [
+      "A question for the person",
+      "What did you notice when they went quiet?"
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Statement of work",
+   "what": "A short agreement between you and a client that sets out exactly what you will deliver, when, and for how much.",
+   "when": "Write it once the client has accepted your proposal and get it signed before you start work. You and the client's buyer both sign and keep a copy. It is a business document, not legal advice, so have your standard terms checked by a solicitor.",
+   "fields": [
+    {
+     "heading": "Who the agreement is between",
+     "guidance": "Name both parties and the main contact on each side."
+    },
+    {
+     "heading": "What will be delivered, and when",
+     "guidance": "List each deliverable with its date."
+    },
+    {
+     "heading": "What the client will provide",
+     "guidance": "List the people, information, venue and approvals you depend on."
+    },
+    {
+     "heading": "Fees, expenses and payment terms",
+     "guidance": "State the fee, what expenses are charged, and when invoices are due."
+    },
+    {
+     "heading": "Changes and cancellation",
+     "guidance": "Say how changes are agreed and what is charged if dates move or are cancelled."
+    },
+    {
+     "heading": "Who owns the materials",
+     "guidance": "Say who may use the materials afterwards and how."
+    },
+    {
+     "heading": "Sign-off",
+     "guidance": "Leave space for both names, signatures and dates."
+    }
+   ],
+   "example": {
+    "title": "A filled-in example: a two day retreat for a retailer's regional managers (made-up figures)",
+    "rows": [
+     [
+      "Who the agreement is between",
+      "A training business (the supplier) and a retailer (the client). Contacts: the lead trainer and the operations director."
+     ],
+     [
+      "What will be delivered, and when",
+      "Four phone interviews in February. Design for comment three weeks before the retreat. Two day retreat in March. Written summary within one week. Follow-up call at six weeks."
+     ],
+     [
+      "What the client will provide",
+      "A named contact. Four managers for 30 minutes each. Comments on the design within five working days. The venue, food and accommodation."
+     ],
+     [
+      "Fees, expenses and payment terms",
+      "Made-up figures. Fee £6,000 plus VAT. Travel charged at cost with receipts. 50 per cent invoiced on signing, 50 per cent after the retreat. Payment within 30 days."
+     ],
+     [
+      "Changes and cancellation",
+      "Changes agreed by email before work starts on them. Made-up figures: dates moved with more than four weeks' notice are free, 50 per cent of the fee is charged for cancellation within four weeks, and 100 per cent within one week."
+     ],
+     [
+      "Who owns the materials",
+      "The supplier keeps ownership of the workshop materials. The client may reuse the handouts inside the company. The client owns the summary of what its managers agreed."
+     ],
+     [
+      "Sign-off",
+      "Signed and dated by the lead trainer and the operations director."
+     ]
+    ]
+   }
+  }
+ ]
 }

@@ -168,7 +168,7 @@ export function MechanicList() {
 }
 
 export function RecipeList() {
-  const items = recipes.map((r) => ({ ...r, to: `/toolkit/recipes/${r.slug}`, sub: `${r.duration}. ${r.purpose}`, text: `${r.name} ${r.purpose} ${r.bestUse} ${r.methods}`.toLowerCase() }));
+  const items = recipes.map((r) => ({ ...r, name: r.plainName || r.name, to: `/toolkit/recipes/${r.slug}`, sub: `${r.duration}. ${r.purpose}`, text: `${r.name} ${r.purpose} ${r.bestUse} ${r.methods}`.toLowerCase() }));
   return <Library title="Session recipes" lead="Recipes and ideas for sessions, each with an order of events to start from. Borrow the structure, then check the results yourself." placeholder="Search recipes" items={items} filters={[]} rated={false} />;
 }
 
@@ -368,7 +368,7 @@ export function Templates() {
                   </div>
                 ))}
               </dl>
-              {t.example && <Blocks blocks={[{ type: 'artefact', title: t.example.title, table: { head: ['Heading', 'Filled in'], rows: t.example.rows } }]} />}
+              {t.example && <Blocks blocks={[{ type: 'artefact', title: t.example.title, table: { head: ['Heading', 'Filled in'], rows: t.example.rows.map((row) => row.slice(0, 2)) } }]} />}
             </div>
           </details>
         ))}

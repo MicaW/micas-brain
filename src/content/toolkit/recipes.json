@@ -1,787 +1,1477 @@
 [
-{
-"slug": "the-client-gauntlet",
-"name": "The Client Gauntlet",
-"purpose": "Build confidence and judgement in difficult client conversations.",
-"audience": "Client-facing professionals; 12–36 participants",
-"sequence": [
-"Expert think-aloud",
-"AI client rehearsal",
-"human role-play",
-"peer observation",
-"coach feedback",
-"replay under a harder condition"
-],
-"duration": "4–5 hours",
-"methods": "AI role-play; live actor; triad practice; video review",
-"mechanics": "Observation; deliberate practice; feedback; variability; transfer-appropriate practice",
-"setup": "Three practice rooms or stations; private replay spaces",
-"needs": "1 lead facilitator; 1 coach per 6–8 learners; governed AI scenarios; consent for recording",
-"outputs": "Before/after performance evidence; personal practice plan; reusable scenario bank",
-"bestUse": "Sales, consulting, discovery, executive influence",
-"cautions": "Do not use generic personas; calibrate AI feedback against expert standards; protect psychological safety."
-},
-{
-"slug": "the-live-challenge",
-"name": "The Live Challenge",
-"purpose": "Apply learning to a real unresolved business need.",
-"audience": "Cross-functional cohort; 16–40",
-"sequence": [
-"Sponsor brief",
-"evidence review",
-"field research",
-"expert clinic",
-"sprint",
-"prototype",
-"stakeholder test",
-"demo and decision"
-],
-"duration": "2–3 days",
-"methods": "Live case; field study; design sprint; studio critique",
-"mechanics": "Authenticity; generation; social learning; feedback; transfer",
-"setup": "Team studios; sponsor touchpoints; prototype materials",
-"needs": "Named sponsor; access to real evidence/users; design facilitators; implementation owner",
-"outputs": "Tested concept; decision memo; 30-day implementation experiment",
-"bestUse": "Innovation, transformation and capability academies",
-"cautions": "Sponsor must genuinely need the work; clarify confidentiality, decision rights and what happens after the retreat."
-},
-{
-"slug": "the-learning-residency",
-"name": "The Learning Residency",
-"purpose": "Develop deep craft, professional identity and a strong cohort.",
-"audience": "Experienced practitioners; 12–30",
-"sequence": [
-"Masterclass",
-"modelling",
-"protected making",
-"desk critiques",
-"dinner dialogue",
-"solo reflection",
-"next-day revision",
-"exhibition"
-],
-"duration": "2–4 days",
-"methods": "Residency; studio; masterclass; critique; reflection",
-"mechanics": "Cognitive apprenticeship; feedback; identity; consolidation; social accountability",
-"setup": "Dedicated studio left intact overnight; exhibition wall",
-"needs": "Expert practitioners who can model and critique; generous making time; optional evening programme",
-"outputs": "Portfolio artefacts; revised work; community rituals; long-term craft goal",
-"bestUse": "Design, strategy, storytelling and leadership craft",
-"cautions": "Do not over-program. The value comes from protected practice, expert access and revision."
-},
-{
-"slug": "the-failure-lab",
-"name": "The Failure Lab",
-"purpose": "Use bounded failure to expose misconceptions and improve strategy.",
-"audience": "Mixed experience; 12–32",
-"sequence": [
-"Ambiguous challenge",
-"first attempt",
-"evidence capture",
-"failure gallery",
-"forensic debrief",
-"targeted micro-teaching",
-"redesign",
-"second attempt"
-],
-"duration": "3–4 hours",
-"methods": "Productive failure; error analysis; contrast cases; retry",
-"mechanics": "Generation; productive failure; feedback; metacognition; contrast",
-"setup": "Team tables; visible work wall; private data capture",
-"needs": "Facilitator skilled in non-blaming debrief; carefully engineered task; clear expert model",
-"outputs": "Failure patterns; revised strategy; before/after work sample",
-"bestUse": "Problem framing, innovation, systems and decision quality",
-"cautions": "Failure must be informative, safe and followed by explicit instruction. Never manufacture humiliation."
-},
-{
-"slug": "the-future-simulation",
-"name": "The Future Simulation",
-"purpose": "Rehearse strategic decisions across plausible futures.",
-"audience": "Leaders and strategy teams; 16–48",
-"sequence": [
-"Signals gallery",
-"scenario worlds",
-"role allocation",
-"timed decisions",
-"surprise injects",
-"cross-team consequences",
-"red team",
-"wind-tunnel",
-"debrief"
-],
-"duration": "1 day",
-"methods": "Scenario planning; business simulation; role-play; red teaming",
-"mechanics": "Narrative; variability; emotion regulation; reflection; transfer",
-"setup": "Separate scenario rooms or zones; central mission control",
-"needs": "Scenario writers; control team issuing injects; consequence model; expert debrief",
-"outputs": "No-regret moves; signposts; decision principles; risk log",
-"bestUse": "Strategy, AI disruption, resilience and operating-model change",
-"cautions": "Scenarios are not forecasts. Avoid theatrical detail that hides assumptions or overwhelms decisions."
-},
-{
-"slug": "the-skill-arcade",
-"name": "The Skill Arcade",
-"purpose": "Build several related micro-skills through high-variety stations.",
-"audience": "20–80 participants",
-"sequence": [
-"Diagnostic",
-"skill passport",
-"rotating 20-minute stations",
-"challenge card",
-"expert clinic",
-"mastery checkpoint",
-"choice of follow-up drill"
-],
-"duration": "Half or full day",
-"methods": "Learning stations; drills; clinics; mastery checks",
-"mechanics": "Deliberate practice; interleaving; feedback; autonomy; mastery",
-"setup": "5–10 clearly branded stations; central orientation and recovery area",
-"needs": "Station facilitator per 6–10; common rubrics; timing and movement support",
-"outputs": "Individual skill profile; completed challenge cards; follow-up drill prescription",
-"bestUse": "Large cohorts needing active practice without plenary monotony",
-"cautions": "Transitions consume time. Standardise criteria while allowing different practice routes."
-},
-{
-"slug": "the-field-expedition",
-"name": "The Field Expedition",
-"purpose": "Ground learning in real environments and evidence.",
-"audience": "Innovation, operations or leadership cohorts; 10–30",
-"sequence": [
-"Observation training",
-"site visit or service safari",
-"evidence capture",
-"stakeholder conversations",
-"sense-making studio",
-"opportunity map",
-"commitment"
-],
-"duration": "1 day",
-"methods": "Field study; learning walk; ethnographic observation; studio synthesis",
-"mechanics": "Situated learning; attention; curiosity; reflection; transfer",
-"setup": "Real site plus a nearby synthesis space",
-"needs": "Permissions, ethics and accessibility plan; observation guides; transport; local hosts",
-"outputs": "Evidence wall; insights; opportunity backlog; questions for experimentation",
-"bestUse": "Customer experience, systems, service and operational learning",
-"cautions": "Do not treat people as exhibits. Manage consent, confidentiality, safety and observer bias."
-},
-{
-"slug": "the-capability-launch",
-"name": "The Capability Launch",
-"purpose": "Launch a sustained capability pathway rather than a one-off event.",
-"audience": "Role or function cohorts; 20–100",
-"sequence": [
-"Pre-diagnostic",
-"retreat immersion",
-"personal pathway",
-"workplace capstone",
-"peer pods",
-"manager check-ins",
-"spaced boosters",
-"30/60/90-day demonstrations"
-],
-"duration": "90 days; retreat of 2–3 days",
-"methods": "Cohort; simulation; project; coaching; spacing; portfolio",
-"mechanics": "Spacing; social accountability; mastery; implementation intentions; transfer",
-"setup": "Retreat venue plus digital cohort hub and scheduled follow-ups",
-"needs": "Programme owner; managers; coaches; assessment rubrics; community lead",
-"outputs": "Verified workplace outcomes; portfolio; capability data; continuing community",
-"bestUse": "AI, leadership, sales or role academies",
-"cautions": "Secure managers and project opportunities before launch. Do not measure only attendance and satisfaction."
-},
-{
-"slug": "the-executive-decision-room",
-"name": "The Executive Decision Room",
-"purpose": "Improve evidence use, challenge and decision quality.",
-"audience": "Senior leaders; 8–24",
-"sequence": [
-"Case reveal",
-"individual decision",
-"confidence rating",
-"team negotiation",
-"adversarial review",
-"executive jury",
-"premortem",
-"revised decision"
-],
-"duration": "3–4 hours",
-"methods": "Decision-forcing case; fishbowl; red team; premortem",
-"mechanics": "Generation; calibration; social learning; cognitive conflict; feedforward",
-"setup": "Boardroom layout with visible evidence and decision log",
-"needs": "Credible case; neutral facilitator; explicit challenge protocol; senior sponsor",
-"outputs": "Decision rationale; assumptions; risk mitigations; challenge norms",
-"bestUse": "Strategy, investments, governance and transformation decisions",
-"cautions": "Status can silence dissent. Require individual commitment before group discussion and protect minority views."
-},
-{
-"slug": "the-unconference-studio",
-"name": "The Unconference Studio",
-"purpose": "Use participant expertise while still producing coherent outputs.",
-"audience": "Experienced mixed-role community; 30–120",
-"sequence": [
-"Shared evidence base",
-"session marketplace",
-"participant-led studios",
-"roaming experts",
-"gallery walk",
-"synthesis councils",
-"commitments"
-],
-"duration": "1 day",
-"methods": "Open Space; peer teaching; studio work; gallery critique",
-"mechanics": "Autonomy; social learning; generation; identity; accountability",
-"setup": "Large marketplace plus multiple breakout studios and exhibition space",
-"needs": "Strong convening question; session templates; documentation stewards; synthesis facilitators",
-"outputs": "Community-owned playbook; prototypes; named practice groups",
-"bestUse": "Communities of practice and capability festivals",
-"cautions": "Run after shared foundations. Without synthesis and ownership it becomes a collection of interesting conversations."
-},
-{
-"slug": "the-simulation-ladder",
-"name": "The Simulation Ladder",
-"purpose": "Progress from safe rehearsal to realistic integrated performance.",
-"audience": "Novice-to-intermediate cohort; 12–30",
-"sequence": [
-"Model",
-"low-fidelity scenario",
-"coached replay",
-"varied scenario",
-"live-actor simulation",
-"capstone",
-"delayed debrief"
-],
-"duration": "1–2 days",
-"methods": "Worked example; low/high-fidelity simulation; role-play; coaching",
-"mechanics": "Scaffolding; fading; deliberate practice; variability; delayed feedback",
-"setup": "Practice rooms of increasing realism; observation area",
-"needs": "Scenario control; trained actors or facilitators; common performance criteria",
-"outputs": "Competency profile; recorded capstone; targeted follow-up plan",
-"bestUse": "Interpersonal, operational and safety-critical capability",
-"cautions": "Higher fidelity is not automatically better. Increase realism only when it adds relevant cues or consequences."
-},
-{
-"slug": "the-mastery-circuit",
-"name": "The Mastery Circuit",
-"purpose": "Ensure every learner reaches a minimum practical standard.",
-"audience": "Mixed prior knowledge; 15–60",
-"sequence": [
-"Adaptive diagnostic",
-"targeted clinics",
-"practice stations",
-"mastery check",
-"corrective route",
-"reassessment",
-"advanced extension"
-],
-"duration": "1–2 days plus pre-work",
-"methods": "Diagnostic; mastery learning; clinics; stations; reassessment",
-"mechanics": "Mastery; feedback; retrieval; autonomy; scaffolding",
-"setup": "Multiple routes with clear signage; assessment and remediation zones",
-"needs": "Validated criteria; assessors calibrated; enough coaches and time for retries",
-"outputs": "Verified mastery record; individual gap report; extension challenge",
-"bestUse": "Technical, regulatory and prerequisite skills",
-"cautions": "A mastery programme needs genuine reassessment capacity. Avoid arbitrary pass marks and quiz-only evidence."
-},
-{
-"slug": "the-challenge-tournament",
-"name": "The Challenge Tournament",
-"purpose": "Generate many possibilities, then improve selection quality.",
-"audience": "Innovation cohort; 30–150",
-"sequence": [
-"Challenge framing",
-"rapid idea rounds",
-"evidence cards",
-"peer market",
-"criteria calibration",
-"progressive selection",
-"expert clinics",
-"final pitch and experiment funding"
-],
-"duration": "1 day plus follow-up",
-"methods": "Innovation tournament; pitch; peer marketplace; prototype",
-"mechanics": "Generation; contrast; social learning; feedback; reinforcement",
-"setup": "Large plenary, team bays, visible tournament board",
-"needs": "Transparent criteria; diverse judges; small experiment budget; anti-bias process",
-"outputs": "Prioritised portfolio; experiment charters; evidence gaps",
-"bestUse": "Innovation portfolios, sustainability and process improvement",
-"cautions": "Competition can reward charisma and familiarity. Separate idea quality from presentation polish and fund tests, not winners."
-},
-{
-"slug": "the-story-lab",
-"name": "The Story Lab",
-"purpose": "Develop persuasive, evidence-grounded stories through repeated crafting and performance.",
-"audience": "Leaders, sellers and practitioners; 12–30",
-"sequence": [
-"Story anatomy",
-"expert demonstration",
-"story mining",
-"first draft",
-"campfire telling",
-"peer listener data",
-"video performance",
-"edit",
-"final showcase"
-],
-"duration": "1–2 days",
-"methods": "Storytelling; studio; video review; peer critique",
-"mechanics": "Narrative; retrieval; feedback; deliberate practice; identity",
-"setup": "Quiet writing space, small story circles and recording booths",
-"needs": "Story coach; evidence and ethics guidance; recording consent; editing support",
-"outputs": "Three-minute story; longer written version; personal story bank",
-"bestUse": "Client storytelling, leadership and change communication",
-"cautions": "Do not force disclosure or substitute emotion for evidence. Avoid making every story follow one formula."
-},
-{
-"slug": "the-facilitation-flight-school",
-"name": "The Facilitation Flight School",
-"purpose": "Build facilitation skill through increasingly difficult live situations.",
-"audience": "Facilitators and design leads; 12–24",
-"sequence": [
-"Micro-demonstrations",
-"isolated drills",
-"triad facilitation",
-"surprise participant behaviours",
-"pause-and-coach",
-"full-session simulation",
-"video debrief"
-],
-"duration": "2 days",
-"methods": "Behavioural modelling; deliberate practice; live simulation; video review",
-"mechanics": "Observation; practice; immediate feedback; variability; reflection",
-"setup": "Flexible workshop room; breakout rooms; cameras optional",
-"needs": "Expert facilitators; trained role players; shared rubric; high psychological safety",
-"outputs": "Facilitation reel; practice plan; response library for difficult moments",
-"bestUse": "Workshop, design and leadership facilitation",
-"cautions": "Review behaviour, not personality. Recording must be optional or tightly governed."
-},
-{
-"slug": "the-ai-practice-studio",
-"name": "The AI Practice Studio",
-"purpose": "Use AI for high-volume personalised rehearsal with human quality control.",
-"audience": "Knowledge workers; 15–50",
-"sequence": [
-"Human benchmark",
-"AI scenario calibration",
-"private AI practice",
-"automated feedback",
-"peer comparison",
-"expert clinic",
-"harder AI scenario",
-"transfer plan"
-],
-"duration": "Half or full day",
-"methods": "AI tutor; AI role-play; personalised scenario generation; expert coaching",
-"mechanics": "Deliberate practice; variability; feedback; metacognition; transfer",
-"setup": "Headsets and private spaces; approved AI environment; expert clinic area",
-"needs": "Governed prompts and data; human rubric; technical support; bias and privacy guidance",
-"outputs": "Practice transcripts; calibrated feedback; personal prompt/scenario kit",
-"bestUse": "Sales, leadership, language and communication practice",
-"cautions": "Treat model feedback as a hypothesis, not truth. Never expose confidential client or employee data."
-},
-{
-"slug": "the-systems-war-room",
-"name": "The Systems War Room",
-"purpose": "Understand a complex system and rehearse interventions.",
-"audience": "Cross-functional leaders; 15–40",
-"sequence": [
-"System map build",
-"evidence challenge",
-"role allocation",
-"intervention proposals",
-"consequence simulation",
-"red team",
-"leverage-point decision",
-"experiment design"
-],
-"duration": "1 day",
-"methods": "Systems mapping; simulation; red teaming; live case",
-"mechanics": "Elaboration; embodied cognition; cognitive conflict; transfer",
-"setup": "Large wall or floor map; movable tokens; control desk",
-"needs": "Systems facilitator; reliable data; representatives from affected functions",
-"outputs": "Shared system model; leverage points; experiment portfolio; assumptions log",
-"bestUse": "Operating models, service systems and transformation",
-"cautions": "A map is a model, not reality. Keep uncertainty visible and include voices affected by decisions."
-},
-{
-"slug": "the-crisis-command-exercise",
-"name": "The Crisis Command Exercise",
-"purpose": "Rehearse coordinated response under time pressure.",
-"audience": "Leadership and operational teams; 12–40",
-"sequence": [
-"Pre-brief",
-"initial incident",
-"role activation",
-"timed decisions",
-"media or stakeholder injects",
-"consequence updates",
-"handover",
-"hot debrief",
-"cold review"
-],
-"duration": "Half or full day",
-"methods": "Tabletop; live simulation; role-play; AAR",
-"mechanics": "Transfer-appropriate practice; emotion regulation; team cognition; reflection",
-"setup": "Mission-control room, role tables, live incident log",
-"needs": "Control team; observers; tested injects; clear stop rules; wellbeing and accessibility options",
-"outputs": "Response log; role gaps; revised protocol; follow-up practice plan",
-"bestUse": "Cyber, business continuity, reputational and client crises",
-"cautions": "Do not confuse stress with fidelity. Protect wellbeing and separate developmental learning from blame."
-},
-{
-"slug": "the-leadership-mirror",
-"name": "The Leadership Mirror",
-"purpose": "Make leadership behaviour visible through multiple perspectives.",
-"audience": "Leaders; 8–20",
-"sequence": [
-"Leadership challenge",
-"self-prediction",
-"live team task",
-"observer data",
-"stakeholder perspective role-play",
-"video or transcript review",
-"coaching",
-"replay"
-],
-"duration": "1 day",
-"methods": "Assessment centre; role-play; coaching; peer feedback",
-"mechanics": "Calibration; feedback; observation; self-explanation; feedforward",
-"setup": "One task room, observation space and private coaching rooms",
-"needs": "Qualified coaches; behavioural rubric; consent and confidentiality protocol",
-"outputs": "Behavioural strengths and risks; one tested change; coach follow-up plan",
-"bestUse": "Leadership transitions and developmental programmes",
-"cautions": "This is developmental, not covert performance assessment. Avoid personality judgements and protect confidentiality."
-},
-{
-"slug": "the-learning-festival",
-"name": "The Learning Festival",
-"purpose": "Create breadth, energy and self-directed exploration across a community.",
-"audience": "Large community; 100–1,000",
-"sequence": [
-"Opening provocation",
-"learning marketplace",
-"concurrent studios",
-"demos",
-"challenge zones",
-"expert AMAs",
-"community meal",
-"showcase",
-"pathway sign-up"
-],
-"duration": "1–2 days",
-"methods": "Festival; marketplace; Open Space; skill arcade; showcases",
-"mechanics": "Autonomy; curiosity; social learning; identity; relevance",
-"setup": "Zoned venue with quiet, active, demo and reflection spaces",
-"needs": "Programme curation; production team; session hosts; accessible navigation; digital schedule",
-"outputs": "Connections; sampled skills; community content; pathway enrolments",
-"bestUse": "Capability awareness, community building and cross-pollination",
-"cautions": "A festival creates energy but not mastery. Always connect it to deeper pathways and make quiet, accessible alternatives available."
-},
-{
-"slug": "the-reverse-classroom-retreat",
-"name": "The Reverse Classroom Retreat",
-"purpose": "Maximise precious co-located time for practice rather than presentation.",
-"audience": "Any role-based cohort; 20–60",
-"sequence": [
-"Short pre-learning",
-"pretest",
-"arrival retrieval",
-"misconception clinics",
-"live cases",
-"coaching",
-"capstone",
-"post-retreat boosters"
-],
-"duration": "1–2 days plus pre/post",
-"methods": "Flipped learning; retrieval; clinics; simulation; spacing",
-"mechanics": "Retrieval; cognitive load; feedback; mastery; transfer",
-"setup": "Minimal plenary seating; many practice and clinic spaces",
-"needs": "High-quality concise pre-work; completion support; diagnostics; coaches",
-"outputs": "Corrected misconceptions; applied work; individual follow-up path",
-"bestUse": "Programmes where foundational knowledge can be learned before travel",
-"cautions": "Do not push hours of content into pre-work. Design an equitable route for those who could not complete it."
-},
-{
-"slug": "the-expert-fishbowl",
-"name": "The Expert Fishbowl",
-"purpose": "Expose expert judgement and invite disciplined challenge.",
-"audience": "Practitioners; 20–80",
-"sequence": [
-"Case setup",
-"individual prediction",
-"experts solve in fishbowl",
-"observers track cues",
-"hot-seat questions",
-"participants retry in groups",
-"expert comparison"
-],
-"duration": "2–3 hours",
-"methods": "Fishbowl; think-aloud; case method; peer instruction",
-"mechanics": "Observation; self-explanation; contrast; retrieval; feedback",
-"setup": "Central circle with observer worksheets and group tables",
-"needs": "Experts capable of verbalising uncertainty; skilled moderator; strong case",
-"outputs": "Visible decision heuristics; participant solution; questions for practice",
-"bestUse": "Tacit professional judgement and complex case work",
-"cautions": "Avoid guru theatre. Use multiple experts and make disagreement, uncertainty and limits visible."
-},
-{
-"slug": "the-evidence-courtroom",
-"name": "The Evidence Courtroom",
-"purpose": "Strengthen evidence assessment and argument quality.",
-"audience": "Strategy, research and consulting teams; 15–40",
-"sequence": [
-"Claim assigned",
-"evidence packets",
-"prosecution and defence preparation",
-"expert witnesses",
-"cross-examination",
-"jury criteria",
-"verdict",
-"reflection and rewrite"
-],
-"duration": "Half day",
-"methods": "Debate; role-play; case method; comparative judgement",
-"mechanics": "Elaboration; cognitive conflict; social learning; metacognition",
-"setup": "Courtroom-style room; evidence tables; jury area",
-"needs": "Balanced evidence packs; moderator; argument and evidence rubric",
-"outputs": "Claim map; evidence quality assessment; revised recommendation",
-"bestUse": "Critical thinking, research literacy and decision-making",
-"cautions": "Do not reward rhetoric over evidence. Build in role rotation and individual reflection after the performance."
-},
-{
-"slug": "the-museum-of-mistakes",
-"name": "The Museum of Mistakes",
-"purpose": "Learn from errors without exposing individuals to blame.",
-"audience": "Communities and project teams; 20–100",
-"sequence": [
-"Anonymous incident collection",
-"curated exhibits",
-"guided gallery walk",
-"pattern tags",
-"expert mini-clinics",
-"redesign studio",
-"commitments"
-],
-"duration": "Half or full day",
-"methods": "Curated exhibition; critical incident; gallery walk; clinic",
-"mechanics": "Contrast; error management; reflection; social learning",
-"setup": "Exhibition space with anonymised artefacts and redesign tables",
-"needs": "Ethical curation; anonymisation; facilitators trained in just culture",
-"outputs": "Failure-pattern taxonomy; prevention and recovery practices; updated job aids",
-"bestUse": "Operational learning, quality and project delivery",
-"cautions": "Anonymisation must be credible. Include successful recoveries as well as failures and avoid hindsight bias."
-},
-{
-"slug": "the-customer-reality-lab",
-"name": "The Customer Reality Lab",
-"purpose": "Build empathy and better decisions from customer evidence, not assumption.",
-"audience": "Product, service and leadership teams; 15–36",
-"sequence": [
-"Customer evidence immersion",
-"listening task",
-"journey reconstruction",
-"assumption audit",
-"live customer or actor conversation",
-"prototype",
-"rapid customer test"
-],
-"duration": "1–2 days",
-"methods": "Customer immersion; service safari; role-play; prototype testing",
-"mechanics": "Situated learning; attention; generation; feedback; relevance",
-"setup": "Evidence gallery, interview rooms and prototype studio",
-"needs": "Ethics and consent; customer evidence; research facilitator; testing access",
-"outputs": "Revised journey; assumption log; tested service improvement",
-"bestUse": "Customer experience and service transformation",
-"cautions": "Do not use one customer as a universal persona. Distinguish evidence, interpretation and assumption."
-},
-{
-"slug": "the-negotiation-dojo",
-"name": "The Negotiation Dojo",
-"purpose": "Develop negotiation moves through short repeated bouts and review.",
-"audience": "Leaders, sellers and delivery teams; 12–30",
-"sequence": [
-"Principle model",
-"micro-drills",
-"paired bout",
-"observer feedback",
-"constraint change",
-"rematch",
-"video or transcript review",
-"final multi-party negotiation"
-],
-"duration": "1 day",
-"methods": "Role-play; deliberate practice; simulation; coaching",
-"mechanics": "Practice; variability; feedback; emotional regulation; calibration",
-"setup": "Multiple small rooms; timers; private preparation space",
-"needs": "Negotiation coach; balanced briefs; observers; common criteria",
-"outputs": "Negotiation strategy; personal tendencies; tested alternative moves",
-"bestUse": "Commercial, stakeholder and internal negotiation",
-"cautions": "Do not equate aggression with skill. Brief power differences and ethical boundaries explicitly."
-},
-{
-"slug": "the-prototype-marketplace",
-"name": "The Prototype Marketplace",
-"purpose": "Learn by making multiple solutions visible and testable.",
-"audience": "Innovation or design cohort; 20–80",
-"sequence": [
-"Problem framing",
-"rapid prototype",
-"marketplace setup",
-"rotating testers",
-"evidence tokens",
-"iteration",
-"second market",
-"synthesis"
-],
-"duration": "Half or full day",
-"methods": "Prototyping; gallery walk; peer marketplace; critique",
-"mechanics": "Generation; feedback; contrast; embodied cognition; social learning",
-"setup": "Large room with team stalls, prototype materials and feedback tokens",
-"needs": "Clear test questions; diverse testers; rapid-making materials; timekeeper",
-"outputs": "Multiple prototypes; test evidence; revised concept; reusable patterns",
-"bestUse": "Service, product, process and learning design",
-"cautions": "Market popularity is not evidence of impact. Define what each prototype is testing."
-},
-{
-"slug": "the-manager-transfer-lab",
-"name": "The Manager Transfer Lab",
-"purpose": "Equip managers to make learning stick after the retreat.",
-"audience": "Learners and their managers; 10–50 pairs",
-"sequence": [
-"Learner demo",
-"manager observation",
-"transfer barrier mapping",
-"role clarification",
-"if–then plan",
-"manager coaching rehearsal",
-"resource commitment",
-"30-day review booking"
-],
-"duration": "3–4 hours, ideally final retreat session",
-"methods": "Transfer planning; coaching; implementation intentions; social accountability",
-"mechanics": "Implementation intentions; relevance; feedforward; habit and cue design",
-"setup": "Paired seating with private planning space",
-"needs": "Manager briefing; transfer templates; escalation route; scheduled follow-up",
-"outputs": "Manager–learner contract; protected practice time; review date; barrier plan",
-"bestUse": "Any programme where workplace conditions determine application",
-"cautions": "Managers must not turn development evidence into punitive evaluation. Resolve system barriers, not just learner motivation."
-},
-{
-"slug": "the-reflection-observatory",
-"name": "The Reflection Observatory",
-"purpose": "Develop metacognition and integrate intensive experiences.",
-"audience": "Any retreat cohort; 12–60",
-"sequence": [
-"Evidence collection",
-"guided solitude",
-"decision journal",
-"paired witnessing",
-"concept map revision",
-"future-self letter",
-"optional sharing",
-"next-day retrieval"
-],
-"duration": "60–120 minutes, repeated across days",
-"methods": "Silent reflection; journalling; peer reflection; concept mapping",
-"mechanics": "Reflection; consolidation; calibration; implementation intentions; identity",
-"setup": "Quiet individual zones plus optional walking route and paired spaces",
-"needs": "Carefully designed prompts; accessible alternatives; no forced disclosure",
-"outputs": "Revised mental model; decision journal; commitments; personal narrative",
-"bestUse": "Multi-day retreats and emotionally or cognitively intense programmes",
-"cautions": "Reflection should use evidence and lead to changed action. Do not force intimacy or public disclosure."
-},
-{
-"slug": "the-knowledge-expedition",
-"name": "The Knowledge Expedition",
-"purpose": "Turn research into collective understanding and usable practice.",
-"audience": "Professionals learning a new field; 15–40",
-"sequence": [
-"Research questions",
-"source stations",
-"reciprocal teaching",
-"evidence mapping",
-"expert challenge",
-"synthesis sprint",
-"field guide creation",
-"teach-back"
-],
-"duration": "1–2 days",
-"methods": "Research sprint; reciprocal teaching; concept mapping; teach-back",
-"mechanics": "Retrieval; elaboration; social learning; metacognition; dual coding",
-"setup": "Source library, research stations, large evidence map",
-"needs": "Curated credible sources; research librarian or expert; synthesis templates",
-"outputs": "Evidence map; field guide; unanswered questions; source index",
-"bestUse": "AI, regulation, emerging technology and new market understanding",
-"cautions": "Control source quality and separate consensus from evidence. Avoid dividing research so narrowly nobody sees the whole."
-},
-{
-"slug": "the-peer-consultancy",
-"name": "The Peer Consultancy",
-"purpose": "Use the cohort to solve one another’s real challenges with disciplined inquiry.",
-"audience": "Experienced leaders or practitioners; 8–24",
-"sequence": [
-"Challenge owner brief",
-"clarifying questions",
-"silent analysis",
-"consultant questions",
-"hypothesis options",
-"owner reflection",
-"experiment commitment",
-"later evidence review"
-],
-"duration": "2–3 hours per round",
-"methods": "Action learning; peer coaching; case clinic",
-"mechanics": "Social learning; self-explanation; feedforward; accountability; transfer",
-"setup": "Small circles; visible question protocol; no-slide rule",
-"needs": "Strong contracting; trained set facilitator; follow-up schedule",
-"outputs": "Experiment plan for each owner; peer support network; evidence review",
-"bestUse": "Leadership, project and client-delivery challenges",
-"cautions": "Peers must ask before advising. Manage confidentiality and avoid turning the session into ungrounded consultancy."
-},
-{
-"slug": "the-observatory-and-control-room",
-"name": "The Observatory and Control Room",
-"purpose": "Teach system monitoring and intervention through live data.",
-"audience": "Operations, product and service teams; 12–30",
-"sequence": [
-"Dashboard orientation",
-"signal detection",
-"anomaly inject",
-"hypothesis board",
-"intervention choice",
-"consequence feedback",
-"shift handover",
-"AAR"
-],
-"duration": "Half or full day",
-"methods": "Digital twin; simulation; team cognition; AAR",
-"mechanics": "Attention; transfer-appropriate practice; feedback; contextual interference",
-"setup": "Control-room layout with shared dashboards and role stations",
-"needs": "Realistic data model; scenario controller; observer rubric; technical support",
-"outputs": "Signal library; intervention protocol; handover checklist; team gaps",
-"bestUse": "Operations, cyber, product reliability and service management",
-"cautions": "Do not overload with decorative dashboards. Metrics and consequences must reflect the real system."
-},
-{
-"slug": "the-ethical-dilemma-forum",
-"name": "The Ethical Dilemma Forum",
-"purpose": "Develop principled judgement where rules do not provide an easy answer.",
-"audience": "Leaders and professionals; 15–50",
-"sequence": [
-"Dilemma narrative",
-"private decision",
-"values mapping",
-"stakeholder role circles",
-"facilitated disagreement",
-"policy test",
-"revised decision",
-"principle articulation"
-],
-"duration": "3–4 hours",
-"methods": "Dilemma case; role-play; fishbowl; structured dialogue",
-"mechanics": "Generation; cognitive conflict; perspective-taking; reflection; identity",
-"setup": "Circle seating plus stakeholder breakout areas",
-"needs": "Ethics facilitator; nuanced cases; ground rules; escalation and support routes",
-"outputs": "Decision principles; unresolved tensions; policy questions; individual rationale",
-"bestUse": "AI ethics, professional standards, inclusion and governance",
-"cautions": "Avoid false binaries and moral theatre. Protect minority perspectives and separate legal requirements from ethical judgement."
-}
+ {
+  "slug": "the-client-gauntlet",
+  "name": "The Client Gauntlet",
+  "purpose": "People practise a difficult client conversation twice, with feedback in between, so the second attempt is better than the first.",
+  "audience": "People who talk to clients, such as sales, consulting or account teams. 9 to 16 people, working in threes.",
+  "sequence": [
+   "Watch a facilitator hold the conversation and say their thinking out loud",
+   "Agree a short checklist of what good looks like",
+   "Practise in threes: one speaks, one plays the client, one observes",
+   "Get feedback from the observer against the checklist",
+   "Hear the patterns the facilitators noticed",
+   "Practise again with a harder client",
+   "Write a plan for a real conversation coming up"
+  ],
+  "duration": "Half a day, about 3.5 hours",
+  "methods": "AI role-play; live actor; triad practice; video review",
+  "mechanics": "Observation; deliberate practice; feedback; variability; transfer-appropriate practice",
+  "setup": "Three practice rooms or stations; private replay spaces",
+  "needs": "Two facilitators, or one facilitator and a subject expert who can demonstrate. One room big enough for threes to spread out, or two small rooms. Scenario cards written from the group's real clients, observer sheets, a timer. An AI role-play tool is optional practice before the day. If you use one, use a tool the client has approved and keep real client names and data out of it.",
+  "outputs": "Before/after performance evidence; personal practice plan; reusable scenario bank",
+  "bestUse": "Sales, consulting, discovery, executive influence",
+  "cautions": "Write scenarios from real situations the group meets, not generic ones. Tell people at the start that nobody will be made to perform in front of the whole group.",
+  "plainName": "Client conversation practice, half day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Say the aim and agree how feedback will be given: on what was said and done, not on the person.",
+     "Lead facilitator",
+     "Flipchart with the aim"
+    ],
+    [
+     "09:40",
+     "Demonstration. One facilitator plays the consultant, the other plays the client. Pause three or four times to say what you are thinking and why.",
+     "Both facilitators",
+     "One scenario card"
+    ],
+    [
+     "10:00",
+     "The group lists what they saw. Turn it into a checklist of five things good looks like.",
+     "Lead facilitator",
+     "Flipchart, pens"
+    ],
+    [
+     "10:15",
+     "Each person picks a scenario card and plans their opening two minutes alone.",
+     "Participants",
+     "Scenario cards, paper"
+    ],
+    [
+     "10:25",
+     "Round 1 in threes. 8 minutes of conversation, 4 minutes of feedback, then swap roles. Three turns.",
+     "Participants. Facilitators listen in.",
+     "Observer sheets, timer"
+    ],
+    [
+     "11:05",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:20",
+     "Share two patterns you heard across the room. Re-teach one skill briefly and show it again.",
+     "Lead facilitator",
+     "Flipchart"
+    ],
+    [
+     "11:35",
+     "Round 2 in the same threes. The client card now adds a complication, such as a new decision maker or a cut budget. Three turns.",
+     "Participants. Facilitators coach one group each.",
+     "Harder client cards, observer sheets, timer"
+    ],
+    [
+     "12:15",
+     "Optional. One volunteer pair replays a short section for the group. The facilitator pauses and asks the group what to try.",
+     "Second facilitator",
+     "None"
+    ],
+    [
+     "12:35",
+     "Each person writes a practice plan: one thing to keep, one thing to change, and the real conversation they will use it in.",
+     "Participants",
+     "Practice plan sheet"
+    ],
+    [
+     "12:50",
+     "Pairs tell each other their plan. Close.",
+     "Lead facilitator",
+     "None"
+    ],
+    [
+     "13:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-live-challenge",
+  "name": "The Live Challenge",
+  "purpose": "Teams work on a real problem the client has not yet solved and present a tested idea to the person who owns it.",
+  "audience": "A mixed group from different departments. 12 to 16 people in teams of four, or up to 40 with more facilitators.",
+  "sequence": [
+   "The sponsor explains the problem and what a useful answer would look like",
+   "Teams read the existing evidence",
+   "Teams talk to the people affected",
+   "Teams get advice from an expert",
+   "Teams build a rough version of their idea",
+   "Teams test it with the people it is for",
+   "Teams present, and the sponsor decides what happens next"
+  ],
+  "duration": "2 to 3 days",
+  "methods": "Live case; field study; design sprint; studio critique",
+  "mechanics": "Authenticity; generation; social learning; feedback; transfer",
+  "setup": "Team studios; sponsor touchpoints; prototype materials",
+  "needs": "A named sponsor who wants the answer and attends the start and the end. Access to real data and real users. One facilitator per two or three teams. A table per team, wall space, and simple making materials. Someone who will own the idea after the event.",
+  "outputs": "Tested concept; decision memo; 30-day implementation experiment",
+  "bestUse": "Innovation, transformation and capability academies",
+  "cautions": "Only run this if the sponsor will act on the result. Agree before the event what is confidential, who decides, and what happens to the ideas afterwards.",
+  "plainName": "Team project on a real business problem, 2 to 3 days"
+ },
+ {
+  "slug": "the-learning-residency",
+  "name": "The Learning Residency",
+  "purpose": "Experienced people spend several days making real work, getting expert feedback and revising it.",
+  "audience": "Experienced practitioners, such as designers, strategists or writers. 8 to 16 people per expert.",
+  "sequence": [
+   "An expert teaches a short masterclass",
+   "The expert shows how they do the work",
+   "Long protected time to make your own work",
+   "The expert visits each person for feedback",
+   "Conversation over dinner",
+   "Quiet time alone to think",
+   "Revise the work the next day",
+   "Show the finished work on the wall"
+  ],
+  "duration": "2 to 4 days",
+  "methods": "Residency; studio; masterclass; critique; reflection",
+  "mechanics": "Cognitive apprenticeship; feedback; identity; consolidation; social accountability",
+  "setup": "Dedicated studio left intact overnight; exhibition wall",
+  "needs": "One or two experts who can both show the work and give feedback on it. A room people can leave set up overnight. Wall space for the final display. An evening plan is optional.",
+  "outputs": "Portfolio artefacts; revised work; community rituals; long-term craft goal",
+  "bestUse": "Design, strategy, storytelling and leadership craft",
+  "cautions": "Do not fill the timetable. The value is in long stretches of making, access to the expert, and a second attempt.",
+  "plainName": "Craft retreat with expert feedback, 2 to 4 days"
+ },
+ {
+  "slug": "the-failure-lab",
+  "name": "The Failure Lab",
+  "purpose": "Teams attempt a hard problem before they are taught the method, so the teaching answers questions they now have.",
+  "audience": "Mixed experience. 8 to 16 people in teams of three or four.",
+  "sequence": [
+   "Explain that the first attempt is meant to be hard",
+   "Teams attempt the problem with no teaching",
+   "Teams put their work on the wall and read each other's",
+   "The whole group discusses where the attempts went wrong, without blame",
+   "Teach the method, using the errors on the wall",
+   "Teams rework their approach",
+   "Teams attempt a second, similar problem",
+   "Compare the first and second attempts"
+  ],
+  "duration": "Half a day, about 3.25 hours",
+  "methods": "Productive failure; error analysis; contrast cases; retry",
+  "mechanics": "Generation; productive failure; feedback; metacognition; contrast",
+  "setup": "Team tables; visible work wall; private data capture",
+  "needs": "One facilitator who knows the subject well enough to teach from the group's errors. A problem you have tested, that people can start on but will not solve well. A worked answer. Tables for teams, wall space, flipchart paper and sticky notes.",
+  "outputs": "Failure patterns; revised strategy; before/after work sample",
+  "bestUse": "Problem framing, innovation, systems and decision quality",
+  "cautions": "This approach is called productive failure. It only works if the teaching follows straight after the attempt and the errors are treated as normal. Never single anyone out.",
+  "plainName": "Try first, then teach, half day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "13:30",
+     "Explain the plan. You will try a problem before being taught. Most first attempts will fall short and that is the point.",
+     "Facilitator",
+     "Flipchart with the plan"
+    ],
+    [
+     "13:40",
+     "First attempt in teams of three or four. Give no hints on the method. Answer questions about the task only.",
+     "Teams",
+     "Problem sheet, flipchart paper, pens"
+    ],
+    [
+     "14:15",
+     "Teams post their work. Everyone walks round in silence and adds sticky notes: one thing that is clear, one question.",
+     "Facilitator",
+     "Wall space, sticky notes"
+    ],
+    [
+     "14:30",
+     "Whole-group discussion. Ask which approaches people tried and where they got stuck. Group the common errors on a flipchart with no team names.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "14:50",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:05",
+     "Teach the method. Work through one example and point to the errors on the wall as you go.",
+     "Facilitator",
+     "Worked example, slides or flipchart"
+    ],
+    [
+     "15:30",
+     "Teams decide what they will do differently.",
+     "Teams",
+     "Their first attempt"
+    ],
+    [
+     "15:40",
+     "Second attempt on a new problem of the same type.",
+     "Teams. Facilitator coaches.",
+     "Second problem sheet, flipchart paper"
+    ],
+    [
+     "16:15",
+     "Teams put first and second attempts side by side and name the biggest difference.",
+     "Facilitator",
+     "Wall space"
+    ],
+    [
+     "16:30",
+     "Each person writes one thing they will do differently at work. Close.",
+     "Facilitator",
+     "Paper"
+    ],
+    [
+     "16:45",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-future-simulation",
+  "name": "The Future Simulation",
+  "purpose": "Leadership teams make strategic decisions inside two or three different versions of the future and see which choices hold up in all of them.",
+  "audience": "Leaders and strategy teams. 12 to 16 people in two or three teams, or up to 48 with a larger delivery team.",
+  "sequence": [
+   "Read a wall of trends and early signs of change",
+   "Each team is given one version of the future",
+   "People take roles",
+   "Teams make decisions against the clock",
+   "The facilitators add surprise events",
+   "Teams see how their choices affect the other teams",
+   "A challenge group argues against each plan",
+   "Test the current strategy against every version of the future",
+   "Discuss what was learned"
+  ],
+  "duration": "1 day",
+  "methods": "Scenario planning; business simulation; role-play; red teaming",
+  "mechanics": "Narrative; variability; emotion regulation; reflection; transfer",
+  "setup": "Separate scenario rooms or zones; central mission control",
+  "needs": "Someone to write the versions of the future in advance. Two people to run the exercise and issue the surprise events. A simple set of rules for what each decision leads to. A zone or room per team and one central table for the people running it.",
+  "outputs": "No-regret moves; signposts; decision principles; risk log",
+  "bestUse": "Strategy, AI disruption, resilience and operating-model change",
+  "cautions": "These are stories about what could happen, not predictions. Keep the detail short so people argue about decisions, not about the story.",
+  "plainName": "Strategy rehearsal across possible futures, one day"
+ },
+ {
+  "slug": "the-skill-arcade",
+  "name": "The Skill Arcade",
+  "purpose": "People move round a set of short practice stations, each on one small skill, and leave knowing which skills they still need to work on.",
+  "audience": "20 to 80 people. For 8 to 16, run three or four stations in one room.",
+  "sequence": [
+   "A short self-check to see where each person starts",
+   "Everyone gets a card listing the stations",
+   "20 minute stations in rotation",
+   "A challenge card at each station",
+   "A drop-in table for expert help",
+   "A check at the end against a set standard",
+   "Each person chooses a follow-up exercise"
+  ],
+  "duration": "Half or full day",
+  "methods": "Learning stations; drills; clinics; mastery checks",
+  "mechanics": "Deliberate practice; interleaving; feedback; autonomy; mastery",
+  "setup": "5–10 clearly branded stations; central orientation and recovery area",
+  "needs": "One facilitator per station of 6 to 10 people. The same marking checklist at every station. Someone to keep time and move people on. Clear signs and a place to sit out.",
+  "outputs": "Individual skill profile; completed challenge cards; follow-up drill prescription",
+  "bestUse": "Large cohorts needing active practice without plenary monotony",
+  "cautions": "Moving between stations takes longer than you think, so allow five minutes each time. Use the same standard at every station.",
+  "plainName": "Rotating skill stations, half or full day"
+ },
+ {
+  "slug": "the-field-expedition",
+  "name": "The Field Expedition",
+  "purpose": "The group visits a real workplace or service, records what they see, and turns it into ideas to test.",
+  "audience": "Innovation, operations or leadership groups. 10 to 16 people per facilitator, up to 30.",
+  "sequence": [
+   "Teach people how to observe and take notes",
+   "Visit the site, or use a service as a customer would",
+   "Record what you see and hear",
+   "Talk to the people who work there or use it",
+   "Back in the room, sort the notes into themes",
+   "Map the opportunities",
+   "Each person commits to one next step"
+  ],
+  "duration": "1 day",
+  "methods": "Field study; learning walk; ethnographic observation; studio synthesis",
+  "mechanics": "Situated learning; attention; curiosity; reflection; transfer",
+  "setup": "Real site plus a nearby synthesis space",
+  "needs": "Permission from the site and from the people being observed. An observation sheet. Transport and a host at the site. A room nearby for the afternoon. A plan for anyone who cannot do the visit on foot.",
+  "outputs": "Evidence wall; insights; opportunity backlog; questions for experimentation",
+  "bestUse": "Customer experience, systems, service and operational learning",
+  "cautions": "The people you visit are hosts, not exhibits. Get consent, keep what you hear confidential, and remind the group that one visit is one day's evidence.",
+  "plainName": "Site visit and analysis day"
+ },
+ {
+  "slug": "the-capability-launch",
+  "name": "The Capability Launch",
+  "purpose": "A group builds a skill over 90 days, starting with a residential and continuing with a work project, peer groups and manager check-ins.",
+  "audience": "People in the same role or department. 12 to 16 per group, or up to 100 run as several groups.",
+  "sequence": [
+   "A skills check before the start",
+   "A residential of two or three days",
+   "Each person sets a personal plan",
+   "A project at work that uses the skill",
+   "Small peer groups that meet regularly",
+   "Check-ins with each person's manager",
+   "Short refreshers spaced over the weeks",
+   "People show what they can do at 30, 60 and 90 days"
+  ],
+  "duration": "90 days, starting with a residential of 2 to 3 days",
+  "methods": "Cohort; simulation; project; coaching; spacing; portfolio",
+  "mechanics": "Spacing; social accountability; mastery; implementation intentions; transfer",
+  "setup": "Retreat venue plus digital cohort hub and scheduled follow-ups",
+  "needs": "One person who owns the whole programme. Managers who have agreed to their part. Coaches. A checklist for judging the work. A venue for the residential and an online space for the group.",
+  "outputs": "Verified workplace outcomes; portfolio; capability data; continuing community",
+  "bestUse": "AI, leadership, sales or role academies",
+  "cautions": "Get managers and work projects agreed before you launch. Measure what people do at work, not only attendance and feedback scores.",
+  "plainName": "Three-month skills programme with a residential start"
+ },
+ {
+  "slug": "the-executive-decision-room",
+  "name": "The Executive Decision Room",
+  "purpose": "Senior leaders decide on a realistic case alone, then as a group, then again after being challenged, and see what changed their minds.",
+  "audience": "Senior leaders. 8 to 16 people.",
+  "sequence": [
+   "Hand out the case",
+   "Each person writes their own decision and how sure they are",
+   "Small teams agree one decision",
+   "Each team's decision is argued against by another team",
+   "Everyone imagines the decision failed and lists why",
+   "Each person writes a revised decision",
+   "Discuss who changed their mind and why"
+  ],
+  "duration": "Half a day, about 3.5 hours",
+  "methods": "Decision-forcing case; fishbowl; red team; premortem",
+  "mechanics": "Generation; calibration; social learning; cognitive conflict; feedforward",
+  "setup": "Boardroom layout with visible evidence and decision log",
+  "needs": "One facilitator who is not part of the leadership team. A case close to the decisions this team makes, on two or three pages. A sponsor who takes part as an equal. A boardroom or horseshoe layout, flipcharts and decision cards.",
+  "outputs": "Decision rationale; assumptions; risk mitigations; challenge norms",
+  "bestUse": "Strategy, investments, governance and transformation decisions",
+  "cautions": "Senior voices can silence others. Always collect each person's decision in writing before any discussion, and ask the most senior person to speak last.",
+  "plainName": "Decision-making practice for a leadership team, half day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Say the purpose and the rules for challenge: argue with the reasoning, not the person, and the most senior person speaks last.",
+     "Facilitator",
+     "Flipchart with the rules"
+    ],
+    [
+     "09:40",
+     "Hand out the case. Everyone reads alone.",
+     "Participants",
+     "Printed case, two to three pages"
+    ],
+    [
+     "09:55",
+     "Each person writes their decision, their main reason, and how sure they are from 0 to 100 per cent.",
+     "Participants",
+     "Decision cards"
+    ],
+    [
+     "10:05",
+     "Show the spread of decisions and confidence on a flipchart with no names. Do not discuss yet.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "10:15",
+     "Teams of four agree one decision and their three strongest reasons.",
+     "Teams",
+     "Flipchart paper"
+    ],
+    [
+     "10:45",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:00",
+     "Challenge round. Each team presents for 5 minutes. Another team then has 10 minutes to find the weak points.",
+     "Facilitator keeps time",
+     "Timer"
+    ],
+    [
+     "11:40",
+     "Imagine it is a year on and the decision failed. Everyone lists reasons alone for 5 minutes, then the group pools them.",
+     "Facilitator",
+     "Sticky notes, wall space"
+    ],
+    [
+     "12:00",
+     "Each person writes a revised decision and confidence level.",
+     "Participants",
+     "Decision cards"
+    ],
+    [
+     "12:10",
+     "Discuss who changed their mind and what changed it. Then discuss what made challenge easy or hard in this room.",
+     "Facilitator",
+     "First and second cards side by side"
+    ],
+    [
+     "12:35",
+     "The group agrees three rules for challenge in their real meetings. The sponsor closes.",
+     "Facilitator, then sponsor",
+     "Flipchart"
+    ],
+    [
+     "13:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-unconference-studio",
+  "name": "The Unconference Studio",
+  "purpose": "Participants set the agenda and run the sessions themselves, and the day ends with shared conclusions and named owners.",
+  "audience": "An experienced group from mixed roles who already share some background. 30 to 120 people.",
+  "sequence": [
+   "Everyone reads the same short briefing",
+   "People propose sessions and build the timetable on a wall",
+   "Participants run their sessions",
+   "Experts walk between sessions",
+   "Each session posts its notes for everyone to read",
+   "Small groups pull the notes into conclusions",
+   "People sign up to carry things on"
+  ],
+  "duration": "1 day",
+  "methods": "Open Space; peer teaching; studio work; gallery critique",
+  "mechanics": "Autonomy; social learning; generation; identity; accountability",
+  "setup": "Large marketplace plus multiple breakout studios and exhibition space",
+  "needs": "One clear question for the day. A one-page sheet for each session to record its notes. A note-taker per session. One large room for the timetable wall and several smaller spaces. Two facilitators for the final pulling-together.",
+  "outputs": "Community-owned playbook; prototypes; named practice groups",
+  "bestUse": "Communities of practice and capability festivals",
+  "cautions": "This format is based on Open Space. Run it only with people who already know the basics, and protect the last hour for conclusions and owners.",
+  "plainName": "Participant-led conference day"
+ },
+ {
+  "slug": "the-simulation-ladder",
+  "name": "The Simulation Ladder",
+  "purpose": "People practise a skill in simple scenarios first, then in more realistic ones, ending with a full scenario.",
+  "audience": "People new to the skill or with some experience. 12 to 16 with two facilitators, up to 30 with more.",
+  "sequence": [
+   "Watch a demonstration",
+   "Try a simple scenario",
+   "Repeat it with coaching",
+   "Try a different scenario",
+   "Practise with an actor or a trained colleague playing the other person",
+   "Do a full scenario from start to finish",
+   "Review it later, once people have had time to think"
+  ],
+  "duration": "1 to 2 days",
+  "methods": "Worked example; low/high-fidelity simulation; role-play; coaching",
+  "mechanics": "Scaffolding; fading; deliberate practice; variability; delayed feedback",
+  "setup": "Practice rooms of increasing realism; observation area",
+  "needs": "Scenario briefs that get harder in steps. Facilitators or actors to play the other person. One checklist of what good looks like, used at every step. Small rooms or corners for practice.",
+  "outputs": "Competency profile; recorded capstone; targeted follow-up plan",
+  "bestUse": "Interpersonal, operational and safety-critical capability",
+  "cautions": "More realistic is not always better. Add realism only when it adds something people will meet in the real job.",
+  "plainName": "Role-play practice that gets more realistic in steps, 1 to 2 days"
+ },
+ {
+  "slug": "the-mastery-circuit",
+  "name": "The Mastery Circuit",
+  "purpose": "Everyone works towards the same practical standard, with extra help and a second assessment for those who need it.",
+  "audience": "People with mixed starting levels. 12 to 16 with two facilitators, up to 60 with more assessors.",
+  "sequence": [
+   "A test at the start to see who needs what",
+   "Short teaching sessions on the gaps",
+   "Practice stations",
+   "An assessment against the standard",
+   "Extra help for anyone who did not pass",
+   "A second assessment",
+   "A harder task for those who passed early"
+  ],
+  "duration": "1 to 2 days, plus work beforehand",
+  "methods": "Diagnostic; mastery learning; clinics; stations; reassessment",
+  "mechanics": "Mastery; feedback; retrieval; autonomy; scaffolding",
+  "setup": "Multiple routes with clear signage; assessment and remediation zones",
+  "needs": "A written standard that describes what a pass looks like. Assessors who have marked sample work together so they agree. Enough coaches and enough time for second attempts.",
+  "outputs": "Verified mastery record; individual gap report; extension challenge",
+  "bestUse": "Technical, regulatory and prerequisite skills",
+  "cautions": "Do not run this unless you have time and staff for second assessments. Assess people doing the task, not only a quiz.",
+  "plainName": "Practice and re-test until everyone reaches the standard, 1 to 2 days"
+ },
+ {
+  "slug": "the-challenge-tournament",
+  "name": "The Challenge Tournament",
+  "purpose": "A large group produces many ideas, then narrows them in rounds against agreed criteria, and the best get money for a small test.",
+  "audience": "An innovation group. 30 to 150 people.",
+  "sequence": [
+   "Explain the challenge",
+   "Fast rounds of idea generation",
+   "Teams add evidence to each idea",
+   "People walk round and review each other's ideas",
+   "Agree the selection criteria and practise using them",
+   "Narrow the ideas in rounds",
+   "Teams get expert advice",
+   "Final pitches, and funding for tests"
+  ],
+  "duration": "1 day, plus follow-up",
+  "methods": "Innovation tournament; pitch; peer marketplace; prototype",
+  "mechanics": "Generation; contrast; social learning; feedback; reinforcement",
+  "setup": "Large plenary, team bays, visible tournament board",
+  "needs": "Selection criteria published before the day. Judges from different backgrounds. A small budget for tests. A large room, team areas and a board showing progress.",
+  "outputs": "Prioritised portfolio; experiment charters; evidence gaps",
+  "bestUse": "Innovation portfolios, sustainability and process improvement",
+  "cautions": "Competitions can reward confident presenters and familiar ideas. Score the idea separately from the pitch, and fund tests, not winners.",
+  "plainName": "Ideas competition with staged selection, one day"
+ },
+ {
+  "slug": "the-story-lab",
+  "name": "The Story Lab",
+  "purpose": "Each person finds a true story from their work, tells it three times with feedback, and leaves with a three minute version they can use.",
+  "audience": "Leaders, salespeople and specialists. 8 to 16 people.",
+  "sequence": [
+   "Learn the parts of a work story",
+   "Hear the facilitator tell one",
+   "List moments from your own work and pick one",
+   "Write a first draft in bullet points",
+   "Tell it to a small circle",
+   "Hear what listeners remembered",
+   "Record yourself telling it and watch it back",
+   "Edit",
+   "Tell the final version to the whole group"
+  ],
+  "duration": "1 day. Add a second day for a longer written version.",
+  "methods": "Storytelling; studio; video review; peer critique",
+  "mechanics": "Narrative; retrieval; feedback; deliberate practice; identity",
+  "setup": "Quiet writing space, small story circles and recording booths",
+  "needs": "One facilitator who can tell a story well and coach others. A second facilitator helps above 12 people. A room with space for small circles and quiet corners. Participants' own phones for recording. Prompt cards, listener sheets and a timer.",
+  "outputs": "Three-minute story; longer written version; personal story bank",
+  "bestUse": "Client storytelling, leadership and change communication",
+  "cautions": "Let people choose what they share and never push for personal disclosure. Check the facts in each story are true, and do not force every story into one formula.",
+  "plainName": "Storytelling workshop, one day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Say where stories are useful at work. Set one rule: you choose what you share.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "09:45",
+     "Teach the parts of a work story: the situation, the person, the problem, the turning point, the result and the point. Tell a three minute story and ask the group to find each part.",
+     "Facilitator",
+     "Story parts handout"
+    ],
+    [
+     "10:15",
+     "Alone, list six moments from your work using the prompt cards. Pick one.",
+     "Participants",
+     "Prompt cards, paper"
+    ],
+    [
+     "10:35",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "10:50",
+     "First draft in bullet points, not a script.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "11:15",
+     "First telling in circles of four, three minutes each. Listeners write what they remember and where their attention dropped.",
+     "Participants. Facilitator keeps time.",
+     "Listener sheets, timer"
+    ],
+    [
+     "11:55",
+     "Teach three edits: shorten the setup, add one concrete detail, end on the point. Remind people to check their facts.",
+     "Facilitator",
+     "One story shown before and after"
+    ],
+    [
+     "12:15",
+     "Redraft alone.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Second telling in pairs. Your partner records you on your own phone.",
+     "Participants",
+     "Own phones, quiet corners"
+    ],
+    [
+     "13:45",
+     "Watch your own recording against a short checklist. Your partner adds one thing that worked and one to change.",
+     "Participants. Facilitator coaches.",
+     "Checklist, headphones if available"
+    ],
+    [
+     "14:15",
+     "Break and final edit.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "14:40",
+     "Showcase. Each person tells their three minute story to the whole group. One listener says the line they will remember.",
+     "Facilitator",
+     "Timer"
+    ],
+    [
+     "15:40",
+     "Each person names the meeting or pitch where they will use the story, and keeps their list of other moments to work up later. Close at 16:15.",
+     "Facilitator",
+     "Planning sheet"
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-facilitation-flight-school",
+  "name": "The Facilitation Flight School",
+  "purpose": "New facilitators practise running short sessions with increasingly difficult participant behaviour, and get coaching as they go.",
+  "audience": "Facilitators and people who lead workshops. 8 to 16 people.",
+  "sequence": [
+   "Watch short demonstrations of single skills",
+   "Practise each skill on its own",
+   "Run a ten minute session in a group of three",
+   "Run one while others play difficult participants",
+   "The coach pauses the session to give advice, then you carry on",
+   "Run a longer session from start to finish",
+   "Watch the recording and discuss it"
+  ],
+  "duration": "2 days",
+  "methods": "Behavioural modelling; deliberate practice; live simulation; video review",
+  "mechanics": "Observation; practice; immediate feedback; variability; reflection",
+  "setup": "Flexible workshop room; breakout rooms; cameras optional",
+  "needs": "Two experienced facilitators. Colleagues or actors briefed to play difficult participants. One checklist of what good looks like. A flexible room with a breakout room. Cameras are optional.",
+  "outputs": "Facilitation reel; practice plan; response library for difficult moments",
+  "bestUse": "Workshop, design and leadership facilitation",
+  "cautions": "Give feedback on what the person did, not on their personality. Make recording optional, say who will see it, and delete it afterwards.",
+  "plainName": "Facilitation skills practice, two days"
+ },
+ {
+  "slug": "the-ai-practice-studio",
+  "name": "The AI Practice Studio",
+  "purpose": "People rehearse conversations many times with an AI playing the other person, and a human expert checks the standard.",
+  "audience": "Office-based professionals. 12 to 16 with two facilitators, up to 50 with more.",
+  "sequence": [
+   "An expert shows what good looks like",
+   "Check the AI scenario behaves like a real conversation",
+   "Practise alone with the AI",
+   "Read the AI's feedback",
+   "Compare notes with a colleague",
+   "Take questions to the expert",
+   "Try a harder scenario",
+   "Plan where you will use the skill at work"
+  ],
+  "duration": "Half or full day",
+  "methods": "AI tutor; AI role-play; personalised scenario generation; expert coaching",
+  "mechanics": "Deliberate practice; variability; feedback; metacognition; transfer",
+  "setup": "Headsets and private spaces; approved AI environment; expert clinic area",
+  "needs": "An AI tool the client has approved. Prompts written and tested in advance. A human checklist of what good looks like. Headsets and somewhere private to talk. Someone on hand for technical problems. A clear rule on what data may be typed in.",
+  "outputs": "Practice transcripts; calibrated feedback; personal prompt/scenario kit",
+  "bestUse": "Sales, leadership, language and communication practice",
+  "cautions": "Treat the AI's feedback as a suggestion to check, not a verdict. Never put real client or employee details into the tool.",
+  "plainName": "Conversation practice with an AI role-play tool, half or full day"
+ },
+ {
+  "slug": "the-systems-war-room",
+  "name": "The Systems War Room",
+  "purpose": "A mixed group of leaders builds a shared map of how a complicated problem works, then tries out changes on it before choosing what to test.",
+  "audience": "Leaders from different departments. 12 to 16 with two facilitators, up to 40 with more.",
+  "sequence": [
+   "Build the map together on a wall or the floor",
+   "Check each part against the evidence",
+   "People take the roles of the groups involved",
+   "Propose changes",
+   "Play out what each change would cause",
+   "A challenge group argues against the favourites",
+   "Choose the places where a small change would do most",
+   "Design small tests"
+  ],
+  "duration": "1 day",
+  "methods": "Systems mapping; simulation; red teaming; live case",
+  "mechanics": "Elaboration; embodied cognition; cognitive conflict; transfer",
+  "setup": "Large wall or floor map; movable tokens; control desk",
+  "needs": "A facilitator experienced in mapping systems. Reliable data about the problem. Someone from each department affected. A large wall or floor, cards, tape and counters.",
+  "outputs": "Shared system model; leverage points; experiment portfolio; assumptions log",
+  "bestUse": "Operating models, service systems and transformation",
+  "cautions": "The map is a simplified picture, not the real thing. Mark what you are unsure of, and include the people the decisions will affect.",
+  "plainName": "Map a complex problem and test changes, one day"
+ },
+ {
+  "slug": "the-crisis-command-exercise",
+  "name": "The Crisis Command Exercise",
+  "purpose": "A team practises responding to a made-up emergency as it unfolds, then reviews what worked and what did not.",
+  "audience": "Leadership and operational teams. 12 to 16 with a facilitator and two helpers, up to 40 with more.",
+  "sequence": [
+   "Brief everyone on the rules and how to stop the exercise",
+   "Announce the incident",
+   "People take up their crisis roles",
+   "Decisions against the clock",
+   "New events arrive, such as a press call or a customer complaint",
+   "Updates show the effect of earlier decisions",
+   "Hand over to a second shift",
+   "Review straight afterwards",
+   "Review again later, once people have had time to think"
+  ],
+  "duration": "Half or full day, plus a review meeting a week or two later",
+  "methods": "Tabletop; live simulation; role-play; AAR",
+  "mechanics": "Transfer-appropriate practice; emotion regulation; team cognition; reflection",
+  "setup": "Mission-control room, role tables, live incident log",
+  "needs": "A facilitator, plus two people to feed in events and keep a log. Observers. Events written and tested in advance. A stop word anyone can use. A way to take part for people who need to sit out the pressure.",
+  "outputs": "Response log; role gaps; revised protocol; follow-up practice plan",
+  "bestUse": "Cyber, business continuity, reputational and client crises",
+  "cautions": "More stress does not make it more realistic. Look after people, and keep the review about the plan and the process, not about blame.",
+  "plainName": "Crisis response rehearsal, half or full day"
+ },
+ {
+  "slug": "the-leadership-mirror",
+  "name": "The Leadership Mirror",
+  "purpose": "Leaders do a team task while trained observers record what they do, then compare it with what they expected and try again.",
+  "audience": "Leaders. 8 to 16 people, with one coach for every four.",
+  "sequence": [
+   "Each person names a leadership challenge",
+   "Each predicts how they will behave in the task",
+   "A live team task",
+   "Observers share what they recorded",
+   "A role-play where you hear how others experience you",
+   "Review the recording or the notes",
+   "One to one coaching",
+   "Try the task again"
+  ],
+  "duration": "1 day",
+  "methods": "Assessment centre; role-play; coaching; peer feedback",
+  "mechanics": "Calibration; feedback; observation; self-explanation; feedforward",
+  "setup": "One task room, observation space and private coaching rooms",
+  "needs": "Qualified coaches. One checklist of behaviours to observe. Written consent and a confidentiality agreement. One task room and private rooms for coaching.",
+  "outputs": "Behavioural strengths and risks; one tested change; coach follow-up plan",
+  "bestUse": "Leadership transitions and developmental programmes",
+  "cautions": "This is for development. It must not be used to assess people for pay or promotion. Feed back what people did, not what kind of person they are.",
+  "plainName": "Leadership behaviour feedback day"
+ },
+ {
+  "slug": "the-learning-festival",
+  "name": "The Learning Festival",
+  "purpose": "A large community samples many topics in one place and signs up for deeper learning afterwards.",
+  "audience": "A large community. 100 to 1,000 people. This is not a format for a small group.",
+  "sequence": [
+   "An opening talk",
+   "Stalls where teams show what they offer",
+   "Workshops running at the same time",
+   "Demonstrations",
+   "Hands-on challenge areas",
+   "Question sessions with experts",
+   "A shared meal",
+   "A showcase",
+   "Sign-up for follow-on courses"
+  ],
+  "duration": "1 to 2 days",
+  "methods": "Festival; marketplace; Open Space; skill arcade; showcases",
+  "mechanics": "Autonomy; curiosity; social learning; identity; relevance",
+  "setup": "Zoned venue with quiet, active, demo and reflection spaces",
+  "needs": "A programme lead, an events team and a host for every session. A venue with quiet, active and demonstration areas. Clear signs, an accessible route and an online timetable.",
+  "outputs": "Connections; sampled skills; community content; pathway enrolments",
+  "bestUse": "Capability awareness, community building and cross-pollination",
+  "cautions": "A large event builds interest, not skill. Link every session to a follow-on course and provide quiet, accessible options.",
+  "plainName": "Large learning event with many sessions, 1 to 2 days"
+ },
+ {
+  "slug": "the-reverse-classroom-retreat",
+  "name": "The Reverse Classroom Retreat",
+  "purpose": "People learn the basics before they arrive, so the time together is spent practising and getting feedback.",
+  "audience": "Any group in the same role. 8 to 16 with two facilitators, up to 60 with more.",
+  "sequence": [
+   "Short pre-work with a quiz",
+   "A recall exercise on arrival, from memory",
+   "Short teaching on what people got wrong",
+   "Practice on realistic cases",
+   "Coaching while people work",
+   "A final task on each person's own work",
+   "Short follow-up quizzes after the day"
+  ],
+  "duration": "1 day in the room, about 45 minutes of work beforehand, and short follow-ups afterwards",
+  "methods": "Flipped learning; retrieval; clinics; simulation; spacing",
+  "mechanics": "Retrieval; cognitive load; feedback; mastery; transfer",
+  "setup": "Minimal plenary seating; many practice and clinic spaces",
+  "needs": "Two facilitators. Pre-work of no more than 45 minutes, sent a week ahead with a reminder. Quiz results before the day. Two realistic cases with worked answers. A room with tables for fours and little need for a screen.",
+  "outputs": "Corrected misconceptions; applied work; individual follow-up path",
+  "bestUse": "Programmes where foundational knowledge can be learned before travel",
+  "cautions": "Keep the pre-work short. Always have a catch-up plan for people who could not do it, and do not shame them.",
+  "plainName": "Pre-work first, practice day in the room",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "One week before",
+     "Send the pre-work: a short reading or video and an eight question quiz. Read the quiz results and note the two questions most people missed.",
+     "Lead facilitator",
+     "Pre-work pack, online quiz"
+    ],
+    [
+     "09:30",
+     "Welcome. In pairs, answer five questions from memory with no notes.",
+     "Lead facilitator",
+     "Question sheet"
+    ],
+    [
+     "09:50",
+     "Go through the answers. Ask for a show of hands on which were hard.",
+     "Lead facilitator",
+     "Flipchart"
+    ],
+    [
+     "10:05",
+     "Two 20 minute teaching slots on the two most missed topics. Anyone who did not do the pre-work joins a catch-up table instead.",
+     "Lead facilitator teaches. Second facilitator runs the catch-up table.",
+     "Printed pre-work, worked examples"
+    ],
+    [
+     "10:45",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:00",
+     "Case 1 in groups of four. A realistic case that uses the content.",
+     "Groups. Facilitators coach.",
+     "Case 1 handout"
+    ],
+    [
+     "11:45",
+     "Groups compare answers. Show a worked answer and discuss the differences.",
+     "Lead facilitator",
+     "Worked answer"
+    ],
+    [
+     "12:10",
+     "Case 2 in pairs. Harder, with less guidance.",
+     "Pairs. Facilitators coach.",
+     "Case 2 handout"
+    ],
+    [
+     "12:45",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:30",
+     "Five new questions, answered alone from memory.",
+     "Second facilitator",
+     "Question sheet"
+    ],
+    [
+     "13:40",
+     "Final task. Each person applies the content to a real piece of their own work. Facilitators move round the room.",
+     "Participants. Facilitators coach.",
+     "Participants' own work, checklist"
+    ],
+    [
+     "14:55",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:10",
+     "In threes, each person presents their work and gets feedback against the checklist.",
+     "Participants",
+     "Checklist"
+    ],
+    [
+     "15:50",
+     "Each person writes what they will do in the first week back. Explain the three short quizzes that will arrive over the next six weeks. Close at 16:30.",
+     "Lead facilitator",
+     "Action sheet"
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-expert-fishbowl",
+  "name": "The Expert Fishbowl",
+  "purpose": "The group watches two or three experts work through a case out loud, then tries a similar case and compares answers.",
+  "audience": "Working practitioners. 12 to 16 works well, up to 80.",
+  "sequence": [
+   "Introduce the case",
+   "Each person writes what they would do",
+   "Experts work through the case in the middle of the room, thinking aloud",
+   "Observers note what the experts pay attention to",
+   "Observers question the experts",
+   "Small groups try a second case",
+   "Compare the groups' answers with the experts'"
+  ],
+  "duration": "2 to 3 hours",
+  "methods": "Fishbowl; think-aloud; case method; peer instruction",
+  "mechanics": "Observation; self-explanation; contrast; retrieval; feedback",
+  "setup": "Central circle with observer worksheets and group tables",
+  "needs": "Two or three experts who are willing to say when they are unsure. A facilitator to keep the experts thinking aloud. A good case and a second similar one. An inner circle of chairs, an outer ring, and an observer sheet.",
+  "outputs": "Visible decision heuristics; participant solution; questions for practice",
+  "bestUse": "Tacit professional judgement and complex case work",
+  "cautions": "Use more than one expert so the group sees them disagree. Do not let it turn into a performance by one star.",
+  "plainName": "Watch experts solve a case, then try it yourself"
+ },
+ {
+  "slug": "the-evidence-courtroom",
+  "name": "The Evidence Courtroom",
+  "purpose": "Two sides argue for and against a claim using the same evidence, and a jury judges the evidence, not the speeches.",
+  "audience": "Strategy, research and consulting teams. 12 to 16 people, up to 40.",
+  "sequence": [
+   "Assign the claim",
+   "Hand out the evidence",
+   "Each side prepares its argument",
+   "Experts are called as witnesses",
+   "Each side questions the other",
+   "The jury agrees how it will judge",
+   "The jury gives a verdict",
+   "Each person writes their own view and a better version of the claim"
+  ],
+  "duration": "Half day",
+  "methods": "Debate; role-play; case method; comparative judgement",
+  "mechanics": "Elaboration; cognitive conflict; social learning; metacognition",
+  "setup": "Courtroom-style room; evidence tables; jury area",
+  "needs": "An evidence pack that gives both sides a fair chance. A facilitator to chair. A scoring sheet for the quality of evidence and argument. A room set out with two sides and a jury.",
+  "outputs": "Claim map; evidence quality assessment; revised recommendation",
+  "bestUse": "Critical thinking, research literacy and decision-making",
+  "cautions": "Score the evidence, not the delivery. Swap roles for a second round if you can, and end with individual writing so quieter people form their own view.",
+  "plainName": "Mock trial of a claim, half day"
+ },
+ {
+  "slug": "the-museum-of-mistakes",
+  "name": "The Museum of Mistakes",
+  "purpose": "A team studies real past mistakes, displayed without names, and redesigns the work to prevent them.",
+  "audience": "Project teams and professional communities. 12 to 16 works for one team, up to 100.",
+  "sequence": [
+   "Collect incidents anonymously before the day",
+   "Choose which to display and write them up",
+   "Walk round the display with a guide sheet",
+   "Tag each incident with the type of cause",
+   "Short expert sessions on the common causes",
+   "Redesign a process or checklist",
+   "Each person commits to one change"
+  ],
+  "duration": "Half or full day",
+  "methods": "Curated exhibition; critical incident; gallery walk; clinic",
+  "mechanics": "Contrast; error management; reflection; social learning",
+  "setup": "Exhibition space with anonymised artefacts and redesign tables",
+  "needs": "Someone trusted to collect and anonymise the incidents. Facilitators who can keep the discussion on causes in the system, not on individuals. Wall or table space for the display and tables for the redesign work.",
+  "outputs": "Failure-pattern taxonomy; prevention and recovery practices; updated job aids",
+  "bestUse": "Operational learning, quality and project delivery",
+  "cautions": "If people can guess who was involved, the format fails. Include cases where someone caught and fixed a problem, and remember that mistakes look more obvious afterwards than they were at the time.",
+  "plainName": "Exhibition of anonymous mistakes, half or full day"
+ },
+ {
+  "slug": "the-customer-reality-lab",
+  "name": "The Customer Reality Lab",
+  "purpose": "A team studies real customer evidence, talks to customers, and tests one improvement with them.",
+  "audience": "Product, service and leadership teams. 12 to 16 with two facilitators, up to 36.",
+  "sequence": [
+   "Read and listen to real customer evidence",
+   "Listen to recorded calls or interviews with one question in mind",
+   "Rebuild the steps a customer goes through",
+   "List what the team has been assuming",
+   "Talk to a customer, or to an actor briefed from real cases",
+   "Build a rough improvement",
+   "Test it quickly with customers"
+  ],
+  "duration": "1 to 2 days",
+  "methods": "Customer immersion; service safari; role-play; prototype testing",
+  "mechanics": "Situated learning; attention; generation; feedback; relevance",
+  "setup": "Evidence gallery, interview rooms and prototype studio",
+  "needs": "Customer evidence such as recordings, complaints and survey comments, with consent to use it. A facilitator with research experience. Access to a few customers for interviews and testing. Wall space, interview rooms and making materials.",
+  "outputs": "Revised journey; assumption log; tested service improvement",
+  "bestUse": "Customer experience and service transformation",
+  "cautions": "One customer does not stand for all customers. Keep three things apart on the wall: what was observed, what the team thinks it means, and what the team is guessing.",
+  "plainName": "Customer research workshop, 1 to 2 days"
+ },
+ {
+  "slug": "the-negotiation-dojo",
+  "name": "The Negotiation Dojo",
+  "purpose": "People practise negotiating in short rounds, get feedback, and try again under changed conditions.",
+  "audience": "Leaders, salespeople and delivery teams. 9 to 16 people, working in threes.",
+  "sequence": [
+   "Teach a small set of negotiation principles",
+   "Short drills on single skills",
+   "A paired negotiation with an observer",
+   "Feedback from the observer",
+   "Change one condition",
+   "Negotiate again",
+   "Review what the observers wrote",
+   "A final negotiation between three teams"
+  ],
+  "duration": "1 day",
+  "methods": "Role-play; deliberate practice; simulation; coaching",
+  "mechanics": "Practice; variability; feedback; emotional regulation; calibration",
+  "setup": "Multiple small rooms; timers; private preparation space",
+  "needs": "One facilitator with negotiation experience. A second helps above 12 people. Briefs that give each side something to trade. Observer sheets, timers, and space for threes to work apart.",
+  "outputs": "Negotiation strategy; personal tendencies; tested alternative moves",
+  "bestUse": "Commercial, stakeholder and internal negotiation",
+  "cautions": "Being aggressive is not the same as being skilled. Say clearly in the briefs who holds more power, and that lying is out of bounds.",
+  "plainName": "Negotiation practice day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Each person writes down a real negotiation they have coming up.",
+     "Facilitator",
+     "Paper"
+    ],
+    [
+     "09:45",
+     "Teach four ideas: what each side needs, not only what they ask for. Your fallback if there is no deal. Who makes the first offer. Trading, not giving things away.",
+     "Facilitator",
+     "Flipchart or slides, one worked example"
+    ],
+    [
+     "10:15",
+     "Drills in pairs, five minutes each: asking why, making a first offer, responding to a flat no.",
+     "Facilitator",
+     "Drill cards, timer"
+    ],
+    [
+     "10:40",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "10:55",
+     "Round 1 in threes. Two negotiate, one observes. 10 minutes to prepare, 15 to negotiate, 10 for feedback.",
+     "Participants. Facilitator listens in.",
+     "Brief A for each side, observer sheets"
+    ],
+    [
+     "11:30",
+     "Write every group's outcome on a flipchart. Discuss why the same brief produced different deals.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "11:50",
+     "Round 2. Same brief with one condition changed, such as a closer deadline. Rotate roles.",
+     "Participants",
+     "Change card, observer sheets"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Round 3. New brief, last rotation, so everyone has observed once.",
+     "Participants",
+     "Brief B, observer sheets"
+    ],
+    [
+     "13:55",
+     "Each person reads the observer sheets written about them and notes one habit. Then a 15 minute break.",
+     "Participants",
+     "Completed observer sheets"
+    ],
+    [
+     "14:25",
+     "Final negotiation between three teams with some shared and some competing aims. 20 minutes to prepare, 40 to negotiate.",
+     "Teams. Facilitator observes.",
+     "Brief C for each team"
+    ],
+    [
+     "15:25",
+     "Discuss the final negotiation: what each team wanted, what they got, and what moved the deal.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "15:50",
+     "Each person plans their own real negotiation using the four ideas, then talks it through with a partner.",
+     "Participants",
+     "Planning sheet"
+    ],
+    [
+     "16:15",
+     "Close. Finish at 16:30.",
+     "Facilitator",
+     "None"
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-prototype-marketplace",
+  "name": "The Prototype Marketplace",
+  "purpose": "Teams build rough versions of their ideas, test them on each other, and improve them in a second round.",
+  "audience": "Design or innovation groups. 12 to 16 in four teams, up to 80.",
+  "sequence": [
+   "Agree the problem",
+   "Build a rough version quickly",
+   "Set up a stall for each team",
+   "Testers visit each stall in rotation",
+   "Testers leave written feedback",
+   "Teams improve their idea",
+   "A second round of testing",
+   "Pull together what was learned"
+  ],
+  "duration": "Half or full day",
+  "methods": "Prototyping; gallery walk; peer marketplace; critique",
+  "mechanics": "Generation; feedback; contrast; embodied cognition; social learning",
+  "setup": "Large room with team stalls, prototype materials and feedback tokens",
+  "needs": "A written question for each prototype to answer. Testers who are not on the team, ideally people the idea is for. Card, paper, tape and pens. A timekeeper. A large room with a table per team.",
+  "outputs": "Multiple prototypes; test evidence; revised concept; reusable patterns",
+  "bestUse": "Service, product, process and learning design",
+  "cautions": "The most popular idea in the room is not proven to work. Make each team write down what their prototype is testing before the testers arrive.",
+  "plainName": "Build, test and rebuild ideas, half or full day"
+ },
+ {
+  "slug": "the-manager-transfer-lab",
+  "name": "The Manager Transfer Lab",
+  "purpose": "Each learner and their manager agree how the new skill will be used back at work and what the manager will do to help.",
+  "audience": "Learners and their line managers, in pairs. 8 to 16 pairs.",
+  "sequence": [
+   "The learner shows their manager what they can now do",
+   "The manager watches with a short guide",
+   "Together they list what could get in the way at work",
+   "They agree who does what",
+   "They write if-then plans for the likely obstacles",
+   "Managers practise a coaching conversation",
+   "The manager commits time or resources",
+   "They book a review in 30 days"
+  ],
+  "duration": "3 to 4 hours, best as the last session of a programme",
+  "methods": "Transfer planning; coaching; implementation intentions; social accountability",
+  "mechanics": "Implementation intentions; relevance; feedforward; habit and cue design",
+  "setup": "Paired seating with private planning space",
+  "needs": "A short briefing sent to managers a week ahead. A planning sheet for each pair. Seating in pairs with some privacy. Someone senior to take obstacles that a pair cannot fix themselves.",
+  "outputs": "Manager–learner contract; protected practice time; review date; barrier plan",
+  "bestUse": "Any programme where workplace conditions determine application",
+  "cautions": "What a manager sees here is for development and must not go into appraisal. Many obstacles are about workload or process, so fix those and do not put it all on the learner.",
+  "plainName": "Planning session for learners and their managers"
+ },
+ {
+  "slug": "the-reflection-observatory",
+  "name": "The Reflection Observatory",
+  "purpose": "People take quiet time to work out what they have learned and decide what they will do differently.",
+  "audience": "Any retreat group. 8 to 16 with one facilitator, up to 60.",
+  "sequence": [
+   "Look back over the day's notes and work",
+   "Quiet time alone with written prompts",
+   "Write down one decision and what you expect to happen",
+   "Talk it through with a partner who only listens",
+   "Optional sharing with the group",
+   "Recall it from memory the next morning"
+  ],
+  "duration": "75 minutes at the end of a day, plus 10 minutes the next morning",
+  "methods": "Silent reflection; journalling; peer reflection; concept mapping",
+  "mechanics": "Reflection; consolidation; calibration; implementation intentions; identity",
+  "setup": "Quiet individual zones plus optional walking route and paired spaces",
+  "needs": "One facilitator. Prompt cards and a notebook each. Quiet places to sit, and a walking route if the venue has one. An alternative for anyone who would rather talk or draw than write.",
+  "outputs": "Revised mental model; decision journal; commitments; personal narrative",
+  "bestUse": "Multi-day retreats and emotionally or cognitively intense programmes",
+  "cautions": "Ask people to reflect on what happened, not on feelings in general, and to end with a decision. Nobody should be made to share.",
+  "plainName": "Guided reflection session for a retreat",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "16:00",
+     "Explain the session. What you write is private. Sharing at the end is optional.",
+     "Facilitator",
+     "Prompt cards, notebooks"
+    ],
+    [
+     "16:05",
+     "Look back through your notes, the flipcharts and any work from the day. List three moments that mattered.",
+     "Participants",
+     "The day's notes and flipcharts"
+    ],
+    [
+     "16:15",
+     "Quiet time alone, sitting or walking, with three prompts: what surprised me, what I now think differently, what I am still unsure about.",
+     "Participants",
+     "Prompt card, walking route"
+    ],
+    [
+     "16:35",
+     "Write one decision you are making, what you expect to happen, and how you will know.",
+     "Participants",
+     "Notebook"
+    ],
+    [
+     "16:45",
+     "In pairs, one speaks for five minutes while the other only listens, then asks one question. Swap.",
+     "Participants. Facilitator keeps time.",
+     "Timer"
+    ],
+    [
+     "17:00",
+     "Optional sharing in a circle. One sentence each. Anyone can pass.",
+     "Facilitator",
+     "None"
+    ],
+    [
+     "17:10",
+     "Close. Say that tomorrow starts with recall. Finish at 17:15.",
+     "Facilitator",
+     "None"
+    ],
+    [
+     "Next day, 09:00",
+     "For 10 minutes, write yesterday's decision and one idea from memory, then check against your notebook.",
+     "Facilitator",
+     "Notebook"
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-knowledge-expedition",
+  "name": "The Knowledge Expedition",
+  "purpose": "A group reads a set of chosen sources on a new topic, teaches each other, and writes a short shared guide.",
+  "audience": "Professionals learning a new field. 12 to 16 works well, up to 40.",
+  "sequence": [
+   "Agree the questions to answer",
+   "Small groups read different sources",
+   "Groups teach each other what they found",
+   "Put the findings on a shared wall map",
+   "An expert questions the findings",
+   "Write up the conclusions",
+   "Produce a short guide",
+   "Teach it back to the whole group"
+  ],
+  "duration": "1 to 2 days",
+  "methods": "Research sprint; reciprocal teaching; concept mapping; teach-back",
+  "mechanics": "Retrieval; elaboration; social learning; metacognition; dual coding",
+  "setup": "Source library, research stations, large evidence map",
+  "needs": "Sources chosen and checked in advance by someone who knows the field. An expert for the challenge session. A one-page sheet for summarising each source. Tables for reading groups and a large wall.",
+  "outputs": "Evidence map; field guide; unanswered questions; source index",
+  "bestUse": "AI, regulation, emerging technology and new market understanding",
+  "cautions": "Check the quality of the sources before the day. On the wall, mark what the evidence shows separately from what people agree on, and make sure everyone sees the whole picture.",
+  "plainName": "Group research sprint on a new topic, 1 to 2 days"
+ },
+ {
+  "slug": "the-peer-consultancy",
+  "name": "The Peer Consultancy",
+  "purpose": "One person brings a real work problem and a small group helps them think it through by asking questions before giving any advice.",
+  "audience": "Experienced leaders or practitioners. 8 to 16 people in circles of four to six.",
+  "sequence": [
+   "One person describes their problem",
+   "The group asks questions to get the facts",
+   "Everyone thinks in silence",
+   "The group asks open questions to help the owner think",
+   "Each person offers one view and one option",
+   "The owner says what they heard and what they will try",
+   "Check back later on what happened"
+  ],
+  "duration": "2.5 hours for two rounds. Check back three to four weeks later.",
+  "methods": "Action learning; peer coaching; case clinic",
+  "mechanics": "Social learning; self-explanation; feedforward; accountability; transfer",
+  "setup": "Small circles; visible question protocol; no-slide rule",
+  "needs": "One facilitator who knows the format. With two circles, brief a participant to keep time in the second. Chairs in circles, no tables, no slides. The steps on a flipchart. A date for the check-back.",
+  "outputs": "Experiment plan for each owner; peer support network; evidence review",
+  "bestUse": "Leadership, project and client-delivery challenges",
+  "cautions": "This is based on action learning. Hold the group to questions before advice, and agree at the start that what is said stays in the room.",
+  "plainName": "Peer problem-solving rounds",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Explain the format and three rules: what is said stays here, questions come before advice, no slides.",
+     "Facilitator",
+     "Flipchart with the steps"
+    ],
+    [
+     "09:45",
+     "Everyone writes a real problem in three sentences. Each circle picks two to work on today.",
+     "Participants",
+     "Cards, pens"
+    ],
+    [
+     "09:55",
+     "Round 1. The owner describes the problem. No interruptions.",
+     "Problem owner",
+     "None"
+    ],
+    [
+     "10:00",
+     "Questions to get the facts straight. No suggestions dressed up as questions.",
+     "Circle. Facilitator steps in if advice creeps in.",
+     "None"
+    ],
+    [
+     "10:10",
+     "Three minutes of silence. Each person writes what they think is going on.",
+     "Circle",
+     "Paper"
+    ],
+    [
+     "10:13",
+     "Open questions that help the owner think. Still no advice.",
+     "Circle",
+     "None"
+    ],
+    [
+     "10:25",
+     "Each person offers one view of what might be happening and one option. The owner listens and takes notes without replying.",
+     "Circle",
+     "Paper"
+    ],
+    [
+     "10:35",
+     "The owner says what struck them and the one thing they will try.",
+     "Problem owner",
+     "None"
+    ],
+    [
+     "10:40",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "10:55",
+     "Round 2 with a new owner, same steps, 45 minutes.",
+     "Circle",
+     "Flipchart with the steps"
+    ],
+    [
+     "11:40",
+     "Whole group. Discuss which questions helped most and why.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "11:50",
+     "Each owner says what they will try and by when. Agree a date to check back. Finish at 12:00.",
+     "Facilitator",
+     "Diaries"
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "the-observatory-and-control-room",
+  "name": "The Observatory and Control Room",
+  "purpose": "A team practises spotting a problem in live figures, deciding what to do, and handing over to the next shift.",
+  "audience": "Operations, product and service teams. 12 to 16 with a facilitator and a technical helper, up to 30.",
+  "sequence": [
+   "Learn what each figure on the screen means",
+   "Practise spotting changes that matter",
+   "A problem is introduced",
+   "The team lists possible causes",
+   "The team chooses what to do",
+   "The figures show the effect",
+   "Hand over to a second shift",
+   "Review what happened"
+  ],
+  "duration": "Half or full day",
+  "methods": "Digital twin; simulation; team cognition; AAR",
+  "mechanics": "Attention; transfer-appropriate practice; feedback; contextual interference",
+  "setup": "Control-room layout with shared dashboards and role stations",
+  "needs": "A realistic set of data that someone can change during the exercise. In practice this means a spreadsheet or a test system built in advance with the client's own specialists. One person to run the scenario. An observer sheet. Shared screens and technical support.",
+  "outputs": "Signal library; intervention protocol; handover checklist; team gaps",
+  "bestUse": "Operations, cyber, product reliability and service management",
+  "cautions": "Show only the figures the real team uses. If the data and its reactions do not match the real system, people will practise the wrong habits.",
+  "plainName": "Monitoring and response practice with live data"
+ },
+ {
+  "slug": "the-ethical-dilemma-forum",
+  "name": "The Ethical Dilemma Forum",
+  "purpose": "People work through a hard case with no clear right answer and put their own reasoning into words.",
+  "audience": "Leaders and professionals. 12 to 16 with one facilitator, up to 50.",
+  "sequence": [
+   "Tell the dilemma as a story",
+   "Each person writes their own decision",
+   "Map the values that are in tension",
+   "Small groups speak for each party affected",
+   "Disagree openly, with a facilitator",
+   "Test each decision against existing policy and law",
+   "Each person writes a revised decision",
+   "State the principle behind it"
+  ],
+  "duration": "3 to 4 hours",
+  "methods": "Dilemma case; role-play; fishbowl; structured dialogue",
+  "mechanics": "Generation; cognitive conflict; perspective-taking; reflection; identity",
+  "setup": "Circle seating plus stakeholder breakout areas",
+  "needs": "A facilitator experienced with ethics cases. A case with real tension between two good aims. Ground rules. A named person to go to if the case raises something personal. Chairs in a circle and space for small groups.",
+  "outputs": "Decision principles; unresolved tensions; policy questions; individual rationale",
+  "bestUse": "AI ethics, professional standards, inclusion and governance",
+  "cautions": "Do not write the case as a choice between two options only. Protect people who hold the minority view, and say clearly which parts are legal requirements and which are judgement.",
+  "plainName": "Ethical dilemma discussion, half day"
+ }
 ]
