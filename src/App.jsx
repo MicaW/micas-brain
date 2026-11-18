@@ -1,9 +1,10 @@
 import ErrorBoundary from './components/ErrorBoundary.jsx';
-import { lazy, Suspense, useEffect, useRef } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { mechanics, site, stageByN, stageLabel, topics } from './lib.js';
 import SiteFooter from './components/SiteFooter.jsx';
 import SiteHeader from './components/SiteHeader.jsx';
+import PlaybookPanel from './components/PlaybookPanel.jsx';
 import About from './pages/About.jsx';
 import Home from './pages/Home.jsx';
 import NotFound from './pages/NotFound.jsx';
@@ -54,6 +55,13 @@ export default function App() {
   const ground = groundFor(pathname);
   const main = useRef(null);
   const firstLoad = useRef(true);
+  // Inside a stage, the Playbook has its own panel down the left.
+  const stageMatch = pathname.match(/^\/playbook\/stage-(\d)(\/|$)/);
+  const panelStage = stageMatch ? stageByN(stageMatch[1]) : null;
+  const panelTopic = panelStage ? topics.find((t) => t.path === pathname) : null;
+  const [panelOpen, setPanelOpen] = useState(false);
+  const closePanel = useCallback(() => setPanelOpen(false), []);
+  useEffect(() => setPanelOpen(false), [pathname]);
 
   // The ground, the browser theme colour and the scrollbar follow the page.
   useEffect(() => {
@@ -74,11 +82,21 @@ export default function App() {
   }, [pathname]);
 
   return (
-    <div className="shell">
+    <div className={panelStage ? 'shell has-panel' : 'shell'}>
       <a className="skip" href="#content" onClick={(e) => { e.preventDefault(); main.current?.focus(); }}>
         Skip to content
       </a>
       <SiteHeader />
+      {panelStage && (
+        <>
+          <PlaybookPanel stage={panelStage} topic={panelTopic} open={panelOpen} onClose={closePanel} />
+          <button className="pp-open" type="button" style={{ '--stage': panelStage.color }} aria-expanded={panelOpen} onClick={() => setPanelOpen(true)}>
+            <span className="pp-open-disc" aria-hidden="true">{panelStage.n}</span>
+            <span className="pp-open-name">{panelTopic ? panelTopic.part.title : panelStage.name}</span>
+            <span className="pp-open-word">Contents</span>
+          </button>
+        </>
+      )}
       <main id="content" ref={main} tabIndex={-1} className={pathname === '/' ? 'home' : undefined}>
         <ErrorBoundary resetKey={pathname}>
           <Suspense fallback={<p className="hurry" role="status">Loading.</p>}>
