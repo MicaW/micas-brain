@@ -96,7 +96,6 @@ export default function Topic() {
       </div>
 
       <div>
-        <p className="hurry">In a hurry? You can stop here. The reasons, an example and the sources are underneath.</p>
         {rest.map((part) => (
           <section className="tp-row" key={part.key} aria-labelledby={`h-${part.key}`}>
             <div>
