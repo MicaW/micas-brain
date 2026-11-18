@@ -568,21 +568,22 @@
   gap: 40px;
 }
 @media (min-width: 1001px) {
+  /* Title across the top, then the situation and the steps side by side,
+     so the page reads in order: what it is, when it happens, what to do. */
   .topic-top {
     display: grid;
     grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-    grid-template-rows: auto auto auto 1fr;
-    grid-template-areas: 'head do' 'note do' 'sit do' '. do';
-    gap: 0 8px;
+    grid-template-areas: 'head head' 'note note' 'sit do';
+    gap: 0 24px;
     align-items: start;
   }
   .topic-top > .stage-top {
     grid-area: head;
-    padding: 8px 32px 36px 0;
+    padding: 8px 0 32px;
   }
   .topic-top > .legal-note {
     grid-area: note;
-    margin: 0 8px 24px 0;
+    margin: 0 0 24px;
   }
   .topic-top > .hurry {
     grid-column: 1 / -1;
@@ -597,8 +598,9 @@
     grid-area: do;
   }
   .topic-top .topic-hero {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 24px;
+    align-items: center;
   }
   .topic-top .topic-disc {
     width: 72px;
@@ -606,8 +608,11 @@
     font-size: 1.625rem;
   }
   .topic-top .topic-hero .detail-h1 {
-    max-width: none;
-    font-size: 3rem;
+    max-width: 24ch;
+    font-size: 2.75rem;
+  }
+  .topic-top .topic-words {
+    gap: 10px;
   }
 }
 .do-tile .unwritten {
