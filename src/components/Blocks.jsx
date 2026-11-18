@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { mechanics } from '../lib.js';
+import { mechanics, topicByNumber } from '../lib.js';
 import { Arrow, Pill } from './ui.jsx';
 
 /* Diagrams are drawn as inline SVG in the current text colour, with the stage colour as the one fill. */
@@ -34,16 +34,47 @@ const External = ({ url, children }) => (
   </a>
 );
 
+/* Topic text carries two marks: **a bold lead** and [linked words](t:9.34) that open another topic in a new tab. */
+const MARK = /\*\*(.+?)\*\*|\[([^\]]+)\]\(t:(\d\.\d{1,2})\)/g;
+export function Inline({ text }) {
+  if (typeof text !== 'string' || (!text.includes('**') && !text.includes('](t:'))) return text;
+  const out = [];
+  let last = 0;
+  for (const m of text.matchAll(MARK)) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    if (m[1]) out.push(<strong key={m.index}>{m[1]}</strong>);
+    else {
+      const topic = topicByNumber(m[3]);
+      out.push(
+        topic ? (
+          <a key={m.index} className="txt" href={`#${topic.path}`} target="_blank" rel="noopener">
+            {m[2]}
+            <span className="sr-only"> (opens in a new tab)</span>
+          </a>
+        ) : (
+          m[2]
+        ),
+      );
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+const T = (text) => <Inline text={text} />;
+
 /* The pieces a topic can be written from: text, steps, a diagram, a study, an example, cards to remember, mechanics, links out. */
 function Block({ block }) {
   switch (block.type) {
     case 'p':
-      return <p>{block.text}</p>;
+      return <p>{T(block.text)}</p>;
     case 'steps':
       return (
         <ol className="steps">
           {block.items.map((item) => (
-            <li key={item}>{item}</li>
+            <li key={item}>
+              <span className="step-t">{T(item)}</span>
+            </li>
           ))}
         </ol>
       );
@@ -51,7 +82,7 @@ function Block({ block }) {
       return (
         <ul>
           {block.items.map((item) => (
-            <li key={item}>{item}</li>
+            <li key={item}>{T(item)}</li>
           ))}
         </ul>
       );
@@ -75,9 +106,9 @@ function Block({ block }) {
           </p>
           <dl className="kv">
             <dt>What it found</dt>
-            <dd>{block.found}</dd>
+            <dd>{T(block.found)}</dd>
             <dt>What it means for you</dt>
-            <dd>{block.means}</dd>
+            <dd>{T(block.means)}</dd>
           </dl>
           {block.url && <External url={block.url}>Read the paper's summary</External>}
         </aside>
@@ -87,7 +118,7 @@ function Block({ block }) {
         <aside className="b-example" aria-label={`Example: ${block.title}`}>
           <Pill>Example</Pill>
           <p className="b-title">{block.title}</p>
-          <p>{block.text}</p>
+          <p>{T(block.text)}</p>
         </aside>
       );
     case 'artefact':
@@ -114,7 +145,7 @@ function Block({ block }) {
                     <tr key={r}>
                       {row.map((cell, c) => (
                         <td key={c} data-label={block.table.head[c]}>
-                          {cell}
+                          {T(cell)}
                         </td>
                       ))}
                     </tr>
@@ -126,7 +157,7 @@ function Block({ block }) {
           {block.lines && (
             <ul className="b-lines">
               {block.lines.map((line) => (
-                <li key={line}>{line}</li>
+                <li key={line}>{T(line)}</li>
               ))}
             </ul>
           )}
@@ -138,7 +169,7 @@ function Block({ block }) {
           {block.items.map((card) => (
             <div className="b-card" key={card.title}>
               <p className="b-title">{card.title}</p>
-              <p>{card.text}</p>
+              <p>{T(card.text)}</p>
             </div>
           ))}
         </div>
@@ -176,8 +207,8 @@ function Block({ block }) {
         <div className="b-quiz">
           {block.items.map((item) => (
             <details key={item.q}>
-              <summary>{item.q}</summary>
-              <p>{item.a}</p>
+              <summary>{T(item.q)}</summary>
+              <p>{T(item.a)}</p>
             </details>
           ))}
         </div>

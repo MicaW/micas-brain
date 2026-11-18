@@ -32,6 +32,8 @@ export const topics = stages.flatMap((stage) =>
   ),
 );
 export const topicById = (id) => topics.find((t) => t.id === id);
+// "9.34" is stage 9, topic 34: the form the text uses to point at another topic.
+export const topicByNumber = (ref) => topics.find((t) => `${t.stage.n}.${t.n}` === ref);
 
 // The full text of a stage's topics is fetched the first time one of them is opened.
 const stageFiles = import.meta.glob('./content/generated/stage-*.json');

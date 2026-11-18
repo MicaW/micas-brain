@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { loadStageText, playbook, stageLabel, stagePath, topicById, topics } from '../lib.js';
+import { loadStageText, playbook, stageLabel, stagePath, topics } from '../lib.js';
 import Blocks from '../components/Blocks.jsx';
 import { Arrow } from '../components/ui.jsx';
 import Words from '../components/Words.jsx';
@@ -38,7 +38,6 @@ export default function Topic() {
   const inStage = topics.filter((t) => t.stage.n === stage.n);
   const next = inStage[inStage.indexOf(topic) + 1];
   const previous = inStage[inStage.indexOf(topic) - 1];
-  const related = (topic.related || []).map(topicById).filter(Boolean);
 
   return (
     <div style={{ '--stage': stage.color, display: 'contents' }}>
@@ -116,27 +115,6 @@ export default function Topic() {
             <div className="prose">
               <Blocks blocks={[{ type: 'quiz', items: quiz }]} />
             </div>
-          </section>
-        )}
-        {related.length > 0 && (
-          <section className="tp-row" aria-labelledby="h-related">
-            <div>
-              <h2 id="h-related">Related topics</h2>
-              <p className="status">Where this idea comes up again.</p>
-            </div>
-            <ul className="related">
-              {related.map((r) => (
-                <li key={r.id}>
-                  <Link to={r.path} style={{ '--stage': r.stage.color }}>
-                    <span className="rel-n">
-                      {r.stage.n}.{r.n}
-                    </span>
-                    <span>{r.title}</span>
-                    <Arrow size={24} />
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </section>
         )}
       </div>

@@ -18,7 +18,7 @@ for (const stage of playbook.stages) {
   for (const part of stage.parts) {
     for (const topic of part.topics) {
       bodies[topic.id] = { body: topic.body ?? null, quiz: topic.quiz ?? null };
-      const unique = new Set(strings(topic.body).join(' ').toLowerCase().match(/[a-z0-9][a-z0-9'-]{2,}/g) || []);
+      const unique = new Set(strings(topic.body).join(' ').replace(/\]\(t:[\d.]+\)/g, ' ').toLowerCase().match(/[a-z0-9][a-z0-9'-]{2,}/g) || []);
       words[topic.id] = [...unique].join(' ');
       delete topic.body;
       delete topic.quiz;

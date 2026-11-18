@@ -61,8 +61,7 @@ export default function Stage() {
       <section aria-label="Topics in this stage">
         {partCount > 1 && (
           <div className="split parts-head">
-            <p className="parts-hint">{copy.partsHint}</p>
-            <button className="all" type="button" onClick={() => setOpen(Array(partCount).fill(!allOpen))}>
+            <button className="all" type="button" aria-expanded={allOpen} onClick={() => setOpen(Array(partCount).fill(!allOpen))}>
               {allOpen ? copy.closeAll : copy.openAll}
             </button>
           </div>
