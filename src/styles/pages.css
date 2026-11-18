@@ -521,11 +521,16 @@
 .tp-b-top .part-h {
   font-size: 1.5rem;
 }
+/* No rules between steps: the numbered discs and the bold leads already separate them. */
 .do-tile .steps li {
   grid-template-columns: 36px minmax(0, 1fr);
   gap: 14px;
-  padding: 14px 0;
+  padding: 0;
+  border-top: 0;
   font-size: 1rem;
+}
+.do-tile .steps li + li {
+  margin-top: 18px;
 }
 .do-tile .steps li::before {
   width: 36px;

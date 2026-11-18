@@ -89,7 +89,7 @@ export default function Topic() {
           <Blocks blocks={situation.content} />
         </section>
         <section className="do-tile s7">
-          <h2 className="part-h">{doThis.name}</h2>
+          <h2 className="sr-only">{doThis.name}</h2>
           <Blocks blocks={doThis.content} />
         </section>
       </div>
