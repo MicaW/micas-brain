@@ -1509,3 +1509,21 @@ dd {
     display: none;
   }
 }
+.deck {
+  min-width: 0;
+  max-width: 100%;
+}
+.deck-row {
+  min-width: 0;
+  max-width: 100%;
+  contain: inline-size;
+}
+.deck-row,
+.b-scroll {
+  position: relative;
+}
+@media (min-width: 900px) and (min-height: 680px) {
+  .deck-row .flip {
+    min-height: clamp(300px, 48vh, 460px);
+  }
+}
