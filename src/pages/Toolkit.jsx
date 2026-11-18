@@ -108,7 +108,7 @@ function Library({ title, lead, items, filters, placeholder, rated = false, crum
         <h1 id="h-lib" className="hero-h1">
           {title}
         </h1>
-        <p className="lead">{lead}</p>
+        {lead && <p className="lead">{lead}</p>}
       </section>
       <section className="section" aria-label="Find">
         <div className={showFilters ? 'filters open' : 'filters'}>
@@ -177,7 +177,6 @@ export function MethodFinder() {
   return (
     <Library
       title="Method finder"
-      lead="Choose a method by what it has to do, not by what is new."
       placeholder="Search methods"
       items={items}
       filters={[
