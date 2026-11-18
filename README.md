@@ -1,4 +1,4 @@
-# Learning Learning
+# Training the Trainer
 
 A personal handbook on the science of learning and how to deliver training. It is written practice first: each topic says what to do, then why it works and where that comes from.
 
