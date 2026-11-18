@@ -81,7 +81,7 @@ export default function App() {
       const newStage = Boolean(from && next && from.n !== next.n);
       const change = () =>
         flushSync(() => {
-          if (newStage) setWipe({ color: next.color, key: Date.now() });
+          if (newStage) setWipe({ color: next.color, n: next.n, key: Date.now() });
           navigate(to);
         });
       if (!document.startViewTransition) {
@@ -186,7 +186,7 @@ export default function App() {
         </ErrorBoundary>
       </main>
       <SiteFooter />
-      {wipe && <div className="stage-wipe" key={wipe.key} style={{ background: wipe.color }} aria-hidden="true" onAnimationEnd={() => setWipe(null)} />}
+      {wipe && <div className="stage-wipe" key={wipe.key} style={{ background: wipe.color }} aria-hidden="true" onAnimationEnd={() => setWipe(null)}>{wipe.n}</div>}
     </div>
   );
 }

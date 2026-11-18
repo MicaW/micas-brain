@@ -1785,45 +1785,14 @@ dd {
 
 /* ---------- Topic pages: landmarks, marks and movement ---------- */
 
-/* Section openers: each section starts with a tile in the stage colour.
-   On a wide screen it stays beside the text while you read that section. */
-.tp-row {
-  gap: 24px;
-  align-items: start;
-  margin-top: 56px;
-  padding: 0;
-  border-top: 0;
-}
-.tp-row > div:first-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 40px;
-  min-height: 168px;
-  padding: 28px;
-  border-radius: var(--radius-lg);
-  background: var(--stage);
-  color: var(--on-tile);
-}
-.tp-row > div:first-child .status {
-  color: var(--on-tile-muted);
-}
-.tp-row > .prose {
-  padding: 24px 16px 0 24px;
-}
+/* Section headings stay beside the text on a wide screen while you read that section. */
 @media (min-width: 1001px) {
+  .tp-row {
+    align-items: start;
+  }
   .tp-row > div:first-child {
     position: sticky;
     top: 24px;
-  }
-}
-@media (max-width: 1000px) {
-  .tp-row > div:first-child {
-    min-height: 0;
-    gap: 12px;
-  }
-  .tp-row > .prose {
-    padding: 0 8px;
   }
 }
 
@@ -1947,37 +1916,53 @@ dd {
   animation-duration: 0.45s;
   animation-timing-function: var(--ease-out);
 }
+/* A new stage arrives behind a sweep of its colour, with its number in the middle.
+   The edges lean, the colour covers the page for a beat, then clears. */
 .stage-wipe {
   position: fixed;
   inset: 0;
   z-index: 60;
+  display: grid;
+  place-items: center;
   pointer-events: none;
+  color: #0b0b0c;
+  font: 500 clamp(9rem, 30vw, 24rem) / 1 var(--font-display);
+  letter-spacing: -0.05em;
   view-transition-name: stage-wipe;
-  animation: stage-wipe 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+  animation: stage-wipe 0.72s cubic-bezier(0.7, 0, 0.3, 1) both;
 }
 @media (min-width: 1100px) {
   .has-panel .stage-wipe {
     left: 348px;
+  }
+  .has-panel .pp {
+    view-transition-name: pp;
   }
 }
 .vt-on .stage-wipe {
   animation: none;
 }
 ::view-transition-new(stage-wipe) {
-  animation: stage-wipe 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+  animation: stage-wipe 0.72s cubic-bezier(0.7, 0, 0.3, 1) both;
 }
 @keyframes stage-wipe {
-  0% { clip-path: inset(0 100% 0 0); }
-  50% { clip-path: inset(0 0 0 0); }
-  100% { clip-path: inset(0 0 0 100%); }
+  0% { clip-path: polygon(0% 0%, 0% 0%, -16% 100%, -16% 100%); }
+  44%, 56% { clip-path: polygon(0% 0%, 116% 0%, 100% 100%, -16% 100%); }
+  100% { clip-path: polygon(116% 0%, 116% 0%, 100% 100%, 100% 100%); }
 }
 .vt-stage::view-transition-old(root) {
   mix-blend-mode: normal;
-  animation: vt-old 0.6s linear both;
+  animation: vt-old 0.72s linear both;
 }
 .vt-stage::view-transition-new(root) {
   mix-blend-mode: normal;
-  animation: vt-new 0.6s linear both;
+  animation: vt-new 0.72s linear both;
+}
+/* The panel changes over while the page is covered, not before it. */
+.vt-stage::view-transition-old(pp),
+.vt-stage::view-transition-new(pp) {
+  animation-delay: 0.26s;
+  animation-duration: 0.2s;
 }
 @keyframes vt-old {
   0%, 49.9% { opacity: 1; }
