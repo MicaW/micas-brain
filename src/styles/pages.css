@@ -505,12 +505,12 @@
   color: var(--ink-muted);
 }
 .do-tile {
-  padding: 32px;
+  padding: 28px;
   border-radius: var(--radius-lg);
-  background: var(--stage);
+  background: var(--tile-paper);
   color: var(--on-tile);
   --disc: #0b0b0c;
-  --disc-ink: var(--stage);
+  --disc-ink: #fff;
   --ink: #0b0b0c;
   --on-ink: var(--stage);
 }
@@ -518,20 +518,56 @@
   border-top-color: transparent;
   padding-top: 0;
 }
+.tp-b-top .part-h {
+  font-size: 1.5rem;
+}
+.do-tile .steps li {
+  grid-template-columns: 36px minmax(0, 1fr);
+  gap: 14px;
+  padding: 14px 0;
+  font-size: 1rem;
+}
+.do-tile .steps li::before {
+  width: 36px;
+  height: 36px;
+  font-size: 1rem;
+}
+.do-tile .steps .step-t {
+  max-width: 64ch;
+  padding-top: 6px;
+}
+.topic-hero .lead {
+  font-size: 1.0625rem;
+}
+@media (min-width: 761px) {
+  .topic-hero .detail-h1 {
+    font-size: 3.25rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1001px) {
+  .tp-b-top .paper {
+    grid-column: span 4;
+  }
+  .tp-b-top .do-tile {
+    grid-column: span 8;
+  }
+}
 .do-tile .unwritten {
   color: var(--note-on-tile);
 }
 /* B: practice on top, evidence underneath */
 .tp-b-top .tile {
-  padding: 32px;
+  padding: 28px;
 }
+/* The situation is short, so it carries the stage colour. The steps are long, so they sit on the pale tile. */
 .tp-b-top .paper {
-  background: var(--tile-paper);
+  background: var(--stage);
   justify-content: flex-start;
 }
 .tp-b-top .paper p {
-  font-size: 1.375rem;
-  line-height: 1.4;
+  font-size: 1.0625rem;
+  line-height: 1.55;
 }
 .hurry {
   margin: 0;
