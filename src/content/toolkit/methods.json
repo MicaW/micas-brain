@@ -39,7 +39,6 @@
   "tierRaw": "A - Established",
   "mechanics": "Explicit instruction; cognitive load theory; schema acquisition",
   "cautions": "It slides into you talking and them listening, with too much content. Halve the content and give at least a third of the time to practice.",
-  "theory": "Explicit instruction; cognitive load theory; schema acquisition",
   "presence": "Varies",
   "tier": "A",
   "howTo": [
@@ -93,7 +92,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Generative learning; retrieval; attention and cognitive load",
   "cautions": "Polls that ask for opinions or easy facts look lively and teach little. Ask questions people have to think about, and act on the answers you get.",
-  "theory": "Generative learning; retrieval; attention and cognitive load",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -147,7 +145,6 @@
   "tierRaw": "A - Established",
   "mechanics": "Cognitive load theory; worked-example effect",
   "cautions": "People skim an example and think they have it, so make them explain each step and then solve a similar problem. Once people can do the task, move them on to problems without examples.",
-  "theory": "Cognitive load theory; worked-example effect",
   "presence": "Varies",
   "tier": "A",
   "howTo": [
@@ -196,7 +193,6 @@
   "tierRaw": "A/B - Strong, conditional",
   "mechanics": "Cognitive load theory; scaffolding; expertise-reversal effect",
   "cautions": "A fixed schedule leaves some people stranded and bores others. Take support away when you see people succeed, not because the plan says so.",
-  "theory": "Cognitive load theory; scaffolding; expertise-reversal effect",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -245,7 +241,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Cognitive apprenticeship; modelling; metacognition",
   "cautions": "Experts skip the steps they no longer think about, so the most useful parts go unsaid. Stand in for the learner and keep asking why.",
-  "theory": "Cognitive apprenticeship; modelling; metacognition",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -294,7 +289,6 @@
   "tierRaw": "A/B - Strong, task dependent",
   "mechanics": "Social learning theory; observational learning; motor learning",
   "cautions": "Watching feels like learning, but people cannot do it until they have tried. Keep the demonstration under five minutes and give most of the time to practice with feedback.",
-  "theory": "Social learning theory; observational learning; motor learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -348,7 +342,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Narrative cognition; episodic memory; dual coding",
   "cautions": "People remember a good story but may take the wrong lesson from it, or only the drama. Always have the group say the point out loud and check it matches yours.",
-  "theory": "Narrative cognition; episodic memory; dual coding",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -402,7 +395,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Meaningful learning; schema construction; elaboration",
   "cautions": "Maps can look impressive and show little. Make people label every arrow and explain the map aloud, because that is where the gaps show.",
-  "theory": "Meaningful learning; schema construction; elaboration",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -472,7 +464,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Deliberate practice; mental representations; feedback loops",
   "cautions": "Repeating something with no standard and no feedback is just repetition, and people get bored. Keep the target small, the standard in view and the feedback quick.",
-  "theory": "Deliberate practice; mental representations; feedback loops",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -550,7 +541,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Experiential learning; social learning; behavioural rehearsal",
   "cautions": "People dread performing in front of the room, and the other role gets overplayed. Run it in threes with nobody else watching, brief the other role to be realistic, and never skip the second attempt.",
-  "theory": "Experiential learning; social learning; behavioural rehearsal",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -628,7 +618,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated learning; experiential learning; contextual retrieval",
   "cautions": "Tidy scenarios with one obviously right answer teach nothing. Use real cases, make every option tempting and show consequences instead of marking answers right or wrong.",
-  "theory": "Situated learning; experiential learning; contextual retrieval",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -706,7 +695,6 @@
   "tierRaw": "A/B - Strong, implementation dependent",
   "mechanics": "Experiential learning; deliberate practice; representative learning design",
   "cautions": "More realism costs more and can swamp beginners with detail. Match the realism to the skill and protect the debrief, because a simulation without one is just an activity.",
-  "theory": "Experiential learning; deliberate practice; representative learning design",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -791,7 +779,6 @@
   "tierRaw": "C - Emerging",
   "mechanics": "Behavioural rehearsal; retrieval; adaptive feedback; situated practice",
   "cautions": "The AI can give confident feedback that is wrong, can be too agreeable and can carry bias. Have a person check samples, keep real data out and pair it with practice with real people.",
-  "theory": "Behavioural rehearsal; retrieval; adaptive feedback; situated practice",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -861,7 +848,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Learning by doing; cognitive apprenticeship; immediate feedback",
   "cautions": "People follow the steps and finish without understanding, so take the steps away as the lab goes on and add a fault to find. Setup problems eat the session, so test logins and data the day before.",
-  "theory": "Learning by doing; cognitive apprenticeship; immediate feedback",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -931,7 +917,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Deliberate practice; peer learning; feedback literacy",
   "cautions": "Without an agreed standard the feedback turns into personal taste, and time runs out before the last people have a turn. Fix the criteria and the time per person at the start.",
-  "theory": "Deliberate practice; peer learning; feedback literacy",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -960,7 +945,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Behavioural observation; simulation; criterion-referenced assessment",
   "cautions": "If it feels like a real test, people play safe and learn less, and observers who mark differently make the feedback unfair. Say plainly that it is for development and that scores go no further, and train the observers together.",
-  "theory": "Behavioural observation; simulation; criterion-referenced assessment",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1010,7 +994,6 @@
   "tierRaw": "A/B - Strong",
   "mechanics": "Retrieval practice; elaboration; generation effect",
   "cautions": "Partners can pass on mistakes with confidence. Listen in as they talk and always finish with a correct version from you.",
-  "theory": "Retrieval practice; elaboration; generation effect",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1059,7 +1042,6 @@
   "tierRaw": "A/B - Strong",
   "mechanics": "Retrieval; elaboration; cognitive conflict; social constructivism",
   "cautions": "Easy questions produce no debate, and a majority vote can still be wrong. Write questions around real misunderstandings and always explain the answer yourself.",
-  "theory": "Retrieval; elaboration; cognitive conflict; social constructivism",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1109,7 +1091,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Generative learning; retrieval; metacognition",
   "cautions": "People can teach something wrong with great confidence, and the audience believes them. Check the plans beforehand and correct errors in front of the audience.",
-  "theory": "Generative learning; retrieval; metacognition",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1172,7 +1153,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Constructivism; self-directed learning; situated cognition",
   "cautions": "Beginners flounder if they lack the basic knowledge. Teach the foundations first, or give more structure, such as guiding questions and a reading list.",
-  "theory": "Constructivism; self-directed learning; situated cognition",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1242,7 +1222,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated learning; constructionism; experiential learning",
   "cautions": "One or two people can carry a team, and a polished output can hide weak basics. Check each person's contribution and test the key skills separately.",
-  "theory": "Situated learning; constructionism; experiential learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1304,7 +1283,6 @@
   "tierRaw": "C/B - Emerging to conditional",
   "mechanics": "Experiential learning; inquiry; authentic assessment",
   "cautions": "A vague challenge produces slides and then nothing changes. Tie the challenge down, and get a named owner for the follow-up before you start.",
-  "theory": "Experiential learning; inquiry; authentic assessment",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -1374,7 +1352,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated cognition; elaboration; decision practice",
   "cautions": "Cases reward confident talkers and look tidier in hindsight than they were. Call on quiet people, and ask what the people in the case could have known at the time.",
-  "theory": "Situated cognition; elaboration; decision practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1436,7 +1413,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Authentic learning; situated cognition; transfer",
   "cautions": "If the sponsor is not ready to use the results it becomes an exercise, and learners notice. Confirm the sponsor's commitment and the confidentiality terms before the programme starts.",
-  "theory": "Authentic learning; situated cognition; transfer",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1498,7 +1474,6 @@
   "tierRaw": "D/B - Practitioner framework with supporting mechanisms",
   "mechanics": "Design thinking; experiential learning; rapid feedback",
   "cautions": "The pace can squeeze out proper research, and often nothing gets built afterwards. Say who owns the next step before you start, and treat it as a way of working on a problem, not a general teaching method.",
-  "theory": "Design thinking; experiential learning; rapid feedback",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -1568,7 +1543,6 @@
   "tierRaw": "C/B - Conditional",
   "mechanics": "Constructionism; flow; social learning; authentic practice",
   "cautions": "It rewards speed over quality, wears people out and can leave beginners watching. Mix teams on purpose, give beginners a real job, build in breaks and avoid overnight formats.",
-  "theory": "Constructionism; flow; social learning; authentic practice",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -1618,7 +1592,6 @@
   "tierRaw": "D/B - Practitioner with research base",
   "mechanics": "Variation-selection theory; decision science; collective intelligence",
   "cautions": "Criteria and voters favour familiar ideas, and popular is not the same as good. Ask for evidence at every round, and treat this as a way of choosing ideas, because it builds little skill by itself.",
-  "theory": "Variation-selection theory; decision science; collective intelligence",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -1688,7 +1661,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated learning; cognitive apprenticeship; feedback literacy",
   "cautions": "Feedback can turn personal, or stay vague and polite. Talk about the work and not the person, tie each comment to a standard, and model it yourself first.",
-  "theory": "Situated learning; cognitive apprenticeship; feedback literacy",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1750,7 +1722,6 @@
   "tierRaw": "C - Emerging",
   "mechanics": "Game-based learning; retrieval; collaborative problem solving",
   "cautions": "The game can be all that people remember, and the fastest person can solve everything. Make sure every puzzle needs the content, and do not skip the debrief.",
-  "theory": "Game-based learning; retrieval; collaborative problem solving",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -1819,7 +1790,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Social learning; accountability; communities of practice",
   "cautions": "Fixed dates shut out people who cannot make them, and energy dips in the middle weeks. Record what you can, keep the small groups going, and do not assume the group format alone is why people finish.",
-  "theory": "Social learning; accountability; communities of practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1889,7 +1859,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated learning; legitimate peripheral participation",
   "cautions": "Communities fade without someone looking after them and real work to do. Give the organisers time for it and build every meeting around a real problem.",
-  "theory": "Situated learning; legitimate peripheral participation",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -1938,7 +1907,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Cognitive apprenticeship; situated cognition",
   "cautions": "It takes a lot of expert time, and many experts struggle to put their thinking into words. Train the experts to think aloud and make room for it in their workload.",
-  "theory": "Cognitive apprenticeship; situated cognition",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2008,7 +1976,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Social learning; possible selves; developmental relationships",
   "cautions": "Poor matches, unclear aims and a mentor who is also the mentee's manager all weaken it. Match with care, agree goals at the first meeting and choose mentors from outside the mentee's reporting line.",
-  "theory": "Social learning; possible selves; developmental relationships",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2078,7 +2045,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Self-regulation; goal-setting; feedback; deliberate practice",
   "cautions": "Questions alone do not help someone who lacks the knowledge, and coaching cannot fix a broken process or a bad manager. Check the cause first, and bring in someone who knows the subject when knowledge is the gap.",
-  "theory": "Self-regulation; goal-setting; feedback; deliberate practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2140,7 +2106,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Social learning; self-regulation; reflective practice",
   "cautions": "Without a structure it becomes a chat or a round of advice. Give the question card, practise once in the room, and say where to take problems that are too big for a peer.",
-  "theory": "Social learning; self-regulation; reflective practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2198,7 +2163,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Action learning; experiential learning; reflective practice",
   "cautions": "It drifts into advice-giving, or into talk with no action. Hold the questions-only rule firmly and start every meeting with the action reports.",
-  "theory": "Action learning; experiential learning; reflective practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2256,7 +2220,6 @@
   "tierRaw": "D - Practitioner framework",
   "mechanics": "Dialogic learning; collective intelligence",
   "cautions": "You get themes, not decisions and not skills. Follow it with a step that decides or acts, and do not promise more than that.",
-  "theory": "Dialogic learning; collective intelligence",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -2310,7 +2273,6 @@
   "tierRaw": "D - Practitioner framework",
   "mechanics": "Self-determination; social learning; emergence",
   "cautions": "With a vague theme or no write-up, nothing lasts beyond the day. It is the wrong tool for content everyone must cover, because people choose what to attend.",
-  "theory": "Self-determination; social learning; emergence",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -2368,7 +2330,6 @@
   "tierRaw": "D/B - Practitioner with supported mechanisms",
   "mechanics": "Observational learning; dialogic learning",
   "cautions": "Observers switch off without a task, and senior people in the middle can silence the rest. Give every observer something to look for and choose the inner circle with care.",
-  "theory": "Observational learning; dialogic learning",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -2413,7 +2374,6 @@
   "tierRaw": "A/B - Strong in literacy, conditional elsewhere",
   "mechanics": "Metacognition; scaffolding; social constructivism",
   "cautions": "It was designed for reading, so do not expect it to work unchanged for other skills. The roles can become a ritual, so listen in and push for real questions.",
-  "theory": "Metacognition; scaffolding; social constructivism",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2471,7 +2431,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated learning; near transfer; cognitive apprenticeship",
   "cautions": "Left informal, it turns into sitting next to someone and copying their shortcuts. Write the standards, pick and brief the trainers, and check each task before sign-off.",
-  "theory": "Situated learning; near transfer; cognitive apprenticeship",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2517,7 +2476,6 @@
   "tierRaw": "A/B - Strong for procedural tasks",
   "mechanics": "Behavioural task analysis; modelling; guided practice",
   "cautions": "It teaches one fixed way, which suits standard tasks and does not suit judgement calls. For work that changes case by case, add scenarios or coaching.",
-  "theory": "Behavioural task analysis; modelling; guided practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2574,7 +2532,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated learning; legitimate peripheral participation; cognitive apprenticeship",
   "cautions": "Quality depends on the supervisor and on the range of work the apprentice gets to see. Train the supervisors, and rotate apprentices so they do not learn one narrow way.",
-  "theory": "Situated learning; legitimate peripheral participation; cognitive apprenticeship",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2586,7 +2543,8 @@
    "End with an assessment of real work."
   ],
   "time": "One to four years",
-  "group": "One supervisor with one to three apprentices"
+  "group": "One supervisor with one to three apprentices",
+  "programme": true
  },
  {
   "id": "M371",
@@ -2636,7 +2594,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Experiential learning; boundary crossing; job enrichment",
   "cautions": "Without goals and real work it becomes a tour, and people leave each team just as they become useful. Set goals for every placement and build in time to reflect.",
-  "theory": "Experiential learning; boundary crossing; job enrichment",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2648,7 +2605,8 @@
    "End with a review of how the parts connect."
   ],
   "time": "Three to eighteen months in total",
-  "group": "Individuals, often run as a small cohort"
+  "group": "Individuals, often run as a small cohort",
+  "programme": true
  },
  {
   "id": "M380",
@@ -2698,7 +2656,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Experiential learning; challenge–support; self-efficacy",
   "cautions": "Without support it turns into overload, or extra work with no reward. Take something off their plate, agree the support at the start and offer these chances fairly.",
-  "theory": "Experiential learning; challenge–support; self-efficacy",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2710,7 +2667,8 @@
    "Recognise the extra work, in workload or in pay."
   ],
   "time": "Three to twelve months",
-  "group": "One person, with a manager or mentor"
+  "group": "One person, with a manager or mentor",
+  "programme": true
  },
  {
   "id": "M389",
@@ -2760,7 +2718,6 @@
   "tierRaw": "D/B - Practitioner framework with supported mechanisms",
   "mechanics": "Performance support; situated cognition; transfer of training",
   "cautions": "People can learn to click through the steps without understanding the reason for them. Pair the help with a short explanation or practice session whenever judgement matters.",
-  "theory": "Performance support; situated cognition; transfer of training",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -2822,7 +2779,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Distributed cognition; cognitive offloading; performance support",
   "cautions": "People can lean on the aid and never learn the task, which is fine for rare tasks. Where speed or memory matters, take the aid away in practice once people are accurate.",
-  "theory": "Distributed cognition; cognitive offloading; performance support",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2885,7 +2841,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Observational learning; situated cognition",
   "cautions": "Watching alone teaches little. Without set questions and a debrief the learner sees what happened and misses why, so always add the debrief and a chance to try it.",
-  "theory": "Observational learning; situated cognition",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2947,7 +2902,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Reflective practice; experiential learning; team learning",
   "cautions": "It turns into blame, or into a ritual that changes nothing. Have the leader name one of their own mistakes first, work from facts, and check last time's actions at the start.",
-  "theory": "Reflective practice; experiential learning; team learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -2997,7 +2951,6 @@
   "tierRaw": "B/D - Conditional practitioner method",
   "mechanics": "Double-loop learning; reflexivity; continuous improvement",
   "cautions": "It dies when the same complaints come up each time and nothing changes. Keep actions small and inside the team's control, and send the rest upwards.",
-  "theory": "Double-loop learning; reflexivity; continuous improvement",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -3067,7 +3020,6 @@
   "tierRaw": "A - Established",
   "mechanics": "Testing effect; retrieval-strength theory",
   "cautions": "It goes wrong when it feels like a test or asks for trivia. Keep it unmarked, always give the answers, and ask about things people will use.",
-  "theory": "Testing effect; retrieval-strength theory",
   "presence": "Varies",
   "tier": "A",
   "howTo": [
@@ -3129,7 +3081,6 @@
   "tierRaw": "A - Established",
   "mechanics": "Spacing effect; consolidation; desirable difficulties",
   "cautions": "Sending the slides again is not practice. Each visit must ask people to recall or do something, and the gaps should suit how long the learning has to last.",
-  "theory": "Spacing effect; consolidation; desirable difficulties",
   "presence": "Varies",
   "tier": "A",
   "howTo": [
@@ -3175,7 +3126,6 @@
   "tierRaw": "A/B - Strong",
   "mechanics": "Retrieval practice plus spacing",
   "cautions": "It takes real time, so it suits a short list of must-know items. It will not build judgement or a complex skill on its own.",
-  "theory": "Retrieval practice plus spacing",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3229,7 +3179,6 @@
   "tierRaw": "A/B - Strong, task dependent",
   "mechanics": "Discrimination learning; contextual interference",
   "cautions": "Mixing too early confuses beginners, and mixing unrelated topics adds effort without benefit. Teach each type on its own first and mix only things people could confuse.",
-  "theory": "Discrimination learning; contextual interference",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3299,7 +3248,6 @@
   "tierRaw": "B/C - Positive but heterogeneous",
   "mechanics": "Cognitive load management; spacing; just-in-time learning",
   "cautions": "Short does not mean effective. A pile of unconnected pieces leaves people with fragments, so link each one to a larger course or map and include something to do.",
-  "theory": "Cognitive load management; spacing; just-in-time learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -3361,7 +3309,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Nudge theory; implementation intentions; cue-dependent behaviour",
   "cautions": "A reminder cannot make up for missing time, tools or support from a manager. Too many messages get ignored, so send few, make each specific and stop after a few weeks.",
-  "theory": "Nudge theory; implementation intentions; cue-dependent behaviour",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3411,7 +3358,6 @@
   "tierRaw": "A/B - Strong for appropriate content",
   "mechanics": "Retrieval practice; spacing; feedback",
   "cautions": "Cards build recall of facts, not the skill of using them. Follow them with practice on realistic tasks, and stop people turning the card before they have answered.",
-  "theory": "Retrieval practice; spacing; feedback",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3465,7 +3411,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Metacognition; reflective practice; self-regulated learning",
   "cautions": "Without prompts, entries turn into vague summaries or what people think the trainer wants to hear. Use specific prompts, keep it private and never mark it.",
-  "theory": "Metacognition; reflective practice; self-regulated learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3527,7 +3472,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Multimedia learning; self-regulated learning",
   "cautions": "A completed course does not show that someone can do the job, and many people click through while doing other things. Keep modules short, build in questions that need thought, and check the skill another way.",
-  "theory": "Multimedia learning; self-regulated learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3585,7 +3529,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Cognitive load; active learning; retrieval; social learning",
   "cautions": "It fails when the pre-work is long or when you repeat it in the room. People soon learn they need not do it, so keep it short and build the opening on it.",
-  "theory": "Cognitive load; active learning; retrieval; social learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3647,7 +3590,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Community of inquiry; social presence; cognitive load",
   "cautions": "Long stretches of listening on screen lose people fast, and the informal chat of a real room does not happen by itself. Keep it short and active, and plan the moments where people talk to each other.",
-  "theory": "Community of inquiry; social presence; cognitive load",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3705,7 +3647,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Modality fit; spacing; transfer; community of inquiry",
   "cautions": "A set of formats placed side by side is not a blend. If the parts do not refer to each other, people skip the ones that feel optional.",
-  "theory": "Modality fit; spacing; transfer; community of inquiry",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -3717,7 +3658,8 @@
    "After the first run, cut any part that people could skip without noticing."
   ],
   "time": "Usually 4 to 12 weeks in total",
-  "group": "A cohort of 8 to 16, working alone and together at different points"
+  "group": "A cohort of 8 to 16, working alone and together at different points",
+  "programme": true
  },
  {
   "id": "M530",
@@ -3767,7 +3709,6 @@
   "tierRaw": "B/C - Conditional",
   "mechanics": "Ubiquitous learning; spacing; situated learning",
   "cautions": "Small screens, interruptions and poor signal make phones a bad place for long or complicated material. Keep pieces short and check they work for people who use screen readers or larger text.",
-  "theory": "Ubiquitous learning; spacing; situated learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -3825,7 +3766,6 @@
   "tierRaw": "C/B - Conditional",
   "mechanics": "Narrative learning; dual-channel boundaries; informal learning",
   "cautions": "Audio is a poor fit for dense new material, for anything that needs a diagram, and for skills that need practice. Use it for stories and viewpoints and follow it with a task.",
-  "theory": "Narrative learning; dual-channel boundaries; informal learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -3883,7 +3823,6 @@
   "tierRaw": "B/C - Conditional",
   "mechanics": "Multimedia learning; retrieval; scenario-based learning",
   "cautions": "Adding clicks does not add learning. Every pause should ask for a decision the person will face at work.",
-  "theory": "Multimedia learning; retrieval; scenario-based learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -3941,7 +3880,6 @@
   "tierRaw": "B/C - Conditional",
   "mechanics": "Mastery learning; knowledge tracing; adaptive testing",
   "cautions": "The adapting is only as good as the topic map and the questions behind it. If nobody can explain why the system chose a path, you cannot check it, so pilot first and keep a person reviewing the results.",
-  "theory": "Mastery learning; knowledge tracing; adaptive testing",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4003,7 +3941,6 @@
   "tierRaw": "C - Emerging",
   "mechanics": "Intelligent tutoring; scaffolding; feedback; Socratic dialogue",
   "cautions": "It can state wrong things with confidence, and learners can let it do the thinking for them. Tie it to checked sources, make people attempt an answer first, and keep confidential or personal data out of it.",
-  "theory": "Intelligent tutoring; scaffolding; feedback; Socratic dialogue",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4061,7 +3998,6 @@
   "tierRaw": "C - Emerging",
   "mechanics": "Adaptive practice; deliberate practice; contextual variation",
   "cautions": "AI-written cases can be wrong, bland or unrealistic, and quality drifts between batches. Have an expert check each item against fixed criteria.",
-  "theory": "Adaptive practice; deliberate practice; contextual variation",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4123,7 +4059,6 @@
   "tierRaw": "B/C - Conditional",
   "mechanics": "Embodied cognition; presence; experiential learning",
   "cautions": "Headsets are costly, some people feel sick in them and some cannot use them at all. Use VR only when the task needs it, not because it is new, and always offer another way in.",
-  "theory": "Embodied cognition; presence; experiential learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4181,7 +4116,6 @@
   "tierRaw": "C/B - Emerging to conditional",
   "mechanics": "Situated cognition; performance support; embodied learning",
   "cautions": "Narrow views, heavy headsets, flat batteries and poor signal get in the way on site. Start small on devices people own, and never make AR the only source of safety-critical steps.",
-  "theory": "Situated cognition; performance support; embodied learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4231,7 +4165,6 @@
   "tierRaw": "C - Emerging",
   "mechanics": "Embodied cognition; distributed cognition; presence",
   "cautions": "It is expensive, and the evidence that it beats simpler formats is mixed. Choose only as much realism as the learning aim needs, and budget for support staff.",
-  "theory": "Embodied cognition; distributed cognition; presence",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4301,7 +4234,6 @@
   "tierRaw": "B/C - Conditional",
   "mechanics": "Game-based learning; experiential learning; systems feedback",
   "cautions": "A game can be fun and teach nothing if winning does not depend on the skill you are after. Competition also puts some people off, so check the fit and always debrief.",
-  "theory": "Game-based learning; experiential learning; systems feedback",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4371,7 +4303,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Experiential learning; systems dynamics; feedback loops",
   "cautions": "The model is built on someone's assumptions, and teams can learn to beat the game without learning the business. Name the assumptions and spend real time on the debrief.",
-  "theory": "Experiential learning; systems dynamics; feedback loops",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -4441,7 +4372,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Simulation; shared mental models; team cognition",
   "cautions": "Talking a plan through is easier than carrying it out, so a smooth exercise can make people overconfident. Add time pressure, record the gaps and follow up on the fixes.",
-  "theory": "Simulation; shared mental models; team cognition",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -4507,7 +4437,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Situated cognition; experiential learning; ethnography",
   "cautions": "People see what they expected to see, and those being watched may feel inspected. Get consent, record what was seen separately from what you think it means, and compare notes across pairs.",
-  "theory": "Situated cognition; experiential learning; ethnography",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -4565,7 +4494,6 @@
   "tierRaw": "C/B - Mixed and conditional",
   "mechanics": "Experiential learning; self-efficacy; team development",
   "cautions": "It can shut people out on physical or cultural grounds, and without a strong debrief it is only a day out. Design for everyone and give the debrief as much care as the activity.",
-  "theory": "Experiential learning; self-efficacy; team development",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4623,7 +4551,6 @@
   "tierRaw": "C - Emerging/conditional",
   "mechanics": "Embodied cognition; attention restoration; reflective practice",
   "cautions": "Not everyone can or wants to walk, and weather and privacy can spoil it. Always have a real alternative and keep sensitive topics for indoors.",
-  "theory": "Embodied cognition; attention restoration; reflective practice",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4693,7 +4620,6 @@
   "tierRaw": "B/C - Conditional",
   "mechanics": "Adult learning; cognitive load management; social learning; attention restoration",
   "cautions": "The intensity makes people feel changed, and the feeling fades once they are back at work. Plan the follow-up before you go, protect sleep and make sure nobody is shut out by the venue or the timetable.",
-  "theory": "Adult learning; cognitive load management; social learning; attention restoration",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4755,7 +4681,6 @@
   "tierRaw": "C/B - Conditional",
   "mechanics": "Consolidation; metacognition; reflection",
   "cautions": "Some people find silence uncomfortable or do not know what to do with it. Give clear prompts, keep it short at first and allow drawing, typing or speaking quietly into a phone as alternatives.",
-  "theory": "Consolidation; metacognition; reflection",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4809,7 +4734,6 @@
   "tierRaw": "B/C - Conditional and contested in parts",
   "mechanics": "Mezirow transformative learning",
   "cautions": "Do not push people to disclose, and do not promise that anyone will be changed. Go at the group's pace, let people pass, and know where to refer someone who becomes distressed.",
-  "theory": "Mezirow transformative learning",
   "presence": "Varies",
   "tier": "C",
   "howTo": [
@@ -4867,7 +4791,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Critical incident technique; reflective practice; naturalistic decision making",
   "cautions": "Memory tidies events up afterwards, so accounts are partial and kind to the teller. Check against records or other people where you can, and keep the focus on decisions, not blame.",
-  "theory": "Critical incident technique; reflective practice; naturalistic decision making",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -4921,7 +4844,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Prospective hindsight; debiasing; mental simulation",
   "cautions": "It can become a long list of worries that nobody acts on. Vote, pick a few, give each one an owner, and end on what the team will do.",
-  "theory": "Prospective hindsight; debiasing; mental simulation",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -4983,7 +4905,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Cognitive conflict; adversarial testing; error detection",
   "cautions": "Attacks can turn personal, or the owners get defensive and nothing changes. Set rules, keep the challenge on the work, rotate the roles and record what changes as a result.",
-  "theory": "Cognitive conflict; adversarial testing; error detection",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -5045,7 +4966,6 @@
   "tierRaw": "D/B - Practitioner framework with research support",
   "mechanics": "Prospective thinking; systems thinking; mental simulation",
   "cautions": "People treat the scenario they like best as a forecast. Keep saying that these are possibilities, and test the plan against all of them.",
-  "theory": "Prospective thinking; systems thinking; mental simulation",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -5099,7 +5019,6 @@
   "tierRaw": "D/B - Practitioner framework",
   "mechanics": "Social constructionism; positive organisational scholarship",
   "cautions": "A focus on strengths can silence real problems and questions of power. Make room to name what is not working, and make sure leaders are ready to act on what comes out.",
-  "theory": "Social constructionism; positive organisational scholarship",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -5153,7 +5072,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Social learning; modelling; fidelity; communities of practice",
   "cautions": "The course gets weaker each time it is passed on. Give trainers a full guide, watch them teach before they go solo and check quality afterwards.",
-  "theory": "Social learning; modelling; fidelity; communities of practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -5215,7 +5133,6 @@
   "tierRaw": "B/D - System design with supported components",
   "mechanics": "Expertise development; transfer; learning ecosystems; communities of practice",
   "cautions": "Many academies end up as a library of courses with a logo. Without levels, real work and assessment, it is only a catalogue.",
-  "theory": "Expertise development; transfer; learning ecosystems; communities of practice",
   "presence": "Varies",
   "tier": "D",
   "howTo": [
@@ -5227,7 +5144,8 @@
    "Review each year what is used and what is not, and cut what is not."
   ],
   "time": "Months to set up. Learners spend 6 to 12 months per level.",
-  "group": "Cohorts of 12 to 20, repeated across the organisation"
+  "group": "Cohorts of 12 to 20, repeated across the organisation",
+  "programme": true
  },
  {
   "id": "M745",
@@ -5269,7 +5187,6 @@
   "tierRaw": "A/B - Strong, implementation dependent",
   "mechanics": "Bloom mastery learning; formative assessment; feedback",
   "cautions": "It takes more time and more assessment material than a fixed timetable, and a weak standard makes the whole thing pointless. Define the standard carefully and budget the time.",
-  "theory": "Bloom mastery learning; formative assessment; feedback",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -5327,7 +5244,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Authentic assessment; metacognition; reflective practice",
   "cautions": "A thick, polished folder can hide weak skill. Limit the number of pieces, judge against a rubric and confirm that the work is the learner's own.",
-  "theory": "Authentic assessment; metacognition; reflective practice",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -5385,7 +5301,6 @@
   "tierRaw": "B - Conditional",
   "mechanics": "Goal-setting; assessment; signalling; mastery learning",
   "cautions": "People study to pass the test and stop there. Assess real tasks, and keep practice on the job going after the certificate.",
-  "theory": "Goal-setting; assessment; signalling; mastery learning",
   "presence": "Varies",
   "tier": "B",
   "howTo": [
@@ -5397,6 +5312,7 @@
    "Set an expiry date or a renewal requirement if the field changes fast."
   ],
   "time": "Weeks to months, depending on the level",
-  "group": "Individuals or cohorts, any number"
+  "group": "Individuals or cohorts, any number",
+  "programme": true
  }
 ]

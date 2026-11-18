@@ -1,8 +1,9 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import home from '../content/home.json';
 import evidence from '../content/evidence.json';
-import { mechanics, methods, recipes, site, stageLabel, topicById, topics } from '../lib.js';
+import { mechanics, site, stageLabel, topicById, topics } from '../lib.js';
+import { methods, recipes } from '../toolkit-data.js';
 import { Arrow } from '../components/ui.jsx';
 
 // Everything that can be found, built once.
@@ -21,12 +22,30 @@ const INDEX = [
 export default function Search() {
   const [params, setParams] = useSearchParams();
   const query = params.get('q') || '';
+  // The words inside every topic, fetched once, so a search also finds topics that mention the word in their text.
+  const [inside, setInside] = useState(null);
+  useEffect(() => {
+    let live = true;
+    import('../content/generated/search-words.json').then((m) => live && setInside(m.default), () => {});
+    return () => {
+      live = false;
+    };
+  }, []);
   const groups = useMemo(() => {
     const words = query.toLowerCase().split(/\s+/).filter(Boolean);
     if (!words.length) return [];
     const hits = INDEX.filter((entry) => words.every((w) => entry.text.includes(w)));
-    return [...new Set(hits.map((h) => h.group))].map((group) => ({ group, hits: hits.filter((h) => h.group === group) }));
-  }, [query]);
+    const found = new Set(hits.filter((h) => h.group === 'Playbook topics').map((h) => h.to));
+    const mentions =
+      inside && words.every((w) => w.length > 2)
+        ? topics
+            .filter((t) => !found.has(t.path) && words.every((w) => `${t.title.toLowerCase()} ${inside[t.id] || ''}`.includes(w)))
+            .map((t) => ({ group: 'Topics that mention it', name: t.title, sub: `${stageLabel(t.stage)}. ${t.theory}`, to: t.path }))
+        : [];
+    const all = [...hits, ...mentions];
+    const order = [...new Set(all.map((h) => h.group))].sort((a, b) => (a === 'Topics that mention it') - (b === 'Topics that mention it'));
+    return order.map((group) => ({ group, hits: all.filter((h) => h.group === group) }));
+  }, [query, inside]);
 
   return (
     <>

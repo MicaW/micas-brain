@@ -214,8 +214,7 @@
          "a": "Speed up and add more. What counts as new depends on the person, and experts hold bigger chunks, so they can take far more at once."
         }
        ],
-       "tierReason": "The small limit on working memory is one of the most replicated findings in memory research, and the checked review puts it at three to five chunks.",
-       "kind": "research"
+       "tierReason": "The small limit on working memory is one of the most replicated findings in memory research, and the checked review puts it at three to five chunks."
       },
       {
        "id": "s1-t02",
@@ -368,8 +367,7 @@
         "s2-t08",
         "s3-t01"
        ],
-       "tierReason": "Worked examples, split attention, redundancy and the expertise reversal effect are each backed by a large body of experiments summarised in the three checked sources.",
-       "kind": "research"
+       "tierReason": "Worked examples, split attention, redundancy and the expertise reversal effect are each backed by a large body of experiments summarised in the three checked sources."
       },
       {
        "id": "s1-t03",
@@ -558,8 +556,7 @@
        "related": [
         "s5-t11"
        ],
-       "tierReason": "Spacing and retrieval practice are supported by several meta-analyses and got the top rating in a major review of study techniques. Interleaving and generation are supported by one meta-analysis each, with conditions.",
-       "kind": "research"
+       "tierReason": "Spacing and retrieval practice are supported by several meta-analyses and got the top rating in a major review of study techniques. Interleaving and generation are supported by one meta-analysis each, with conditions."
       },
       {
        "id": "s1-t04",
@@ -725,8 +722,7 @@
        "related": [
         "s6-g03"
        ],
-       "tierReason": "The gap between performance during training and lasting learning is documented across many experiments in the checked integrative review.",
-       "kind": "research"
+       "tierReason": "The gap between performance during training and lasting learning is documented across many experiments in the checked integrative review."
       },
       {
        "id": "s1-t05",
@@ -847,8 +843,7 @@
        "related": [
         "s2-g31"
        ],
-       "tierReason": "Andragogy is a set of assumptions about adult learners that is widely used in practice. The sources opened describe it and its critics and do not report direct tests of it.",
-       "kind": "research"
+       "tierReason": "Andragogy is a set of assumptions about adult learners that is widely used in practice. The sources opened describe it and its critics and do not report direct tests of it."
       },
       {
        "id": "s1-t06",
@@ -1004,8 +999,7 @@
          "a": "Experience by itself does not build expertise. Comfortable repetition keeps people where they are. Improvement needs effortful practice on a named weakness with feedback."
         }
        ],
-       "tierReason": "Deliberate practice is well described, but the pooled studies show it explains a modest and very uneven share of performance, and almost none in the professions.",
-       "kind": "research"
+       "tierReason": "Deliberate practice is well described, but the pooled studies show it explains a modest and very uneven share of performance, and almost none in the professions."
       },
       {
        "id": "s1-g01",
@@ -1164,8 +1158,7 @@
          "a": "Name it anyway. That worry has not held up well in later studies. Label the idea clearly as wrong and put the correct one next to it."
         }
        ],
-       "tierReason": "A meta-analysis supports naming and refuting a wrong idea over plain explanation, but how much prior knowledge helps learning varies widely across studies.",
-       "kind": "research"
+       "tierReason": "A meta-analysis supports naming and refuting a wrong idea over plain explanation, but how much prior knowledge helps learning varies widely across studies."
       },
       {
        "id": "s1-g02",
@@ -1333,8 +1326,7 @@
          "a": "Constructivist does not mean unguided. Newcomers need guidance. Ask what the method is in practice, because theory names are used to sell products."
         }
        ],
-       "tierReason": "This is a map of theoretical frameworks for choosing methods. The map itself has not been tested as a practice.",
-       "kind": "research"
+       "tierReason": "This is a map of theoretical frameworks for choosing methods. The map itself has not been tested as a practice."
       }
      ]
     },
@@ -1511,8 +1503,7 @@
        "related": [
         "s1-t09"
        ],
-       "tierReason": "The checked studies show that brain language persuades and that interested teachers believe many myths. The remedy on this page, tracing a claim to its source, is sensible practice that has not itself been tested.",
-       "kind": "research"
+       "tierReason": "The checked studies show that brain language persuades and that interested teachers believe many myths. The remedy on this page, tracing a claim to its source, is sensible practice that has not itself been tested."
       },
       {
        "id": "s1-t08",
@@ -1711,8 +1702,7 @@
        "related": [
         "s2-t10"
        ],
-       "tierReason": "Reviews agree that matching teaching to learning styles is not worth doing, but a 2024 meta-analysis found a small average benefit in weak studies, so the evidence is not a clean nil.",
-       "kind": "research"
+       "tierReason": "Reviews agree that matching teaching to learning styles is not worth doing, but a 2024 meta-analysis found a small average benefit in weak studies, so the evidence is not a clean nil."
       },
       {
        "id": "s1-t09",
@@ -1880,8 +1870,7 @@
        "related": [
         "s1-t07"
        ],
-       "tierReason": "This is a professional habit for judging claims. The individual checks are standard research practice, but the routine as a whole has not been tested.",
-       "kind": "research"
+       "tierReason": "This is a professional habit for judging claims. The individual checks are standard research practice, but the routine as a whole has not been tested."
       }
      ]
     },
@@ -2072,8 +2061,7 @@
        "related": [
         "s5-t10"
        ],
-       "tierReason": "Sleep's part in memory is well reviewed and pooled studies show a lost night harms learning, but the effects are probably overstated by publication bias and nobody has tested course timetables directly.",
-       "kind": "research"
+       "tierReason": "Sleep's part in memory is well reviewed and pooled studies show a lost night harms learning, but the effects are probably overstated by publication bias and nobody has tested course timetables directly."
       },
       {
        "id": "s1-t11",
@@ -2245,8 +2233,7 @@
          "a": "Keep the challenge and remove the threat. Pressure while people are taking material in or recalling it tends to make memory worse, so cut public failure and time limits that serve no purpose. Offer to add realistic pressure late, where the job itself has it."
         }
        ],
-       "tierReason": "Laboratory studies show that short-term stress around learning and recall usually harms memory, but the steps on this page have not been tested in training rooms and the long-term stress claim was not confirmed.",
-       "kind": "research"
+       "tierReason": "Laboratory studies show that short-term stress around learning and recall usually harms memory, but the steps on this page have not been tested in training rooms and the long-term stress claim was not confirmed."
       },
       {
        "id": "s1-t12",
@@ -2455,8 +2442,7 @@
         "s2-t09",
         "s1-g08"
        ],
-       "tierReason": "Planning a day around energy is common practice with little direct testing. The one meta-analysis read shows short breaks lift energy but do not reliably lift performance.",
-       "kind": "research"
+       "tierReason": "Planning a day around energy is common practice with little direct testing. The one meta-analysis read shows short breaks lift energy but do not reliably lift performance."
       },
       {
        "id": "s1-g08",
@@ -2635,8 +2621,7 @@
          "a": "Have everyone process a return on a practice till. When the content is an action, doing it is remembered better than reading about it. Offer a seated role, such as coaching a partner from the checklist."
         }
        ],
-       "tierReason": "The checked summaries report a small effect of a bout of exercise on thinking and a strong effect of acting out action phrases, with an unclear advantage of doing over watching.",
-       "kind": "research"
+       "tierReason": "The checked summaries report a small effect of a bout of exercise on thinking and a strong effect of acting out action phrases, with an unclear advantage of doing over watching."
       }
      ]
     },
@@ -2805,8 +2790,7 @@
        "related": [
         "s2-g06"
        ],
-       "tierReason": "A meta-analysis of 128 experiments supports the finding on rewards, and the three needs come from a well-developed theory, but the effects depend on the task and the type of reward.",
-       "kind": "research"
+       "tierReason": "A meta-analysis of 128 experiments supports the finding on rewards, and the three needs come from a well-developed theory, but the effects depend on the task and the type of reward."
       },
       {
        "id": "s1-t14",
@@ -2988,8 +2972,7 @@
         "s1-g04",
         "s8-t03"
        ],
-       "tierReason": "Field studies and two meta-analyses link psychological safety with learning behaviour and performance, but most of the evidence is correlational and the trainer moves listed are not individually tested.",
-       "kind": "research"
+       "tierReason": "Field studies and two meta-analyses link psychological safety with learning behaviour and performance, but most of the evidence is correlational and the trainer moves listed are not individually tested."
       },
       {
        "id": "s1-t15",
@@ -3155,8 +3138,7 @@
          "a": "The win was too easy, so it proved nothing and may have felt patronising. Follow it straight away with a harder version that everyone can still complete with some effort."
         }
        ],
-       "tierReason": "The four sources of self-belief come from an influential theory paper and the belonging finding from one study of US college students, so the practice of an early win is supported but not directly tested in workplace training.",
-       "kind": "research"
+       "tierReason": "The four sources of self-belief come from an influential theory paper and the belonging finding from one study of US college students, so the practice of an early win is supported but not directly tested in workplace training."
       },
       {
        "id": "s1-t16",
@@ -3339,8 +3321,7 @@
        "related": [
         "s5-t09"
        ],
-       "tierReason": "Meta-analyses support learning by teaching and peer assessment, mostly with school and university students, and the size of the gain depends on how the activity is set up.",
-       "kind": "research"
+       "tierReason": "Meta-analyses support learning by teaching and peer assessment, mostly with school and university students, and the size of the gain depends on how the activity is set up."
       },
       {
        "id": "s1-t17",
@@ -3503,8 +3484,7 @@
        "related": [
         "s9-g11"
        ],
-       "tierReason": "A long-used diagnostic flowchart from practice. It has not been tested in controlled studies.",
-       "kind": "research"
+       "tierReason": "A long-used diagnostic flowchart from practice. It has not been tested in controlled studies."
       },
       {
        "id": "s1-g03",
@@ -3673,8 +3653,7 @@
          "a": "Advise against building on it. The evidence is disputed, the effects found are weak, and all of it comes from school and college students. Offer to set up the tasks so the goal in the room is to improve."
         }
        ],
-       "tierReason": "Aiming to get better is linked with more learning and better performance in a large meta-analysis, but the link is correlational, and the evidence that growth mindset programmes raise results is disputed.",
-       "kind": "research"
+       "tierReason": "Aiming to get better is linked with more learning and better performance in a large meta-analysis, but the link is correlational, and the evidence that growth mindset programmes raise results is disputed."
       },
       {
        "id": "s1-g04",
@@ -3848,8 +3827,7 @@
          "a": "Yes, on a simulator or training copy and never on the real system. Where an error is dangerous or costly, people still need to practise recovering, somewhere safe."
         }
        ],
-       "tierReason": "One meta-analysis of 24 studies supports it, with the clearest gain on tasks unlike those practised and a smaller gain during training itself.",
-       "kind": "research"
+       "tierReason": "One meta-analysis of 24 studies supports it, with the clearest gain on tasks unlike those practised and a smaller gain during training itself."
       }
      ]
     },
@@ -4022,8 +4000,7 @@
          "a": "Accept it without comment and give them the observer role, with a job: noting what happens for the debrief. Joining in has to be a choice."
         }
        ],
-       "tierReason": "The debrief is supported by a meta-analysis, but research on play itself in adult learning is thin and mostly argument and case studies.",
-       "kind": "research"
+       "tierReason": "The debrief is supported by a meta-analysis, but research on play itself in adult learning is thin and mostly argument and case studies."
       },
       {
        "id": "s1-g06",
@@ -4154,8 +4131,7 @@
          "a": "No. A teaser unrelated to the content distracts. Find a question from inside the content, and answer it within the time you promise."
         }
        ],
-       "tierReason": "The curiosity and memory finding comes from a small laboratory brain-imaging study with trivia questions, and the opening moves on this page have not been tested in training.",
-       "kind": "research"
+       "tierReason": "The curiosity and memory finding comes from a small laboratory brain-imaging study with trivia questions, and the opening moves on this page have not been tested in training."
       },
       {
        "id": "s1-g07",
@@ -4328,8 +4304,7 @@
          "a": "Ask for specifics: what happened when the plan changed, where the same thing happens at work, and what each person will try on Monday."
         }
        ],
-       "tierReason": "Structured reflection and debriefing after an activity are supported by a meta-analysis and a set of experiments, while the cycle itself is a widely used model with known gaps and little direct testing.",
-       "kind": "research"
+       "tierReason": "Structured reflection and debriefing after an activity are supported by a meta-analysis and a set of experiments, while the cycle itself is a widely used model with known gaps and little direct testing."
       }
      ]
     },
@@ -4340,7 +4315,6 @@
       {
        "title": "Know the stages of learning a skill",
        "theory": "Stages of skill acquisition: from spoken steps to automatic",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -4480,7 +4454,6 @@
       {
        "title": "Find out who is in the room before you design",
        "theory": "Trainee characteristics: motivation to learn, self-efficacy and prior ability",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -4605,7 +4578,6 @@
       {
        "title": "Teach people to manage their own learning",
        "theory": "Self-regulated learning in training",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -4761,7 +4733,6 @@
       {
        "title": "Set a learning goal first when the task is new",
        "theory": "Goal setting: performance goals, learning goals and the limit for new, complex tasks",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -4944,7 +4915,6 @@
       {
        "title": "Know what kind of outcome you are teaching",
        "theory": "Learning outcomes: cognitive, skill-based and affective",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -5103,7 +5073,6 @@
       {
        "title": "Understand attention and mind wandering",
        "theory": "Sustained attention and mind wandering during lectures",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -5294,7 +5263,6 @@
       {
        "title": "Know why people expect to succeed and why they value it",
        "theory": "Expectancy-value theory and utility-value interventions",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -5641,8 +5609,7 @@
          "a": "Name both causes. Say which part training can fix and which part needs a change to the process, and put the gap in terms the sponsor cares about."
         }
        ],
-       "tierReason": "A research review recommends a needs analysis before training and one meta-analysis links it to better leadership training, but the cause-analysis methods themselves are practitioner frameworks.",
-       "kind": "research"
+       "tierReason": "A research review recommends a needs analysis before training and one meta-analysis links it to better leadership training, but the cause-analysis methods themselves are practitioner frameworks."
       },
       {
        "id": "s2-t02",
@@ -5792,8 +5759,7 @@
          "a": "Cut the detail. Keep a short list of things you could see a person do at each level, so the path is visible at a glance. If the foundation level does not fit on one page, it is too long."
         }
        ],
-       "tierReason": "Competency modelling is a widely used professional practice, and the main published guidance says its recommendations rest on experience more than on tests.",
-       "kind": "research"
+       "tierReason": "Competency modelling is a widely used professional practice, and the main published guidance says its recommendations rest on experience more than on tests."
       },
       {
        "id": "s2-t03",
@@ -5958,8 +5924,7 @@
          "a": "Simplify the task and add support. Keep it whole. Do not break it into unrelated pieces."
         }
        ],
-       "tierReason": "Spacing is well supported, but the best gap depends on how long the learning must last and most of that evidence is on verbal recall, and the whole-task claim could not be checked.",
-       "kind": "research"
+       "tierReason": "Spacing is well supported, but the best gap depends on how long the learning must last and most of that evidence is on verbal recall, and the whole-task claim could not be checked."
       },
       {
        "id": "s2-t04",
@@ -6147,8 +6112,7 @@
          "a": "Find someone else to back them, such as the sponsor or another senior person, who will set the expectation and ask afterwards what they tried."
         }
        ],
-       "tierReason": "A meta-analysis links a supportive work environment with transfer, but the link is stronger for some skills than others and the evidence is mostly correlational.",
-       "kind": "research"
+       "tierReason": "A meta-analysis links a supportive work environment with transfer, but the link is stronger for some skills than others and the evidence is mostly correlational."
       },
       {
        "id": "s2-t05",
@@ -6336,8 +6300,7 @@
          "a": "An owner and a date for each follow-up step. Without both, follow-up does not happen."
         }
        ],
-       "tierReason": "A research review supports designing what happens before and after training, and pre-questions have good evidence, but their benefit depends on how they are used and comes mostly from laboratory studies.",
-       "kind": "research"
+       "tierReason": "A research review supports designing what happens before and after training, and pre-questions have good evidence, but their benefit depends on how they are used and comes mostly from laboratory studies."
       },
       {
        "id": "s2-g01",
@@ -6502,8 +6465,7 @@
          "a": "The test of success is different. Leadership development works when people lead differently, which needs practice on real work, feedback and sessions spread over months."
         }
        ],
-       "tierReason": "Sorting programmes by type is a practical framework, and only the induction and leadership parts could be matched to checked research.",
-       "kind": "research"
+       "tierReason": "Sorting programmes by type is a practical framework, and only the induction and leadership parts could be matched to checked research."
       },
       {
        "id": "s2-g30",
@@ -6679,8 +6641,7 @@
          "a": "Say there is no good evidence that generations learn differently. Design for what they are: capable people who are beginners in the job and new to the workplace."
         }
        ],
-       "tierReason": "The case for more structure and examples for beginners is well reviewed and depends on prior knowledge, while the advice on belonging rests on correlational studies of newcomers.",
-       "kind": "research"
+       "tierReason": "The case for more structure and examples for beginners is well reviewed and depends on prior knowledge, while the advice on belonging rests on correlational studies of newcomers."
       },
       {
        "id": "s2-g31",
@@ -6857,8 +6818,7 @@
          "a": "Start from a problem she has this month and use her experience. Ask her to advise a peer on a real case, then set a task to try with her own team."
         }
        ],
-       "tierReason": "A large meta-analysis finds leadership training works on average and works better under named conditions such as practice, feedback and spaced sessions.",
-       "kind": "research"
+       "tierReason": "A large meta-analysis finds leadership training works on average and works better under named conditions such as practice, feedback and spaced sessions."
       },
       {
        "id": "s2-g32",
@@ -7025,8 +6985,7 @@
          "a": "Beforehand, ask the most senior person to speak last. In the room, have people work in pairs or write their view first, then take views from others before returning to the chief executive."
         }
        ],
-       "tierReason": "This is advice from practice. The one study opened is about work teams in general, and no research on designing sessions for executives was found.",
-       "kind": "research"
+       "tierReason": "This is advice from practice. The one study opened is about work teams in general, and no research on designing sessions for executives was found."
       },
       {
        "id": "s2-g02",
@@ -7188,8 +7147,7 @@
          "a": "No good data support a fixed, short attention span. People are busy and interrupted. Find out about their working day and design for interruption."
         }
        ],
-       "tierReason": "Fitting a design to the working day is sound professional practice with little direct testing, although the two myths the page warns against are well examined.",
-       "kind": "research"
+       "tierReason": "Fitting a design to the working day is sound professional practice with little direct testing, although the two myths the page warns against are well examined."
       }
      ]
     },
@@ -7368,8 +7326,7 @@
          "a": "Cut the game or change it so it practises an objective, and add practice for the discount rules. Every activity and every assessment should trace to an objective, and anything assessed should have been practised first."
         }
        ],
-       "tierReason": "Backward design and constructive alignment are widely used design frameworks set out in books and conceptual papers. No experimental test of them was opened.",
-       "kind": "research"
+       "tierReason": "Backward design and constructive alignment are widely used design frameworks set out in books and conceptual papers. No experimental test of them was opened."
       },
       {
        "id": "s2-t07",
@@ -7577,8 +7534,7 @@
          "a": "Explain your choice in their terms. Show where analysis, design, development, delivery and evaluation each happen in your plan, and that you will go round more than once."
         }
        ],
-       "tierReason": "ADDIE, SAM, Gagné and Merrill are design frameworks. The sources opened describe them. None reports a test of one model against another.",
-       "kind": "research"
+       "tierReason": "ADDIE, SAM, Gagné and Merrill are design frameworks. The sources opened describe them. None reports a test of one model against another."
       },
       {
        "id": "s2-t08",
@@ -7754,8 +7710,7 @@
          "a": "Check what they know with a quick test and let those who pass skip to solving problems alone. Support kept too long holds experienced people back."
         }
        ],
-       "tierReason": "Reviews support strong guidance for beginners that is withdrawn as knowledge grows, and the right amount depends on what the learner already knows.",
-       "kind": "research"
+       "tierReason": "Reviews support strong guidance for beginners that is withdrawn as knowledge grows, and the right amount depends on what the learner already knows."
       },
       {
        "id": "s2-t09",
@@ -7936,8 +7891,7 @@
          "a": "Change something. Take a short break, switch to a recall or paired task, or re-order what is left. Do not push on at the same intensity."
         }
        ],
-       "tierReason": "The attention span myth is well examined, but the advice on energy, breaks and placing hard content has only limited support that could be checked.",
-       "kind": "research"
+       "tierReason": "The attention span myth is well examined, but the advice on energy, breaks and placing hard content has only limited support that could be checked."
       },
       {
        "id": "s2-g03",
@@ -8100,8 +8054,7 @@
          "a": "Guidance. Name the sources each group must use, give a one-page template for findings and hold a checkpoint halfway to look at the evidence. Finding out with no help does worse than finding out with support."
         }
        ],
-       "tierReason": "Pooled studies show problem-based and guided enquiry methods help skills and application, but unguided discovery does worse than direct teaching, so the result depends on prior knowledge and on how much guidance you give.",
-       "kind": "research"
+       "tierReason": "Pooled studies show problem-based and guided enquiry methods help skills and application, but unguided discovery does worse than direct teaching, so the result depends on prior knowledge and on how much guidance you give."
       }
      ]
     },
@@ -8275,8 +8228,7 @@
          "a": "Matching teaching to learning styles is not supported by the evidence (1.10). Design for differences that are real: prior knowledge, motivation, context and constraints."
         }
        ],
-       "tierReason": "Personas and designing for a range of people are widely used design practice with little direct testing in training. The warning about learning styles is well supported.",
-       "kind": "research"
+       "tierReason": "Personas and designing for a range of people are widely used design practice with little direct testing in training. The warning about learning styles is well supported."
       },
       {
        "id": "s2-t11",
@@ -8488,8 +8440,7 @@
          "a": "The ratings show how the course is remembered. They do not show learning, so check that separately."
         }
        ],
-       "tierReason": "Journey mapping is a service design practice with little direct testing in training. The peak-end finding is well supported for how experiences are rated afterwards, not for how much is learned.",
-       "kind": "research"
+       "tierReason": "Journey mapping is a service design practice with little direct testing in training. The peak-end finding is well supported for how experiences are rated afterwards, not for how much is learned."
       },
       {
        "id": "s2-t12",
@@ -8678,8 +8629,7 @@
          "a": "Cut content from the middle and keep the last ten minutes for a short practice and one commitment. Then check learning separately, because a good ending changes ratings, not what people can do."
         }
        ],
-       "tierReason": "Single ideas here have support, such as curiosity helping memory and endings shaping ratings, but designing an emotional arc to improve learning in training has little direct testing.",
-       "kind": "research"
+       "tierReason": "Single ideas here have support, such as curiosity helping memory and endings shaping ratings, but designing an emotional arc to improve learning in training has little direct testing."
       },
       {
        "id": "s2-t13",
@@ -8853,8 +8803,7 @@
          "a": "Recall from memory is one of the difficulties that helps, and learners often feel they are learning less under it. Keep the questions, explain why, and check people have enough background to answer them."
         }
        ],
-       "tierReason": "Effortful practice such as recall, spacing and trying a problem before being taught is supported by pooled studies, but it only helps when learners can meet the challenge, and the friction audit itself is an untested practitioner tool.",
-       "kind": "research"
+       "tierReason": "Effortful practice such as recall, spacing and trying a problem before being taught is supported by pooled studies, but it only helps when learners can meet the challenge, and the friction audit itself is an untested practitioner tool."
       },
       {
        "id": "s2-g04",
@@ -8996,8 +8945,7 @@
          "a": "Telling people what to pay attention to is supported by research. Whether looking forward to a course changes what people learn has not been tested directly. Keep the contact short, because too much before the event is noise."
         }
        ],
-       "tierReason": "Pooled studies support specific pre-training steps such as attention advice and advance organisers, but whether a joining message or looking forward to a course changes learning has not been tested directly.",
-       "kind": "research"
+       "tierReason": "Pooled studies support specific pre-training steps such as attention advice and advance organisers, but whether a joining message or looking forward to a course changes learning has not been tested directly."
       },
       {
        "id": "s2-g05",
@@ -9132,8 +9080,7 @@
          "a": "Rewrite it as what people will leave with, such as a plan for one real conversation, and say they will not leave as experts. Over-promising costs you credibility when the day cannot deliver it."
         }
        ],
-       "tierReason": "The evidence for realistic previews comes from recruitment. No study of previews given before a training course was opened, so for training this is sensible practice, not a tested method.",
-       "kind": "research"
+       "tierReason": "The evidence for realistic previews comes from recruitment. No study of previews given before a training course was opened, so for training this is sensible practice, not a tested method."
       },
       {
        "id": "s2-g06",
@@ -9317,8 +9264,7 @@
          "a": "Agree, and put the fun in the practice: a challenge with a goal, quick feedback and a story from their customers' world. Check each element by asking whether the practice would be worse without it."
         }
        ],
-       "tierReason": "One meta-analysis found small positive effects, steady for what people learn and less steady for motivation and behaviour, and what makes gamification work is still unsettled.",
-       "kind": "research"
+       "tierReason": "One meta-analysis found small positive effects, steady for what people learn and less steady for motivation and behaviour, and what makes gamification work is still unsettled."
       },
       {
        "id": "s2-g07",
@@ -9476,7 +9422,7 @@
         }
        ],
        "tierReason": "Universal Design for Learning is a widely used framework and the topic also covers legal duties. Direct evidence that the whole framework raises learning was not confirmed.",
-       "kind": "research"
+       "legal": true
       }
      ]
     },
@@ -9641,8 +9587,7 @@
          "a": "Higher stakes make people less willing to risk being wrong, so the checks stop showing what people really know. Keep checks during the course unrecorded and report the end assessment."
         }
        ],
-       "tierReason": "Testing strengthens later memory in controlled studies and a large review found learning gains from frequent feedback, but the gain depends on acting on the results and the size of the formative assessment effect is debated.",
-       "kind": "research"
+       "tierReason": "Testing strengthens later memory in controlled studies and a large review found learning gains from frequent feedback, but the gain depends on acting on the results and the size of the formative assessment effect is debated."
       },
       {
        "id": "s2-t15",
@@ -9805,8 +9750,7 @@
          "a": "Rewrite the level descriptions for that criterion until they agree, then try it on another recording. Do this before the rubric is used for real."
         }
        ],
-       "tierReason": "Performance assessment with a rubric is established professional practice, but no study comparing it with written tests for certifying a skill was opened.",
-       "kind": "research"
+       "tierReason": "Performance assessment with a rubric is established professional practice, but no study comparing it with written tests for certifying a skill was opened."
       },
       {
        "id": "s2-t16",
@@ -9969,8 +9913,7 @@
          "a": "What the test measures. Check it matches the objectives, that nothing other than the skill drives the score, and that the pass mark was reasoned. High scores on a poor measure tell you nothing."
         }
        ],
-       "tierReason": "Validity, reliability and alignment are core professional principles of assessment set out in theory papers, not practices tested by experiment.",
-       "kind": "research"
+       "tierReason": "Validity, reliability and alignment are core professional principles of assessment set out in theory papers, not practices tested by experiment."
       },
       {
        "id": "s2-t17",
@@ -10124,8 +10067,7 @@
          "a": "Now. Give feedback straight away when someone is still learning a procedure. A delay suits easier tasks, or a recall quiz or case that people should finish first."
         }
        ],
-       "tierReason": "Feedback improves performance on average across many studies, but more than a third of feedback interventions made performance worse, so the result depends on what the feedback points at.",
-       "kind": "research"
+       "tierReason": "Feedback improves performance on average across many studies, but more than a third of feedback interventions made performance worse, so the result depends on what the feedback points at."
       }
      ]
     },
@@ -10136,7 +10078,6 @@
       {
        "title": "Know what training can do, on average",
        "theory": "Training effectiveness: what the pooled workplace studies show",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -10292,7 +10233,6 @@
       {
        "title": "Run a performance diagnosis",
        "theory": "Performance consulting and cause analysis",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -10466,7 +10406,6 @@
       {
        "title": "Do compliance training properly",
        "theory": "Compliance training: the record and the behaviour",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -10620,12 +10559,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 30
+       "n": 30,
+       "legal": true
       },
       {
        "title": "Design onboarding that gets people productive",
        "theory": "Onboarding: first day, first week, first 90 days",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -10767,7 +10706,6 @@
       {
        "title": "Design for scale",
        "theory": "One design, many facilitators",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -10916,7 +10854,6 @@
       {
        "title": "Choose group size and staffing",
        "theory": "Group size, feedback time and when to add a facilitator",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -11050,7 +10987,6 @@
       {
        "title": "Teach interpersonal skills by showing, practising and giving feedback",
        "theory": "Behaviour modelling training",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -11228,7 +11164,6 @@
       {
        "title": "Know what enablement is",
        "theory": "Enablement as a discipline",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -11389,7 +11324,6 @@
       {
        "title": "Plan a sales enablement cycle",
        "theory": "The annual enablement plan",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -11570,7 +11504,6 @@
       {
        "title": "Get a team ready for a product launch",
        "theory": "Launch readiness",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -11732,7 +11665,6 @@
       {
        "title": "Turn product knowledge into customer conversations",
        "theory": "From features to customer problems",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -11863,7 +11795,6 @@
       {
        "title": "Train retail and frontline staff",
        "theory": "Training at the point of sale",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -12024,7 +11955,6 @@
       {
        "title": "Train partners and resellers",
        "theory": "Channel and partner training",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -12168,7 +12098,6 @@
       {
        "title": "Coach through sales managers",
        "theory": "Manager-led reinforcement in sales",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -12289,7 +12218,6 @@
       {
        "title": "Run a large event or kick-off",
        "theory": "Large-group facilitation",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -12483,7 +12411,6 @@
       {
        "title": "Design a first-time manager programme",
        "theory": "The first-line manager programme: components spread over six to twelve months",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -12677,7 +12604,6 @@
       {
        "title": "Choose who is on it and how the cohort works",
        "theory": "Nomination, cohort size and mix, and the people who are not chosen",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -12826,7 +12752,6 @@
       {
        "title": "Give the sponsor a real job",
        "theory": "The senior sponsor's part at the start, in the middle and at the end",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -13002,7 +12927,6 @@
       {
        "title": "Build practice on real work between sessions",
        "theory": "Assignments on the participant's own team, peer groups and action learning sets",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -13173,7 +13097,6 @@
       {
        "title": "Teach managers to coach",
        "theory": "Coaching as a manager's skill: a half-day practice design",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -13349,7 +13272,6 @@
       {
        "title": "Use feedback tools with care",
        "theory": "360-degree feedback and personality questionnaires: what each can and cannot do",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -13531,7 +13453,6 @@
       {
        "title": "Judge a leadership programme over a year",
        "theory": "Measures at three, six and twelve months, and their limits",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -13719,7 +13640,6 @@
       {
        "title": "Enable the teams who look after customers after the sale",
        "theory": "Enablement for support, customer success and renewals teams",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -13900,7 +13820,6 @@
       {
        "title": "Measure service enablement",
        "theory": "Service measures, their limits and where the data lives",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -14084,7 +14003,6 @@
       {
        "title": "Train for a system or process change",
        "theory": "Go-live readiness: role-based tasks, a sandbox, super users and floor support",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -14310,7 +14228,6 @@
       {
        "title": "Run a pilot before you roll out",
        "theory": "Piloting a programme: who to pilot with, what to watch, what to change and the decision",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -14690,8 +14607,7 @@
          "a": "Whether the labels and step-by-step support are now redundant. What helps a newcomer can slow an expert, so show the whole and mark only what has changed."
         }
        ],
-       "tierReason": "The multimedia design principles rest on a large body of experiments, but their benefit depends on the learner's prior knowledge and most studies use short lessons.",
-       "kind": "research"
+       "tierReason": "The multimedia design principles rest on a large body of experiments, but their benefit depends on the learner's prior knowledge and most studies use short lessons."
       },
       {
        "id": "s3-t02",
@@ -14886,8 +14802,7 @@
          "a": "Keep them. Captions and transcripts are an access need. The redundancy problem is a full script on screen competing with a diagram while you narrate."
         }
        ],
-       "tierReason": "Cutting irrelevant material, cueing and avoiding read-aloud text are backed by many experiments and a meta-analysis, but the effects vary with format, subject and learner, and most studies use lessons of a few minutes.",
-       "kind": "research"
+       "tierReason": "Cutting irrelevant material, cueing and avoiding read-aloud text are backed by many experiments and a meta-analysis, but the effects vary with format, subject and learner, and most studies use lessons of a few minutes."
       },
       {
        "id": "s3-t03",
@@ -15078,8 +14993,7 @@
          "a": "Label each line directly, or vary the line style, so the meaning does not depend on colour alone. Some people cannot tell the colours apart."
         }
        ],
-       "tierReason": "This is professional design practice drawn from standard books on charts, with little direct testing of the steps as a set.",
-       "kind": "law"
+       "tierReason": "This is professional design practice drawn from standard books on charts, with little direct testing of the steps as a set."
       },
       {
        "id": "s3-t04",
@@ -15266,8 +15180,7 @@
          "a": "Leave it as reference and make it easy to scan. Story suits an argument. It does not suit material people look things up in."
         }
        ],
-       "tierReason": "The sentence-headline approach has a small number of supporting experiments, mostly with engineering students and run by its originator's group, and the storytelling advice has no checked source.",
-       "kind": "research"
+       "tierReason": "The sentence-headline approach has a small number of supporting experiments, mostly with engineering students and run by its originator's group, and the storytelling advice has no checked source."
       }
      ]
     },
@@ -15419,8 +15332,7 @@
          "a": "What the objective needs, what each update will cost, how many people will use it and who can access it. Cheap to make can be dear to maintain."
         }
        ],
-       "tierReason": "Choosing the medium from the objective is standard design practice backed by argument and by media comparison research, not a method tested directly.",
-       "kind": "research"
+       "tierReason": "Choosing the medium from the objective is standard design practice backed by argument and by media comparison research, not a method tested directly."
       },
       {
        "id": "s3-t06",
@@ -15598,8 +15510,7 @@
          "a": "Use clips for reminders and for help at the point of use. Keep the skill itself in a longer format, because its parts have to be practised together."
         }
        ],
-       "tierReason": "Flipping shows a small average gain that shrinks in the better-powered studies, and the microlearning research is recent and of uncertain quality.",
-       "kind": "research"
+       "tierReason": "Flipping shows a small average gain that shrinks in the better-powered studies, and the microlearning research is recent and of uncertain quality."
       },
       {
        "id": "s3-t07",
@@ -15779,8 +15690,7 @@
          "a": "That the method probably mattered more than the medium. Choose between them on cost, access and which methods each makes possible."
         }
        ],
-       "tierReason": "This is a reasoned position taken from a long-running academic debate. It guides buying decisions but has not been tested as a practice.",
-       "kind": "research"
+       "tierReason": "This is a reasoned position taken from a long-running academic debate. It guides buying decisions but has not been tested as a practice."
       },
       {
        "id": "s3-t08",
@@ -15948,8 +15858,7 @@
          "a": "That the claim did not hold up when the study was repeated. Let people choose pen or keyboard."
         }
        ],
-       "tierReason": "A meta-analysis of 54 studies found a small advantage for paper that depends on time pressure and the kind of text, and the handwriting claim has not held up in direct repeats.",
-       "kind": "research"
+       "tierReason": "A meta-analysis of 54 studies found a small advantage for paper that depends on time pressure and the kind of text, and the handwriting claim has not held up in direct repeats."
       },
       {
        "id": "s3-t09",
@@ -16107,8 +16016,7 @@
          "a": "The handoff. For example: \"In the workshop you will use these four steps on your own case, so bring one.\""
         }
        ],
-       "tierReason": "Writing handoffs between media is sound professional practice, but no study read tests it directly.",
-       "kind": "research"
+       "tierReason": "Writing handoffs between media is sound professional practice, but no study read tests it directly."
       },
       {
        "id": "s3-g01",
@@ -16310,8 +16218,7 @@
          "a": "Give them the alternative you planned, such as a seated tablet version, and include them in the same debrief."
         }
        ],
-       "tierReason": "Meta-analyses find a small average gain from immersive virtual reality that varies with what it is compared with, and single studies show it can also reduce learning.",
-       "kind": "research"
+       "tierReason": "Meta-analyses find a small average gain from immersive virtual reality that varies with what it is compared with, and single studies show it can also reduce learning."
       }
      ]
     },
@@ -16479,8 +16386,7 @@
          "a": "That changes are cheap on paper and expensive in the edit. Offer a rough version, still frames with narration recorded on a phone, that they can review before anything is filmed."
         }
        ],
-       "tierReason": "Storyboarding and rough versions are standard production practice with little direct testing. Only the conversational narration point has a research base.",
-       "kind": "research"
+       "tierReason": "Storyboarding and rough versions are standard production practice with little direct testing. Only the conversational narration point has a research base."
       },
       {
        "id": "s3-t11",
@@ -16665,8 +16571,7 @@
          "a": "On sound, not polish. Show a presenter only where a person adds something, because informal videos held viewers better in the 2014 study."
         }
        ],
-       "tierReason": "Short, segmented video with learner control has supporting studies, but the length guidance comes from watching data, not learning, and the audio-first advice is production experience.",
-       "kind": "research"
+       "tierReason": "Short, segmented video with learner control has supporting studies, but the length guidance comes from watching data, not learning, and the audio-first advice is production experience."
       },
       {
        "id": "s3-t12",
@@ -16847,8 +16752,7 @@
          "a": "Cut the tree to two or three decision points and let the branches rejoin. Then check it with a keyboard and a screen reader."
         }
        ],
-       "tierReason": "Asking learners to recall and giving feedback that explains are both well supported, but how much an interaction helps depends on what it makes the learner do.",
-       "kind": "law"
+       "tierReason": "Asking learners to recall and giving feedback that explains are both well supported, but how much an interaction helps depends on what it makes the learner do."
       },
       {
        "id": "s3-t13",
@@ -17013,7 +16917,7 @@
         }
        ],
        "tierReason": "This is a technical standards choice. The descriptions are checked against the standards bodies' own pages, and there is no experimental evidence to rate.",
-       "kind": "law"
+       "legal": true
       }
      ]
     },
@@ -17192,7 +17096,7 @@
         }
        ],
        "tierReason": "This is a standards and regulatory topic. WCAG is the recognised standard, and what the law requires depends on who you work for.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s3-t15",
@@ -17373,8 +17277,7 @@
          "a": "A review by a native speaker and an agreed glossary of key terms. Ask them to look at the examples and any humour as well as the words."
         }
        ],
-       "tierReason": "Preparing content for translation is established professional practice set out in W3C guidance, not something tested in learning experiments.",
-       "kind": "law"
+       "tierReason": "Preparing content for translation is established professional practice set out in W3C guidance, not something tested in learning experiments."
       },
       {
        "id": "s3-t16",
@@ -17539,8 +17442,7 @@
          "a": "Reconcile them before you build. Put the differences in front of both, or the person who owns the procedure, and agree one version."
         }
        ],
-       "tierReason": "One meta-analysis finds a large benefit for training built on cognitive task analysis, but it rests on a small number of studies and the result varies by method and setting.",
-       "kind": "research"
+       "tierReason": "One meta-analysis finds a large benefit for training built on cognitive task analysis, but it rests on a small number of studies and the result varies by method and setting."
       },
       {
        "id": "s3-t17",
@@ -17713,8 +17615,7 @@
          "a": "A link to the one current file, not an attachment. Attachments leave old versions in circulation."
         }
        ],
-       "tierReason": "Version control, ownership and review dates are sensible working practice with no experimental testing. Only practitioner guidance exists.",
-       "kind": "law"
+       "tierReason": "Version control, ownership and review dates are sensible working practice with no experimental testing. Only practitioner guidance exists."
       }
      ]
     },
@@ -17725,7 +17626,6 @@
       {
        "title": "Write a workbook people will use",
        "theory": "Participant workbooks and handouts",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -17844,7 +17744,6 @@
       {
        "title": "Write a facilitator guide someone else can deliver from",
        "theory": "Facilitator guides",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -17986,7 +17885,6 @@
       {
        "title": "Prepare flipcharts, cards and wall materials",
        "theory": "Physical materials for face-to-face sessions",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -18160,7 +18058,6 @@
       {
        "title": "Make slides readable from the back of the room",
        "theory": "Type size and contrast for projected slides",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -18311,7 +18208,6 @@
       {
        "title": "Know the learning technology you will meet",
        "theory": "The client's learning systems: what each does and who owns it",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -18468,7 +18364,6 @@
       {
        "title": "Get your content on to a client's platform",
        "theory": "Packaging, testing, completion rules and sign-off",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -18685,7 +18580,6 @@
       {
        "title": "Know whether online training works as well as the classroom",
        "theory": "Web-based against classroom instruction: the pooled comparison",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -18861,7 +18755,6 @@
       {
        "title": "Read the media and method debate at source",
        "theory": "Clark (1983, 1994) and Kozma (1994) in their own terms",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -19163,8 +19056,7 @@
          "a": "Stop for two slow breaths, standing still, and look round the room. The pause gives people time to take the point in."
         }
        ],
-       "tierReason": "Slowing down, pausing and rehearsing are standard presentation practice with little direct testing in training rooms. Only the step on reading nerves as readiness has an experiment behind it.",
-       "kind": "research"
+       "tierReason": "Slowing down, pausing and rehearsing are standard presentation practice with little direct testing in training rooms. Only the step on reading nerves as readiness has an experiment behind it."
       },
       {
        "id": "s4-t02",
@@ -19346,8 +19238,7 @@
          "a": "Thank them, keep the part that is right and put the rest to the group as a question. A flat correction teaches them, and everyone watching, to stop offering answers."
         }
        ],
-       "tierReason": "School classroom studies, pulled together in a published review, link waits of three seconds or more to longer and more frequent answers. None of the summaries read covers adults in workplace training.",
-       "kind": "research"
+       "tierReason": "School classroom studies, pulled together in a published review, link waits of three seconds or more to longer and more frequent answers. None of the summaries read covers adults in workplace training."
       },
       {
        "id": "s4-t03",
@@ -19498,8 +19389,7 @@
          "a": "Give every person a visible part. Each writes their own answer before the group talks, or each takes a named role. People put in less when their part cannot be seen."
         }
        ],
-       "tierReason": "The stage model is a synthesis of older studies used as a lens, and the steps for handling a group are professional practice. The social loafing research behind individual accountability could not be opened in this run.",
-       "kind": "research"
+       "tierReason": "The stage model is a synthesis of older studies used as a lens, and the steps for handling a group are professional practice. The social loafing research behind individual accountability could not be opened in this run."
       },
       {
        "id": "s4-t04",
@@ -19659,8 +19549,7 @@
          "a": "Change it or cut it. A story belongs in the session only if people take away the point. If you keep it, say the point out loud at the end."
         }
        ],
-       "tierReason": "One meta-analysis found stories are understood and recalled better than essays, but the studies varied widely, showed signs of publication bias, and tested texts, not a trainer's spoken stories.",
-       "kind": "research"
+       "tierReason": "One meta-analysis found stories are understood and recalled better than essays, but the studies varied widely, showed signs of publication bias, and tested texts, not a trainer's spoken stories."
       },
       {
        "id": "s4-g01",
@@ -19832,8 +19721,7 @@
          "a": "Repeat the question before you answer, so the whole room and anyone lip-reading has it. Use the microphone if the room has one."
         }
        ],
-       "tierReason": "Room set-up is professional practice. The one study read is a small comparison in a single university course, with nothing on workplace training.",
-       "kind": "research"
+       "tierReason": "Room set-up is professional practice. The one study read is a small comparison in a single university course, with nothing on workplace training."
       },
       {
        "id": "s4-g02",
@@ -20022,8 +19910,7 @@
          "a": "Have everyone write their view before anyone speaks, and take the manager's last. Before the next session, brief the manager to ask before telling (4.38)."
         }
        ],
-       "tierReason": "Meta-analyses show team training and debriefs improve team results, but they compare training with no training, and do not test whether the whole team must attend together.",
-       "kind": "research"
+       "tierReason": "Meta-analyses show team training and debriefs improve team results, but they compare training with no training, and do not test whether the whole team must attend together."
       },
       {
        "id": "s4-g03",
@@ -20205,8 +20092,7 @@
          "a": "As a question to ask, not a prediction about anyone. Find out about the people who are coming, and build in written and paired steps so nobody has to challenge you in public to take part."
         }
        ],
-       "tierReason": "The advice is facilitation practice with no direct test. The evidence read supports only the caution against judging people by country.",
-       "kind": "research"
+       "tierReason": "The advice is facilitation practice with no direct test. The evidence read supports only the caution against judging people by country."
       }
      ]
     },
@@ -20389,8 +20275,7 @@
          "a": "Nothing about the camera, if you gave people the choice. Check they are with you another way, such as an answer in chat or a poll."
         }
        ],
-       "tierReason": "The four causes are a theoretical argument that its author says has not been tested directly, and the supporting evidence read is survey data.",
-       "kind": "research"
+       "tierReason": "The four causes are a theoretical argument that its author says has not been tested directly, and the supporting evidence read is survey data."
       },
       {
        "id": "s4-t06",
@@ -20568,8 +20453,7 @@
          "a": "It does not. A 2009 review found that few studies measured learning, and most relied on students rating their own. Use the three presences as a design checklist and measure the learning yourself."
         }
        ],
-       "tierReason": "It is a widely used framework from university online discussion, and a review found very little direct measurement of whether it leads to learning.",
-       "kind": "research"
+       "tierReason": "It is a widely used framework from university online discussion, and a review found very little direct measurement of whether it leads to learning."
       },
       {
        "id": "s4-t07",
@@ -20807,8 +20691,7 @@
          "a": "Get a producer. Someone else lets people in, sorts the sound and watches the chat, so you can attend to the learners."
         }
        ],
-       "tierReason": "The design advice is practitioner convention. The studies read compare formats of online learning and do not test interaction against lecture in a live session.",
-       "kind": "research"
+       "tierReason": "The design advice is practitioner convention. The studies read compare formats of online learning and do not test interaction against lecture in a live session."
       },
       {
        "id": "s4-t08",
@@ -20995,8 +20878,7 @@
          "a": "Have them mute their microphones and speakers at once. Keep one microphone and one set of speakers live in the room. Anyone else joining from the room wears a headset or goes somewhere else."
         }
        ],
-       "tierReason": "A review documents the problems of hybrid sessions, but the research is mostly case studies and the remote-first remedy has not been tested.",
-       "kind": "research"
+       "tierReason": "A review documents the problems of hybrid sessions, but the research is mostly case studies and the remote-first remedy has not been tested."
       }
      ]
     },
@@ -21158,8 +21040,7 @@
          "a": "As habit, not a finding. The principle is that attention drifts when nothing changes. Change what people are doing often and watch the room (4.14)."
         }
        ],
-       "tierReason": "Practitioner judgement. No research source was checked for this page.",
-       "kind": "craft"
+       "tierReason": "Practitioner judgement. No research source was checked for this page."
       },
       {
        "id": "s4-t10",
@@ -21294,8 +21175,7 @@
          "a": "Imagine the session went badly and write the three likeliest reasons. Prepare one thing for each: a printed back-up, an exercise marked to cut, a line to say."
         }
        ],
-       "tierReason": "The pre-mortem is a practitioner technique described in a magazine article. The research behind it was not opened and was not done on training sessions.",
-       "kind": "research"
+       "tierReason": "The pre-mortem is a practitioner technique described in a magazine article. The research behind it was not opened and was not done on training sessions."
       },
       {
        "id": "s4-t11",
@@ -21465,8 +21345,7 @@
          "a": "That you have their attention. You cannot conclude that people will remember or use it (1.4). Run a recall check to find out."
         }
        ],
-       "tierReason": "Adjusting to the room is professional practice. The source read is a book on expert judgement in other fields, and nothing on trainers or teachers was opened.",
-       "kind": "research"
+       "tierReason": "Adjusting to the room is professional practice. The source read is a book on expert judgement in other fields, and nothing on trainers or teachers was opened."
       },
       {
        "id": "s4-t12",
@@ -21629,8 +21508,7 @@
          "a": "Do not rely on the forms. Ask a peer to watch one part with a specific thing to look for, and sit in another trainer's session as a learner."
         }
        ],
-       "tierReason": "A meta-analysis shows structured debriefs improve performance, but it covers debriefs in general and not a trainer reviewing sessions alone, and Schön's account is a framework.",
-       "kind": "research"
+       "tierReason": "A meta-analysis shows structured debriefs improve performance, but it covers debriefs in general and not a trainer reviewing sessions alone, and Schön's account is a framework."
       },
       {
        "id": "s4-g04",
@@ -21779,7 +21657,7 @@
         }
        ],
        "tierReason": "This is professional conduct and self-management, checked against one professional body's code, with no experimental evidence.",
-       "kind": "law"
+       "legal": true
       }
      ]
     },
@@ -21790,7 +21668,6 @@
       {
        "title": "Co-facilitate without tripping over each other",
        "theory": "Working as a pair",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -21936,7 +21813,6 @@
       {
        "title": "Use flipcharts and walls",
        "theory": "Working on paper",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22078,7 +21954,6 @@
       {
        "title": "Pack a trainer's kit",
        "theory": "What to carry",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22232,7 +22107,6 @@
       {
        "title": "Look after your voice and energy on a multi-day run",
        "theory": "Stamina for delivery",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22391,7 +22265,6 @@
       {
        "title": "Open a session",
        "theory": "Openings",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22533,7 +22406,6 @@
       {
        "title": "Run introductions that fit the group size",
        "theory": "Introductions",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22656,7 +22528,6 @@
       {
        "title": "Agree how the group will work",
        "theory": "Contracting",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22760,7 +22631,6 @@
       {
        "title": "Give instructions people can follow first time",
        "theory": "Setting up an activity",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22866,7 +22736,6 @@
       {
        "title": "Form groups and move people",
        "theory": "Grouping",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -22998,7 +22867,6 @@
       {
        "title": "Watch and support groups while they work",
        "theory": "Monitoring group work",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -23130,7 +22998,6 @@
       {
        "title": "Take reports from groups without losing the room",
        "theory": "Report-backs",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -23263,7 +23130,6 @@
       {
        "title": "Debrief an activity",
        "theory": "Debriefing",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -23423,7 +23289,6 @@
       {
        "title": "Run a role-play that people do not dread",
        "theory": "Role-play and skills practice",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -23615,7 +23480,6 @@
       {
        "title": "Handle questions",
        "theory": "Questions from the group",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -23719,7 +23583,6 @@
       {
        "title": "Keep time and cut content live",
        "theory": "Timekeeping",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -23921,7 +23784,6 @@
       {
        "title": "Close a session",
        "theory": "Closings",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24054,7 +23916,6 @@
       {
        "title": "Write a session plan you can run from",
        "theory": "The session plan",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24259,7 +24120,6 @@
       {
        "title": "The person who talks too much",
        "theory": "Dominant voices",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24392,7 +24252,6 @@
       {
        "title": "The silent group",
        "theory": "When nobody speaks",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24494,7 +24353,6 @@
       {
        "title": "The cynic, and the person who was sent",
        "theory": "Resistance and reluctant attendance",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24596,7 +24454,6 @@
       {
        "title": "The expert in the room",
        "theory": "Participants who know more than you",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24733,7 +24590,6 @@
       {
        "title": "The senior person who takes over",
        "theory": "Rank in the room",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24832,7 +24688,6 @@
       {
        "title": "Side conversations and phones",
        "theory": "Attention that has gone elsewhere",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -24935,7 +24790,6 @@
       {
        "title": "Late arrivals and people who leave early",
        "theory": "Protecting the start and the close",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25077,7 +24931,6 @@
       {
        "title": "Conflict between two participants",
        "theory": "Disagreement that turns personal",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25178,7 +25031,6 @@
       {
        "title": "When someone is upset",
        "theory": "Distress in an ordinary session",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25282,7 +25134,6 @@
       {
        "title": "The slot after lunch",
        "theory": "The afternoon dip",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25425,7 +25276,6 @@
       {
        "title": "The client or an observer sitting at the back",
        "theory": "Being watched while you work",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25534,7 +25384,6 @@
       {
        "title": "Give a ten-minute input",
        "theory": "Short inputs",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25695,7 +25544,6 @@
       {
        "title": "Demonstrate a skill",
        "theory": "Demonstration",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25845,7 +25693,6 @@
       {
        "title": "Give feedback during practice",
        "theory": "The trainer's own feedback",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -25982,7 +25829,6 @@
       {
        "title": "Teach a mixed-level group",
        "theory": "Mixed experience in one room",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -26122,7 +25968,6 @@
       {
        "title": "Adapt for a short session and for a multi-day course",
        "theory": "Session length",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -26347,7 +26192,6 @@
       {
        "title": "When nobody speaks or cameras are off",
        "theory": "Silence online",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -26495,7 +26339,6 @@
       {
        "title": "When the technology fails",
        "theory": "The failure plan",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -26665,7 +26508,6 @@
       {
        "title": "When someone dominates, disrupts or is upset on a call",
        "theory": "Difficult behaviour online",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -26988,8 +26830,7 @@
          "a": "The workplace. Ask a few participants and their managers what got in the way, such as no time in the shift or a manager who never asks about it. The learner and the design look sound, so changing the course will not fix it."
         }
        ],
-       "tierReason": "A meta-analysis of 89 studies links transfer to the learner, the training and the workplace, but the links vary with the kind of skill and with how transfer was measured.",
-       "kind": "research"
+       "tierReason": "A meta-analysis of 89 studies links transfer to the learner, the training and the workplace, but the links vary with the kind of skill and with how transfer was measured."
       },
       {
        "id": "s5-t02",
@@ -27154,8 +26995,7 @@
          "a": "Cut content from the exercise before it and keep ten minutes for the plan. People write it before they leave the room, and it goes to their manager."
         }
        ],
-       "tierReason": "If-then planning is supported by a meta-analysis of 94 tests, but those tests cover many kinds of goal, and the varied-practice advice was not confirmed in this check.",
-       "kind": "research"
+       "tierReason": "If-then planning is supported by a meta-analysis of 94 tests, but those tests cover many kinds of goal, and the varied-practice advice was not confirmed in this check."
       },
       {
        "id": "s5-t03",
@@ -27332,8 +27172,7 @@
          "a": "Design that learning: a stretch task, time to reflect on it and feedback from someone who saw the work. Experience without reflection and feedback levels off."
         }
        ],
-       "tierReason": "A widely used practitioner model. Its numbers rest on executives' recollections, and a 2018 review found the evidence for the 70 per cent claim weak.",
-       "kind": "law"
+       "tierReason": "A widely used practitioner model. Its numbers rest on executives' recollections, and a 2018 review found the evidence for the 70 per cent claim weak."
       },
       {
        "id": "s5-t04",
@@ -27516,8 +27355,7 @@
          "a": "Time the first prompt to two or three days before that first real use, with a manager check-in within a week after it. The 30, 60 and 90 day pattern is a practitioner convention, not a research finding, and skills that are not used fade."
         }
        ],
-       "tierReason": "Follow-up, planning for obstacles and workplace support each have some research behind them, but the 30, 60 and 90-day schedule is a convention and relapse prevention in training was not confirmed in this check.",
-       "kind": "research"
+       "tierReason": "Follow-up, planning for obstacles and workplace support each have some research behind them, but the 30, 60 and 90-day schedule is a convention and relapse prevention in training was not confirmed in this check."
       },
       {
        "id": "s5-t05",
@@ -27690,8 +27528,7 @@
          "a": "Tell him, or show him. Coaching draws out an answer the person can find, and a beginner does not have it yet. This moment needs teaching."
         }
        ],
-       "tierReason": "Two meta-analyses find positive effects of workplace coaching, but the studies are few, one left out coaching by line managers, and the goal, reality, options, will structure has not been tested on its own.",
-       "kind": "research"
+       "tierReason": "Two meta-analyses find positive effects of workplace coaching, but the studies are few, one left out coaching by line managers, and the goal, reality, options, will structure has not been tested on its own."
       },
       {
        "id": "s5-g01",
@@ -27842,8 +27679,7 @@
          "a": "Make it easy to start. Attach it to a cue such as putting the phone down, shrink the first step to one line, remove an obstacle with a pinned shortcut, and have the team lead notice when it happens."
         }
        ],
-       "tierReason": "If-then planning has meta-analytic support and one field study tracked habit formation, but that study used self-chosen health behaviours and the time taken varied widely.",
-       "kind": "research"
+       "tierReason": "If-then planning has meta-analytic support and one field study tracked habit formation, but that study used self-chosen health behaviours and the time taken varied widely."
       }
      ]
     },
@@ -28012,8 +27848,7 @@
          "a": "Where it lives. A job aid nobody can find is useless, so move it to where the work happens. Then check that it is still current."
         }
        ],
-       "tierReason": "The five moments of need and job aids are practitioner models and guidance. No experimental test of them was opened.",
-       "kind": "research"
+       "tierReason": "The five moments of need and job aids are practitioner models and guidance. No experimental test of them was opened."
       },
       {
        "id": "s5-t07",
@@ -28177,8 +28012,7 @@
          "a": "Ask members what they have used in their own work. Post counts show activity and say little about usefulness."
         }
        ],
-       "tierReason": "Communities of practice are an influential framework with long use in organisations. No controlled test of the launch steps was opened.",
-       "kind": "law"
+       "tierReason": "Communities of practice are an influential framework with long use in organisations. No controlled test of the launch steps was opened."
       },
       {
        "id": "s5-t08",
@@ -28350,8 +28184,7 @@
          "a": "Ask each graduate for consent before anything about them is used as proof (9.25)."
         }
        ],
-       "tierReason": "Alumni programmes are professional practice with no direct studies found. Only the learning-by-teaching step has research behind it, and that comes from students.",
-       "kind": "research"
+       "tierReason": "Alumni programmes are professional practice with no direct studies found. Only the learning-by-teaching step has research behind it, and that comes from students."
       },
       {
        "id": "s5-t09",
@@ -28554,8 +28387,7 @@
          "a": "She was given the slides without the reasons. Explain why the practice is there, observe her again, and keep time in the budget for observing."
         }
        ],
-       "tierReason": "One systematic review in health and social care found most train-the-trainer programmes helped, but the studies were varied, carried a moderate risk of bias and could not be pooled.",
-       "kind": "research"
+       "tierReason": "One systematic review in health and social care found most train-the-trainer programmes helped, but the studies were varied, carried a moderate risk of bias and could not be pooled."
       },
       {
        "id": "s5-g02",
@@ -28760,7 +28592,7 @@
         }
        ],
        "tierReason": "Curation is professional practice. No research on curated versus newly made training content was found, and the copyright points are general.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s5-g03",
@@ -28941,8 +28773,7 @@
          "a": "Refocus the review on three questions: what did we expect, what happened, what will we do differently. Ask the leader to start with a mistake of their own. Reviews that hunt for blame teach people to hide."
         }
        ],
-       "tierReason": "The learning organisation is a management framework. The one routine the page starts with, a short review after each project, has meta-analytic support.",
-       "kind": "research"
+       "tierReason": "The learning organisation is a management framework. The one routine the page starts with, a short review after each project, has meta-analytic support."
       }
      ]
     },
@@ -29121,8 +28952,7 @@
          "a": "Recall. Gaps without recall are just gaps. Bring people back to the material by having them retrieve it."
         }
        ],
-       "tierReason": "Spacing is well supported for verbal learning and a major review says sleep helps consolidation, but the benefit depends on conditions and the page's points on interference and reconsolidation have no opened source.",
-       "kind": "research"
+       "tierReason": "Spacing is well supported for verbal learning and a major review says sleep helps consolidation, but the benefit depends on conditions and the page's points on interference and reconsolidation have no opened source."
       },
       {
        "id": "s5-t11",
@@ -29313,8 +29143,7 @@
          "a": "That advice is for facts and concepts. For a rare, high-stakes procedure, practise past the first correct run and put refreshers in the calendar (5.17)."
         }
        ],
-       "tierReason": "Meta-analyses support spacing and, for some materials, mixing, and an experiment shows the gain from overlearning fades. The mixing effect varies a lot by material and the studies are not of workplace procedures.",
-       "kind": "research"
+       "tierReason": "Meta-analyses support spacing and, for some materials, mixing, and an experiment shows the gain from overlearning fades. The mixing effect varies a lot by material and the studies are not of workplace procedures."
       },
       {
        "id": "s5-t12",
@@ -29482,8 +29311,7 @@
          "a": "Send fewer. Too many messages get muted. Use a few messages spread over weeks, each with one recall question and one small task, in the channel people already open."
         }
        ],
-       "tierReason": "Spacing and recall are well supported in education, but a follow-up layer after workplace formats has little direct testing, and the one trial opened gave mixed results.",
-       "kind": "research"
+       "tierReason": "Spacing and recall are well supported in education, but a follow-up layer after workplace formats has little direct testing, and the one trial opened gave mixed results."
       },
       {
        "id": "s5-t13",
@@ -29660,8 +29488,7 @@
          "a": "Cut it to something they will keep, such as ten minutes tied to an existing habit. A plan too ambitious is dropped."
         }
        ],
-       "tierReason": "A major review rates self-testing and spaced practice as high utility and re-reading and highlighting as low, mostly from studies of students. Whether teaching the techniques builds a lasting habit is less tested.",
-       "kind": "research"
+       "tierReason": "A major review rates self-testing and spaced practice as high utility and re-reading and highlighting as low, mostly from studies of students. Whether teaching the techniques builds a lasting habit is less tested."
       }
      ]
     },
@@ -29672,7 +29499,6 @@
       {
        "title": "Plan refreshers before skills fade",
        "theory": "Skill decay and refresher training",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -29835,7 +29661,6 @@
       {
        "title": "Know why far transfer is hard",
        "theory": "Near and far transfer",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -30165,8 +29990,7 @@
          "a": "Find a stand-in you can count before the course, such as a two-week tally by managers or a sample of 20 records. Record it now so there is something to compare with later."
         }
        ],
-       "tierReason": "Planning evaluation and a baseline before design is standard professional practice set out in the main handbooks, with no direct experimental test of the practice itself.",
-       "kind": "research"
+       "tierReason": "Planning evaluation and a baseline before design is standard professional practice set out in the main handbooks, with no direct experimental test of the practice itself."
       },
       {
        "id": "s6-t01",
@@ -30420,8 +30244,7 @@
          "a": "A realistic decision or task, tested several days or more after the course. LTEM rates recall of facts as usually inadequate, and testing straight away as not fully adequate."
         }
        ],
-       "tierReason": "The warning not to read reaction scores as proof of learning is backed by meta-analyses in training and in university teaching, but the four levels themselves are a practitioner framework and the size of the link depends on what the form asks.",
-       "kind": "research"
+       "tierReason": "The warning not to read reaction scores as proof of learning is backed by meta-analyses in training and in university teaching, but the four levels themselves are a practitioner framework and the size of the link depends on what the form asks."
       }
      ]
     },
@@ -30573,8 +30396,7 @@
          "a": "Agree with the client what the scores will and will not be used for, and add your own usefulness questions. On the day, tell the group why the practice is hard, and have the form filled in before the close, in the room."
         }
        ],
-       "tierReason": "The case against satisfaction scores is well supported, but the recommended question style is one practitioner's method and the sources opened report no direct test of it.",
-       "kind": "research"
+       "tierReason": "The case against satisfaction scores is well supported, but the recommended question style is one practitioner's method and the sources opened report no direct test of it."
       },
       {
        "id": "s6-t02",
@@ -30738,8 +30560,7 @@
          "a": "Rewrite the item with an example of what counts and what does not, then have them score three more calls. Counts from a checklist that observers read differently cannot be compared before and after."
         }
        ],
-       "tierReason": "Measuring behaviour and claiming contribution is sound professional practice from the evaluation handbooks, not a tested intervention.",
-       "kind": "research"
+       "tierReason": "Measuring behaviour and claiming contribution is sound professional practice from the evaluation handbooks, not a tested intervention."
       },
       {
        "id": "s6-g03",
@@ -30917,8 +30738,7 @@
          "a": "A drop is normal and shows where follow-up is needed. Turn the two missed steps into a reminder and a job aid, and use the result to improve the follow-up."
         }
        ],
-       "tierReason": "A large body of research shows performance during or just after training is an unreliable sign of lasting learning, but the timing of a follow-up check at work is a rule of thumb.",
-       "kind": "research"
+       "tierReason": "A large body of research shows performance during or just after training is an unreliable sign of lasting learning, but the timing of a follow-up check at work is a rule of thumb."
       },
       {
        "id": "s6-g04",
@@ -31170,8 +30990,7 @@
          "a": "Plot the measure month by month for several months before and after. A change in the trend at the point of training is stronger evidence than one before and after pair. List what else changed, and say how sure you are."
         }
        ],
-       "tierReason": "Comparison groups are standard evaluation design, but the methods as applied to training here, including discounted estimates from participants, come from practitioner handbooks.",
-       "kind": "research"
+       "tierReason": "Comparison groups are standard evaluation design, but the methods as applied to training here, including discounted estimates from participants, come from practitioner handbooks."
       },
       {
        "id": "s6-t03",
@@ -31327,8 +31146,7 @@
          "a": "Send it to the designer, with a date, as a prompt to look at that module. Data like this is most useful for finding where the design is failing."
         }
        ],
-       "tierReason": "Treating activity data as a design aid and not as proof of learning is a reasoned practitioner position with no direct test, and no learning analytics study could be checked.",
-       "kind": "research"
+       "tierReason": "Treating activity data as a design aid and not as proof of learning is a reasoned practitioner position with no direct test, and no learning analytics study could be checked."
       }
      ]
     },
@@ -31497,8 +31315,7 @@
          "a": "People's time: the days away from work for every learner. It is part of the full cost."
         }
        ],
-       "tierReason": "Return on investment and return on expectations are practitioner methods from the Phillips and Kirkpatrick books, with little independent testing.",
-       "kind": "research"
+       "tierReason": "Return on investment and return on expectations are practitioner methods from the Phillips and Kirkpatrick books, with little independent testing."
       },
       {
        "id": "s6-t04",
@@ -31670,8 +31487,7 @@
          "a": "A success story is not an average. Keep the story, say that it is a best case, and report the limits and what did not work. Cautious claims survive scrutiny."
         }
        ],
-       "tierReason": "Feeding findings back and writing an honest business case is professional practice drawn from evaluation handbooks and critiques, not a tested intervention.",
-       "kind": "research"
+       "tierReason": "Feeding findings back and writing an honest business case is professional practice drawn from evaluation handbooks and critiques, not a tested intervention."
       },
       {
        "id": "s6-g06",
@@ -31805,8 +31621,7 @@
          "a": "Get her consent (9.25). In the report, say that it is one case and not the average."
         }
        ],
-       "tierReason": "Reporting the finding first on one page with a case and stated limits is professional practice, with no experimental test of the format.",
-       "kind": "research"
+       "tierReason": "Reporting the finding first on one page with a case and stated limits is professional practice, with no experimental test of the format."
       }
      ]
     },
@@ -31817,7 +31632,6 @@
       {
        "title": "Match the evaluation to the stakes",
        "theory": "Proportionate evaluation and operating measures",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -31948,7 +31762,6 @@
       {
        "title": "Get the data you need from the client",
        "theory": "Data access for evaluation",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -32057,12 +31870,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 12
+       "n": 12,
+       "legal": true
       },
       {
        "title": "Use the Success Case Method",
        "theory": "Success Case Method (Brinkerhoff)",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -32232,7 +32045,6 @@
       {
        "title": "Measure enablement by business results",
        "theory": "Enablement measures for sales, product and retail training",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -32394,7 +32206,6 @@
       {
        "title": "Build the cost and benefit case",
        "theory": "Cost and benefit analysis and the Phillips ROI formula",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -32776,7 +32587,7 @@
         }
        ],
        "tierReason": "Keeping a named person accountable for AI drafts is sound professional practice, but it has little direct experimental testing.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s7-t02",
@@ -32968,8 +32779,7 @@
          "a": "Test both groups without the tool. Better scores while people use a tool are not proof that they learned."
         }
        ],
-       "tierReason": "Several meta-analyses find moderate gains from intelligent tutoring systems, but the size depends on the comparison, the test and the design, and the evidence on generative AI tutors is recent and mixed.",
-       "kind": "research"
+       "tierReason": "Several meta-analyses find moderate gains from intelligent tutoring systems, but the size depends on the comparison, the test and the design, and the evidence on generative AI tutors is recent and mixed."
       },
       {
        "id": "s7-t03",
@@ -33100,7 +32910,7 @@
         }
        ],
        "tierReason": "This is governance and regulatory practice, which the brief rates as a practitioner framework.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s7-t04",
@@ -33265,8 +33075,7 @@
          "a": "Make it safe to ask basic questions. Start from the basics for everyone and take questions in pairs or in writing, so nobody has to admit a gap in front of the room."
         }
        ],
-       "tierReason": "The need is supported by labour-market reports and one experiment on over-reliance, but training people to check AI output has little direct testing as a remedy.",
-       "kind": "law"
+       "tierReason": "The need is supported by labour-market reports and one experiment on over-reliance, but training people to check AI output has little direct testing as a remedy."
       },
       {
        "id": "s7-g01",
@@ -33437,8 +33246,7 @@
          "a": "That without a named role people will not commit, and what is left is a course. Ask for the vacancies, or scale back what the programme promises."
         }
        ],
-       "tierReason": "Skills-based workforce planning is a widely used management practice, and no controlled evidence for it was found or opened.",
-       "kind": "law"
+       "tierReason": "Skills-based workforce planning is a widely used management practice, and no controlled evidence for it was found or opened."
       }
      ]
     },
@@ -33449,7 +33257,6 @@
       {
        "title": "Brief an AI tool well",
        "theory": "Prompting for training design work",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -33593,7 +33400,6 @@
       {
        "title": "Check AI output before it reaches a learner",
        "theory": "Verifying AI-generated content",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -33753,7 +33559,6 @@
       {
        "title": "Use AI to sort and summarise feedback",
        "theory": "AI-assisted analysis of free-text comments",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -33910,12 +33715,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 8
+       "n": 8,
+       "legal": true
       },
       {
        "title": "Set a rule for AI in the room",
        "theory": "AI tools during live sessions",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -34055,7 +33860,6 @@
       {
        "title": "Show how this site was made",
        "theory": "Disclosing AI use in your own work",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -34161,7 +33965,6 @@
       {
        "title": "Use AI as a practice partner",
        "theory": "AI role-play and coaching simulators",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -34326,7 +34129,6 @@
       {
        "title": "Design for AI in the flow of work",
        "theory": "AI assistants and what is left to train",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -34469,7 +34271,6 @@
       {
        "title": "Guard against over-reliance",
        "theory": "Automation bias, complacency and deskilling",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -34626,7 +34427,6 @@
       {
        "title": "Design an AI literacy and adoption programme",
        "theory": "AI literacy by role, safe use first, practice on real tasks, and measuring use",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -34863,7 +34663,6 @@
       {
        "title": "Answer a client's questions about your own AI use",
        "theory": "AI in supplier onboarding, security reviews and contracts",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -35021,7 +34820,8 @@
        "n": 15,
        "tier": "D",
        "tierWord": "",
-       "bars": 0
+       "bars": 0,
+       "legal": true
       }
      ]
     }
@@ -35211,8 +35011,7 @@
          "a": "As something two people reported, next to the business result you agreed at the start. Do not present it as an outcome the programme delivers."
         }
        ],
-       "tierReason": "Transformative learning is a theory studied mostly through qualitative research, and no checked source tests a method that produces it, so promising only the conditions is sound professional practice, not a tested technique.",
-       "kind": "research"
+       "tierReason": "Transformative learning is a theory studied mostly through qualitative research, and no checked source tests a method that produces it, so promising only the conditions is sound professional practice, not a tested technique."
       },
       {
        "id": "s8-t02",
@@ -35384,8 +35183,7 @@
          "a": "Run it at two or three levels of difficulty and let people choose. Give each level a clear goal and feedback straight after, so everyone is working at the edge of what they can do."
         }
        ],
-       "tierReason": "A meta-analysis links the balance of challenge and skill to flow, but the link is moderate, correlational and weaker in work and education settings, and nothing read shows that flow in a retreat leads to lasting learning.",
-       "kind": "research"
+       "tierReason": "A meta-analysis links the balance of challenge and skill to flow, but the link is moderate, correlational and weaker in work and education settings, and nothing read shows that flow in a retreat leads to lasting learning."
       },
       {
        "id": "s8-t03",
@@ -35562,8 +35360,7 @@
          "a": "A lighter opening. Agree confidentiality and its limits, share one small work mistake yourself, then let people pick from three questions about work, talk in pairs and pass if they wish. Trust comes first, and pressure to share is a breach of care."
         }
        ],
-       "tierReason": "Psychological safety is linked to learning behaviour in a field study and a large meta-analysis, but that research is on teams at work and is largely correlational, and the specific opening steps for a retreat have not been tested in the sources read.",
-       "kind": "research"
+       "tierReason": "Psychological safety is linked to learning behaviour in a field study and a large meta-analysis, but that research is on teams at work and is largely correlational, and the specific opening steps for a retreat have not been tested in the sources read."
       },
       {
        "id": "s8-t04",
@@ -35726,8 +35523,7 @@
          "a": "Use the last full block. Each person writes one thing to try, who they will tell and when. Book a short follow-up meeting in the calendars, and send line managers a note that day saying what to ask about on the first day back."
         }
        ],
-       "tierReason": "Liminality is an anthropological idea borrowed as a design principle, and the two nature studies read are small, uncontrolled and do not test retreats or the return to work.",
-       "kind": "research"
+       "tierReason": "Liminality is an anthropological idea borrowed as a design principle, and the two nature studies read are small, uncontrolled and do not test retreats or the return to work."
       },
       {
        "id": "s8-t05",
@@ -35908,7 +35704,7 @@
         }
        ],
        "tierReason": "This is a legal and professional duty-of-care topic, which the brief rates as a practitioner framework.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s8-g01",
@@ -36075,8 +35871,7 @@
          "a": "Say to the group that watching is one of the ways to take part. Speak to the manager quietly afterwards. Play only works when joining in is a choice."
         }
        ],
-       "tierReason": "This is facilitation practice, and no research on play at work or in residential settings could be opened in this check.",
-       "kind": "law"
+       "tierReason": "This is facilitation practice, and no research on play at work or in residential settings could be opened in this check."
       }
      ]
     },
@@ -36087,7 +35882,6 @@
       {
        "title": "Decide whether to take people away",
        "theory": "The case for and against a residential",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -36248,7 +36042,6 @@
       {
        "title": "Know what the evidence says a retreat can and cannot do",
        "theory": "Evidence for and against residential training",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -36411,7 +36204,6 @@
       {
        "title": "Choose the format",
        "theory": "Business retreat formats",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -36556,7 +36348,6 @@
       {
        "title": "Build the timetable",
        "theory": "Pacing a residential",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -36811,7 +36602,6 @@
       {
        "title": "Choose and brief the venue",
        "theory": "Venue selection and the site visit",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -36979,7 +36769,6 @@
       {
        "title": "Staff it",
        "theory": "Roles and ratios on a residential",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -37128,7 +36917,6 @@
       {
        "title": "Cost it",
        "theory": "The full cost of a residential",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -37305,7 +37093,6 @@
       {
        "title": "Set the rules for evenings, alcohol and free time",
        "theory": "Conduct on a residential",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -37425,12 +37212,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 14
+       "n": 14,
+       "legal": true
       },
       {
        "title": "Plan for incidents",
        "theory": "Incident planning on a residential",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -37598,12 +37385,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 15
+       "n": 15,
+       "legal": true
       },
       {
        "title": "Include people who cannot or will not stay overnight",
        "theory": "Inclusion and reasonable adjustments on residentials",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -37765,12 +37552,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 16
+       "n": 16,
+       "legal": true
       },
       {
        "title": "Plan the return to work",
        "theory": "Re-entry after a residential",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -37942,7 +37729,6 @@
       {
        "title": "Find out what the offsite is really for",
        "theory": "Interviews before a working offsite",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -38098,7 +37884,6 @@
       {
        "title": "Agree with the leader how decisions will be made",
        "theory": "Decision rules and the leader's role in the room",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -38249,7 +38034,6 @@
       {
        "title": "Open a question up, then narrow it",
        "theory": "Silent writing, grouping and narrowing to a shortlist",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -38453,7 +38237,6 @@
       {
        "title": "Record decisions, owners and dates on the wall",
        "theory": "The live decision log and the parked list",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -38639,7 +38422,6 @@
       {
        "title": "Hold the conversation the team has been avoiding",
        "theory": "Facilitating a hard conversation, and the limits of the role",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -38787,7 +38569,6 @@
       {
        "title": "Run a strategy offsite and a team offsite",
        "theory": "Timetables for an offsite whose product is a decision or a better way of working",
-       "kind": "research",
        "body": {
         "situation": [
          {
@@ -39041,7 +38822,6 @@
       {
        "title": "Send the write-up and keep the decisions alive",
        "theory": "The record, the 30-day check and what to do when decisions stall",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -39198,7 +38978,6 @@
       {
        "title": "Know who signs the venue contract and who carries the risk",
        "theory": "Venue contracts: deposits, minimum numbers, cancellation and who is liable",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -39385,12 +39164,12 @@
        "n": 25,
        "tier": "D",
        "tierWord": "",
-       "bars": 0
+       "bars": 0,
+       "legal": true
       },
       {
        "title": "Price a retreat and protect your margin",
        "theory": "Fees, pass-through costs, handling charges and payment stages",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -39614,7 +39393,8 @@
        "n": 26,
        "tier": "D",
        "tierWord": "",
-       "bars": 0
+       "bars": 0,
+       "legal": true
       }
      ]
     }
@@ -39779,8 +39559,7 @@
          "a": "When the budget year starts and when next year's plan is fixed. Budgets are set months ahead, so ask to be considered in that round and find out how they buy."
         }
        ],
-       "tierReason": "This is business practice about how training is bought. Industry surveys describe it, and no experiments test it.",
-       "kind": "research"
+       "tierReason": "This is business practice about how training is bought. Industry surveys describe it, and no experiments test it."
       },
       {
        "id": "s9-g26",
@@ -39963,7 +39742,7 @@
         }
        ],
        "tierReason": "This is business practice for open courses. The page itself says research on self-funded courses is thin, and no study was confirmed.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g02",
@@ -40141,8 +39920,7 @@
          "a": "Hold the diagnosis. Play back what you heard, ask who else has a view and whether you can speak to them, and agree the next step."
         }
        ],
-       "tierReason": "Discovery conversations are standard consulting practice taught in well-known books. There is little direct experimental testing.",
-       "kind": "research"
+       "tierReason": "Discovery conversations are standard consulting practice taught in well-known books. There is little direct experimental testing."
       },
       {
        "id": "s9-g03",
@@ -40360,8 +40138,7 @@
          "a": "Point to the line that says one round is included and further rounds are charged at the day rate, then give the cost before you start. Scope stated in writing is what makes this an easy conversation."
         }
        ],
-       "tierReason": "Scoping and pricing is business practice drawn from consulting handbooks, with no experimental evidence.",
-       "kind": "research"
+       "tierReason": "Scoping and pricing is business practice drawn from consulting handbooks, with no experimental evidence."
       },
       {
        "id": "s9-g04",
@@ -40524,8 +40301,7 @@
          "a": "Decline to promise it, because you cannot influence turnover on your own and the client may rely on what the proposal says. Write what you will deliver and what people will be able to do, and agree how success will be judged."
         }
        ],
-       "tierReason": "Proposal writing is business practice from consulting handbooks, with no experimental evidence.",
-       "kind": "research"
+       "tierReason": "Proposal writing is business practice from consulting handbooks, with no experimental evidence."
       },
       {
        "id": "s9-g05",
@@ -40646,8 +40422,7 @@
          "a": "Record it as a change to the brief and agree the change to the price or the dates before you start on it."
         }
        ],
-       "tierReason": "Agreeing expectations at the start is standard consulting practice. It rests on professional experience, not experiments.",
-       "kind": "research"
+       "tierReason": "Agreeing expectations at the start is standard consulting practice. It rests on professional experience, not experiments."
       },
       {
        "id": "s9-g06",
@@ -40811,7 +40586,7 @@
         }
        ],
        "tierReason": "This is a regulatory topic. The advice follows the UK advertising code and consumer law, not experimental evidence.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g07",
@@ -41010,7 +40785,7 @@
         }
        ],
        "tierReason": "This is a legal and regulatory topic. It reports what official pages say and is not a tested practice.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g21",
@@ -41188,7 +40963,7 @@
         }
        ],
        "tierReason": "This is a legal topic. It reports the default position in UK copyright law and standard contract practice, not tested evidence.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g25",
@@ -41385,8 +41160,7 @@
          "a": "Check the level, cost and time of each on the provider's own site and compare them with what your clients ask for. Choose for what you will learn as well as the letters, and budget for renewal fees."
         }
        ],
-       "tierReason": "Choosing qualifications is career practice. The facts about each credential come from the awarding body's own pages.",
-       "kind": "law"
+       "tierReason": "Choosing qualifications is career practice. The facts about each credential come from the awarding body's own pages."
       }
      ]
     },
@@ -41573,8 +41347,7 @@
          "a": "Force a ranking. Sort out the gaps training would not fix, give each person three votes on the rest, and discuss the top five into an order with owners and dates."
         }
        ],
-       "tierReason": "Running a strategy workshop is facilitation practice from standard handbooks, with no experimental evidence for this sequence of steps.",
-       "kind": "research"
+       "tierReason": "Running a strategy workshop is facilitation practice from standard handbooks, with no experimental evidence for this sequence of steps."
       },
       {
        "id": "s9-g09",
@@ -41755,8 +41528,7 @@
          "a": "No course. Learning is planned only where skill is the obstacle, so recommend a fix to the system and pass it in writing to whoever owns it."
         }
        ],
-       "tierReason": "Aligning training to goals is a widely taught professional practice. It has survey support but little direct experimental testing.",
-       "kind": "research"
+       "tierReason": "Aligning training to goals is a widely taught professional practice. It has survey support but little direct experimental testing."
       },
       {
        "id": "s9-g10",
@@ -41977,8 +41749,7 @@
          "a": "Not a course for everyone. Write the procedure down and train a second person on the job, and consider whether the task should move to another role."
         }
        ],
-       "tierReason": "Mapping work, roles and skills is professional practice from organisation design. No experimental evidence was confirmed.",
-       "kind": "law"
+       "tierReason": "Mapping work, roles and skills is professional practice from organisation design. No experimental evidence was confirmed."
       },
       {
        "id": "s9-g11",
@@ -42183,8 +41954,7 @@
          "a": "Rank by the scores with the sponsor, not by who asks loudest. Tell the head of department what was not chosen and why, show the scores, and offer an alternative."
         }
        ],
-       "tierReason": "Sorting performance problems into training and non-training causes is a long-used practitioner method from performance consulting, with little direct experimental testing.",
-       "kind": "research"
+       "tierReason": "Sorting performance problems into training and non-training causes is a long-used practitioner method from performance consulting, with little direct experimental testing."
       },
       {
        "id": "s9-g12",
@@ -42379,8 +42149,7 @@
          "a": "Treat the resistance as information. Take it to the sponsor and ask leaders to explain the reason, because you cannot train people into a change they were not told about."
         }
        ],
-       "tierReason": "Planning the change around the training follows practitioner models (Kotter, ADKAR) and government project guidance, not direct experimental tests.",
-       "kind": "research"
+       "tierReason": "Planning the change around the training follows practitioner models (Kotter, ADKAR) and government project guidance, not direct experimental tests."
       }
      ]
     },
@@ -42582,8 +42351,7 @@
          "a": "Ask the sponsor to name one decision-maker and let that person settle it. Do not try to satisfy all three in the design."
         }
        ],
-       "tierReason": "An iterative design process with early client review is a practitioner model, with no experimental comparison in the sources read.",
-       "kind": "research"
+       "tierReason": "An iterative design process with early client review is a practitioner model, with no experimental comparison in the sources read."
       },
       {
        "id": "s9-g14",
@@ -42772,8 +42540,7 @@
          "a": "Remind her of what you agreed before the calls: themes, no names. Give her the theme and what you have changed in the outline because of it, since naming one person would end honest answers from all of them."
         }
        ],
-       "tierReason": "Offsite design is professional practice. The duty-of-care steps rest on official safety guidance, not on tested outcomes.",
-       "kind": "law"
+       "tierReason": "Offsite design is professional practice. The duty-of-care steps rest on official safety guidance, not on tested outcomes."
       }
      ]
     },
@@ -42958,8 +42725,7 @@
          "a": "Take it to whoever was agreed could approve changes to scope or dates. Record the change with its effect on dates and fee, then update the one shared plan."
         }
        ],
-       "tierReason": "Scope, owners, schedule, risks and one shared plan are standard project management practice set out in professional and government guidance, not experimentally tested.",
-       "kind": "law"
+       "tierReason": "Scope, owners, schedule, risks and one shared plan are standard project management practice set out in professional and government guidance, not experimentally tested."
       },
       {
        "id": "s9-g20",
@@ -43138,7 +42904,7 @@
         }
        ],
        "tierReason": "Legal and logistics topic. The steps follow official HSE and GOV.UK guidance and are not experimentally tested.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g23",
@@ -43306,7 +43072,7 @@
         }
        ],
        "tierReason": "Vetting, briefing and contracting associates is business practice, with tax and checking rules taken from GOV.UK guidance.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g16",
@@ -43475,8 +43241,7 @@
          "a": "Agree one tracker, in one place the client can see, updated on a fixed day. Two trackers means neither is right."
         }
        ],
-       "tierReason": "Visible tracking and reporting by exception is standard project practice described in government guidance, not experimentally tested.",
-       "kind": "law"
+       "tierReason": "Visible tracking and reporting by exception is standard project practice described in government guidance, not experimentally tested."
       },
       {
        "id": "s9-g17",
@@ -43657,8 +43422,7 @@
          "a": "Ask which tools they can use and work in those. Large clients usually expect you to work in their own tools."
         }
        ],
-       "tierReason": "This is how-to practice with a software tool. The features were checked against Google's help pages, and no research tests the method.",
-       "kind": "tool"
+       "tierReason": "This is how-to practice with a software tool. The features were checked against Google's help pages, and no research tests the method."
       },
       {
        "id": "s9-g18",
@@ -43844,8 +43608,7 @@
          "a": "Go back to the plain set-up: a sessions database, a linked tasks database, three views and a template. An elaborate workspace becomes a hobby."
         }
        ],
-       "tierReason": "This is how-to practice with a software tool. The features were checked against Notion's help pages, and no research tests the method.",
-       "kind": "tool"
+       "tierReason": "This is how-to practice with a software tool. The features were checked against Notion's help pages, and no research tests the method."
       },
       {
        "id": "s9-g22",
@@ -44036,7 +43799,7 @@
         }
        ],
        "tierReason": "Legal and regulatory topic. The practice follows ICO guidance on UK data protection law.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g24",
@@ -44204,7 +43967,7 @@
         }
        ],
        "tierReason": "Legal and business practice topic. The consent and honesty steps follow the CAP Code and consumer law guidance, not experimental tests.",
-       "kind": "law"
+       "legal": true
       },
       {
        "id": "s9-g19",
@@ -44379,8 +44142,7 @@
          "a": "Hand over what the client is due, such as attendance data, and delete the learner data you no longer need on a stated date. Record both in the close-out."
         }
        ],
-       "tierReason": "Close-out and handover are project management practice. The review step has indirect support from a meta-analysis of debriefs, which did not study programme close-outs.",
-       "kind": "law"
+       "tierReason": "Close-out and handover are project management practice. The review step has indirect support from a meta-analysis of debriefs, which did not study programme close-outs."
       }
      ]
     },
@@ -44391,7 +44153,6 @@
       {
        "title": "Deliver across countries and languages",
        "theory": "Localisation and multi-market cascade",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -44565,7 +44326,6 @@
       {
        "title": "Work out your day rate",
        "theory": "Building a rate from income, costs and sellable days",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -44744,12 +44504,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 28
+       "n": 28,
+       "legal": true
       },
       {
        "title": "Reshape the brief when training is the wrong answer",
        "theory": "Turning a training request into work that will help",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -44905,7 +44665,6 @@
       {
        "title": "Work inside the client's tools",
        "theory": "Guest access, the client's learning platform and their security rules",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -45075,7 +44834,6 @@
       {
        "title": "Deliver someone else's design",
        "theory": "Delivering to a brief you did not write",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -45196,7 +44954,6 @@
       {
        "title": "Work as an associate",
        "theory": "Associate terms: bookings, day rates and whose client it is",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -45359,12 +45116,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 32
+       "n": 32,
+       "legal": true
       },
       {
        "title": "Know your contract before you build your own thing",
        "theory": "Employment terms on intellectual property, outside interests and restrictions after leaving",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -45514,12 +45271,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 33
+       "n": 33,
+       "legal": true
       },
       {
        "title": "Know the client's learning function",
        "theory": "Who sits in and around a large client's learning team",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -45679,7 +45436,6 @@
       {
        "title": "Understand how large organisations buy",
        "theory": "Supplier onboarding, tenders, contracts and purchase orders",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -45880,12 +45636,12 @@
        "tier": "D",
        "tierWord": "",
        "bars": 0,
-       "n": 35
+       "n": 35,
+       "legal": true
       },
       {
        "title": "Look after an account",
        "theory": "Service reviews, changes of sponsor, budget freezes and renewals",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -46042,7 +45798,6 @@
       {
        "title": "Decide what you offer and to whom",
        "theory": "Choosing a first market and a single clear offer",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -46163,7 +45918,6 @@
       {
        "title": "Win your first three clients",
        "theory": "Finding paid work with no track record",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -46359,7 +46113,6 @@
       {
        "title": "Keep a simple pipeline",
        "theory": "Tracking possible work from first conversation to signed job",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -46536,7 +46289,6 @@
       {
        "title": "Choose a business form",
        "theory": "Sole trader or limited company in the UK: what each involves",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -46725,12 +46477,12 @@
        "n": 40,
        "tier": "D",
        "tierWord": "",
-       "bars": 0
+       "bars": 0,
+       "legal": true
       },
       {
        "title": "Register for the taxes that apply",
        "theory": "Self Assessment, Corporation Tax and VAT for a new UK training business",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -46977,12 +46729,12 @@
        "n": 41,
        "tier": "D",
        "tierWord": "",
-       "bars": 0
+       "bars": 0,
+       "legal": true
       },
       {
        "title": "Get the insurance you need",
        "theory": "What UK law requires, what contracts ask for and what a retreat adds",
-       "kind": "law",
        "body": {
         "situation": [
          {
@@ -47166,12 +46918,12 @@
        "n": 42,
        "tier": "D",
        "tierWord": "",
-       "bars": 0
+       "bars": 0,
+       "legal": true
       },
       {
        "title": "Get on to an associate list",
        "theory": "How training companies find, try out and keep freelance trainers",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -47340,7 +47092,6 @@
       {
        "title": "Understand how a learning function plans and spends its year",
        "theory": "The annual cycle: business planning, the budget, mandatory and discretionary spend",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -47539,7 +47290,6 @@
       {
        "title": "Know what a learning function reports upward",
        "theory": "Reporting to the executive: how much, how well and what changed",
-       "kind": "craft",
        "body": {
         "situation": [
          {
@@ -47714,7 +47464,6 @@
       {
        "title": "Work with a client's skills strategy",
        "theory": "Skills frameworks, skills data, and build, buy, borrow or redesign",
-       "kind": "craft",
        "body": {
         "situation": [
          {

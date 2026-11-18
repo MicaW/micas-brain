@@ -1,8 +1,6 @@
 import playbook from './content/generated/playbook-index.json';
 import site from './content/site.json';
-import methods from './content/toolkit/methods.json';
 import mechanics from './content/toolkit/mechanics.json';
-import recipes from './content/toolkit/recipes.json';
 import toolkitRef from './content/toolkit/toolkit-reference.json';
 
 export { playbook, site };
@@ -50,7 +48,8 @@ export const numberWord = (n) => ['No', 'One', 'Two', 'Three', 'Four', 'Five', '
 export const showFormats = import.meta.env.VITE_SHOW_FORMATS === 'true';
 
 // Toolkit data, exported from the toolkit workbook.
-export { methods, mechanics, recipes, toolkitRef };
+// Methods and recipes live in toolkit-data.js so they load only with the Toolkit and Search pages.
+export { mechanics, toolkitRef };
 
 // "a; b; c" in the workbook becomes a list.
 export const splitList = (text) => String(text || '').split(/;\s*/).map((s) => s.trim()).filter(Boolean);

@@ -1,7 +1,8 @@
 import Blocks from '../components/Blocks.jsx';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { mechanics, methods, recipes, site, splitList, toolkitRef } from '../lib.js';
+import { mechanics, site, splitList, toolkitRef } from '../lib.js';
+import { methods, recipes } from '../toolkit-data.js';
 import { Arrow, EvidenceRating, Pill, PlusMinus } from '../components/ui.jsx';
 import NotFound from './NotFound.jsx';
 
@@ -199,6 +200,11 @@ export function RecipeList() {
 }
 
 /* ---------- Detail pages ---------- */
+function usePageTitle(name) {
+  useEffect(() => {
+    document.title = name ? `${name} · ${site.name}` : site.name;
+  }, [name]);
+}
 function Crumb({ to, label, root = { to: '/toolkit', label: 'Toolkit' } }) {
   return (
     <nav className="crumb" aria-label="Breadcrumb">
@@ -240,6 +246,7 @@ const ProvisionalNote = () => <p className="status">Rating is provisional. Where
 export function MethodDetail() {
   const { slug } = useParams();
   const m = methods.find((x) => x.slug === slug);
+  usePageTitle(m?.name);
   if (!m) return <NotFound />;
   return (
     <>
@@ -249,7 +256,7 @@ export function MethodDetail() {
           {m.name}
         </h1>
         <p className="lead">{m.description}</p>
-        <Pill>{m.family}</Pill>
+        <Pill>{m.programme ? 'Programme structure' : m.family}</Pill>
       </section>
       <div className="detail-grid">
         <div className="prose">
@@ -257,7 +264,8 @@ export function MethodDetail() {
           <p>{m.bestFor}</p>
           {(m.howTo || []).length > 0 && (
             <>
-              <h2>How to run it</h2>
+              <h2>{m.programme ? 'How to set it up' : 'How to run it'}</h2>
+              {m.programme && <p>This is a way to organise learning over weeks or months, not something you run in one session.</p>}
               <ol className="steps">
                 {m.howTo.map((step) => (
                   <li key={step}>{step}</li>
@@ -328,6 +336,7 @@ export function MechanicDetail() {
 export function RecipeDetail() {
   const { slug } = useParams();
   const r = recipes.find((x) => x.slug === slug);
+  usePageTitle(r && (r.plainName || r.name));
   if (!r) return <NotFound />;
   return (
     <>
@@ -338,7 +347,7 @@ export function RecipeDetail() {
         </h1>
         <p className="lead">{r.purpose}</p>
         {r.plainName && <p className="meta">Also known as {r.name}</p>}
-        <Pill>{r.duration}</Pill>
+        <Pill>Session recipe</Pill>
       </section>
       <div className="detail-grid">
         <div className="prose">
@@ -355,7 +364,7 @@ export function RecipeDetail() {
           <Bullets text={r.outputs} />
         </div>
         <aside aria-label="Key facts">
-          <Facts rows={[['Who it suits', r.audience], ['Best for', r.bestUse], ['Methods combined', <NameLinks text={r.methods} />], ['Mechanics at work', <NameLinks text={r.mechanics} />], ['Room and setup', r.setup], ['People you need', r.needs]]} />
+          <Facts rows={[['Time', r.duration], ['Who it suits', r.audience], ['Best for', r.bestUse], ['Methods combined', <NameLinks text={r.methods} />], ['Mechanics at work', <NameLinks text={r.mechanics} />], ['Room and setup', r.setup], ['People you need', r.needs]]} />
         </aside>
       </div>
     </>

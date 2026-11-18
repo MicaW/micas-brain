@@ -72,6 +72,11 @@ export default function Topic() {
         </div>
       </section>
 
+      {topic.legal && (
+        <p className="legal-note" role="note">
+          This topic touches on law, tax or insurance. It is a summary to help you ask the right questions, not legal or tax advice. Rules change, so check with a qualified legal or tax professional before you rely on it.
+        </p>
+      )}
       {!full && (
         <p className="hurry" role="status">
           {failed ? 'This topic did not load. Check your connection and reload the page.' : 'Loading this topic.'}

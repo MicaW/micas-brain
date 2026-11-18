@@ -1,7 +1,7 @@
 import ErrorBoundary from './components/ErrorBoundary.jsx';
-import { useEffect, useRef } from 'react';
+import { lazy, Suspense, useEffect, useRef } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { mechanics, methods, recipes, site, stageByN, stageLabel, topics } from './lib.js';
+import { mechanics, site, stageByN, stageLabel, topics } from './lib.js';
 import SiteFooter from './components/SiteFooter.jsx';
 import SiteHeader from './components/SiteHeader.jsx';
 import About from './pages/About.jsx';
@@ -9,9 +9,19 @@ import Home from './pages/Home.jsx';
 import NotFound from './pages/NotFound.jsx';
 import { OutlinePage } from './pages/Outline.jsx';
 import Playbook from './pages/Playbook.jsx';
-import Search from './pages/Search.jsx';
 import Stage from './pages/Stage.jsx';
-import { MechanicDetail, MechanicList, MethodDetail, MethodFinder, RecipeDetail, RecipeList, Templates, ToolkitHome } from './pages/Toolkit.jsx';
+
+// The Toolkit and Search carry the largest data, so they load when first opened.
+const Search = lazy(() => import('./pages/Search.jsx'));
+const toolkitPage = (name) => lazy(() => import('./pages/Toolkit.jsx').then((m) => ({ default: m[name] })));
+const MechanicDetail = toolkitPage('MechanicDetail');
+const MechanicList = toolkitPage('MechanicList');
+const MethodDetail = toolkitPage('MethodDetail');
+const MethodFinder = toolkitPage('MethodFinder');
+const RecipeDetail = toolkitPage('RecipeDetail');
+const RecipeList = toolkitPage('RecipeList');
+const Templates = toolkitPage('Templates');
+const ToolkitHome = toolkitPage('ToolkitHome');
 import Topic from './pages/Topic.jsx';
 
 // Navigation and dashboard pages sit on the dark board. Reading pages sit on the light page.
@@ -25,6 +35,8 @@ const TITLES = {
   '/evidence/numbers': 'Training today in numbers', '/evidence/studies': 'Key studies', '/evidence/reading': 'Reading list and sources',
   '/case-studies': 'Case studies', '/about': 'About', '/glossary': 'Glossary', '/search': 'Search',
 };
+// Method and recipe pages set their own title, because their names load with the page.
+const ownTitle = (pathname) => /^\/toolkit\/(methods|recipes)\/./.test(pathname);
 function titleFor(pathname) {
   const stageMatch = pathname.match(/^\/playbook\/stage-(\d)$/);
   const last = pathname.split('/').pop();
@@ -32,7 +44,7 @@ function titleFor(pathname) {
     TITLES[pathname] ||
     (stageMatch && stageByN(stageMatch[1]) && stageLabel(stageByN(stageMatch[1]))) ||
     topics.find((t) => t.path === pathname)?.title ||
-    (/^\/(toolkit|playbook\/mechanics)\//.test(pathname) && [...methods, ...mechanics, ...recipes].find((x) => x.slug === last)?.name) ||
+    (/^\/playbook\/mechanics\//.test(pathname) && mechanics.find((x) => x.slug === last)?.name) ||
     site.outline.find((p) => p.path === pathname)?.title;
   return name ? `${name} · ${site.name}` : site.name;
 }
@@ -52,7 +64,7 @@ export default function App() {
 
   // On each new page: set the title, go to the top, and move focus to the content for keyboard and screen reader users.
   useEffect(() => {
-    document.title = titleFor(pathname);
+    if (!ownTitle(pathname)) document.title = titleFor(pathname);
     if (firstLoad.current) {
       firstLoad.current = false;
       return;
@@ -69,6 +81,7 @@ export default function App() {
       <SiteHeader />
       <main id="content" ref={main} tabIndex={-1} className={pathname === '/' ? 'home' : undefined}>
         <ErrorBoundary resetKey={pathname}>
+          <Suspense fallback={<p className="hurry" role="status">Loading.</p>}>
           <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/playbook" element={<Playbook />} />
@@ -89,6 +102,7 @@ export default function App() {
           ))}
           <Route path="*" element={<NotFound />} />
         </Routes>
+          </Suspense>
         </ErrorBoundary>
       </main>
       <SiteFooter />
