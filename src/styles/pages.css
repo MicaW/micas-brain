@@ -391,6 +391,14 @@
   padding: 14px 0;
   border-top: var(--rule);
 }
+/* One item is not a list to scan, so it gets no rules round it. */
+.plain-list:has(> li:only-child) {
+  border-bottom: 0;
+}
+.plain-list > li:only-child {
+  padding: 0;
+  border-top: 0;
+}
 .plain-list strong {
   font: 500 1.375rem/1.15 var(--font-display);
   letter-spacing: -0.015em;
@@ -518,8 +526,11 @@
   border-top-color: transparent;
   padding-top: 0;
 }
+/* The situation heading reads as a label over the text, not a second title. */
 .tp-b-top .part-h {
-  font-size: 1.5rem;
+  margin-bottom: -4px;
+  font: 600 0.8125rem/1.3 var(--font-sans);
+  letter-spacing: 0;
 }
 /* No rules between steps: the numbered discs and the bold leads already separate them. */
 .do-tile .steps li {
@@ -535,7 +546,7 @@
 .do-tile .steps li::before {
   width: 36px;
   height: 36px;
-  font-size: 1rem;
+  font-size: 1.3125rem;
 }
 .do-tile .steps .step-t {
   max-width: 64ch;
@@ -1116,8 +1127,39 @@
   border-top: 0;
   padding-top: 0;
 }
-.prose .b-mech {
-  font-size: 0.9375rem;
+/* Mechanics as pills: each one opens its own page in a new tab. */
+.b-mech-h {
+  margin: 0 0 10px;
+  font: 600 0.8125rem/1.3 var(--font-sans);
+}
+.prose .b-mech-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.prose .b-mech-list li {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+.mech-pill {
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  white-space: normal;
+  transition: background 0.2s, color 0.2s;
+}
+.mech-pill:hover {
+  background: var(--on-tile, var(--ink));
+  color: var(--tile-bg, var(--surface));
+}
+.mech-pill:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
 }
 .prev-link {
   margin: 32px 0 12px;

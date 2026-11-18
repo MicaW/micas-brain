@@ -178,17 +178,19 @@ function Block({ block }) {
       const found = block.slugs.map((slug) => mechanics.find((m) => m.slug === slug)).filter(Boolean);
       if (!found.length) return null;
       return (
-        <p className="b-mech">
-          <span>Learning mechanics behind this: </span>
-          {found.map((m, i) => (
-            <span key={m.slug}>
-              {i > 0 && ', '}
-              <Link className="txt" to={`/playbook/mechanics/${m.slug}`}>
-                {m.name.toLowerCase()}
-              </Link>
-            </span>
-          ))}
-        </p>
+        <div className="b-mech">
+          <p className="b-mech-h">Learning mechanics behind this</p>
+          <ul className="b-mech-list">
+            {found.map((m) => (
+              <li key={m.slug}>
+                <a className="pill mech-pill" href={`#/playbook/mechanics/${m.slug}`} target="_blank" rel="noopener">
+                  {m.name}
+                  <span className="sr-only"> (opens in a new tab)</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       );
     }
     case 'links':
