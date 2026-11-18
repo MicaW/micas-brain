@@ -1,4 +1,4 @@
-import playbook from './content/playbook.json';
+import playbook from './content/generated/playbook-index.json';
 import site from './content/site.json';
 import methods from './content/toolkit/methods.json';
 import mechanics from './content/toolkit/mechanics.json';
@@ -34,6 +34,12 @@ export const topics = stages.flatMap((stage) =>
   ),
 );
 export const topicById = (id) => topics.find((t) => t.id === id);
+
+// The full text of a stage's topics is fetched the first time one of them is opened.
+const stageFiles = import.meta.glob('./content/generated/stage-*.json');
+const loaded = {};
+export const loadStageText = (n) =>
+  (loaded[n] ??= stageFiles[`./content/generated/stage-${n}.json`]().then((m) => m.default));
 
 // Link labels are built from the topic so they never drift from its title.
 export const topicLinkLabel = (topic) => `Stage ${topic.stage.n}: ${topic.title}`;

@@ -1075,7 +1075,7 @@
  },
  {
   "id": "M154",
-  "slug": "learning-by-teaching-prot-g-effect",
+  "slug": "learning-by-teaching",
   "name": "Learning by teaching",
   "family": "Practise & perform",
   "format": "Peer or public teaching",
@@ -2214,7 +2214,7 @@
  },
  {
   "id": "M322",
-  "slug": "world-caf",
+  "slug": "world-cafe",
   "name": "World Café",
   "family": "Learn with others",
   "format": "Large-group facilitated dialogue",

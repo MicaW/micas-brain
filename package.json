@@ -7,7 +7,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "build:single": "vite build --config vite.single.config.js",
-    "tokens": "node scripts/build-tokens.mjs"
+    "tokens": "node scripts/build-tokens.mjs",
+    "content": "node scripts/split-content.mjs",
+    "predev": "npm run content",
+    "prebuild": "npm run content",
+    "prebuild:single": "npm run content"
   },
   "keywords": [],
   "author": "",

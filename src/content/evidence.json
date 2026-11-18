@@ -426,8 +426,8 @@
    "stage": 7,
    "items": [
     {
-     "label": "Holmes, Bialik and Fadel, Artificial Intelligence in Education.",
-     "url": null
+     "label": "Holmes, Bialik and Fadel, Artificial Intelligence in Education (2019).",
+     "url": "https://oro.open.ac.uk/60255"
     }
    ]
   },
@@ -435,12 +435,12 @@
    "stage": 8,
    "items": [
     {
-     "label": "Mezirow, Transformative Learning.",
-     "url": null
+     "label": "Mezirow, Transformative Dimensions of Adult Learning (1991).",
+     "url": "https://www.wiley-vch.de/en/areas-interest/humanities-social-sciences/transformative-dimensions-of-adult-learning-978-1-55542-339-1"
     },
     {
-     "label": "Csikszentmihalyi, Flow.",
-     "url": null
+     "label": "Csikszentmihalyi, Flow: The Psychology of Optimal Experience (1990).",
+     "url": "https://mitpressbookstore.mit.edu/book/9780061339202"
     }
    ]
   },

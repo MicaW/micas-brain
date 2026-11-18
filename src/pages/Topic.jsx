@@ -1,5 +1,6 @@
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { playbook, stageLabel, stagePath, topicById, topics } from '../lib.js';
+import { loadStageText, playbook, stageLabel, stagePath, topicById, topics } from '../lib.js';
 import Blocks from '../components/Blocks.jsx';
 import { Arrow } from '../components/ui.jsx';
 import Words from '../components/Words.jsx';
@@ -11,10 +12,28 @@ const KEYS = ['situation', 'do', 'why', 'try', 'watch', 'deeper'];
 export default function Topic() {
   const { stage: stageParam, topic: topicSlug } = useParams();
   const topic = topics.find((t) => t.stage.slug === stageParam && t.slug === topicSlug);
+  const stageN = topic?.stage.n;
+  const [text, setText] = useState({});
+  useEffect(() => {
+    if (!stageN) return undefined;
+    let live = true;
+    loadStageText(stageN).then(
+      (all) => live && setText((t) => ({ ...t, [stageN]: all })),
+      () => live && setText((t) => ({ ...t, [stageN]: 'failed' })),
+    );
+    return () => {
+      live = false;
+    };
+  }, [stageN]);
   if (!topic) return <NotFound />;
 
   const { stage } = topic;
-  const parts = playbook.topicFormat.map((part, i) => ({ ...part, key: KEYS[i], content: topic.body ? topic.body[KEYS[i]] : null }));
+  const stageText = text[stage.n];
+  const failed = stageText === 'failed';
+  const full = stageText && !failed ? stageText[topic.id] : null;
+  const body = full?.body;
+  const quiz = full?.quiz;
+  const parts = playbook.topicFormat.map((part, i) => ({ ...part, key: KEYS[i], content: body ? body[KEYS[i]] : null }));
   const [situation, doThis, ...rest] = parts;
   const inStage = topics.filter((t) => t.stage.n === stage.n);
   const next = inStage[inStage.indexOf(topic) + 1];
@@ -53,6 +72,13 @@ export default function Topic() {
         </div>
       </section>
 
+      {!full && (
+        <p className="hurry" role="status">
+          {failed ? 'This topic did not load. Check your connection and reload the page.' : 'Loading this topic.'}
+        </p>
+      )}
+      {full && (
+      <>
       <div className="g tp-b-top">
         <section className="tile paper prose s5">
           <h2 className="part-h">{situation.name}</h2>
@@ -77,14 +103,14 @@ export default function Topic() {
             </div>
           </section>
         ))}
-        {topic.quiz && (
+        {quiz && (
           <section className="tp-row" aria-labelledby="h-quiz">
             <div>
               <h2 id="h-quiz">Test yourself</h2>
               <p className="status">Answer from memory first, then open each one to check.</p>
             </div>
             <div className="prose">
-              <Blocks blocks={[{ type: 'quiz', items: topic.quiz }]} />
+              <Blocks blocks={[{ type: 'quiz', items: quiz }]} />
             </div>
           </section>
         )}
@@ -110,6 +136,9 @@ export default function Topic() {
           </section>
         )}
       </div>
+
+      </>
+      )}
 
       {previous && (
         <p className="prev-link">

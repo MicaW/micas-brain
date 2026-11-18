@@ -46,7 +46,7 @@ body {
   background: var(--ground);
   color: var(--ink);
   font-family: var(--font-sans);
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -84,7 +84,7 @@ button:focus-visible {
   border-radius: var(--radius-pill);
   background: var(--ink);
   color: var(--on-ink);
-  font: 500 15px/1.2 var(--font-sans);
+  font: 500 0.9375rem/1.2 var(--font-sans);
   text-decoration: none;
 }
 .skip:focus {
@@ -126,7 +126,7 @@ main:focus {
   gap: 12px 24px;
 }
 .wordmark {
-  font: 600 22px/1 var(--font-display);
+  font: 600 1.375rem/1 var(--font-display);
   letter-spacing: -0.03em;
   text-decoration: none;
 }
@@ -141,7 +141,7 @@ main:focus {
   min-height: 24px;
   padding: 10px 16px;
   border-radius: var(--radius-pill);
-  font: 500 15px/1.2 var(--font-sans);
+  font: 500 0.9375rem/1.2 var(--font-sans);
   text-decoration: none;
 }
 .nav a:hover {
@@ -167,7 +167,7 @@ main:focus {
   background: var(--field);
   color: var(--ink);
   caret-color: var(--ink);
-  font: 400 15px/1 var(--font-sans);
+  font: 400 0.9375rem/1 var(--font-sans);
 }
 .search input::placeholder {
   color: var(--ink-muted);
@@ -182,7 +182,7 @@ main:focus {
   gap: 12px 24px;
   padding-top: 24px;
   border-top: var(--rule);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.45;
   color: var(--ink-muted);
 }
@@ -235,7 +235,7 @@ a.tile:hover,
   padding: 6px 14px;
   border: 1.5px solid currentColor;
   border-radius: var(--radius-pill);
-  font: 500 13px/1.2 var(--font-sans);
+  font: 500 0.8125rem/1.2 var(--font-sans);
   white-space: nowrap;
 }
 .pill.start {
@@ -253,7 +253,7 @@ a.tile:hover,
   padding: 14px 24px;
   border: 1.5px solid currentColor;
   border-radius: var(--radius-pill);
-  font: 500 16px/1.2 var(--font-sans);
+  font: 500 1rem/1.2 var(--font-sans);
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
 }
@@ -280,7 +280,7 @@ a.tile:hover,
 }
 
 .txt {
-  font: 500 15px/1.2 var(--font-sans);
+  font: 500 0.9375rem/1.2 var(--font-sans);
   text-underline-offset: 4px;
 }
 
@@ -291,7 +291,7 @@ a.tile:hover,
   width: 48px;
   height: 48px;
   border-radius: var(--radius-pill);
-  font: 600 21px/1 var(--font-display);
+  font: 600 1.3125rem/1 var(--font-display);
   font-variant-numeric: tabular-nums;
   color: var(--on-tile);
   text-decoration: none;
@@ -303,7 +303,7 @@ a.tile:hover,
 .sd.sm {
   width: 44px;
   height: 44px;
-  font-size: 19px;
+  font-size: 1.1875rem;
 }
 .sd[aria-current='page'] {
   box-shadow: 0 0 0 2px var(--ground), 0 0 0 4px var(--ink);
@@ -315,7 +315,7 @@ a.tile:hover,
   width: 40px;
   height: 40px;
   border-radius: var(--radius-pill);
-  font: 600 18px/1 var(--font-display);
+  font: 600 1.125rem/1 var(--font-display);
   font-variant-numeric: tabular-nums;
   color: var(--on-tile);
 }
@@ -325,7 +325,7 @@ a.tile:hover,
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font: 500 13px/1.2 var(--font-sans);
+  font: 500 0.8125rem/1.2 var(--font-sans);
   white-space: nowrap;
 }
 .ev b {
@@ -359,13 +359,13 @@ a.tile:hover,
 
 .h2 {
   margin: 0;
-  font: 500 36px/1.05 var(--font-display);
+  font: 500 2.25rem/1.05 var(--font-display);
   letter-spacing: -0.025em;
   text-wrap: balance;
 }
 .note {
   margin: 0;
-  font: 400 14px/1.45 var(--font-sans);
+  font: 400 0.875rem/1.45 var(--font-sans);
   color: var(--note-on-tile);
 }
 .split {
@@ -385,7 +385,7 @@ a.tile:hover,
 }
 .hero-h1 {
   margin: 0;
-  font: 500 96px/0.93 var(--font-display);
+  font: 500 6rem/0.93 var(--font-display);
   letter-spacing: -0.04em;
 }
 .hero .hero-h1 {
@@ -395,7 +395,7 @@ a.tile:hover,
 .lead {
   margin: 0;
   max-width: 56ch;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.45;
   color: var(--ink-soft);
 }
@@ -410,12 +410,12 @@ a.tile:hover,
 }
 .entry-h {
   margin: 0;
-  font: 500 56px/0.98 var(--font-display);
+  font: 500 3.5rem/0.98 var(--font-display);
   letter-spacing: -0.035em;
   text-wrap: balance;
 }
 .entry.dark .entry-h {
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1;
   letter-spacing: -0.03em;
 }
@@ -439,7 +439,7 @@ a.tile:hover,
 .counts a {
   padding-top: 10px;
   border-top: 1.5px solid var(--ink);
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.45;
   text-decoration: none;
 }
@@ -450,7 +450,7 @@ a.tile:hover,
 }
 .count-n {
   display: block;
-  font: 400 56px/0.9 var(--font-display);
+  font: 400 3.5rem/0.9 var(--font-display);
   letter-spacing: -0.04em;
   font-variant-numeric: tabular-nums;
   color: var(--tile-lime);
@@ -472,7 +472,7 @@ a.tile:hover,
 .card-h {
   margin: 0;
   padding-right: 16px;
-  font: 500 32px/1.05 var(--font-display);
+  font: 500 2rem/1.05 var(--font-display);
   letter-spacing: -0.025em;
   text-wrap: balance;
 }
@@ -520,7 +520,7 @@ a.tile:hover,
   display: none;
 }
 .an {
-  font: 400 22px/1.15 var(--font-display);
+  font: 400 1.375rem/1.15 var(--font-display);
   letter-spacing: -0.015em;
 }
 .ad {
@@ -528,7 +528,7 @@ a.tile:hover,
   flex-direction: column;
   gap: 10px;
   padding: 0 44px 20px 4px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.5;
   color: var(--ink-soft);
 }
@@ -545,7 +545,7 @@ a.tile:hover,
 }
 .src {
   margin: 0;
-  font: 400 13px/1.35 var(--font-sans);
+  font: 400 0.8125rem/1.35 var(--font-sans);
   color: var(--ink-muted);
 }
 
@@ -560,12 +560,12 @@ a.tile:hover,
   gap: 20px;
 }
 .myth-side .h2 {
-  font-size: 48px;
+  font-size: 3rem;
 }
 .myth-side p {
   margin: 0;
   max-width: 44ch;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.5;
   color: var(--ink-soft);
 }
@@ -576,7 +576,7 @@ a.tile:hover,
   gap: 12px;
 }
 .myth-count {
-  font: 500 15px/1.2 var(--font-sans);
+  font: 500 0.9375rem/1.2 var(--font-sans);
   font-variant-numeric: tabular-nums;
 }
 .myth-ctl .txt {
@@ -635,17 +635,17 @@ a.tile:hover,
 }
 .myth-claim {
   margin: 0;
-  font: 500 48px/1 var(--font-display);
+  font: 500 3rem/1 var(--font-display);
   letter-spacing: -0.035em;
   text-wrap: balance;
 }
 .myth-verdict {
   margin: 0 0 8px;
-  font: 600 18px/1.35 var(--font-sans);
+  font: 600 1.125rem/1.35 var(--font-sans);
 }
 .myth-card .note {
   max-width: 60ch;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 /* Case study cards */
@@ -674,23 +674,23 @@ a.tile:hover,
 }
 .cs h3 {
   margin: 0;
-  font: 500 36px/1 var(--font-display);
+  font: 500 2.25rem/1 var(--font-display);
   letter-spacing: -0.03em;
 }
 .cs-prog {
   margin: 0;
-  font: 600 15px/1.3 var(--font-sans);
+  font: 600 0.9375rem/1.3 var(--font-sans);
 }
 .kv {
   display: grid;
   gap: 4px 0;
   margin: 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.45;
 }
 .kv dt {
   margin-top: 8px;
-  font: 600 13px/1.3 var(--font-sans);
+  font: 600 0.8125rem/1.3 var(--font-sans);
   color: var(--ink-muted);
 }
 .kv dd {
@@ -702,10 +702,10 @@ a.tile:hover,
 }
 .cs-borrow span {
   display: block;
-  font: 600 13px/1.3 var(--font-sans);
+  font: 600 0.8125rem/1.3 var(--font-sans);
 }
 .cs-borrow strong {
-  font: 500 19px/1.2 var(--font-display);
+  font: 500 1.1875rem/1.2 var(--font-display);
   letter-spacing: -0.01em;
 }
 
@@ -738,7 +738,7 @@ a.tile:hover,
   height: 44px;
   border-radius: var(--radius-pill);
   background: #0b0b0c;
-  font: 600 20px/1 var(--font-display);
+  font: 600 1.25rem/1 var(--font-display);
 }
 .tile-words {
   display: flex;
@@ -750,16 +750,16 @@ a.tile:hover,
 }
 .sn {
   margin: 0;
-  font: 600 14px/1.3 var(--font-sans);
+  font: 600 0.875rem/1.3 var(--font-sans);
 }
 .q {
   margin: 0;
-  font: 500 28px/1.08 var(--font-display);
+  font: 500 1.75rem/1.08 var(--font-display);
   letter-spacing: -0.025em;
   text-wrap: balance;
 }
 .q.q1 {
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 1;
 }
 .fmt {
@@ -769,7 +769,7 @@ a.tile:hover,
 }
 .fmt-hint {
   margin: 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.45;
   color: var(--ink-muted);
 }
@@ -787,11 +787,11 @@ a.tile:hover,
   border-top: 1.5px solid var(--ink);
 }
 .stp strong {
-  font: 500 20px/1.15 var(--font-display);
+  font: 500 1.25rem/1.15 var(--font-display);
   letter-spacing: -0.01em;
 }
 .stp span {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.45;
   color: var(--ink-muted);
 }
@@ -810,7 +810,7 @@ a.tile:hover,
   gap: 12px 24px;
 }
 .crumb {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.45;
 }
 .crumb .sep {
@@ -834,7 +834,7 @@ a.tile:hover,
   height: 148px;
   border-radius: var(--radius-pill);
   background: var(--stage);
-  font: 500 96px/1 var(--font-display);
+  font: 500 6rem/1 var(--font-display);
   letter-spacing: -0.04em;
   color: var(--on-tile);
 }
@@ -846,7 +846,7 @@ a.tile:hover,
 .stage-h1 {
   margin: 0;
   max-width: 18ch;
-  font: 500 84px/0.94 var(--font-display);
+  font: 500 5.25rem/0.94 var(--font-display);
   letter-spacing: -0.04em;
   text-wrap: balance;
 }
@@ -862,7 +862,7 @@ a.tile:hover,
 }
 .stage-count {
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.45;
   color: var(--ink-muted);
 }
@@ -872,12 +872,12 @@ a.tile:hover,
 }
 .parts-hint {
   margin: 0;
-  font: 600 15px/1.3 var(--font-sans);
+  font: 600 0.9375rem/1.3 var(--font-sans);
 }
 .all {
   all: unset;
   padding: 10px 0;
-  font: 500 15px/1.2 var(--font-sans);
+  font: 500 0.9375rem/1.2 var(--font-sans);
   text-decoration: underline;
   text-underline-offset: 4px;
   cursor: pointer;
@@ -913,14 +913,14 @@ a.tile:hover,
   outline-offset: -3px;
 }
 .pt {
-  font: 500 40px/1.02 var(--font-display);
+  font: 500 2.5rem/1.02 var(--font-display);
   letter-spacing: -0.03em;
 }
 .sum {
   max-width: 70ch;
   margin: 0;
   padding: 0 16px 26px;
-  font: 400 16px/1.45 var(--font-sans);
+  font: 400 1rem/1.45 var(--font-sans);
   color: var(--ink-muted);
 }
 .part-body {
@@ -968,21 +968,21 @@ a.tile:hover,
   height: 52px;
   border-radius: var(--radius-pill);
   background: var(--stage);
-  font: 600 19px/1 var(--font-display);
+  font: 600 1.1875rem/1 var(--font-display);
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
   color: var(--on-tile);
 }
 .sq {
   display: block;
-  font: 500 32px/1.06 var(--font-display);
+  font: 500 2rem/1.06 var(--font-display);
   letter-spacing: -0.028em;
   text-wrap: balance;
 }
 .meta {
   display: block;
   margin-top: 6px;
-  font: 400 14px/1.4 var(--font-sans);
+  font: 400 0.875rem/1.4 var(--font-sans);
   color: var(--ink-muted);
 }
 .nx {
@@ -1002,10 +1002,10 @@ a.tile:hover,
   gap: 8px;
 }
 .nx-label {
-  font: 600 15px/1.3 var(--font-sans);
+  font: 600 0.9375rem/1.3 var(--font-sans);
 }
 .nx-q {
-  font: 500 48px/1 var(--font-display);
+  font: 500 3rem/1 var(--font-display);
   letter-spacing: -0.035em;
   text-wrap: balance;
 }
@@ -1021,7 +1021,7 @@ a.tile:hover,
 }
 .outline h1 {
   margin: 0;
-  font: 500 72px/0.95 var(--font-display);
+  font: 500 4.5rem/0.95 var(--font-display);
   letter-spacing: -0.035em;
   text-wrap: balance;
 }
@@ -1030,7 +1030,7 @@ a.tile:hover,
 }
 .outline .meta {
   margin: 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .outline-list {
   display: grid;
@@ -1047,11 +1047,11 @@ a.tile:hover,
   gap: 4px 16px;
   padding: 14px 0;
   border-top: 1px solid var(--line);
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.45;
 }
 .outline-list b {
-  font: 600 17px/1.3 var(--font-display);
+  font: 600 1.0625rem/1.3 var(--font-display);
   font-variant-numeric: tabular-nums;
 }
 .outline-list strong {
@@ -1092,7 +1092,7 @@ a.tile:hover,
 }
 @media (max-width: 760px) {
   .pt {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .st {
     grid-template-columns: 44px minmax(0, 1fr) 24px;
@@ -1110,30 +1110,30 @@ a.tile:hover,
     height: 24px;
   }
   .sq {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .stage-h1 {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
   .disc {
     width: 44px;
     height: 44px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .stage-hero {
     grid-template-columns: 1fr;
   }
   .nx-q {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .outline h1 {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
   /* Nine 44px discs do not fit one row on a phone; 32px ones do, and stay above the 24px target minimum. */
   .stage-bar .sd.sm {
     width: 32px;
     height: 32px;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .stage-bar .stage-nav {
     gap: 5px;
@@ -1147,10 +1147,10 @@ a.tile:hover,
     grid-column: span 12;
   }
   .hero-h1 {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .q.q1 {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
   .ad {
     padding: 0 8px 20px 4px;

@@ -1,7 +1,8 @@
 import { useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import home from '../content/home.json';
-import { mechanics, methods, recipes, stageLabel, topicById, topics } from '../lib.js';
+import evidence from '../content/evidence.json';
+import { mechanics, methods, recipes, site, stageLabel, topicById, topics } from '../lib.js';
 import { Arrow } from '../components/ui.jsx';
 
 // Everything that can be found, built once.
@@ -11,8 +12,10 @@ const INDEX = [
   ...home.findings.items.map((f) => ({ group: 'Findings', name: f.title, sub: f.source, to: topicById(f.topicId).path })),
   ...methods.map((m) => ({ group: 'Methods', name: m.name, sub: m.description, to: `/toolkit/methods/${m.slug}`, extra: m.variants.map((v) => v.name).join(' ') })),
   ...mechanics.map((m) => ({ group: 'Learning mechanics', name: m.name, sub: m.useful, to: `/playbook/mechanics/${m.slug}` })),
-  ...recipes.map((r) => ({ group: 'Session recipes', name: r.name, sub: r.purpose, to: `/toolkit/recipes/${r.slug}` })),
+  ...recipes.map((r) => ({ group: 'Session recipes', name: r.plainName || r.name, sub: r.purpose, to: `/toolkit/recipes/${r.slug}`, extra: r.name })),
   ...home.cases.items.map((c) => ({ group: 'Case studies', name: c.name, sub: c.programme, to: '/' })),
+  ...site.templateData.map((t) => ({ group: 'Templates', name: t.name, sub: t.what, to: '/toolkit/templates', extra: t.when })),
+  ...evidence.glossary.map((g) => ({ group: 'Glossary', name: g.term, sub: g.def, to: '/glossary' })),
 ].map((entry) => ({ ...entry, text: `${entry.name} ${entry.sub} ${entry.extra || ''}`.toLowerCase() }));
 
 export default function Search() {
@@ -37,7 +40,7 @@ export default function Search() {
         <input id="search-page-q" className="lib-search" type="search" placeholder="Search topics, methods, recipes" value={query} onChange={(e) => setParams(e.target.value ? { q: e.target.value } : {}, { replace: true })} autoComplete="off" />
       </section>
       <section aria-label="Results" aria-live="polite">
-        {!query.trim() && <p className="lib-empty">Type a word to search topics, mistakes, findings, methods, mechanics, recipes and case studies.</p>}
+        {!query.trim() && <p className="lib-empty">Type a word to search topics, mistakes, findings, methods, mechanics, recipes, templates, case studies and the glossary.</p>}
         {query.trim() && groups.length === 0 && <p className="lib-empty">Nothing found for "{query}". Try a shorter or different word.</p>}
         {groups.map(({ group, hits }) => (
           <div key={group}>

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { showFormats, site } from '../lib.js';
 import evidence from '../content/evidence.json';
@@ -8,20 +9,37 @@ import NotFound from './NotFound.jsx';
 export function OutlinePage() {
   const { pathname } = useLocation();
   const page = site.outline.find((p) => p.path === pathname);
+  const [query, setQuery] = useState('');
   if (!page || (page.private && !showFormats)) return <NotFound />;
   if (page.title === 'Glossary') {
     return (
       <section className="outline" aria-labelledby="h-outline">
         <h1 id="h-outline">{page.title}</h1>
         <p className="lead">The terms the site uses, in plain words.</p>
-        <dl className="glossary">
-          {evidence.glossary.map((entry) => (
-            <div key={entry.term}>
-              <dt>{entry.term}</dt>
-              <dd>{entry.def}</dd>
-            </div>
-          ))}
-        </dl>
+        <label className="sr-only" htmlFor="glossary-q">
+          Filter the glossary
+        </label>
+        <input id="glossary-q" className="lib-search glossary-q" type="search" placeholder="Filter terms" value={query} onChange={(e) => setQuery(e.target.value)} autoComplete="off" />
+        {(() => {
+          const q = query.trim().toLowerCase();
+          const shown = evidence.glossary.filter((entry) => !q || `${entry.term} ${entry.def}`.toLowerCase().includes(q));
+          return (
+            <>
+              <p className="sr-only" role="status">
+                {q ? (shown.length ? 'Showing matching terms.' : 'No terms match.') : ''}
+              </p>
+              {shown.length === 0 && <p className="lib-empty">No term matches that. Try a shorter word.</p>}
+              <dl className="glossary">
+                {shown.map((entry) => (
+                  <div key={entry.term}>
+                    <dt>{entry.term}</dt>
+                    <dd>{entry.def}</dd>
+                  </div>
+                ))}
+              </dl>
+            </>
+          );
+        })()}
       </section>
     );
   }

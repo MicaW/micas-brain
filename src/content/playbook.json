@@ -1,5 +1,5 @@
 {
- "_note": "The Playbook: 9 stages, 149 topics. A topic with a rating and linked sources has been checked against published summaries. Topics without still carry a draft label.",
+ "_note": "The Playbook, written in one file. scripts/split-content.mjs splits it for the site.",
  "topicFormat": [
   {
    "n": 1,
@@ -4617,7 +4617,7 @@
          {
           "type": "steps",
           "items": [
-           "At the start, have each person set a goal for the course that is specific and a stretch. \"Pass the product check at 90 per cent by the 28th\" beats \"get through it\".",
+           "At the start, have each person set a goal for the course that is specific and a stretch. \"Pass the product check at 90 per cent by the 28th\" beats \"get through it\". If the work is brand new to them, start with a goal about learning it and move to a result goal once the basics are in place, as 1.29 explains.",
            "Agree the effort in hours and put it in the diary. Three 30-minute blocks a week, named days. Effort that has no slot does not happen.",
            "Build short prompts into the course itself, at the start, in the middle and near the end of each module. A prompt is a question on screen that makes the learner stop and check their goal, their attention or their progress. The worked example below has the wording.",
            "Plan for the stall. Ask each person to write what they will do in the week when work gets in the way. Topic 5.2 gives the when-and-then form.",
@@ -4977,7 +4977,7 @@
          },
          {
           "type": "p",
-          "text": "It also fills a gap in the evaluation models. Kirkpatrick's second level is simply called learning (6.2). This scheme says learning comes in three kinds and a single test will catch only one of them. The affective kind is the one most often left out. A meta-analysis of web-based and classroom training, covered in \"Know whether online training works as well as the classroom\" in Stage 3, reported that too few studies measured affective outcomes to estimate an effect at all."
+          "text": "It also fills a gap in the evaluation models. Kirkpatrick's second level is simply called learning (6.2). This scheme says learning comes in three kinds and a single test will catch only one of them. The affective kind is the one most often left out. A meta-analysis of web-based and classroom training, covered in 3.25, reported that too few studies measured affective outcomes to estimate an effect at all."
          },
          {
           "type": "p",
@@ -12502,7 +12502,7 @@
            "Keep each workshop to a half day or a day. Give no more than a quarter of the time to input and spend the rest on practice with the managers' own cases, as 2.8 and 2.34 describe.",
            "State the time cost in plain hours and get the sponsor to protect it. In the outline below it is five days in the room across the year, and between one and two hours a month outside it.",
            "Choose the length from the client's calendar. Six months suits a small cohort and four skills. Twelve months lets every participant go through one full round of goal setting, performance reviews and pay conversations while they still have the group behind them.",
-           "Write the measures before the first session. The topic \"Judge a leadership programme over a year\" shows how."
+           "Write the measures before the first session. Topic 2.49 shows how."
           ]
          }
         ],
@@ -13475,7 +13475,7 @@
           "items": [
            "The reports arrive by email on a Friday afternoon with no debrief booked. Hold release until every participant has a debrief date.",
            "The type label sticks. Months later a manager says \"she's an introvert, so I didn't ask her to present\". If a type tool has been used, say at the time that it describes a preference on the day and decides nothing.",
-           "The 360 is run again at month twelve to prove the programme worked. Raters who know about the programme tend to rate kindly, so report it as one view among several, as the topic \"Judge a leadership programme over a year\" sets out."
+           "The 360 is run again at month twelve to prove the programme worked. Raters who know about the programme tend to rate kindly, so report it as one view among several, as 2.49 sets out."
           ]
          }
         ],
@@ -18327,7 +18327,7 @@
            "Start with the learning management system. It is the record. It holds the catalogue, enrols people, assigns mandatory courses, tracks completions and produces the compliance report. It takes its list of people, managers and job details from the HR system. Topic 9.30 explains why you never keep a rival record.",
            "Ask whether there is a learning experience platform as well. Where one exists it is the front door for learners: search, recommendations and pathways that pull content from several sources. Some clients have one product that does both jobs.",
            "Check the content library before you propose anything. Many large companies pay a yearly licence for thousands of ready-made courses. Ask for a login or a title list and search it for your subject. If the library already covers the general knowledge, use those titles as preparation and spend your custom time on the client's own cases. Say in the proposal that you have done so.",
-           "Ask whether a skills platform is in use. It holds the skills framework and each person's skills profile, and content is often tagged to skills there. The Stage 9 topic \"Work with a client's skills strategy\" covers what to do with it.",
+           "Ask whether a skills platform is in use. It holds the skills framework and each person's skills profile, and content is often tagged to skills there. Topic 9.46 covers what to do with it.",
            "Ask which authoring tool the client licenses. If their team will edit your module later, build in their tool and hand over the source files. Ownership of those files is a contract point (9.9).",
            "Ask about the virtual classroom tool. Find out whether breakout rooms, polls and whiteboards are switched on, whether attendance passes to the learning management system automatically, and what the recording rules are (4.10).",
            "Ask what reports come out of each system and who can run them. That decides what you can measure without extra work (6.12). Topic 3.14 covers the tracking standards the systems use to talk to each other."
@@ -18349,7 +18349,7 @@
          },
          {
           "type": "p",
-          "text": "Ownership matters because each system has a different person behind it, with a queue and a lead time. The learning operations team usually runs the learning management system. IT often owns the virtual classroom tool. The HR systems team owns the people data. The next topic in this part, \"Get your content on to a client's platform\", covers the loading itself."
+          "text": "Ownership matters because each system has a different person behind it, with a queue and a lead time. The learning operations team usually runs the learning management system. IT often owns the virtual classroom tool. The HR systems team owns the people data. Topic 3.24 covers the loading itself."
          }
         ],
         "try": [
@@ -18697,7 +18697,7 @@
          {
           "type": "steps",
           "items": [
-           "Split the programme by kind of outcome before you answer. Knowledge, skill, and belief or relationships each get a separate answer. The Stage 1 topic \"Know what kind of outcome you are teaching\" gives the three kinds.",
+           "Split the programme by kind of outcome before you answer. Knowledge, skill, and belief or relationships each get a separate answer. Topic 1.30 gives the three kinds.",
            "Concede the knowledge. Say plainly that for facts and concepts, online teaching has done as well as a classroom when both use the same methods. Offer to move that part online.",
            "Compare methods, not media. List what each version contains: explanation, practice, feedback, time, and how much control the learner has. If the room version has three practice rounds and the online one has none, talk about that.",
            "For skills, ask what practice and feedback the online version gives, and who watches. The pooled evidence on skills is thin, so make the case from the method (2.34), not from a study of media.",
@@ -18899,7 +18899,7 @@
          },
          {
           "type": "p",
-          "text": "Clark tells you how to read a study. Kozma tells you how to design. The debate is an argument about research design, built on studies in schools and colleges, with no workplace samples named in the pages read. The modern test with some working adults in it is the meta-analysis in \"Know whether online training works as well as the classroom\", which found no difference for knowledge once methods were the same. The checks in the steps are this site's way of putting both positions to work."
+          "text": "Clark tells you how to read a study. Kozma tells you how to design. The debate is an argument about research design, built on studies in schools and colleges, with no workplace samples named in the pages read. The modern test with some working adults in it is the meta-analysis in 3.25, which found no difference for knowledge once methods were the same. The checks in the steps are this site's way of putting both positions to work."
          },
          {
           "type": "study",
@@ -22688,7 +22688,7 @@
            "\"Third, phones. Away during practice, please, because your partner deserves your attention. If you're waiting for a call you must take, tell me now and step out when it comes.\"",
            "\"Fourth, questions. Ask as we go if something is unclear. If it's a bigger issue I'll write it on this sheet headed 'Parked' and we'll come back to it before we finish.\"",
            "\"Fifth, time. I'll start and finish when I said I would. In return, please be back from breaks at the time on the clock.\"",
-           "\"Last, the practice. Nobody performs in front of the room. You can watch the first round before you have a go.\"",
+           "\"Last, the practice. Nobody is made to perform in front of the room. You can watch the first round before you have a go.\"",
            "\"What would you add or change? ... Can everyone work with that? Good. It stays on the wall.\""
           ]
          }
@@ -23435,7 +23435,7 @@
          {
           "type": "steps",
           "items": [
-           "Call it practice. Say in the invitation that the day includes it, as 2.21 advises, and say at the start that nobody performs in front of the room.",
+           "Call it practice. Say in the invitation that the day includes it, as 2.21 advises, and say at the start that nobody is made to perform in front of the room.",
            "Work in threes: one person practises, one plays the other party, one observes. Run all the threes at once. The noise gives each group privacy.",
            "Give each role a written brief of half a page. The practiser's brief gives the situation and the goal. The other party's brief says how to behave: \"Push back twice. If you are asked a good question, answer it honestly. Do not make it impossible.\"",
            "Demonstrate first for two minutes, with a volunteer or co-trainer, and leave in one clear flaw. The room gives you feedback from the observer sheet.",
@@ -25997,7 +25997,7 @@
            "Find out the spread before you design. Ask the organiser for each person's time in the role, or send three questions a week ahead (1.27). On the day, a line-up by years in the job shows the room its own range in two minutes (4.25).",
            "Use pre-work to lift the floor. Send the new people twenty minutes of basics: the key terms, one worked example, the screen they will be using. Mark it optional for everyone else. Assume a third will not have done it, and put a one-page summary on the tables.",
            "Say the range out loud in the opening and say how the day deals with it.",
-           "Keep the shared input short, as in the topic \"Give a ten-minute input\", and pitch it at the newer people. Give the experienced ones the depth on paper to read if they choose.",
+           "Keep the shared input short, as in 4.45, and pitch it at the newer people. Give the experienced ones the depth on paper to read if they choose.",
            "Set one task at three levels on the same case, with the same time and the same kind of output so the report-back works for everyone. The first level is a worked example to complete. The second is the bare case. The third adds a complication. Recommend a level by experience and let people choose.",
            "Group on purpose and change it through the day. For a first attempt at something new, put like with like, so the newer people are not watched by experts. For a case that needs know-how, mix them, and give the experienced person a defined part such as playing the customer.",
            "Ask experienced people for help and keep it small. Ask before the day or at a break, in private. Give one specific job per half day: bring a real case, play the hard customer for one round, or tell the room for three minutes what the process leaves out. They still get their own full practice turn and your feedback."
@@ -32279,7 +32279,7 @@
          },
          {
           "type": "artefact",
-          "title": "A worked example: enablement measures and where the data lives",
+          "title": "A worked example: sales and service measures and where the data lives",
           "table": {
            "head": [
             "Measure",
@@ -32329,6 +32329,24 @@
              "Score on a rubric from a live or recorded conversation",
              "Sales managers or your own observers",
              "Agree the rubric and who scores before the launch"
+            ],
+            [
+             "Repeat contacts or reopened tickets",
+             "Customers who come back about the same problem within a set number of days",
+             "Ticketing system",
+             "Depends on agents linking contacts to the right ticket. Read it beside handling time (2.51)."
+            ],
+            [
+             "First-contact resolution",
+             "Share of problems settled in one contact",
+             "Ticketing system",
+             "Ask whether it is based on the customer returning or on an agent's tick"
+            ],
+            [
+             "Customer satisfaction score",
+             "Rating the customer gives after a contact",
+             "Survey tool",
+             "Check how many answered. Reflects product and policy as well as the agent"
             ]
            ]
           }
@@ -38477,7 +38495,7 @@
          },
          {
           "type": "p",
-          "text": "The wall is also your raw material. The record you send afterwards, covered in the topic \"Send the write-up and keep the decisions alive\", is the log typed up, and it should contain nothing the group did not see on the day."
+          "text": "The wall is also your raw material. The record you send afterwards, covered in 8.24, is the log typed up, and it should contain nothing the group did not see on the day."
          }
         ],
         "try": [
@@ -38585,7 +38603,7 @@
            "You write a summary of the discussion in the decision column. If the line does not start with \"We will\", it is a note. Ask the group to turn it into a decision or park it.",
            "The leader's name ends up against every line. Ask after the third one: \"Which of these could someone else own?\"",
            "Someone accepts a line and their face says no. Ask kindly: \"Is that date real for you, with everything else you have on?\"",
-           "The parked list becomes the place where hard topics are sent to be forgotten. If the same item is parked twice, it probably belongs in the room. The topic \"Hold the conversation the team has been avoiding\" covers what to do.",
+           "The parked list becomes the place where hard topics are sent to be forgotten. If the same item is parked twice, it probably belongs in the room. Topic 8.22 covers what to do.",
            "The log is written by a participant acting as scribe. They stop taking part, and the wording becomes theirs. You hold the pen, or a co-facilitator does, as topic 4.17 describes."
           ]
          }
@@ -38785,7 +38803,7 @@
            "Give each product its own block and work backwards. A decision needs three blocks before it: shared facts, options, and a worked-up shortlist. Put the decision itself on the morning of day two, after a night's sleep.",
            "Replace input with reading. Where a skills day has a ten minute explanation, a working offsite has a two-page paper read in silence at the start of the block. Ask the owners of the facts to write these papers beforehand, and edit them.",
            "Use fewer, longer blocks than a skills day. Ninety minutes is still the unit, as topic 8.10 sets out, but plan three blocks on a full day and leave slack after the one most likely to overrun.",
-           "Start every block with people writing alone, as in the topic \"Open a question up, then narrow it\". Keep the decision log in view all day.",
+           "Start every block with people writing alone, as in 8.20. Keep the decision log in view all day.",
            "Leave the evening empty. On a strategy offsite, post the worked-up options on the wall at 17:00 and decide nothing. People talk over dinner, and that is useful.",
            "For a team offsite, build the day on the work: what the team is for, who does what, and one real problem solved together. Put any social activity at lunch or after the close and keep it optional.",
            "End with the log read aloud and with what the group will tell colleagues, then a 20 minute close. Book the 30-day check before people leave."
@@ -39414,7 +39432,7 @@
          },
          {
           "type": "p",
-          "text": "Tax sits outside this sum. How VAT applies to costs you pass on, and to bedrooms or travel you resell, depends on who contracts with the supplier. The topic \"Know who signs the venue contract and who carries the risk\" gives the official pages. Ask an accountant before your first quote."
+          "text": "Tax sits outside this sum. How VAT applies to costs you pass on, and to bedrooms or travel you resell, depends on who contracts with the supplier. Topic 8.25 gives the official pages. Ask an accountant before your first quote."
          }
         ],
         "try": [
@@ -46157,14 +46175,14 @@
          {
           "type": "steps",
           "items": [
-           "Write a list of twenty names from the market you chose in \"Decide what you offer and to whom\". Use people who have seen you work. Beside each, write whether they could buy, could introduce you or could only advise. Leave out clients of an employer or of a training company you work through. Topics 9.32 and 9.33 explain why they are not yours to approach.",
+           "Write a list of twenty names from the market you chose in 9.37. Use people who have seen you work. Beside each, write whether they could buy, could introduce you or could only advise. Leave out clients of an employer or of a training company you work through. Topics 9.32 and 9.33 explain why they are not yours to approach.",
            "Send five personal messages a week, each written to one person. Ask for twenty minutes of their view. Do not attach a brochure. The wording is below.",
            "Run the conversation in three parts. Spend the first twelve minutes on their situation, using the questions in topic 9.3. Then say your one-sentence offer and ask, \"Is that a problem here, or for anyone you know?\" Use the last three minutes to agree a next step with a date and to ask who else you should speak to.",
            "When someone has a need, propose a small paid first piece of work: a half-day for one team, a ninety-minute session at a team meeting, or the facilitation of one day of an offsite they have already booked. Give a fixed price and written terms (9.9).",
            "If you reduce the price, say so and say what you want in return: \"This is a first-client price. In return I would like a thirty-minute review call afterwards and, if you are pleased, a short testimonial.\" Topic 9.25 covers consent for using their words. Do not work for nothing.",
            "Show the work in place of case studies. Send a one-page outline written for their situation, a sample timetable (4.33 for a training day, 8.10 for a residential) and a three-minute recording of you running part of a session. Offer two people who have watched you teach or facilitate, even if that was inside a previous job.",
            "Follow up once after a week and once more two weeks later. Then stop, and note a date three months on to try again.",
-           "Plan for it to be slow. Expect months between a first conversation and a first paid day. Keep other income while you build, such as the route in \"Get on to an associate list\"."
+           "Plan for it to be slow. Expect months between a first conversation and a first paid day. Keep other income while you build, such as the route in 9.43."
           ]
          }
         ],
@@ -46556,7 +46574,7 @@
          },
          {
           "type": "p",
-          "text": "Your terms in topic 9.9 are signed in the name of whichever legal person you are. \"Register for the taxes that apply\" covers the registrations each form brings."
+          "text": "Your terms in topic 9.9 are signed in the name of whichever legal person you are. Topic 9.41 covers the registrations each form brings."
          }
         ],
         "try": [
@@ -47281,7 +47299,7 @@
            "You show your own material in the trial. They need to know you will deliver theirs. Keep to the guide, and offer suggestions afterwards if asked.",
            "You inflate your experience. The first observed day will show the truth. State your real count and ask to co-deliver first.",
            "You hand out your own business card on a company's delivery. The client is theirs. Pass every enquiry on the same day.",
-           "You let associate work fill the year. Your own clients then never arrive. Keep the weekly session from \"Keep a simple pipeline\" in every month."
+           "You let associate work fill the year. Your own clients then never arrive. Keep the weekly session from 9.39 in every month."
           ]
          }
         ],
