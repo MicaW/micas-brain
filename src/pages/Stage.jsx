@@ -22,7 +22,6 @@ export default function Stage() {
   const next = stages[stage.n % stages.length];
   const allOpen = open.every(Boolean);
   const rated = stage.parts.some((part) => part.topics.some((topic) => topic.tier));
-  const draftWording = stage.wordingStatus.startsWith('Draft');
   const toggle = (i) => setOpen((was) => was.map((value, k) => (k === i ? !value : value)));
 
   return (

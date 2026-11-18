@@ -1,3 +1,4 @@
+import ErrorBoundary from './components/ErrorBoundary.jsx';
 import { useEffect, useRef } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { mechanics, methods, recipes, site, stageByN, stageLabel, topics } from './lib.js';
@@ -67,7 +68,8 @@ export default function App() {
       </a>
       <SiteHeader />
       <main id="content" ref={main} tabIndex={-1} className={pathname === '/' ? 'home' : undefined}>
-        <Routes>
+        <ErrorBoundary resetKey={pathname}>
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/playbook" element={<Playbook />} />
           <Route path="/playbook/mechanics" element={<MechanicList />} />
@@ -87,6 +89,7 @@ export default function App() {
           ))}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        </ErrorBoundary>
       </main>
       <SiteFooter />
     </div>

@@ -1456,3 +1456,56 @@ dd {
     min-width: 0;
   }
 }
+
+/* Flip cards in a sideways row */
+.deck-head {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+.deck-head > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.deck-nav {
+  display: flex;
+  gap: 8px;
+}
+.deck-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 16px) / 3);
+  gap: 8px;
+  align-items: start;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  padding-bottom: 12px;
+  scrollbar-width: thin;
+}
+.deck-row:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.deck-row .flip {
+  scroll-snap-align: start;
+  min-height: 300px;
+}
+@media (max-width: 1000px) {
+  .deck-row {
+    grid-auto-columns: calc((100% - 8px) / 2);
+  }
+}
+@media (max-width: 640px) {
+  .deck-row {
+    grid-auto-columns: 82%;
+  }
+  .deck-row .flip {
+    min-height: 240px;
+  }
+  .deck-nav {
+    display: none;
+  }
+}

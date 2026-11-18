@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { byStage, stageByN, topicById } from '../lib.js';
-import { Pill, StageTag } from './ui.jsx';
+import { Arrow, Pill, StageTag } from './ui.jsx';
 
 /* A card that turns over. Front: the claim. Back: what to do about it, in the stage's colour. */
 function FlipCard({ item, front, back }) {
@@ -29,31 +29,38 @@ function FlipCard({ item, front, back }) {
   );
 }
 
-export default function FlipDeck({ id, pill, heading, items, front, back, first = 6 }) {
-  const [all, setAll] = useState(false);
+export default function FlipDeck({ id, pill, heading, items, front, back }) {
+  const scroller = useRef(null);
   const sorted = byStage(items);
-  // Closed, show a spread across the stages, not the first few of stage 1.
-  const seen = new Set();
-  const spread = sorted.filter((item) => !seen.has(item.stage) && seen.add(item.stage)).slice(0, first);
-  const shown = all ? sorted : spread;
+  const move = (dir) => {
+    const el = scroller.current;
+    if (el) el.scrollBy({ left: dir * el.clientWidth * 0.9, behavior: 'smooth' });
+  };
   return (
     <section className="deck vp" aria-labelledby={id}>
       <div className="deck-head">
-        <Pill className="start">{pill}</Pill>
-        <h2 id={id} className="h2">
-          {heading}
-        </h2>
+        <div>
+          <Pill className="start">{pill}</Pill>
+          <h2 id={id} className="h2">
+            {heading}
+          </h2>
+        </div>
+        <div className="deck-nav">
+          <button className="rb" type="button" aria-label="Scroll back" onClick={() => move(-1)}>
+            <span style={{ display: 'inline-flex', transform: 'scaleX(-1)' }}>
+              <Arrow size={20} />
+            </span>
+          </button>
+          <button className="rb" type="button" aria-label="Scroll on" onClick={() => move(1)}>
+            <Arrow size={20} />
+          </button>
+        </div>
       </div>
-      <div className="deck-grid">
-        {shown.map((item) => (
+      <div className="deck-row" ref={scroller} tabIndex={0} role="group" aria-label={`${heading}: scroll sideways for more`}>
+        {sorted.map((item) => (
           <FlipCard key={item.title} item={item} front={front} back={back} />
         ))}
       </div>
-      {sorted.length > first && (
-        <button className="deck-more" type="button" aria-expanded={all} onClick={() => setAll(!all)}>
-          {all ? 'Show fewer' : 'Show all'}
-        </button>
-      )}
     </section>
   );
 }
