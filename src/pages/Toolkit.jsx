@@ -143,7 +143,7 @@ function Library({ title, lead, items, filters, placeholder, rated = false, crum
           {shown.length} shown
         </p>
         {shown.length ? (
-          <ul className="lib-list">
+          <ul className="lib-list" key={`${query}|${Object.values(picked).join()}`}>
             {shown.map((item) => (
               <li key={item.to}>
                 <Link className="lib-row" to={item.to} style={rated ? undefined : { gridTemplateColumns: 'minmax(0, 1fr) 28px' }}>
@@ -174,7 +174,6 @@ const tierFilter = (items) => ({
 export function MethodFinder() {
   const items = methods.map((m) => ({ ...m, to: `/toolkit/methods/${m.slug}`, sub: `${m.family}. ${m.bestFor}`, text: `${m.name} ${m.family} ${m.description} ${m.bestFor} ${m.variants.map((v) => v.name).join(' ')}`.toLowerCase() }));
   const families = [...new Set(methods.map((m) => m.family))];
-  const phases = [...new Set(methods.map((m) => m.phase))];
   return (
     <Library
       title="Method finder"
@@ -183,7 +182,6 @@ export function MethodFinder() {
       items={items}
       filters={[
         { key: 'family', label: 'It helps people', options: families.map((f) => ({ value: f, label: f })) },
-        { key: 'phase', label: 'When', options: phases.map((p) => ({ value: p, label: p.replace(' retreat experience', ' session') })) },
       ]}
     />
   );

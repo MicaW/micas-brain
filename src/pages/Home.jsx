@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import FlipDeck from '../components/FlipDeck.jsx';
 import { Link } from 'react-router-dom';
 import home from '../content/home.json';
@@ -7,11 +8,21 @@ import { CaseGrid, FindingsCard, MistakesCard } from '../components/sections.jsx
 import { ArrowSmall, Button, Pill, StageDisc } from '../components/ui.jsx';
 
 export default function Home() {
+  // The headline arrives once a visit, not every time you come back to this page.
+  const [arrive] = useState(() => {
+    try {
+      if (sessionStorage.getItem('ttt-arrived')) return false;
+      sessionStorage.setItem('ttt-arrived', '1');
+    } catch {
+      /* No storage: the entrance simply plays. */
+    }
+    return true;
+  });
   const { hero, playbookTile, toolkitTile, myths, cases } = home;
   return (
     <>
       <div className="vp vp-first">
-      <section className="hero" aria-labelledby="h-home">
+      <section className={arrive ? 'hero arrive' : 'hero'} aria-labelledby="h-home">
         <h1 id="h-home" className="hero-h1">
           {hero.h1}
         </h1>

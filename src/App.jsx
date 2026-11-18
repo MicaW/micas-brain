@@ -78,10 +78,11 @@ export default function App() {
       if (toPath === here.current) return;
       const from = stageOf(here.current);
       const next = stageOf(toPath);
-      const newStage = Boolean(from && next && from.n !== next.n);
+      // A stage is new when you move between stages or come into one from elsewhere on the site.
+      const newStage = Boolean(next && (!from || from.n !== next.n));
       const change = () =>
         flushSync(() => {
-          if (newStage) setWipe({ color: next.color, n: next.n, key: Date.now() });
+          if (newStage) setWipe({ color: next.color, n: next.n, full: !from, key: Date.now() });
           navigate(to);
         });
       if (!document.startViewTransition) {
@@ -186,7 +187,7 @@ export default function App() {
         </ErrorBoundary>
       </main>
       <SiteFooter />
-      {wipe && <div className="stage-wipe" key={wipe.key} style={{ background: wipe.color }} aria-hidden="true" onAnimationEnd={() => setWipe(null)}>{wipe.n}</div>}
+      {wipe && <div className={wipe.full ? 'stage-wipe full' : 'stage-wipe'} key={wipe.key} style={{ background: wipe.color }} aria-hidden="true" onAnimationEnd={() => setWipe(null)}>{wipe.n}</div>}
     </div>
   );
 }

@@ -1990,3 +1990,64 @@ dd {
     position: static;
   }
 }
+
+/* ---------- Motion across the site ---------- */
+
+/* Large tiles stay still under the pointer; their arrow answers. */
+a.tile:hover,
+.b-card.link:hover {
+  transform: none;
+}
+a.tile svg,
+.b-card.link svg {
+  transition: transform 0.15s var(--ease-out);
+}
+@media (hover: hover) and (pointer: fine) {
+  a.tile:hover svg,
+  .b-card.link:hover svg {
+    transform: translateX(6px);
+  }
+}
+
+/* Coming into a stage from elsewhere, the colour covers the whole screen. */
+.has-panel .stage-wipe.full {
+  left: 0;
+}
+
+@keyframes settle {
+  from { opacity: 0; transform: translateY(-6px); }
+}
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+}
+@keyframes list-in {
+  from { opacity: 0.35; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* Things that open settle into place. Nothing changes height over time. */
+  .part-body,
+  .cs-more,
+  .ad,
+  .b-quiz details[open] > p,
+  .dir,
+  .pp.open {
+    animation: settle 0.2s var(--ease-out);
+  }
+  /* A list that has just been filtered shows that it changed. */
+  .lib-list {
+    animation: list-in 0.16s ease-out;
+  }
+  /* Home: the headline arrives first, then where to go. Once a visit. */
+  .hero.arrive .hero-h1 {
+    animation: rise 0.7s var(--ease-out) both;
+  }
+  .hero.arrive .lead {
+    animation: rise 0.52s 0.2s var(--ease-out) both;
+  }
+  .hero.arrive + .g > * {
+    animation: rise 0.52s 0.26s var(--ease-out) both;
+  }
+  .hero.arrive + .g > * + * {
+    animation-delay: 0.32s;
+  }
+}
