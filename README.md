@@ -68,10 +68,11 @@ One rule: a number in a coloured disc is a stage (1 to 9) or a topic in that sta
 
 Nothing confidential. Nothing unverified shown as checked. No invented evidence. Colour means stage; evidence is letter, bars and word. Practice first. See the build pack brief in the Project for the full list.
 
-## State on 17 November 2026 (build 2)
+## State on 18 November 2026 (build 3)
 
-- 235 Playbook topics in nine stages. 86 were added in build 2, most with worked examples (timed plans, scripts, checklists, illustrative costings).
-- Stage 4 has new parts on running a session and difficult moments. Stage 8 covers business retreats. Stage 2 covers enablement. Stages 6, 7 and 9 are deeper.
-- Toolkit: 90 methods and 33 recipes rewritten in plain words, each method with steps, time and group size. 17 templates, each with guidance and a filled example.
+- 283 Playbook topics in nine stages. Every topic has a specific situation, concrete steps, reasoning, a task on real work, at least one worked example for most, and one fact plus two scenario questions.
+- Build 3 rewrote all 149 original topics to the standard of the newer ones and added 48 topics: working offsites and the commercial side of a retreat (Stage 8), leadership and service programmes, change and pilots (Stage 2), teaching in the room and difficult moments online (Stage 4), the client's learning function and starting your own practice (Stage 9), learning technology and the media evidence (Stage 3), AI programmes for clients (Stage 7), goals, attention and outcomes (Stage 1).
+- The Playbook page has a Start here route of 24 topics.
+- Toolkit: 90 methods with steps, 33 recipes each with a run sheet, 17 templates with filled examples.
 - Status is not shown on the site. It is tracked in the project notes.
-- Home holds mistakes and findings as flip cards, the myth file and expandable case studies. Navigation: Home, Playbook, Toolkit, Glossary, About.
+- Known: the site ships as one large script (about 3 MB, 940 kB compressed). Splitting it by route is the next engineering task.

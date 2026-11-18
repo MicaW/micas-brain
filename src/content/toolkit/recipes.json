@@ -127,7 +127,101 @@
   "outputs": "Tested concept; decision memo; 30-day implementation experiment",
   "bestUse": "Innovation, transformation and capability academies",
   "cautions": "Only run this if the sponsor will act on the result. Agree before the event what is confidential, who decides, and what happens to the ideas afterwards.",
-  "plainName": "Team project on a real business problem, 2 to 3 days"
+  "plainName": "Team project on a real business problem, 2 to 3 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "Day 1 09:30",
+     "Welcome. The sponsor explains the problem, what has been tried, and what a useful answer would look like. Teams of four ask questions.",
+     "Sponsor, with the lead facilitator",
+     "One-page problem brief"
+    ],
+    [
+     "Day 1 10:15",
+     "Teams read the existing evidence. Each team lists what is known, what is assumed, and what they need to ask. Break at 11:00.",
+     "Teams. One facilitator per two or three teams.",
+     "Evidence pack, flipchart, sticky notes"
+    ],
+    [
+     "Day 1 11:15",
+     "Teams prepare their interviews. Agree five questions, who asks and who takes notes.",
+     "Facilitators",
+     "Interview guide, consent wording"
+    ],
+    [
+     "Day 1 12:00",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 1 13:00",
+     "Teams talk to the people affected. Work in pairs. Each pair holds two or three conversations of 20 minutes.",
+     "Teams",
+     "Interview guide, notebooks, a booked list of people to meet"
+    ],
+    [
+     "Day 1 14:30",
+     "Break, then teams put their notes on the wall, sort them into themes and choose one need to work on.",
+     "Teams. Facilitators visit.",
+     "Sticky notes, wall space"
+    ],
+    [
+     "Day 1 15:30",
+     "Expert advice. Each team gets 15 minutes with an expert. While they wait, each person sketches three ideas alone.",
+     "Expert. Facilitators keep the queue.",
+     "Sign-up sheet, paper, pens"
+    ],
+    [
+     "Day 1 16:30",
+     "Each team says in one minute the need it chose and its leading idea. Close at 17:00.",
+     "Lead facilitator",
+     "None"
+    ],
+    [
+     "Day 2 09:30",
+     "Teams build a rough version of the idea. Paper, cardboard, a mock screen or a script are all fine. Break at 10:45.",
+     "Teams. Facilitators visit.",
+     "Making materials, laptops if needed"
+    ],
+    [
+     "Day 2 11:00",
+     "Teams test it with the people it is for. Three people per team, 15 minutes each. Watch and listen. Do not sell the idea.",
+     "Teams",
+     "Rough versions, test note sheet, booked users"
+    ],
+    [
+     "Day 2 12:15",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 2 13:00",
+     "Teams change the idea using what the tests showed. Write a one-page decision note: the idea, what the test showed, what it needs, and a 30-day test.",
+     "Teams. Facilitators check each note.",
+     "Decision note template"
+    ],
+    [
+     "Day 2 14:30",
+     "Presentations to the sponsor. Seven minutes per team and five minutes of questions.",
+     "Sponsor. Lead facilitator keeps time.",
+     "Decision notes, rough versions, timer"
+    ],
+    [
+     "Day 2 15:30",
+     "The sponsor says what happens next for each idea and names who owns it. Each person writes one thing they will do. Finish at 16:00.",
+     "Sponsor, then lead facilitator",
+     "Flipchart for owners and dates"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-learning-residency",
@@ -152,7 +246,101 @@
   "outputs": "Portfolio artefacts; revised work; community rituals; long-term craft goal",
   "bestUse": "Design, strategy, storytelling and leadership craft",
   "cautions": "Do not fill the timetable. The value is in long stretches of making, access to the expert, and a second attempt.",
-  "plainName": "Craft retreat with expert feedback, 2 to 4 days"
+  "plainName": "Craft retreat with expert feedback, 2 to 4 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "Day 1 09:30",
+     "Welcome. Each person shows the work they have brought and says in two minutes what they want to improve.",
+     "Lead facilitator",
+     "Work in progress, wall or table space"
+    ],
+    [
+     "Day 1 10:15",
+     "Masterclass. The expert teaches one idea for 30 minutes, then does a piece of the work live and says their thinking out loud.",
+     "Expert",
+     "Screen or flipchart, the expert's own materials"
+    ],
+    [
+     "Day 1 11:30",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "Day 1 11:45",
+     "Making time. Everyone works alone on their own piece. No teaching.",
+     "Participants",
+     "Each person's tools and materials"
+    ],
+    [
+     "Day 1 13:00",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 1 14:00",
+     "Making time continues. The expert visits each person for 10 minutes. With two experts, make it 20. Take a break when you need one.",
+     "Expert. Facilitator keeps the visiting order.",
+     "Visiting list, timer"
+    ],
+    [
+     "Day 1 17:00",
+     "Pairs show each other where they have got to and say what they will change tomorrow. Leave the work out overnight. Free time from 17:30.",
+     "Lead facilitator",
+     "None"
+    ],
+    [
+     "Day 1 19:00",
+     "Dinner. Optional. Put one question on each table about the craft. The expert joins.",
+     "Lead facilitator",
+     "Question cards"
+    ],
+    [
+     "Day 2 09:30",
+     "Quiet time alone. Walk or sit for 30 minutes without a phone. Write down what you will revise.",
+     "Participants",
+     "Notebook"
+    ],
+    [
+     "Day 2 10:00",
+     "Revise the work. The expert makes a second visit to anyone who signs up.",
+     "Participants. Expert on request.",
+     "Sign-up sheet"
+    ],
+    [
+     "Day 2 12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 2 13:30",
+     "Finish the work and put it on the wall with the first version beside it.",
+     "Participants",
+     "Tape, pins, labels"
+    ],
+    [
+     "Day 2 14:15",
+     "Wall show. The group walks round. Each person says in two minutes what changed and why. The expert gives each person one comment.",
+     "Expert and lead facilitator",
+     "Timer"
+    ],
+    [
+     "Day 2 15:15",
+     "Each person writes one craft goal for the next three months and tells a partner. Close. Finish at 15:45.",
+     "Lead facilitator",
+     "Goal cards"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-failure-lab",
@@ -279,7 +467,101 @@
   "outputs": "No-regret moves; signposts; decision principles; risk log",
   "bestUse": "Strategy, AI disruption, resilience and operating-model change",
   "cautions": "These are stories about what could happen, not predictions. Keep the detail short so people argue about decisions, not about the story.",
-  "plainName": "Strategy rehearsal across possible futures, one day"
+  "plainName": "Strategy rehearsal across possible futures, one day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Say the aim. Say plainly that the versions of the future are stories about what could happen, not predictions.",
+     "Lead facilitator",
+     "Flipchart with the aim"
+    ],
+    [
+     "09:45",
+     "Trends wall. Pairs walk the wall and put dots on the three signs of change that matter most to the business.",
+     "Lead facilitator",
+     "Trend cards on the wall, sticky dots"
+    ],
+    [
+     "10:15",
+     "Two or three teams of four to six. Each team gets one version of the future on one page. Read it, then take roles such as chief executive, finance, operations and customer.",
+     "Second facilitator",
+     "One-page futures, role cards"
+    ],
+    [
+     "10:45",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:00",
+     "Round 1. Each team makes three decisions in 30 minutes and hands in a decision sheet. The central table works out the results from the rules and hands them back.",
+     "Both facilitators at the central table",
+     "Decision sheets, rules sheet, timer"
+    ],
+    [
+     "11:45",
+     "Round 2. Each team gets a surprise event card. They decide again in 25 minutes. Results come back.",
+     "Both facilitators",
+     "Surprise event cards, decision sheets"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Teams tell the room what they chose and what happened. The facilitators show how each team's choices affected the others.",
+     "Lead facilitator",
+     "Results board"
+    ],
+    [
+     "13:45",
+     "Challenge group. Two people from each team move to another team and argue against its plan for 15 minutes. The team answers and adjusts.",
+     "Second facilitator",
+     "Challenge prompt cards"
+    ],
+    [
+     "14:30",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "14:45",
+     "Mixed groups take the current strategy. For each part, mark on a grid whether it holds, bends or breaks in each version of the future.",
+     "Lead facilitator",
+     "Current strategy on one page, grid on flipchart"
+    ],
+    [
+     "15:30",
+     "Whole group. List the moves that hold up in every version, the early signs to watch for, and the risks.",
+     "Lead facilitator. Second facilitator writes.",
+     "Flipchart"
+    ],
+    [
+     "16:10",
+     "Each person writes one decision they would now make differently and tells a neighbour. Close.",
+     "Lead facilitator",
+     "Cards"
+    ],
+    [
+     "16:30",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-skill-arcade",
@@ -303,7 +585,77 @@
   "outputs": "Individual skill profile; completed challenge cards; follow-up drill prescription",
   "bestUse": "Large cohorts needing active practice without plenary monotony",
   "cautions": "Moving between stations takes longer than you think, so allow five minutes each time. Use the same standard at every station.",
-  "plainName": "Rotating skill stations, half or full day"
+  "plainName": "Rotating skill stations, half or full day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "14:00",
+     "Welcome for up to 40 people. Explain how the stations work and introduce the timekeeper. Say where the drop-in table and the sitting-out area are.",
+     "Lead facilitator",
+     "Signs, floor plan on a slide or flipchart"
+    ],
+    [
+     "14:10",
+     "Self-check. Each person rates themselves on each skill on their station card, alone. Split into four groups of up to 10 by card colour.",
+     "Lead facilitator",
+     "Station cards in four colours, pens"
+    ],
+    [
+     "14:20",
+     "Station round 1. Five minutes of demonstration, 12 minutes of practice in pairs on the challenge card, three minutes of marking against the checklist. Then five minutes to move.",
+     "Station facilitators. Timekeeper rings a bell.",
+     "Challenge cards, marking checklist, bell"
+    ],
+    [
+     "14:45",
+     "Station round 2. Same pattern, then five minutes to move.",
+     "Station facilitators. Timekeeper.",
+     "As before"
+    ],
+    [
+     "15:10",
+     "Break. The drop-in table is open for anyone who wants help with a skill.",
+     "Expert at the drop-in table",
+     "Drinks, drop-in table sign"
+    ],
+    [
+     "15:25",
+     "Station round 3. Same pattern, then five minutes to move.",
+     "Station facilitators. Timekeeper.",
+     "As before"
+    ],
+    [
+     "15:50",
+     "Station round 4. Same pattern, then five minutes to move back to the main area.",
+     "Station facilitators. Timekeeper.",
+     "As before"
+    ],
+    [
+     "16:15",
+     "End check. Each person goes to the station for their weakest skill and does one short task. The facilitator marks it against the checklist.",
+     "Station facilitators",
+     "End-check tasks, marking checklist"
+    ],
+    [
+     "16:45",
+     "Each person picks a follow-up exercise from the list, writes when they will do it and tells a partner. Close.",
+     "Lead facilitator",
+     "Follow-up exercise list, station cards"
+    ],
+    [
+     "17:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-field-expedition",
@@ -327,7 +679,95 @@
   "outputs": "Evidence wall; insights; opportunity backlog; questions for experimentation",
   "bestUse": "Customer experience, systems, service and operational learning",
   "cautions": "The people you visit are hosts, not exhibits. Get consent, keep what you hear confidential, and remind the group that one visit is one day's evidence.",
-  "plainName": "Site visit and analysis day"
+  "plainName": "Site visit and analysis day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome in the room near the site. Say the aim and the rules: the people you visit are hosts, what you hear stays confidential, no photos without permission.",
+     "Lead facilitator",
+     "Flipchart with the rules"
+    ],
+    [
+     "09:45",
+     "Teach observing. Write down what you see and hear, not what you think it means. Pairs practise for five minutes on the room around them and compare notes.",
+     "Lead facilitator",
+     "Observation sheets, clipboards"
+    ],
+    [
+     "10:15",
+     "Give each pair one thing to watch for. Travel to the site. The host welcomes the group and says where you can and cannot go.",
+     "Lead facilitator, then the site host",
+     "Transport, site map, visitor badges"
+    ],
+    [
+     "10:45",
+     "Observe in pairs for 45 minutes. Stay out of the way. Anyone who cannot do the visit on foot follows the seated or remote plan.",
+     "Participants",
+     "Observation sheets"
+    ],
+    [
+     "11:30",
+     "Talk to people who work there or use the service. Each pair holds two conversations of 15 minutes.",
+     "Participants. The host introduces people.",
+     "Question prompts, consent wording"
+    ],
+    [
+     "12:15",
+     "Thank the host. Travel back. Lunch.",
+     "Lead facilitator",
+     "Thank-you card"
+    ],
+    [
+     "13:15",
+     "Each pair copies its strongest notes onto sticky notes, one observation per note.",
+     "Participants",
+     "Sticky notes, marker pens"
+    ],
+    [
+     "13:45",
+     "Groups of four to six sort the notes into themes on the wall and name each theme.",
+     "Lead facilitator",
+     "Wall space, tape"
+    ],
+    [
+     "14:30",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "14:45",
+     "Map the opportunities. For each theme, write what could be improved and place it on a grid of value against effort. Mark anything that rests on a single observation.",
+     "Lead facilitator",
+     "Grid on flipchart, cards"
+    ],
+    [
+     "15:30",
+     "Whole group chooses three to five opportunities to test and writes the question each test would answer.",
+     "Lead facilitator",
+     "Sticky dots, flipchart"
+    ],
+    [
+     "16:00",
+     "Each person writes one next step and says it aloud. Agree what you will send the host. Close.",
+     "Lead facilitator",
+     "Commitment cards"
+    ],
+    [
+     "16:15",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-capability-launch",
@@ -352,7 +792,101 @@
   "outputs": "Verified workplace outcomes; portfolio; capability data; continuing community",
   "bestUse": "AI, leadership, sales or role academies",
   "cautions": "Get managers and work projects agreed before you launch. Measure what people do at work, not only attendance and feedback scores.",
-  "plainName": "Three-month skills programme with a residential start"
+  "plainName": "Three-month skills programme with a residential start",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "4 weeks before",
+     "Skills check. Each person does a short practical task and rates themselves. Each manager has a 30 minute call to agree their part and a work project.",
+     "Programme owner and managers",
+     "Skills check task, judging checklist, manager briefing note"
+    ],
+    [
+     "Day 1 09:30",
+     "Residential starts. Welcome. Explain the 90 days. Show the pattern from the skills check without naming anyone.",
+     "Programme owner",
+     "Programme map on one page"
+    ],
+    [
+     "Day 1 10:15",
+     "Coaches demonstrate the skill. The group goes through the checklist. Break at 11:00. Then a first practice in threes with one person observing.",
+     "Coaches",
+     "Judging checklist, practice cases"
+    ],
+    [
+     "Day 1 12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 1 13:30",
+     "Second practice on a harder case. Coaches give feedback against the checklist. Break at 15:00.",
+     "Coaches. One coach per 6 to 8 people.",
+     "Harder cases, observer sheets, timer"
+    ],
+    [
+     "Day 1 16:00",
+     "Form peer groups of four. Each group agrees when and how it will meet. Close at 17:00. Dinner is optional.",
+     "Programme owner",
+     "Peer group sheet"
+    ],
+    [
+     "Day 2 09:30",
+     "Pairs write down from memory what they learned yesterday. Then a third practice on a case from their own work. Break at 11:00.",
+     "Coaches",
+     "Paper, observer sheets"
+    ],
+    [
+     "Day 2 11:15",
+     "Each person defines their work project: what they will do, by when, and how they will show it worked. A coach checks each one.",
+     "Coaches",
+     "Project sheet"
+    ],
+    [
+     "Day 2 12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 2 13:30",
+     "Personal plan. Each person writes three lines in the form: when this happens, I will do this. The peer group tests each plan.",
+     "Programme owner",
+     "Personal plan sheet"
+    ],
+    [
+     "Day 2 14:30",
+     "Peer groups book their first three meetings. Explain what people will show at 30, 60 and 90 days. Close. Finish at 15:30.",
+     "Programme owner",
+     "Calendar, online group space"
+    ],
+    [
+     "Weeks 1 to 12",
+     "Manager check-in in week 1, then monthly, 30 minutes. Peer groups meet for 45 minutes every two weeks. A 10 minute refresher task goes out every two weeks.",
+     "Managers, peer groups, programme owner",
+     "Check-in prompts, refresher tasks, online group space"
+    ],
+    [
+     "Day 30 and day 60",
+     "Each person shows a piece of real work to their peer group and a coach online, 90 minutes. The coach judges it against the checklist.",
+     "Coaches",
+     "Judging checklist, work samples"
+    ],
+    [
+     "Day 90",
+     "Final showing, half a day, managers invited. Each person presents what they did at work. Agree how the peer groups carry on.",
+     "Programme owner",
+     "Judging checklist, record of each person's work"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-executive-decision-room",
@@ -482,7 +1016,101 @@
   "outputs": "Community-owned playbook; prototypes; named practice groups",
   "bestUse": "Communities of practice and capability festivals",
   "cautions": "This format is based on Open Space. Run it only with people who already know the basics, and protect the last hour for conclusions and owners.",
-  "plainName": "Participant-led conference day"
+  "plainName": "Participant-led conference day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome in one big circle. State the question for the day. Explain the rules: anyone can propose a session, and if you are not learning or contributing, move to another one.",
+     "Lead facilitator",
+     "The question on a large sign"
+    ],
+    [
+     "09:45",
+     "Everyone reads the same short briefing in silence for 10 minutes, then talks about it in threes.",
+     "Lead facilitator",
+     "Printed briefing, one each"
+    ],
+    [
+     "10:00",
+     "People propose sessions. Write a title and your name on a sheet, say it to the room in one sentence, and stick it on the timetable wall.",
+     "Lead facilitator. Second facilitator runs the wall.",
+     "Timetable wall with a grid of times and spaces, sheets, markers, tape"
+    ],
+    [
+     "10:30",
+     "Break. Merge sessions that overlap. People read the wall and choose.",
+     "Second facilitator",
+     "None"
+    ],
+    [
+     "10:45",
+     "Session round 1, 45 minutes. The person who proposed it runs it. A note-taker fills in the one-page sheet. Experts walk between sessions.",
+     "Session hosts",
+     "Note sheets, flipchart in each space"
+    ],
+    [
+     "11:30",
+     "Note-takers post their sheets on the notes wall. Everyone moves.",
+     "Second facilitator",
+     "Notes wall"
+    ],
+    [
+     "11:45",
+     "Session round 2, 45 minutes. Same pattern.",
+     "Session hosts",
+     "Note sheets"
+    ],
+    [
+     "12:30",
+     "Lunch. The notes wall stays open.",
+     "",
+     ""
+    ],
+    [
+     "13:30",
+     "Session round 3, 45 minutes. Same pattern. Post notes at the end.",
+     "Session hosts",
+     "Note sheets"
+    ],
+    [
+     "14:15",
+     "Break. Everyone reads the notes wall and puts dots on the notes that matter most.",
+     "Second facilitator",
+     "Sticky dots"
+    ],
+    [
+     "14:45",
+     "Pulling together. Groups of six to eight each take one cluster of notes and write three conclusions and one thing still unresolved.",
+     "Both facilitators",
+     "Clustered notes, conclusion sheets"
+    ],
+    [
+     "15:30",
+     "Each group reports in two minutes. With more than 10 groups, post the sheets and hear only the top conclusion from each.",
+     "Lead facilitator",
+     "Timer"
+    ],
+    [
+     "16:00",
+     "Sign-up. Put up one sheet for each conclusion that needs work. People sign as owner or helper. Each owner writes a first date.",
+     "Second facilitator",
+     "Sign-up sheets"
+    ],
+    [
+     "16:20",
+     "Closing circle. Say who will write up the notes and by when. Finish at 16:30.",
+     "Lead facilitator",
+     "None"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-simulation-ladder",
@@ -506,7 +1134,101 @@
   "outputs": "Competency profile; recorded capstone; targeted follow-up plan",
   "bestUse": "Interpersonal, operational and safety-critical capability",
   "cautions": "More realistic is not always better. Add realism only when it adds something people will meet in the real job.",
-  "plainName": "Role-play practice that gets more realistic in steps, 1 to 2 days"
+  "plainName": "Role-play practice that gets more realistic in steps, 1 to 2 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Say the aim and agree how feedback will be given. Nobody will be made to perform in front of the whole group.",
+     "Lead facilitator",
+     "Flipchart with the aim"
+    ],
+    [
+     "09:45",
+     "Demonstration. The two facilitators play the scenario. The group lists what they saw and compares it with the checklist.",
+     "Both facilitators",
+     "Checklist of what good looks like"
+    ],
+    [
+     "10:15",
+     "Step 1. A simple scenario in threes: one speaks, one plays the other person, one observes. Six minutes, three minutes of feedback, then swap. Three turns.",
+     "Participants. Facilitators listen in.",
+     "Simple scenario briefs, observer sheets, timer"
+    ],
+    [
+     "10:45",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:00",
+     "Step 2. The same scenario again with coaching. A facilitator stops each person once, suggests one change, and they go again.",
+     "Both facilitators, moving between threes",
+     "Same briefs"
+    ],
+    [
+     "11:40",
+     "Step 3. A different scenario that uses the same skill. New threes. Three turns.",
+     "Participants. Facilitators listen in.",
+     "Second scenario briefs, observer sheets"
+    ],
+    [
+     "12:20",
+     "The facilitators share two patterns they heard and show one skill again.",
+     "Lead facilitator",
+     "Flipchart"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Step 4. Two groups of up to eight, each with an actor or trained colleague. Each person has eight minutes with the actor and four of feedback. The rest observe with the checklist. Short break halfway.",
+     "Actors or facilitators play the other person",
+     "Actor briefs, checklist, timer"
+    ],
+    [
+     "15:00",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:15",
+     "Step 5. The full scenario from start to finish in threes, 12 minutes each. Observers fill in the checklist but keep it back for now.",
+     "Participants. Facilitators watch.",
+     "Full scenario briefs, checklist"
+    ],
+    [
+     "16:00",
+     "Each person writes their own review first. Then observers hand over their sheets and the three talk it through.",
+     "Lead facilitator",
+     "Review sheet"
+    ],
+    [
+     "16:30",
+     "Each person writes a follow-up plan and tells a partner. Close. Finish at 16:45.",
+     "Lead facilitator",
+     "Plan sheet"
+    ],
+    [
+     "1 week later",
+     "A 30 minute call in the same threes. Each person says what they have tried since and what they would now do differently in the full scenario.",
+     "Participants. One facilitator joins each call if possible.",
+     "Review sheets from the day"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-mastery-circuit",
@@ -530,7 +1252,95 @@
   "outputs": "Verified mastery record; individual gap report; extension challenge",
   "bestUse": "Technical, regulatory and prerequisite skills",
   "cautions": "Do not run this unless you have time and staff for second assessments. Assess people doing the task, not only a quiz.",
-  "plainName": "Practice and re-test until everyone reaches the standard, 1 to 2 days"
+  "plainName": "Practice and re-test until everyone reaches the standard, 1 to 2 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "1 week before",
+     "Work beforehand. Each person reads or watches the materials and tries the self-check. Assessors mark sample work together until they agree.",
+     "Lead facilitator",
+     "Materials, self-check, written standard, sample work"
+    ],
+    [
+     "09:30",
+     "Welcome. Show the written standard and an example of a pass. Say that second attempts are a normal part of the day.",
+     "Lead facilitator",
+     "Written standard, one each"
+    ],
+    [
+     "09:45",
+     "Start test. Each person does a short practical task alone for 20 minutes. The facilitators mark it against the standard and give each person a sheet showing their gaps.",
+     "Both facilitators",
+     "Start task, marking sheets"
+    ],
+    [
+     "10:30",
+     "Break. The facilitators finish marking and sort people into teaching sessions.",
+     "",
+     ""
+    ],
+    [
+     "10:45",
+     "Short teaching sessions on the gaps. Two run side by side, 20 minutes each, then repeat. People go to the ones they need. Anyone with no gaps starts the practice stations.",
+     "One facilitator per session",
+     "Flipcharts, worked examples"
+    ],
+    [
+     "11:30",
+     "Practice stations. Three stations, each on one part of the task. Work in pairs, 20 minutes per station, and mark your own work against the standard.",
+     "Participants. Facilitators coach.",
+     "Station task cards, the standard"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "First assessment. Each person does the full task while an assessor watches, about 10 minutes each. Those waiting keep practising at the stations.",
+     "Both facilitators as assessors",
+     "Assessment task, marking sheets, timetable of slots"
+    ],
+    [
+     "14:45",
+     "Break. Each person gets their result in private, with what to fix.",
+     "Both facilitators",
+     "Marking sheets"
+    ],
+    [
+     "15:00",
+     "Extra help in a small group for anyone who did not pass, on their specific gaps. Those who passed start a harder task in pairs.",
+     "One facilitator coaches. One sets up the harder task.",
+     "Harder task brief"
+    ],
+    [
+     "15:45",
+     "Second assessment for those who need it. Same standard, different example of the task. The others finish the harder task.",
+     "One facilitator assesses. One supports the harder task.",
+     "Second assessment task, marking sheets"
+    ],
+    [
+     "16:30",
+     "Each person gets their record. Anyone not yet at the standard agrees a date for another attempt. Everyone writes one thing to keep practising. Close.",
+     "Lead facilitator",
+     "Record sheets"
+    ],
+    [
+     "16:45",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-challenge-tournament",
@@ -555,7 +1365,101 @@
   "outputs": "Prioritised portfolio; experiment charters; evidence gaps",
   "bestUse": "Innovation portfolios, sustainability and process improvement",
   "cautions": "Competitions can reward confident presenters and familiar ideas. Score the idea separately from the pitch, and fund tests, not winners.",
-  "plainName": "Ideas competition with staged selection, one day"
+  "plainName": "Ideas competition with staged selection, one day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. The sponsor explains the challenge, the test budget and the selection criteria. Say that the money funds tests, not winners. Sit in teams of five or six.",
+     "Sponsor and lead facilitator",
+     "Challenge brief, criteria on the wall, progress board"
+    ],
+    [
+     "09:50",
+     "Idea rounds. Three rounds of 10 minutes, each with a different prompt. Write alone for five minutes, one idea per card, then share and build at the table.",
+     "Lead facilitator",
+     "Cards, markers, prompt slides"
+    ],
+    [
+     "10:30",
+     "Each team picks its two strongest ideas and writes each on an idea sheet. Break at 10:45.",
+     "Table facilitators, one per four or five teams",
+     "Idea sheets"
+    ],
+    [
+     "11:00",
+     "Practise the criteria. Everyone scores the same two sample ideas, compares scores at the table, and the facilitator settles the differences.",
+     "Lead facilitator",
+     "Sample ideas, score slips"
+    ],
+    [
+     "11:30",
+     "Teams add evidence to each idea sheet: who it helps, what is known, and what is assumed.",
+     "Teams. Table facilitators visit.",
+     "Idea sheets, any data provided"
+    ],
+    [
+     "12:15",
+     "Lunch. Idea sheets go up on the wall.",
+     "",
+     ""
+    ],
+    [
+     "13:00",
+     "Walk round. Everyone reads the sheets and scores ideas against the criteria. You cannot score your own. No pitching. The sheets speak for themselves.",
+     "Lead facilitator",
+     "Score slips, collection boxes"
+    ],
+    [
+     "13:45",
+     "Round 1 result. Scores go up on the board and about a third of the ideas go forward. People whose ideas dropped out join a team that is still in.",
+     "Lead facilitator. Helpers count scores.",
+     "Progress board"
+    ],
+    [
+     "14:00",
+     "Expert advice. Experts spend 10 minutes with each team. Teams design a small test: what they will try, what it costs, and what result would change their mind.",
+     "Experts. Table facilitators.",
+     "Test plan sheet"
+    ],
+    [
+     "15:00",
+     "Break. Judges read the updated idea sheets and test plans.",
+     "Judges",
+     "Idea sheets, test plans"
+    ],
+    [
+     "15:15",
+     "Round 2. Judges score the written sheets against the criteria. The top six go to the final. Teams prepare a four minute pitch.",
+     "Judges",
+     "Judge score sheets"
+    ],
+    [
+     "15:45",
+     "Final pitches. Four minutes each and three minutes of questions. Judges score the idea and the pitch separately. Only the idea score counts.",
+     "Lead facilitator keeps time. Judges score.",
+     "Timer, judge score sheets"
+    ],
+    [
+     "16:30",
+     "Judges confer for 10 minutes while each team lists what evidence is still missing. Announce which tests get money, who owns each, and the date to report back. Finish at 17:00.",
+     "Sponsor and judges",
+     "Progress board, test plan sheets"
+    ],
+    [
+     "30 days later",
+     "Follow-up. Test owners report what they found in a one hour meeting. The sponsor decides what continues.",
+     "Sponsor",
+     "Test plan sheets, results"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-story-lab",
@@ -699,7 +1603,101 @@
   "outputs": "Facilitation reel; practice plan; response library for difficult moments",
   "bestUse": "Workshop, design and leadership facilitation",
   "cautions": "Give feedback on what the person did, not on their personality. Make recording optional, say who will see it, and delete it afterwards.",
-  "plainName": "Facilitation skills practice, two days"
+  "plainName": "Facilitation skills practice, two days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "Day 1 09:30",
+     "Welcome. Say the aim. Agree that feedback is about what the person did. Explain that recording is optional, who will see it and when it is deleted.",
+     "Lead facilitator",
+     "Checklist of what good looks like"
+    ],
+    [
+     "Day 1 09:45",
+     "Three single skills: giving a clear instruction, asking a question and waiting, and summing up and moving on. For each, watch a five minute demonstration, then practise in pairs for 20 minutes. Break at 11:00.",
+     "Both facilitators",
+     "Skill cards"
+    ],
+    [
+     "Day 1 11:15",
+     "Each person plans a ten minute session on a topic they know well.",
+     "Participants",
+     "Session plan template"
+    ],
+    [
+     "Day 1 11:45",
+     "Ten minute sessions in threes. One runs the session, two take part. Five minutes of feedback against the checklist, then swap.",
+     "Participants. Facilitators listen in.",
+     "Checklist, timer"
+    ],
+    [
+     "Day 1 12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "Day 1 13:30",
+     "Demonstration of handling difficult behaviour: someone who talks over others, someone silent, someone who challenges. The group starts a list of responses.",
+     "Both facilitators",
+     "Flipchart for the response list"
+    ],
+    [
+     "Day 1 14:00",
+     "Ten minute sessions in groups of four. One runs it, two play difficult participants from behaviour cards, one observes. Five minutes of feedback each. Break halfway.",
+     "Participants, or briefed colleagues as the difficult participants",
+     "Behaviour cards, checklist, timer"
+    ],
+    [
+     "Day 1 15:30",
+     "Share patterns and add to the response list. Brief for tomorrow: prepare a 20 minute session this evening. Close at 16:00.",
+     "Lead facilitator",
+     "Session plan template"
+    ],
+    [
+     "Day 2 09:30",
+     "Pairs write the response list from memory. Then coached runs in two groups. Each person runs 10 minutes with difficult participants. The coach pauses once or twice to give advice, then they carry on. Break at 10:45.",
+     "Both facilitators, one coaching each group",
+     "Behaviour cards, timer"
+    ],
+    [
+     "Day 2 12:00",
+     "Final preparation for the 20 minute sessions. Lunch at 12:30.",
+     "Participants",
+     "Session plans"
+    ],
+    [
+     "Day 2 13:15",
+     "Longer sessions in groups of four. Each person runs 20 minutes from start to finish, then gets five minutes of feedback. Record on a phone if the person agrees. Short break halfway.",
+     "Participants. Each facilitator moves between two groups.",
+     "Checklist, timer, phones or cameras"
+    ],
+    [
+     "Day 2 15:15",
+     "Review. Each person watches five minutes of their own recording with a partner and the checklist. If there is no recording, use the observer's notes.",
+     "Both facilitators join pairs",
+     "Recordings, observer notes"
+    ],
+    [
+     "Day 2 16:00",
+     "Each person writes a practice plan and takes a copy of the response list. Delete the recordings. Close.",
+     "Lead facilitator",
+     "Practice plan sheet"
+    ],
+    [
+     "Day 2 16:30",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-ai-practice-studio",
@@ -724,7 +1722,89 @@
   "outputs": "Practice transcripts; calibrated feedback; personal prompt/scenario kit",
   "bestUse": "Sales, leadership, language and communication practice",
   "cautions": "Treat the AI's feedback as a suggestion to check, not a verdict. Never put real client or employee details into the tool.",
-  "plainName": "Conversation practice with an AI role-play tool, half or full day"
+  "plainName": "Conversation practice with an AI role-play tool, half or full day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "14:00",
+     "Welcome. Say the aim. Give the data rule: no real client or employee names or details go into the tool. Say that the AI's feedback is a suggestion to check.",
+     "Lead facilitator",
+     "Data rule on a flipchart"
+    ],
+    [
+     "14:10",
+     "The expert holds the conversation with the second facilitator playing the other person. The group goes through the checklist of what good looks like.",
+     "Expert",
+     "Checklist, one scenario"
+    ],
+    [
+     "14:30",
+     "Show one AI scenario on the screen. The group says where it behaves like a real conversation and where it does not. Write up the limits.",
+     "Lead facilitator",
+     "Screen, approved AI tool, tested prompts"
+    ],
+    [
+     "14:45",
+     "Practise alone with the AI. Scenario 1, two attempts of about eight minutes. Read the AI's feedback after each and mark which points you agree with.",
+     "Participants. Second facilitator handles technical problems.",
+     "Laptops, headsets, private corners, scenario 1 prompt"
+    ],
+    [
+     "15:20",
+     "Pairs compare notes. Read a section of each other's transcript against the human checklist. Write down one question for the expert.",
+     "Participants",
+     "Transcripts, checklist"
+    ],
+    [
+     "15:40",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:55",
+     "Questions to the expert, whole group. The expert shows one or two of the hard moments live.",
+     "Expert",
+     "Flipchart"
+    ],
+    [
+     "16:15",
+     "Harder scenario alone, two attempts. The expert and the facilitator each sit with three or four people in turn and give human feedback.",
+     "Participants. Expert and facilitator coach.",
+     "Scenario 2 prompt, checklist"
+    ],
+    [
+     "16:50",
+     "Pairs replay the hardest moment with a person, not the AI. Five minutes each way.",
+     "Participants",
+     "None"
+    ],
+    [
+     "17:05",
+     "Each person plans a real conversation coming up: who, when, and their first two sentences. Save the scenario prompts to keep practising.",
+     "Lead facilitator",
+     "Plan sheet, prompt kit"
+    ],
+    [
+     "17:20",
+     "Pairs tell each other their plan. Close.",
+     "Lead facilitator",
+     "None"
+    ],
+    [
+     "17:30",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-systems-war-room",
@@ -749,7 +1829,101 @@
   "outputs": "Shared system model; leverage points; experiment portfolio; assumptions log",
   "bestUse": "Operating models, service systems and transformation",
   "cautions": "The map is a simplified picture, not the real thing. Mark what you are unsure of, and include the people the decisions will affect.",
-  "plainName": "Map a complex problem and test changes, one day"
+  "plainName": "Map a complex problem and test changes, one day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. State the problem in one sentence. Say that the map is a simplified picture and will have gaps.",
+     "Lead facilitator",
+     "Problem statement on the wall"
+    ],
+    [
+     "09:45",
+     "Build the map. Groups of four write the parts of the problem on cards: people, teams, steps, and things that pile up. Then the whole group places them on the wall and draws arrows for what affects what.",
+     "Mapping facilitator",
+     "Large wall or floor, cards, tape, markers"
+    ],
+    [
+     "10:45",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:00",
+     "Check against the evidence. Pairs take a section each, compare it with the data, and mark each link green for evidence, amber for believed and red for a guess.",
+     "Second facilitator",
+     "Data pack, coloured dots"
+    ],
+    [
+     "11:45",
+     "Roles. Each person takes the role of a group involved, not their own. Stand by that group's place on the map and say what it wants and what gets in its way.",
+     "Mapping facilitator",
+     "Role cards"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Propose changes. In threes or fours, write up to three changes on cards and place each where it acts on the map.",
+     "Mapping facilitator",
+     "Change cards in a different colour"
+    ],
+    [
+     "13:45",
+     "Play out five or six changes, one at a time. Move the counters. Each role says how it would respond. Log the knock-on effects and the assumptions.",
+     "Mapping facilitator. Second facilitator keeps the log.",
+     "Counters, assumptions log on flipchart"
+    ],
+    [
+     "14:45",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:00",
+     "Challenge group. Four people argue against the two or three favourite changes for 10 minutes each. The room answers and revises.",
+     "Second facilitator",
+     "Challenge prompt cards"
+    ],
+    [
+     "15:40",
+     "Choose the places where a small change would do most. Vote with dots, then discuss the top three. Check each with the people it would affect.",
+     "Mapping facilitator",
+     "Sticky dots"
+    ],
+    [
+     "16:10",
+     "Groups of four each design one small test: what changes, where, for how long, what to measure, and who owns it.",
+     "Second facilitator",
+     "Test cards"
+    ],
+    [
+     "16:45",
+     "Read out the tests. Name who keeps the map and the assumptions log. Close.",
+     "Lead facilitator",
+     "Camera to photograph the map"
+    ],
+    [
+     "17:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-crisis-command-exercise",
@@ -775,7 +1949,89 @@
   "outputs": "Response log; role gaps; revised protocol; follow-up practice plan",
   "bestUse": "Cyber, business continuity, reputational and client crises",
   "cautions": "More stress does not make it more realistic. Look after people, and keep the review about the plan and the process, not about blame.",
-  "plainName": "Crisis response rehearsal, half or full day"
+  "plainName": "Crisis response rehearsal, half or full day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Briefing. Say the aim, the rules and the stop word. Explain that anyone can step out into an observer role at any time. Split the group into two shifts of 6 to 8.",
+     "Facilitator",
+     "Rules on a flipchart, shift lists"
+    ],
+    [
+     "09:45",
+     "Shift A takes its crisis roles and reads the role cards. Shift B sits behind them with observer sheets.",
+     "Facilitator",
+     "Role cards, observer sheets, name badges for roles"
+    ],
+    [
+     "09:55",
+     "Announce the incident. Shift A works out what is known, what is not, and makes its first decisions. Helper 2 starts the incident log on a screen everyone can see.",
+     "Facilitator announces. Shift A runs the response.",
+     "Incident brief, live log on a shared screen, clock"
+    ],
+    [
+     "10:15",
+     "New events arrive every 5 to 7 minutes, such as a press call, a customer complaint and a message from a regulator. Shift A decides what to do with each.",
+     "Helper 1 feeds in events. Helper 2 keeps the log.",
+     "Event cards in order, a phone or messages for the calls"
+    ],
+    [
+     "10:45",
+     "Updates arrive showing the effect of the earlier decisions. Shift A changes its plan and writes a handover note.",
+     "Helper 1 gives updates. Shift A responds.",
+     "Update cards, handover note template"
+    ],
+    [
+     "11:05",
+     "Handover. Shift A has 10 minutes to brief shift B. Shift A then moves to the observer seats.",
+     "Shift A",
+     "Handover note, incident log"
+    ],
+    [
+     "11:15",
+     "Break. The exercise clock is paused. Ask people not to discuss the scenario yet.",
+     "",
+     ""
+    ],
+    [
+     "11:30",
+     "Shift B runs the response. Two or three new events arrive, and one tests something the handover should have covered.",
+     "Helper 1 feeds in events. Helper 2 keeps the log. Shift B responds.",
+     "Second set of event cards, observer sheets for shift A"
+    ],
+    [
+     "12:05",
+     "End the exercise. Everyone steps out of role and takes two minutes alone to write what stood out.",
+     "Facilitator",
+     "Paper"
+    ],
+    [
+     "12:10",
+     "Review. Walk through the log in order. For each decision point ask what the plan said, what happened and what was missing. Keep it on the plan and the process, not on people.",
+     "Facilitator, with observers adding what they saw",
+     "Printed or projected log, flipchart"
+    ],
+    [
+     "12:45",
+     "List the gaps in roles and in the written plan. Give each an owner. Set the date for the second review in one to two weeks.",
+     "Facilitator and the team's most senior person",
+     "Flipchart, diaries"
+    ],
+    [
+     "13:00",
+     "Finish. The facilitator stays for anyone who wants to talk.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-leadership-mirror",
@@ -800,7 +2056,101 @@
   "outputs": "Behavioural strengths and risks; one tested change; coach follow-up plan",
   "bestUse": "Leadership transitions and developmental programmes",
   "cautions": "This is for development. It must not be used to assess people for pay or promotion. Feed back what people did, not what kind of person they are.",
-  "plainName": "Leadership behaviour feedback day"
+  "plainName": "Leadership behaviour feedback day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Say that the day is for development only and nothing goes into pay or promotion decisions. Collect signed consent and agree confidentiality. Form groups of four, each with one coach.",
+     "Lead coach",
+     "Consent forms, confidentiality agreement, group lists"
+    ],
+    [
+     "09:45",
+     "Each person writes the leadership challenge they are working on and predicts how they will behave in the task. They read both to their group.",
+     "Participants. Coaches listen.",
+     "Prediction sheet"
+    ],
+    [
+     "10:05",
+     "Task round 1. Each group does four 12-minute tasks, with a different person leading each one. The coach says nothing and records what the leader does against the checklist.",
+     "Participants lead. Coaches observe.",
+     "Four task briefs per group, behaviour checklist, timer"
+    ],
+    [
+     "11:05",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:20",
+     "Coaches share what they recorded, one person at a time, about 8 minutes each. The person compares it with their prediction. Stick to what was said and done.",
+     "Coaches",
+     "Completed checklists, prediction sheets"
+    ],
+    [
+     "11:55",
+     "Role-play in pairs. Each person replays a moment from their own challenge, with their partner as the team member. The partner then says how it felt to be on the receiving end. 12 minutes each way.",
+     "Participants. Coaches move between pairs.",
+     "Space for pairs to spread out, timer"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Each person reads their notes alone and chooses one change to test in the afternoon.",
+     "Participants",
+     "Checklists, notes, paper"
+    ],
+    [
+     "13:30",
+     "One to one coaching, 15 minutes each in a private room. While they wait, the others plan how they will lead their next task and talk it through in pairs.",
+     "Coaches",
+     "Private rooms, second set of task briefs"
+    ],
+    [
+     "14:30",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "14:45",
+     "Task round 2. Same format with new tasks. Each person leads again and tries their one change.",
+     "Participants lead. Coaches observe.",
+     "Four new task briefs per group, checklist, timer"
+    ],
+    [
+     "15:45",
+     "Coaches feed back on the one change only, 5 minutes each. The group adds what they noticed.",
+     "Coaches",
+     "Completed checklists"
+    ],
+    [
+     "16:05",
+     "Each person writes what they will keep doing, the one change they will carry on with, and a date for a follow-up call with their coach.",
+     "Participants",
+     "Follow-up plan sheet, diaries"
+    ],
+    [
+     "16:20",
+     "One sentence each to the whole group. Close. Finish at 16:30.",
+     "Lead coach",
+     "None"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-learning-festival",
@@ -826,7 +2176,89 @@
   "outputs": "Connections; sampled skills; community content; pathway enrolments",
   "bestUse": "Capability awareness, community building and cross-pollination",
   "cautions": "A large event builds interest, not skill. Link every session to a follow-on course and provide quiet, accessible options.",
-  "plainName": "Large learning event with many sessions, 1 to 2 days"
+  "plainName": "Large learning event with many sessions, 1 to 2 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Doors open. Registration and coffee. Stalls are open from the start and stay open all day. The quiet room is open all day.",
+     "Events team. Stall teams host their own stalls.",
+     "Badges, printed map, signs, online timetable, quiet room"
+    ],
+    [
+     "10:00",
+     "Opening talk of 20 minutes, then 10 minutes on how the day works and how to sign up for follow-on courses.",
+     "Programme lead",
+     "Main stage, microphone, slide with the timetable"
+    ],
+    [
+     "10:30",
+     "Workshops, round 1. Several run at the same time, 45 minutes each. People choose one. The hands-on challenge areas open.",
+     "A host for each workshop. Events team direct people.",
+     "Workshop rooms, room signs, a sign-up sheet in each room"
+    ],
+    [
+     "11:15",
+     "Break. People visit the stalls.",
+     "Events team",
+     "Refreshments"
+    ],
+    [
+     "11:45",
+     "Demonstrations, 20 minutes each, run twice so people can see two. The challenge areas stay open.",
+     "A host for each demonstration and each challenge area",
+     "Demonstration areas, challenge kit, seating"
+    ],
+    [
+     "12:30",
+     "Shared lunch. The sign-up desk opens.",
+     "Events team",
+     "Lunch, long tables, sign-up desk"
+    ],
+    [
+     "13:30",
+     "Question sessions with experts. Small rooms, 30 minutes, questions from the floor only.",
+     "A host for each session keeps time and takes questions",
+     "Small rooms, question cards"
+    ],
+    [
+     "14:00",
+     "Workshops, round 2. Same format, with the popular sessions repeated.",
+     "A host for each workshop",
+     "Workshop rooms, sign-up sheets"
+    ],
+    [
+     "14:45",
+     "Break. Last visit to the stalls and challenge areas.",
+     "Events team",
+     "Refreshments"
+    ],
+    [
+     "15:15",
+     "Showcase. Five or six teams take 5 minutes each on the main stage to show something made or learned today.",
+     "Programme lead introduces. Teams present.",
+     "Main stage, microphone, timer"
+    ],
+    [
+     "15:50",
+     "Sign-up. The programme lead names the follow-on course linked to each session. People sign up at the desk or on their phones before they leave.",
+     "Programme lead, events team on the desk",
+     "Course list, sign-up desk, QR codes on screens"
+    ],
+    [
+     "16:15",
+     "Thanks and close. Finish at 16:30. Stalls pack down.",
+     "Programme lead",
+     "None"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-reverse-classroom-retreat",
@@ -960,7 +2392,7 @@
    "Small groups try a second case",
    "Compare the groups' answers with the experts'"
   ],
-  "duration": "2 to 3 hours",
+  "duration": "About 2.5 hours",
   "methods": "Fishbowl; think-aloud; case method; peer instruction",
   "mechanics": "Observation; self-explanation; contrast; retrieval; feedback",
   "setup": "Central circle with observer worksheets and group tables",
@@ -968,7 +2400,71 @@
   "outputs": "Visible decision heuristics; participant solution; questions for practice",
   "bestUse": "Tacit professional judgement and complex case work",
   "cautions": "Use more than one expert so the group sees them disagree. Do not let it turn into a performance by one star.",
-  "plainName": "Watch experts solve a case, then try it yourself"
+  "plainName": "Watch experts solve a case, then try it yourself",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "14:00",
+     "Welcome. Set out the room and say how it works. Introduce the first case.",
+     "Facilitator",
+     "Inner circle of chairs, outer ring, printed case one"
+    ],
+    [
+     "14:10",
+     "Each person writes what they would do with the case and why. Nobody shares yet.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "14:20",
+     "The experts work through the case in the inner circle, thinking aloud. The facilitator stops them whenever they skip a step and asks what they noticed. The outer ring notes what the experts pay attention to and where they disagree.",
+     "Experts. Facilitator prompts.",
+     "Observer sheets, flipchart in the circle"
+    ],
+    [
+     "14:50",
+     "Observers question the experts. Start with the points where the experts disagreed or were unsure.",
+     "Facilitator chairs",
+     "Observer sheets"
+    ],
+    [
+     "15:05",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:15",
+     "Groups of four try the second case. The experts work on it apart from the groups and write their answer on a flipchart that stays covered.",
+     "Participants. Facilitator moves between groups.",
+     "Printed case two, flipchart paper for each group"
+    ],
+    [
+     "15:45",
+     "Groups put their answers on the wall. The experts uncover theirs. Compare them: what the groups picked up, what they missed, and where the experts still differ.",
+     "Facilitator, with the experts",
+     "Wall space, group flipcharts, the experts' flipchart"
+    ],
+    [
+     "16:10",
+     "Each person writes two rules of thumb they will use and one question to take back to work.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "16:20",
+     "Hear a few aloud. Close. Finish at 16:30.",
+     "Facilitator",
+     "None"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-evidence-courtroom",
@@ -985,7 +2481,7 @@
    "The jury gives a verdict",
    "Each person writes their own view and a better version of the claim"
   ],
-  "duration": "Half day",
+  "duration": "Half a day, about 3.5 hours",
   "methods": "Debate; role-play; case method; comparative judgement",
   "mechanics": "Elaboration; cognitive conflict; social learning; metacognition",
   "setup": "Courtroom-style room; evidence tables; jury area",
@@ -993,7 +2489,95 @@
   "outputs": "Claim map; evidence quality assessment; revised recommendation",
   "bestUse": "Critical thinking, research literacy and decision-making",
   "cautions": "Score the evidence, not the delivery. Swap roles for a second round if you can, and end with individual writing so quieter people form their own view.",
-  "plainName": "Mock trial of a claim, half day"
+  "plainName": "Mock trial of a claim, half day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. State the claim on trial. Draw roles: two sides of 4 or 5 and a jury of 4 to 6. Say that the jury scores evidence, not delivery.",
+     "Facilitator, as chair",
+     "The claim on a flipchart, role slips"
+    ],
+    [
+     "09:40",
+     "Hand out the evidence pack. Everyone reads it alone.",
+     "Participants",
+     "One evidence pack each"
+    ],
+    [
+     "10:00",
+     "Each side prepares its argument and chooses who speaks. At the same time the jury agrees how it will judge, using the scoring sheet.",
+     "Each side works alone. Facilitator sits with the jury first.",
+     "Scoring sheet, flipchart paper for each side"
+    ],
+    [
+     "10:30",
+     "Opening statements, 4 minutes a side.",
+     "Chair keeps time",
+     "Timer"
+    ],
+    [
+     "10:40",
+     "Witnesses. One or two subject experts answer questions about the evidence. If you have no experts, give two participants a witness card each. Each side gets 8 minutes of questions.",
+     "Chair. Both sides ask.",
+     "Witness cards, timer"
+    ],
+    [
+     "11:00",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:15",
+     "Each side questions the other for 8 minutes, then gives a 3-minute closing.",
+     "Chair keeps time",
+     "Timer"
+    ],
+    [
+     "11:40",
+     "The jury discusses in front of the room and scores each piece of evidence. Both sides listen without speaking.",
+     "Jury",
+     "Scoring sheets, evidence pack"
+    ],
+    [
+     "12:00",
+     "The jury gives its verdict and its reasons.",
+     "Jury spokesperson",
+     "None"
+    ],
+    [
+     "12:10",
+     "Out of role. The whole group maps the claim on the wall: evidence that held up, evidence that was weak, and what is missing.",
+     "Facilitator",
+     "Wall space, sticky notes, pens"
+    ],
+    [
+     "12:30",
+     "Each person writes their own view and a better version of the claim.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "12:45",
+     "Pairs read their versions to each other. Hear three or four aloud. Close.",
+     "Facilitator",
+     "None"
+    ],
+    [
+     "13:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-museum-of-mistakes",
@@ -1017,7 +2601,83 @@
   "outputs": "Failure-pattern taxonomy; prevention and recovery practices; updated job aids",
   "bestUse": "Operational learning, quality and project delivery",
   "cautions": "If people can guess who was involved, the format fails. Include cases where someone caught and fixed a problem, and remember that mistakes look more obvious afterwards than they were at the time.",
-  "plainName": "Exhibition of anonymous mistakes, half or full day"
+  "plainName": "Exhibition of anonymous mistakes, half or full day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "Before the day",
+     "Collect incidents without names. Choose 8 to 10, including two or three where someone caught and fixed a problem. Write each on one page and remove any detail that points to a person or team. Put them up before people arrive.",
+     "The trusted collector",
+     "Collection form, one-page write-ups, wall or table space"
+    ],
+    [
+     "09:30",
+     "Welcome. Say the rules: look for causes in the way the work is set up, and do not guess who was involved.",
+     "Lead facilitator",
+     "Rules on a flipchart"
+    ],
+    [
+     "09:40",
+     "Pairs walk round the display with a guide sheet. For each incident they note what made the mistake easy to make and what could have caught it.",
+     "Participants. Facilitators stay near the display.",
+     "Guide sheets, clipboards"
+    ],
+    [
+     "10:15",
+     "Pairs go round again and tag each incident with the type of cause. The group then looks at where the tags pile up and names the three most common causes.",
+     "Lead facilitator",
+     "Coloured stickers, a key to the cause types"
+    ],
+    [
+     "10:35",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "10:50",
+     "Three short expert sessions, 10 minutes each, one on each common cause. Each covers how the cause arises and what has worked against it elsewhere in the organisation.",
+     "Experts. Facilitator keeps time.",
+     "Flipchart or one slide per session"
+    ],
+    [
+     "11:20",
+     "Groups of four each take one cause and redesign a process step or a checklist to prevent it or catch it sooner.",
+     "Participants. Facilitators move between groups.",
+     "Current process or checklist, flipchart paper, pens"
+    ],
+    [
+     "12:05",
+     "Each group shows its redesign in 5 minutes. The others say what would stop it working in practice.",
+     "Lead facilitator",
+     "Group flipcharts"
+    ],
+    [
+     "12:30",
+     "Each person writes one change they will make. Agree an owner and a date for each redesign.",
+     "Lead facilitator, with the team's manager",
+     "Commitment cards, action list"
+    ],
+    [
+     "12:45",
+     "Hear the commitments. Say what happens to the display and the write-ups afterwards. Close.",
+     "Lead facilitator",
+     "None"
+    ],
+    [
+     "13:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-customer-reality-lab",
@@ -1041,7 +2701,101 @@
   "outputs": "Revised journey; assumption log; tested service improvement",
   "bestUse": "Customer experience and service transformation",
   "cautions": "One customer does not stand for all customers. Keep three things apart on the wall: what was observed, what the team thinks it means, and what the team is guessing.",
-  "plainName": "Customer research workshop, 1 to 2 days"
+  "plainName": "Customer research workshop, 1 to 2 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome and aim. Then everyone walks the evidence wall alone and reads complaints, survey comments and transcripts. They mark anything that surprises them.",
+     "Lead facilitator",
+     "Evidence wall, sticky dots"
+    ],
+    [
+     "10:10",
+     "Listening. Groups of four listen to two or three recorded calls or interviews with one question in mind, such as where the customer got stuck.",
+     "Second facilitator",
+     "Recordings with consent, headphones or small speakers, note sheets"
+    ],
+    [
+     "10:40",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "10:55",
+     "Each group rebuilds on the wall the steps a customer goes through, using only what they have read and heard.",
+     "Lead facilitator",
+     "Wall space, sticky notes, pens"
+    ],
+    [
+     "11:35",
+     "Groups list what the team has been assuming. They pick three assumptions to check and write interview questions for them.",
+     "Second facilitator",
+     "Assumption sheet, interview guide template"
+    ],
+    [
+     "12:00",
+     "Customer conversations. Each group talks to one customer for 30 minutes, in person or by video call. If no customers are available, use an actor briefed from real cases and say so. One person asks, one takes notes, the rest listen.",
+     "Groups. Facilitators sit in.",
+     "Interview rooms or video calls, consent forms, note sheets"
+    ],
+    [
+     "12:40",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:25",
+     "Groups report what they heard and update the wall. Keep three things apart: what was observed, what the team thinks it means, and what the team is guessing.",
+     "Lead facilitator",
+     "Three colours of sticky note"
+    ],
+    [
+     "13:50",
+     "Each group builds one rough improvement, such as a redrawn form, a new script or a mocked-up screen. Each writes down what they expect customers to do with it.",
+     "Groups. Facilitators move between them.",
+     "Paper, card, pens, tape, laptops if needed"
+    ],
+    [
+     "14:50",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:05",
+     "Quick tests. Each group shows its improvement to two customers, 15 minutes each, and watches what they do before asking anything.",
+     "Groups. Second facilitator runs the customer timetable.",
+     "Interview rooms or video calls, test note sheet"
+    ],
+    [
+     "15:45",
+     "Groups compare what happened with what they expected, and change the improvement or drop it.",
+     "Lead facilitator",
+     "Test notes, the prototypes"
+    ],
+    [
+     "16:15",
+     "Each group states its tested improvement, what is still a guess, and who takes it forward. Close.",
+     "Lead facilitator",
+     "Assumption log, action list"
+    ],
+    [
+     "16:30",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-negotiation-dojo",
@@ -1185,7 +2939,77 @@
   "outputs": "Multiple prototypes; test evidence; revised concept; reusable patterns",
   "bestUse": "Service, product, process and learning design",
   "cautions": "The most popular idea in the room is not proven to work. Make each team write down what their prototype is testing before the testers arrive.",
-  "plainName": "Build, test and rebuild ideas, half or full day"
+  "plainName": "Build, test and rebuild ideas, half or full day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Agree the problem. Form four teams of 3 or 4. Each team writes the one question its prototype will answer.",
+     "Facilitator",
+     "The problem on a flipchart, question cards"
+    ],
+    [
+     "09:50",
+     "Build round 1. Teams make a rough version from card and paper. Give time checks at 20 and 35 minutes.",
+     "Teams. Timekeeper calls time.",
+     "Card, paper, tape, pens, scissors, timer"
+    ],
+    [
+     "10:30",
+     "Each team sets up a stall and puts its question card where testers can see it.",
+     "Teams",
+     "One table per team, question cards"
+    ],
+    [
+     "10:35",
+     "Test round 1. One or two people stay to host each stall. Everyone else visits the other three stalls, 8 minutes each, and leaves a written feedback card before moving on. Outside testers join here if you have them.",
+     "Timekeeper runs the rotation",
+     "Feedback cards, timer, a bell or chime"
+    ],
+    [
+     "11:00",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:15",
+     "Teams read their feedback, decide what to change and rebuild.",
+     "Teams. Facilitator moves between them.",
+     "Feedback cards, making materials"
+    ],
+    [
+     "11:55",
+     "Test round 2. Hosts and visitors swap, so everyone tests and everyone hosts. Same rotation.",
+     "Timekeeper runs the rotation",
+     "Feedback cards, timer"
+    ],
+    [
+     "12:20",
+     "Each team writes three lines: what we tested, what we learned, and what is still unproven.",
+     "Teams",
+     "Summary sheet"
+    ],
+    [
+     "12:35",
+     "Each team reports in 3 minutes. The facilitator lists what was learned across teams. Remind the group that a popular idea has not been shown to work.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "12:55",
+     "Agree what happens to each idea next. Close. Finish at 13:00.",
+     "Facilitator",
+     "Action list"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-manager-transfer-lab",
@@ -1202,7 +3026,7 @@
    "The manager commits time or resources",
    "They book a review in 30 days"
   ],
-  "duration": "3 to 4 hours, best as the last session of a programme",
+  "duration": "About 3.5 hours, best as the last session of a programme",
   "methods": "Transfer planning; coaching; implementation intentions; social accountability",
   "mechanics": "Implementation intentions; relevance; feedforward; habit and cue design",
   "setup": "Paired seating with private planning space",
@@ -1210,7 +3034,83 @@
   "outputs": "Manager–learner contract; protected practice time; review date; barrier plan",
   "bestUse": "Any programme where workplace conditions determine application",
   "cautions": "What a manager sees here is for development and must not go into appraisal. Many obstacles are about workload or process, so fix those and do not put it all on the learner.",
-  "plainName": "Planning session for learners and their managers"
+  "plainName": "Planning session for learners and their managers",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "14:00",
+     "Welcome. Say the aim. Say that what managers see today is for development and does not go into appraisal.",
+     "Facilitator",
+     "Aim on a flipchart"
+    ],
+    [
+     "14:10",
+     "Learners set up what they will show. In another corner, managers are briefed on the watching guide: what to look for and what to ask afterwards.",
+     "Facilitator briefs managers. Learners prepare alone.",
+     "Watching guide, anything learners need to demonstrate"
+    ],
+    [
+     "14:20",
+     "Demonstrations in clusters of four pairs. Each learner takes about 8 minutes to show their manager and the cluster one thing they can now do.",
+     "Learners",
+     "Watching guides, timer for each cluster"
+    ],
+    [
+     "15:00",
+     "Each pair sits alone. The manager says what they saw. Together they list what could get in the way at work, such as workload, process or tools.",
+     "Pairs",
+     "Planning sheet"
+    ],
+    [
+     "15:20",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:35",
+     "Pairs agree who does what. They write an if-then plan for each of the three most likely obstacles. They mark any obstacle they cannot fix themselves.",
+     "Pairs. Facilitator moves between them.",
+     "Planning sheet"
+    ],
+    [
+     "16:05",
+     "Managers move into threes and practise a 5-minute coaching conversation: one coaches, one plays a learner, one observes, then swap. Learners meet together and plan their first two weeks of practice.",
+     "Facilitator with managers. Learners work on their own.",
+     "Coaching prompt card, timer, paper"
+    ],
+    [
+     "16:35",
+     "Pairs bring the obstacles they cannot fix. The senior person answers each one: yes, no, or who will decide and by when.",
+     "Senior sponsor. Facilitator records.",
+     "Flipchart for the obstacle list"
+    ],
+    [
+     "16:55",
+     "Back in pairs. The manager writes down the time or resources they will give. Both sign the sheet and put the 30-day review in their diaries now.",
+     "Pairs",
+     "Planning sheet, diaries"
+    ],
+    [
+     "17:15",
+     "Each pair says one commitment aloud. Close.",
+     "Facilitator",
+     "None"
+    ],
+    [
+     "17:30",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-reflection-observatory",
@@ -1316,7 +3216,95 @@
   "outputs": "Evidence map; field guide; unanswered questions; source index",
   "bestUse": "AI, regulation, emerging technology and new market understanding",
   "cautions": "Check the quality of the sources before the day. On the wall, mark what the evidence shows separately from what people agree on, and make sure everyone sees the whole picture.",
-  "plainName": "Group research sprint on a new topic, 1 to 2 days"
+  "plainName": "Group research sprint on a new topic, 1 to 2 days",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome. Agree the three or four questions the group wants answered and write them across the wall.",
+     "Facilitator",
+     "Wall space, large question headings"
+    ],
+    [
+     "09:50",
+     "Reading. Groups of four each read a different set of sources. They fill in a one-page sheet for each source: what it says, how it knows, and how far to trust it.",
+     "Reading groups. Facilitator moves between them.",
+     "Source sets, summary sheets"
+    ],
+    [
+     "10:50",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "11:05",
+     "Teach each other. Form new groups with one person from each reading group. Each person has 8 minutes to teach what their sources said.",
+     "Participants",
+     "Completed summary sheets, timer"
+    ],
+    [
+     "11:45",
+     "Wall map. Everyone posts findings under the questions. Use one colour for what the evidence shows and another for what the group agrees on. Mark the gaps.",
+     "Facilitator",
+     "Two colours of sticky note, pens"
+    ],
+    [
+     "12:30",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:15",
+     "Expert challenge. The expert walks the wall, questions the findings and points out what is missing or overstated. The group corrects the map as they go.",
+     "Expert. Facilitator records changes.",
+     "The wall map, pens"
+    ],
+    [
+     "14:00",
+     "Writing. Each group takes one question and writes half a page: what is known, what is not known, and what it means for our work.",
+     "Groups",
+     "Laptops or paper, a shared document"
+    ],
+    [
+     "14:40",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "14:55",
+     "Put the guide together. Two volunteers edit the half pages into one short guide. The others build the source list and the list of open questions.",
+     "Two volunteer editors. Facilitator supports.",
+     "Shared document, summary sheets"
+    ],
+    [
+     "15:35",
+     "Teach back. Each group presents its question to the whole room in 6 minutes. The expert corrects anything that is wrong.",
+     "Groups, with the expert",
+     "The draft guide on screen"
+    ],
+    [
+     "16:10",
+     "Each person writes one thing they will use and one thing they still need to find out. Agree who gets the guide and who keeps it up to date.",
+     "Facilitator",
+     "Paper, action list"
+    ],
+    [
+     "16:20",
+     "Close. Finish at 16:30.",
+     "Facilitator",
+     "None"
+    ]
+   ]
+  }
  },
  {
   "slug": "the-peer-consultancy",
@@ -1447,7 +3435,83 @@
   "outputs": "Signal library; intervention protocol; handover checklist; team gaps",
   "bestUse": "Operations, cyber, product reliability and service management",
   "cautions": "Show only the figures the real team uses. If the data and its reactions do not match the real system, people will practise the wrong habits.",
-  "plainName": "Monitoring and response practice with live data"
+  "plainName": "Monitoring and response practice with live data",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "09:30",
+     "Welcome and rules. Then a tour of the screen: what each figure means, what normal looks like and who watches it in real life.",
+     "Facilitator, with one of the client's specialists",
+     "Shared screens, a one-page key to the figures"
+    ],
+    [
+     "09:55",
+     "Spotting practice. The scenario runner shows six short changes in the figures. Pairs say whether each one matters and why.",
+     "Technical helper runs the data. Facilitator takes answers.",
+     "Practice data, answer sheet"
+    ],
+    [
+     "10:20",
+     "Break. Split into two shifts of 6 to 8.",
+     "",
+     ""
+    ],
+    [
+     "10:30",
+     "The scenario starts. Shift A takes the role stations. Shift B watches with observer sheets. A problem appears in the figures. Shift A lists possible causes on a board.",
+     "Technical helper changes the data. Shift A responds.",
+     "Scenario data, role cards, observer sheets, whiteboard"
+    ],
+    [
+     "10:55",
+     "Shift A chooses what to do. The figures change to show the effect. Shift A checks whether it worked and adjusts.",
+     "Shift A. Technical helper shows the effect.",
+     "Scenario data, action log"
+    ],
+    [
+     "11:20",
+     "Handover. Shift A writes a short note and briefs shift B in 10 minutes. Shift A moves to the observer seats.",
+     "Shift A",
+     "Handover note template"
+    ],
+    [
+     "11:30",
+     "Shift B takes over. The problem develops or a second one starts, and one part of it depends on something the handover should have covered.",
+     "Technical helper changes the data. Shift B responds.",
+     "Scenario data, observer sheets for shift A"
+    ],
+    [
+     "12:05",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "12:15",
+     "Review. Walk through the timeline: when each change appeared, when it was spotted, what was decided, and what the handover left out.",
+     "Facilitator, with observers adding what they saw",
+     "Timeline from the action log, observer sheets, flipchart"
+    ],
+    [
+     "12:45",
+     "Agree what to keep: the signals to watch for, the steps to take, and a handover checklist. Give each an owner. Close.",
+     "Facilitator and the team's manager",
+     "Flipchart, action list"
+    ],
+    [
+     "13:00",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  },
  {
   "slug": "the-ethical-dilemma-forum",
@@ -1464,7 +3528,7 @@
    "Each person writes a revised decision",
    "State the principle behind it"
   ],
-  "duration": "3 to 4 hours",
+  "duration": "About 3.5 hours",
   "methods": "Dilemma case; role-play; fishbowl; structured dialogue",
   "mechanics": "Generation; cognitive conflict; perspective-taking; reflection; identity",
   "setup": "Circle seating plus stakeholder breakout areas",
@@ -1472,6 +3536,88 @@
   "outputs": "Decision principles; unresolved tensions; policy questions; individual rationale",
   "bestUse": "AI ethics, professional standards, inclusion and governance",
   "cautions": "Do not write the case as a choice between two options only. Protect people who hold the minority view, and say clearly which parts are legal requirements and which are judgement.",
-  "plainName": "Ethical dilemma discussion, half day"
+  "plainName": "Ethical dilemma discussion, half day",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "14:00",
+     "Welcome. Agree ground rules: speak for yourself, question the reasoning and not the person, and what is said stays in the room. Name the person to go to if the case raises something personal.",
+     "Facilitator",
+     "Ground rules on a flipchart, chairs in a circle"
+    ],
+    [
+     "14:10",
+     "Tell the dilemma as a story, in two or three parts. Take questions of fact only.",
+     "Facilitator",
+     "Printed case, handed out after the telling"
+    ],
+    [
+     "14:20",
+     "Each person writes their own decision and their reason. They fold the paper and keep it.",
+     "Participants",
+     "Paper"
+    ],
+    [
+     "14:30",
+     "The whole group names the values that pull against each other in the case. Map them on the wall as pairs in tension.",
+     "Facilitator",
+     "Flipchart or wall, pens"
+    ],
+    [
+     "14:50",
+     "Groups of three or four each take one party affected by the decision. They prepare for 15 minutes, then each group speaks for its party for 3 minutes.",
+     "Groups",
+     "Party cards, space for groups to spread out"
+    ],
+    [
+     "15:20",
+     "Break.",
+     "",
+     ""
+    ],
+    [
+     "15:35",
+     "Open disagreement, back in the circle. Ask for the least popular view first and make sure it gets a full hearing. Ask people to say what would change their mind.",
+     "Facilitator",
+     "None"
+    ],
+    [
+     "16:10",
+     "Test against policy and law. Someone who knows them says which parts of the case are legal requirements and which are judgement. Groups check their decisions against both.",
+     "Policy or legal lead, with the facilitator",
+     "Relevant policy extracts, one page on the legal position"
+    ],
+    [
+     "16:35",
+     "Each person writes a revised decision and notes what, if anything, changed their thinking.",
+     "Participants",
+     "Paper, the first folded decision"
+    ],
+    [
+     "16:45",
+     "Each person states the principle behind their decision in one sentence, first to a partner, then round the circle. Record the tensions that remain and any questions for policy owners.",
+     "Facilitator",
+     "Flipchart"
+    ],
+    [
+     "17:15",
+     "Close. Say what happens to the policy questions. Remind people of the named support person.",
+     "Facilitator",
+     "None"
+    ],
+    [
+     "17:30",
+     "Finish.",
+     "",
+     ""
+    ]
+   ]
+  }
  }
 ]

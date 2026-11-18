@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { playbook, stages } from '../lib.js';
+import { playbook, stages, topicById } from '../lib.js';
 import { Arrow } from '../components/ui.jsx';
 import FormatSteps from '../components/FormatSteps.jsx';
 import StageTile from '../components/StageTile.jsx';
@@ -29,6 +29,33 @@ export default function Playbook() {
           </div>
           <Arrow />
         </Link>
+      </section>
+
+      <section className="route" aria-labelledby="h-route">
+        <div className="route-head">
+          <h2 id="h-route" className="h2">
+            {playbook.startHere.heading}
+          </h2>
+          <p className="lead">{playbook.startHere.lead}</p>
+        </div>
+        <ol className="route-list">
+          {playbook.startHere.ids.map((id) => {
+            const topic = topicById(id);
+            return (
+              <li key={id}>
+                <Link to={topic.path}>
+                  <span className="disc sm" style={{ background: topic.stage.color }} aria-hidden="true">
+                    {topic.stage.n}
+                  </span>
+                  <span className="route-t">{topic.title}</span>
+                  <span className="route-n">
+                    {topic.stage.n}.{topic.n}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ol>
       </section>
 
       <FormatSteps heading={landing.formatHeading} hint={landing.formatHint} steps={topicFormat} />
