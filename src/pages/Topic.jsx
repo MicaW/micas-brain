@@ -41,6 +41,7 @@ export default function Topic() {
 
   return (
     <div style={{ '--stage': stage.color, display: 'contents' }}>
+      <div className="topic-top">
       <section className="stage-top" aria-labelledby="h-topic">
         <nav className="crumb" aria-label="Breadcrumb">
           <Link className="txt" to="/playbook">
@@ -82,7 +83,6 @@ export default function Topic() {
         </p>
       )}
       {full && (
-      <>
       <div className="g tp-b-top">
         <section className="tile paper prose s5">
           <h2 className="part-h">{situation.name}</h2>
@@ -93,6 +93,10 @@ export default function Topic() {
           <Blocks blocks={doThis.content} />
         </section>
       </div>
+      )}
+      </div>
+      {full && (
+      <>
 
       <div>
         {rest.map((part) => (

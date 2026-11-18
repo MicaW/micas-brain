@@ -109,10 +109,20 @@ export default function PlaybookPanel({ stage, topic, open, onClose }) {
 
   // A new stage starts with only the current part open. Within a stage, the part you move into opens and the rest stay as you left them.
   useEffect(() => setOpenParts(new Set(currentPart >= 0 ? [currentPart] : [])), [stage.n]);
+  const bringIntoView = useRef(true);
   useEffect(() => {
     if (currentPart >= 0) setOpenParts((was) => new Set(was).add(currentPart));
-    panel.current?.querySelector('[aria-current="page"]')?.scrollIntoView({ block: 'nearest' });
+    bringIntoView.current = true;
   }, [topic?.id]);
+  // Once the current part has opened, make sure the current topic can be seen in the panel.
+  useEffect(() => {
+    if (!bringIntoView.current) return;
+    const here = panel.current?.querySelector('.pp-part [aria-current="page"]');
+    if (here) {
+      here.scrollIntoView({ block: 'center' });
+      bringIntoView.current = false;
+    }
+  });
 
   // On a small screen the panel covers the page, so it takes the focus, closes on Escape and stops the page scrolling behind it.
   useEffect(() => {
