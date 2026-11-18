@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { loadStageText, playbook, stageLabel, stagePath, topics } from '../lib.js';
 import Blocks from '../components/Blocks.jsx';
+import { Highlights, NoHighlights } from '../highlights.jsx';
 import { Arrow } from '../components/ui.jsx';
 import Words from '../components/Words.jsx';
 import NotFound from './NotFound.jsx';
@@ -41,6 +42,7 @@ export default function Topic() {
 
   return (
     <div style={{ '--stage': stage.color, display: 'contents' }}>
+    <Highlights topicId={topic.id}>
       <div className="topic-top">
       <section className="stage-top" aria-labelledby="h-topic">
         <nav className="crumb" aria-label="Breadcrumb">
@@ -91,6 +93,7 @@ export default function Topic() {
         <section className="do-tile s7">
           <h2 className="sr-only">{doThis.name}</h2>
           <Blocks blocks={doThis.content} />
+          <p className="hl-hint">Tap a bold line to highlight it. Highlights are kept on this device.</p>
         </section>
       </div>
       )}
@@ -100,7 +103,7 @@ export default function Topic() {
 
       <div>
         {rest.map((part) => (
-          <section className="tp-row" key={part.key} aria-labelledby={`h-${part.key}`}>
+          <section className={`tp-row tp-${part.key}`} key={part.key} aria-labelledby={`h-${part.key}`}>
             <div>
               <h2 id={`h-${part.key}`}>{part.name}</h2>
               <p className="status">{part.what}</p>
@@ -117,7 +120,9 @@ export default function Topic() {
               <p className="status">Answer from memory first, then open each one to check.</p>
             </div>
             <div className="prose">
-              <Blocks blocks={[{ type: 'quiz', items: quiz }]} />
+              <NoHighlights>
+                <Blocks blocks={[{ type: 'quiz', items: quiz }]} />
+              </NoHighlights>
             </div>
           </section>
         )}
@@ -134,7 +139,10 @@ export default function Topic() {
         </p>
       )}
       {next ? (
-        <Link className="nx onp" to={next.path} style={{ '--next': stage.color }}>
+        <Link className="nx nx-topic onp" to={next.path} style={{ '--next': stage.color }} data-carry-disc>
+          <span className="nx-disc" aria-hidden="true">
+            {stage.n}.{next.n}
+          </span>
           <span className="nx-words">
             <span className="nx-label">Next in {stageLabel(stage)}</span>
             <span className="nx-q">
@@ -152,6 +160,7 @@ export default function Topic() {
           <Arrow size={40} />
         </Link>
       )}
+    </Highlights>
     </div>
   );
 }

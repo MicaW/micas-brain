@@ -1,6 +1,7 @@
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { flushSync } from 'react-dom';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { mechanics, site, stageByN, stageLabel, topics } from './lib.js';
 import SiteFooter from './components/SiteFooter.jsx';
 import SiteHeader from './components/SiteHeader.jsx';
@@ -50,8 +51,69 @@ function titleFor(pathname) {
   return name ? `${name} · ${site.name}` : site.name;
 }
 
+const stageOf = (path) => {
+  const m = path.match(/^\/playbook\/stage-(\d)(\/|$)/);
+  return m ? stageByN(m[1]) : null;
+};
+
 export default function App() {
   const { pathname } = useLocation();
+  const navigate = useNavigate();
+  const here = useRef(pathname);
+  here.current = pathname;
+  // Moving to another stage sweeps that stage's colour across the page.
+  const [wipe, setWipe] = useState(null);
+
+  // Page changes ease from one to the next: the topic number travels to its new place,
+  // the marker in the panel slides, and a new stage arrives behind a sweep of its colour.
+  // Nothing here runs for people who have asked their device for less motion.
+  useEffect(() => {
+    const calm = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const onClick = (e) => {
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const a = e.target.closest?.('a[href^="#/"]');
+      if (!a || a.target === '_blank' || calm.matches) return;
+      const to = a.getAttribute('href').slice(1);
+      const toPath = to.split('?')[0];
+      if (toPath === here.current) return;
+      const from = stageOf(here.current);
+      const next = stageOf(toPath);
+      const newStage = Boolean(from && next && from.n !== next.n);
+      const change = () =>
+        flushSync(() => {
+          if (newStage) setWipe({ color: next.color, key: Date.now() });
+          navigate(to);
+        });
+      if (!document.startViewTransition) {
+        if (newStage) {
+          e.preventDefault();
+          change();
+        }
+        return;
+      }
+      e.preventDefault();
+      const root = document.documentElement;
+      const carried = a.matches('[data-carry-disc]') ? a.querySelector('.nx-disc') : null;
+      const title = document.querySelector('.topic-disc');
+      if (carried && title) {
+        title.style.viewTransitionName = 'none';
+        carried.style.viewTransitionName = 'topic-disc';
+      }
+      root.classList.add('vt-on');
+      root.classList.toggle('vt-stage', newStage);
+      const moving = document.startViewTransition(() => {
+        change();
+        // The same elements are reused on the next topic, so hand the name back to the title.
+        document.querySelectorAll('.topic-disc, .nx-disc').forEach((el) => el.style.removeProperty('view-transition-name'));
+      });
+      moving.finished.finally(() => {
+        flushSync(() => setWipe(null));
+        root.classList.remove('vt-on', 'vt-stage');
+      });
+    };
+    document.addEventListener('click', onClick, true);
+    return () => document.removeEventListener('click', onClick, true);
+  }, [navigate]);
   const ground = groundFor(pathname);
   const main = useRef(null);
   const firstLoad = useRef(true);
@@ -124,6 +186,7 @@ export default function App() {
         </ErrorBoundary>
       </main>
       <SiteFooter />
+      {wipe && <div className="stage-wipe" key={wipe.key} style={{ background: wipe.color }} aria-hidden="true" onAnimationEnd={() => setWipe(null)} />}
     </div>
   );
 }

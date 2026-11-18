@@ -1326,6 +1326,15 @@ a.tile:hover,
 .pp-part > button[aria-expanded='true'] .v {
   display: none;
 }
+/* An opened part settles in; nothing changes height over time. */
+@keyframes pp-in {
+  from { opacity: 0; transform: translateY(-4px); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pp-part ul {
+    animation: pp-in 0.2s var(--ease-out);
+  }
+}
 .pp-part ul {
   margin: 0 0 16px;
   padding: 0;
@@ -1347,8 +1356,9 @@ a.tile:hover,
   color: var(--pp-fg);
   font-weight: 700;
 }
-.pp-part li a[aria-current='page']::before {
-  content: '';
+/* A real element, so it can slide to the next topic when the page changes. */
+.pp-part li a .pp-dot {
+  view-transition-name: pp-dot;
   position: absolute;
   left: 0;
   top: 0.62em;

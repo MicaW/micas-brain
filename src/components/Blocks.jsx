@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Lead } from '../highlights.jsx';
 import { mechanics, topicByNumber } from '../lib.js';
 import { Arrow, Pill } from './ui.jsx';
 
@@ -42,7 +43,7 @@ export function Inline({ text }) {
   let last = 0;
   for (const m of text.matchAll(MARK)) {
     if (m.index > last) out.push(text.slice(last, m.index));
-    if (m[1]) out.push(<strong key={m.index}>{m[1]}</strong>);
+    if (m[1]) out.push(<Lead key={m.index}>{m[1]}</Lead>);
     else {
       const topic = topicByNumber(m[3]);
       out.push(

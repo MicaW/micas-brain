@@ -175,6 +175,7 @@ export default function PlaybookPanel({ stage, topic, open, onClose }) {
                     {topicsIn(stage, part).map((t) => (
                       <li key={t.id}>
                         <Link to={t.path} aria-current={topic && t.id === topic.id ? 'page' : undefined}>
+                          {topic && t.id === topic.id && <span className="pp-dot" aria-hidden="true" />}
                           {t.title}
                         </Link>
                       </li>

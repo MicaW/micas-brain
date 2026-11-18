@@ -1782,3 +1782,226 @@ dd {
   font-size: 0.9375rem;
   line-height: 1.5;
 }
+
+/* ---------- Topic pages: landmarks, marks and movement ---------- */
+
+/* Section openers: each section starts with a tile in the stage colour.
+   On a wide screen it stays beside the text while you read that section. */
+.tp-row {
+  gap: 24px;
+  align-items: start;
+  margin-top: 56px;
+  padding: 0;
+  border-top: 0;
+}
+.tp-row > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  min-height: 168px;
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  background: var(--stage);
+  color: var(--on-tile);
+}
+.tp-row > div:first-child .status {
+  color: var(--on-tile-muted);
+}
+.tp-row > .prose {
+  padding: 24px 16px 0 24px;
+}
+@media (min-width: 1001px) {
+  .tp-row > div:first-child {
+    position: sticky;
+    top: 24px;
+  }
+}
+@media (max-width: 1000px) {
+  .tp-row > div:first-child {
+    min-height: 0;
+    gap: 12px;
+  }
+  .tp-row > .prose {
+    padding: 0 8px;
+  }
+}
+
+/* Try it is something to do, so it sits on its own sheet. */
+.tp-row.tp-try > .prose {
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  background: var(--tile-paper);
+}
+@media (max-width: 1000px) {
+  .tp-row.tp-try > .prose {
+    padding: 24px 20px;
+  }
+}
+
+/* Highlighter: a bold line takes a stroke of the stage colour and keeps it. */
+.hl {
+  --hl-ink: var(--stage);
+  margin: 0 -3px;
+  padding: 1px 3px;
+  border-radius: 3px 8px 4px 9px / 8px 3px 9px 4px;
+  background: linear-gradient(var(--hl-ink), var(--hl-ink)) no-repeat 0 78% / 0% 68%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  cursor: pointer;
+  transition: background-size 0.28s var(--ease-out);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.hl[aria-pressed='true'] {
+  background-size: 100% 68%;
+}
+.paper .hl {
+  --hl-ink: rgb(255 255 255 / 0.72);
+}
+@media (hover: hover) and (pointer: fine) {
+  .hl[aria-pressed='false']:hover {
+    --hl-ink: color-mix(in srgb, var(--stage) 38%, transparent);
+    background-size: 100% 68%;
+  }
+  .paper .hl[aria-pressed='false']:hover {
+    --hl-ink: rgb(255 255 255 / 0.34);
+  }
+}
+.hl:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.hl-hint {
+  margin: 24px 0 0;
+  font: 400 0.8125rem/1.4 var(--font-sans);
+  color: var(--ink-muted);
+}
+
+/* The way on: the next topic's number sits on the tile and travels to the title. */
+.nx-topic {
+  grid-template-columns: 72px minmax(0, 1fr) 40px;
+  margin-top: 56px;
+}
+.prev-link {
+  margin: 56px 0 16px;
+}
+.prev-link + .nx-topic {
+  margin-top: 0;
+}
+.nx-disc {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-pill);
+  background: #0b0b0c;
+  color: var(--next);
+  font: 500 1.625rem/1 var(--font-display);
+  letter-spacing: -0.03em;
+}
+.nx svg {
+  transition: transform 0.15s var(--ease-out);
+}
+.nx:hover {
+  transform: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .nx:hover svg {
+    transform: translateX(6px);
+  }
+}
+@media (max-width: 760px) {
+  .nx-topic {
+    grid-template-columns: 56px minmax(0, 1fr);
+  }
+  .nx-topic svg {
+    display: none;
+  }
+  .nx-disc {
+    width: 56px;
+    height: 56px;
+    font-size: 1.25rem;
+  }
+}
+
+/* Links in the text answer the pointer. */
+.prose a.txt {
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  transition: text-decoration-color 0.15s;
+}
+.prose a.txt:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Page changes */
+.topic-disc {
+  view-transition-name: topic-disc;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.2s;
+}
+::view-transition-group(topic-disc),
+::view-transition-group(pp-dot) {
+  animation-duration: 0.45s;
+  animation-timing-function: var(--ease-out);
+}
+.stage-wipe {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  view-transition-name: stage-wipe;
+  animation: stage-wipe 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+@media (min-width: 1100px) {
+  .has-panel .stage-wipe {
+    left: 348px;
+  }
+}
+.vt-on .stage-wipe {
+  animation: none;
+}
+::view-transition-new(stage-wipe) {
+  animation: stage-wipe 0.6s cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+@keyframes stage-wipe {
+  0% { clip-path: inset(0 100% 0 0); }
+  50% { clip-path: inset(0 0 0 0); }
+  100% { clip-path: inset(0 0 0 100%); }
+}
+.vt-stage::view-transition-old(root) {
+  mix-blend-mode: normal;
+  animation: vt-old 0.6s linear both;
+}
+.vt-stage::view-transition-new(root) {
+  mix-blend-mode: normal;
+  animation: vt-new 0.6s linear both;
+}
+@keyframes vt-old {
+  0%, 49.9% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+@keyframes vt-new {
+  0%, 49.9% { opacity: 0; }
+  50%, 100% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hl,
+  .nx svg {
+    transition: none;
+  }
+  .stage-wipe {
+    display: none;
+  }
+}
+@media print {
+  .hl-hint,
+  .stage-wipe {
+    display: none;
+  }
+  .tp-row > div:first-child {
+    position: static;
+  }
+}
