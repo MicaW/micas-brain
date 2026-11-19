@@ -2343,3 +2343,23 @@ a.tile svg,
 @media print {
   .ins-card { break-inside: avoid; border: 1px solid #000; }
 }
+
+/* Home: the Insights newsfeed. */
+.feed .deck-row {
+  align-items: stretch;
+}
+.feed-card {
+  scroll-snap-align: start;
+  min-height: 300px;
+}
+.feed-card .ins-tile-h {
+  font-size: 1.75rem;
+}
+@media (max-width: 640px) {
+  .feed-card { min-height: 240px; }
+  .feed-card .ins-tile-h { font-size: 1.5rem; }
+}
+/* Unsupported: dashed, empty bars. */
+.ins-meter.no .ins-bars span {
+  border-style: dashed;
+}

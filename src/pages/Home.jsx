@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import FlipDeck from '../components/FlipDeck.jsx';
+import InsightsFeed from '../components/InsightsFeed.jsx';
 import { Link } from 'react-router-dom';
 import home from '../content/home.json';
 import { stages } from '../lib.js';
@@ -63,6 +64,8 @@ export default function Home() {
       </section>
 
       </div>
+
+      <InsightsFeed />
 
       <FlipDeck
         id="h-mistakes"

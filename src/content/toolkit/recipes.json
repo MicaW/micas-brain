@@ -3619,5 +3619,136 @@
     ]
    ]
   }
+ },
+ {
+  "slug": "the-nature-retreat",
+  "name": "The Nature Retreat",
+  "purpose": "Two days away in a rural setting that use practice, reflection and time outdoors to move a group forward on a real piece of work.",
+  "audience": "A team or cohort of 10 to 18 people working on a shared challenge, such as a leadership group or a new management cohort.",
+  "sequence": [
+   "Settle and agree the outcome",
+   "Real work in the morning, at full strength",
+   "Walking pairs with one question",
+   "Practice with feedback",
+   "Fire circle on the first evening",
+   "Solo reflection before decisions",
+   "Decisions, owners and dates",
+   "First-week plans and a booked follow-up"
+  ],
+  "duration": "Two days and one or two nights",
+  "methods": "Walking pairs; solo reflection; triad practice; case clinic; fire circle; action planning",
+  "mechanics": "Reflection; deliberate practice; feedback; psychological safety; implementation intentions",
+  "setup": "A rural venue reachable by train, with one main room with daylight, two breakout spaces, covered outdoor space, marked paths and a fire pit",
+  "needs": "Two facilitators. A sponsor who will protect the time and attend the close. A wet-weather version of every outdoor block. A qualified walk leader or instructor for anything beyond gentle walks. Notebooks, question cards, flipcharts. A contact plan for phones and urgent work, agreed in advance.",
+  "outputs": "Decisions with owners and dates; a first-week plan for each person; a booked follow-up at 30 days",
+  "bestUse": "Leadership teams, new-manager cohorts, strategy work and teams that need to work better together",
+  "cautions": "Plan the sessions before you fall for the view. Keep every outdoor element optional with an equal alternative. Do not sell the setting as brain science. Plan the follow-up before you book the venue.",
+  "plainName": "Two-day retreat in nature",
+  "runSheet": {
+   "head": [
+    "Time",
+    "What happens",
+    "Who leads",
+    "Materials"
+   ],
+   "rows": [
+    [
+     "Day 1, 10:30",
+     "Arrive by train and minibus. Coffee. Rooms later.",
+     "Facilitators",
+     "Name badges with the facilitators' numbers"
+    ],
+    [
+     "11:00",
+     "Opening. The sponsor says in two minutes why the group is here. Contact plan and phone windows agreed. First task alone within ten minutes.",
+     "Lead facilitator and sponsor",
+     "Outcome on a flipchart, question cards"
+    ],
+    [
+     "11:30",
+     "Real work, block one: the shared challenge in mixed groups.",
+     "Lead facilitator",
+     "Case materials, flipcharts"
+    ],
+    [
+     "13:00",
+     "Lunch, light and on time.",
+     "",
+     ""
+    ],
+    [
+     "14:00",
+     "Walking pairs, 30 minutes, one question on a card. Back by 14:40. Wet version in the orangery.",
+     "Second facilitator",
+     "Question cards, route map"
+    ],
+    [
+     "14:45",
+     "Debrief the walk in threes, then practice with feedback on the skill the work needs.",
+     "Both facilitators",
+     "Observer sheets, timer"
+    ],
+    [
+     "16:30",
+     "Free time in daylight.",
+     "",
+     "Marked routes"
+    ],
+    [
+     "19:00",
+     "Dinner in mixed tables.",
+     "",
+     "Good soft drinks"
+    ],
+    [
+     "20:30",
+     "Fire circle, 45 minutes. One question, anyone can pass. Fire under the venue's rules.",
+     "Lead facilitator",
+     "Blankets, water or extinguisher"
+    ],
+    [
+     "Day 2, 07:15",
+     "Optional: gentle movement session, guided walk, or rest.",
+     "Instructor or second facilitator",
+     "Mats"
+    ],
+    [
+     "09:00",
+     "Recall: two minutes alone, then pairs. Real work, block two, at full strength.",
+     "Lead facilitator",
+     "Notebooks"
+    ],
+    [
+     "11:00",
+     "Solo reflection, 20 minutes, seated or walking. Prompt: \"What would you stop doing if you could?\"",
+     "Second facilitator",
+     "Notebooks, prompt cards"
+    ],
+    [
+     "11:30",
+     "Decisions: options, then a decision on each, with owners and dates on the wall.",
+     "Lead facilitator",
+     "Decision log"
+    ],
+    [
+     "13:00",
+     "Lunch.",
+     "",
+     ""
+    ],
+    [
+     "13:45",
+     "First-week plans: what, who, by when. Read aloud in the closing round. Follow-up booked in calendars.",
+     "Lead facilitator, sponsor speaks last",
+     "Plan sheets"
+    ],
+    [
+     "14:30",
+     "Close. Minibus to the station at 14:45.",
+     "",
+     ""
+    ]
+   ]
+  }
  }
 ]

@@ -533,7 +533,7 @@
     "stage": 2,
     "claim": "\"Attention spans are down to eight seconds.\"",
     "verdict": "Verdict: no sound source.",
-    "why": "The figure came from a 2015 report commissioned by Microsoft and seems to describe how long people stay on a web page. A review of lecture studies found that attention varies most with the teacher, not the clock.",
+    "why": "The figure, with its goldfish comparison, spread from a 2015 Microsoft Canada marketing report, which took it from a website called Statistic Brain. Journalists who traced it found no research behind it. A review of lecture studies found that attention varies most with the teacher, not the clock.",
     "sources": [
      {
       "label": "Bradbury (2016), Attention span during lectures: 8 seconds, 10 minutes, or more?",
@@ -542,6 +542,10 @@
      {
       "label": "Bradbury (2016), full text hosted on the European Commission EPALE site.",
       "url": "https://epale.ec.europa.eu/sites/default/files/advan.00109.2016.pdf"
+     },
+     {
+      "label": "King's College London (2022), Are attention spans really collapsing? Half of UK adults still believed the eight-second figure.",
+      "url": "https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology"
      }
     ]
    },

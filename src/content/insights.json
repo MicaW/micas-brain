@@ -27,9 +27,341 @@
    "level": 0,
    "word": "Craft",
    "means": "Practitioner judgement. We found no research testing it."
+  },
+  {
+   "level": -1,
+   "word": "Unsupported",
+   "means": "Traced and found wanting: no source, or the research does not back it."
   }
  ],
  "ideas": [
+  {
+   "slug": "what-learners-expect-now",
+   "kind": "Research digest",
+   "color": "#b7a5ff",
+   "date": "19 November 2026",
+   "title": "What learners expect now: the consumer trends reshaping training",
+   "standfirst": "People learn from YouTube before breakfast, use AI tools their employer never gave them, and choose jobs partly on how much they will grow. This digest gathers the research on what learners now expect from training, and what that means for the courses and retreats you design.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Learning has gone consumer.** People already teach themselves from video and search, on their own time. Training now competes with free, instant, good-enough help.",
+     "**AI arrived before the training did.** Three in four knowledge workers said they used AI at work in 2024, and most brought their own tools. People expect help that is personal and immediate.",
+     "**Growth matters more than ladders.** Younger workers rank learning among the top reasons they choose an employer, but few aim for senior leadership. They want skills, progress and practice on real work.",
+     "**People still want people.** The same surveys rate mentoring, peer learning and learning on the job above formal courses. That is the opening for live, human, well-designed experiences."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Learning has gone consumer",
+     "p": [
+      "**People teach themselves, constantly.** In a 2018 Pew Research Center survey, about half of US adults who use YouTube said it was very important for figuring out how to do things they had not done before. A survey commissioned by Google across ten European countries found 64% felt YouTube helped them learn skills for personal or professional advancement. That second figure comes from YouTube's owner, so treat it as a signal rather than a measurement.",
+      "**The bar is set outside work.** Consumer research by McKinsey in 2021 found that 71% of consumers expected companies to personalise their interactions, and 76% were frustrated when that did not happen. That was about shopping, not learning. But the people on your course are the same people, and a generic, one-size course feels dated to them in the way a generic advert does.",
+      "**Personal does not mean learning styles.** The useful kind of personalisation is by role, prior knowledge and goal. Sorting people by preferred style does not hold up. There is more on [the big myths](t:1.10) and on [finding out who is in the room](t:1.29)."
+     ]
+    },
+    {
+     "h": "AI arrived before the training did",
+     "p": [
+      "**Most knowledge workers already use it.** Microsoft and LinkedIn's 2024 survey of 31,000 people in 31 countries found 75% of knowledge workers said they used generative AI at work, and 78% of those users brought their own tools rather than waiting for their employer. In Deloitte's 2025 survey of younger workers, about three-quarters expected generative AI to change how they work within a year.",
+      "**Expectations shift with it.** People who can ask an AI tool to explain something at eleven at night will expect training to give quick answers and save live time for what a tool cannot do: practice, judgement and feedback from people. There is more on [designing an AI literacy and adoption programme](t:7.14)."
+     ]
+    },
+    {
+     "h": "Growth, not ladders",
+     "p": [
+      "**Learning helps people choose an employer.** Deloitte's 2025 survey of 23,482 Gen Z and millennial workers in 44 countries found learning and development among the top three reasons they chose their current employer. Only 6% said their main career goal was a leadership position.",
+      "**Career progress drives learning.** LinkedIn's 2025 Workplace Learning Report names progress towards career goals as people's top motivation to learn. Learning that shows where it leads competes better for attention than learning that does not."
+     ]
+    },
+    {
+     "h": "People still want people",
+     "p": [
+      "**Practice and mentors rank highest.** In Deloitte's survey, 88% of Gen Zs and 89% of millennials said on-the-job learning and practical experience mattered for their development, and more than 80% rated mentoring, peer learning and feedback as helpful. Formal training programmes were on the list too, but not at the top.",
+      "**Experiences are a growing market.** Pine and Gilmore argued in 1998 that experiences are a distinct economic offering, beyond goods and services. The Global Wellness Institute put wellness tourism at about US$982 billion in 2025, up 11.4% in a year. One detail matters for a training business: in its 2025 report, workplace wellness was the only wellness market that shrank, by 1.5% from 2023 to 2024. Buyers are paying for experiences that do something, not for wellbeing perks.",
+      "**This is the opening for well-designed live learning.** Free content covers information. What people value and cannot get from a video is practice with feedback, people to learn with, and time that is protected for it. There is more on [the case for taking people away](insight:why-take-people-away)."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "The signals at a glance",
+    "intro": "The figures most worth knowing about what learners expect, what each one measures, and how far it can be trusted. Most are surveys, and several come from companies with something to sell.",
+    "items": [
+     {
+      "name": "Learning from video",
+      "offers": "How people teach themselves outside work.",
+      "figure": "About half",
+      "note": "of US adults who use YouTube said it is very important for figuring out how to do new things (Pew Research Center, 2018).",
+      "strength": 2,
+      "mind": "A US survey from 2018. The habit has grown since, but get a newer figure before quoting it to a client.",
+      "links": [
+       "Curate what exists before you create more"
+      ]
+     },
+     {
+      "name": "Personalisation",
+      "offers": "What consumers expect from companies.",
+      "figure": "71%",
+      "note": "of consumers expected personalised interactions and 76% were frustrated without them (McKinsey, 2021).",
+      "strength": 1,
+      "mind": "About shopping, not learning. Use it as a sign of expectations, not as evidence about training.",
+      "links": [
+       "Find out who is in the room before you design"
+      ]
+     },
+     {
+      "name": "AI at work",
+      "offers": "How many knowledge workers use AI.",
+      "figure": "75%",
+      "note": "of knowledge workers said they used generative AI at work, across 31,000 people in 31 countries (Microsoft and LinkedIn, 2024).",
+      "strength": 2,
+      "mind": "A vendor survey of knowledge workers. Frontline staff will differ.",
+      "links": [
+       "Design an AI literacy and adoption programme"
+      ]
+     },
+     {
+      "name": "Bring your own AI",
+      "offers": "Whether people wait for official tools.",
+      "figure": "78%",
+      "note": "of AI users brought their own tools to work (Microsoft and LinkedIn, 2024).",
+      "strength": 2,
+      "mind": "People are already learning AI on their own. Training that ignores this feels behind.",
+      "links": [
+       "Design an AI literacy and adoption programme"
+      ]
+     },
+     {
+      "name": "Why people learn",
+      "offers": "What motivates people to choose learning.",
+      "figure": "No. 1",
+      "note": "Career progress is people's top motivation to learn (LinkedIn Workplace Learning Report, 2025).",
+      "strength": 2,
+      "mind": "Link every course to where it leads.",
+      "links": [
+       "Know why people expect to succeed and why they value it"
+      ]
+     },
+     {
+      "name": "Choosing an employer",
+      "offers": "How much learning shapes job choice.",
+      "figure": "Top 3",
+      "note": "Learning and development was among the top three reasons Gen Z and millennial workers chose their employer, across 23,482 people in 44 countries (Deloitte, 2025).",
+      "strength": 2,
+      "mind": "A strong signal for employers buying training. Use it in the business case.",
+      "links": [
+       "Build a culture where learning is expected"
+      ]
+     },
+     {
+      "name": "Leadership ambitions",
+      "offers": "Who wants to reach the top.",
+      "figure": "6%",
+      "note": "of Gen Z and millennial respondents said their main career goal was a leadership position (Deloitte, 2025).",
+      "strength": 2,
+      "mind": "Growth matters more than titles. Design for skill and progress, not only promotion.",
+      "links": []
+     },
+     {
+      "name": "Learning on the job",
+      "offers": "What younger workers value most.",
+      "figure": "88%",
+      "note": "of Gen Zs (89% of millennials) said on-the-job learning and practical experience mattered for their development (Deloitte, 2025).",
+      "strength": 2,
+      "mind": "Build practice on real work into every programme.",
+      "links": [
+       "Build practice on real work between sessions"
+      ]
+     },
+     {
+      "name": "Mentors and peers",
+      "offers": "Human sources of learning.",
+      "figure": "80%+",
+      "note": "rated mentoring, peer learning and feedback as helpful for career growth (Deloitte, 2025).",
+      "strength": 2,
+      "mind": "People still want people. Design for connection, not only content.",
+      "links": [
+       "Design the course so people leave connected"
+      ]
+     },
+     {
+      "name": "Wellness tourism",
+      "offers": "The appetite for paid experiences.",
+      "figure": "US$982bn",
+      "note": "spent on wellness tourism in 2025, up 11.4% in a year (Global Wellness Institute, 2026).",
+      "strength": 2,
+      "mind": "An industry body's estimate. A sign of demand, not of what business buyers will pay for.",
+      "links": []
+     },
+     {
+      "name": "Workplace wellness",
+      "offers": "What employers are buying.",
+      "figure": "−1.5%",
+      "note": "Workplace wellness was the only wellness market to shrink, from 2023 to 2024 (Global Wellness Institute, 2025).",
+      "strength": 2,
+      "mind": "Sell outcomes, not wellbeing perks. Business buyers want results they can point to.",
+      "links": [
+       "Promise the conditions, never the transformation"
+      ]
+     },
+     {
+      "name": "The experience economy",
+      "offers": "Experiences as a distinct offer.",
+      "figure": "1998",
+      "note": "Pine and Gilmore argued that experiences are a distinct economic offering, beyond goods and services (Harvard Business Review).",
+      "strength": 0,
+      "mind": "A business idea, not a research finding. Useful for positioning a retreat.",
+      "links": []
+     }
+    ]
+   },
+   "compare": {
+    "heading": "What has changed",
+    "intro": "A summary of the shifts in this digest. These are judgements drawn from the surveys above, not research findings.",
+    "cols": [
+     "The old default",
+     "What people now expect",
+     "What to design"
+    ],
+    "rows": [
+     {
+      "label": "Information",
+      "values": [
+       "Delivered on the course",
+       "Found instantly, for free",
+       "Curated short resources, and live time spent on practice"
+      ]
+     },
+     {
+      "label": "Fit",
+      "values": [
+       "One course for everyone",
+       "Something that fits my role and level",
+       "Pathways by role and prior knowledge"
+      ]
+     },
+     {
+      "label": "Tools",
+      "values": [
+       "Taught later, once approved",
+       "Already in use",
+       "Teach good use of the tools people already have"
+      ]
+     },
+     {
+      "label": "Purpose",
+      "values": [
+       "Compliance or promotion",
+       "Growth I can see",
+       "A clear link to skills and career"
+      ]
+     },
+     {
+      "label": "People",
+      "values": [
+       "A trainer at the front",
+       "Mentors, peers and real work",
+       "Cohorts, peer practice and follow-up"
+      ]
+     },
+     {
+      "label": "Format",
+      "values": [
+       "A day in a room",
+       "Something worth turning up for",
+       "Experiences with a clear result"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Most of these figures are surveys.** They show what people say and expect, not what changes their learning.",
+     "**Several come from vendors.** Microsoft, LinkedIn, Google and McKinsey all have products or services to sell. Use their figures, and say whose they are.",
+     "**Generations overlap.** Differences between age groups in work attitudes are small, so design for the job and the person, not the birth year. There is more on [the big myths](t:1.10).",
+     "**Personalisation can go wrong.** Tailoring by role and prior knowledge helps. Tailoring by learning style does not.",
+     "**Expectations are not evidence.** People expecting short, instant learning does not mean short, instant learning works for complex skills. Give people what works, in a form that respects their time."
+    ]
+   },
+   "business": {
+    "heading": "What this means for your offer",
+    "p": [
+     "**Do not compete with free content.** Curate it, and spend live time on practice, feedback and people.",
+     "**Personalise by role and goal.** Ask about people's work and level before you design, and show each person where the learning leads.",
+     "**Assume people already use AI.** Teach good use, and design the parts of the course AI cannot do.",
+     "**Sell experiences with results.** Buyers are cutting wellbeing perks and still paying for experiences that change how people work. Lead with the result."
+    ]
+   },
+   "watch": {
+    "heading": "Research to keep watching",
+    "items": [
+     [
+      "Deloitte, Gen Z and Millennial Survey",
+      "Annual, usually May",
+      "https://www.deloitte.com/global/en/insights/topics/talent/2025-gen-z-millennial-survey.html"
+     ],
+     [
+      "LinkedIn, Workplace Learning Report",
+      "Annual, usually early in the year",
+      "https://learning.linkedin.com/resources/workplace-learning-report"
+     ],
+     [
+      "Microsoft, Work Trend Index",
+      "Annual report plus special reports",
+      "https://www.microsoft.com/en-us/worklab/work-trend-index"
+     ],
+     [
+      "Global Wellness Institute, Global Wellness Economy Monitor",
+      "Annual, usually November",
+      "https://globalwellnessinstitute.org/press-room/press-releases/the-global-wellness-economy-hits-a-record-6-8-trillion-and-is-forecast-to-reach-9-8-trillion-by-2029/"
+     ],
+     [
+      "Pew Research Center, internet and technology surveys",
+      "Ongoing",
+      "https://www.pewresearch.org/internet/2018/11/07/many-turn-to-youtube-for-childrens-content-news-how-to-lessons/"
+     ]
+    ]
+   },
+   "sources": [
+    [
+     "Pew Research Center (2018), Many turn to YouTube for children's content, news, how-to lessons.",
+     "https://www.pewresearch.org/internet/2018/11/07/many-turn-to-youtube-for-childrens-content-news-how-to-lessons/"
+    ],
+    [
+     "Google (2019), How YouTube can help people develop their careers and grow their businesses. Survey with Flamingo.",
+     "https://blog.google/products/youtube/how-youtube-can-help-people-develop-their-careers-and-grow-their-businesses"
+    ],
+    [
+     "McKinsey (2021), The value of getting personalization right, or wrong, is multiplying.",
+     "https://www.mckinsey.com/business-functions/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying"
+    ],
+    [
+     "Microsoft and LinkedIn (2024), 2024 Work Trend Index: AI at work is here.",
+     "https://blogs.microsoft.com/blog/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/"
+    ],
+    [
+     "Deloitte (2025), 2025 Gen Z and Millennial Survey.",
+     "https://www.deloitte.com/us/en/insights/topics/talent/2025-gen-z-millennial-survey.html"
+    ],
+    [
+     "LinkedIn (2025), Workplace Learning Report 2025.",
+     "https://learning.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/linkedIn-workplace-learning-report-2025.pdf"
+    ],
+    [
+     "Pine and Gilmore (1998), Welcome to the experience economy. Harvard Business Review.",
+     "https://is.muni.cz/el/econ/jaro2020/MKR_PRCR/98252981/Pine_Gilmore_Welcome_to_the_Experience_Economy.pdf"
+    ],
+    [
+     "Global Wellness Institute (2025), The global wellness economy hits a record $6.8 trillion.",
+     "https://globalwellnessinstitute.org/press-room/press-releases/the-global-wellness-economy-hits-a-record-6-8-trillion-and-is-forecast-to-reach-9-8-trillion-by-2029/"
+    ],
+    [
+     "Global Wellness Institute (2026), Global Wellness Economy Monitor 2026, reported by Australasian Leisure Management.",
+     "https://www.ausleisure.com.au/news/global-wellness-economy-reaches-us75-trillion-as-growth-forecast-to-continue"
+    ]
+   ]
+  },
   {
    "slug": "attention-is-the-scarce-resource",
    "kind": "Research digest",
@@ -94,7 +426,7 @@
       "offers": "\"Attention spans have fallen to eight seconds.\"",
       "figure": "No source",
       "note": "The 2015 Microsoft Canada report took the figure from a website. Journalists who traced it found no research behind it.",
-      "strength": 0,
+      "strength": -1,
       "mind": "Never quote it. Half of UK adults still believe it, so expect to hear it from clients.",
       "links": [
        "Test any learning claim before you repeat it"
@@ -220,7 +552,7 @@
       "offers": "\"Change activity every ten minutes.\"",
       "figure": "No good evidence",
       "note": "A review of lecture studies found no good primary evidence for a limit of ten to fifteen minutes (Bradbury, 2016).",
-      "strength": 0,
+      "strength": -1,
       "mind": "Change the activity when the content or the room needs it, not when the clock says.",
       "links": [
        "Put the hard content where the energy is"
@@ -241,7 +573,7 @@
    "business": {
     "heading": "What this means for the training you design",
     "p": [
-     "**Design for people who arrive fragmented.** Open by settling the room: phones away for a reason, one clear goal, and a first task within ten minutes.",
+     "**Design for people who arrive fragmented.** Open by settling the room: phones away for a reason, one clear goal, and a first task within ten minutes. There is more on [designing for people who arrive distracted](t:4.22).",
      "**Spend live time on doing.** Put information into short recordings and reading, and use the time together for practice, discussion and feedback.",
      "**Sell protected time as part of the offer.** Ask clients to block the time, brief managers and keep the session free of email. A training retreat takes this to its limit, which is part of [the case for taking people away](insight:why-take-people-away).",
      "**Keep a running file of the research.** The figures here will date. Recheck the annual reports each year and add new studies as they appear."
@@ -333,6 +665,323 @@
    ]
   },
   {
+   "slug": "neuroscience-of-the-retreat",
+   "kind": "Myth check",
+   "color": "#ffe770",
+   "date": "19 November 2026",
+   "title": "The neuroscience of the retreat: what the brain science supports, and what it does not",
+   "standfirst": "Retreat brochures are full of brains: cortisol falling, dopamine rising, the default mode network switching on, oxytocin bonding the team. This piece checks each claim against the research, so you can talk about the brain honestly, and know when to stop.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**The behaviour is better evidenced than the brain.** Sleep, stress, reflection, novelty and moving together have useful research behind them. The brain pictures in brochures usually go well beyond it.",
+     "**Some brain stories are real but small.** Time in nature, exercise and stress all affect thinking, with modest, short-lived effects in laboratory studies of students.",
+     "**Some are hype.** \"Oxytocin builds trust\" did not survive scrutiny. \"Dopamine hits\" and \"amygdala hijack\" are metaphors, not findings.",
+     "**Say what happens, not what the brain does.** \"Time to sleep between sessions\" is honest and true. \"Rewires your brain\" is neither."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Why brain claims sell",
+     "p": [
+      "**A brain picture makes any claim look scientific.** Brain language sounds precise and is hard for a buyer to check, which is why it spreads through training and wellness marketing. There is more on [why smart people believe brain myths](t:1.9). The test is simple: does the claim tell you to do something different from what the behavioural research already says? If not, the brain story adds risk and nothing else."
+     ]
+    },
+    {
+     "h": "Stress, cortisol and memory",
+     "p": [
+      "**Stress affects memory, in both directions.** A pooling of 113 studies with 6,216 people found that stress shortly before or during learning usually impaired memory, unless it came very close to the learning and was related to it. Stress just after learning often improved memory. Stress just before recall impaired it. Long-running stress is a different matter and harms learning. There is more on [taking needless stress out of the room](t:1.13).",
+      "**Brochure cortisol figures are usually wrong.** This site traced one infographic claiming nature cuts cortisol \"by up to 38%\". The values on its chart were about a hundred times too high to be saliva measurements. Small studies do find lower stress hormone levels after time in nature, but no study supports a headline percentage for a retreat."
+     ]
+    },
+    {
+     "h": "Rest and the default mode network",
+     "p": [
+      "**There is a brain network for turning inward.** A review by Immordino-Yang and colleagues describes the default mode network, which is active when people rest and let their minds wander. It links that network to recalling memories, imagining the future and reflecting on meaning. The review draws mostly on correlational research and argues for more study, not for a particular method.",
+      "**The useful lesson is behavioural.** Time to reflect helps learning, and experiments on reflection support it without any brain imaging. A retreat that builds in quiet time and prompts for reflection is doing the right thing. Saying it \"activates the default mode network\" adds nothing a buyer can use. There is more on [giving people time alone to reflect](t:8.30)."
+     ]
+    },
+    {
+     "h": "Novelty and dopamine",
+     "p": [
+      "**New places may help memory.** An influential model by Lisman and Grace describes a loop in which novelty detected by the hippocampus triggers dopamine that helps new information get stored. Animal studies show that exploring a new environment strengthens memory processes. A small number of human studies, some in virtual reality, find that exploring something new improves recall.",
+      "**The leap to retreats is a long one.** The human studies are small laboratory experiments. They support the idea that a new setting is no barrier to learning and may help a little. They do not support \"dopamine hits\" as a selling point. There is more on [making people curious before you tell them](t:1.26)."
+     ]
+    },
+    {
+     "h": "Oxytocin, synchrony and awe",
+     "p": [
+      "**Oxytocin is not a trust switch.** A critical review by Nave, Camerer and McCullough found that the best-known finding, that sniffing oxytocin increases trust, has not replicated well. They concluded the evidence does not reliably link oxytocin to human trust. Drop it from any pitch.",
+      "**Moving together has better support.** Pooled experiments on moving in time with others, such as walking, rowing or dancing together, found medium effects on helpful behaviour and small to medium effects on feeling bonded. Some researchers warn that expectations may explain part of it. It is a behavioural finding and needs no brain story.",
+      "**Awe may turn attention outward.** Piff and colleagues ran five studies in which feeling awe, including in front of tall trees, went with more generous and helpful behaviour. The authors link it to a feeling of a smaller self. It is a reasonable reason to take people somewhere beautiful, stated modestly."
+     ]
+    },
+    {
+     "h": "Sleep, exercise and nature",
+     "p": [
+      "**Sleep is the strongest brain story.** Memories are strengthened and reorganised during sleep, and a lost night before or after learning weakens memory. A retreat that protects sleep has the brain on its side. There is more on [protecting sleep](t:1.12).",
+      "**Exercise and nature help a little.** One bout of exercise has a small, real effect on thinking. Time in nature brings small, short-lived gains in some measures of attention. Both are worth building in. Neither is a reason to promise better learning. There is more on [using nature and daylight](t:1.16)."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "The claims at a glance",
+    "intro": "The brain claims most often attached to retreats, how strong the research is, and what to say instead.",
+    "items": [
+     {
+      "name": "Stress and memory",
+      "offers": "\"Stress kills learning.\"",
+      "figure": "113 studies",
+      "note": "Stress before or during learning usually impaired memory; stress just after learning often helped; stress before recall impaired it (Shields and colleagues, 2017).",
+      "strength": 3,
+      "mind": "Remove needless stress, especially before practice and recall. Short challenge is not the enemy.",
+      "links": [
+       "Take needless stress out of the room"
+      ]
+     },
+     {
+      "name": "Cortisol percentages",
+      "offers": "\"Nature cuts stress hormones by 38%.\"",
+      "figure": "No source",
+      "note": "The figure traced on this site had chart values about a hundred times too high for saliva. Small studies do find lower stress hormone levels after time in nature.",
+      "strength": -1,
+      "mind": "Drop the number. Say that time outdoors helps people recover.",
+      "links": [
+       "Take people out of their routine, and plan the return"
+      ]
+     },
+     {
+      "name": "Sleep and memory",
+      "offers": "\"Sleep consolidates learning.\"",
+      "figure": "Both ends",
+      "note": "A lost night before learning weakens taking it in, and a lost night after weakens keeping it (Newbury and colleagues, 2021; Diekelmann and Born, 2010).",
+      "strength": 3,
+      "mind": "The strongest brain claim you can make. Back it by protecting sleep in the timetable.",
+      "links": [
+       "Protect sleep on multi-day programmes"
+      ]
+     },
+     {
+      "name": "Default mode network",
+      "offers": "\"Retreats switch on the brain's reflective network.\"",
+      "figure": "A review",
+      "note": "The network active at rest is linked to memory, imagining the future and reflection, in mostly correlational research (Immordino-Yang and colleagues, 2012).",
+      "strength": 2,
+      "mind": "Build in reflection. Leave the network out of the brochure.",
+      "links": [
+       "Give people time alone to reflect"
+      ]
+     },
+     {
+      "name": "Novelty and dopamine",
+      "offers": "\"New places release dopamine that boosts learning.\"",
+      "figure": "Mostly animals",
+      "note": "A strong model (Lisman and Grace, 2005) and animal studies, with a few small human experiments finding better recall after exploring something new.",
+      "strength": 1,
+      "mind": "A new setting may help a little. \"Dopamine hits\" is marketing.",
+      "links": [
+       "Make people curious before you tell them"
+      ]
+     },
+     {
+      "name": "Oxytocin and trust",
+      "offers": "\"Bonding releases oxytocin, the trust hormone.\"",
+      "figure": "Did not replicate",
+      "note": "The evidence does not reliably link oxytocin to human trust (Nave, Camerer and McCullough, 2015).",
+      "strength": -1,
+      "mind": "Remove it. Build trust with the methods that work: safety, time and shared work.",
+      "links": [
+       "Build trust before you ask for openness"
+      ]
+     },
+     {
+      "name": "Moving together",
+      "offers": "\"Moving in time together bonds a group.\"",
+      "figure": "60 experiments",
+      "note": "Pooled experiments found a medium effect of moving in time together on helpful attitudes and behaviour (Rennung and Göritz, 2016). Expectations may explain part of it.",
+      "strength": 3,
+      "mind": "Group walks and movement may help people bond. Keep them optional.",
+      "links": [
+       "Offer movement sessions people can choose"
+      ]
+     },
+     {
+      "name": "Awe",
+      "offers": "\"Awe makes people more generous.\"",
+      "figure": "5 studies",
+      "note": "Feeling awe, including in front of tall trees, went with more generous and helpful behaviour (Piff and colleagues, 2015).",
+      "strength": 2,
+      "mind": "A modest reason to choose a beautiful setting. Not a promise of a changed team.",
+      "links": [
+       "Use the outdoors on a retreat, on purpose"
+      ]
+     },
+     {
+      "name": "Nature and attention",
+      "offers": "\"Nature restores the brain.\"",
+      "figure": "Small effects",
+      "note": "Reviews find small, short-lived gains in working memory and switching between tasks after time in nature (Stevenson and colleagues, 2018).",
+      "strength": 2,
+      "mind": "Use nature for recovery between sessions. Do not promise better learning.",
+      "links": [
+       "Use nature and daylight, and claim only what the evidence shows"
+      ]
+     },
+     {
+      "name": "Exercise and the brain",
+      "offers": "\"Exercise grows new brain cells.\"",
+      "figure": "Small",
+      "note": "One bout of exercise has a real but generally small effect on thinking (Chang and colleagues, 2012). Longer-term brain claims are promising and easy to overstate.",
+      "strength": 3,
+      "mind": "Offer movement for energy. Leave brain growth out of it.",
+      "links": [
+       "Use movement where it helps the learning"
+      ]
+     },
+     {
+      "name": "Amygdala hijack",
+      "offers": "\"Fear hijacks the thinking brain.\"",
+      "figure": "A metaphor",
+      "note": "A popular phrase from Daniel Goleman's 1995 book Emotional Intelligence, not a research finding. Stress and threat do affect thinking, as the stress research shows.",
+      "strength": -1,
+      "mind": "Talk about psychological safety, which has research behind it.",
+      "links": [
+       "Make it safe to be wrong out loud"
+      ]
+     },
+     {
+      "name": "Rewiring the brain",
+      "offers": "\"Rewire your brain in a weekend.\"",
+      "figure": "No evidence",
+      "note": "All learning changes the brain in some sense. No research shows a retreat produces a special or lasting rewiring.",
+      "strength": -1,
+      "mind": "Promise practice, plans and follow-up instead.",
+      "links": [
+       "Promise the conditions, never the transformation"
+      ]
+     }
+    ]
+   },
+   "compare": {
+    "heading": "What to say instead",
+    "intro": "Brochure claims rewritten so they stay true. The right-hand column is what you can say with confidence.",
+    "cols": [
+     "What the brochure says",
+     "What the research shows",
+     "What to say instead"
+    ],
+    "rows": [
+     {
+      "label": "Stress",
+      "values": [
+       "\"Melts away cortisol\"",
+       "Stress affects memory in both directions. Brochure figures are usually wrong",
+       "\"A calm, unhurried setting, with time to recover between sessions\""
+      ]
+     },
+     {
+      "label": "Sleep",
+      "values": [
+       "\"Sleep supercharges the brain\"",
+       "Sleep helps memories settle, and lost sleep harms learning",
+       "\"Early finishes and quiet nights, because sleep helps learning stick\""
+      ]
+     },
+     {
+      "label": "Reflection",
+      "values": [
+       "\"Activates the default mode network\"",
+       "Reflection helps learning. The brain network research is correlational",
+       "\"Quiet time to think, with prompts that lead to action\""
+      ]
+     },
+     {
+      "label": "Novelty",
+      "values": [
+       "\"Dopamine-rich experiences\"",
+       "A new setting may help memory a little, mostly shown in animals",
+       "\"A fresh setting away from the office\""
+      ]
+     },
+     {
+      "label": "Bonding",
+      "values": [
+       "\"Oxytocin-fuelled team bonding\"",
+       "Oxytocin and trust did not replicate. Moving together has some support",
+       "\"Shared walks, meals and evenings that give the group time together\""
+      ]
+     },
+     {
+      "label": "Change",
+      "values": [
+       "\"Rewire your brain\"",
+       "No evidence for special or lasting rewiring",
+       "\"Practice with feedback, a plan for the first week and a follow-up at 30 days\""
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**A brain claim is a health claim.** Advertising rules expect evidence for objective claims before you publish them. There is more on [describing the retreat honestly](t:8.34).",
+     "**Most studies used students in laboratories.** Workplace and retreat evidence is much thinner.",
+     "**Brain pictures persuade more than they should.** Leave them out of proposals unless they change what you will do.",
+     "**Clients will quote brain claims to you.** Agree with what is true, correct what is not, and say what you will do instead."
+    ]
+   },
+   "business": {
+    "heading": "What this means for your retreats",
+    "p": [
+     "**Lead with what happens.** Sleep, quiet time, practice, shared meals, walks and evenings are all easy to describe and backed by research about behaviour.",
+     "**Use one brain fact, well.** Sleep helping memory is the strongest. Use it to explain the early finishes, and stop there.",
+     "**Be the honest one.** In a market full of dopamine and cortisol, a provider who can explain what the science does and does not say will stand out to serious buyers."
+    ]
+   },
+   "sources": [
+    [
+     "Shields, Sazma, McCullough and Yonelinas (2017), The effects of acute stress on episodic memory: a meta-analysis and integrative review. Psychological Bulletin, 143(6).",
+     "https://escholarship.org/uc/item/7ds6x4h2"
+    ],
+    [
+     "Immordino-Yang, Christodoulou and Singh (2012), Rest is not idleness: implications of the brain's default mode for human development and education.",
+     "https://joanna.scholars.harvard.edu/publications/rest-not-idleness-implications-brains-default-mode-human-development-and"
+    ],
+    [
+     "Schomaker, van Bronkhorst and Meeter (2014), Exploring a novel environment improves motivation and promotes recall of words. Frontiers in Psychology.",
+     "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2014.00918/pdf"
+    ],
+    [
+     "Nave, Camerer and McCullough (2015), Does oxytocin increase trust in humans? A critical review of research. Perspectives on Psychological Science, 10(6).",
+     "https://pubmed.ncbi.nlm.nih.gov/26581735/"
+    ],
+    [
+     "Rennung and Göritz (2016), Prosocial consequences of interpersonal synchrony: a meta-analysis.",
+     "https://www.pubmed.gov/28105388/"
+    ],
+    [
+     "Mogan, Fischer and Bulbulia (2017), To be in synchrony or not? A meta-analysis of synchrony's effects.",
+     "https://typeset.io/papers/to-be-in-synchrony-or-not-a-meta-analysis-of-synchrony-s-5c1ayxxmfw"
+    ],
+    [
+     "Piff, Dietze, Feinberg, Stancato and Keltner (2015), Awe, the small self, and prosocial behavior. Journal of Personality and Social Psychology, 108(6).",
+     "https://www.apa.org/news/press/releases/2015/05/altruistic-behavior"
+    ],
+    [
+     "Stevenson, Schilhab and Bentsen (2018), Attention restoration theory II: a systematic review.",
+     "https://pubmed.ncbi.nlm.nih.gov/30130463/"
+    ],
+    [
+     "Chang, Labban, Gapin and Etnier (2012), The effects of acute exercise on cognitive performance: a meta-analysis.",
+     "https://pubmed.ncbi.nlm.nih.gov/22480735/"
+    ],
+    [
+     "Diekelmann and Born (2010), The memory function of sleep. Nature Reviews Neuroscience.",
+     "https://doi.org/10.1038/nrn2762"
+    ]
+   ]
+  },
+  {
    "slug": "why-take-people-away",
    "kind": "Feature",
    "color": "#a9b8a4",
@@ -367,7 +1016,7 @@
     {
      "h": "What the setting adds",
      "p": [
-      "**Nature helps people recover.** Reviews find small, short-lived gains in working memory and switching between tasks after time in natural settings, and some evidence for lower stress and less brooding. That makes time outdoors a good use of the space between demanding sessions. It is not a teaching method. There is more on [using nature and daylight](t:1.16) and on [using the outdoors on a retreat](t:8.5).",
+      "**Nature helps people recover.** Reviews find small, short-lived gains in working memory and switching between tasks after time in natural settings, and some evidence for lower stress and less brooding. That makes time outdoors a good use of the space between demanding sessions. It is not a teaching method. There is more on [using nature and daylight](t:1.16) and on [using the outdoors on a retreat](t:8.27).",
       "**Fewer interruptions take pressure off.** In one experiment, people who were interrupted worked faster but reported more stress, frustration and time pressure. The popular claim that a phone on the table drains brainpower did not survive two direct replications, so ask for phones away because the group deserves full attention, not because of brain science.",
       "**Meals, evenings and fires bring people together.** Firefighter platoons that ate together more often were rated higher for team performance. Among the Ju/'hoan of the Kalahari, talk by the fire at night was mostly stories, while daytime talk was mostly about practical matters and complaints. Both findings are interesting and neither tested training. They are the strongest support we found for what many retreat leaders already believe: the shared meal and the evening fire are where a group gets to know itself."
      ]
@@ -376,7 +1025,7 @@
      "h": "The catch: one block of learning",
      "p": [
       "**Massed learning loses to spaced learning.** Across 271 comparisons of massed and spaced study, all but 12 favoured spacing. A retreat is massed by design. A residential is not a memory experiment, but the direction is clear enough that two days with nothing after them is a poor bet.",
-      "**The answer is to design the before and the after.** Pre-work and a manager briefing before. Two or three days away. Spaced follow-ups, a peer group and a check on use at work after. The leadership training pooling found spaced sessions also went with stronger effects. There is more on [what a retreat can and cannot do](t:8.9) and on [planning the return to work](t:8.18)."
+      "**The answer is to design the before and the after.** Pre-work and a manager briefing before. Two or three days away. Spaced follow-ups, a peer group and a check on use at work after. The leadership training pooling found spaced sessions also went with stronger effects. There is more on [what a retreat can and cannot do](t:8.8) and on [planning the return to work](t:8.17)."
      ]
     }
    ],
@@ -404,7 +1053,8 @@
       "strength": 2,
       "mind": "The claim that a phone on the table drains brainpower failed two direct replications. Ask for phones away for the group's sake.",
       "links": [
-       "Use the outdoors on a retreat, on purpose"
+       "Set the rules for phones and contact with work",
+       "Design for people who arrive distracted"
       ]
      },
      {
@@ -496,6 +1146,7 @@
       "strength": 3,
       "mind": "Optional, with a seated version, and never sold as brain science.",
       "links": [
+       "Offer movement sessions people can choose",
        "Use movement where it helps the learning"
       ]
      },
@@ -519,6 +1170,7 @@
       "strength": 1,
       "mind": "A co-author later had many other papers retracted. We found no retraction of this one, but treat it with care. We found no good evidence for \"brain food\" claims for adults. Keep lunch light and on time.",
       "links": [
+       "Run evenings and fireside conversations",
        "The slot after lunch"
       ]
      },
@@ -554,8 +1206,8 @@
       "strength": 1,
       "mind": "Optional, with no confession on demand. Check the venue's fire rules and put the fire in the risk assessment.",
       "links": [
-       "Build trust before you ask for openness",
-       "Plan for incidents"
+       "Run evenings and fireside conversations",
+       "Build trust before you ask for openness"
       ]
      },
      {
@@ -675,12 +1327,12 @@
     "items": [
      "**One block is the weakest design.** Sell and plan the before and the after with the retreat, not as an extra.",
      "**Promise the conditions, never the transformation.** List what will happen and what people will leave with. There is more on [promising the conditions](t:8.1).",
-     "**Not everyone can stay away.** Caring responsibilities, health, faith and preference all count. Design a day-attendance version from the start, as in [including people who cannot stay overnight](t:8.17).",
-     "**Evenings carry the most risk.** Alcohol, late nights and managers in the bar. The conduct rules are the client's to set, and [the evening rules](t:8.15) set out how.",
-     "**Cost, travel and carbon add up.** A residential costs the most per head, and every hour of travel is an hour of someone's weekend or working day. Aim for under two hours' travel and shared transport. There is more on [costing it](t:8.14).",
+     "**Not everyone can stay away.** Caring responsibilities, health, faith and preference all count. Design a day-attendance version from the start, as in [including people who cannot stay overnight](t:8.16).",
+     "**Evenings carry the most risk.** Alcohol, late nights and managers in the bar. The conduct rules are the client's to set, and [the evening rules](t:8.14) set out how.",
+     "**Cost, travel and carbon add up.** A residential costs the most per head, and every hour of travel is an hour of someone's weekend or working day. Aim for under two hours' travel and shared transport. There is more on [costing it](t:8.13) and on [cutting the travel and carbon](t:8.33).",
      "**The setting is not the method.** Plan the sessions before you fall for the view.",
-     "**Check every claim in the brochure.** \"Nature boosts creativity by 50 per cent\", \"digital detox restores the brain\" and \"only 10 per cent of training transfers\" all fail when traced to their source.",
-     "**The seasons change the design.** In a British winter there are about eight hours of daylight, so outdoor blocks go in the middle of the day and every one needs a wet-weather version.",
+     "**Check every claim in the brochure.** \"Nature boosts creativity by 50 per cent\", \"digital detox restores the brain\" and \"only 10 per cent of training transfers\" all fail when traced to their source. There is more on [describing the retreat honestly](t:8.34) and in [the neuroscience myth check](insight:neuroscience-of-the-retreat).",
+     "**The seasons change the design.** In a British winter there are about eight hours of daylight, so outdoor blocks go in the middle of the day and every one needs a wet-weather version. There is more on [planning for the season](t:8.28).",
      "**Measure what people do at work.** Satisfaction forms will be glowing after a good retreat and say little about change. There is more on [measuring what people do differently](t:6.4)."
     ]
    },

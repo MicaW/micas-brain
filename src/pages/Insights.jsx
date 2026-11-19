@@ -21,7 +21,7 @@ export const insightBySlug = (slug) => insights.ideas.find((i) => i.slug === slu
 function Meter({ level }) {
   const s = levelOf(level);
   return (
-    <span className="ins-meter" title={s.means}>
+    <span className={level < 0 ? 'ins-meter no' : 'ins-meter'} title={s.means}>
       <span className="ins-bars" aria-hidden="true">
         {[1, 2, 3, 4].map((n) => (
           <span key={n} className={n <= level ? 'on' : undefined} />
