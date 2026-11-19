@@ -1,0 +1,952 @@
+{
+ "_note": "Retreat planning checklist. Each task maps to a Notion card: phase, workstream, owner, essential and a link to its Playbook topic.",
+ "title": "Retreat planning checklist",
+ "lead": "Every task to do or consider for a training retreat, in order, from the first conversation to the ninety-day check. Each one links to the topic that explains it.",
+ "phases": [
+  {
+   "id": "decide",
+   "name": "Decide and agree",
+   "when": "Six months or more before"
+  },
+  {
+   "id": "contract",
+   "name": "Book, price and contract",
+   "when": "Four to six months before"
+  },
+  {
+   "id": "design",
+   "name": "Design the programme",
+   "when": "Two to four months before"
+  },
+  {
+   "id": "people",
+   "name": "People and safety",
+   "when": "Six to ten weeks before"
+  },
+  {
+   "id": "final",
+   "name": "Final preparation",
+   "when": "One to four weeks before"
+  },
+  {
+   "id": "arrive",
+   "name": "Arrive and set up",
+   "when": "The day before, and the first morning"
+  },
+  {
+   "id": "during",
+   "name": "During the retreat",
+   "when": "Every day on site"
+  },
+  {
+   "id": "after",
+   "name": "Straight after",
+   "when": "The first two weeks"
+  },
+  {
+   "id": "later",
+   "name": "Follow up and close",
+   "when": "Thirty to ninety days after"
+  }
+ ],
+ "workstreams": [
+  "Client and money",
+  "Design",
+  "Venue and travel",
+  "People and safety",
+  "Communication",
+  "Evaluation"
+ ],
+ "tasks": [
+  {
+   "phase": "decide",
+   "title": "Find out what the retreat is really for",
+   "detail": "Interview the sponsor and two or three attendees. Write the purpose in one sentence.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b3-n1-01",
+   "id": "decide-01"
+  },
+  {
+   "phase": "decide",
+   "title": "Decide whether going away is the right answer",
+   "detail": "Run the decision test. A day in the office or a series of sessions may do the job better.",
+   "workstream": "Design",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s8-b2-s8-01",
+   "id": "decide-02"
+  },
+  {
+   "phase": "decide",
+   "title": "Agree what success looks like",
+   "detail": "Name two or three changes you would see at work, and how you will know.",
+   "workstream": "Evaluation",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s9-g05",
+   "id": "decide-03"
+  },
+  {
+   "phase": "decide",
+   "title": "Name the sponsor and who decides",
+   "detail": "One person signs off the purpose, the budget and the changes.",
+   "workstream": "Client and money",
+   "owner": "Client",
+   "essential": true,
+   "topic": "s8-b3-n1-02",
+   "id": "decide-04"
+  },
+  {
+   "phase": "decide",
+   "title": "Agree who attends, and how many",
+   "detail": "Group size shapes the venue, the staffing and the format.",
+   "workstream": "Design",
+   "owner": "Client",
+   "essential": true,
+   "topic": null,
+   "id": "decide-05"
+  },
+  {
+   "phase": "decide",
+   "title": "Set the budget envelope",
+   "detail": "Total, including travel and people's time, before you look at venues.",
+   "workstream": "Client and money",
+   "owner": "Client",
+   "essential": true,
+   "topic": "s8-b2-s8-07",
+   "id": "decide-06"
+  },
+  {
+   "phase": "decide",
+   "title": "Choose the format and length",
+   "detail": "Residential or day-based, how many nights, and what sits before and after.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-03",
+   "id": "decide-07"
+  },
+  {
+   "phase": "decide",
+   "title": "Pick the season and rough dates",
+   "detail": "Check daylight, weather, school holidays, financial year end and religious festivals.",
+   "workstream": "Venue and travel",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s8-n8-01",
+   "id": "decide-08"
+  },
+  {
+   "phase": "decide",
+   "title": "Plan to cut travel and carbon",
+   "detail": "Choose a location most people can reach by train, and count the travel in the decision.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-n8-06",
+   "id": "decide-09"
+  },
+  {
+   "phase": "decide",
+   "title": "Check whether your contract allows this work",
+   "detail": "If you are employed, read your contract for outside work, competition and intellectual property.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": false,
+   "topic": "s9-b2-s9-03",
+   "id": "decide-10"
+  },
+  {
+   "phase": "contract",
+   "title": "Write the proposal",
+   "detail": "The client's situation in their words, what you will do, what they must do, price and what is excluded.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g04",
+   "id": "contract-01"
+  },
+  {
+   "phase": "contract",
+   "title": "Cost every line and set the price",
+   "detail": "Venue, food, travel, staff, materials, contingency and your margin.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b3-n1-09",
+   "id": "contract-02"
+  },
+  {
+   "phase": "contract",
+   "title": "Shortlist venues against the brief",
+   "detail": "Rooms for plenary and small groups, outdoor space, step-free access, food, quiet, travel links.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-05",
+   "id": "contract-03"
+  },
+  {
+   "phase": "contract",
+   "title": "Visit the venue before you book",
+   "detail": "Walk every space you will use, at the time of day you will use it.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-05",
+   "id": "contract-04"
+  },
+  {
+   "phase": "contract",
+   "title": "Agree who signs the venue contract",
+   "detail": "Decide who carries the risk of cancellation, minimum numbers and damage.",
+   "workstream": "Client and money",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s8-b3-n1-08",
+   "id": "contract-05"
+  },
+  {
+   "phase": "contract",
+   "title": "Read the cancellation and attrition terms",
+   "detail": "Know the dates when deposits become non-refundable and the minimum numbers you must pay for.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b3-n1-08",
+   "id": "contract-06"
+  },
+  {
+   "phase": "contract",
+   "title": "Sign your terms with the client",
+   "detail": "Scope, fees, payment dates, cancellation, intellectual property and data.",
+   "workstream": "Client and money",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s9-g21",
+   "id": "contract-07"
+  },
+  {
+   "phase": "contract",
+   "title": "Check your insurance covers it",
+   "detail": "Public liability, professional indemnity, and cover for outdoor activities if you run them.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-b3-n3-06",
+   "id": "contract-08"
+  },
+  {
+   "phase": "contract",
+   "title": "Book the facilitators and staff",
+   "detail": "Lead, second facilitator, and anyone for wellbeing, movement or outdoor sessions.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-06",
+   "id": "contract-09"
+  },
+  {
+   "phase": "contract",
+   "title": "Put the dates in everyone's diary",
+   "detail": "Include travel time and the follow-up session.",
+   "workstream": "Communication",
+   "owner": "Client",
+   "essential": true,
+   "topic": null,
+   "id": "contract-10"
+  },
+  {
+   "phase": "contract",
+   "title": "Plan what personal data you need",
+   "detail": "Collect only what you will use, say why, and decide when you will delete it.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g22",
+   "id": "contract-11"
+  },
+  {
+   "phase": "contract",
+   "title": "Set up the project tracker",
+   "detail": "One shared place for tasks, owners, dates and risks.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g16",
+   "id": "contract-12"
+  },
+  {
+   "phase": "design",
+   "title": "Design the before, during and after",
+   "detail": "Pre-work and a manager conversation before; follow-up sessions after.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s2-t05",
+   "id": "design-01"
+  },
+  {
+   "phase": "design",
+   "title": "Build the timetable",
+   "detail": "Hardest work when energy is highest, real breaks, nothing intense after dinner.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-04",
+   "id": "design-02"
+  },
+  {
+   "phase": "design",
+   "title": "Design for absorption, not intensity",
+   "detail": "Fewer, deeper sessions with time to practise and talk.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t02",
+   "id": "design-03"
+  },
+  {
+   "phase": "design",
+   "title": "Plan how trust builds before openness",
+   "detail": "Start with low-risk activities. Ask for personal stories later, never first.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t03",
+   "id": "design-04"
+  },
+  {
+   "phase": "design",
+   "title": "Choose the methods for each session",
+   "detail": "Match each session to its objective. Use the recipes for a starting point.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": null,
+   "id": "design-05"
+  },
+  {
+   "phase": "design",
+   "title": "Agree how decisions will be made",
+   "detail": "For a working offsite: who decides, and what happens to ideas that are not chosen.",
+   "workstream": "Design",
+   "owner": "You and client",
+   "essential": false,
+   "topic": "s8-b3-n1-02",
+   "id": "design-06"
+  },
+  {
+   "phase": "design",
+   "title": "Plan the outdoor sessions, with a wet-weather version",
+   "detail": "Use the outdoors for a reason, and have an indoor plan for every outdoor slot.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-n7-01",
+   "id": "design-07"
+  },
+  {
+   "phase": "design",
+   "title": "Build in time alone to reflect",
+   "detail": "Short solo time with a prompt, especially after intense sessions.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-n8-03",
+   "id": "design-08"
+  },
+  {
+   "phase": "design",
+   "title": "Offer movement people can choose",
+   "detail": "Optional, varied in intensity, and with a way to take part for everyone.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-n8-04",
+   "id": "design-09"
+  },
+  {
+   "phase": "design",
+   "title": "Add play that serves the point",
+   "detail": "Games and play with a clear link to the learning.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-g01",
+   "id": "design-10"
+  },
+  {
+   "phase": "design",
+   "title": "Set the rules for evenings, alcohol and free time",
+   "detail": "Evenings optional, a good alcohol-free offer, and a clear end time for organised events.",
+   "workstream": "People and safety",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s8-b2-s8-08",
+   "id": "design-11"
+  },
+  {
+   "phase": "design",
+   "title": "Plan the evenings",
+   "detail": "Food, a fire, a walk or a conversation people can join or skip.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-n8-05",
+   "id": "design-12"
+  },
+  {
+   "phase": "design",
+   "title": "Set the rules for phones and contact with work",
+   "detail": "Agree with the sponsor when people can check in, and say so in advance.",
+   "workstream": "Design",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s8-n8-02",
+   "id": "design-13"
+  },
+  {
+   "phase": "design",
+   "title": "Include people who cannot stay overnight",
+   "detail": "Caring responsibilities, health or faith: design a version that works for them.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-10",
+   "id": "design-14"
+  },
+  {
+   "phase": "design",
+   "title": "Give managers a job before, during and after",
+   "detail": "A conversation before, time released during, and questions to ask after.",
+   "workstream": "Design",
+   "owner": "Client",
+   "essential": true,
+   "topic": "s2-t04",
+   "id": "design-15"
+  },
+  {
+   "phase": "design",
+   "title": "Plan the close and the return to work",
+   "detail": "A first-use plan for each person and a date for the follow-up.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-11",
+   "id": "design-16"
+  },
+  {
+   "phase": "design",
+   "title": "List the materials and kit",
+   "detail": "Flipcharts, cards, pens, printed handouts, outdoor kit, speakers.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": "s3-b2-s23-03",
+   "id": "design-17"
+  },
+  {
+   "phase": "design",
+   "title": "Run a pre-mortem on the design",
+   "detail": "Imagine it went badly. List why, and change the design for the top three.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": null,
+   "id": "design-18"
+  },
+  {
+   "phase": "people",
+   "title": "Write the duty-of-care plan",
+   "detail": "What people are told, consent, limits of your role, signs someone needs support, who to call.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t05",
+   "id": "people-01"
+  },
+  {
+   "phase": "people",
+   "title": "Do the risk assessment",
+   "detail": "Every activity, the venue, travel and the outdoors. Review it when anything changes.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g20",
+   "id": "people-02"
+  },
+  {
+   "phase": "people",
+   "title": "Write the incident plan",
+   "detail": "Who is in charge, the contact sheet, what to do and how to record it.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-09",
+   "id": "people-03"
+  },
+  {
+   "phase": "people",
+   "title": "Arrange first aid cover",
+   "detail": "A trained first aider on site, and the nearest hospital and pharmacy noted.",
+   "workstream": "People and safety",
+   "owner": "You and venue",
+   "essential": true,
+   "topic": "s8-b2-s8-09",
+   "id": "people-04"
+  },
+  {
+   "phase": "people",
+   "title": "Brief and check everyone you bring in",
+   "detail": "Facilitators and suppliers get the purpose, the plan, the rules and the safety plan.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g23",
+   "id": "people-05"
+  },
+  {
+   "phase": "people",
+   "title": "Collect access, dietary and other needs",
+   "detail": "Ask once, privately, and only for what you will act on.",
+   "workstream": "People and safety",
+   "owner": "Client",
+   "essential": true,
+   "topic": "s9-g22",
+   "id": "people-06"
+  },
+  {
+   "phase": "people",
+   "title": "Plan the rooms",
+   "detail": "Single rooms by default, and accessible rooms where needed.",
+   "workstream": "Venue and travel",
+   "owner": "Venue",
+   "essential": true,
+   "topic": null,
+   "id": "people-07"
+  },
+  {
+   "phase": "people",
+   "title": "Plan travel and transfers",
+   "detail": "Train times, pick-ups, parking, and a plan for late arrivals.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": null,
+   "id": "people-08"
+  },
+  {
+   "phase": "people",
+   "title": "Describe the retreat honestly",
+   "detail": "Promise the conditions, never the transformation.",
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t01",
+   "id": "people-09"
+  },
+  {
+   "phase": "people",
+   "title": "Send the joining instructions",
+   "detail": "Purpose, timetable outline, what to bring, travel, accessibility, phones, evenings and who to contact.",
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": true,
+   "topic": "s2-t11",
+   "id": "people-10"
+  },
+  {
+   "phase": "final",
+   "title": "Confirm final numbers with the venue",
+   "detail": "Check the deadline in the contract.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b3-n1-08",
+   "id": "final-01"
+  },
+  {
+   "phase": "final",
+   "title": "Send the venue the full brief",
+   "detail": "Room layouts, timings, meals, dietary list, access needs, kit and quiet hours.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-05",
+   "id": "final-02"
+  },
+  {
+   "phase": "final",
+   "title": "Write the run sheet",
+   "detail": "Minute by minute for each day, with who does what.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-04",
+   "id": "final-03"
+  },
+  {
+   "phase": "final",
+   "title": "Brief the staff team",
+   "detail": "Walk through the run sheet, roles, the duty-of-care plan and what to do if.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-06",
+   "id": "final-04"
+  },
+  {
+   "phase": "final",
+   "title": "Prepare and print materials",
+   "detail": "Flipcharts drawn in advance, cards cut, handouts printed.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": "s3-b2-s23-03",
+   "id": "final-05"
+  },
+  {
+   "phase": "final",
+   "title": "Send the pre-work",
+   "detail": "Short, useful and something you will use on day one.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s2-t05",
+   "id": "final-06"
+  },
+  {
+   "phase": "final",
+   "title": "Prompt managers to have the before conversation",
+   "detail": "Send them two questions to ask.",
+   "workstream": "Communication",
+   "owner": "Client",
+   "essential": true,
+   "topic": "s2-t04",
+   "id": "final-07"
+  },
+  {
+   "phase": "final",
+   "title": "Check in with the sponsor",
+   "detail": "Any changes in the business, the group or the purpose since you designed it.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": null,
+   "id": "final-08"
+  },
+  {
+   "phase": "final",
+   "title": "Check the weather and adjust",
+   "detail": "Swap to the indoor versions where needed and tell people what to bring.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-n8-01",
+   "id": "final-09"
+  },
+  {
+   "phase": "final",
+   "title": "Print the contact and emergency sheet",
+   "detail": "Venue lead, staff, client contact, first aider, local services.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b2-s8-09",
+   "id": "final-10"
+  },
+  {
+   "phase": "arrive",
+   "title": "Arrive early and walk the venue",
+   "detail": "Every room, the outdoor spaces, toilets, exits and the route people will take.",
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topic": null,
+   "id": "arrive-01"
+  },
+  {
+   "phase": "arrive",
+   "title": "Meet the venue lead",
+   "detail": "Run through timings, meals, the dietary list and who to call.",
+   "workstream": "Venue and travel",
+   "owner": "You and venue",
+   "essential": true,
+   "topic": null,
+   "id": "arrive-02"
+  },
+  {
+   "phase": "arrive",
+   "title": "Set up the rooms",
+   "detail": "Furniture, walls, materials and a space for quiet.",
+   "workstream": "Venue and travel",
+   "owner": "Team",
+   "essential": true,
+   "topic": "s3-b2-s23-03",
+   "id": "arrive-03"
+  },
+  {
+   "phase": "arrive",
+   "title": "Test the technology",
+   "detail": "Screen, sound, wifi and anything online, with a back-up with no technology.",
+   "workstream": "Venue and travel",
+   "owner": "Team",
+   "essential": true,
+   "topic": null,
+   "id": "arrive-04"
+  },
+  {
+   "phase": "arrive",
+   "title": "Put the incident sheet and log in place",
+   "detail": "Everyone on the team knows where they are.",
+   "workstream": "People and safety",
+   "owner": "Team",
+   "essential": true,
+   "topic": "s8-b2-s8-09",
+   "id": "arrive-05"
+  },
+  {
+   "phase": "during",
+   "title": "Mark the start",
+   "detail": "Open with the purpose, the rules and what people will leave with.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t04",
+   "id": "during-01"
+  },
+  {
+   "phase": "during",
+   "title": "Hold a staff check-in every day",
+   "detail": "Morning and evening: energy, concerns, changes to the plan.",
+   "workstream": "People and safety",
+   "owner": "Team",
+   "essential": true,
+   "topic": null,
+   "id": "during-02"
+  },
+  {
+   "phase": "during",
+   "title": "Watch energy and adjust the timetable",
+   "detail": "Cut or move sessions rather than run over.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t02",
+   "id": "during-03"
+  },
+  {
+   "phase": "during",
+   "title": "Record decisions, owners and dates on the wall",
+   "detail": "For working offsites, photograph them at the end of each day.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": "s8-b3-n1-04",
+   "id": "during-04"
+  },
+  {
+   "phase": "during",
+   "title": "Keep the incident log",
+   "detail": "Write down anything that happens and what you did.",
+   "workstream": "People and safety",
+   "owner": "Team",
+   "essential": true,
+   "topic": "s8-b2-s8-09",
+   "id": "during-05"
+  },
+  {
+   "phase": "during",
+   "title": "Keep evenings optional",
+   "detail": "Check that people who leave early are not left out of anything that matters.",
+   "workstream": "People and safety",
+   "owner": "Team",
+   "essential": true,
+   "topic": "s8-b2-s8-08",
+   "id": "during-06"
+  },
+  {
+   "phase": "during",
+   "title": "Close with a first-use plan",
+   "detail": "Each person writes what they will do in the first week back.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s5-t02",
+   "id": "during-07"
+  },
+  {
+   "phase": "during",
+   "title": "Collect feedback before people leave",
+   "detail": "Short, and about what they will use, not only how they felt.",
+   "workstream": "Evaluation",
+   "owner": "You",
+   "essential": true,
+   "topic": "s6-g02",
+   "id": "during-08"
+  },
+  {
+   "phase": "during",
+   "title": "Mark the end",
+   "detail": "A clear close before travel, not a fade-out.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-t04",
+   "id": "during-09"
+  },
+  {
+   "phase": "after",
+   "title": "Send the write-up",
+   "detail": "Within 48 hours: decisions, owners, dates and what happens next.",
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b3-n1-04",
+   "id": "after-01"
+  },
+  {
+   "phase": "after",
+   "title": "Brief managers on what to ask",
+   "detail": "Two questions for the first week back.",
+   "workstream": "Communication",
+   "owner": "Client",
+   "essential": true,
+   "topic": "s8-b2-s8-11",
+   "id": "after-02"
+  },
+  {
+   "phase": "after",
+   "title": "Thank everyone",
+   "detail": "Attendees, staff, venue and suppliers.",
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": false,
+   "topic": null,
+   "id": "after-03"
+  },
+  {
+   "phase": "after",
+   "title": "Debrief with the staff team",
+   "detail": "What worked, what to change, and any incidents to follow up.",
+   "workstream": "Evaluation",
+   "owner": "Team",
+   "essential": true,
+   "topic": null,
+   "id": "after-04"
+  },
+  {
+   "phase": "after",
+   "title": "Read the feedback and send a short summary",
+   "detail": "To the sponsor, with what you will change.",
+   "workstream": "Evaluation",
+   "owner": "You",
+   "essential": true,
+   "topic": "s6-g02",
+   "id": "after-05"
+  },
+  {
+   "phase": "after",
+   "title": "Reconcile the costs",
+   "detail": "Check the venue invoice against the contract, pay suppliers, send your invoice.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": "s8-b3-n1-09",
+   "id": "after-06"
+  },
+  {
+   "phase": "after",
+   "title": "Share photos only with consent",
+   "detail": "Ask before sharing, and remove anyone who says no.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g24",
+   "id": "after-07"
+  },
+  {
+   "phase": "later",
+   "title": "Run the follow-up session",
+   "detail": "Recall, what has been tried, what got in the way.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topic": "s5-t04",
+   "id": "later-01"
+  },
+  {
+   "phase": "later",
+   "title": "Check what people are doing differently",
+   "detail": "Against the success measures you agreed at the start.",
+   "workstream": "Evaluation",
+   "owner": "You and client",
+   "essential": true,
+   "topic": "s9-g05",
+   "id": "later-02"
+  },
+  {
+   "phase": "later",
+   "title": "Review the decisions from the offsite",
+   "detail": "Which are done, which are stuck, and who will unstick them.",
+   "workstream": "Evaluation",
+   "owner": "Client",
+   "essential": false,
+   "topic": "s8-b3-n1-07",
+   "id": "later-03"
+  },
+  {
+   "phase": "later",
+   "title": "Report results to the sponsor",
+   "detail": "Short, in their terms, with what you would do next time.",
+   "workstream": "Evaluation",
+   "owner": "You",
+   "essential": true,
+   "topic": "s6-b2-s67-09",
+   "id": "later-04"
+  },
+  {
+   "phase": "later",
+   "title": "Gather a case study, with consent",
+   "detail": "One or two stories of real change you can share.",
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": false,
+   "topic": "s9-g24",
+   "id": "later-05"
+  },
+  {
+   "phase": "later",
+   "title": "Close out and hand over",
+   "detail": "Final report, files, what the client keeps and who owns what next.",
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g19",
+   "id": "later-06"
+  },
+  {
+   "phase": "later",
+   "title": "Delete the personal data you no longer need",
+   "detail": "On the date you set at the start.",
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topic": "s9-g22",
+   "id": "later-07"
+  },
+  {
+   "phase": "later",
+   "title": "Update this checklist",
+   "detail": "Add what you learned, so the next retreat starts better.",
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topic": null,
+   "id": "later-08"
+  }
+ ]
+}

@@ -383,6 +383,13 @@ export function Templates() {
         </h1>
         <p className="lead">Working documents you fill in for a real piece of work. Each one says what it is for, what goes under each heading, and shows one filled in.</p>
       </section>
+      <Link className="tile hub-tile lime s12 onp rc-feature" to="/toolkit/templates/retreat-checklist">
+        <div>
+          <h2>Retreat planning checklist</h2>
+          <p>Every task to do or consider for a training retreat, in order from the first conversation to the ninety-day check. Tick it off as you go, or print it.</p>
+        </div>
+        <Arrow />
+      </Link>
       <div className="tpl-list">
         {list.map((t) => (
           <details className="tpl-item" key={t.name}>
