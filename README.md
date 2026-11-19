@@ -34,6 +34,7 @@ Routing uses hash addresses (`/#/playbook`) so the build works on any static hos
 | Topic pages | `/playbook/stage-n/topic-title` — the situation and the practice first, then why it works, a task, what to watch for, sources and three questions |
 | Learning mechanics | `/playbook/mechanics` and detail pages |
 | Toolkit | `/toolkit`, `/toolkit/methods`, `/toolkit/recipes`, `/toolkit/templates` and detail pages |
+| Insights | `/insights` and `/insights/slug` — features and research digests, each with an evidence dashboard |
 | Glossary, About, Search | `/glossary`, `/about`, `/search` |
 
 ## Where things are
@@ -43,6 +44,7 @@ src/content/playbook.json     every stage, part and topic. The one file to edit 
 src/content/home.json         Home: mistakes, findings, myths, case studies
 src/content/site.json         navigation, footer, templates
 src/content/evidence.json     About text, reading list, numbers, glossary
+src/content/insights.json     Insights pieces. Topic links use [words](t:S.N); links between pieces use [words](insight:slug)
 src/content/toolkit/          methods, recipes, mechanics
 src/content/generated/        made by the build. Do not edit, not in git
 src/styles/                   tokens.css (generated), app.css, pages.css

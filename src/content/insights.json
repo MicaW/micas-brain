@@ -1,0 +1,780 @@
+{
+ "_note": "Insights: features, research digests and opinion pieces. Links to Playbook topics use the [words](t:S.N) mark, made from topic titles by build_ideas.py.",
+ "heading": "Insights",
+ "intro": "Features, research digests and opinion pieces. Each one gathers the research on one question, says how far it can be trusted, and links back to the Playbook topics that put it into practice.",
+ "strength": [
+  {
+   "level": 4,
+   "word": "Strong",
+   "means": "Many controlled studies point the same way."
+  },
+  {
+   "level": 3,
+   "word": "Good",
+   "means": "Pooled studies support it, with limits worth stating."
+  },
+  {
+   "level": 2,
+   "word": "Some",
+   "means": "Real research, but small, indirect or not about training."
+  },
+  {
+   "level": 1,
+   "word": "Thin",
+   "means": "One or two studies, or research from a very different setting."
+  },
+  {
+   "level": 0,
+   "word": "Craft",
+   "means": "Practitioner judgement. We found no research testing it."
+  }
+ ],
+ "ideas": [
+  {
+   "slug": "attention-is-the-scarce-resource",
+   "kind": "Research digest",
+   "color": "#7b90ff",
+   "date": "19 November 2026",
+   "title": "Attention is the scarce resource: what learners expect now, and how to hold it",
+   "standfirst": "Is there e-learning fatigue? Are attention spans really shrinking? What do people want from training when their working day is broken into two-minute pieces? This digest gathers the research, separates what is measured from what is repeated, and ends with what holds attention in a session today.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Attention spans have not been shown to collapse.** The eight-second goldfish figure has no source. What has been measured is that people switch between screens far more often than they used to: on average every 47 seconds in recent studies, against about two and a half minutes in 2004.",
+     "**The working day is the problem.** Heavy users of Microsoft 365 are interrupted about every two minutes in core hours, and fewer than four in ten learning professionals say employees get time away from their job to learn. Learners arrive fragmented and short of time.",
+     "**\"E-learning fatigue\" is real in parts.** Video-call fatigue is measured and well described. Low completion of long, open online courses is measured. Fatigue with digital learning as such is mostly anecdote, and well-designed online learning teaches as well as a classroom.",
+     "**Attention is held by design, not by length.** Active tasks, short recall checks between segments, short videos, protected time and a clear link to the learner's own progress all have research behind them. A stopwatch rule does not."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Are attention spans really shrinking?",
+     "p": [
+      "**The goldfish figure has no source.** The claim that people now have an eight-second attention span, shorter than a goldfish, spread from a 2015 marketing report by Microsoft Canada. The report took the figure from a website called Statistic Brain, and journalists who traced it found no research behind it. In a 2022 King's College London survey, half of UK adults still believed it. There is more on [testing a claim before you repeat it](t:1.11).",
+      "**What has been measured is switching.** Gloria Mark and colleagues have logged how long office workers stay on one screen before moving to another. In 2004 it was about two and a half minutes. By about 2012 it was 75 seconds, and in studies from 2016 onwards it averaged 47 seconds. That measures how often people switch at work, with email and messages always open. It does not measure whether people can concentrate when the setting allows it.",
+      "**People feel more distracted.** In the King's College survey, 49% said their attention span felt shorter than it used to be and 23% disagreed. The researchers point out that without long-term studies nobody can say whether attention spans have actually declined. Feeling distracted is still real, and it is what learners bring into the room.",
+      "**There is no fixed span to design to.** A review of lecture studies found no good evidence for a limit of ten to fifteen minutes, and attention varied more with the teacher than with the format. There is more on [attention and mind wandering](t:1.33)."
+     ]
+    },
+    {
+     "h": "The working day learners come from",
+     "p": [
+      "**Interruptions are constant for many office workers.** Microsoft's 2025 analysis of anonymised Microsoft 365 data found the most heavily contacted fifth of users were interrupted by a meeting, email or message about every two minutes during core hours, around 275 times across a full day. Reports often quote it as the average worker. Microsoft's own note says it describes that heavily contacted group.",
+      "**Time to learn is scarce.** In the CIPD's 2023 survey of 1,108 learning professionals, 51% said people managers encourage participation in learning, but only 39% said employees are given time away from their day-to-day role to take part. LinkedIn's 2025 Workplace Learning Report found managers and employees too stretched to focus on development, and only 15% of employees said their manager had helped them build a career plan in the previous six months.",
+      "**Career progress is why people choose to learn.** The same LinkedIn report names progress towards career goals as people's number one motivation to learn. Learning that shows how it moves someone forward competes better for scarce attention than learning that does not. There is more on [why people value a task](t:1.34)."
+     ]
+    },
+    {
+     "h": "Is there e-learning fatigue?",
+     "p": [
+      "**Video-call fatigue is measured.** Researchers at Stanford built a scale for it and surveyed 10,591 people. More daily video calling went with more fatigue. Women reported more than men, with about one in seven women feeling very or extremely fatigued after calls against about one in twenty men, partly because they had longer meetings with shorter breaks and partly because of seeing themselves on screen all day. There is more on [designing against video-call fatigue](t:4.8).",
+      "**Long, open online courses lose most people.** Data from Harvard and MIT's open online courses showed completion rates stayed low and did not improve over six years, and most learners did not come back after their first year. These were free, optional courses, so low completion partly reflects people sampling and leaving. Workplace e-learning that is required gets completed, which says nothing about whether it was learned.",
+      "**Video holds attention for a few minutes.** A study of 6.9 million video sessions on edX found engagement dropped sharply after about six minutes, and that videos with a personal feel held people better than polished studio lectures.",
+      "**Digital learning as such is not the problem.** When online and classroom courses use the same methods, they teach facts equally well. What tires people is long, passive, screen-based time added to an already crowded day. The answer is better design and protected time, not a retreat from digital. There is more on [comparing online and classroom](t:3.25) and on [completion figures](t:6.7)."
+     ]
+    },
+    {
+     "h": "How to hold attention today",
+     "p": [
+      "**Make people do something.** A pooling of 225 studies in university science courses found that students in traditional lectures were 1.5 times more likely to fail than students in courses with active learning, and exam scores were about 6% higher with active learning.",
+      "**Put a short recall check between segments.** In an online lecture experiment, people who answered a short quiz after each segment reported mind wandering at 19% of checks, against 41% for people who were not tested, and they learned more.",
+      "**Keep videos short and personal.** Cut recorded input into pieces of a few minutes, and use the live time for interaction. There is more on [blending on purpose](t:3.6) and on [keeping live time for interaction](t:4.10).",
+      "**Protect the time, not just the content.** Learning booked into the gaps of a fragmented day loses to the next message. Ask the manager to protect it, close email for the session, and say plainly why.",
+      "**Show the link to the learner's own progress.** In the first five minutes, say what people will be able to do and why it matters for their work and career.",
+      "**Plan the energy of the day.** Put demanding work where energy is highest and change the activity when it drops. There is more on [putting the hard content where the energy is](t:2.14)."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "The signals at a glance",
+    "intro": "The figures most often quoted about attention and learning today, what each actually measures, and how far it can be trusted. Use this as a check before you put a number in a proposal.",
+    "items": [
+     {
+      "name": "The goldfish claim",
+      "offers": "\"Attention spans have fallen to eight seconds.\"",
+      "figure": "No source",
+      "note": "The 2015 Microsoft Canada report took the figure from a website. Journalists who traced it found no research behind it.",
+      "strength": 0,
+      "mind": "Never quote it. Half of UK adults still believe it, so expect to hear it from clients.",
+      "links": [
+       "Test any learning claim before you repeat it"
+      ]
+     },
+     {
+      "name": "Screen switching",
+      "offers": "How long office workers stay on one screen.",
+      "figure": "47 seconds",
+      "note": "average time on one screen before switching, in Gloria Mark's studies from 2016 onwards, against about 150 seconds in 2004.",
+      "strength": 2,
+      "mind": "It measures switching at work with messages open, not the ability to concentrate.",
+      "links": [
+       "Understand attention and mind wandering"
+      ]
+     },
+     {
+      "name": "Feeling distracted",
+      "offers": "How people describe their own attention.",
+      "figure": "49%",
+      "note": "of UK adults said their attention span feels shorter than it used to, against 23% who disagreed (King's College London, 2022).",
+      "strength": 2,
+      "mind": "A perception, not a measurement. The researchers say nobody knows whether attention spans have actually declined.",
+      "links": []
+     },
+     {
+      "name": "Interruptions at work",
+      "offers": "How fragmented the working day is.",
+      "figure": "Every 2 minutes",
+      "note": "for the most heavily contacted fifth of Microsoft 365 users in core hours, about 275 pings across a full day (Microsoft Work Trend Index, 2025).",
+      "strength": 2,
+      "mind": "Often quoted as the average worker. It is not. Still, learners arrive from a broken-up day.",
+      "links": []
+     },
+     {
+      "name": "Time to learn",
+      "offers": "Whether employees get time away to learn.",
+      "figure": "39%",
+      "note": "of 1,108 learning professionals said employees are given time away from their day-to-day role to learn (CIPD Learning at work, 2023).",
+      "strength": 2,
+      "mind": "A survey of learning professionals, not of learners. Ask your client's managers directly.",
+      "links": []
+     },
+     {
+      "name": "Why people learn",
+      "offers": "What motivates people to choose learning.",
+      "figure": "No. 1",
+      "note": "Progress towards career goals is people's top motivation to learn (LinkedIn Workplace Learning Report, 2025).",
+      "strength": 2,
+      "mind": "A vendor's survey, consistent across several years. Link learning to progress early.",
+      "links": [
+       "Know why people expect to succeed and why they value it"
+      ]
+     },
+     {
+      "name": "Video-call fatigue",
+      "offers": "The tiredness that follows video meetings.",
+      "figure": "1 in 7",
+      "note": "women felt very or extremely fatigued after video calls, against about 1 in 20 men, in a survey of more than 10,000 people (Fauville and colleagues, 2021).",
+      "strength": 3,
+      "mind": "A convenience sample, but the pattern repeated. Turn off self-view, shorten blocks and protect breaks.",
+      "links": [
+       "Design against video-call fatigue"
+      ]
+     },
+     {
+      "name": "Open online courses",
+      "offers": "Completion of free, optional courses.",
+      "figure": "Low for 6 years",
+      "note": "Completion of Harvard and MIT's open online courses stayed low and did not improve from 2012 to 2018 (Reich and Ruipérez-Valiente, 2019).",
+      "strength": 3,
+      "mind": "Free courses invite sampling. It is not evidence that workplace e-learning fails.",
+      "links": [
+       "Do not mistake activity for learning"
+      ]
+     },
+     {
+      "name": "Video length",
+      "offers": "How long people watch instructional video.",
+      "figure": "6 minutes",
+      "note": "Engagement dropped sharply after about six minutes, across 6.9 million viewing sessions on edX (Guo, Kim and Rubin, 2014).",
+      "strength": 3,
+      "mind": "Engagement is not learning, but it is a precondition for it. Cut recorded input short.",
+      "links": [
+       "Blend on purpose, and keep microlearning for what it suits"
+      ]
+     },
+     {
+      "name": "Online against classroom",
+      "offers": "Whether the medium changes learning.",
+      "figure": "d = .04",
+      "note": "difference for facts when online and classroom courses used the same methods, across 96 reports (Sitzmann and colleagues, 2006). In effect, none.",
+      "strength": 3,
+      "mind": "The method does the work. Fatigue comes from passive screen time, not from digital as such.",
+      "links": [
+       "Know whether online training works as well as the classroom"
+      ]
+     },
+     {
+      "name": "Active learning",
+      "offers": "Tasks in place of listening.",
+      "figure": "1.5×",
+      "note": "more likely to fail in traditional lectures than with active learning, across 225 studies of university science courses (Freeman and colleagues, 2014).",
+      "strength": 4,
+      "mind": "Students, not workers, but the direction is consistent. Make people do something every few minutes.",
+      "links": [
+       "Keep live time for interaction"
+      ]
+     },
+     {
+      "name": "Quiz breaks",
+      "offers": "A short recall check between segments.",
+      "figure": "19% v 41%",
+      "note": "mind wandering with and without quizzes between segments of an online lecture (Szpunar, Khan and Schacter, 2013).",
+      "strength": 3,
+      "mind": "One set of laboratory experiments with students. Cheap enough to use anyway.",
+      "links": [
+       "Understand attention and mind wandering"
+      ]
+     },
+     {
+      "name": "The ten-minute rule",
+      "offers": "\"Change activity every ten minutes.\"",
+      "figure": "No good evidence",
+      "note": "A review of lecture studies found no good primary evidence for a limit of ten to fifteen minutes (Bradbury, 2016).",
+      "strength": 0,
+      "mind": "Change the activity when the content or the room needs it, not when the clock says.",
+      "links": [
+       "Put the hard content where the energy is"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Check what a figure measures.** Screen switching is not concentration, a survey of learning professionals is not a survey of learners, and the heaviest fifth of email users is not the average worker.",
+     "**Vendor reports have something to sell.** LinkedIn, Microsoft and platform providers publish useful data, and every report also makes a case for their product. Use the figures, and say who produced them.",
+     "**Completion is not learning.** High completion of required e-learning and low completion of free courses both say more about the setting than about what people learned.",
+     "**Most of the attention research uses students.** Workplace evidence is thinner. Treat the methods as good bets and check them with your own groups.",
+     "**Fatigue is a design signal, not a learner failing.** When people drift, change the format, the length or the time of day before you blame the audience."
+    ]
+   },
+   "business": {
+    "heading": "What this means for the training you design",
+    "p": [
+     "**Design for people who arrive fragmented.** Open by settling the room: phones away for a reason, one clear goal, and a first task within ten minutes.",
+     "**Spend live time on doing.** Put information into short recordings and reading, and use the time together for practice, discussion and feedback.",
+     "**Sell protected time as part of the offer.** Ask clients to block the time, brief managers and keep the session free of email. A training retreat takes this to its limit, which is part of [the case for taking people away](insight:why-take-people-away).",
+     "**Keep a running file of the research.** The figures here will date. Recheck the annual reports each year and add new studies as they appear."
+    ]
+   },
+   "watch": {
+    "heading": "Research to keep watching",
+    "items": [
+     [
+      "LinkedIn, Workplace Learning Report",
+      "Annual, usually early in the year",
+      "https://learning.linkedin.com/resources/workplace-learning-report"
+     ],
+     [
+      "Microsoft, Work Trend Index",
+      "Annual report plus special reports",
+      "https://www.microsoft.com/en-us/worklab/work-trend-index"
+     ],
+     [
+      "CIPD, Learning at work survey",
+      "Every two years or so",
+      "https://www.cipd.org/uk/knowledge/reports/learning-at-work/"
+     ],
+     [
+      "King's College London, Policy Institute and Centre for Attention Studies",
+      "Occasional surveys on attention",
+      "https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology"
+     ],
+     [
+      "Gloria Mark, Attention Span (2023) and later papers",
+      "Book and ongoing research",
+      "https://news.uci.edu/2023/05/05/uci-podcast-if-you-cant-pay-attention-youre-not-alone"
+     ]
+    ]
+   },
+   "sources": [
+    [
+     "King's College London (2022), Are attention spans really collapsing? Data shows UK public are worried, but also see benefits from technology.",
+     "https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology"
+    ],
+    [
+     "BBC, Busting the attention span myth (2017), reproduced with commentary.",
+     "https://www.downes.ca/post/74864/rd"
+    ],
+    [
+     "Mark (2023), Attention Span. University of California, Irvine interview.",
+     "https://news.uci.edu/2023/05/05/uci-podcast-if-you-cant-pay-attention-youre-not-alone"
+    ],
+    [
+     "Microsoft (2025), Work Trend Index special report: Breaking down the infinite workday.",
+     "https://news.microsoft.com/de-ch/2025/06/17/new-microsoft-study-reveals-the-rise-of-the-infinite-workday-40-of-employees-check-email-before-6-a-m-evening-meetings-up-16/"
+    ],
+    [
+     "CIPD (2023), Learning at work 2023: press release with survey findings.",
+     "https://www.cipd.org/en/about/press-releases/addressing-skills-gaps-priority-l-and-d-professionals/"
+    ],
+    [
+     "LinkedIn (2025), Workplace Learning Report 2025.",
+     "https://learning.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/linkedIn-workplace-learning-report-2025.pdf"
+    ],
+    [
+     "Fauville, Luo, Queiroz, Bailenson and Hancock (2021), Nonverbal mechanisms predict Zoom fatigue and explain why women experience higher levels than men.",
+     "https://lemanncenter.stanford.edu/node/648"
+    ],
+    [
+     "Reich and Ruipérez-Valiente (2019), The MOOC pivot. Science, 363(6423).",
+     "https://tsl.mit.edu/research/the-mooc-pivot/"
+    ],
+    [
+     "Guo, Kim and Rubin (2014), How video production affects student engagement: an empirical study of MOOC videos.",
+     "https://doi.org/10.1145/2556325.2566239"
+    ],
+    [
+     "Sitzmann, Kraiger, Stewart and Wisher (2006), The comparative effectiveness of web-based and classroom instruction: a meta-analysis.",
+     "https://digitalcommons.memphis.edu/facpubs/12083"
+    ],
+    [
+     "Freeman and colleagues (2014), Active learning increases student performance in science, engineering, and mathematics. PNAS, 111(23).",
+     "https://doi.org/10.1073/pnas.1319030111"
+    ],
+    [
+     "Szpunar, Khan and Schacter (2013), Interpolated memory tests reduce mind wandering and improve learning of online lectures.",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC3631699"
+    ],
+    [
+     "Bradbury (2016), Attention span during lectures: 8 seconds, 10 minutes, or more?",
+     "https://pubmed.ncbi.nlm.nih.gov/28145268/"
+    ]
+   ]
+  },
+  {
+   "slug": "why-take-people-away",
+   "kind": "Feature",
+   "color": "#a9b8a4",
+   "date": "19 November 2026",
+   "title": "Why take people away? The case for the training retreat, and what to watch",
+   "standfirst": "A retreat puts a group together, away from the day job, for long enough to practise, talk and think. This is what the evidence on this site supports, what it does not, and what that means for a business built on training retreats in nature.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**The strongest evidence is about what happens in the time, not the place.** Practice with feedback, reflection and debriefs, people teaching each other and a room where it is safe to be wrong. A retreat gives all four more room than a day in the office.",
+     "**The setting adds smaller benefits.** Recovery outdoors, fewer interruptions, meals and evenings together. Each has some support. None has been shown to make adults learn more.",
+     "**The biggest risk is that a retreat is one block.** Spaced learning beats massed learning in almost every comparison, so a retreat works best at the centre of a programme with a before and an after.",
+     "**Promise the conditions, never the transformation.** It is the honest offer, and it is the one a buyer can check."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What a retreat has that a training day does not",
+     "p": [
+      "**Four things set a residential apart.** Time: two or three days without a five o'clock cut-off, so practice can go round more than once and there is room to reflect. Distance: people are away from their desks, their meetings and the small interruptions of a normal day. Company: they eat, walk and spend evenings with the same group, which allows the informal contact a training room rarely does. Setting: a place chosen for the work, which can include daylight, grounds and nature.",
+      "**None of these teaches anything on its own.** Each one makes room for the methods that do. That is the case for a retreat in one line: it buys the time and the conditions for the methods with the best evidence, and adds some smaller benefits of its own."
+     ]
+    },
+    {
+     "h": "Where the evidence is strongest",
+     "p": [
+      "**Practice and reflection come first.** People remember actions they perform far better than actions they only read about, and structured debriefs improved later performance by about a fifth to a quarter across 46 samples. Both need time that a single training day rarely has. There is more on [letting people do it, then reflect](t:1.27).",
+      "**Peers and safety come next.** Preparing to teach, and then teaching, helped learners in a pooling of 28 studies. In work teams, believing it is safe to take a risk goes with more learning behaviour. A group that has had dinner together and walked together usually reaches that point sooner, though nobody has measured how much sooner. There is more on [having learners teach each other](t:1.20) and on [building trust before asking for openness](t:8.3).",
+      "**Face to face and on site has some support.** A pooling of 335 samples of leadership training found that on-site and face-to-face delivery went with stronger effects. The summary does not say why or by how much, and when online and classroom courses use the same methods they teach facts equally well. The method does the work. A retreat is a good place to use the methods that need people in the same room."
+     ]
+    },
+    {
+     "h": "What the setting adds",
+     "p": [
+      "**Nature helps people recover.** Reviews find small, short-lived gains in working memory and switching between tasks after time in natural settings, and some evidence for lower stress and less brooding. That makes time outdoors a good use of the space between demanding sessions. It is not a teaching method. There is more on [using nature and daylight](t:1.16) and on [using the outdoors on a retreat](t:8.5).",
+      "**Fewer interruptions take pressure off.** In one experiment, people who were interrupted worked faster but reported more stress, frustration and time pressure. The popular claim that a phone on the table drains brainpower did not survive two direct replications, so ask for phones away because the group deserves full attention, not because of brain science.",
+      "**Meals, evenings and fires bring people together.** Firefighter platoons that ate together more often were rated higher for team performance. Among the Ju/'hoan of the Kalahari, talk by the fire at night was mostly stories, while daytime talk was mostly about practical matters and complaints. Both findings are interesting and neither tested training. They are the strongest support we found for what many retreat leaders already believe: the shared meal and the evening fire are where a group gets to know itself."
+     ]
+    },
+    {
+     "h": "The catch: one block of learning",
+     "p": [
+      "**Massed learning loses to spaced learning.** Across 271 comparisons of massed and spaced study, all but 12 favoured spacing. A retreat is massed by design. A residential is not a memory experiment, but the direction is clear enough that two days with nothing after them is a poor bet.",
+      "**The answer is to design the before and the after.** Pre-work and a manager briefing before. Two or three days away. Spaced follow-ups, a peer group and a check on use at work after. The leadership training pooling found spaced sessions also went with stronger effects. There is more on [what a retreat can and cannot do](t:8.9) and on [planning the return to work](t:8.18)."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "The evidence at a glance",
+    "intro": "Eighteen things that make a retreat different, each with the most useful figure we found, how strong the research behind it is, and what to bear in mind. The strength rating is about the evidence for that element, not about whether it is worth doing. Some of the best parts of a retreat rest on craft.",
+    "items": [
+     {
+      "name": "Together, face to face",
+      "offers": "People in one room can watch, practise and correct each other in real time.",
+      "figure": "335",
+      "note": "samples of leadership training pooled by Lacerenza and colleagues (2017). On-site and face-to-face delivery went with stronger effects. The summary does not say why or by how much.",
+      "strength": 2,
+      "mind": "When the methods match, online and classroom courses teach facts equally well. The method does the work.",
+      "links": [
+       "Know whether online training works as well as the classroom",
+       "Know what the evidence says a retreat can and cannot do"
+      ]
+     },
+     {
+      "name": "Away from distraction",
+      "offers": "Fewer messages, meetings and small demands pulling at attention.",
+      "figure": "More stress",
+      "note": "People interrupted during a task worked faster but reported more stress, frustration and time pressure (Mark, Gudith and Klocke, 2008, a laboratory experiment).",
+      "strength": 2,
+      "mind": "The claim that a phone on the table drains brainpower failed two direct replications. Ask for phones away for the group's sake.",
+      "links": [
+       "Use the outdoors on a retreat, on purpose"
+      ]
+     },
+     {
+      "name": "Time and absorption",
+      "offers": "Long blocks where the challenge can be matched to each person's skill.",
+      "figure": "28",
+      "note": "studies pooled by Fong and colleagues (2015): a moderate link between challenge matched to skill and reported flow, weaker in work and education settings.",
+      "strength": 2,
+      "mind": "Intensity is not learning. An activity that photographs well is not necessarily one that teaches.",
+      "links": [
+       "Design for absorption, not intensity"
+      ]
+     },
+     {
+      "name": "Hands-on practice",
+      "offers": "Doing the real task, more than once, with feedback.",
+      "figure": "Doing beats reading",
+      "note": "A large review found people remember actions they perform better than actions they only read about (Roberts, MacLeod and Fernandes, 2022).",
+      "strength": 4,
+      "mind": "Make the movement the content. A stretch does nothing for the skill. Doing the task does.",
+      "links": [
+       "Use movement where it helps the learning",
+       "Make practice harder in the ways that help"
+      ]
+     },
+     {
+      "name": "Group work and peer teaching",
+      "offers": "People explain, question and give feedback to each other.",
+      "figure": "28 + 54",
+      "note": "studies pooled on learning by teaching (Kobayashi, 2019) and on peer assessment (Double and colleagues, 2020). Both found gains.",
+      "strength": 3,
+      "mind": "Peers can pass on errors with confidence. Review the key points with the whole group afterwards.",
+      "links": [
+       "Have learners teach each other"
+      ]
+     },
+     {
+      "name": "Reflection and debrief",
+      "offers": "Protected time to say what happened and what it means for work.",
+      "figure": "+20–25%",
+      "note": "better later performance after structured debriefs, across 46 samples (Tannenbaum and Cerasoli, 2013). Most studies were not full experiments.",
+      "strength": 3,
+      "mind": "The activity always wants to overrun. Protect the debrief time in the plan.",
+      "links": [
+       "Let people do it, then make them reflect"
+      ]
+     },
+     {
+      "name": "Safety and trust",
+      "offers": "A group where people can ask, admit mistakes and try half-formed ideas.",
+      "figure": "51",
+      "note": "teams in a manufacturing company: believing it was safe to take a risk went with more learning behaviour (Edmondson, 1999).",
+      "strength": 3,
+      "mind": "Everyone is working out what gets back to their manager. State the reporting rule before any exercise.",
+      "links": [
+       "Make it safe to be wrong out loud",
+       "Build trust before you ask for openness"
+      ]
+     },
+     {
+      "name": "Community and connection",
+      "offers": "Contacts across teams that last beyond the event.",
+      "figure": "20 million",
+      "note": "LinkedIn users in experiments that found moderately weak ties did the most for job moves (Rajkumar and colleagues, 2022).",
+      "strength": 2,
+      "mind": "The research is about jobs and ideas, not courses. Give each connection a job and a reason to meet again.",
+      "links": [
+       "Know that people learn through their network",
+       "Design the course so people leave connected"
+      ]
+     },
+     {
+      "name": "Nature and the outdoors",
+      "offers": "Recovery between demanding sessions and a setting for reflection and conversation.",
+      "figure": "42",
+      "note": "newer studies reviewed in 2018: low to moderate, short-term gains in working memory and switching between tasks after time in nature (Stevenson and colleagues).",
+      "strength": 2,
+      "mind": "No study shows that nature makes adults learn a skill better. Use it for recovery and conversation, with a wet-weather plan.",
+      "links": [
+       "Use nature and daylight, and claim only what the evidence shows",
+       "Use the outdoors on a retreat, on purpose"
+      ]
+     },
+     {
+      "name": "Movement and exercise",
+      "offers": "A lift in energy, and a way to learn physical tasks by doing them.",
+      "figure": "Small",
+      "note": "A pooled analysis found that one bout of exercise has a real but generally small effect on thinking (Chang and colleagues, 2012).",
+      "strength": 3,
+      "mind": "Optional, with a seated version, and never sold as brain science.",
+      "links": [
+       "Use movement where it helps the learning"
+      ]
+     },
+     {
+      "name": "Sleep",
+      "offers": "Nights between the sessions, when new memories settle.",
+      "figure": "Both ends",
+      "note": "Pooled studies: a lost night before learning weakens taking in new material, and a lost night after weakens keeping it (Newbury and colleagues, 2021).",
+      "strength": 3,
+      "mind": "The programme must never demand a late night. Acas counts training needed for the job as working time.",
+      "links": [
+       "Protect sleep on multi-day programmes",
+       "Set the rules for evenings, alcohol and free time"
+      ]
+     },
+     {
+      "name": "Good food, eaten together",
+      "offers": "Shared meals that keep people talking.",
+      "figure": "395",
+      "note": "fire service supervisors rated platoons that ate together more often higher for team performance (Kniffin and colleagues, 2015). A correlation, not a trial.",
+      "strength": 1,
+      "mind": "A co-author later had many other papers retracted. We found no retraction of this one, but treat it with care. We found no good evidence for \"brain food\" claims for adults. Keep lunch light and on time.",
+      "links": [
+       "The slot after lunch"
+      ]
+     },
+     {
+      "name": "Play",
+      "offers": "Low-stakes ways to try things, mix people and enjoy the time.",
+      "figure": "Thin",
+      "note": "A 2018 review called play in adult learning under-explored, with no settled line of research (Whitton).",
+      "strength": 1,
+      "mind": "Optional, or it becomes a task. Name its purpose: mixing people, a point to debrief, or simply fun.",
+      "links": [
+       "Use play on purpose, not as a break",
+       "Bring play into a retreat without losing the point"
+      ]
+     },
+     {
+      "name": "Guest speakers",
+      "offers": "A practitioner's story, a demonstration, a view from outside.",
+      "figure": "Untested",
+      "note": "We found no research on guest speakers in workplace training. Learning by watching skilled people is well established, which is the case for a speaker who shows rather than tells.",
+      "strength": 0,
+      "mind": "Brief them on the outcome. Keep the talk to 20 minutes and spend the rest on the group's questions.",
+      "links": [
+       "Give a ten-minute input",
+       "Demonstrate a skill"
+      ]
+     },
+     {
+      "name": "Fireside conversation",
+      "offers": "An unhurried evening circle where stories come out.",
+      "figure": "81%",
+      "note": "of night-time talk around the fire among the Ju/'hoan of the Kalahari was stories, against 6% of daytime talk (Wiessner, 2014). One society, studied by anthropology.",
+      "strength": 1,
+      "mind": "Optional, with no confession on demand. Check the venue's fire rules and put the fire in the risk assessment.",
+      "links": [
+       "Build trust before you ask for openness",
+       "Plan for incidents"
+      ]
+     },
+     {
+      "name": "Thresholds and ritual",
+      "offers": "A marked start and end that tell people the rules have changed.",
+      "figure": "An idea",
+      "note": "Liminality is an anthropologist's idea (Turner, 1969), borrowed by retreat designers. It has not been tested as a cause of change.",
+      "strength": 0,
+      "mind": "Keep it plain: one sentence each, and let people pass. Ceremony can feel forced at work.",
+      "links": [
+       "Take people out of their routine, and plan the return"
+      ]
+     },
+     {
+      "name": "Spacing: the catch",
+      "offers": "What a single block cannot give: returns to the material over weeks.",
+      "figure": "47% v 37%",
+      "note": "average recall for spaced against massed study, across 271 comparisons. All but 12 favoured spacing (Cepeda and colleagues, 2006).",
+      "strength": 4,
+      "mind": "A retreat is massed learning. Put it at the centre of a programme with spaced follow-ups.",
+      "links": [
+       "Know what the evidence says a retreat can and cannot do",
+       "Space and mix the practice, then stop drilling"
+      ]
+     },
+     {
+      "name": "The return to work",
+      "offers": "Plans, managers and follow-up that get the learning used.",
+      "figure": "89",
+      "note": "studies pooled on transfer: ability, motivation and a supportive workplace were linked to people using training at work (Blume and colleagues, 2010).",
+      "strength": 3,
+      "mind": "The budget usually ends at checkout. Sell the follow-up with the retreat.",
+      "links": [
+       "Plan the return to work",
+       "Treat transfer as a design problem"
+      ]
+     }
+    ]
+   },
+   "compare": {
+    "heading": "How a retreat compares",
+    "intro": "The same programme in three formats. These are general patterns, not research findings, except where the last row says so.",
+    "cols": [
+     "Online course",
+     "Training day",
+     "Residential retreat"
+    ],
+    "rows": [
+     {
+      "label": "Unbroken time for practice",
+      "values": [
+       "Short sessions",
+       "One day",
+       "Two or three days"
+      ]
+     },
+     {
+      "label": "Distance from daily work",
+      "values": [
+       "Low. Work is one tab away",
+       "Some",
+       "High"
+      ]
+     },
+     {
+      "label": "Informal contact",
+      "values": [
+       "Little",
+       "Breaks and lunch",
+       "Meals, walks and evenings"
+      ]
+     },
+     {
+      "label": "Spacing",
+      "values": [
+       "Easy to spread out",
+       "Possible across several days",
+       "Needs a designed before and after"
+      ]
+     },
+     {
+      "label": "Nature and setting",
+      "values": [
+       "None",
+       "Depends on the venue",
+       "Can be designed in"
+      ]
+     },
+     {
+      "label": "Cost and travel per person",
+      "values": [
+       "Lowest",
+       "Moderate",
+       "Highest"
+      ]
+     },
+     {
+      "label": "Who can take part",
+      "values": [
+       "Most people",
+       "Most people",
+       "Some cannot stay overnight"
+      ]
+     },
+     {
+      "label": "What the research says",
+      "values": [
+       "Equal to the classroom when methods match",
+       "The comparison point in most studies",
+       "On-site went with stronger effects in leadership training. The cause is unknown"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**One block is the weakest design.** Sell and plan the before and the after with the retreat, not as an extra.",
+     "**Promise the conditions, never the transformation.** List what will happen and what people will leave with. There is more on [promising the conditions](t:8.1).",
+     "**Not everyone can stay away.** Caring responsibilities, health, faith and preference all count. Design a day-attendance version from the start, as in [including people who cannot stay overnight](t:8.17).",
+     "**Evenings carry the most risk.** Alcohol, late nights and managers in the bar. The conduct rules are the client's to set, and [the evening rules](t:8.15) set out how.",
+     "**Cost, travel and carbon add up.** A residential costs the most per head, and every hour of travel is an hour of someone's weekend or working day. Aim for under two hours' travel and shared transport. There is more on [costing it](t:8.14).",
+     "**The setting is not the method.** Plan the sessions before you fall for the view.",
+     "**Check every claim in the brochure.** \"Nature boosts creativity by 50 per cent\", \"digital detox restores the brain\" and \"only 10 per cent of training transfers\" all fail when traced to their source.",
+     "**The seasons change the design.** In a British winter there are about eight hours of daylight, so outdoor blocks go in the middle of the day and every one needs a wet-weather version.",
+     "**Measure what people do at work.** Satisfaction forms will be glowing after a good retreat and say little about change. There is more on [measuring what people do differently](t:6.4)."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**Lead with the methods and the time.** Present the setting as what makes them possible. A buyer can always find a cheaper day course. The honest answer to \"why pay more?\" is unbroken time for practice and reflection, a group that gets to know each other, and recovery built into the day.",
+     "**Sell a programme, not an event.** Pre-work and a manager briefing before, two or three days away, then spaced follow-ups and a peer group after. That answers the spacing problem, and it gives you a reason to stay in touch with the client.",
+     "**Design nature, food, sleep and evenings.** They are where a retreat in nature differs most from a hotel conference room, and where the claims need the most care. Put them in the timetable with a purpose, not just in the brochure.",
+     "**Promise conditions you can show you delivered.** Then measure what people do at work three months later. That is what earns the second booking."
+    ]
+   },
+   "sources": [
+    [
+     "Lacerenza, Reyes, Marlow, Joseph and Salas (2017), Leadership training design, delivery, and implementation: a meta-analysis.",
+     "https://stars.library.ucf.edu/scopus2015/5360"
+    ],
+    [
+     "Sitzmann, Kraiger, Stewart and Wisher (2006), The comparative effectiveness of web-based and classroom instruction: a meta-analysis.",
+     "https://digitalcommons.memphis.edu/facpubs/12083"
+    ],
+    [
+     "Mark, Gudith and Klocke (2008), The cost of interrupted work: more speed and stress. CHI 2008.",
+     "https://doi.org/10.1145/1357054.1357072"
+    ],
+    [
+     "Ruiz Pardo and Minda (2022), Reexamining the \"brain drain\" effect: a replication of Ward et al. (2017).",
+     "https://pubmed.ncbi.nlm.nih.gov/36007374/"
+    ],
+    [
+     "Fong, Zaleski and Leach (2015), The challenge-skill balance and antecedents of flow: a meta-analytic investigation.",
+     "https://www.instituteofcoaching.org/resources/challenge%E2%80%93skill-balance-and-antecedents-flow-meta-analytic-investigation"
+    ],
+    [
+     "Roberts, MacLeod and Fernandes (2022), The enactment effect: a systematic review and meta-analysis.",
+     "https://uwaterloo.ca/memory-attention-cognition-lab/sites/default/files/uploads/files/enact22.pdf"
+    ],
+    [
+     "Kobayashi (2019), Learning by preparing-to-teach and teaching: a meta-analysis.",
+     "https://metatoc.com/papers/112234-learning-by-preparing-to-teach-and-teaching-a-meta-analysis"
+    ],
+    [
+     "Double, McGrane and Hopfenbeck (2020), The impact of peer assessment on academic performance: a meta-analysis of control group studies.",
+     "https://ora.ox.ac.uk/objects/uuid:0a09975c-e7e6-416f-b888-977230b29ba4"
+    ],
+    [
+     "Tannenbaum and Cerasoli (2013), Do team and individual debriefs enhance performance? A meta-analysis.",
+     "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf"
+    ],
+    [
+     "Edmondson (1999), Psychological safety and learning behavior in work teams.",
+     "https://doi.org/10.2307/2666999"
+    ],
+    [
+     "Rajkumar, Saint-Jacques, Bojinov, Brynjolfsson and Aral (2022), A causal test of the strength of weak ties. Science.",
+     "https://digitaleconomy.stanford.edu/publication/a-causal-test-of-the-strength-of-weak-ties"
+    ],
+    [
+     "Stevenson, Schilhab and Bentsen (2018), Attention restoration theory II: a systematic review.",
+     "https://pubmed.ncbi.nlm.nih.gov/30130463/"
+    ],
+    [
+     "Chang, Labban, Gapin and Etnier (2012), The effects of acute exercise on cognitive performance: a meta-analysis.",
+     "https://pubmed.ncbi.nlm.nih.gov/22480735/"
+    ],
+    [
+     "Newbury, Crowley, Rastle and Tamminen (2021), Sleep deprivation and memory: meta-analytic reviews.",
+     "https://www.rastlelab.com/post/sleep-deprivation-impairs-learning-and-memory-but-now-is-the-time-for-replication-science"
+    ],
+    [
+     "Kniffin, Wansink, Devine and Sobal (2015), Eating together at the firehouse: how workplace commensality relates to the performance of firefighters. Human Performance, 28(4).",
+     "https://doi.org/10.1080/08959285.2015.1021049"
+    ],
+    [
+     "Whitton (2018), Playful learning: tools, techniques, and tactics.",
+     "https://researchportal.northumbria.ac.uk/en/publications/playful-learning-tools-techniques-and-tactics/"
+    ],
+    [
+     "Wiessner (2014), Embers of society: firelight talk among the Ju/'hoansi Bushmen. PNAS, 111(39).",
+     "https://www.pnas.org/content/111/39/14027"
+    ],
+    [
+     "Turner (1969), The Ritual Process: Structure and Anti-Structure.",
+     "https://www.routledge.com/The-Ritual-Process-Structure-and-Anti-Structure/Turner/p/book/9780202011905"
+    ],
+    [
+     "Cepeda, Pashler, Vul, Wixted and Rohrer (2006), Distributed practice in verbal recall tasks: a review and quantitative synthesis.",
+     "https://pubmed.ncbi.nlm.nih.gov/16719566/"
+    ],
+    [
+     "Blume, Ford, Baldwin and Huang (2010), Transfer of training: a meta-analytic review.",
+     "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c358t-6a2a085c81688b7328f14389cba57ed955224aaa40b548a4bd7a34b3ff7efc473"
+    ]
+   ]
+  }
+ ]
+}

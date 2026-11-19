@@ -183,6 +183,10 @@
    "def": "Objectives, activities and assessment all point at the same target."
   },
   {
+   "term": "Attention restoration theory",
+   "def": "The idea that focusing on a task tires a limited capacity for directed attention, and that natural settings let it recover by holding attention gently."
+  },
+  {
    "term": "Authentic assessment",
    "def": "Judging someone by a task close to the real one."
   },
@@ -271,6 +275,10 @@
    "def": "A statement of what someone will be able to do, written so it can be observed."
   },
   {
+   "term": "Personal learning network",
+   "def": "The people, communities and sources a person chooses to learn from and share with, beyond any one course."
+  },
+  {
    "term": "Psychological safety",
    "def": "A shared belief that the group is safe for interpersonal risks, such as asking a question or admitting a mistake."
   },
@@ -303,12 +311,20 @@
    "def": "The person in the client organisation who wants the result and backs the work."
   },
   {
+   "term": "Structural hole",
+   "def": "A gap between two groups that have little contact. A person with contacts on both sides is called a broker."
+  },
+  {
    "term": "Transfer",
    "def": "Using at work what was learned in training."
   },
   {
    "term": "Validity",
    "def": "Whether an assessment measures what it claims to."
+  },
+  {
+   "term": "Weak tie",
+   "def": "A contact you see occasionally or rarely, such as a former colleague. Weak ties tend to bring information your close contacts do not have."
   },
   {
    "term": "Worked example",

@@ -35,16 +35,23 @@ const External = ({ url, children }) => (
   </a>
 );
 
-/* Topic text carries two marks: **a bold lead** and [linked words](t:9.34) that open another topic in a new tab. */
-const MARK = /\*\*(.+?)\*\*|\[([^\]]+)\]\(t:(\d\.\d{1,2})\)/g;
+/* Text carries three marks: **a bold lead**, [linked words](t:9.34) that open a topic in a new tab,
+   and [linked words](insight:slug) that open another Insights piece. */
+const MARK = /\*\*(.+?)\*\*|\[([^\]]+)\]\(t:(\d\.\d{1,2})\)|\[([^\]]+)\]\(insight:([\w-]+)\)/g;
 export function Inline({ text }) {
-  if (typeof text !== 'string' || (!text.includes('**') && !text.includes('](t:'))) return text;
+  if (typeof text !== 'string' || (!text.includes('**') && !text.includes('](t:') && !text.includes('](insight:'))) return text;
   const out = [];
   let last = 0;
   for (const m of text.matchAll(MARK)) {
     if (m.index > last) out.push(text.slice(last, m.index));
     if (m[1]) out.push(<Lead key={m.index}>{m[1]}</Lead>);
-    else {
+    else if (m[4]) {
+      out.push(
+        <Link key={m.index} className="txt" to={`/insights/${m[5]}`}>
+          {m[4]}
+        </Link>,
+      );
+    } else {
       const topic = topicByNumber(m[3]);
       out.push(
         topic ? (

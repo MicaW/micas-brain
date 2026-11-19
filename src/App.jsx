@@ -25,9 +25,10 @@ const RecipeList = toolkitPage('RecipeList');
 const Templates = toolkitPage('Templates');
 const ToolkitHome = toolkitPage('ToolkitHome');
 import Topic from './pages/Topic.jsx';
+import { InsightPage, InsightsIndex, insightBySlug } from './pages/Insights.jsx';
 
 // Navigation and dashboard pages sit on the dark board. Reading pages sit on the light page.
-const BOARD = ['/', '/playbook', '/playbook/mechanics', '/toolkit', '/toolkit/methods', '/toolkit/recipes', '/toolkit/templates'];
+const BOARD = ['/', '/insights', '/playbook', '/playbook/mechanics', '/toolkit', '/toolkit/methods', '/toolkit/recipes', '/toolkit/templates'];
 const groundFor = (pathname) => (BOARD.includes(pathname) ? 'board' : 'page');
 const GROUND_COLOUR = { board: '#0b0b0c', page: '#e9e9e4' };
 
@@ -35,7 +36,7 @@ const TITLES = {
   '/playbook': 'The Playbook', '/toolkit': 'The Toolkit', '/toolkit/methods': 'Method finder', '/playbook/mechanics': 'Learning mechanics',
   '/toolkit/recipes': 'Session recipes', '/toolkit/templates': 'Templates', '/evidence': 'Evidence', '/evidence/how-we-rate': 'What the check marks mean',
   '/evidence/numbers': 'Training today in numbers', '/evidence/studies': 'Key studies', '/evidence/reading': 'Reading list and sources',
-  '/case-studies': 'Case studies', '/about': 'About', '/glossary': 'Glossary', '/search': 'Search',
+  '/case-studies': 'Case studies', '/insights': 'Insights', '/about': 'About', '/glossary': 'Glossary', '/search': 'Search',
 };
 // Method and recipe pages set their own title, because their names load with the page.
 const ownTitle = (pathname) => /^\/toolkit\/(methods|recipes)\/./.test(pathname);
@@ -47,6 +48,7 @@ function titleFor(pathname) {
     (stageMatch && stageByN(stageMatch[1]) && stageLabel(stageByN(stageMatch[1]))) ||
     topics.find((t) => t.path === pathname)?.title ||
     (/^\/playbook\/mechanics\//.test(pathname) && mechanics.find((x) => x.slug === last)?.name) ||
+    (/^\/insights\/./.test(pathname) && insightBySlug(last)?.title) ||
     site.outline.find((p) => p.path === pathname)?.title;
   return name ? `${name} · ${site.name}` : site.name;
 }
@@ -176,6 +178,8 @@ export default function App() {
           <Route path="/toolkit/recipes" element={<RecipeList />} />
           <Route path="/toolkit/recipes/:slug" element={<RecipeDetail />} />
           <Route path="/toolkit/templates" element={<Templates />} />
+          <Route path="/insights" element={<InsightsIndex />} />
+          <Route path="/insights/:slug" element={<InsightPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/search" element={<Search />} />
           {site.outline.map((page) => (
