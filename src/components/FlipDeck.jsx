@@ -4,7 +4,7 @@ import { byStage, stageByN, topicById } from '../lib.js';
 import { Arrow, Pill, StageTag } from './ui.jsx';
 
 /* A card that turns over. Front: the claim. Back: what to do about it, in the stage's colour. */
-function FlipCard({ item, front, back }) {
+export function FlipCard({ item, front, back }) {
   const [turned, setTurned] = useState(false);
   const topic = topicById(item.topicId);
   const stage = stageByN(item.stage);

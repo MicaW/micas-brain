@@ -1,7 +1,7 @@
 {
  "_note": "Insights: features, research digests and opinion pieces. Links to Playbook topics use the [words](t:S.N) mark, made from topic titles by build_ideas.py.",
  "heading": "Insights",
- "intro": "Features, research digests and opinion pieces. Each one gathers the research on one question, says how far it can be trusted, and links back to the Playbook topics that put it into practice.",
+ "intro": "Each insight gathers the research on one question, says how far it can be trusted, and links back to the Playbook topics that put it into practice.",
  "strength": [
   {
    "level": 4,
@@ -36,8 +36,1392 @@
  ],
  "ideas": [
   {
+   "slug": "what-good-looks-like-today",
+   "color": "#c9b8ff",
+   "date": "19 November 2026",
+   "title": "What good looks like today: lessons from the organisations ahead of the game",
+   "standfirst": "Airline crews, medical simulation centres, the US Army, Harvard Business School, Duolingo, Khan Academy and Outward Bound are often held up as the best in the world at helping people learn. Put them side by side and the same few habits keep appearing. This is what they share, what the evidence says about each, and what is worth borrowing.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**They rehearse the hard part, not the whole job.** Aviation and medicine put people through the rare, costly moments in a simulator, again and again, before those moments happen for real.",
+     "**They talk about it straight afterwards.** The after-action review, the flight debrief and the case discussion all make people say what happened and why before anyone gives a verdict.",
+     "**They bring it back.** Recurrent training, spaced recall and mastery checks all assume that one exposure is not enough.",
+     "**Their reputations run ahead of their evidence.** Most have good evidence for the method they use and much weaker evidence for their own results. Borrow the method, not the brand."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Habit one: rehearse the moments that matter",
+     "p": [
+      "**Airline crews practise emergencies as a whole crew.** Under US rules, line-oriented flight training uses a complete crew in a full flight simulator, includes abnormal and emergency procedures, and is briefed before and after. Medical simulation centres do the same for clinical skills. A pooling of 14 studies found simulation with deliberate practice beat traditional clinical education.",
+      "**The lesson is to find the hard part and give it most of the time.** Neither aviation nor medicine spends its simulator hours on the routine. They pick the moments where a mistake is rare, expensive and hard to practise at work. Most workplace training does the opposite and covers everything once. There is more on [rehearsing what could go wrong](t:4.13) and on [building practice at the edge of ability](t:1.6)."
+     ]
+    },
+    {
+     "h": "Habit two: debrief before you judge",
+     "p": [
+      "**The US Army's after-action review asks the group what happened and why before anyone gives a view.** A pooling of 46 samples found debriefs of this kind improved later performance by about a fifth to a quarter, and facilitated debriefs did better. Harvard Business School's case method works on a related idea: people must commit to a decision before the discussion, which makes the discussion matter to them.",
+      "**What these share is that the learner does the thinking first.** The facilitator's job is to make it safe to say what really happened and to keep the talk on what to do next time. There is more on [debriefing an activity](t:4.29) and on [using problems and cases when judgement is the goal](t:2.15)."
+     ]
+    },
+    {
+     "h": "Habit three: one go is never enough",
+     "p": [
+      "**Every one of these organisations assumes people forget.** Aviation writes refreshers into the rules, with some drills repeated at fixed intervals. Duolingo's model estimates when each learner is about to forget a word and brings it back. Khan Academy asks learners to show they can do a skill before moving on. Outward Bound's strongest results came from courses of 20 days or more, not from a single day.",
+      "**This is the habit most workplace training lacks.** A one-off event with nothing after it is still the norm. The organisations held up as models plan the second, third and tenth exposure before the first one ends. There is more on [scheduling the follow-up](t:5.4) and on [planning refreshers before skills fade](t:5.19)."
+     ]
+    },
+    {
+     "h": "Habit four: stretch people together, away from routine",
+     "p": [
+      "**Outward Bound takes groups away and sets them a goal that feels too hard.** A 1997 pooling of 96 studies found gains in outcomes such as self-concept and leadership that grew slightly at follow-up, which is unusual. The gains were in confidence and personal skills, not job skills, and results varied widely between programmes.",
+      "**This is the closest of the seven to a training retreat, and the most cautious result.** It supports taking people away to stretch them together. It does not support promising that a short retreat will change how they work. There is more in [Why take people away?](insight:why-take-people-away)"
+     ]
+    },
+    {
+     "h": "What the evidence does not show",
+     "p": [
+      "**The strong evidence is for the methods, not the organisations.** Debriefs, simulation with deliberate practice, spaced recall and mastery learning all have good research behind them, much of it from outside the organisations that made them famous. We found no independent study of results at Harvard Business School itself. Duolingo's best-known efficacy study was paid for by Duolingo, and the one independent study was tiny. Khan Academy's usage studies are correlations. Aviation's crew training changes attitudes and behaviour more clearly than it changes accident rates.",
+      "**That is a reason to borrow with confidence, not a reason to dismiss them.** The habits are sound. The halo is not evidence. When a client says they want to train like an airline, the useful reply is to ask which habit they mean and whether they will pay for the repetition that makes it work."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "The seven, side by side",
+    "intro": "Each organisation, the habit worth borrowing, and how strong the evidence is for the method it uses. Open a card below for the full case study.",
+    "items": [
+     {
+      "name": "Commercial aviation",
+      "offers": "Rehearse rare, costly moments as a whole team, and repeat the training through a career.",
+      "figure": "16",
+      "note": "crew resource management evaluations pooled in 2008: large effects on attitudes and behaviour. A 2006 review of 28 accounts could not determine the effect on safety.",
+      "strength": 3,
+      "mind": "Full simulators and regulated training time are beyond most organisations. The repetition is the part to copy.",
+      "links": [
+       "Rehearse what could go wrong",
+       "Train the team together when the work is done together"
+      ]
+     },
+     {
+      "name": "Medical simulation centres",
+      "offers": "A safe place to repeat the hard part of the job until it is reliable.",
+      "figure": "0.71",
+      "note": "pooled effect for simulation with deliberate practice over traditional clinical education, across 14 studies (McGaghie and colleagues, 2011).",
+      "strength": 3,
+      "mind": "The evidence is mostly for hands-on clinical skills, and the effect on patients is smaller than on test performance.",
+      "links": [
+       "Build practice at the edge of ability",
+       "Use immersive technology for what it does best"
+      ]
+     },
+     {
+      "name": "The US Army",
+      "offers": "The after-action review: what happened, why, what to keep and what to fix.",
+      "figure": "+20–25%",
+      "note": "better later performance after debriefs, across 46 samples (Tannenbaum and Cerasoli, 2013). Many studies were not randomised.",
+      "strength": 3,
+      "mind": "It leans on a capable facilitator. Army research found the written take-home packages too long and weak on fixes.",
+      "links": [
+       "Debrief an activity",
+       "Let people do it, then make them reflect"
+      ]
+     },
+     {
+      "name": "Harvard Business School",
+      "offers": "Make people commit to a decision before the discussion.",
+      "figure": "22",
+      "note": "studies pooled in 2024: the case method beat lectures on knowledge and skills. None of the evidence comes from Harvard itself.",
+      "strength": 2,
+      "mind": "It depends on a skilled discussion leader and on people who prepare.",
+      "links": [
+       "Use problems, cases or enquiry when judgement is the goal"
+      ]
+     },
+     {
+      "name": "Duolingo",
+      "offers": "Bring each key point back as a recall question, sooner for the shaky ones.",
+      "figure": "48%",
+      "note": "average score on a first-semester test after 12 to 35 hours, in a tiny independent study of nine learners. Only one passed.",
+      "strength": 1,
+      "mind": "The method, spaced recall, has strong evidence. The app's own results do not. It suits facts and words more than judgement.",
+      "links": [
+       "Space and mix the practice, then stop drilling",
+       "Test little and often"
+      ]
+     },
+     {
+      "name": "Khan Academy",
+      "offers": "Set a pass standard for each step and give people another go before moving on.",
+      "figure": "4.7%",
+      "note": "of pupils reached the 30 minutes a week linked to gains in the company's own 2022 study. Mastery learning itself raised scores by about half a standard deviation across 108 older studies.",
+      "strength": 2,
+      "mind": "The usage studies are correlations. Keen learners practise more and learn more.",
+      "links": [
+       "Test little and often",
+       "Start with full support, then take it away"
+      ]
+     },
+     {
+      "name": "Outward Bound",
+      "offers": "A goal that feels too hard, structured so the group can reach it.",
+      "figure": "0.34",
+      "note": "average effect by the end of a course across 96 studies (Hattie and colleagues, 1997), with a further small gain at follow-up.",
+      "strength": 2,
+      "mind": "Gains are in confidence and personal skills. The strongest results came from courses of 20 days or more.",
+      "links": [
+       "Design for absorption, not intensity",
+       "Use the outdoors on a retreat, on purpose"
+      ]
+     }
+    ]
+   },
+   "embed": "cases",
+   "compare": {
+    "plain": true,
+    "heading": "Which habit each one shows",
+    "intro": "Where each habit sits in how the organisation trains, from the case studies above.",
+    "cols": [
+     "Rehearse the hard part",
+     "Debrief first",
+     "Bring it back",
+     "Check before moving on"
+    ],
+    "rows": [
+     {
+      "label": "Commercial aviation",
+      "values": [
+       "Yes",
+       "Yes",
+       "Yes",
+       "Yes"
+      ]
+     },
+     {
+      "label": "Medical simulation",
+      "values": [
+       "Yes",
+       "Yes",
+       "Often",
+       "Yes"
+      ]
+     },
+     {
+      "label": "The US Army",
+      "values": [
+       "Yes",
+       "Yes",
+       "Often",
+       "No"
+      ]
+     },
+     {
+      "label": "Harvard Business School",
+      "values": [
+       "No",
+       "Yes",
+       "No",
+       "No"
+      ]
+     },
+     {
+      "label": "Duolingo",
+      "values": [
+       "No",
+       "No",
+       "Yes",
+       "Yes"
+      ]
+     },
+     {
+      "label": "Khan Academy",
+      "values": [
+       "No",
+       "No",
+       "Often",
+       "Yes"
+      ]
+     },
+     {
+      "label": "Outward Bound",
+      "values": [
+       "Yes",
+       "Often",
+       "No",
+       "No"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "What to borrow for your own work",
+    "items": [
+     "**Pick the hard moment and give it the time.** Ask the client which situation goes wrong most expensively, and build the practice around that.",
+     "**Debrief every exercise, and ask before you tell.** Protect the debrief time in the timetable. It is the part that always wants to be cut.",
+     "**Plan the second exposure before the first.** Put the follow-up, the recall questions and the refresher in the calendar while people are still in the room.",
+     "**Check that people can do it, not that they were there.** A short observed task beats an attendance list.",
+     "**Quote the method, not the brand.** \"Debriefs improved later performance by about a fifth\" is a claim you can defend. \"We train like the Army\" is not."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**A retreat is good at three of the four habits.** It gives time to rehearse the hard part, time to debrief properly, and a group that will hold each other to a standard. It is weak at the fourth, bringing it back, because it is one block. Selling the follow-up as part of the retreat, rather than an optional extra, is what turns a good event into something that looks like the organisations people admire."
+    ]
+   },
+   "sources": [
+    [
+     "O'Connor and colleagues (2008), Crew resource management training effectiveness: A meta-analysis and some critical needs. International Journal of Aviation Psychology.",
+     "https://research.universityofgalway.ie/en/publications/crew-resource-management-training-effectiveness-a-meta-analysis-a-3/"
+    ],
+    [
+     "Salas, Wilson, Burke and Wightman (2006), Does crew resource management training work? An update, an extension, and some critical needs. Human Factors.",
+     "https://stars.library.ucf.edu/facultybib2000/6531"
+    ],
+    [
+     "US Code of Federal Regulations, Title 14, Part 121, Subpart N, Training Program (sections 121.404, 121.409 and 121.427).",
+     "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-N"
+    ],
+    [
+     "Federal Aviation Administration (2004), Advisory Circular 120-51E, Crew Resource Management Training.",
+     "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/22879"
+    ],
+    [
+     "Bayona and Durán (2024), A meta-analysis of the influence of case method and lecture teaching on cognitive and affective learning outcomes. International Journal of Management Education.",
+     "https://perfilesycapacidades.javeriana.edu.co/en/publications/a-meta-analysis-of-the-influence-of-case-method-and-lecture-teach/"
+    ],
+    [
+     "Freeman and colleagues (2014), Active learning increases student performance in science, engineering, and mathematics. Proceedings of the National Academy of Sciences.",
+     "https://experts.umn.edu/en/publications/active-learning-increases-student-performance-in-science-engineer/"
+    ],
+    [
+     "Harvard Gazette (2008), From Law School to Business School: evolution of the case method.",
+     "https://news.harvard.edu/gazette/story/2008/04/from-law-school-to-business-school-evolution-of-the-case-method"
+    ],
+    [
+     "The Harvard Crimson (2021), article on 100 years of the HBS case method.",
+     "https://www.thecrimson.com/article/2021/12/13/100-years-of-hbs-case-method/"
+    ],
+    [
+     "McGaghie, Issenberg, Cohen, Barsuk and Wayne (2011), Does simulation-based medical education with deliberate practice yield better results than traditional clinical education? A meta-analytic comparative review of the evidence. Academic Medicine.",
+     "https://www.hisp.ntu.edu.tw/abstract_literature?id=223"
+    ],
+    [
+     "Cook and colleagues (2011), Technology-enhanced simulation for health professions education: a systematic review and meta-analysis. JAMA.",
+     "https://med.virginia.edu/medical-simulation-center/wp-content/uploads/sites/254/2016/01/2011JAMA_Cook_Meta-analysis.pdf"
+    ],
+    [
+     "Agency for Healthcare Research and Quality, PSNet summary of Cook and colleagues (2011).",
+     "https://psnet.ahrq.gov/issue/technology-enhanced-simulation-health-professions-education-systematic-review-and-meta"
+    ],
+    [
+     "Tannenbaum and Cerasoli (2013), Do team and individual debriefs enhance performance? A meta-analysis. Human Factors.",
+     "https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf"
+    ],
+    [
+     "US Army (2025), TMD publishes training circular to augment FM and ADP 7-0.",
+     "https://www.army.mil/article/283214/tmd_publishes_training_circular_to_augment_fm_and_adp_7_0"
+    ],
+    [
+     "Morrison and Meliza (1999), Foundations of the After Action Review Process. US Army Research Institute Special Report 42.",
+     "https://apps.dtic.mil/sti/pdfs/ADA368651.pdf"
+    ],
+    [
+     "Settles and Meeder (2016), A Trainable Spaced Repetition Model for Language Learning. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics.",
+     "https://aclanthology.org/P16-1174.pdf"
+    ],
+    [
+     "Loewen and colleagues (2019), Mobile-assisted language learning: A Duolingo case study. ReCALL 31(3).",
+     "https://cambridge.org/core/services/aop-cambridge-core/content/view/A4D7C8F71782A37D258C19F357DDBCBE/S0958344019000065a.pdf/mobileassisted_language_learning_a_duolingo_case_study.pdf"
+    ],
+    [
+     "Vice (2017), Are Duolingo Users Actually Learning Anything Useful.",
+     "https://www.vice.com/en/article/are-duolingo-users-actually-learning-anything-useful"
+    ],
+    [
+     "Murphy, Gallagher, Krumm, Mislevy and Hafter (2014), Research on the Use of Khan Academy in Schools: Implementation Report. SRI Education.",
+     "https://www.sri.com/publication/education-learning-pubs/digital-learning-pubs/research-on-the-use-of-khan-academy-in-schools-implementation-report/"
+    ],
+    [
+     "EdSurge (2014), Does Khan Academy Help Kids Learn Math.",
+     "https://edsurge.com/news/2014-03-07-sri-studies-how-schools-use-khan-academy"
+    ],
+    [
+     "Kulik, Kulik and Bangert-Drowns (1990), Effectiveness of Mastery Learning Programs: A Meta-Analysis. Review of Educational Research 60(2).",
+     "https://www.academia.edu/81783373/Effectiveness_of_Mastery_Learning_Programs_A_Meta_Analysis"
+    ],
+    [
+     "Holt (2024), The 5 Percent Problem. Education Next.",
+     "https://www.educationnext.org/5-percent-problem-online-mathematics-programs-may-benefit-most-kids-who-need-it-least/"
+    ],
+    [
+     "Khan Academy (2024), Khan Academy Efficacy Results, November 2024.",
+     "https://blog.khanacademy.org/?p=18194"
+    ],
+    [
+     "Hattie, Marsh, Neill and Richards (1997), Adventure Education and Outward Bound: Out-of-Class Experiences That Make a Lasting Difference. Review of Educational Research 67(1).",
+     "https://researchprofiles.canberra.edu.au/en/publications/adventure-education-and-outward-bound-out-of-class-experiences-th/"
+    ],
+    [
+     "Education Week (1997), Adventure Programs Found To Have Lasting, Positive Impact.",
+     "https://www.edweek.org/leadership/adventure-programs-found-to-have-lasting-positive-impact/1997/05"
+    ],
+    [
+     "Education Endowment Foundation, Teaching and Learning Toolkit: Outdoor adventure learning.",
+     "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/outdoor-adventure-learning"
+    ],
+    [
+     "Outward Bound International, Our History.",
+     "https://www.outwardbound.net/our-history/"
+    ],
+    [
+     "The Outward Bound Trust, Our history.",
+     "https://alpha.outwardbound.org.uk/our-history"
+    ]
+   ],
+   "embedWords": 2450
+  },
+  {
+   "slug": "the-offsite-and-retreat-market",
+   "color": "#a8d5ff",
+   "date": "19 November 2026",
+   "title": "The offsite and retreat market: who is buying, and what they want now",
+   "standfirst": "Companies are spending on getting people together again, but they want the time to count. This piece gathers what the industry surveys and one large employer's own data say about demand for offsites and retreats, and what that means for someone setting up to run them.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Confidence in business events is the highest in five years.** In Amex GBT's survey of 601 meeting professionals, 85% were optimistic about 2026, up from 74% a year earlier. Costs are rising too.",
+     "**Buyers want experiences that people remember and that change something.** Creating engaging experiences was the planners' top priority, and the same report asks whether events should be judged on return on experience as well as return on investment.",
+     "**Distributed companies are paying to bring teams together on purpose.** Atlassian's data on its own staff found intentional gatherings lifted team connection by 27%, and the lift lasted four to five months.",
+     "**Wellness is growing, but not as a workplace perk.** Wellness tourism is forecast to grow about 9% a year. Spending on workplace wellness programmes was the only part of the wellness economy that shrank."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Demand for getting together is back",
+     "p": [
+      "**Planners are more optimistic than at any point in five years.** American Express Global Business Travel's 2026 forecast is based on a YouGov survey of 601 meeting professionals in eight countries, carried out in July 2025. 85% said they were optimistic or very optimistic about the year ahead, against 74% the year before. The same report lists rising costs as a concern and says AI is becoming part of every stage of planning.",
+      "**The priority has moved from logistics to experience.** The report names creating engaging experiences as the top priority, and asks whether events should be judged on return on experience as well as return on investment. That is a planners' survey, not a buyers' survey, so it tells you what the industry thinks clients want. It fits what L&D buyers say: they want time together that does something the office and a video call cannot."
+     ]
+    },
+    {
+     "h": "Why distributed companies are buying gatherings",
+     "p": [
+      "**Atlassian measured what its own gatherings did.** Since 2020 its staff have chosen where they work, and the company now brings whole teams together in person three or four times a year, each gathering with a clear purpose. Across more than 1,600 gatherings with an average of 16 people, team connection rose by 27% afterwards and stayed higher for four to five months. New hires and graduates gained most, and their sense of connection also faded fastest.",
+      "**It is one company's data on its own staff, so treat it as a strong example rather than a law.** It is also the clearest published evidence that a planned gathering does more for connection than people drifting into an office. For a retreat business, two details matter: the effect fades within a season, which is an argument for a programme of gatherings rather than a one-off, and newcomers benefit most, which is an argument for onboarding cohorts. There is more on [designing a course so people leave connected](t:5.10)."
+     ]
+    },
+    {
+     "h": "Wellness: growing, but bought differently",
+     "p": [
+      "**The wellness economy keeps growing.** The Global Wellness Institute put it at $6.8 trillion in 2024, up 7.9% in a year, and forecast wellness tourism to grow about 9% a year to 2029.",
+      "**Workplace wellness was the one sector that shrank,** with global spending down 1.5% from 2023 to 2024. One reading is that employers are cooling on standalone wellness perks while individuals spend more on their own wellbeing. A retreat sold as a wellness benefit is selling into the weak part of that market. A retreat sold as development, with good food, sleep, movement and time outdoors as part of how it works, sits closer to what is growing. There is more on [describing the retreat honestly](t:8.34)."
+     ]
+    },
+    {
+     "h": "What buyers now expect",
+     "p": [
+      "**Purpose before venue.** Atlassian's rule is that every gathering has a clear purpose, group and structure. Buyers increasingly ask what the time is for before they ask where it is.",
+      "**Evidence of something changing.** The pressure on L&D to show results has not gone away, and the Amex report's talk of return on experience shows planners feel it too. A retreat that can show what people did differently afterwards will win against one that can only show a satisfaction score. There is more in [What the best learning teams measure](insight:what-the-best-learning-teams-measure).",
+      "**Less drinking, more choice.** Fewer young adults drink, and alcohol-free options are now expected. There is more in [Drinking less](insight:drinking-less-and-the-work-event)."
+     ]
+    }
+   ],
+   "compare": {
+    "plain": true,
+    "heading": "The signals, and how far to trust them",
+    "intro": "Market data is mostly surveys and company reports. This is what each one is, and what it can and cannot tell you.",
+    "cols": [
+     "What it is",
+     "What it suggests",
+     "How far to trust it"
+    ],
+    "rows": [
+     {
+      "label": "Amex GBT 2026 forecast",
+      "values": [
+       "A survey of 601 meeting planners in eight countries",
+       "Optimism, rising costs, a shift to experience",
+       "A planners' view of the market, not buyers' spending"
+      ]
+     },
+     {
+      "label": "Atlassian gatherings data",
+      "values": [
+       "One company's measures of its own staff",
+       "Planned gatherings lift connection for four to five months",
+       "Large and specific, but one company, run by its own researchers"
+      ]
+     },
+     {
+      "label": "Global Wellness Institute monitor",
+      "values": [
+       "Market sizing across eleven wellness sectors",
+       "Wellness tourism growing, workplace wellness shrinking",
+       "Estimates built from many sources. Good for direction, loose on exact figures"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Industry optimism is not your pipeline.** These surveys describe the sector. Your first clients will come from people who already trust you.",
+     "**Sell a programme, not a trip.** The Atlassian effect faded within a season. Two or three gatherings a year, with work in between, is the stronger offer.",
+     "**Costs are rising for everyone.** Venues, food and travel are going up. Price with a margin that survives a bad quarter. There is more on [pricing a retreat](t:8.26).",
+     "**Do not sell wellness to the wellness budget.** That budget is the one shrinking. Sell development that happens to be good for people."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**The opening is real, and it is specific.** Distributed and hybrid companies need their teams together a few times a year and want those days to count. New managers, new hires and teams after a reorganisation gain most. A small business that designs the purpose, runs the time well and follows up afterwards is offering exactly what large event agencies are least set up to do."
+    ]
+   },
+   "sources": [
+    [
+     "American Express Global Business Travel (2025), 2026 Global Meetings and Events Forecast.",
+     "https://www.ameliaisland.com/static/Meetings%20Events%20Forecast%202026.pdf"
+    ],
+    [
+     "Association Meetings International (2025), M&E professional optimism at five-year high, says AMEX GBT.",
+     "https://www.amimagazine.global/Meetings/Planning-and-design/ME-professional-optimism-at-five-year-high-says-AMEX-GBT"
+    ],
+    [
+     "Atlassian (2023), Intentional togetherness: what we learned from bringing teams together.",
+     "https://www.atlassian.com/blog/distributed-work/intentional-togetherness-research"
+    ],
+    [
+     "Atlassian (2023), Lessons learned: 1,000 days of distributed at Atlassian.",
+     "https://www.atlassian.com/solutions/distributed/lessons-learned"
+    ],
+    [
+     "Global Wellness Institute (2025), The global wellness economy hits a record $6.8 trillion. Press release for the Global Wellness Economy Monitor 2025.",
+     "https://globalwellnessinstitute.org/press-room/press-releases/the-global-wellness-economy-hits-a-record-6-8-trillion-and-is-forecast-to-reach-9-8-trillion-by-2029/"
+    ]
+   ]
+  },
+  {
+   "slug": "ai-and-learning-the-evidence-so-far",
+   "color": "#8fe0ff",
+   "date": "19 November 2026",
+   "title": "AI and learning: what the 2025–26 evidence shows",
+   "standfirst": "The first good experiments on AI and learning are in, and they point two ways. AI built to tutor can help people learn faster. AI used to get the answer can raise performance today and lower it tomorrow. This piece gathers the studies that matter and what they mean for training design.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Doing better with AI is not the same as learning.** In a field experiment with about 1,000 Turkish secondary pupils, ChatGPT access raised practice scores by 48%, and pupils who had used it then scored 17% worse on an exam without it.",
+     "**Design changes the result.** The same study's tutor version, which gave hints rather than answers, raised practice scores by 127% and largely avoided the harm.",
+     "**A tutor built on good teaching can beat a good class.** At Harvard, students learned more than twice as much in less time from a purpose-built AI tutor as from an active-learning class on the same topic.",
+     "**Trust in the tool lowers the thinking.** Knowledge workers who trusted AI more reported less critical thinking. Those confident in their own skill reported more."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Performance is not learning",
+     "p": [
+      "**The clearest experiment so far comes from secondary schools in Turkey.** Bastani and colleagues gave about 1,000 pupils either a standard ChatGPT interface, a version set up as a tutor, or nothing, during maths practice. With standard ChatGPT, practice scores rose by 48%. When the AI was taken away for the exam, those pupils scored 17% worse than pupils who had never had it. The tutor version, which was prompted to give hints rather than answers, raised practice scores by 127% and largely removed the harm on the exam.",
+      "**The OECD has made this its headline.** Its Digital Education Outlook 2026 concludes that general-purpose AI tools can improve performance on tasks without leading to learning, and that learning gains appear when AI is used with a clear teaching purpose. For training, the lesson is direct: if people use AI to do the exercise, the exercise stops teaching. There is more on [guarding against over-reliance](t:7.13)."
+     ]
+    },
+    {
+     "h": "When AI is built to teach",
+     "p": [
+      "**A Harvard physics experiment found a purpose-built tutor beat a strong class.** Kestin and colleagues ran a crossover trial with 194 students in an introductory physics course. Each student learned one topic in an active-learning class and another at home with an AI tutor built on the same teaching principles. Students learned more than twice as much in less time with the tutor, and reported feeling more engaged.",
+      "**The comparison was with a good class, which is what makes it striking.** It was also one course, at one university, with well-prepared students and a tutor written by the course team. The authors say it should not be read as AI beating teachers in general. What it shows is that the design principles that work in a room, such as working through problems, getting feedback and not being handed the answer, also work when an AI delivers them. There is more on [using AI as a practice partner](t:7.11) and on [expecting moderate gains from adaptive tools](t:7.2)."
+     ]
+    },
+    {
+     "h": "What it does to thinking at work",
+     "p": [
+      "**Confidence in the tool goes with less checking.** A Microsoft Research and Carnegie Mellon survey of 319 knowledge workers, covering 936 real examples of AI use, found that higher confidence in AI went with less critical thinking, and higher confidence in one's own ability went with more. People described their effort moving from producing work to checking and combining what the AI produced.",
+      "**It is a self-report survey, not an experiment.** It shows a pattern in how people describe their work, not proof that AI weakens thinking. It does suggest who needs training most: people new to a task, who are least able to judge the AI's answer and most likely to accept it. There is more on [training people to check the AI's work](t:7.4)."
+     ]
+    }
+   ],
+   "compare": {
+    "plain": true,
+    "heading": "The studies side by side",
+    "intro": "Four pieces of evidence, what they tested and the catch in each.",
+    "cols": [
+     "Who",
+     "What happened",
+     "The catch"
+    ],
+    "rows": [
+     {
+      "label": "Bastani and colleagues (2025)",
+      "values": [
+       "About 1,000 secondary pupils in Turkey",
+       "ChatGPT raised practice scores 48% and lowered exam scores 17%. A tutor version raised practice 127% without the harm",
+       "School maths, not workplace skills"
+      ]
+     },
+     {
+      "label": "Kestin and colleagues (2025)",
+      "values": [
+       "194 Harvard physics students",
+       "Learned more than twice as much in less time with a purpose-built tutor than in an active class",
+       "One course, one university, a tutor written by the course team"
+      ]
+     },
+     {
+      "label": "Lee and colleagues (2025)",
+      "values": [
+       "319 knowledge workers, 936 examples",
+       "More trust in AI went with less critical thinking",
+       "A self-report survey, not an experiment"
+      ]
+     },
+     {
+      "label": "OECD Digital Education Outlook (2026)",
+      "values": [
+       "A review of emerging research",
+       "AI helps learning when used with a clear teaching purpose, and may not otherwise",
+       "A synthesis of a young field, much of it from schools"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Decide what the learner must be able to do without AI.** Then design the practice so the AI cannot do that part for them.",
+     "**Set AI up as a tutor, not an answer machine.** Prompts that give hints, ask questions and hold back the answer are the difference the Turkish study measured.",
+     "**Test without the tool.** If the job will be done with AI, assess with it too. If the skill must stand alone, assess without it.",
+     "**Most of this evidence is from schools and universities.** Workplace trials are still scarce. Expect the direction to hold and the sizes to differ."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**A retreat is one of the few places where people practise without the tool in their hand.** That is worth saying plainly to buyers. Live practice, debate and feedback build the judgement people need to check AI's work. AI can still play a part, as a practice partner between sessions or a tutor in the follow-up, set up to coach rather than to answer. There is more on [setting a rule for AI in the room](t:7.9)."
+    ]
+   },
+   "sources": [
+    [
+     "Bastani, Bastani, Sungu, Ge, Kabakcı and Mariman (2025), Generative AI without guardrails can harm learning: evidence from high school mathematics. PNAS.",
+     "https://www.pnas.org/doi/10.1073/pnas.2422633122"
+    ],
+    [
+     "Kestin, Miller, Klales, Milbourne and Ponti (2025), AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports.",
+     "https://www.nature.com/articles/s41598-025-97652-6"
+    ],
+    [
+     "Lee, Sarkar, Tankelevitch, Drosos, Rintel, Banks and Wilson (2025), The impact of generative AI on critical thinking: self-reported reductions in cognitive effort and confidence effects from a survey of knowledge workers. CHI 2025.",
+     "https://www.microsoft.com/en-us/research/uploads/prod/2025/01/lee_2025_ai_critical_thinking_survey.pdf"
+    ],
+    [
+     "OECD (2026), OECD Digital Education Outlook 2026: Exploring effective uses of generative AI in education.",
+     "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en"
+    ]
+   ]
+  },
+  {
+   "slug": "drinking-less-and-the-work-event",
+   "color": "#9ad0c2",
+   "date": "19 November 2026",
+   "title": "Drinking less: what the change in drinking means for work events and retreats",
+   "standfirst": "A quarter of adults in England now do not drink, and young adults are leading the change. The bar tab used to be the centre of the work social. This piece sets out what has changed, what employers are responsible for, and how to run evenings that work for everyone.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Not drinking is now common.** In the Health Survey for England 2024, 24% of adults said they had not drunk alcohol in the past year, up from about 19% through 2011 to 2022. Among 16 to 24-year-olds it was about a third.",
+     "**Alcohol-free drinks are a growing market, not a novelty.** Alcohol-free volumes are forecast to grow by more than a third to 2029 across the leading markets.",
+     "**A work event is still work.** Employers keep a duty of care at work socials, and can be held responsible for what happens there.",
+     "**Design the evening around something other than the bar.** Food, a fire, a walk, a game or a conversation give everyone a reason to stay."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What has changed",
+     "p": [
+      "**Fewer people drink at all.** The Health Survey for England 2024 asked thousands of adults about their drinking. 24% said they had not drunk alcohol in the past year, against a long-standing level of about 19%. The change is driven by younger people, and by young men in particular, with about a third of 16 to 24-year-olds not drinking.",
+      "**Those who drink, drink differently.** Drinkaware's survey of 18 to 24-year-olds found the share not drinking rose from 14% in 2017 to 21% in 2023, and those who do drink do so less often. It also found the young adults who drink are more likely than other ages to drink at high-risk levels. Both groups will be at your event.",
+      "**The drinks have caught up.** IWSR expected alcohol-free beer, wine and spirits to grow 9% in volume in 2025 across the leading markets, and by 36% to 2029. The British Beer and Pub Association called 2025 a record year for low and no-alcohol beer in the UK. A good alcohol-free option is now expected, not a favour."
+     ]
+    },
+    {
+     "h": "What employers are responsible for",
+     "p": [
+      "**A work social is treated as part of work.** Employment lawyers and Acas guidance agree that an employer keeps a duty of care at events it organises, including evenings and parties. Employers have been held responsible for harassment and other conduct at work socials. Acas suggests plenty of food and non-alcoholic drinks, thinking about how people get home, and making clear that normal standards of behaviour apply. This is not legal advice. Check the current guidance or take advice for your situation.",
+      "**On a residential, the evening is part of the programme.** If people are expected to stay, the employer and the organiser share the responsibility for what the programme asks of them. There is more on [setting the rules for evenings, alcohol and free time](t:8.14) and on [writing the duty-of-care plan first](t:8.5)."
+     ]
+    },
+    {
+     "h": "Evenings that work for everyone",
+     "p": [
+      "**Put something other than the bar at the centre.** A long meal, a fire, a walk at dusk, a quiz or a guest's story all give people a reason to stay that has nothing to do with drinking. There is more on [running evenings and fireside conversations](t:8.32).",
+      "**Make not drinking invisible.** Good alcohol-free drinks served the same way as the rest, with nobody asking why. People do not drink for many reasons, including health, faith, pregnancy, recovery, medication and preference, and none of them is the group's business.",
+      "**Protect the morning.** The programme should never depend on a late night. Sleep matters for what people learned the day before. There is more on [protecting sleep on multi-day programmes](t:1.12)."
+     ]
+    }
+   ],
+   "compare": {
+    "plain": true,
+    "heading": "The old default and the new one",
+    "intro": "How the evening at a work event is changing, and what to plan instead.",
+    "cols": [
+     "The old default",
+     "Plan this instead"
+    ],
+    "rows": [
+     {
+      "label": "The centre of the evening",
+      "values": [
+       "A free bar",
+       "A shared meal, a fire, an activity"
+      ]
+     },
+     {
+      "label": "Alcohol-free drinks",
+      "values": [
+       "Juice and water on request",
+       "Good options, served the same way"
+      ]
+     },
+     {
+      "label": "When it ends",
+      "values": [
+       "When the last person leaves",
+       "A stated finish, with the morning protected"
+      ]
+     },
+     {
+      "label": "Getting home or to bed",
+      "values": [
+       "Everyone's own business",
+       "Planned transport and a named person on duty"
+      ]
+     },
+     {
+      "label": "Behaviour",
+      "values": [
+       "Assumed",
+       "Stated: normal standards apply"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Do not make the evening alcohol-free by decree unless the client wants it.** Many people enjoy a drink. The aim is an evening that does not depend on it.",
+     "**Brief the venue.** Ask for the alcohol-free list in advance and check it is more than soft drinks.",
+     "**Watch senior people.** The culture of the evening follows what the most senior person does.",
+     "**Put the bar in the risk assessment.** Late bars, fires and water do not mix. There is more on [planning for incidents](t:8.15)."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**This trend suits a retreat in nature.** Evenings built around food, fire, walks and conversation are what a rural retreat does well, and they appeal to the people who no longer want a work night out in a bar. Say so in how you describe the retreat: a programme where the evenings are part of the experience and nobody has to drink to belong."
+    ]
+   },
+   "sources": [
+    [
+     "BMJ Group (2026), More adults in England are avoiding alcohol: what's behind the trend? Commentary on the Health Survey for England 2024.",
+     "https://bmjgroup.com/?p=15023"
+    ],
+    [
+     "Drinkaware (2024), The sober myth: are young adults really a generation of non-drinkers?",
+     "https://media.drinkaware.co.uk/media/aeihijza/the-sober-myth-are-young-adults-really-a-generation-of-non-drinkers.pdf"
+    ],
+    [
+     "IWSR (2025), No-alcohol and functional drinks both booming, but for different reasons.",
+     "https://www.theiwsr.com/insight/press-release/no-alcohol-and-functional-drinks-both-booming-but-for-different-reasons/"
+    ],
+    [
+     "Brewers Journal (2026), 2025 record year for no and low. Reporting British Beer and Pub Association figures.",
+     "https://www.brewersjournal.info/?p=26344"
+    ],
+    [
+     "Pinsent Masons Out-Law, Top ten legal tips for your office Christmas party, including Acas advice.",
+     "https://www.pinsentmasons.com/out-law/news/top-ten-legal-tips-for-your-office-christmas-party"
+    ]
+   ]
+  },
+  {
+   "slug": "designing-for-different-minds",
+   "color": "#d7b8ff",
+   "date": "19 November 2026",
+   "title": "Neuroinclusion: designing training for different minds",
+   "standfirst": "About one in seven people in the UK are thought to be neurodivergent, and many never tell their employer. In any group you train, some people process information, attention, noise and social demands differently. This piece gathers the UK research, the legal basics and the design choices that help.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Assume neurodivergent people are in every room.** Acas puts the estimate at about one in seven, and many are undiagnosed or have not disclosed.",
+     "**Many do not feel supported at work.** In a CIPD survey, only 37% of neurodivergent employees said their organisation gave meaningful support, and 31% had not told their manager or HR.",
+     "**Design for the range first, adjust for individuals second.** Flexible design helps everyone and avoids making people ask. The research on it is promising but limited.",
+     "**The law asks for reasonable adjustments.** Where a condition meets the Equality Act's definition of disability, employers must make reasonable adjustments. This is not legal advice."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Who is in the room",
+     "p": [
+      "**Neurodivergence is common.** Acas says about one in seven people in the UK are neurodivergent, a term that covers conditions such as ADHD, autism, dyslexia and dyspraxia. It is an estimate, and it includes many people without a diagnosis.",
+      "**Many people keep it to themselves.** The CIPD and Uptimize surveyed 1,047 employees in 2023, 790 of whom identified as neurodivergent. 31% of neurodivergent respondents had not told their manager or HR, and among the reasons was worry that people would make assumptions based on stereotypes. Neurodivergent respondents were more likely to say they often felt exhausted at work (45% against 30%) and lonely (23% against 17%). One in five said they had experienced harassment or discrimination because of their neurodivergence. The sample was not weighted and is not representative of all employees, so read the figures as signals, not national rates.",
+      "**Managers often do not know what to do.** Acas research found 59% of line managers did not know how to make a reasonable adjustment for a neurodivergent employee. Trainers are often in the same position. There is more on [finding out who is in the room before you design](t:1.29)."
+     ]
+    },
+    {
+     "h": "Designing for the range",
+     "p": [
+      "**Universal Design for Learning plans for different needs from the start.** It offers more than one way to take in information, more than one way to take part and more than one way to show what you have learned. A 2023 meta-analysis of 20 studies found a moderate positive effect on achievement, about 0.43 of a standard deviation, across learners from pre-school to adults. An earlier review found UDL improved the learning process but had not shown an effect on outcomes, and critics point out how few rigorous studies there are. Treat it as a sound way to plan, with promising evidence, rather than a proven method. There is more on [designing for different minds from the start](t:2.23) and on [designing for the range of people, not the average](t:2.16).",
+      "**Small choices remove most of the friction.** Send the agenda and materials in advance. Say what each session will ask people to do. Give instructions in writing as well as aloud. Offer a choice of ways to take part, such as writing instead of speaking, or observing a role-play before joining one. Keep a quiet space. Avoid surprises, such as cold-calling or unannounced performance. None of this needs anyone to disclose anything. There is more on [telling learners what to expect](t:2.21) and on [running a role-play people do not dread](t:4.30)."
+     ]
+    },
+    {
+     "h": "The legal basics",
+     "p": [
+      "**Reasonable adjustments are a duty, not a favour.** Under the Equality Act 2010, where a condition meets the definition of disability and a person is put at a substantial disadvantage, employers must make reasonable adjustments. What counts as reasonable depends on the situation. Acas guidance gives examples such as flexible hours, quiet spaces, noise-cancelling headphones and written instructions, many of them free or cheap. Training and assessment are covered. This is not legal advice. Check the current Acas guidance or take advice for a specific case.",
+      "**Ask everyone, not only those who disclose.** A joining question such as \"Is there anything that would help you take part fully?\" sent to every participant collects what you need without singling anyone out. There is more on [collecting only the learner data you need](t:9.24)."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "What helps, and how strong the evidence is",
+    "intro": "Practical choices that make training work for more minds, with the research behind each. Some of the most useful rest on practice and lived experience rather than trials.",
+    "items": [
+     {
+      "name": "Universal Design for Learning",
+      "offers": "Several ways to take in, take part and show learning.",
+      "figure": "g = 0.43",
+      "note": "average effect on achievement across 20 studies (King-Sears and colleagues, 2023). An earlier review found effects on the learning process but not on outcomes.",
+      "strength": 2,
+      "mind": "Few rigorous studies, and fewer with adults at work. Use it as a planning habit.",
+      "links": [
+       "Design for different minds from the start",
+       "Design for the range of people, not the average"
+      ]
+     },
+     {
+      "name": "Materials in advance",
+      "offers": "Time to read, prepare questions and plan how to take part.",
+      "figure": "Craft",
+      "note": "Recommended in Acas and CIPD guidance. We found no trial testing it in workplace training.",
+      "strength": 0,
+      "mind": "Keep pre-reading short and optional, or it becomes another barrier.",
+      "links": [
+       "Tell learners what to expect, and what not to",
+       "Build anticipation before the event"
+      ]
+     },
+     {
+      "name": "Written and spoken instructions",
+      "offers": "Instructions people can return to.",
+      "figure": "Some",
+      "note": "Working memory research supports giving instructions in a form people can refer back to rather than hold in their heads.",
+      "strength": 2,
+      "mind": "One task per instruction, and leave it visible while people work.",
+      "links": [
+       "Give instructions people can follow first time",
+       "Design for a very small working memory"
+      ]
+     },
+     {
+      "name": "Choice in how to take part",
+      "offers": "Write, speak, draw or observe first.",
+      "figure": "Some",
+      "note": "Choice supports motivation in self-determination research. It has not been tested as a neuroinclusion measure as such.",
+      "strength": 2,
+      "mind": "Choice is not opting out of the learning. Every option should still do the work.",
+      "links": [
+       "Give people choice, progress and connection"
+      ]
+     },
+     {
+      "name": "Quiet space and sensory care",
+      "offers": "Somewhere to recover from noise, light and crowds.",
+      "figure": "Craft",
+      "note": "A common reasonable adjustment in Acas guidance and tribunal cases. Not tested in training research.",
+      "strength": 0,
+      "mind": "On a retreat, think about shared rooms, loud dinners and late evenings as well as the training room.",
+      "links": [
+       "Include people who cannot or will not stay overnight",
+       "Choose and brief the venue"
+      ]
+     },
+     {
+      "name": "No surprises",
+      "offers": "No cold-calling, unannounced role-play or performance on demand.",
+      "figure": "Craft",
+      "note": "Consistent with the research on stress in learning. Not tested as a neuroinclusion measure.",
+      "strength": 0,
+      "mind": "Challenge is still allowed. Announce it, explain it and give a way in.",
+      "links": [
+       "Take needless stress out of the room",
+       "Run a role-play that people do not dread"
+      ]
+     },
+     {
+      "name": "Accessible materials",
+      "offers": "Clear layout, readable fonts, captions and good contrast.",
+      "figure": "WCAG 2.2",
+      "note": "An international standard for accessible digital content. It covers many needs, not only neurodivergence.",
+      "strength": 0,
+      "mind": "Build it in from the start. Retrofitting costs far more.",
+      "links": [
+       "Build to WCAG 2.2 AA from the start"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Do not stereotype.** Two people with the same diagnosis can need opposite things. Ask the person.",
+     "**Strengths matter as well as barriers.** Many neurodivergent people bring pattern-spotting, focus or fresh thinking. Design so those can show.",
+     "**Do not ask for a diagnosis.** You need to know what helps, not why.",
+     "**Inclusion helps everyone.** Clear instructions, a quiet space and no surprises make training better for the whole group."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**A retreat asks more of people than a training day.** Shared rooms, long days, group meals, noise and a full social calendar can be hard for some neurodivergent people, and they may not say so. Offer single rooms where you can, a quiet space, a printed timetable, optional evenings and a way to join without staying overnight. Say all of this when you describe the retreat. It widens who can come, and it is what a careful buyer will ask about."
+    ]
+   },
+   "sources": [
+    [
+     "Acas, Neurodiversity at work.",
+     "https://www.acas.org.uk/neurodiversity-campaign"
+    ],
+    [
+     "Thompson and Miller (2024), Neuroinclusion at work. Survey report. CIPD with Uptimize.",
+     "https://peopleprofession.cipd.org/globalassets/media/knowledge/knowledge-hub/reports/2024-pdfs/2024-neuroinclusion-at-work-report-8545.pdf"
+    ],
+    [
+     "Personnel Today (2024), One in five neurodivergent employees have experienced harassment or discrimination at work.",
+     "https://www.personneltoday.com/?p=317119"
+    ],
+    [
+     "Engage for Success (2025), Acas update: guidance on supporting neurodiversity at work.",
+     "https://engageforsuccess.org/acas-update-guidance-on-supporting-neurodiversity-at-work/"
+    ],
+    [
+     "King-Sears, Stefanidis, Evmenova, Rao, Mergen, Owen and Strimel (2023), Achievement of learners receiving UDL instruction: a meta-analysis. Teaching and Teacher Education.",
+     "https://findanexpert.unimelb.edu.au/scholarlywork/1891658-achievement-of-learners-receiving-udl-instruction--a-meta-analysis"
+    ],
+    [
+     "Capp (2017), The effectiveness of universal design for learning: a meta-analysis of literature between 2013 and 2016. International Journal of Inclusive Education.",
+     "https://www.readingrockets.org/resources/resource-library/effectiveness-universal-design-learning-meta-analysis-literature-between"
+    ]
+   ]
+  },
+  {
+   "slug": "does-coaching-work",
+   "color": "#b5e48c",
+   "date": "19 November 2026",
+   "title": "Does coaching work? What the trials say",
+   "standfirst": "Coaching is now a five-billion-dollar profession, and much of it is paid for by employers. The research has caught up a little: there are now enough randomised trials to pool. This piece sets out what they show, where they are weak, and how coaching fits around training.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Workplace coaching has a moderate effect in randomised trials.** A 2023 pooling of 37 trials found an average effect of about 0.6 of a standard deviation.",
+     "**The effect is real but probably smaller than it looks.** The same analysis found signs that positive studies are more likely to be published, and many outcomes are self-reported.",
+     "**It helps most with goals and self-management.** An earlier pooling found the largest effects on goal-directed self-regulation and the smallest on coping.",
+     "**Coaching is the strongest follow-up to training.** It works on the problem training is weakest at: using the skill back at work."
+    ]
+   },
+   "sections": [
+    {
+     "h": "The trials so far",
+     "p": [
+      "**The best evidence comes from randomised trials alone.** De Haan and Nilsson pooled 37 randomised controlled trials of workplace and executive coaching published between 1994 and 2021, with 2,528 participants in total. Coaching had a significant effect across leadership and personal outcomes, with a best estimate of about 0.59 of a standard deviation, which is moderate. They also found signs of publication bias, which usually means the true effect is somewhat smaller.",
+      "**Earlier work found the same direction.** Theeboom, Beersma and van Vianen's 2014 meta-analysis looked at five kinds of outcome. Coaching had positive effects on all of them, from 0.43 for coping to 0.74 for goal-directed self-regulation, which covers setting goals and working towards them. Performance and skills, wellbeing and attitudes to work sat in between."
+     ]
+    },
+    {
+     "h": "Where the evidence is weak",
+     "p": [
+      "**Many outcomes are what coachees say about themselves.** Ratings by managers or business results are rarer, and smaller. A trial with outside ratings is worth more than several without.",
+      "**Coaching is not one thing.** The trials cover different coaches, methods, numbers of sessions and people. A pooled average tells you coaching can work. It does not tell you a particular coach or programme will. The relationship between coach and coachee keeps coming up as important, though which ingredients matter most is still argued over.",
+      "**The profession is growing faster than the evidence.** The International Coaching Federation's 2025 study estimated 122,974 coach practitioners worldwide and $5.34 billion in annual revenue, up 17% since 2023. Many coaches also train and facilitate. Growth says coaching is in demand. It says nothing about any one coach's results."
+     ]
+    },
+    {
+     "h": "Coaching and training together",
+     "p": [
+      "**Coaching works on transfer, which is training's weak point.** Training teaches the skill in a room. Coaching helps a person use it in their own job, with their own obstacles, over weeks. That makes a few coaching conversations after a course one of the most useful follow-ups you can add. There is more on [scheduling the follow-up](t:5.4) and on [treating transfer as a design problem](t:5.1).",
+      "**Managers can coach too.** Teaching managers to ask good questions and follow up on practice puts coaching into the working week at no extra cost. Done badly, it becomes another meeting. There is more on [teaching managers to coach](t:2.47) and on [coaching with questions, not answers](t:5.5)."
+     ]
+    }
+   ],
+   "compare": {
+    "plain": true,
+    "heading": "The evidence at a glance",
+    "intro": "The main sources, what they found, and the limits worth stating.",
+    "cols": [
+     "What it covered",
+     "What it found",
+     "The limits"
+    ],
+    "rows": [
+     {
+      "label": "De Haan and Nilsson (2023)",
+      "values": [
+       "37 randomised trials, 2,528 people",
+       "A moderate effect, about g = 0.59",
+       "Signs of publication bias. Many self-reported outcomes"
+      ]
+     },
+     {
+      "label": "Theeboom and colleagues (2014)",
+      "values": [
+       "Coaching studies in organisations",
+       "Positive effects on five outcome types, g = 0.43 to 0.74",
+       "Older and smaller studies, not all randomised"
+      ]
+     },
+     {
+      "label": "ICF Global Coaching Study (2025)",
+      "values": [
+       "10,035 responses from 127 countries",
+       "122,974 practitioners, $5.34 billion revenue",
+       "A profession's survey of itself. Says nothing about results"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Set goals at the start, and check them at the end.** Goal attainment is where coaching shows its largest effect, and it gives you something to measure.",
+     "**Ask for more than self-report.** A manager's view before and after, or one business measure, makes the case far stronger.",
+     "**Know where coaching stops.** Coaching is not therapy. Agree how a coach refers someone on. There is more on [knowing your professional limits](t:4.16).",
+     "**Check the coach, not the credential alone.** Ask for references from clients like yours."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**Coaching is the natural second half of a retreat.** The retreat builds the skill, the group and the plan. Two or three coaching conversations over the following two months help each person use it at work. Selling them together answers the obvious objection to retreats, that it all fades once people are back at their desks. Group coaching with the retreat cohort keeps the cost down and the connections alive."
+    ]
+   },
+   "sources": [
+    [
+     "De Haan and Nilsson (2023), What can we know about the effectiveness of coaching? A meta-analysis based only on randomized controlled trials. Academy of Management Learning and Education.",
+     "https://research.vu.nl/en/publications/what-can-we-know-about-the-effectiveness-of-coaching-a-meta-analy/"
+    ],
+    [
+     "Theeboom, Beersma and van Vianen (2014), Does coaching work? A meta-analysis on the effects of coaching on individual level outcomes in an organizational context. The Journal of Positive Psychology, 9(1).",
+     "https://dare.uva.nl/record/1/403451"
+    ],
+    [
+     "International Coaching Federation (2025), Coaching industry continues global growth with $5.34 billion USD revenue. Release for the 2025 Global Coaching Study.",
+     "https://coachingfederation.org/blog/coaching-industry-continues-global-growth-with-5-34-billion-usd-revenue-new-research-reveals/"
+    ]
+   ]
+  },
+  {
+   "slug": "what-finance-will-accept",
+   "color": "#ffd77a",
+   "date": "19 November 2026",
+   "title": "What finance will accept: making the business case for training",
+   "standfirst": "Training has a credibility problem with the people who sign the budget. Most organisations do not measure business results, and those that try often claim more than they can show. This piece sets out what the research says training can achieve, and what kind of case a finance director will believe.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Well-designed training works, on average.** A pooling of 1,152 effect sizes found medium to large effects on learning, on behaviour at work and on results.",
+     "**Most buyers do not believe it.** Only a quarter of respondents to a McKinsey survey said their training measurably improved business performance.",
+     "**Few organisations check.** In ATD's research, about a third evaluated business results to any extent, and about one in six measured return on investment.",
+     "**Finance trusts a small, careful claim over a big one.** A baseline, a comparison and the business's own numbers beat any return-on-investment percentage."
+    ]
+   },
+   "sections": [
+    {
+     "h": "The case for training is better than its reputation",
+     "p": [
+      "**Training in organisations has a real effect.** Arthur and colleagues pooled 1,152 effect sizes from studies of organisational training. The average effects were medium to large and similar whether the measure was learning, behaviour at work or results, at about 0.6 of a standard deviation. The method and the skill being trained mattered. The evidence that training can work is not the problem. There is more on [what training can do, on average](t:2.28).",
+      "**The reputation comes from what most training is like.** McKinsey found only one-quarter of respondents said their training programmes measurably improved business performance, and that most companies did not track returns. Its explanation was not poor content but poor conditions: people who did not see why they needed the skill, leaders who were not involved, and nothing to reinforce it back at work."
+     ]
+    },
+    {
+     "h": "Why the usual case fails",
+     "p": [
+      "**Satisfaction scores prove almost nothing.** A pooling of studies found how much people liked a course had little relationship with what they learned or did afterwards. Finance teams know this, which is why a smile-sheet average does not move them. There is more on [using Kirkpatrick as vocabulary, not proof](t:6.2).",
+      "**Big return-on-investment numbers invite disbelief.** A claim that a two-day course returned 400% will be taken apart in the first question: how do you know it was the course? Isolating the effect of training from everything else was one of the top barriers L&D professionals named in ATD's research. There is more on [separating the effect of training from everything else](t:6.6)."
+     ]
+    },
+    {
+     "h": "What finance will believe",
+     "p": [
+      "**A number the business already tracks.** Conversion rate, time to competence, error rate, staff turnover in the first year. If the measure lives in the client's own systems, nobody has to trust your survey. McKinsey's own example was a retailer whose pilot stores improved conversion by 150 basis points after training was redesigned around real store data. There is more on [showing the value in the client's own terms](t:6.8).",
+      "**A baseline and a comparison.** Measure before, and compare trained people with similar people not yet trained. A pilot that rolls out in waves gives you a comparison group for free. There is more on [running a pilot before you roll out](t:2.53).",
+      "**A conservative estimate, shown with its working.** State the cost, the change you saw, the share you are willing to attribute to training, and the assumptions. Finance will argue with your assumptions. That is fine, because it means they are reading the case rather than dismissing it. There is more on [building the cost and benefit case](t:6.15).",
+      "**Stories that are checked.** The Success Case Method finds the people who used the training most and least, and asks what made the difference. A verified story about one team's results is often more persuasive than an average. There is more on [using the Success Case Method](t:6.13)."
+     ]
+    }
+   ],
+   "compare": {
+    "plain": true,
+    "heading": "What you say, and what finance hears",
+    "intro": "Common claims in a training business case, how they land, and what to bring instead.",
+    "cols": [
+     "What finance hears",
+     "Bring this instead"
+    ],
+    "rows": [
+     {
+      "label": "\"94% rated it good or excellent\"",
+      "values": [
+       "People enjoyed a day away",
+       "What a sample of people did differently a month later"
+      ]
+     },
+     {
+      "label": "\"The ROI was 400%\"",
+      "values": [
+       "A number nobody can check",
+       "Cost, change seen, share attributed, and the assumptions"
+      ]
+     },
+     {
+      "label": "\"Research shows training works\"",
+      "values": [
+       "Somebody else's training",
+       "Your pilot against a comparison group"
+      ]
+     },
+     {
+      "label": "\"It improved engagement\"",
+      "values": [
+       "A soft measure",
+       "A business measure engagement is meant to move, such as turnover"
+      ]
+     },
+     {
+      "label": "\"It's industry best practice\"",
+      "values": [
+       "Everyone else spends money on it too",
+       "What problem it solves here, and how you will know"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Agree the measure before you design.** A measure chosen afterwards looks like it was chosen to flatter. There is more on [agreeing what success looks like](t:9.6).",
+     "**Match the effort to the stakes.** A small course needs a light check. A large programme needs a proper comparison. There is more on [matching the evaluation to the stakes](t:6.11).",
+     "**Training is rarely the only cause.** Say so first. It makes the rest of the case more believable.",
+     "**Report in a page.** Finance reads the first paragraph and the table. Put the result there."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**Retreats are expensive per head, so they get the hardest questions.** Agree with the sponsor, before you design, the one or two business measures the retreat is meant to move, and when you will look at them again. Offer to run the first cohort as a pilot with a comparison group. A modest result that holds up is worth more for the next sale than a dazzling one nobody believes."
+    ]
+   },
+   "sources": [
+    [
+     "Arthur, Bennett, Edens and Bell (2003), Effectiveness of training in organizations: a meta-analysis of design and evaluation features. Journal of Applied Psychology, 88(2).",
+     "https://swov.nl/en/publicatie/effectiveness-training-organizations-meta-analysis-design-and-evaluation-features"
+    ],
+    [
+     "McKinsey Quarterly (2014), Getting more from your training programs.",
+     "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/getting-more-from-your-training-programs"
+    ],
+    [
+     "ATD (2016), Evaluating learning: getting to measurements that matter. Summary on the ATD blog.",
+     "https://www.td.org/atd-blog/evaluating-the-business-impact-of-learning-why-arent-more-organizations-doing-it"
+    ],
+    [
+     "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria. Personnel Psychology, 50(2).",
+     "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+    ]
+   ]
+  },
+  {
+   "slug": "what-the-best-learning-teams-measure",
+   "color": "#ffc2a1",
+   "date": "19 November 2026",
+   "title": "What the best learning teams measure",
+   "standfirst": "Almost every learning team measures whether people liked the course. Few measure whether people work differently afterwards. This piece sets out what organisations actually measure, why the easy measures mislead, and what the teams that do this well track instead.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**Most teams stop at reaction and quiz scores.** In ATD's research, about eight in ten measured reaction and learning, about half measured behaviour at work, and fewer than four in ten measured results.",
+     "**Reaction tells you little.** How much people liked a course had little relationship with what they learned or did.",
+     "**The best teams decide the behaviour first.** They agree what people should do differently, then go and look for it.",
+     "**They measure less, better.** A light check on most programmes and a proper evaluation on the few that matter."
+    ]
+   },
+   "sections": [
+    {
+     "h": "What organisations measure",
+     "p": [
+      "**The further from the room, the less it is measured.** ATD's 2019 research found 83% of organisations measured learners' reactions and 80% measured learning. 54% measured whether people used the skills at work, 38% measured business results and 16% measured return on investment. An earlier ATD study found only about a third evaluated business results to any extent.",
+      "**The reasons are practical.** L&D professionals named the difficulty of separating the effect of training from everything else, and a lack of time, data and skills. These are real obstacles. They are also why measures of reaction fill the gap: they are easy, and they always look good."
+     ]
+    },
+    {
+     "h": "Why the easy measures mislead",
+     "p": [
+      "**Liking a course and learning from it are different things.** A pooling of studies by Alliger and colleagues found reactions had little relationship with learning or with behaviour at work. Courses that feel smooth can teach less than ones that feel effortful, because effort is often a sign of learning. There is more on [not trusting how fluent the room looks](t:1.4).",
+      "**Attendance and completion count activity, not change.** A completed e-learning module tells you someone reached the end. It says nothing about what they can now do. There is more on [not mistaking activity for learning](t:6.7)."
+     ]
+    },
+    {
+     "h": "What the best teams do",
+     "p": [
+      "**They agree the behaviour before they design.** What should people do differently, where, and how would anyone notice? Writing it down before design keeps everyone honest. There is more on [deciding what you will measure before you design](t:6.1).",
+      "**They look for behaviour at work.** Short observation, a manager's check, a work sample or a system record a month or two later. One good measure beats five survey items. There is more on [measuring what people do differently](t:6.4) and on [going back later to see what stuck](t:6.5).",
+      "**They use a richer scale than the four levels.** Kirkpatrick's levels are useful words. Thalheimer's Learning-Transfer Evaluation Model splits them further and makes the point that attendance and reaction are not evidence of learning at all. There is more on [using Kirkpatrick as vocabulary, not proof](t:6.2).",
+      "**They report results people will read.** One page, the result first, in the business's own terms. There is more on [reporting results people will read](t:6.10)."
+     ]
+    }
+   ],
+   "compare": {
+    "plain": true,
+    "heading": "Common measures, and what they tell you",
+    "intro": "From easiest to collect to most useful. The best teams collect a little from the top and invest in the bottom.",
+    "cols": [
+     "What it tells you",
+     "How much to trust it"
+    ],
+    "rows": [
+     {
+      "label": "Attendance and completion",
+      "values": [
+       "People turned up or clicked through",
+       "Activity only"
+      ]
+     },
+     {
+      "label": "Reaction survey",
+      "values": [
+       "Whether people liked it and found it relevant",
+       "Useful for fixing the event. Little to do with learning"
+      ]
+     },
+     {
+      "label": "End-of-course quiz",
+      "values": [
+       "What people remember on the day",
+       "Better if it tests the task, not recall of facts"
+      ]
+     },
+     {
+      "label": "Skill shown in practice",
+      "values": [
+       "Whether people can do it",
+       "Good, if the practice is like the real task"
+      ]
+     },
+     {
+      "label": "Behaviour at work, weeks later",
+      "values": [
+       "Whether people do it",
+       "The measure that matters most for training"
+      ]
+     },
+     {
+      "label": "Business results",
+      "values": [
+       "Whether it made a difference",
+       "Strong if there is a baseline and a comparison"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Keep the reaction survey short and useful.** Ask about relevance and confidence to use, not about the lunch. There is more on [asking better questions on the feedback form](t:6.3).",
+     "**Match the effort to the stakes.** Most programmes need a light check. A few deserve a proper study. There is more on [matching the evaluation to the stakes](t:6.11).",
+     "**Measurement needs access.** Agree with the client, up front, what data you will need and who will provide it. There is more on [getting the data you need from the client](t:6.12)."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**A retreat's feedback scores will always be high.** Good food, beautiful surroundings and a group that has bonded produce glowing reactions. That is exactly why they prove little. Build one behaviour measure into every retreat, such as a manager check-in six weeks later on the plan each person made, and report it. It will set you apart from competitors who only send the satisfaction scores."
+    ]
+   },
+   "sources": [
+    [
+     "ATD (2019), Effective evaluation: measuring learning programs for success. Summary in TD Magazine.",
+     "https://www.td.org/magazines/td-magazine/make-sense-out-of-evaluation-data"
+    ],
+    [
+     "ATD (2016), Evaluating learning: getting to measurements that matter. Summary on the ATD blog.",
+     "https://www.td.org/atd-blog/evaluating-the-business-impact-of-learning-why-arent-more-organizations-doing-it"
+    ],
+    [
+     "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria. Personnel Psychology, 50(2).",
+     "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+    ],
+    [
+     "Thalheimer (2018), The Learning-Transfer Evaluation Model (LTEM).",
+     "https://www.worklearning.com/ltem/"
+    ]
+   ]
+  },
+  {
+   "slug": "what-training-can-borrow",
+   "color": "#ffa6c9",
+   "date": "19 November 2026",
+   "title": "What training can borrow from hospitality, theatre and games",
+   "standfirst": "Hotels design for how a stay will be remembered. Theatres rehearse until the hard moments run themselves. Game designers keep people trying when they fail. Training borrows from all three, sometimes well and sometimes badly. This piece sorts the borrowing that has evidence behind it from the borrowing that does not.",
+   "short": {
+    "heading": "The short version",
+    "items": [
+     "**People remember the best moment and the end.** A pooling of 174 effect sizes found the peak and the end of an experience shape how people later judge it, and length barely matters.",
+     "**Game elements help a little, and the right ones help more.** Gamified learning had small positive effects, largest on what people learned. Story and working with others made the difference to behaviour.",
+     "**Theatre's tools are promising but thinly tested.** Improvisation training has small studies behind it, mostly on creativity and confidence.",
+     "**Hospitality's best idea is a map, not a script.** Mapping every step a guest takes, and fixing the friction, is craft rather than science, and it works."
+    ]
+   },
+   "sections": [
+    {
+     "h": "Hospitality: design for how it will be remembered",
+     "p": [
+      "**People judge an experience by its peak and its end.** Kahneman and colleagues first showed it with medical procedures and cold water. A 2022 meta-analysis of 174 effect sizes found the effect large and robust: when people look back on an experience, the most intense moment and the final moment count for more than the rest, and how long it lasted counts for very little. The research is about how experiences are remembered and rated, not about how much is learned. For a course, that means the final hour and one standout moment will shape what people say about it, and whether they recommend it. There is more on [planning a peak and a proper ending](t:2.18).",
+      "**Good hotels map the whole stay.** The craft of service design is to list every step a guest takes, from booking to the drive home, and fix the ones that frustrate. For training that starts with the joining email and ends with the follow-up. Nobody has tested journey mapping as a cause of better learning. It is still the quickest way to find out why people arrive late and annoyed. There is more on [mapping every step from first email to follow-up](t:2.17)."
+     ]
+    },
+    {
+     "h": "Theatre: rehearse, and say yes, and",
+     "p": [
+      "**Rehearsal is theatre's oldest lesson for trainers.** Actors run the hard scenes until they hold under pressure, and run the technical rehearsal so that nothing surprises them on the night. Aviation and medicine reached the same idea through simulation, and that is where the evidence is. There is more in [What good looks like today](insight:what-good-looks-like-today) and on [rehearsing what could go wrong](t:4.13).",
+      "**Improvisation is popular in workplace training and thinly studied.** A controlled field study by West, Hoff and Carlsson tested playful improvisation with 93 people from nine organisations, measuring creativity, playfulness and psychological safety. Other studies are small, often without comparison groups, and mostly about confidence and creativity rather than job performance. Use it to loosen a group and practise listening. Do not sell it as proven. There is more on [using play on purpose](t:1.25)."
+     ]
+    },
+    {
+     "h": "Games: what keeps people trying",
+     "p": [
+      "**Game elements help a little.** Sailer and Homner pooled experimental studies of gamified learning. They found small positive effects on what people learned, on motivation and on behaviour. The effect on learning held up in the more rigorous studies. The effects on motivation and behaviour were less stable.",
+      "**Story and company matter more than points.** For behaviour, gamification worked better when it included a story or setting and when people worked with others, and competition worked best when it was combined with collaboration. Points, badges and leaderboards added on their own are the weakest version. There is more on [using game elements only where they help](t:2.22)."
+     ]
+    }
+   ],
+   "dashboard": {
+    "heading": "The borrowing, rated",
+    "intro": "Seven ideas trainers take from other industries, what each offers, and how strong the evidence is for using it in learning.",
+    "items": [
+     {
+      "name": "Peak and end",
+      "offers": "Design one standout moment and a strong close.",
+      "figure": "174",
+      "note": "effect sizes pooled by Alaybek and colleagues (2022): a large, robust peak-end effect on how experiences are judged afterwards.",
+      "strength": 3,
+      "mind": "It shapes memory and ratings of the experience, not how much was learned. Do not let the peak replace the practice.",
+      "links": [
+       "Plan a peak and a proper ending",
+       "Close a session"
+      ]
+     },
+     {
+      "name": "Journey mapping",
+      "offers": "Every step from first email to follow-up, with the friction removed.",
+      "figure": "Craft",
+      "note": "Standard practice in service design. We found no study testing it as a cause of better learning.",
+      "strength": 0,
+      "mind": "Keep the friction that teaches. Remove only the friction that annoys.",
+      "links": [
+       "Map every step from first email to follow-up",
+       "Remove the friction that frustrates, keep the friction that teaches"
+      ]
+     },
+     {
+      "name": "Anticipation",
+      "offers": "A welcome and a reason to look forward before the day.",
+      "figure": "Craft",
+      "note": "Hospitality and events build anticipation on purpose. The research on looking forward to experiences is about enjoyment, not learning.",
+      "strength": 0,
+      "mind": "Keep the pre-work light, or anticipation turns into dread.",
+      "links": [
+       "Build anticipation before the event"
+      ]
+     },
+     {
+      "name": "Rehearsal",
+      "offers": "Run the hard moments until they hold under pressure.",
+      "figure": "+20–25%",
+      "note": "The best evidence comes from simulation and debriefs in aviation, medicine and the military rather than from theatre itself.",
+      "strength": 3,
+      "mind": "Rehearse the facilitation as well as the content. Most sessions go wrong at the transitions.",
+      "links": [
+       "Rehearse what could go wrong",
+       "Make practice harder in the ways that help"
+      ]
+     },
+     {
+      "name": "Improvisation",
+      "offers": "Listening, building on others' ideas, and comfort with not knowing.",
+      "figure": "93",
+      "note": "people from nine organisations in a controlled field study of playful improvisation (West, Hoff and Carlsson, 2017). Most other studies are smaller.",
+      "strength": 1,
+      "mind": "Some people find it exposing. Make it optional to perform, and debrief what it showed.",
+      "links": [
+       "Use play on purpose, not as a break",
+       "Make it safe to be wrong out loud"
+      ]
+     },
+     {
+      "name": "Game elements",
+      "offers": "Challenge, feedback and a reason to keep going.",
+      "figure": "g = 0.49",
+      "note": "effect on what people learned across 19 comparisons (Sailer and Homner, 2020). Smaller effects on motivation and behaviour.",
+      "strength": 3,
+      "mind": "Points and leaderboards alone are the weakest version. Some people switch off when they are losing.",
+      "links": [
+       "Use game elements only where they help"
+      ]
+     },
+     {
+      "name": "Story and team play",
+      "offers": "A setting to play in, and a team to play with.",
+      "figure": "Moderator",
+      "note": "Game fiction and social interaction made gamification work better for behaviour in the same meta-analysis, from a small number of studies.",
+      "strength": 2,
+      "mind": "Competition between teams works best when people collaborate within them.",
+      "links": [
+       "Use game elements only where they help",
+       "Have learners teach each other"
+      ]
+     }
+    ]
+   },
+   "mind": {
+    "heading": "Things to bear in mind",
+    "items": [
+     "**Borrow the method, not the costume.** A course with a hotel's welcome and no practice is a nice day, not training.",
+     "**Memorable is not the same as learned.** The peak-end rule tells you how people will rate a course. Use it, and keep the practice that does the teaching.",
+     "**Test borrowed ideas on a small group first.** What delights one audience embarrasses another."
+    ]
+   },
+   "business": {
+    "heading": "What this means for a retreat business",
+    "p": [
+     "**A retreat is a hospitality product as well as a learning one.** Buyers will judge it partly the way they judge a hotel: the welcome, the food, the best evening and the last morning. Design those on purpose. Then make sure the peak is something people did together, not only a good dinner, and that the end sends them back to work with a plan. There is more on [planning the return to work](t:8.17)."
+    ]
+   },
+   "sources": [
+    [
+     "Alaybek, Dalal, Fyffe, Aitken, Zhou, Qu, Roman and Baines (2022), All's well that ends (and peaks) well? A meta-analysis of the peak-end rule and duration neglect. Organizational Behavior and Human Decision Processes.",
+     "https://ouci.dntb.gov.ua/works/4NG6JZvl"
+    ],
+    [
+     "Sailer and Homner (2020), The gamification of learning: a meta-analysis. Educational Psychology Review, 32.",
+     "https://link.springer.com/article/10.1007/s10648-019-09498-w"
+    ],
+    [
+     "West, Hoff and Carlsson (2017), Enhancing team creativity with playful improvisation theater: a controlled intervention field study. International Journal of Play, 6(3).",
+     "https://katalog.lib.cas.cz/KNAV/EdsRecord/edsair,edsair.doi...........1178e84429c4e74955457861e29fac3d"
+    ],
+    [
+     "Tannenbaum and Cerasoli (2013), Do team and individual debriefs enhance performance? A meta-analysis. Human Factors, 55(1).",
+     "https://pubmed.ncbi.nlm.nih.gov/23516804/"
+    ]
+   ]
+  },
+  {
    "slug": "what-learners-expect-now",
-   "kind": "Research digest",
    "color": "#b7a5ff",
    "date": "19 November 2026",
    "title": "What learners expect now: the consumer trends reshaping training",
@@ -364,7 +1748,6 @@
   },
   {
    "slug": "attention-is-the-scarce-resource",
-   "kind": "Research digest",
    "color": "#7b90ff",
    "date": "19 November 2026",
    "title": "Attention is the scarce resource: what learners expect now, and how to hold it",
@@ -666,7 +2049,6 @@
   },
   {
    "slug": "neuroscience-of-the-retreat",
-   "kind": "Myth check",
    "color": "#ffe770",
    "date": "19 November 2026",
    "title": "The neuroscience of the retreat: what the brain science supports, and what it does not",
@@ -983,7 +2365,6 @@
   },
   {
    "slug": "why-take-people-away",
-   "kind": "Feature",
    "color": "#a9b8a4",
    "date": "19 November 2026",
    "title": "Why take people away? The case for the training retreat, and what to watch",
@@ -1425,6 +2806,231 @@
     [
      "Blume, Ford, Baldwin and Huang (2010), Transfer of training: a meta-analytic review.",
      "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c358t-6a2a085c81688b7328f14389cba57ed955224aaa40b548a4bd7a34b3ff7efc473"
+    ]
+   ]
+  },
+  {
+   "slug": "things-the-industry-repeats",
+   "color": "#f2c94c",
+   "date": "19 November 2026",
+   "title": "Things the training industry repeats that do not hold up",
+   "standfirst": "Learning styles, the 10% transfer figure, 93% non-verbal communication, the learning pyramid. Each claim here has been traced back to where it came from, with a verdict and the source, so you can stop repeating it and say why.",
+   "sections": [
+    {
+     "h": "Why myths survive",
+     "p": [
+      "**A good myth is simple, memorable and flattering to the person repeating it.** Most of these started as a real finding, a guess or a misreading, and lost their caveats as they were passed on. The habit worth building is to ask where a number came from before you put it on a slide. There is more on [testing a claim before you repeat it](t:1.11) and on [why smart people believe brain myths](t:1.9)."
+     ]
+    }
+   ],
+   "embed": "myths",
+   "embedWords": 653,
+   "sources": [
+    [
+     "Ford, Yelon and Billington (2011), How much is transferred from training to the job? The 10% delusion as a catalyst for thinking about transfer. Performance Improvement Quarterly.",
+     "https://www.infona.pl/resource/bwmeta1.element.wiley-piq-v-24-i-1-piq20105"
+    ],
+    [
+     "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
+     "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+    ],
+    [
+     "Mehrabian, Silent Messages: description and ordering information (author's own page).",
+     "https://www.kaaj.com/psych/smorder.html"
+    ],
+    [
+     "Macnamara, Hambrick and Oswald (2014), Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis.",
+     "https://pubmed.ncbi.nlm.nih.gov/24986855/"
+    ],
+    [
+     "Letrud and Hernes (2018), Excavating the origins of the learning pyramid myths.",
+     "https://informahealthcare.com/doi/abs/10.1080/2331186X.2018.1518638"
+    ],
+    [
+     "Association for Talent Development (2014), 70:20:10: where is the evidence?",
+     "https://www.td.org/insights/70-20-10-where-is-the-evidence"
+    ],
+    [
+     "Bradbury (2016), Attention span during lectures: 8 seconds, 10 minutes, or more?",
+     "https://pubmed.ncbi.nlm.nih.gov/28145268/"
+    ],
+    [
+     "Bradbury (2016), full text hosted on the European Commission EPALE site.",
+     "https://epale.ec.europa.eu/sites/default/files/advan.00109.2016.pdf"
+    ],
+    [
+     "King's College London (2022), Are attention spans really collapsing? Half of UK adults still believed the eight-second figure.",
+     "https://www.kcl.ac.uk/news/are-attention-spans-really-collapsing-data-shows-uk-public-are-worried-but-also-see-benefits-from-technology"
+    ],
+    [
+     "Costanza, Badger, Fraser and colleagues (2012), Generational differences in work-related attitudes: a meta-analysis. Journal of Business and Psychology, 27, 375 to 394.",
+     "https://link.springer.com/article/10.1007/s10869-012-9259-4"
+    ],
+    [
+     "VanLehn (2011), The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems.",
+     "https://eric.ed.gov/?id=EJ946764"
+    ],
+    [
+     "Centre for Educational Neuroscience, Neuromyth or neurofact: We only use 10% of our brains.",
+     "https://www.educationalneuroscience.org.uk/resources/neuromyth-or-neurofact/we-only-use-10-of-our-brains/"
+    ],
+    [
+     "Nielsen, Zielinski, Ferguson, Lainhart and Anderson (2013), An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging.",
+     "https://doaj.org/article/93e38a4098db4fc6b48bfb4f6bf84a30"
+    ],
+    [
+     "University of Vienna news release (2010) on Pietschnig, Voracek and Formann (2010), Mozart effect, Shmozart effect: a meta-analysis. Hosted by ScienceDaily.",
+     "https://sciencedaily.com/releases/2010/05/100510075415.htm"
+    ],
+    [
+     "Morehead, Dunlosky and Rawson (2019), How much mightier is the pen than the keyboard for note-taking? A replication and extension of Mueller and Oppenheimer (2014).",
+     "https://link.springer.com/content/pdf/10.1007%2Fs10648-019-09468-2.pdf"
+    ],
+    [
+     "Kirschner and De Bruyckere (2017), The myths of the digital native and the multitasker.",
+     "https://Www.Gwern.net/doc/psychology/2017-kirschner.pdf"
+    ],
+    [
+     "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria.",
+     "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+    ],
+    [
+     "Alliger, Tannenbaum, Bennett, Traver and Shotland (1998), A meta-analysis of the relations among training criteria. US Air Force Research Laboratory technical report version.",
+     "https://apps.dtic.mil/sti/tr/pdf/ADA368508.pdf"
+    ]
+   ]
+  },
+  {
+   "slug": "what-companies-get-wrong",
+   "color": "#ffb38a",
+   "date": "19 November 2026",
+   "title": "What companies get wrong about training, and what to do instead",
+   "standfirst": "The same mistakes turn up in organisation after organisation: a course ordered for a problem a course cannot fix, a single event with nothing after it, smile sheets taken as proof. Each card names one, says why it fails, and links to the Playbook topic with the fix.",
+   "sections": [
+    {
+     "h": "Why these mistakes keep happening",
+     "p": [
+      "**Most of them come from treating training as an event.** An event is easy to buy, easy to schedule and easy to count. Whether anyone works differently afterwards depends on the manager, the workplace and the follow-up, and those are harder to buy. Turn a card over for what to do instead."
+     ]
+    }
+   ],
+   "embed": "mistakes",
+   "embedWords": 779,
+   "sources": [
+    [
+     "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria.",
+     "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+    ],
+    [
+     "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
+     "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+    ],
+    [
+     "Cepeda, Pashler, Vul, Wixted and Rohrer (2006), Distributed practice in verbal recall tasks: a review and quantitative synthesis. Psychological Bulletin, 132(3), 354 to 380.",
+     "https://pubmed.ncbi.nlm.nih.gov/16719566/"
+    ],
+    [
+     "Sundararajan and Adesope (2020), Keep it coherent: a meta-analysis of the seductive details effect. Read through the Washington State University news release about the paper.",
+     "https://news.wsu.edu/press-release/2020/03/19/seductive-details-inhibit-learning"
+    ],
+    [
+     "Soderstrom and Bjork (2015), Learning versus performance: an integrative review. Perspectives on Psychological Science, 10(2), 176 to 199.",
+     "https://pubmed.ncbi.nlm.nih.gov/25910388/"
+    ],
+    [
+     "Diekelmann and Born (2010), The memory function of sleep.",
+     "https://research.uni-luebeck.de/en/publications/the-memory-function-of-sleep/"
+    ]
+   ]
+  },
+  {
+   "slug": "findings-worth-designing-around",
+   "color": "#9fd8c4",
+   "date": "19 November 2026",
+   "title": "Findings worth designing around",
+   "standfirst": "A handful of findings from learning research are strong enough, and practical enough, to shape almost every session you design. Each card gives the finding, what to do with it, and the study behind it.",
+   "sections": [
+    {
+     "h": "How these were chosen",
+     "p": [
+      "**Each one holds up across many studies and changes what you would do on Monday.** That rules out findings that are true but hard to use, and popular ideas with thin research behind them. The sources were opened and read in summary. Turn a card over for how to use it."
+     ]
+    }
+   ],
+   "embed": "findings",
+   "embedWords": 598,
+   "sources": [
+    [
+     "Roediger and Karpicke (2006), Test-enhanced learning: taking memory tests improves long-term retention. Adesope, Trevisan and Sundararajan (2017), Rethinking the use of tests: a meta-analysis of practice testing.",
+     "https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/"
+    ],
+    [
+     "Cepeda, Pashler, Vul, Wixted and Rohrer (2006), Distributed practice in verbal recall tasks: a review and quantitative synthesis. Psychological Bulletin, 132(3), 354 to 380.",
+     "https://pubmed.ncbi.nlm.nih.gov/16719566/"
+    ],
+    [
+     "Cowan (2001), The magical number 4 in short-term memory: a reconsideration of mental storage capacity.",
+     "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496"
+    ],
+    [
+     "Pashler, McDaniel, Rohrer and Bjork (2008), Learning Styles: Concepts and Evidence. Psychological Science in the Public Interest, 9(3), 105 to 119.",
+     "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+    ],
+    [
+     "Alliger, Tannenbaum, Bennett, Traver and Shotland (1997), A meta-analysis of the relations among training criteria.",
+     "https://scilit.com/publications/6fbc1b5a54e5c420371e70265d3196b7"
+    ],
+    [
+     "Rowe (1986), Wait time: slowing down may be a way of speeding up!",
+     "https://scilit.com/publications/5ad93e98281f013a3186d6b77336d32b"
+    ],
+    [
+     "Barbieri, Miller-Cotto, Clerjuste and Chawla (2023), A meta-analysis of the worked examples effect on mathematics performance. Kalyuga (2007), Expertise reversal effect and its implications for learner-tailored instruction.",
+     "https://oaks.kent.edu/hcri/meta-analysis-worked-examples-effect-mathematics-performance"
+    ],
+    [
+     "Kalyuga (2007), Expertise reversal effect and its implications for learner-tailored instruction.",
+     "https://www.uky.edu/~gmswan3/EDC608/Kalyuga2007_Article_ExpertiseReversalEffectAndItsI.pdf"
+    ],
+    [
+     "Soderstrom and Bjork (2015), Learning versus performance: an integrative review. Perspectives on Psychological Science, 10(2), 176 to 199.",
+     "https://pubmed.ncbi.nlm.nih.gov/25910388/"
+    ],
+    [
+     "Kornell and Bjork (2008), Learning concepts and categories: is spacing the enemy of induction?",
+     "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Kornell_Bjork_2008_PsychScience.pdf"
+    ],
+    [
+     "Brunmair and Richter (2019), Similarity matters: a meta-analysis of interleaved learning and its moderators.",
+     "https://pubmed.ncbi.nlm.nih.gov/31556629/"
+    ],
+    [
+     "Gollwitzer and Sheeran (2006), Implementation intentions and goal achievement: a meta-analysis of effects and processes.",
+     "https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f"
+    ],
+    [
+     "Diekelmann and Born (2010), The memory function of sleep.",
+     "https://research.uni-luebeck.de/en/publications/the-memory-function-of-sleep/"
+    ],
+    [
+     "Macnamara, Hambrick and Oswald (2014), Deliberate practice and performance in music, games, sports, education, and professions: a meta-analysis.",
+     "https://pubmed.ncbi.nlm.nih.gov/24986855/"
+    ],
+    [
+     "Hattie and Timperley (2007), The power of feedback.",
+     "https://assess.ucr.edu/media/746/download"
+    ],
+    [
+     "Sundararajan and Adesope (2020), Keep it coherent: a meta-analysis of the seductive details effect.",
+     "https://news.wsu.edu/press-release/2020/03/19/seductive-details-inhibit-learning"
+    ],
+    [
+     "Edmondson (1999), Psychological safety and learning behavior in work teams.",
+     "https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f"
+    ],
+    [
+     "VanLehn (2011), The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems.",
+     "https://eric.ed.gov/?id=EJ946764"
     ]
    ]
   }

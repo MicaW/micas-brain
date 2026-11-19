@@ -1,11 +1,8 @@
 import { useState } from 'react';
-import FlipDeck from '../components/FlipDeck.jsx';
 import InsightsFeed from '../components/InsightsFeed.jsx';
 import { Link } from 'react-router-dom';
 import home from '../content/home.json';
 import { stages } from '../lib.js';
-import MythStack from '../components/MythStack.jsx';
-import { CaseGrid, FindingsCard, MistakesCard } from '../components/sections.jsx';
 import { ArrowSmall, Button, Pill, StageDisc } from '../components/ui.jsx';
 
 export default function Home() {
@@ -19,7 +16,7 @@ export default function Home() {
     }
     return true;
   });
-  const { hero, playbookTile, toolkitTile, myths, cases } = home;
+  const { hero, playbookTile, toolkitTile } = home;
   return (
     <>
       <div className="vp vp-first">
@@ -66,43 +63,6 @@ export default function Home() {
       </div>
 
       <InsightsFeed />
-
-      <FlipDeck
-        id="h-mistakes"
-        pill={home.mistakes.pill}
-        heading={home.mistakes.heading}
-        items={home.mistakes.items}
-        front="Turn over for the fix"
-        back={(item) => (
-          <>
-            <p className="flip-lead">{item.instead}</p>
-            <p>{item.why}</p>
-          </>
-        )}
-      />
-
-      <FlipDeck
-        id="h-findings"
-        pill={home.findings.pill}
-        heading={home.findings.heading}
-        items={home.findings.items}
-        front="Turn over to use it"
-        back={(item) => (
-          <>
-            <p className="flip-lead">{item.use}</p>
-            <p>{item.source}</p>
-          </>
-        )}
-      />
-
-      <MythStack myths={myths} />
-
-      <section className="cases vp" aria-labelledby="h-cases">
-        <h2 id="h-cases" className="h2">
-          {cases.heading}
-        </h2>
-        <CaseGrid />
-      </section>
     </>
   );
 }

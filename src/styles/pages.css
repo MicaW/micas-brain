@@ -2344,22 +2344,100 @@ a.tile svg,
   .ins-card { break-inside: avoid; border: 1px solid #000; }
 }
 
-/* Home: the Insights newsfeed. */
-.feed .deck-row {
-  align-items: stretch;
+/* Unsupported: dashed, empty bars. */
+.ins-meter.no .ins-bars span {
+  border-style: dashed;
+}
+
+/* ---------- Round 5: Insights feed and embeds ---------- */
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feed-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.feed-grid + .ins-key {
+  margin-top: 72px;
 }
 .feed-card {
-  scroll-snap-align: start;
   min-height: 300px;
+  gap: 16px;
+  padding: 28px;
 }
 .feed-card .ins-tile-h {
   font-size: 1.75rem;
 }
-@media (max-width: 640px) {
-  .feed-card { min-height: 240px; }
+.feed-card p {
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.feed-card.feed-first {
+  grid-column: span 2;
+}
+.feed-card.feed-first .ins-tile-h {
+  font-size: 2.5rem;
+  max-width: 22ch;
+}
+.ins-embed {
+  margin: 56px 0;
+}
+.ins-cases .g {
+  margin-top: 24px;
+}
+.myth-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.myth-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--ins, #f2c94c) 22%, transparent);
+}
+.myth-item p {
+  margin: 0;
+  line-height: 1.5;
+}
+.myth-item-claim {
+  margin: 0;
+  font: 500 1.625rem/1.15 var(--font-display);
+  letter-spacing: -0.01em;
+}
+.myth-item-verdict {
+  font-weight: 600;
+}
+.myth-item-src {
+  margin-top: auto;
+  font-size: 0.875rem;
+}
+@media (max-width: 1000px) {
+  .feed-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .feed-grid,
+  .myth-list { grid-template-columns: minmax(0, 1fr); }
+  .feed-card.feed-first { grid-column: auto; }
+  .feed-card.feed-first .ins-tile-h { font-size: 1.875rem; }
+  .feed-card { min-height: 0; padding: 24px; }
   .feed-card .ins-tile-h { font-size: 1.5rem; }
 }
-/* Unsupported: dashed, empty bars. */
-.ins-meter.no .ins-bars span {
-  border-style: dashed;
+.ins-embed .flip {
+  background: var(--surface);
+  color: var(--ink);
 }

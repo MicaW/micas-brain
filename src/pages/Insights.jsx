@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
 import insights from '../content/insights.json';
 import { Inline } from '../components/Blocks.jsx';
-import { ArrowSmall, Pill } from '../components/ui.jsx';
+import { ArrowSmall } from '../components/ui.jsx';
+import InsightEmbed from '../components/InsightEmbeds.jsx';
 import { Highlights } from '../highlights.jsx';
 import { topicLinkLabel, topics } from '../lib.js';
 import NotFound from './NotFound.jsx';
@@ -13,7 +14,7 @@ const topicByTitle = (title) => topics.find((t) => t.title === title);
 // Reading time from every string in the piece, at about 220 words a minute.
 const words = (value) =>
   typeof value === 'string' ? value.split(/\s+/).length : value && typeof value === 'object' ? Object.values(value).reduce((n, v) => n + words(v), 0) : 0;
-const minutes = (idea) => Math.max(1, Math.round(words({ ...idea, sources: [] }) / 220));
+export const minutes = (idea) => Math.max(1, Math.round((words({ ...idea, sources: [] }) + (idea.embedWords || 0)) / 220));
 
 export const insightBySlug = (slug) => insights.ideas.find((i) => i.slug === slug);
 
@@ -125,7 +126,7 @@ function Compare({ compare }) {
             <tr>
               <td />
               {compare.cols.map((c, i) => (
-                <th key={c} scope="col" className={i === compare.cols.length - 1 ? 'mark' : undefined}>
+                <th key={c} scope="col" className={!compare.plain && i === compare.cols.length - 1 ? 'mark' : undefined}>
                   {c}
                 </th>
               ))}
@@ -136,7 +137,7 @@ function Compare({ compare }) {
               <tr key={row.label}>
                 <th scope="row">{row.label}</th>
                 {row.values.map((v, i) => (
-                  <td key={i} className={i === row.values.length - 1 ? 'mark' : undefined}>
+                  <td key={i} className={!compare.plain && i === row.values.length - 1 ? 'mark' : undefined}>
                     {v}
                   </td>
                 ))}
@@ -145,6 +146,26 @@ function Compare({ compare }) {
           </tbody>
         </table>
       </div>
+    </section>
+  );
+}
+
+/* The feed of every piece, newest first. Used on the home page and the Insights page. */
+export function InsightsGrid() {
+  return (
+    <section className="feed-grid" aria-label="All insights">
+      {insights.ideas.map((idea, i) => (
+        <Link key={idea.slug} className={i === 0 ? 'tile ins-tile feed-card feed-first' : 'tile ins-tile feed-card'} to={`/insights/${idea.slug}`} style={{ background: idea.color }}>
+          <span className="ins-tile-meta">
+            {idea.date} · {minutes(idea)} min read
+          </span>
+          <span className="ins-tile-h">{idea.title}</span>
+          <p>{idea.standfirst}</p>
+          <span className="ins-tile-go">
+            Read it <ArrowSmall />
+          </span>
+        </Link>
+      ))}
     </section>
   );
 }
@@ -158,23 +179,7 @@ export function InsightsIndex() {
         </h1>
         <p className="lead">{insights.intro}</p>
       </section>
-      <section className="ins-list" aria-label="All pieces">
-        {insights.ideas.map((idea) => (
-          <Link key={idea.slug} className="tile ins-tile" to={`/insights/${idea.slug}`} style={{ background: idea.color }}>
-            <span className="ins-tile-meta">
-              <Pill>{idea.kind}</Pill>
-              <span>
-                {idea.date} · {minutes(idea)} min read
-              </span>
-            </span>
-            <h2 className="ins-tile-h">{idea.title}</h2>
-            <p>{idea.standfirst}</p>
-            <span className="ins-tile-go">
-              Read it <ArrowSmall />
-            </span>
-          </Link>
-        ))}
-      </section>
+      <InsightsGrid />
       <section className="ins-key" aria-labelledby="h-key">
         <h2 id="h-key" className="ins-h2">
           How the evidence is rated
@@ -190,7 +195,8 @@ export function InsightPage() {
   const { slug } = useParams();
   const idea = insightBySlug(slug);
   if (!idea) return <NotFound />;
-  const others = insights.ideas.filter((i) => i.slug !== slug);
+  const at = insights.ideas.findIndex((i) => i.slug === slug);
+  const others = [1, 2, 3, 4].map((n) => insights.ideas[(at + n) % insights.ideas.length]);
   return (
     <Highlights topicId={`insight:${idea.slug}`}>
       <article className="ins" style={{ '--ins': idea.color }}>
@@ -199,7 +205,6 @@ export function InsightPage() {
             <Link className="txt" to="/insights">
               Insights
             </Link>
-            <Pill>{idea.kind}</Pill>
             <span>{idea.date}</span>
             <span>{minutes(idea)} min read</span>
           </p>
@@ -207,16 +212,18 @@ export function InsightPage() {
           <p className="lead">{idea.standfirst}</p>
         </header>
 
-        <section className="ins-short" aria-labelledby="h-short">
-          <h2 id="h-short" className="ins-h3">
-            {idea.short.heading}
-          </h2>
-          <ul>
-            {idea.short.items.map((item) => (
-              <li key={item}>{T(item)}</li>
-            ))}
-          </ul>
-        </section>
+        {idea.short && (
+          <section className="ins-short" aria-labelledby="h-short">
+            <h2 id="h-short" className="ins-h3">
+              {idea.short.heading}
+            </h2>
+            <ul>
+              {idea.short.items.map((item) => (
+                <li key={item}>{T(item)}</li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div className="prose ins-body">
           {idea.sections.map((s) => (
@@ -229,24 +236,29 @@ export function InsightPage() {
           ))}
         </div>
 
-        <Dashboard dash={idea.dashboard} />
+        {idea.dashboard && <Dashboard dash={idea.dashboard} />}
+        {idea.embed && <InsightEmbed kind={idea.embed} />}
         {idea.compare && <Compare compare={idea.compare} />}
 
         <div className="prose ins-body">
-          <section>
-            <h2>{idea.mind.heading}</h2>
-            <ol className="ins-mind-list">
-              {idea.mind.items.map((item) => (
-                <li key={item}>{T(item)}</li>
+          {idea.mind && (
+            <section>
+              <h2>{idea.mind.heading}</h2>
+              <ol className="ins-mind-list">
+                {idea.mind.items.map((item) => (
+                  <li key={item}>{T(item)}</li>
+                ))}
+              </ol>
+            </section>
+          )}
+          {idea.business && (
+            <section>
+              <h2>{idea.business.heading}</h2>
+              {idea.business.p.map((p) => (
+                <p key={p}>{T(p)}</p>
               ))}
-            </ol>
-          </section>
-          <section>
-            <h2>{idea.business.heading}</h2>
-            {idea.business.p.map((p) => (
-              <p key={p}>{T(p)}</p>
-            ))}
-          </section>
+            </section>
+          )}
           {idea.watch && (
             <section>
               <h2>{idea.watch.heading}</h2>
@@ -283,7 +295,6 @@ export function InsightPage() {
             <h2 className="ins-h3">More insights</h2>
             {others.map((o) => (
               <Link key={o.slug} className="tile ins-tile small" to={`/insights/${o.slug}`} style={{ background: o.color }}>
-                <Pill>{o.kind}</Pill>
                 <span className="ins-tile-h">{o.title}</span>
                 <span className="ins-tile-go">
                   Read it <ArrowSmall />
