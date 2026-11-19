@@ -408,7 +408,7 @@
    "steps": [
     "Copy the folder and board templates",
     "Share the folder with the client lead",
-    "Agree the checkpoints: proposal, design sign-off, final check"
+    "Agree the checkpoints: terms, design sign-off, final check, review"
    ],
    "checkpoint": false,
    "deliverable": "Project folder and board",
@@ -427,6 +427,33 @@
     "s9-g16"
    ],
    "id": "agree-10"
+  },
+  {
+   "phase": "agree",
+   "title": "Plan the personal data",
+   "why": "Decide what you collect before you collect it.",
+   "steps": [
+    "What you need and why",
+    "Who can see it",
+    "Where it is kept (the restricted folder)",
+    "When it will be deleted",
+    "A short privacy note for attendees"
+   ],
+   "checkpoint": false,
+   "deliverable": "Data note",
+   "where": "03 People (restricted)",
+   "done": "The note is written and the deletion date is in the tracker.",
+   "tools": [
+    "Google Docs",
+    "Notion"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g22"
+   ],
+   "id": "agree-11"
   },
   {
    "phase": "design",
@@ -458,14 +485,14 @@
   },
   {
    "phase": "design",
-   "title": "Design the before, during and after",
+   "title": "Design the before and after",
    "why": "A one-day course works far better with a before and an after.",
    "steps": [
     "A short pre-task or manager conversation before",
     "Follow-up reminders and a short session after, with dates"
    ],
    "checkpoint": false,
-   "deliverable": "Programme outline",
+   "deliverable": "Before and after plan",
    "where": "02 Design and materials",
    "done": "Every part has a date and an owner.",
    "tools": [
@@ -478,6 +505,30 @@
     "s2-t05"
    ],
    "id": "design-02"
+  },
+  {
+   "phase": "design",
+   "title": "Ask attendees what they need",
+   "why": "Two or three questions make the day fit the people in it.",
+   "steps": [
+    "What they want from the day",
+    "What they find hardest about the topic",
+    "Anything they want the trainer to know"
+   ],
+   "checkpoint": false,
+   "deliverable": "Attendee answers",
+   "where": "03 People (restricted)",
+   "done": "You have changed the plan where the answers call for it.",
+   "tools": [
+    "Google Forms"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": false,
+   "topics": [
+    "s2-t01"
+   ],
+   "id": "design-03"
   },
   {
    "phase": "design",
@@ -502,7 +553,7 @@
    "topics": [
     "s8-b2-s8-10"
    ],
-   "id": "design-03"
+   "id": "design-04"
   },
   {
    "phase": "design",
@@ -528,7 +579,7 @@
     "s6-b2-s67-09",
     "s6-g02"
    ],
-   "id": "design-04"
+   "id": "design-05"
   },
   {
    "phase": "design",
@@ -556,7 +607,7 @@
    "topics": [
     "s3-b2-s23-03"
    ],
-   "id": "design-05"
+   "id": "design-06"
   },
   {
    "phase": "design",
@@ -580,7 +631,7 @@
    "topics": [
     "s2-t04"
    ],
-   "id": "design-06"
+   "id": "design-07"
   },
   {
    "phase": "design",
@@ -602,7 +653,7 @@
    "owner": "You and client",
    "essential": true,
    "topics": [],
-   "id": "design-07"
+   "id": "design-08"
   },
   {
    "phase": "design",
@@ -624,7 +675,7 @@
    "owner": "You and team",
    "essential": false,
    "topics": [],
-   "id": "design-08"
+   "id": "design-09"
   },
   {
    "phase": "prepare",
@@ -702,6 +753,51 @@
   },
   {
    "phase": "prepare",
+   "title": "Collect the baseline",
+   "why": "Without a before, you cannot show an after.",
+   "steps": [
+    "Send the baseline survey or pull the data",
+    "Chase replies"
+   ],
+   "checkpoint": false,
+   "deliverable": "Baseline data",
+   "where": "05 Evaluation and close",
+   "done": "You have the baseline for each measure.",
+   "tools": [
+    "Google Forms"
+   ],
+   "workstream": "Evaluation",
+   "owner": "You and client",
+   "essential": false,
+   "topics": [
+    "s9-g05"
+   ],
+   "id": "prepare-04"
+  },
+  {
+   "phase": "prepare",
+   "title": "Book your travel",
+   "why": "Arrive rested, with time to set up.",
+   "steps": [
+    "Trains or parking",
+    "A hotel the night before for an early start",
+    "How you get into the building and where to unload"
+   ],
+   "checkpoint": false,
+   "deliverable": null,
+   "where": null,
+   "done": "Travel booked and access to the building confirmed.",
+   "tools": [
+    "Train and hotel booking sites"
+   ],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": false,
+   "topics": [],
+   "id": "prepare-05"
+  },
+  {
+   "phase": "prepare",
    "title": "Brief the room and catering",
    "why": "Confirm the details that make or break the day.",
    "steps": [
@@ -721,7 +817,7 @@
    "owner": "You",
    "essential": true,
    "topics": [],
-   "id": "prepare-04"
+   "id": "prepare-06"
   },
   {
    "phase": "prepare",
@@ -743,7 +839,7 @@
    "owner": "You and client",
    "essential": true,
    "topics": [],
-   "id": "prepare-05"
+   "id": "prepare-07"
   },
   {
    "phase": "prepare",
@@ -769,7 +865,7 @@
     "s3-b2-s23-03",
     "s8-b2-s8-09"
    ],
-   "id": "prepare-06"
+   "id": "prepare-08"
   },
   {
    "phase": "day",
@@ -799,7 +895,7 @@
    "title": "Open the course",
    "why": "Give people what they need to settle and a reason to engage.",
    "steps": [
-    "Welcome and purpose",
+    "Welcome and purpose, with a short welcome from the sponsor if they can",
     "Housekeeping: exits, alarms, toilets, wifi",
     "What people will be able to do by the end",
     "How you will work together"
@@ -939,23 +1035,23 @@
   },
   {
    "phase": "after",
-   "title": "Send the client a summary",
-   "why": "Short, while it is fresh.",
+   "title": "Review the course with the client",
+   "why": "Agree what happened and what comes next, while it is fresh.",
    "steps": [
-    "What was covered",
-    "Feedback headlines",
-    "What happens next"
+    "Send a short summary: what was covered and the feedback headlines",
+    "A twenty-minute call: what worked and what to change",
+    "Agree what happens next"
    ],
-   "checkpoint": false,
+   "checkpoint": true,
    "deliverable": "Course summary",
    "where": "05 Evaluation and close",
-   "done": "Sent to the client lead within a week.",
+   "done": "The client has the summary and you have agreed next steps.",
    "tools": [
     "Google Docs",
-    "Gmail"
+    "Google Meet"
    ],
    "workstream": "Evaluation",
-   "owner": "You",
+   "owner": "You and client",
    "essential": true,
    "topics": [
     "s6-g02"
@@ -968,12 +1064,13 @@
    "why": "Check the venue bill against the contract before you pay.",
    "steps": [
     "Send your invoice with the purchase order number",
-    "Claim agreed expenses"
+    "Claim agreed expenses",
+    "Chase payment if it is late"
    ],
    "checkpoint": false,
-   "deliverable": "Cost reconciliation and final invoice",
+   "deliverable": "Final invoice",
    "where": "01 Brief and contract",
-   "done": "Invoice sent.",
+   "done": "Invoice paid.",
    "tools": [
     "Google Sheets",
     "Accounting software"

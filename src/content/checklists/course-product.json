@@ -184,6 +184,32 @@
    "id": "setup-04"
   },
   {
+   "phase": "setup",
+   "title": "Build your course templates",
+   "why": "Copying a ready folder and board saves time on every course.",
+   "steps": [
+    "Google Drive folder with the numbered folders used on this page",
+    "Notion board with these cards",
+    "Templates for the session plan, booking list and feedback form"
+   ],
+   "checkpoint": false,
+   "deliverable": "Folder and board templates",
+   "where": "Business (not per course)",
+   "done": "You can set up a new retreat in under five minutes.",
+   "tools": [
+    "Google Drive",
+    "Notion",
+    "Google Sheets"
+   ],
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g16"
+   ],
+   "id": "setup-05"
+  },
+  {
    "phase": "shape",
    "title": "Define who it is for",
    "why": "A retreat for everyone sells to no one.",
@@ -312,6 +338,7 @@
     "Your time and any co-trainer",
     "Marketing",
     "Materials per person",
+    "Booking platform and card payment fees",
     "Break-even number of people"
    ],
    "checkpoint": false,
@@ -335,9 +362,10 @@
    "title": "Set prices and ticket types",
    "why": "Price for the people you want, and make it simple.",
    "steps": [
+    "Check what similar courses charge",
     "Full price and an early-bird price with an end date",
     "Any group or employer rate",
-    "Show prices to the public including VAT"
+    "Check whether you need to charge VAT, and show public prices including it"
    ],
    "checkpoint": false,
    "deliverable": "Price list",
@@ -405,6 +433,84 @@
   },
   {
    "phase": "launch",
+   "title": "Set up the project",
+   "why": "One place for everything about this date.",
+   "steps": [
+    "Copy the folder and board templates",
+    "Put the key dates on the board: launch, early-bird end, go/no-go, the day"
+   ],
+   "checkpoint": false,
+   "deliverable": "Project folder and board",
+   "where": "01 Offer and money",
+   "done": "The board is set up with the key dates.",
+   "tools": [
+    "Google Drive",
+    "Notion",
+    "Google Calendar"
+   ],
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g15",
+    "s9-g16"
+   ],
+   "id": "launch-02"
+  },
+  {
+   "phase": "launch",
+   "title": "Plan the personal data",
+   "why": "Decide what you collect before you collect it.",
+   "steps": [
+    "What you need and why",
+    "Who can see it",
+    "Where it is kept (the restricted folder)",
+    "When it will be deleted",
+    "A short privacy note for attendees"
+   ],
+   "checkpoint": false,
+   "deliverable": "Data note",
+   "where": "04 People (restricted)",
+   "done": "The note is written and the deletion date is in the tracker.",
+   "tools": [
+    "Google Docs",
+    "Notion"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g22"
+   ],
+   "id": "launch-03"
+  },
+  {
+   "phase": "launch",
+   "title": "Draft the course outline",
+   "why": "The booking page has to describe a day you have not designed in detail yet.",
+   "steps": [
+    "What people will be able to do by the end",
+    "The shape of the day and the main activities",
+    "What is included: materials, lunch, certificate",
+    "General enough to refine, specific enough to be honest"
+   ],
+   "checkpoint": false,
+   "deliverable": "Course outline for sale",
+   "where": "03 Design and materials",
+   "done": "The outline is on the booking page, and the session plan starts from it.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s2-t06"
+   ],
+   "id": "launch-04"
+  },
+  {
+   "phase": "launch",
    "title": "Build the booking page",
    "why": "Everything a guest needs to decide and book.",
    "steps": [
@@ -429,7 +535,7 @@
     "s9-g06",
     "s9-g26"
    ],
-   "id": "launch-02"
+   "id": "launch-05"
   },
   {
    "phase": "launch",
@@ -457,7 +563,7 @@
     "s9-g06",
     "s9-b3-n3-03"
    ],
-   "id": "launch-03"
+   "id": "launch-06"
   },
   {
    "phase": "launch",
@@ -482,7 +588,31 @@
    "owner": "You",
    "essential": true,
    "topics": [],
-   "id": "launch-04"
+   "id": "launch-07"
+  },
+  {
+   "phase": "launch",
+   "title": "Check you are ready to launch",
+   "why": "Launch once, properly, rather than fixing things in front of buyers.",
+   "steps": [
+    "Booking page live and checked on a phone",
+    "A test booking and payment, then refunded",
+    "Booking terms and privacy note linked",
+    "Launch emails and the first posts written",
+    "Room booked"
+   ],
+   "checkpoint": true,
+   "deliverable": null,
+   "where": null,
+   "done": "Every item is checked.",
+   "tools": [
+    "Booking platform"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "launch-08"
   },
   {
    "phase": "sell",
@@ -557,6 +687,29 @@
    "essential": true,
    "topics": [],
    "id": "sell-03"
+  },
+  {
+   "phase": "sell",
+   "title": "Manage bookings and changes",
+   "why": "Keep the list right as bookings come in.",
+   "steps": [
+    "Handle cancellations and transfers to your terms",
+    "Keep a waiting list if it sells out",
+    "Send joining details to anyone who books late"
+   ],
+   "checkpoint": false,
+   "deliverable": "Bookings list",
+   "where": "01 Offer and money",
+   "done": "Every booking and change is recorded.",
+   "tools": [
+    "Booking platform",
+    "Google Sheets"
+   ],
+   "workstream": "Business and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "sell-04"
   },
   {
    "phase": "design",
@@ -762,6 +915,7 @@
    "title": "Collect attendee needs",
    "why": "Know who is coming and what they need.",
    "steps": [
+    "What they want from the day",
     "Access and dietary needs, including severe allergies",
     "Anyone arriving late or leaving early",
     "Emergency contact"
@@ -1051,11 +1205,12 @@
    "why": "Check the venue bill against the contract before you pay.",
    "steps": [
     "Pay the room and any co-trainer",
+    "Settle no-shows and any refunds to your terms",
     "Record actual costs and income",
     "Work out the real profit per person"
    ],
    "checkpoint": false,
-   "deliverable": "Cost reconciliation and final invoice",
+   "deliverable": "Cost and profit sheet",
    "where": "01 Offer and money",
    "done": "Everyone paid and the real profit is known.",
    "tools": [
@@ -1166,6 +1321,7 @@
    "title": "Run your own retrospective",
    "why": "Improve the templates for next time.",
    "steps": [
+    "Decide whether to run it again, and what to change",
     "What to change in the offer, price or marketing",
     "What to change in the design",
     "Update this checklist"

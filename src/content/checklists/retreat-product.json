@@ -382,6 +382,7 @@
    "steps": [
     "Fixed costs: venue hire, facilitators, marketing",
     "Costs per guest: rooms, food, materials",
+    "Booking platform and card payment fees",
     "Contingency",
     "Your margin",
     "Break-even number of guests"
@@ -407,6 +408,7 @@
    "title": "Set prices and ticket types",
    "why": "Price for the people you want, and make it simple.",
    "steps": [
+    "Check what similar retreats charge and include",
     "Full price, and an early-bird price with an end date",
     "Room types, such as shared or single",
     "Show prices to the public including VAT",
@@ -452,6 +454,33 @@
   },
   {
    "phase": "book",
+   "title": "Set up the project",
+   "why": "One place for everything, shared with your team.",
+   "steps": [
+    "Copy the folder and board templates",
+    "Share with the team",
+    "List who does what"
+   ],
+   "checkpoint": false,
+   "deliverable": "Project folder and board",
+   "where": "01 Offer and money",
+   "done": "The board is set up and the team has access.",
+   "tools": [
+    "Google Drive",
+    "Notion",
+    "Google Calendar"
+   ],
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g15",
+    "s9-g16"
+   ],
+   "id": "book-01"
+  },
+  {
+   "phase": "book",
    "title": "Shortlist and visit venues",
    "why": "See the rooms at the time of day you will use them.",
    "steps": [
@@ -475,7 +504,7 @@
    "topics": [
     "s8-b2-s8-05"
    ],
-   "id": "book-01"
+   "id": "book-02"
   },
   {
    "phase": "book",
@@ -502,7 +531,7 @@
    "topics": [
     "s8-b3-n1-08"
    ],
-   "id": "book-02"
+   "id": "book-03"
   },
   {
    "phase": "book",
@@ -529,7 +558,7 @@
     "s8-b2-s8-06",
     "s9-g23"
    ],
-   "id": "book-03"
+   "id": "book-04"
   },
   {
    "phase": "book",
@@ -554,7 +583,7 @@
    "topics": [
     "s9-g23"
    ],
-   "id": "book-04"
+   "id": "book-05"
   },
   {
    "phase": "book",
@@ -580,7 +609,7 @@
    "topics": [
     "s9-g23"
    ],
-   "id": "book-05"
+   "id": "book-06"
   },
   {
    "phase": "book",
@@ -604,7 +633,7 @@
    "topics": [
     "s9-b3-n3-06"
    ],
-   "id": "book-06"
+   "id": "book-07"
   },
   {
    "phase": "book",
@@ -632,7 +661,7 @@
    "topics": [
     "s9-b3-n3-05"
    ],
-   "id": "book-07"
+   "id": "book-08"
   },
   {
    "phase": "book",
@@ -659,7 +688,34 @@
    "topics": [
     "s9-g22"
    ],
-   "id": "book-08"
+   "id": "book-09"
+  },
+  {
+   "phase": "book",
+   "title": "Draft the programme outline",
+   "why": "The booking page has to describe days you have not designed in detail yet.",
+   "steps": [
+    "The shape of each day",
+    "The key sessions and what each is for",
+    "What is included, and what is not",
+    "Who will facilitate",
+    "General enough to refine, specific enough to be honest"
+   ],
+   "checkpoint": false,
+   "deliverable": "Programme outline for sale",
+   "where": "03 Design",
+   "done": "The outline is on the booking page, and the detailed design starts from it.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b2-s8-04",
+    "s8-t01"
+   ],
+   "id": "book-10"
   },
   {
    "phase": "book",
@@ -670,6 +726,7 @@
     "Dates, place, price and what is included",
     "The outline of each day",
     "Access, food and rooms",
+    "Venue photos you have permission to use, and facilitator bios",
     "Booking terms and a privacy note",
     "A clear way to ask a question"
    ],
@@ -688,7 +745,7 @@
     "s9-g06",
     "s9-g26"
    ],
-   "id": "book-09"
+   "id": "book-11"
   },
   {
    "phase": "book",
@@ -716,34 +773,7 @@
     "s9-g06",
     "s9-b3-n3-03"
    ],
-   "id": "book-10"
-  },
-  {
-   "phase": "book",
-   "title": "Set up the project",
-   "why": "One place for everything, shared with your team.",
-   "steps": [
-    "Copy the folder and board templates",
-    "Share with the team",
-    "List who does what"
-   ],
-   "checkpoint": false,
-   "deliverable": "Project folder and board",
-   "where": "01 Offer and money",
-   "done": "The board is set up and the team has access.",
-   "tools": [
-    "Google Drive",
-    "Notion",
-    "Google Calendar"
-   ],
-   "workstream": "Client and money",
-   "owner": "You",
-   "essential": true,
-   "topics": [
-    "s9-g15",
-    "s9-g16"
-   ],
-   "id": "book-11"
+   "id": "book-12"
   },
   {
    "phase": "book",
@@ -768,7 +798,7 @@
    "owner": "You",
    "essential": true,
    "topics": [],
-   "id": "book-12"
+   "id": "book-13"
   },
   {
    "phase": "sell",
@@ -1073,9 +1103,9 @@
    "title": "Plan the groups and rooms",
    "why": "Who sits and works with whom changes what people learn.",
    "steps": [
-    "Small groups and pairs",
-    "Mix people who rarely work together",
-    "Rooming: single rooms by default"
+    "Small groups and pairs that mix people",
+    "Match guests who booked shared rooms, and ask before you pair anyone",
+    "Single rooms for anyone who booked one"
    ],
    "checkpoint": false,
    "deliverable": "Group and rooming lists",
@@ -1086,7 +1116,7 @@
    ],
    "workstream": "Design",
    "owner": "You",
-   "essential": false,
+   "essential": true,
    "topics": [],
    "id": "design-09"
   },
@@ -1215,11 +1245,41 @@
   },
   {
    "phase": "people",
+   "title": "Send the guest questionnaire",
+   "why": "One form for everything, so guests are not asked twice.",
+   "steps": [
+    "What they hope to get from the retreat",
+    "Travel and arrival",
+    "Dietary needs, including severe allergies",
+    "Access needs",
+    "Emergency contact",
+    "The health questions the activities need",
+    "Photo consent",
+    "Chase anyone who has not replied"
+   ],
+   "checkpoint": false,
+   "deliverable": "Guest answers",
+   "where": "05 People and safety (restricted)",
+   "done": "Every guest has replied.",
+   "tools": [
+    "Google Forms",
+    "Google Sheets"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g22"
+   ],
+   "id": "people-02"
+  },
+  {
+   "phase": "people",
    "title": "Check guests are suited to it",
    "why": "Some activities are not right for everyone.",
    "steps": [
     "Describe the physical and emotional demands honestly on the booking page",
-    "Ask only the health questions the activities need",
+    "Read every answer to the health questions",
     "Talk to anyone whose answers raise a question",
     "Offer an alternative or a refund if it is not right for them"
    ],
@@ -1237,7 +1297,7 @@
     "s8-t05",
     "s9-g22"
    ],
-   "id": "people-02"
+   "id": "people-03"
   },
   {
    "phase": "people",
@@ -1262,7 +1322,7 @@
    "topics": [
     "s9-g20"
    ],
-   "id": "people-03"
+   "id": "people-04"
   },
   {
    "phase": "people",
@@ -1286,33 +1346,6 @@
    "essential": true,
    "topics": [
     "s8-b2-s8-09"
-   ],
-   "id": "people-04"
-  },
-  {
-   "phase": "people",
-   "title": "Run registration",
-   "why": "Collect what you need from every guest.",
-   "steps": [
-    "Travel and arrival",
-    "Dietary and access needs",
-    "Emergency contact",
-    "Photo consent",
-    "Chase anyone who has not replied"
-   ],
-   "checkpoint": false,
-   "deliverable": "Attendee list",
-   "where": "05 People and safety (restricted)",
-   "done": "Every attendee has replied.",
-   "tools": [
-    "Google Forms",
-    "Google Sheets"
-   ],
-   "workstream": "People and safety",
-   "owner": "You",
-   "essential": true,
-   "topics": [
-    "s9-g22"
    ],
    "id": "people-05"
   },
@@ -1716,7 +1749,7 @@
    "title": "Open the retreat",
    "why": "Mark the start, and give people what they need to settle.",
    "steps": [
-    "Welcome and purpose",
+    "Welcome and purpose, with a short welcome from the sponsor if they can",
     "Housekeeping: exits, alarms, toilets, wifi",
     "Phones, evenings and photo consent",
     "How you will work together",
@@ -1959,11 +1992,12 @@
    "steps": [
     "Check venue and supplier invoices",
     "Pay suppliers and the team",
+    "Settle no-shows and any refunds to your terms",
     "Record actual costs and income",
     "Work out the real profit per guest"
    ],
    "checkpoint": false,
-   "deliverable": "Cost reconciliation and final invoice",
+   "deliverable": "Cost and profit sheet",
    "where": "01 Offer and money",
    "done": "Everyone paid and the real profit is known.",
    "tools": [
@@ -2122,9 +2156,31 @@
   },
   {
    "phase": "later",
+   "title": "Announce the next date",
+   "why": "Past guests and the waiting list book first.",
+   "steps": [
+    "Email people who opted in",
+    "Offer a returning-guest or referral rate if you use one"
+   ],
+   "checkpoint": false,
+   "deliverable": "Next-date announcement",
+   "where": "02 Sales and marketing",
+   "done": "Sent to the list.",
+   "tools": [
+    "Email marketing tool"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": false,
+   "topics": [],
+   "id": "later-06"
+  },
+  {
+   "phase": "later",
    "title": "Run your own retrospective",
    "why": "Improve the templates for next time.",
    "steps": [
+    "Decide whether to run it again, and what to change",
     "What to change in the offer, price or marketing",
     "What to change in the design",
     "Update this checklist and the templates"
@@ -2141,7 +2197,31 @@
    "owner": "You",
    "essential": true,
    "topics": [],
-   "id": "later-06"
+   "id": "later-07"
+  },
+  {
+   "phase": "book",
+   "title": "Check you are ready to launch",
+   "why": "Launch once, properly, rather than fixing things in front of buyers.",
+   "steps": [
+    "Booking page live and checked on a phone",
+    "A test booking and payment, then refunded",
+    "Booking terms and privacy note linked",
+    "Launch emails and the first posts written",
+    "Venue and facilitators confirmed"
+   ],
+   "checkpoint": true,
+   "deliverable": null,
+   "where": null,
+   "done": "Every item is checked.",
+   "tools": [
+    "Booking platform"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "book-14"
   }
  ]
 }
