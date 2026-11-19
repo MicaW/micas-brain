@@ -2535,12 +2535,14 @@ a.tile svg,
   padding: 0;
 }
 .rc-task {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 300px);
-  gap: 8px 32px;
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
   break-inside: avoid;
+}
+.rc-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 300px);
+  gap: 8px 32px;
 }
 .rc-check {
   display: grid;
@@ -2599,13 +2601,142 @@ a.tile svg,
   font-size: 0.875rem;
   color: var(--ink-muted);
 }
-.rc-read {
+.rc-more {
+  all: unset;
   flex-basis: 100%;
+  cursor: pointer;
+  font: 600 0.875rem/1.6 var(--font-sans);
   color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.rc-more:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+.rc-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px 32px;
+  margin: 16px 0 4px 42px;
+  padding: 20px 24px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+.rc-body.shut {
+  display: none;
+}
+.rc-h4 {
+  margin: 0 0 8px;
+  font: 600 0.8125rem/1.3 var(--font-sans);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.rc-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.rc-step {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 10px;
+  cursor: pointer;
+  font-size: 0.9875rem;
+  line-height: 1.45;
+}
+.rc-step input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.rc-box.sm {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  border-width: 1.5px;
+  margin-top: 2px;
+}
+.rc-step input:focus-visible + .rc-box {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.rc-step input:checked + .rc-box {
+  background: var(--ink)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d6ff3f' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E")
+    center / 13px no-repeat;
+}
+.rc-step-text.done {
+  color: var(--ink-muted);
+  text-decoration: line-through;
+}
+.rc-facts {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 10px 14px;
+  align-content: start;
+  font-size: 0.9875rem;
+  line-height: 1.45;
+}
+.rc-facts dt {
+  font-weight: 600;
+}
+.rc-facts dd {
+  margin: 0;
+}
+.rc-where {
+  color: var(--ink-muted);
+}
+.rc-reads {
+  display: grid;
+  gap: 4px;
+  justify-items: start;
+}
+.rc-phase-note {
+  margin: 6px 0 0;
+  font-size: 0.9375rem;
+  color: var(--ink-muted);
+  max-width: 640px;
+}
+.rc-phase.setup {
+  opacity: 0.95;
+}
+.rc-deliverables {
+  max-width: 1040px;
+  margin: 24px 0 64px;
+  padding-top: 32px;
+  border-top: 1.5px solid currentColor;
+}
+.rc-folders {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 24px 32px;
+  margin-top: 28px;
+}
+.rc-folder-h {
+  margin: 0 0 8px;
+  font: 600 1rem/1.3 var(--font-sans);
+}
+.rc-folder ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--ink-muted);
 }
 @media (max-width: 760px) {
-  .rc-task {
+  .rc-row,
+  .rc-body {
     grid-template-columns: 1fr;
+  }
+  .rc-body {
+    margin-left: 0;
+    padding: 16px;
   }
   .rc-meta {
     padding-left: 42px;
@@ -2619,8 +2750,24 @@ a.tile svg,
 @media print {
   .rc-tools,
   .rc-note,
-  .rc-read {
+  .rc-more,
+  .rc-reads,
+  .rc-facts dt:has(+ .rc-reads) {
     display: none !important;
+  }
+  .rc-body {
+    background: none;
+    padding: 6px 0 0;
+    margin: 4px 0 0 28px;
+    gap: 6px 24px;
+    font-size: 9pt;
+  }
+  .rc-facts,
+  .rc-step {
+    font-size: 9pt;
+  }
+  .rc-folder ul {
+    color: #000;
   }
   .rc-phase {
     margin-bottom: 24px;
@@ -2637,6 +2784,8 @@ a.tile svg,
   }
   .rc-task {
     padding: 8px 0;
+  }
+  .rc-row {
     grid-template-columns: minmax(0, 1fr) 200px;
   }
   .rc-box {
@@ -2656,14 +2805,17 @@ a.tile svg,
     font-size: 9pt;
     color: #000;
   }
-  .rc-tag {
-    background: #fff !important;
-    border: 1px solid #000;
+  /* browsers drop backgrounds when printing, so the labels use borders */
+  .rc-tag,
+  .rc-tag.ess,
+  .rc-tag.opt {
+    background: none !important;
     color: #000;
+    border: 1px dashed #000;
   }
   .rc-tag.ess {
-    background: #000 !important;
-    color: #fff;
+    border: 2px solid #000;
+    font-weight: 800;
   }
 }
 .rc-feature {

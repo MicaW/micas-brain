@@ -4,7 +4,8 @@ import data from '../content/retreat-checklist.json';
 import { stages, topicById } from '../lib.js';
 
 // Ticks stay on this device only. Storage can be missing or blocked, so every read and write is guarded.
-const KEY = 'retreat-checklist-v1';
+// v2: the cards were rewritten, so ticks from the first version no longer match.
+const KEY = 'retreat-checklist-v2';
 function loadTicks() {
   try {
     return JSON.parse(localStorage.getItem(KEY) || '{}');
@@ -16,25 +17,111 @@ function saveTicks(ticks) {
   try {
     localStorage.setItem(KEY, JSON.stringify(ticks));
   } catch {
-    /* nothing to do: the page still works, it just forgets */
+    /* the page still works, it just forgets */
   }
+}
+
+function Card({ task, ticks, toggle, open, setOpen }) {
+  const done = !!ticks[task.id];
+  const topics = task.topics.map(topicById).filter(Boolean);
+  const bodyId = `rc-body-${task.id}`;
+  return (
+    <li className={done ? 'rc-task done' : 'rc-task'}>
+      <div className="rc-row">
+        <label className="rc-check">
+          <input type="checkbox" checked={done} onChange={() => toggle(task.id)} />
+          <span className="rc-box" aria-hidden="true" />
+          <span className="rc-text">
+            <span className="rc-title">{task.title}</span>
+            <span className="rc-detail">{task.why}</span>
+          </span>
+        </label>
+        <div className="rc-meta">
+          <span className={task.essential ? 'rc-tag ess' : 'rc-tag opt'}>{task.essential ? 'Essential' : 'Consider'}</span>
+          <span>Who: {task.owner}</span>
+          <span>{task.workstream}</span>
+          <button type="button" className="rc-more" aria-expanded={open} aria-controls={bodyId} onClick={() => setOpen(!open)}>
+            {open ? 'Close card' : 'Open card'}
+          </button>
+        </div>
+      </div>
+      <div id={bodyId} className={open ? 'rc-body' : 'rc-body shut'}>
+        <div>
+          <h4 className="rc-h4">Steps</h4>
+          <ul className="rc-steps">
+            {task.steps.map((step, i) => {
+              const key = `${task.id}:${i}`;
+              return (
+                <li key={key}>
+                  <label className="rc-step">
+                    <input type="checkbox" checked={!!ticks[key]} onChange={() => toggle(key)} />
+                    <span className="rc-box sm" aria-hidden="true" />
+                    <span className={ticks[key] ? 'rc-step-text done' : 'rc-step-text'}>{step}</span>
+                  </label>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <dl className="rc-facts">
+          <dt>Done when</dt>
+          <dd>{task.done}</dd>
+          {task.deliverable && (
+            <>
+              <dt>Makes</dt>
+              <dd>
+                {task.deliverable}
+                {task.where && <span className="rc-where">, in {task.where}</span>}
+              </dd>
+            </>
+          )}
+          {task.tools.length > 0 && (
+            <>
+              <dt>Tools</dt>
+              <dd>{task.tools.join(', ')}</dd>
+            </>
+          )}
+          {topics.length > 0 && (
+            <>
+              <dt>Read</dt>
+              <dd className="rc-reads">
+                {topics.map((t) => (
+                  <Link key={t.id} className="txt" to={t.path}>
+                    {t.title}
+                  </Link>
+                ))}
+              </dd>
+            </>
+          )}
+        </dl>
+      </div>
+    </li>
+  );
 }
 
 export default function RetreatChecklist() {
   const [ticks, setTicks] = useState(loadTicks);
   const [stream, setStream] = useState('All');
   const [essentialOnly, setEssentialOnly] = useState(false);
+  const [opened, setOpened] = useState({});
   useEffect(() => saveTicks(ticks), [ticks]);
 
   const toggle = (id) => setTicks((t) => ({ ...t, [id]: !t[id] }));
   const clearAll = () => {
     if (window.confirm('Clear every tick on this checklist?')) setTicks({});
   };
+  const allOpen = data.tasks.every((t) => opened[t.id]);
+  const openAll = () => setOpened(allOpen ? {} : Object.fromEntries(data.tasks.map((t) => [t.id, true])));
 
   const shown = useMemo(
     () => data.tasks.filter((t) => (stream === 'All' || t.workstream === stream) && (!essentialOnly || t.essential)),
     [stream, essentialOnly],
   );
+
+  // What a retreat produces, grouped by the folder it lives in.
+  const byFolder = data.folders
+    .map((folder) => ({ folder, items: [...new Set(data.tasks.filter((t) => t.where === folder).map((t) => t.deliverable))] }))
+    .filter((g) => g.items.length);
 
   return (
     <>
@@ -52,8 +139,8 @@ export default function RetreatChecklist() {
           {data.title}
         </h1>
         <p className="lead">{data.lead}</p>
-        <p className="rc-note">Your ticks are kept in this browser on this device.</p>
-      <div className="rc-tools" role="group" aria-label="Filter the checklist">
+        <p className="rc-note">Your ticks are kept in this browser on this device. Print shows the cards you have open, so open all cards first for the full version.</p>
+        <div className="rc-tools" role="group" aria-label="Filter the checklist">
           <div className="rc-chips">
             {['All', ...data.workstreams].map((w) => (
               <button key={w} type="button" className="chip" aria-pressed={stream === w} onClick={() => setStream(w)}>
@@ -65,6 +152,9 @@ export default function RetreatChecklist() {
             <button type="button" className="chip" aria-pressed={essentialOnly} onClick={() => setEssentialOnly((v) => !v)}>
               Essentials only
             </button>
+            <button type="button" className="chip" onClick={openAll}>
+              {allOpen ? 'Close all cards' : 'Open all cards'}
+            </button>
             <button type="button" className="chip" onClick={() => window.print()}>
               Print
             </button>
@@ -73,7 +163,6 @@ export default function RetreatChecklist() {
             </button>
           </div>
         </div>
-
         <p className="rc-key" aria-label="Key">
           <span className="rc-tag ess">Essential</span>
           <span className="rc-key-text">do it for every retreat</span>
@@ -86,51 +175,49 @@ export default function RetreatChecklist() {
         {data.phases.map((phase, i) => {
           const tasks = shown.filter((t) => t.phase === phase.id);
           if (!tasks.length) return null;
+          const setup = phase.id === 'setup';
           return (
-            <section className="rc-phase" key={phase.id} aria-labelledby={`h-${phase.id}`}>
+            <section className={setup ? 'rc-phase setup' : 'rc-phase'} key={phase.id} aria-labelledby={`h-${phase.id}`}>
               <header className="rc-phase-head">
-                <span className="sd rc-disc" style={{ background: stages[i % stages.length].color }} aria-hidden="true">
-                  {i + 1}
+                <span className="sd rc-disc" style={{ background: setup ? 'var(--surface-2)' : stages[(i - 1) % stages.length].color }} aria-hidden="true">
+                  {i}
                 </span>
                 <div>
                   <p className="rc-when">{phase.when}</p>
                   <h2 id={`h-${phase.id}`} className="rc-h2">
                     {phase.name}
                   </h2>
+                  {phase.note && <p className="rc-phase-note">{phase.note}</p>}
                 </div>
               </header>
               <ul className="rc-list">
-                {tasks.map((task) => {
-                  const topic = task.topic && topicById(task.topic);
-                  const done = !!ticks[task.id];
-                  return (
-                    <li key={task.id} className={done ? 'rc-task done' : 'rc-task'}>
-                      <label className="rc-check">
-                        <input type="checkbox" checked={done} onChange={() => toggle(task.id)} />
-                        <span className="rc-box" aria-hidden="true" />
-                        <span className="rc-text">
-                          <span className="rc-title">{task.title}</span>
-                          <span className="rc-detail">{task.detail}</span>
-                        </span>
-                      </label>
-                      <div className="rc-meta">
-                        <span className={task.essential ? 'rc-tag ess' : 'rc-tag opt'}>{task.essential ? 'Essential' : 'Consider'}</span>
-                        <span>Who: {task.owner}</span>
-                        <span>{task.workstream}</span>
-                        {topic && (
-                          <Link className="txt rc-read" to={topic.path}>
-                            Read: {topic.title}
-                          </Link>
-                        )}
-                      </div>
-                    </li>
-                  );
-                })}
+                {tasks.map((task) => (
+                  <Card key={task.id} task={task} ticks={ticks} toggle={toggle} open={!!opened[task.id]} setOpen={(v) => setOpened((o) => ({ ...o, [task.id]: v }))} />
+                ))}
               </ul>
             </section>
           );
         })}
       </div>
+
+      <section className="rc-deliverables" aria-labelledby="h-deliv">
+        <h2 id="h-deliv" className="rc-h2">
+          What you end up with, and where it lives
+        </h2>
+        <p className="rc-phase-note">One shared folder per retreat, with these numbered folders inside. Keep the restricted folder to yourself.</p>
+        <div className="rc-folders">
+          {byFolder.map(({ folder, items }) => (
+            <div key={folder} className="rc-folder">
+              <h3 className="rc-folder-h">{folder}</h3>
+              <ul>
+                {items.map((name) => (
+                  <li key={name}>{name}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 }
