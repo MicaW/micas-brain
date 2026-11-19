@@ -2,7 +2,7 @@
 
 A personal handbook on the science of learning and how to deliver training. It is written practice first: each topic says what to do, then why it works and where that comes from.
 
-Live site: https://micaw.github.io/mybrain-training/
+Live site: https://micaw.github.io/micas-brain/
 
 Built with React, Vite and React Router. No UI framework. Styles are plain CSS on variables generated from the design tokens. Both typefaces (Bricolage Grotesque, Hanken Grotesk) are self-hosted through Fontsource.
 
