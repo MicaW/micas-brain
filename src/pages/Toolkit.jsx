@@ -383,13 +383,28 @@ export function Templates() {
         </h1>
         <p className="lead">Working documents you fill in for a real piece of work. Each one says what it is for, what goes under each heading, and shows one filled in.</p>
       </section>
-      <Link className="tile hub-tile lime s12 onp rc-feature" to="/toolkit/templates/retreat-checklist">
-        <div>
-          <h2>Retreat planning checklist</h2>
-          <p>Every task to do or consider for a training retreat, in order from the first conversation to the ninety-day check. Tick it off as you go, or print it.</p>
+      <section className="rc-feature-wrap" aria-labelledby="h-plan">
+        <h2 id="h-plan" className="rc-feature-h">
+          Planning checklists
+        </h2>
+        <p className="rc-feature-lead">Every task in order, from the first conversation to the follow-up, as cards you can tick off or move to a board.</p>
+        <div className="rc-feature-grid">
+          {[
+            ['retreat-client', 'Retreat for a client', 'A tailored retreat for one organisation.', 'lime'],
+            ['retreat-product', 'Retreat you sell', 'An open retreat you fill with individual bookings.', 'orange'],
+            ['course-client', 'Short course for a client', 'A day or less, face to face, for one organisation.', 'lilac'],
+            ['course-product', 'Short course you sell', 'A day or less, face to face, sold to individuals.', 'aqua'],
+          ].map(([slug, name, text, tone]) => (
+            <Link key={slug} className={`tile hub-tile ${tone} onp rc-feature`} to={`/toolkit/templates/checklists/${slug}`}>
+              <div>
+                <h3>{name}</h3>
+                <p>{text}</p>
+              </div>
+              <Arrow />
+            </Link>
+          ))}
         </div>
-        <Arrow />
-      </Link>
+      </section>
       <div className="tpl-list">
         {list.map((t) => (
           <details className="tpl-item" key={t.name}>

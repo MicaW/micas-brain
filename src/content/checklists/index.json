@@ -1,0 +1,18 @@
+[
+ {
+  "slug": "retreat-client",
+  "short": "Retreat for a client"
+ },
+ {
+  "slug": "retreat-product",
+  "short": "Retreat you sell"
+ },
+ {
+  "slug": "course-client",
+  "short": "Short course for a client"
+ },
+ {
+  "slug": "course-product",
+  "short": "Short course you sell"
+ }
+]

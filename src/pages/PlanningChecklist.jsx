@@ -1,21 +1,28 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
-import data from '../content/retreat-checklist.json';
+import { Link, useParams } from 'react-router-dom';
+import retreatClient from '../content/checklists/retreat-client.json';
+import retreatProduct from '../content/checklists/retreat-product.json';
+import courseClient from '../content/checklists/course-client.json';
+import courseProduct from '../content/checklists/course-product.json';
 import { stages, topicById } from '../lib.js';
+import NotFound from './NotFound.jsx';
+
+export const CHECKLISTS = [retreatClient, retreatProduct, courseClient, courseProduct];
+export const checklistPath = (slug) => `/toolkit/templates/checklists/${slug}`;
 
 // Ticks stay on this device only. Storage can be missing or blocked, so every read and write is guarded.
-// v2: the cards were rewritten, so ticks from the first version no longer match.
-const KEY = 'retreat-checklist-v2';
-function loadTicks() {
+// v3: each checklist keeps its own ticks, and the cards changed again.
+const keyFor = (slug) => `checklist-${slug}-v3`;
+function loadTicks(slug) {
   try {
-    return JSON.parse(localStorage.getItem(KEY) || '{}');
+    return JSON.parse(localStorage.getItem(keyFor(slug)) || '{}');
   } catch {
     return {};
   }
 }
-function saveTicks(ticks) {
+function saveTicks(slug, ticks) {
   try {
-    localStorage.setItem(KEY, JSON.stringify(ticks));
+    localStorage.setItem(keyFor(slug), JSON.stringify(ticks));
   } catch {
     /* the page still works, it just forgets */
   }
@@ -37,6 +44,7 @@ function Card({ task, ticks, toggle, open, setOpen }) {
           </span>
         </label>
         <div className="rc-meta">
+          {task.checkpoint && <span className="rc-tag chk">Checkpoint</span>}
           <span className={task.essential ? 'rc-tag ess' : 'rc-tag opt'}>{task.essential ? 'Essential' : 'Consider'}</span>
           <span>Who: {task.owner}</span>
           <span>{task.workstream}</span>
@@ -99,12 +107,20 @@ function Card({ task, ticks, toggle, open, setOpen }) {
   );
 }
 
-export default function RetreatChecklist() {
-  const [ticks, setTicks] = useState(loadTicks);
+export default function PlanningChecklist({ slug: fixedSlug }) {
+  const params = useParams();
+  const data = CHECKLISTS.find((c) => c.slug === (fixedSlug || params.slug));
+  if (!data) return <NotFound />;
+  return <Checklist key={data.slug} data={data} />;
+}
+
+function Checklist({ data }) {
+  const [ticks, setTicks] = useState(() => loadTicks(data.slug));
   const [stream, setStream] = useState('All');
   const [essentialOnly, setEssentialOnly] = useState(false);
+  const [checkpointsOnly, setCheckpointsOnly] = useState(false);
   const [opened, setOpened] = useState({});
-  useEffect(() => saveTicks(ticks), [ticks]);
+  useEffect(() => saveTicks(data.slug, ticks), [data.slug, ticks]);
 
   const toggle = (id) => setTicks((t) => ({ ...t, [id]: !t[id] }));
   const clearAll = () => {
@@ -114,8 +130,11 @@ export default function RetreatChecklist() {
   const openAll = () => setOpened(allOpen ? {} : Object.fromEntries(data.tasks.map((t) => [t.id, true])));
 
   const shown = useMemo(
-    () => data.tasks.filter((t) => (stream === 'All' || t.workstream === stream) && (!essentialOnly || t.essential)),
-    [stream, essentialOnly],
+    () =>
+      data.tasks.filter(
+        (t) => (stream === 'All' || t.workstream === stream) && (!essentialOnly || t.essential) && (!checkpointsOnly || t.checkpoint),
+      ),
+    [data, stream, essentialOnly, checkpointsOnly],
   );
 
   // What a retreat produces, grouped by the folder it lives in.
@@ -138,6 +157,13 @@ export default function RetreatChecklist() {
         <h1 id="h-detail" className="detail-h1">
           {data.title}
         </h1>
+        <nav className="rc-switch" aria-label="Other planning checklists">
+          {CHECKLISTS.map((c) => (
+            <Link key={c.slug} className="chip" to={checklistPath(c.slug)} aria-current={c.slug === data.slug ? 'page' : undefined}>
+              {c.short}
+            </Link>
+          ))}
+        </nav>
         <p className="lead">{data.lead}</p>
         <p className="rc-note">Your ticks are kept in this browser on this device. Print shows the cards you have open, so open all cards first for the full version.</p>
         <div className="rc-tools" role="group" aria-label="Filter the checklist">
@@ -152,6 +178,9 @@ export default function RetreatChecklist() {
             <button type="button" className="chip" aria-pressed={essentialOnly} onClick={() => setEssentialOnly((v) => !v)}>
               Essentials only
             </button>
+            <button type="button" className="chip" aria-pressed={checkpointsOnly} onClick={() => setCheckpointsOnly((v) => !v)}>
+              Checkpoints only
+            </button>
             <button type="button" className="chip" onClick={openAll}>
               {allOpen ? 'Close all cards' : 'Open all cards'}
             </button>
@@ -165,9 +194,11 @@ export default function RetreatChecklist() {
         </div>
         <p className="rc-key" aria-label="Key">
           <span className="rc-tag ess">Essential</span>
-          <span className="rc-key-text">do it for every retreat</span>
+          <span className="rc-key-text">do it every time</span>
           <span className="rc-tag opt">Consider</span>
-          <span className="rc-key-text">depends on the retreat</span>
+          <span className="rc-key-text">depends on the event</span>
+          <span className="rc-tag chk">Checkpoint</span>
+          <span className="rc-key-text">a sign-off or decision before you move on</span>
         </p>
       </section>
 
@@ -204,7 +235,7 @@ export default function RetreatChecklist() {
         <h2 id="h-deliv" className="rc-h2">
           What you end up with, and where it lives
         </h2>
-        <p className="rc-phase-note">One shared folder per retreat, with these numbered folders inside. Keep the restricted folder to yourself.</p>
+        <p className="rc-phase-note">One shared folder for each event, with these numbered folders inside. Keep the restricted folder to yourself.</p>
         <div className="rc-folders">
           {byFolder.map(({ folder, items }) => (
             <div key={folder} className="rc-folder">

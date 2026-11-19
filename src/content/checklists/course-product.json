@@ -1,0 +1,1188 @@
+{
+ "slug": "course-product",
+ "short": "Short course you sell",
+ "title": "Planning a short course you sell",
+ "lead": "Every task for an open face-to-face course of a day or less, sold to individuals. Most of the risk is in filling the room, so the offer, the price and the sales checkpoints come first.",
+ "phases": [
+  {
+   "id": "setup",
+   "name": "Set up once",
+   "when": "Before your first course, then review each year",
+   "note": "Not repeated every time. Do these once and keep them up to date."
+  },
+  {
+   "id": "shape",
+   "name": "Shape the offer",
+   "when": "Three to six months before",
+   "note": null
+  },
+  {
+   "id": "launch",
+   "name": "Book and launch",
+   "when": "Two to four months before",
+   "note": null
+  },
+  {
+   "id": "sell",
+   "name": "Sell",
+   "when": "From launch until it is full",
+   "note": "Review sales at fixed points, not every day."
+  },
+  {
+   "id": "design",
+   "name": "Design the course",
+   "when": "Four to eight weeks before",
+   "note": null
+  },
+  {
+   "id": "prepare",
+   "name": "Prepare",
+   "when": "One to two weeks before",
+   "note": null
+  },
+  {
+   "id": "day",
+   "name": "On the day",
+   "when": "The day itself",
+   "note": null
+  },
+  {
+   "id": "after",
+   "name": "Straight after",
+   "when": "The first two weeks",
+   "note": null
+  },
+  {
+   "id": "later",
+   "name": "Follow up",
+   "when": "Thirty days after, and before the next date",
+   "note": null
+  }
+ ],
+ "workstreams": [
+  "Business and money",
+  "Sales and marketing",
+  "Design",
+  "Venue and travel",
+  "People and safety",
+  "Communication",
+  "Evaluation"
+ ],
+ "folders": [
+  "01 Offer and money",
+  "02 Sales and marketing",
+  "03 Design and materials",
+  "04 People (restricted)",
+  "05 On the day",
+  "06 Feedback and close",
+  "Business (not per course)"
+ ],
+ "tasks": [
+  {
+   "phase": "setup",
+   "title": "Arrange business insurance",
+   "why": "Venues, clients and activity providers will ask for it.",
+   "steps": [
+    "Public liability cover",
+    "Professional indemnity cover",
+    "Check outdoor and movement activities are covered",
+    "Note the renewal date in your calendar"
+   ],
+   "checkpoint": false,
+   "deliverable": "Insurance certificates",
+   "where": "Business (not per course)",
+   "done": "Certificates saved, and the cover matches every kind of activity you run.",
+   "tools": [
+    "Insurance broker",
+    "Google Drive",
+    "Google Calendar"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-b3-n3-06"
+   ],
+   "id": "setup-01"
+  },
+  {
+   "phase": "setup",
+   "title": "Write your booking terms",
+   "why": "Selling to the public brings consumer law into play.",
+   "steps": [
+    "Payment schedule: deposit and balance date",
+    "Cancellation and refunds, by you and by the guest",
+    "Transfers to another date or another person",
+    "What happens if numbers are too low",
+    "Check consumer law on cancellation rights with a legal professional, especially for bookings made online"
+   ],
+   "checkpoint": false,
+   "deliverable": "Booking terms",
+   "where": "Business (not per course)",
+   "done": "A legal professional has reviewed them and they are on the booking page.",
+   "tools": [
+    "Google Docs",
+    "Solicitor"
+   ],
+   "workstream": "Business and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g21",
+    "s9-g26"
+   ],
+   "id": "setup-02"
+  },
+  {
+   "phase": "setup",
+   "title": "Set up bookings and payments",
+   "why": "People should be able to book and pay in one go.",
+   "steps": [
+    "A booking page with dates, price and what is included",
+    "Card payments, deposits and balance reminders",
+    "A booking form that collects only what you need",
+    "Automatic confirmation emails"
+   ],
+   "checkpoint": false,
+   "deliverable": "Booking and payment system",
+   "where": "Business (not per course)",
+   "done": "You have made a test booking from start to finish.",
+   "tools": [
+    "Booking platform",
+    "Payment provider"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g26"
+   ],
+   "id": "setup-03"
+  },
+  {
+   "phase": "setup",
+   "title": "Build a mailing list with consent",
+   "why": "Your past guests and interested people are your cheapest sales.",
+   "steps": [
+    "A sign-up form with clear consent to marketing emails",
+    "Only email people who have opted in",
+    "An easy way to unsubscribe"
+   ],
+   "checkpoint": false,
+   "deliverable": "Mailing list",
+   "where": "Business (not per course)",
+   "done": "The sign-up works and every contact has given consent.",
+   "tools": [
+    "Email marketing tool"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g22"
+   ],
+   "id": "setup-04"
+  },
+  {
+   "phase": "shape",
+   "title": "Define who it is for",
+   "why": "A retreat for everyone sells to no one.",
+   "steps": [
+    "The people it is for, and the problem it helps with",
+    "Who it is not for",
+    "Where those people already gather and listen"
+   ],
+   "checkpoint": false,
+   "deliverable": "Audience note",
+   "where": "01 Offer and money",
+   "done": "You can describe the ideal guest in two sentences.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-b3-n3-01"
+   ],
+   "id": "shape-01"
+  },
+  {
+   "phase": "shape",
+   "title": "Write the promise",
+   "why": "What people will do and leave with, stated honestly.",
+   "steps": [
+    "What people will be able to do by the end of the day",
+    "Who it is for and who it is not for",
+    "No claims you cannot support"
+   ],
+   "checkpoint": false,
+   "deliverable": "Offer statement",
+   "where": "01 Offer and money",
+   "done": "A friend in the target audience can repeat it back accurately.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-t01",
+    "s9-g06"
+   ],
+   "id": "shape-02"
+  },
+  {
+   "phase": "shape",
+   "title": "Test demand before you commit",
+   "why": "Find out whether people will pay before you book a room.",
+   "steps": [
+    "Talk to eight to ten people in the audience",
+    "Share the idea with your mailing list and count replies",
+    "Open a waiting list or take refundable deposits",
+    "Set a number that tells you to go ahead"
+   ],
+   "checkpoint": false,
+   "deliverable": "Demand test results",
+   "where": "01 Offer and money",
+   "done": "You have the number you set, or have decided to change the offer.",
+   "tools": [
+    "Google Forms",
+    "Email marketing tool"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-b3-n3-01"
+   ],
+   "id": "shape-03"
+  },
+  {
+   "phase": "shape",
+   "title": "Choose the date and place",
+   "why": "Make it easy to get to and easy to say yes to.",
+   "steps": [
+    "A weekday or weekend, depending on who it is for",
+    "Avoid school holidays and busy periods",
+    "A place near good transport"
+   ],
+   "checkpoint": false,
+   "deliverable": "Date and place options",
+   "where": "01 Offer and money",
+   "done": "Date chosen and two possible rooms found.",
+   "tools": [
+    "Google Calendar"
+   ],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "shape-04"
+  },
+  {
+   "phase": "shape",
+   "title": "Set capacity and minimum numbers",
+   "why": "Know the most you can hold and the fewest you can run with.",
+   "steps": [
+    "Maximum for the venue and the design",
+    "Minimum to break even",
+    "Minimum to run well as a group",
+    "The date by which you decide"
+   ],
+   "checkpoint": false,
+   "deliverable": "Numbers in the budget",
+   "where": "01 Offer and money",
+   "done": "Maximum, minimum and the decision date are written down.",
+   "tools": [
+    "Google Sheets"
+   ],
+   "workstream": "Business and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "shape-05"
+  },
+  {
+   "phase": "shape",
+   "title": "Build the budget and break-even",
+   "why": "Price it so it pays even if it does not sell out.",
+   "steps": [
+    "Room hire and catering",
+    "Your time and any co-trainer",
+    "Marketing",
+    "Materials per person",
+    "Break-even number of people"
+   ],
+   "checkpoint": false,
+   "deliverable": "Budget and break-even sheet",
+   "where": "01 Offer and money",
+   "done": "You know how many guests you need to break even and to make your margin.",
+   "tools": [
+    "Google Sheets"
+   ],
+   "workstream": "Business and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b3-n1-09",
+    "s8-b2-s8-07"
+   ],
+   "id": "shape-06"
+  },
+  {
+   "phase": "shape",
+   "title": "Set prices and ticket types",
+   "why": "Price for the people you want, and make it simple.",
+   "steps": [
+    "Full price and an early-bird price with an end date",
+    "Any group or employer rate",
+    "Show prices to the public including VAT"
+   ],
+   "checkpoint": false,
+   "deliverable": "Price list",
+   "where": "01 Offer and money",
+   "done": "Prices are set, include VAT, and still beat break-even.",
+   "tools": [
+    "Google Sheets"
+   ],
+   "workstream": "Business and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b3-n1-09",
+    "s9-b3-n3-05"
+   ],
+   "id": "shape-07"
+  },
+  {
+   "phase": "shape",
+   "title": "Decide to go ahead",
+   "why": "Commit only when the demand test and the numbers both say yes.",
+   "steps": [
+    "Demand test met",
+    "Break-even is realistic",
+    "You have the time to sell it"
+   ],
+   "checkpoint": true,
+   "deliverable": "Go-ahead decision",
+   "where": "01 Offer and money",
+   "done": "Decision written down, with the reason.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Business and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "shape-08"
+  },
+  {
+   "phase": "launch",
+   "title": "Book the room",
+   "why": "Book a room you can cancel or move if numbers are low.",
+   "steps": [
+    "Space to move, natural light and walls you can use",
+    "Screen, sound and wifi",
+    "Catering and dietary needs",
+    "Step-free access",
+    "Cancellation terms and dates"
+   ],
+   "checkpoint": false,
+   "deliverable": "Room booking",
+   "where": "01 Offer and money",
+   "done": "Room booked and the cancellation date is on the board.",
+   "tools": [
+    "Gmail"
+   ],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b2-s8-05"
+   ],
+   "id": "launch-01"
+  },
+  {
+   "phase": "launch",
+   "title": "Build the booking page",
+   "why": "Everything a guest needs to decide and book.",
+   "steps": [
+    "What people will be able to do, and who it is for",
+    "Date, time, place, price and what is included",
+    "The outline of the day",
+    "Access and food",
+    "Booking terms and a privacy note"
+   ],
+   "checkpoint": false,
+   "deliverable": "Booking page",
+   "where": "02 Sales and marketing",
+   "done": "Live, tested on a phone, and a test booking has gone through.",
+   "tools": [
+    "Booking platform",
+    "Canva"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g06",
+    "s9-g26"
+   ],
+   "id": "launch-02"
+  },
+  {
+   "phase": "launch",
+   "title": "Plan the marketing",
+   "why": "Decide where the guests will come from before you launch.",
+   "steps": [
+    "Your mailing list and past guests",
+    "Social media and content",
+    "Partners who reach the same people",
+    "Referrals from past guests",
+    "A weekly sales target to the full date"
+   ],
+   "checkpoint": false,
+   "deliverable": "Marketing plan and sales targets",
+   "where": "02 Sales and marketing",
+   "done": "Each channel has an owner and a weekly target.",
+   "tools": [
+    "Google Sheets",
+    "Notion"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g06",
+    "s9-b3-n3-03"
+   ],
+   "id": "launch-03"
+  },
+  {
+   "phase": "launch",
+   "title": "Agree the sales checkpoints",
+   "why": "Fixed dates to check sales, so you act in time.",
+   "steps": [
+    "Launch",
+    "Early-bird end",
+    "Four weeks and two weeks before",
+    "The minimum-numbers decision date",
+    "What you will do if sales are behind"
+   ],
+   "checkpoint": false,
+   "deliverable": "Checkpoint dates on the board",
+   "where": "02 Sales and marketing",
+   "done": "Each checkpoint has a date and a target.",
+   "tools": [
+    "Notion",
+    "Google Calendar"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "launch-04"
+  },
+  {
+   "phase": "sell",
+   "title": "Launch to your list first",
+   "why": "The people who already know you book first.",
+   "steps": [
+    "Email the waiting list and past guests before anyone else",
+    "Give them early access or the early-bird price",
+    "Then launch publicly"
+   ],
+   "checkpoint": false,
+   "deliverable": "Launch emails",
+   "where": "02 Sales and marketing",
+   "done": "Launch emails sent, and first bookings recorded.",
+   "tools": [
+    "Email marketing tool"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g26"
+   ],
+   "id": "sell-01"
+  },
+  {
+   "phase": "sell",
+   "title": "Run the marketing",
+   "why": "Steady, honest promotion until the retreat is full.",
+   "steps": [
+    "Post and send to the plan",
+    "Answer every enquiry within a day",
+    "Share stories and testimonials only with consent",
+    "Avoid claims you cannot support, especially about the brain or health"
+   ],
+   "checkpoint": false,
+   "deliverable": "Marketing posts and emails",
+   "where": "02 Sales and marketing",
+   "done": "Every planned piece has gone out, and enquiries are answered.",
+   "tools": [
+    "Social media",
+    "Email marketing tool",
+    "Canva"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g06",
+    "s9-g24"
+   ],
+   "id": "sell-02"
+  },
+  {
+   "phase": "sell",
+   "title": "Review sales at each checkpoint",
+   "why": "Act early if sales are behind.",
+   "steps": [
+    "Bookings against the target",
+    "Which channels are working",
+    "Adjust: more promotion, partners, or a change of date"
+   ],
+   "checkpoint": true,
+   "deliverable": "Sales review notes",
+   "where": "02 Sales and marketing",
+   "done": "Each checkpoint has a written decision.",
+   "tools": [
+    "Google Sheets"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "sell-03"
+  },
+  {
+   "phase": "design",
+   "title": "Write the session plan",
+   "why": "The whole day, slot by slot.",
+   "steps": [
+    "Objective for each part",
+    "Hardest work when energy is highest",
+    "Activities, timings and breaks",
+    "Recall points through the day",
+    "What to cut if time runs short"
+   ],
+   "checkpoint": false,
+   "deliverable": "Session plan",
+   "where": "03 Design and materials",
+   "done": "Every slot has an activity, a timing and its materials.",
+   "tools": [
+    "Google Docs",
+    "Google Sheets"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s2-t09",
+    "s2-t06"
+   ],
+   "id": "design-01"
+  },
+  {
+   "phase": "design",
+   "title": "Design the before and after",
+   "why": "A one-day course lasts longer with a little before and after.",
+   "steps": [
+    "A welcome email with one short pre-task",
+    "Reminders at one and three weeks",
+    "An optional follow-up call"
+   ],
+   "checkpoint": false,
+   "deliverable": "Before and after plan",
+   "where": "03 Design and materials",
+   "done": "Every email and call has a date.",
+   "tools": [
+    "Email marketing tool"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s2-t05",
+    "s5-t04"
+   ],
+   "id": "design-02"
+  },
+  {
+   "phase": "design",
+   "title": "Design for everyone",
+   "why": "Check the design works for the whole group, not the typical person.",
+   "steps": [
+    "Access needs in the room and the activities",
+    "Different minds: clear instructions, quiet options, choice",
+    "Dietary and caring needs",
+    "Accessible materials: readable type, captions"
+   ],
+   "checkpoint": false,
+   "deliverable": "Inclusion notes",
+   "where": "03 Design and materials",
+   "done": "Each known need has an answer in the plan.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b2-s8-10"
+   ],
+   "id": "design-03"
+  },
+  {
+   "phase": "design",
+   "title": "Plan the feedback and testimonials",
+   "why": "You need honest feedback, and stories you are allowed to use.",
+   "steps": [
+    "A short feedback form for the last session",
+    "A separate question asking permission to quote",
+    "A follow-up question at thirty days on what changed"
+   ],
+   "checkpoint": false,
+   "deliverable": "Feedback and consent forms",
+   "where": "06 Feedback and close",
+   "done": "Forms are built and tested.",
+   "tools": [
+    "Google Forms"
+   ],
+   "workstream": "Evaluation",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s6-g02",
+    "s9-g24"
+   ],
+   "id": "design-04"
+  },
+  {
+   "phase": "design",
+   "title": "Make the materials",
+   "why": "Everything people see, hold or take away.",
+   "steps": [
+    "Slides and handouts",
+    "Workbook or cards",
+    "Flipcharts drawn in advance",
+    "Name badges and signs",
+    "Proofread everything"
+   ],
+   "checkpoint": false,
+   "deliverable": "Materials",
+   "where": "03 Design and materials",
+   "done": "Everything is proofread and on the print list.",
+   "tools": [
+    "Google Slides",
+    "Canva",
+    "Printer"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s3-b2-s23-03"
+   ],
+   "id": "design-05"
+  },
+  {
+   "phase": "design",
+   "title": "Prepare certificates",
+   "why": "Some people need proof of attendance for their employer.",
+   "steps": [
+    "A simple certificate with the course name, date and hours",
+    "Send them the week after"
+   ],
+   "checkpoint": false,
+   "deliverable": "Certificate template",
+   "where": "03 Design and materials",
+   "done": "Template ready.",
+   "tools": [
+    "Canva"
+   ],
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": false,
+   "topics": [],
+   "id": "design-06"
+  },
+  {
+   "phase": "design",
+   "title": "Rehearse the hard sessions",
+   "why": "Timings and hand-overs go wrong when untested.",
+   "steps": [
+    "Run the trickiest sessions with the team",
+    "Check timings",
+    "Agree who does what"
+   ],
+   "checkpoint": false,
+   "deliverable": null,
+   "where": null,
+   "done": "The team has run through every session that is new or high-stakes.",
+   "tools": [
+    "Google Meet"
+   ],
+   "workstream": "Design",
+   "owner": "You and team",
+   "essential": false,
+   "topics": [],
+   "id": "design-07"
+  },
+  {
+   "phase": "prepare",
+   "title": "Hold the go/no-go check",
+   "why": "Decide on numbers by the date you set, while refunds and venue terms still allow it.",
+   "steps": [
+    "Bookings against the minimum",
+    "If you cancel: refund everyone to your terms, tell them personally, and offer the next date",
+    "Cancel or confirm the room before its deadline"
+   ],
+   "checkpoint": true,
+   "deliverable": "Go/no-go decision",
+   "where": "01 Offer and money",
+   "done": "Decision written down and, if cancelling, every guest told and refunded.",
+   "tools": [
+    "Google Meet",
+    "Gmail"
+   ],
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b3-n1-08"
+   ],
+   "id": "prepare-01"
+  },
+  {
+   "phase": "prepare",
+   "title": "Collect attendee needs",
+   "why": "Know who is coming and what they need.",
+   "steps": [
+    "Access and dietary needs, including severe allergies",
+    "Anyone arriving late or leaving early",
+    "Emergency contact"
+   ],
+   "checkpoint": false,
+   "deliverable": "Attendee list",
+   "where": "04 People (restricted)",
+   "done": "Every attendee has replied and every need has an answer.",
+   "tools": [
+    "Google Forms",
+    "Google Sheets"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g22"
+   ],
+   "id": "prepare-02"
+  },
+  {
+   "phase": "prepare",
+   "title": "Brief the room and catering",
+   "why": "Confirm the details that make or break the day.",
+   "steps": [
+    "Layout and when you can get in",
+    "Screen, sound and wifi",
+    "Break and lunch times, dietary and allergy list",
+    "Who to call on the day"
+   ],
+   "checkpoint": false,
+   "deliverable": "Room brief",
+   "where": "05 On the day",
+   "done": "The venue has confirmed it.",
+   "tools": [
+    "Gmail"
+   ],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "prepare-03"
+  },
+  {
+   "phase": "prepare",
+   "title": "Send the joining instructions",
+   "why": "People arrive ready when they know what to expect.",
+   "steps": [
+    "What the day covers",
+    "Start and finish times, place and room",
+    "What to bring, including the pre-task",
+    "Access, and who to contact"
+   ],
+   "checkpoint": false,
+   "deliverable": "Joining instructions",
+   "where": null,
+   "done": "Sent to every attendee.",
+   "tools": [
+    "Gmail",
+    "Google Docs"
+   ],
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s2-t11",
+    "s8-t01"
+   ],
+   "id": "prepare-04"
+  },
+  {
+   "phase": "prepare",
+   "title": "Send the final reminder",
+   "why": "A week before: the details people forget.",
+   "steps": [
+    "Arrival time and travel",
+    "Weather and what to bring",
+    "Who to contact on the day"
+   ],
+   "checkpoint": false,
+   "deliverable": "Reminder email",
+   "where": null,
+   "done": "Sent to every attendee.",
+   "tools": [
+    "Gmail"
+   ],
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "prepare-05"
+  },
+  {
+   "phase": "prepare",
+   "title": "Print and pack",
+   "why": "Pack against a list, not from memory.",
+   "steps": [
+    "Materials, name cards and the session plan",
+    "Pens, flipchart paper, tape, extension lead, clicker",
+    "A plan that needs no technology"
+   ],
+   "checkpoint": false,
+   "deliverable": "Packed kit",
+   "where": "05 On the day",
+   "done": "Every item on the kit list is ticked.",
+   "tools": [
+    "Printer",
+    "Kit list"
+   ],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s3-b2-s23-03",
+    "s8-b2-s8-09"
+   ],
+   "id": "prepare-06"
+  },
+  {
+   "phase": "day",
+   "title": "Arrive early and set up",
+   "why": "An hour before the start, not ten minutes.",
+   "steps": [
+    "Furniture, walls and materials",
+    "Screen, sound and wifi tested",
+    "Fire exits and toilets known",
+    "Sign-in sheet and name cards"
+   ],
+   "checkpoint": false,
+   "deliverable": null,
+   "where": null,
+   "done": "The first activity could start now.",
+   "tools": [],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s3-b2-s23-03"
+   ],
+   "id": "day-01"
+  },
+  {
+   "phase": "day",
+   "title": "Open the course",
+   "why": "Help a room of strangers settle quickly.",
+   "steps": [
+    "Welcome and purpose",
+    "Housekeeping: exits, alarms, toilets, wifi",
+    "A quick way for people to meet",
+    "What people will be able to do by the end"
+   ],
+   "checkpoint": false,
+   "deliverable": null,
+   "where": null,
+   "done": "Everyone knows the purpose, the rules and where things are.",
+   "tools": [],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-t04",
+    "s4-b2-s4a-01"
+   ],
+   "id": "day-02"
+  },
+  {
+   "phase": "day",
+   "title": "Run the day and adjust",
+   "why": "Follow the plan, but follow the room too.",
+   "steps": [
+    "Watch energy and switch to an active task when it drops",
+    "Keep to the break times",
+    "Cut, do not rush, if time runs short",
+    "Photograph the flipcharts"
+   ],
+   "checkpoint": false,
+   "deliverable": "Photos of outputs",
+   "where": "05 On the day",
+   "done": "Every objective was covered and outputs are photographed.",
+   "tools": [
+    "Phone camera"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s2-t09"
+   ],
+   "id": "day-03"
+  },
+  {
+   "phase": "day",
+   "title": "Close the course",
+   "why": "Mark the end and send people back with a plan.",
+   "steps": [
+    "Each person writes what they will do in week one",
+    "Collect the feedback form and quote permission",
+    "Tell people about other courses only if they want to hear"
+   ],
+   "checkpoint": false,
+   "deliverable": "First-use plans and feedback",
+   "where": "06 Feedback and close",
+   "done": "Every attendee has a plan and has filled in the form.",
+   "tools": [
+    "Google Forms"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s5-t02",
+    "s6-g02",
+    "s8-t04"
+   ],
+   "id": "day-04"
+  },
+  {
+   "phase": "day",
+   "title": "Pack down",
+   "why": "Leave the room as you found it.",
+   "steps": [
+    "Collect materials and lost property",
+    "Take every flipchart sheet"
+   ],
+   "checkpoint": false,
+   "deliverable": null,
+   "where": null,
+   "done": "The room is clear.",
+   "tools": [],
+   "workstream": "Venue and travel",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "day-05"
+  },
+  {
+   "phase": "after",
+   "title": "Send thanks and resources",
+   "why": "Their plans and resources, back in their inbox.",
+   "steps": [
+    "Each person's first-use plan",
+    "Resources and certificates",
+    "A photo of the outputs"
+   ],
+   "checkpoint": false,
+   "deliverable": "Follow-up email",
+   "where": null,
+   "done": "Sent to every guest.",
+   "tools": [
+    "Gmail"
+   ],
+   "workstream": "Communication",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b2-s8-11"
+   ],
+   "id": "after-01"
+  },
+  {
+   "phase": "after",
+   "title": "Read and share the feedback",
+   "why": "Find what to keep and what to change.",
+   "steps": [
+    "Summarise the feedback",
+    "Pick the quotes you have permission to use",
+    "List three changes for next time"
+   ],
+   "checkpoint": false,
+   "deliverable": "Feedback summary",
+   "where": "06 Feedback and close",
+   "done": "Summary written and changes added to the board.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Evaluation",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s6-g02"
+   ],
+   "id": "after-02"
+  },
+  {
+   "phase": "after",
+   "title": "Reconcile costs and profit",
+   "why": "Check the venue bill against the contract before you pay.",
+   "steps": [
+    "Pay the room and any co-trainer",
+    "Record actual costs and income",
+    "Work out the real profit per person"
+   ],
+   "checkpoint": false,
+   "deliverable": "Cost reconciliation and final invoice",
+   "where": "01 Offer and money",
+   "done": "Everyone paid and the real profit is known.",
+   "tools": [
+    "Google Sheets",
+    "Accounting software"
+   ],
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s8-b3-n1-09"
+   ],
+   "id": "after-03"
+  },
+  {
+   "phase": "after",
+   "title": "Ask for reviews",
+   "why": "Reviews from real guests sell the next retreat.",
+   "steps": [
+    "Ask happy guests for a review or a short quote",
+    "Only use what they have agreed you can use"
+   ],
+   "checkpoint": false,
+   "deliverable": "Reviews and quotes",
+   "where": "02 Sales and marketing",
+   "done": "Reviews requested and permissions recorded.",
+   "tools": [
+    "Gmail"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": false,
+   "topics": [
+    "s9-g24"
+   ],
+   "id": "after-04"
+  },
+  {
+   "phase": "later",
+   "title": "Send the spaced reminders",
+   "why": "A recall question at one and three weeks keeps it alive.",
+   "steps": [
+    "One question to answer from memory",
+    "One prompt to use the skill this week"
+   ],
+   "checkpoint": false,
+   "deliverable": "Reminder emails",
+   "where": null,
+   "done": "Both reminders sent.",
+   "tools": [
+    "Gmail"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s5-t04"
+   ],
+   "id": "later-01"
+  },
+  {
+   "phase": "later",
+   "title": "Announce the next date",
+   "why": "Past attendees and the waiting list book first.",
+   "steps": [
+    "Email people who opted in",
+    "Offer a referral or returning-guest rate if you use one"
+   ],
+   "checkpoint": false,
+   "deliverable": "Next-date announcement",
+   "where": "02 Sales and marketing",
+   "done": "Sent to the list.",
+   "tools": [
+    "Email marketing tool"
+   ],
+   "workstream": "Sales and marketing",
+   "owner": "You",
+   "essential": false,
+   "topics": [],
+   "id": "later-02"
+  },
+  {
+   "phase": "later",
+   "title": "Delete the personal data",
+   "why": "On the date you set at the start.",
+   "steps": [
+    "Attendee needs and contact details not covered by marketing consent",
+    "Feedback forms"
+   ],
+   "checkpoint": false,
+   "deliverable": null,
+   "where": null,
+   "done": "Deleted, and the date recorded.",
+   "tools": [
+    "Google Drive",
+    "Google Forms"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g22"
+   ],
+   "id": "later-03"
+  },
+  {
+   "phase": "later",
+   "title": "Run your own retrospective",
+   "why": "Improve the templates for next time.",
+   "steps": [
+    "What to change in the offer, price or marketing",
+    "What to change in the design",
+    "Update this checklist"
+   ],
+   "checkpoint": false,
+   "deliverable": "Updated templates",
+   "where": "Business (not per course)",
+   "done": "The templates and checklist have been updated.",
+   "tools": [
+    "Notion",
+    "Google Drive"
+   ],
+   "workstream": "Design",
+   "owner": "You",
+   "essential": true,
+   "topics": [],
+   "id": "later-04"
+  }
+ ]
+}

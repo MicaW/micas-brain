@@ -24,7 +24,7 @@ const RecipeDetail = toolkitPage('RecipeDetail');
 const RecipeList = toolkitPage('RecipeList');
 const Templates = toolkitPage('Templates');
 const ToolkitHome = toolkitPage('ToolkitHome');
-const RetreatChecklist = lazy(() => import('./pages/RetreatChecklist.jsx'));
+const PlanningChecklist = lazy(() => import('./pages/PlanningChecklist.jsx'));
 import Topic from './pages/Topic.jsx';
 import { InsightPage, InsightsIndex, insightBySlug } from './pages/Insights.jsx';
 
@@ -35,7 +35,7 @@ const GROUND_COLOUR = { board: '#0b0b0c', page: '#e9e9e4' };
 
 const TITLES = {
   '/playbook': 'The Playbook', '/toolkit': 'The Toolkit', '/toolkit/methods': 'Method finder', '/playbook/mechanics': 'Learning mechanics',
-  '/toolkit/recipes': 'Session recipes', '/toolkit/templates': 'Templates', '/toolkit/templates/retreat-checklist': 'Retreat planning checklist', '/evidence': 'Evidence', '/evidence/how-we-rate': 'What the check marks mean',
+  '/toolkit/recipes': 'Session recipes', '/toolkit/templates': 'Templates', '/toolkit/templates/retreat-checklist': 'Planning a retreat for a client', '/toolkit/templates/checklists/retreat-client': 'Planning a retreat for a client', '/toolkit/templates/checklists/retreat-product': 'Planning a retreat you sell', '/toolkit/templates/checklists/course-client': 'Planning a short course for a client', '/toolkit/templates/checklists/course-product': 'Planning a short course you sell', '/evidence': 'Evidence', '/evidence/how-we-rate': 'What the check marks mean',
   '/evidence/numbers': 'Training today in numbers', '/evidence/studies': 'Key studies', '/evidence/reading': 'Reading list and sources',
   '/case-studies': 'Case studies', '/insights': 'Insights', '/about': 'About', '/glossary': 'Glossary', '/search': 'Search',
 };
@@ -179,7 +179,8 @@ export default function App() {
           <Route path="/toolkit/recipes" element={<RecipeList />} />
           <Route path="/toolkit/recipes/:slug" element={<RecipeDetail />} />
           <Route path="/toolkit/templates" element={<Templates />} />
-          <Route path="/toolkit/templates/retreat-checklist" element={<RetreatChecklist />} />
+          <Route path="/toolkit/templates/retreat-checklist" element={<PlanningChecklist slug="retreat-client" />} />
+          <Route path="/toolkit/templates/checklists/:slug" element={<PlanningChecklist />} />
           <Route path="/insights" element={<InsightsIndex />} />
           <Route path="/insights/:slug" element={<InsightPage />} />
           <Route path="/about" element={<About />} />

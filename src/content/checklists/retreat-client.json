@@ -1,7 +1,7 @@
 {
  "_note": "Retreat planning checklist. Each task is a card for a Notion board: title, phase, workstream, owner, essential, steps (the card checklist), deliverable, folder, done when, tools and topic links.",
- "title": "Retreat planning checklist",
- "lead": "Every task to do or consider for a training retreat, in order, from the first conversation to the ninety-day check. Open a card for its steps, what it produces, how you know it is done and the tools you need.",
+ "title": "Planning a retreat for a client",
+ "lead": "Every task to do or consider for a tailored training retreat for one client, in order, from the first conversation to the ninety-day check. Open a card for its steps, what it produces, how you know it is done and the tools you need.",
  "phases": [
   {
    "id": "setup",
@@ -93,6 +93,7 @@
     "Check outdoor and movement activities are covered",
     "Note the renewal date in your calendar"
    ],
+   "checkpoint": false,
    "deliverable": "Insurance certificates",
    "where": "Business (not per retreat)",
    "done": "Certificates saved, and the cover matches every kind of activity you run.",
@@ -122,6 +123,7 @@
     "Limit of liability",
     "Have a legal professional review it"
    ],
+   "checkpoint": false,
    "deliverable": "Terms template",
    "where": "Business (not per retreat)",
    "done": "A legal professional has reviewed it and it is saved as a template.",
@@ -146,6 +148,7 @@
     "Notion board with these cards",
     "Templates for the brief, budget, attendee list, run sheet and incident log"
    ],
+   "checkpoint": false,
    "deliverable": "Folder and board templates",
    "where": "Business (not per retreat)",
    "done": "You can set up a new retreat in under five minutes.",
@@ -172,6 +175,7 @@
     "Associates and facilitators you trust",
     "Insurance and qualifications checked for each"
    ],
+   "checkpoint": false,
    "deliverable": "Supplier list",
    "where": "Business (not per retreat)",
    "done": "At least two options in each category, each checked.",
@@ -195,6 +199,7 @@
     "Competition with your employer",
     "Who owns what you create"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "You know what you can do, and have permission in writing if needed.",
@@ -221,6 +226,7 @@
     "Rough budget and dates",
     "Send a short summary afterwards"
    ],
+   "checkpoint": false,
    "deliverable": "Discovery notes and summary email",
    "where": "01 Brief and contract",
    "done": "The client has replied to confirm your summary.",
@@ -247,6 +253,7 @@
     "Ask what success looks like, what worries them, what the team avoids",
     "Group the themes"
    ],
+   "checkpoint": false,
    "deliverable": "Interview themes",
    "where": "01 Brief and contract",
    "done": "You can write the purpose in one sentence and the sponsor agrees with it.",
@@ -271,6 +278,7 @@
     "Compare with a day in the office or a series of sessions",
     "Give the sponsor your recommendation and why"
    ],
+   "checkpoint": false,
    "deliverable": "Recommendation",
    "where": "01 Brief and contract",
    "done": "The decision and the reason are written in the brief.",
@@ -296,6 +304,7 @@
     "Where the evidence for each will come from",
     "The baseline you need before the retreat"
    ],
+   "checkpoint": false,
    "deliverable": "Objectives and measures",
    "where": "01 Brief and contract",
    "done": "The sponsor has agreed them in writing.",
@@ -321,6 +330,7 @@
     "What they have learned before",
     "Languages, and needs you already know about"
    ],
+   "checkpoint": false,
    "deliverable": "Group profile",
    "where": "01 Brief and contract",
    "done": "You can describe the group in a paragraph and the sponsor recognises it.",
@@ -344,6 +354,7 @@
     "Clashes: school holidays, year end, religious festivals",
     "Travel: a place most people can reach by train"
    ],
+   "checkpoint": false,
    "deliverable": "Format and date options",
    "where": "01 Brief and contract",
    "done": "The sponsor has chosen a format and a date window.",
@@ -373,6 +384,7 @@
     "Contingency of about ten per cent",
     "Who pays for what"
    ],
+   "checkpoint": false,
    "deliverable": "Budget outline",
    "where": "01 Brief and contract",
    "done": "The sponsor has agreed the total.",
@@ -398,6 +410,7 @@
     "Format, dates and budget",
     "Sponsor, and who decides what"
    ],
+   "checkpoint": true,
    "deliverable": "Retreat brief",
    "where": "01 Brief and contract",
    "done": "The sponsor has signed it off in writing.",
@@ -424,6 +437,7 @@
     "Test it: does it still work if costs rise by ten per cent?",
     "Set the payment schedule"
    ],
+   "checkpoint": false,
    "deliverable": "Costing sheet",
    "where": "01 Brief and contract",
    "done": "You have a price you would accept even if costs rise.",
@@ -450,6 +464,7 @@
     "Price, payment dates and terms",
     "What is not included"
    ],
+   "checkpoint": false,
    "deliverable": "Proposal",
    "where": "01 Brief and contract",
    "done": "The client has accepted it in writing.",
@@ -474,6 +489,7 @@
     "Ask for the purchase order number",
     "Send the deposit invoice"
    ],
+   "checkpoint": true,
    "deliverable": "Signed terms, purchase order, deposit invoice",
    "where": "01 Brief and contract",
    "done": "Terms signed, purchase order number saved, deposit paid.",
@@ -501,6 +517,7 @@
     "Check step-free routes, fire exits and a wet-weather space",
     "Ask for their risk assessment and insurance"
    ],
+   "checkpoint": false,
    "deliverable": "Venue comparison and visit photos",
    "where": "05 Logistics",
    "done": "The client has chosen a venue.",
@@ -528,6 +545,7 @@
     "Damage and extra charges",
     "Have it checked if the sums are large"
    ],
+   "checkpoint": false,
    "deliverable": "Signed venue contract",
    "where": "01 Brief and contract",
    "done": "Contract signed, deposit paid, and every deadline added to the tracker.",
@@ -553,6 +571,7 @@
     "Check qualifications and insurance",
     "Send each a short contract"
    ],
+   "checkpoint": false,
    "deliverable": "Team contracts",
    "where": "01 Brief and contract",
    "done": "Everyone has confirmed in writing.",
@@ -579,6 +598,7 @@
     "Share the plans with them two weeks before",
     "Tell the client there is a backup"
    ],
+   "checkpoint": false,
    "deliverable": "Backup agreement",
    "where": "01 Brief and contract",
    "done": "A named backup has agreed in writing and has the plans.",
@@ -604,6 +624,7 @@
     "Photographer, speakers or musicians",
     "Check insurance, qualifications and risk assessments for each"
    ],
+   "checkpoint": false,
    "deliverable": "Supplier confirmations",
    "where": "05 Logistics",
    "done": "Every supplier has confirmed in writing, with documents saved.",
@@ -629,6 +650,7 @@
     "List who decides and who does what",
     "Book a weekly or fortnightly check-in"
    ],
+   "checkpoint": false,
    "deliverable": "Project folder and board",
    "where": "01 Brief and contract",
    "done": "The client has access and the first check-in is in the diary.",
@@ -648,6 +670,36 @@
   },
   {
    "phase": "contract",
+   "title": "Agree the checkpoints",
+   "why": "Fixed points where the sponsor signs off stop surprises late on.",
+   "steps": [
+    "Brief signed off",
+    "Terms signed and purchase order received",
+    "Design concept agreed",
+    "Detailed design signed off",
+    "Go or no-go, about ten days before",
+    "Wash-up and close-out",
+    "Who signs each one, and by when"
+   ],
+   "checkpoint": false,
+   "deliverable": "Checkpoint dates on the board",
+   "where": "01 Brief and contract",
+   "done": "The sponsor has agreed the checkpoints and each has a date on the board.",
+   "tools": [
+    "Notion",
+    "Google Calendar"
+   ],
+   "workstream": "Client and money",
+   "owner": "You and client",
+   "essential": true,
+   "topics": [
+    "s9-g15",
+    "s9-g14"
+   ],
+   "id": "contract-10"
+  },
+  {
+   "phase": "contract",
    "title": "Send the save-the-date",
    "why": "Get the dates into diaries before they fill.",
    "steps": [
@@ -655,6 +707,7 @@
     "Include travel time and the follow-up session",
     "Ask people to reply"
    ],
+   "checkpoint": false,
    "deliverable": "Save-the-date email",
    "where": null,
    "done": "Every attendee has the dates in their calendar.",
@@ -666,7 +719,7 @@
    "owner": "Client",
    "essential": true,
    "topics": [],
-   "id": "contract-10"
+   "id": "contract-11"
   },
   {
    "phase": "contract",
@@ -679,6 +732,7 @@
     "When it will be deleted",
     "A short privacy note for attendees"
    ],
+   "checkpoint": false,
    "deliverable": "Data note",
    "where": "04 People and safety (restricted)",
    "done": "The note is written and the deletion date is in the tracker.",
@@ -692,7 +746,7 @@
    "topics": [
     "s9-g22"
    ],
-   "id": "contract-11"
+   "id": "contract-12"
   },
   {
    "phase": "contract",
@@ -703,6 +757,7 @@
     "Anything abroad",
     "Ask your broker if unsure"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "You have confirmed cover for every activity on this retreat.",
@@ -715,7 +770,7 @@
    "topics": [
     "s9-b3-n3-06"
    ],
-   "id": "contract-12"
+   "id": "contract-13"
   },
   {
    "phase": "contract",
@@ -728,6 +783,7 @@
     "If you are registered, keep VAT invoices so you can reclaim",
     "For anything abroad, check the VAT rules there with an accountant"
    ],
+   "checkpoint": false,
    "deliverable": "VAT notes in the costing sheet",
    "where": "01 Brief and contract",
    "done": "Every price and cost in the costing sheet says whether it includes VAT.",
@@ -742,7 +798,7 @@
    "topics": [
     "s9-b3-n3-05"
    ],
-   "id": "contract-13"
+   "id": "contract-14"
   },
   {
    "phase": "contract",
@@ -757,6 +813,7 @@
     "Payments, currency and any local taxes",
     "How personal data is handled if it leaves the UK"
    ],
+   "checkpoint": false,
    "deliverable": "Abroad checklist",
    "where": "05 Logistics",
    "done": "Every attendee has valid documents and cover, and the risk assessment includes the country.",
@@ -772,7 +829,65 @@
     "s9-g20",
     "s9-g22"
    ],
-   "id": "contract-14"
+   "id": "contract-15"
+  },
+  {
+   "phase": "design",
+   "title": "Run the design workshop",
+   "why": "Shape a tailored retreat with the people it is for. For a small or repeat retreat, a long call can do the job.",
+   "steps": [
+    "Invite the sponsor, the client lead and three to five attendees from different levels",
+    "Recheck the purpose and the outcomes",
+    "What must happen, and what must not",
+    "Constraints: budget, time, people and place",
+    "Sketch the shape of each day together",
+    "Try one or two activities in miniature",
+    "Agree what you will bring back, and when"
+   ],
+   "checkpoint": false,
+   "deliverable": "Workshop outputs: photos and notes",
+   "where": "02 Design",
+   "done": "You have enough to draft the concept, and the people in the room have seen their ideas taken seriously.",
+   "tools": [
+    "Flipcharts or an online whiteboard",
+    "Phone camera",
+    "Google Docs"
+   ],
+   "workstream": "Design",
+   "owner": "You and client",
+   "essential": true,
+   "topics": [
+    "s9-g14",
+    "s9-g08"
+   ],
+   "id": "design-01"
+  },
+  {
+   "phase": "design",
+   "title": "Agree the design concept",
+   "why": "Agree the shape before you spend weeks on detail.",
+   "steps": [
+    "One page: the shape of each day",
+    "The key sessions and what each is for",
+    "Outdoor time, evenings and solo time",
+    "What happens before and after",
+    "What was suggested and left out, and why"
+   ],
+   "checkpoint": true,
+   "deliverable": "Design concept",
+   "where": "02 Design",
+   "done": "The sponsor has signed off the concept in writing.",
+   "tools": [
+    "Google Docs",
+    "Google Meet"
+   ],
+   "workstream": "Design",
+   "owner": "You and client",
+   "essential": true,
+   "topics": [
+    "s9-g14"
+   ],
+   "id": "design-02"
   },
   {
    "phase": "design",
@@ -783,6 +898,7 @@
     "The manager conversation before",
     "The follow-up sessions and reminders after, with dates"
    ],
+   "checkpoint": false,
    "deliverable": "Programme outline",
    "where": "02 Design",
    "done": "Every part has a date and an owner.",
@@ -795,7 +911,7 @@
    "topics": [
     "s2-t05"
    ],
-   "id": "design-01"
+   "id": "design-03"
   },
   {
    "phase": "design",
@@ -809,6 +925,7 @@
     "Nothing intense after dinner, and a clear end each day",
     "Absorption over intensity: fewer, deeper sessions"
    ],
+   "checkpoint": false,
    "deliverable": "Timetable",
    "where": "02 Design",
    "done": "The sponsor has agreed it.",
@@ -823,7 +940,7 @@
     "s8-t02",
     "s8-t03"
    ],
-   "id": "design-02"
+   "id": "design-04"
   },
   {
    "phase": "design",
@@ -836,6 +953,7 @@
     "Facilitator notes",
     "What to cut if time runs short"
    ],
+   "checkpoint": false,
    "deliverable": "Session plans",
    "where": "02 Design",
    "done": "Every slot in the timetable has a plan.",
@@ -846,7 +964,29 @@
    "owner": "You",
    "essential": true,
    "topics": [],
-   "id": "design-03"
+   "id": "design-05"
+  },
+  {
+   "phase": "design",
+   "title": "Test the riskiest activities",
+   "why": "An activity that has never been run is the one most likely to fail.",
+   "steps": [
+    "Pick the activities that are new, physical or emotionally demanding",
+    "Try them with colleagues or a few attendees",
+    "Fix the timings and the instructions"
+   ],
+   "checkpoint": false,
+   "deliverable": "Changes to the session plans",
+   "where": "02 Design",
+   "done": "Each new or risky activity has been tried once.",
+   "tools": [
+    "Google Docs"
+   ],
+   "workstream": "Design",
+   "owner": "You and team",
+   "essential": false,
+   "topics": [],
+   "id": "design-06"
   },
   {
    "phase": "design",
@@ -857,6 +997,7 @@
     "Optional movement at different levels",
     "Solo time with a prompt"
    ],
+   "checkpoint": false,
    "deliverable": "Notes in the session plans",
    "where": "02 Design",
    "done": "Each has a purpose, a slot and a fallback.",
@@ -871,7 +1012,7 @@
     "s8-n8-04",
     "s8-n8-03"
    ],
-   "id": "design-04"
+   "id": "design-07"
   },
   {
    "phase": "design",
@@ -882,6 +1023,7 @@
     "A good alcohol-free offer",
     "Something other than the bar: food, a fire, a walk, a game"
    ],
+   "checkpoint": false,
    "deliverable": "Evening plan",
    "where": "02 Design",
    "done": "The sponsor has agreed the rules, and they are in the joining instructions.",
@@ -895,7 +1037,7 @@
     "s8-b2-s8-08",
     "s8-n8-05"
    ],
-   "id": "design-05"
+   "id": "design-08"
   },
   {
    "phase": "design",
@@ -906,6 +1048,7 @@
     "How urgent contact reaches them",
     "Say it in advance"
    ],
+   "checkpoint": false,
    "deliverable": "Phone rules",
    "where": "02 Design",
    "done": "The sponsor has agreed them, and they are in the joining instructions.",
@@ -918,7 +1061,7 @@
    "topics": [
     "s8-n8-02"
    ],
-   "id": "design-06"
+   "id": "design-09"
   },
   {
    "phase": "design",
@@ -931,6 +1074,7 @@
     "Faith, dietary and caring needs",
     "Accessible materials: readable type, captions"
    ],
+   "checkpoint": false,
    "deliverable": "Inclusion notes",
    "where": "02 Design",
    "done": "Each known need has an answer in the plan.",
@@ -943,7 +1087,7 @@
    "topics": [
     "s8-b2-s8-10"
    ],
-   "id": "design-07"
+   "id": "design-10"
   },
   {
    "phase": "design",
@@ -954,6 +1098,7 @@
     "Mix people who rarely work together",
     "Rooming: single rooms by default"
    ],
+   "checkpoint": false,
    "deliverable": "Group and rooming lists",
    "where": "05 Logistics",
    "done": "Lists are ready for the run sheet and the venue.",
@@ -964,7 +1109,7 @@
    "owner": "You and client",
    "essential": false,
    "topics": [],
-   "id": "design-08"
+   "id": "design-11"
   },
   {
    "phase": "design",
@@ -976,6 +1121,7 @@
     "Measures at 30 and 90 days",
     "Who collects what, and when"
    ],
+   "checkpoint": false,
    "deliverable": "Evaluation plan and forms",
    "where": "07 Evaluation and close",
    "done": "Forms are built and dates are in the tracker.",
@@ -990,7 +1136,7 @@
     "s6-b2-s67-09",
     "s6-g02"
    ],
-   "id": "design-09"
+   "id": "design-12"
   },
   {
    "phase": "design",
@@ -1001,6 +1147,7 @@
     "What happens to ideas that are not chosen",
     "How decisions are recorded"
    ],
+   "checkpoint": false,
    "deliverable": "Decision rules",
    "where": "02 Design",
    "done": "The leader has agreed them before the day.",
@@ -1013,7 +1160,7 @@
    "topics": [
     "s8-b3-n1-02"
    ],
-   "id": "design-10"
+   "id": "design-13"
   },
   {
    "phase": "design",
@@ -1026,6 +1173,7 @@
     "Name badges and signs",
     "Proofread everything"
    ],
+   "checkpoint": false,
    "deliverable": "Materials",
    "where": "03 Materials",
    "done": "Everything is proofread and on the print list.",
@@ -1040,7 +1188,7 @@
    "topics": [
     "s3-b2-s23-03"
    ],
-   "id": "design-11"
+   "id": "design-14"
   },
   {
    "phase": "design",
@@ -1051,6 +1199,7 @@
     "The conversation to have before",
     "What to ask in week one and month one"
    ],
+   "checkpoint": false,
    "deliverable": "Manager briefing",
    "where": "02 Design",
    "done": "The client has approved it, ready to send.",
@@ -1063,17 +1212,18 @@
    "topics": [
     "s2-t04"
    ],
-   "id": "design-12"
+   "id": "design-15"
   },
   {
    "phase": "design",
-   "title": "Get the design signed off",
+   "title": "Sign off the detailed design",
    "why": "Freeze the design so you can prepare.",
    "steps": [
     "Walk the sponsor through the timetable and plans",
     "Make the agreed changes",
     "Agree a date after which changes need your agreement"
    ],
+   "checkpoint": true,
    "deliverable": "Signed-off design",
    "where": "02 Design",
    "done": "The sponsor has approved it in writing.",
@@ -1085,7 +1235,7 @@
    "owner": "You and client",
    "essential": true,
    "topics": [],
-   "id": "design-13"
+   "id": "design-16"
   },
   {
    "phase": "design",
@@ -1096,6 +1246,7 @@
     "Pick the three most likely",
     "Change the design or add a plan for each"
    ],
+   "checkpoint": false,
    "deliverable": "Pre-mortem",
    "where": "02 Design",
    "done": "The top three risks each have a response.",
@@ -1106,7 +1257,7 @@
    "owner": "You and team",
    "essential": false,
    "topics": [],
-   "id": "design-14"
+   "id": "design-17"
   },
   {
    "phase": "design",
@@ -1117,6 +1268,7 @@
     "Check timings",
     "Agree who does what"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "The team has run through every session that is new or high-stakes.",
@@ -1127,7 +1279,7 @@
    "owner": "You and team",
    "essential": true,
    "topics": [],
-   "id": "design-15"
+   "id": "design-18"
   },
   {
    "phase": "people",
@@ -1140,6 +1292,7 @@
     "Signs someone needs support",
     "Who to call, and who is in charge"
    ],
+   "checkpoint": false,
    "deliverable": "Duty-of-care plan",
    "where": "04 People and safety (restricted)",
    "done": "The client and the team have read it.",
@@ -1164,6 +1317,7 @@
     "Check suppliers' own assessments",
     "Review whenever anything changes"
    ],
+   "checkpoint": false,
    "deliverable": "Risk assessment",
    "where": "04 People and safety (restricted)",
    "done": "Done, signed, and reviewed since the last change.",
@@ -1188,6 +1342,7 @@
     "How to escalate, and to whom at the client",
     "The incident log"
    ],
+   "checkpoint": false,
    "deliverable": "Incident plan and log",
    "where": "04 People and safety (restricted)",
    "done": "Every team member knows their role in it.",
@@ -1213,6 +1368,7 @@
     "Photo consent",
     "Chase people who have not replied"
    ],
+   "checkpoint": false,
    "deliverable": "Attendee list",
    "where": "04 People and safety (restricted)",
    "done": "Every attendee has replied.",
@@ -1239,6 +1395,7 @@
     "Brief the first aider and the team on who is at risk and where auto-injectors are kept",
     "Check activity snacks and evening food too, not only meals"
    ],
+   "checkpoint": false,
    "deliverable": "Allergy list and venue confirmation",
    "where": "04 People and safety (restricted)",
    "done": "The venue has confirmed in writing, and the team knows who is at risk.",
@@ -1267,6 +1424,7 @@
     "Access, and who to contact",
     "Describe it honestly: promise the conditions, not a transformation"
    ],
+   "checkpoint": false,
    "deliverable": "Joining instructions",
    "where": "05 Logistics",
    "done": "Sent to every attendee.",
@@ -1292,6 +1450,7 @@
     "The timetable and their part",
     "The rules, the duty-of-care plan and the incident plan"
    ],
+   "checkpoint": false,
    "deliverable": "Team briefing pack",
    "where": "04 People and safety (restricted)",
    "done": "Each person has confirmed they have read it.",
@@ -1317,6 +1476,7 @@
     "Travel for the team and kit",
     "A plan for late arrivals"
    ],
+   "checkpoint": false,
    "deliverable": "Travel plan",
    "where": "05 Logistics",
    "done": "Everyone knows how they are getting there.",
@@ -1339,6 +1499,7 @@
     "Send the baseline survey or pull the data",
     "Chase replies"
    ],
+   "checkpoint": false,
    "deliverable": "Baseline data",
    "where": "07 Evaluation and close",
    "done": "You have the baseline for each measure.",
@@ -1361,6 +1522,7 @@
     "Keep it under an hour",
     "Say how it will be used"
    ],
+   "checkpoint": false,
    "deliverable": "Pre-work",
    "where": "03 Materials",
    "done": "Sent, with a reminder scheduled.",
@@ -1387,6 +1549,7 @@
     "The cancellation dates and costs if you postpone",
     "Agree the decision with the sponsor and write it down"
    ],
+   "checkpoint": true,
    "deliverable": "Go/no-go decision",
    "where": "01 Brief and contract",
    "done": "The sponsor has agreed the decision in writing.",
@@ -1411,6 +1574,7 @@
     "Rooming list",
     "Dietary and access list"
    ],
+   "checkpoint": false,
    "deliverable": "Final numbers email",
    "where": "05 Logistics",
    "done": "The venue has confirmed them in writing before the deadline.",
@@ -1436,6 +1600,7 @@
     "A quiet room",
     "Quiet hours and signs"
    ],
+   "checkpoint": false,
    "deliverable": "Venue brief",
    "where": "05 Logistics",
    "done": "The venue lead has confirmed it.",
@@ -1459,6 +1624,7 @@
     "Each slot: time, what, who, where, kit",
     "Share it with the team and the venue"
    ],
+   "checkpoint": false,
    "deliverable": "Run sheet",
    "where": "06 On the day",
    "done": "The team and the venue have the final version.",
@@ -1483,6 +1649,7 @@
     "Two or three \"what if\" scenarios",
     "Who is on call out of hours"
    ],
+   "checkpoint": false,
    "deliverable": "On-call rota",
    "where": "06 On the day",
    "done": "Everyone has attended or watched the recording.",
@@ -1507,6 +1674,7 @@
     "Pens, flipchart paper, tape, extension leads, speaker",
     "Weather kit and a spare first aid kit"
    ],
+   "checkpoint": false,
    "deliverable": "Packed kit",
    "where": "06 On the day",
    "done": "Every item on the kit list is ticked.",
@@ -1531,6 +1699,7 @@
     "Send the manager briefing",
     "Remind managers a week before"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Every manager has had the briefing.",
@@ -1554,6 +1723,7 @@
     "Anyone new, or anyone dropping out",
     "A daily check-in time on site"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Any changes are in the plan and the run sheet.",
@@ -1575,6 +1745,7 @@
     "Weather and what to bring",
     "Who to contact on the day"
    ],
+   "checkpoint": false,
    "deliverable": "Reminder email",
    "where": null,
    "done": "Sent to every attendee.",
@@ -1596,6 +1767,7 @@
     "Switch to indoor versions where needed",
     "Tell people what to bring"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "The run sheet shows which version of each outdoor slot you will run.",
@@ -1620,6 +1792,7 @@
     "Toilets and step-free routes",
     "The quiet room"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "You could guide someone to any space and out in an emergency.",
@@ -1640,6 +1813,7 @@
     "Fire alarm tests",
     "Who to call, day and night"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "You have the venue lead's number and they have the run sheet.",
@@ -1660,6 +1834,7 @@
     "Screen, sound and wifi tested",
     "A plan that needs no technology"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "The first session could start now.",
@@ -1681,6 +1856,7 @@
     "First aider identified",
     "Incident log and contact sheet in place"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Ready before the first person arrives.",
@@ -1707,6 +1883,7 @@
     "How you will work together",
     "What people will leave with"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Everyone knows the purpose, the rules and where things are.",
@@ -1730,6 +1907,7 @@
     "Venue: meal numbers and changes",
     "Cut or move sessions rather than run over"
    ],
+   "checkpoint": false,
    "deliverable": "Daily notes",
    "where": "06 On the day",
    "done": "Each day ends with an agreed plan for tomorrow.",
@@ -1753,6 +1931,7 @@
     "Record decisions, owners and dates",
     "Upload to the folder each evening"
    ],
+   "checkpoint": false,
    "deliverable": "Photos of outputs",
    "where": "06 On the day",
    "done": "Each day's outputs are in the folder by the end of the evening.",
@@ -1778,6 +1957,7 @@
     "Keep evenings optional",
     "Make sure people leaving early miss nothing that matters"
    ],
+   "checkpoint": false,
    "deliverable": "Completed incident log",
    "where": "04 People and safety (restricted)",
    "done": "Every incident is logged with what was done.",
@@ -1803,6 +1983,7 @@
     "Collect the feedback form",
     "A clear close before travel"
    ],
+   "checkpoint": false,
    "deliverable": "First-use plans and feedback",
    "where": "07 Evaluation and close",
    "done": "Every attendee has a plan and has filled in the form.",
@@ -1828,6 +2009,7 @@
     "Walk the rooms with the venue for damage",
     "Agree any extra charges before you leave"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Rooms are clear and the venue has agreed the final charges.",
@@ -1847,6 +2029,7 @@
     "Decisions, owners and dates",
     "What happens next"
    ],
+   "checkpoint": false,
    "deliverable": "Write-up",
    "where": "07 Evaluation and close",
    "done": "Sent to the sponsor and attendees within 48 hours.",
@@ -1872,6 +2055,7 @@
     "Resources and templates",
     "The follow-up date"
    ],
+   "checkpoint": false,
    "deliverable": "Follow-up email",
    "where": null,
    "done": "Sent to every attendee.",
@@ -1894,6 +2078,7 @@
     "Two questions to ask in week one",
     "What to look for"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Every manager has the questions.",
@@ -1917,6 +2102,7 @@
     "What to change",
     "Incidents to follow up"
    ],
+   "checkpoint": false,
    "deliverable": "Team debrief notes",
    "where": "07 Evaluation and close",
    "done": "Notes saved with actions.",
@@ -1939,6 +2125,7 @@
     "What worked and what to change",
     "Next steps"
    ],
+   "checkpoint": false,
    "deliverable": "Feedback summary",
    "where": "07 Evaluation and close",
    "done": "The sponsor has the summary and you agreed next steps.",
@@ -1963,6 +2150,7 @@
     "Report to the client where needed",
     "Update the risk assessment"
    ],
+   "checkpoint": false,
    "deliverable": "Incident report",
    "where": "04 People and safety (restricted)",
    "done": "Every logged incident is closed.",
@@ -1987,6 +2175,7 @@
     "Send your final invoice",
     "Record actual costs against the budget"
    ],
+   "checkpoint": false,
    "deliverable": "Cost reconciliation and final invoice",
    "where": "01 Brief and contract",
    "done": "Suppliers paid, invoice sent, and your actual margin worked out.",
@@ -2010,6 +2199,7 @@
     "Attendees, team, venue and suppliers",
     "Share photos only with consent"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Thanks sent.",
@@ -2032,6 +2222,7 @@
     "One question to answer from memory",
     "One prompt to use the skill this week"
    ],
+   "checkpoint": false,
    "deliverable": "Reminder emails",
    "where": null,
    "done": "Both reminders sent.",
@@ -2055,6 +2246,7 @@
     "Share what people tried",
     "Solve what got in the way"
    ],
+   "checkpoint": false,
    "deliverable": "Follow-up notes",
    "where": "07 Evaluation and close",
    "done": "Session run and notes saved.",
@@ -2078,6 +2270,7 @@
     "Talk to the most and least successful attendees",
     "Note what helped and what blocked"
    ],
+   "checkpoint": false,
    "deliverable": "Evaluation data",
    "where": "07 Evaluation and close",
    "done": "You have before and after for each measure.",
@@ -2102,6 +2295,7 @@
     "What helped and what blocked",
     "What you would do next time"
    ],
+   "checkpoint": false,
    "deliverable": "Evaluation report",
    "where": "07 Evaluation and close",
    "done": "The sponsor has read it and you have discussed it.",
@@ -2124,6 +2318,7 @@
     "What the client should do next",
     "What you could offer"
    ],
+   "checkpoint": false,
    "deliverable": "Next-step proposal",
    "where": "07 Evaluation and close",
    "done": "Sent, or agreed that none is needed.",
@@ -2146,6 +2341,7 @@
     "Final invoice paid",
     "Archive the folder"
    ],
+   "checkpoint": true,
    "deliverable": "Close-out note",
    "where": "07 Evaluation and close",
    "done": "The client has confirmed close-out and the folder is archived.",
@@ -2170,6 +2366,7 @@
     "Registration and feedback forms",
     "Photos without consent"
    ],
+   "checkpoint": false,
    "deliverable": null,
    "where": null,
    "done": "Deleted, and the date recorded.",
@@ -2193,6 +2390,7 @@
     "Ask the sponsor and one or two attendees",
     "Get written consent for how it is used"
    ],
+   "checkpoint": false,
    "deliverable": "Case study",
    "where": "07 Evaluation and close",
    "done": "Written and approved by the people in it.",
@@ -2215,6 +2413,7 @@
     "What to add or change in this checklist",
     "Update the templates and supplier list"
    ],
+   "checkpoint": false,
    "deliverable": "Updated templates",
    "where": "Business (not per retreat)",
    "done": "The templates and checklist have been updated.",
@@ -2228,5 +2427,7 @@
    "topics": [],
    "id": "later-09"
   }
- ]
+ ],
+ "slug": "retreat-client",
+ "short": "Retreat for a client"
 }
