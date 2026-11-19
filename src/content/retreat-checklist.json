@@ -571,6 +571,31 @@
   },
   {
    "phase": "contract",
+   "title": "Line up a backup facilitator",
+   "why": "If you or your lead falls ill, the retreat still runs.",
+   "steps": [
+    "Name someone who could step in at short notice",
+    "Agree a fee for being on standby, and for stepping in",
+    "Share the plans with them two weeks before",
+    "Tell the client there is a backup"
+   ],
+   "deliverable": "Backup agreement",
+   "where": "01 Brief and contract",
+   "done": "A named backup has agreed in writing and has the plans.",
+   "tools": [
+    "Gmail",
+    "Google Drive"
+   ],
+   "workstream": "People and safety",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-g23"
+   ],
+   "id": "contract-07"
+  },
+  {
+   "phase": "contract",
    "title": "Book other suppliers",
    "why": "Transport, activities and extras.",
    "steps": [
@@ -592,7 +617,7 @@
    "topics": [
     "s9-g23"
    ],
-   "id": "contract-07"
+   "id": "contract-08"
   },
   {
    "phase": "contract",
@@ -619,7 +644,7 @@
     "s9-g15",
     "s9-g16"
    ],
-   "id": "contract-08"
+   "id": "contract-09"
   },
   {
    "phase": "contract",
@@ -641,7 +666,7 @@
    "owner": "Client",
    "essential": true,
    "topics": [],
-   "id": "contract-09"
+   "id": "contract-10"
   },
   {
    "phase": "contract",
@@ -667,7 +692,7 @@
    "topics": [
     "s9-g22"
    ],
-   "id": "contract-10"
+   "id": "contract-11"
   },
   {
    "phase": "contract",
@@ -690,7 +715,64 @@
    "topics": [
     "s9-b3-n3-06"
    ],
-   "id": "contract-11"
+   "id": "contract-12"
+  },
+  {
+   "phase": "contract",
+   "title": "Check the VAT on prices and costs",
+   "why": "VAT changes what the client pays and what you keep.",
+   "steps": [
+    "Check whether you need to be VAT registered: see the current threshold on GOV.UK",
+    "Show prices with and without VAT in the proposal",
+    "Check whether venue and supplier quotes include VAT",
+    "If you are registered, keep VAT invoices so you can reclaim",
+    "For anything abroad, check the VAT rules there with an accountant"
+   ],
+   "deliverable": "VAT notes in the costing sheet",
+   "where": "01 Brief and contract",
+   "done": "Every price and cost in the costing sheet says whether it includes VAT.",
+   "tools": [
+    "GOV.UK",
+    "Accountant",
+    "Google Sheets"
+   ],
+   "workstream": "Client and money",
+   "owner": "You",
+   "essential": true,
+   "topics": [
+    "s9-b3-n3-05"
+   ],
+   "id": "contract-13"
+  },
+  {
+   "phase": "contract",
+   "title": "Plan for a retreat abroad",
+   "why": "Travel abroad adds paperwork, cover and local rules.",
+   "steps": [
+    "Passports and visas: check entry rules and how long passports must be valid",
+    "Travel insurance that covers medical treatment for everyone",
+    "Your business insurance covers work in that country",
+    "Local emergency numbers and the nearest hospital",
+    "Local laws and customs, including on alcohol",
+    "Payments, currency and any local taxes",
+    "How personal data is handled if it leaves the UK"
+   ],
+   "deliverable": "Abroad checklist",
+   "where": "05 Logistics",
+   "done": "Every attendee has valid documents and cover, and the risk assessment includes the country.",
+   "tools": [
+    "GOV.UK foreign travel advice",
+    "Insurance broker",
+    "Google Docs"
+   ],
+   "workstream": "People and safety",
+   "owner": "You and client",
+   "essential": false,
+   "topics": [
+    "s9-g20",
+    "s9-g22"
+   ],
+   "id": "contract-14"
   },
   {
    "phase": "design",
@@ -1148,6 +1230,33 @@
   },
   {
    "phase": "people",
+   "title": "Plan for severe allergies",
+   "why": "A serious allergic reaction is a real emergency risk at any event with food.",
+   "steps": [
+    "Ask about severe allergies separately from dietary preferences, including whether people carry an adrenaline auto-injector",
+    "Send the venue kitchen a named list and get written confirmation of how they will handle it",
+    "Check the menus and how food will be labelled",
+    "Brief the first aider and the team on who is at risk and where auto-injectors are kept",
+    "Check activity snacks and evening food too, not only meals"
+   ],
+   "deliverable": "Allergy list and venue confirmation",
+   "where": "04 People and safety (restricted)",
+   "done": "The venue has confirmed in writing, and the team knows who is at risk.",
+   "tools": [
+    "Google Forms",
+    "Gmail"
+   ],
+   "workstream": "People and safety",
+   "owner": "You and venue",
+   "essential": true,
+   "topics": [
+    "s8-t05",
+    "s8-b2-s8-09"
+   ],
+   "id": "people-05"
+  },
+  {
+   "phase": "people",
    "title": "Send the joining instructions",
    "why": "People arrive calmer when they know what to expect.",
    "steps": [
@@ -1172,7 +1281,7 @@
     "s2-t11",
     "s8-t01"
    ],
-   "id": "people-05"
+   "id": "people-06"
   },
   {
    "phase": "people",
@@ -1196,7 +1305,7 @@
    "topics": [
     "s9-g23"
    ],
-   "id": "people-06"
+   "id": "people-07"
   },
   {
    "phase": "people",
@@ -1220,7 +1329,7 @@
    "topics": [
     "s8-n8-06"
    ],
-   "id": "people-07"
+   "id": "people-08"
   },
   {
    "phase": "people",
@@ -1242,7 +1351,7 @@
    "topics": [
     "s9-g05"
    ],
-   "id": "people-08"
+   "id": "people-09"
   },
   {
    "phase": "people",
@@ -1264,7 +1373,34 @@
    "topics": [
     "s2-t05"
    ],
-   "id": "people-09"
+   "id": "people-10"
+  },
+  {
+   "phase": "final",
+   "title": "Hold the go/no-go check",
+   "why": "About ten days before: decide to go ahead, adjust or postpone while you still can.",
+   "steps": [
+    "Numbers against the venue minimum",
+    "Weather and travel disruption",
+    "Every supplier and team member confirmed",
+    "Any change in the group, the business or the risks",
+    "The cancellation dates and costs if you postpone",
+    "Agree the decision with the sponsor and write it down"
+   ],
+   "deliverable": "Go/no-go decision",
+   "where": "01 Brief and contract",
+   "done": "The sponsor has agreed the decision in writing.",
+   "tools": [
+    "Google Meet",
+    "Gmail"
+   ],
+   "workstream": "Client and money",
+   "owner": "You and client",
+   "essential": true,
+   "topics": [
+    "s8-b3-n1-08"
+   ],
+   "id": "final-01"
   },
   {
    "phase": "final",
@@ -1287,7 +1423,7 @@
    "topics": [
     "s8-b3-n1-08"
    ],
-   "id": "final-01"
+   "id": "final-02"
   },
   {
    "phase": "final",
@@ -1313,7 +1449,7 @@
    "topics": [
     "s8-b2-s8-05"
    ],
-   "id": "final-02"
+   "id": "final-03"
   },
   {
    "phase": "final",
@@ -1335,7 +1471,7 @@
    "topics": [
     "s8-b2-s8-04"
    ],
-   "id": "final-03"
+   "id": "final-04"
   },
   {
    "phase": "final",
@@ -1359,7 +1495,7 @@
    "topics": [
     "s8-b2-s8-06"
    ],
-   "id": "final-04"
+   "id": "final-05"
   },
   {
    "phase": "final",
@@ -1385,7 +1521,7 @@
     "s3-b2-s23-03",
     "s8-b2-s8-09"
    ],
-   "id": "final-05"
+   "id": "final-06"
   },
   {
    "phase": "final",
@@ -1407,7 +1543,7 @@
    "topics": [
     "s2-t04"
    ],
-   "id": "final-06"
+   "id": "final-07"
   },
   {
    "phase": "final",
@@ -1428,7 +1564,7 @@
    "owner": "You and client",
    "essential": true,
    "topics": [],
-   "id": "final-07"
+   "id": "final-08"
   },
   {
    "phase": "final",
@@ -1449,7 +1585,7 @@
    "owner": "You",
    "essential": true,
    "topics": [],
-   "id": "final-08"
+   "id": "final-09"
   },
   {
    "phase": "final",
@@ -1472,7 +1608,7 @@
    "topics": [
     "s8-n8-01"
    ],
-   "id": "final-09"
+   "id": "final-10"
   },
   {
    "phase": "arrive",
