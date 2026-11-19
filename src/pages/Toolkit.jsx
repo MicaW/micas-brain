@@ -21,7 +21,7 @@ function NameLinks({ text }) {
   const names = splitList(text);
   return names.map((name, i) => {
     const key = norm(name);
-    const mech = mechanics.find((m) => norm(m.name) === key);
+    const mech = mechanics.find((m) => norm(m.name) === key || (m.formerNames || []).some((n) => norm(n) === key));
     const meth = methods.find((m) => norm(m.name) === key || norm(m.formerName || '') === key);
     const rec = recipes.find((r) => norm(r.name) === key || norm(r.plainName || '') === key);
     const to = mech ? `/playbook/mechanics/${mech.slug}` : meth ? `/toolkit/methods/${meth.slug}` : rec ? `/toolkit/recipes/${rec.slug}` : null;
@@ -300,7 +300,7 @@ export function MethodDetail() {
 
 export function MechanicDetail() {
   const { slug } = useParams();
-  const m = mechanics.find((x) => x.slug === slug);
+  const m = mechanics.find((x) => x.slug === slug || (x.formerSlugs || []).includes(slug));
   if (!m) return <NotFound />;
   return (
     <>

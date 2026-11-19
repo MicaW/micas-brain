@@ -102,7 +102,8 @@ export default function Topic() {
       <>
 
       <div>
-        {rest.map((part) => (
+        {/* A topic drawn from practice alone has no sources, so its Go deeper row is left out. */}
+        {rest.filter((part) => part.content && part.content.length).map((part) => (
           <section className={`tp-row tp-${part.key}`} key={part.key} aria-labelledby={`h-${part.key}`}>
             <div>
               <h2 id={`h-${part.key}`}>{part.name}</h2>

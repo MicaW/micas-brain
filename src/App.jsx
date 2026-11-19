@@ -47,7 +47,7 @@ function titleFor(pathname) {
     TITLES[pathname] ||
     (stageMatch && stageByN(stageMatch[1]) && stageLabel(stageByN(stageMatch[1]))) ||
     topics.find((t) => t.path === pathname)?.title ||
-    (/^\/playbook\/mechanics\//.test(pathname) && mechanics.find((x) => x.slug === last)?.name) ||
+    (/^\/playbook\/mechanics\//.test(pathname) && mechanics.find((x) => x.slug === last || (x.formerSlugs || []).includes(last))?.name) ||
     (/^\/insights\/./.test(pathname) && insightBySlug(last)?.title) ||
     site.outline.find((p) => p.path === pathname)?.title;
   return name ? `${name} · ${site.name}` : site.name;
