@@ -246,7 +246,7 @@ body[data-dir="notebook"] .dir-notebook{display:block}
 
 <section class="fact collapsed" id="fact" aria-labelledby="fact-title" hidden>
   <button class="fact-head" type="button" id="factToggle" aria-expanded="false" aria-controls="factMain">
-    <h2 id="fact-title">Fact of the day</h2>
+    <h2 id="fact-title">Brain nugget of the day</h2>
     <span class="fact-date" id="factDate"></span>
     <svg class="toggle-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
   </button>
@@ -260,8 +260,8 @@ body[data-dir="notebook"] .dir-notebook{display:block}
     <div class="fact-foot">
       <a id="factLink" href="#">Read more</a>
       <div class="fact-nav">
-        <button type="button" id="factPrev" aria-label="Previous day's fact"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
-        <button type="button" id="factNext" aria-label="Next day's fact"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+        <button type="button" id="factPrev" aria-label="Previous day's nugget"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button type="button" id="factNext" aria-label="Next day's nugget"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
       </div>
     </div>
   </div>
@@ -274,7 +274,7 @@ body[data-dir="notebook"] .dir-notebook{display:block}
   });
 </script>
 <script>
-/* Fact of the day: one fact per calendar day, browse back up to 60 days. */
+/* Brain nugget of the day: one per calendar day, browse back up to 60 days. */
 (function(){
   const KIND={'Research':'#7b90ff','Myth, busted':'#ff5a2b','Tip':'#ffe770','Theory':'#b7a5ff','Inspiration':'#5fd6c8','Big read':'#ffb3ee'};
   const el=id=>document.getElementById(id);

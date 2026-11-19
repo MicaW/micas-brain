@@ -4,10 +4,10 @@ A personal handbook on the science of learning and how to deliver training. It i
 
 Live site: https://micaw.github.io/micas-brain/training/
 
-This repository also holds **BRAIN**, the homepage at https://micaw.github.io/micas-brain/. It links out to each hyperfixation (Training, AI Ethics, Facilitation) and shows a Fact of the day drawn from the Training content.
+This repository also holds **BRAIN**, the homepage at https://micaw.github.io/micas-brain/. It links out to each hyperfixation (Training, AI Ethics, Facilitation) and shows a Brain nugget of the day drawn from the Training content.
 
 - `home/index.html` is the BRAIN homepage, one self-contained file.
-- `scripts/build-facts.mjs` builds `facts.json` for the Fact of the day from findings, myths, mistakes, learning mechanics, case studies and Insights. Facts from other sites can be added by hand in `home/facts-extra.json` (an array of `{ kind, site, title, body, source, href }`).
+- `scripts/build-facts.mjs` builds `facts.json` for the Brain nugget of the day from findings, myths, mistakes, learning mechanics, case studies and Insights. Facts from other sites can be added by hand in `home/facts-extra.json` (an array of `{ kind, site, title, body, source, href }`).
 - The Training app builds into `dist/training/`; `scripts/add-home.mjs` then copies the homepage and facts into `dist/`.
 - Old Training links (`/micas-brain/#/...`) are forwarded to `/micas-brain/training/#/...`.
 

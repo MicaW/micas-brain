@@ -1,4 +1,4 @@
-// Builds facts.json for the BRAIN homepage's "Fact of the day" card.
+// Builds facts.json for the BRAIN homepage's "Brain nugget of the day" card.
 // Reads the Training the Trainer content and turns findings, myths, mistakes,
 // learning mechanics, case studies and Insights pieces into short daily facts.
 // Run after `npm run content` (it needs src/content/generated/playbook-index.json).
